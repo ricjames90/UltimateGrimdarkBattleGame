@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="7994-5c41-d976-210d" name="Tyranids" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Tyranids" id="7705-e5c6-1ffc-e9eb" targetId="53bf-e52-4cb4-8e7c"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Tyranids Codex Rules" hidden="false" id="5634-c42f-1687-37e1" type="selectionEntry" targetId="cfe3-bea3-a18d-75a6"/>
+    <entryLink import="true" name="Termagants" hidden="false" id="c977-5b34-e750-c6a6" type="selectionEntry" targetId="5476-68f1-f7c0-b6a1">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="3a98-2928-82a6-c4a3" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hormagants" hidden="false" id="7a9-33b4-11b9-c040" type="selectionEntry" targetId="fdae-e353-ed85-dcf2">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="9779-9e1f-bf43-4f51" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Alpha Prime" hidden="false" id="202e-d63-b631-2a25" type="selectionEntry" targetId="fe3f-888-8c87-c38a">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="d496-637f-9579-51cb" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>

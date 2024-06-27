@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="9eef-2ec4-42a8-31d2" name="Orks" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Orks" id="f14d-9adc-656c-76bf" targetId="2a27-fc9c-f8d0-40bd"/>
+  </catalogueLinks>
+</catalogue>
