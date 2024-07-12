@@ -20,5 +20,106 @@
         <categoryLink targetId="2357-54fe-ef95-53ed" id="d496-637f-9579-51cb" primary="true" name="HERO"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Barbgants" hidden="false" id="6925-8610-b45a-ffbf" type="selectionEntry" targetId="bdb1-ac2c-c349-6d55">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="1de3-faee-d60c-836b" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Gargoyles" hidden="false" id="3fba-f026-b802-7da6" type="selectionEntry" targetId="554a-87cd-4e86-affd">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="fda4-c716-1404-2b4a" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Neurogants" hidden="false" id="f11a-05ea-8475-0ef8" type="selectionEntry" targetId="b96a-711f-6d0d-4035">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="37b0-7d82-bfd4-ac83" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warriors" hidden="false" id="1e2e-e9ca-6f52-3049" type="selectionEntry" targetId="fdcf-920e-66a2-e16f">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="d72e-7352-dd9b-2233" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tyrannofex" hidden="false" id="7938-abee-21d5-b11c" type="selectionEntry" targetId="8ed9-a521-1148-dacc">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="11b5-e384-b475-3d5b" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Screamer Killer Carnifexes" hidden="false" id="d903-669f-4473-eb55" type="selectionEntry" targetId="3d4f-d4f4-a988-b539">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="586c-22ef-5a4b-fc08" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Barbed Hierodule" hidden="false" id="d7f5-db81-bb93-78f0" type="selectionEntry" targetId="1d59-1554-8356-b4b1">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="0ae7-7a4e-5ea3-4d29" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scythed Hierodule" hidden="false" id="7ba1-9353-d882-f7ee" type="selectionEntry" targetId="ba1a-7144-e163-5dd6">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="8b1b-d0c0-f8bf-08ca" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Exocrine" hidden="false" id="0256-aa29-d6a8-f4dd" type="selectionEntry" targetId="df9b-8068-6e6c-c978">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="8207-f79a-0a03-67fb" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Biovores" hidden="false" id="8531-eb1b-bffb-ed3c" type="selectionEntry" targetId="4b8a-a74e-b8ae-7d56">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="c186-d43b-1448-074d" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stone Crusher Carnifexes" hidden="false" id="e35c-9e4a-1f58-c86b" type="selectionEntry" targetId="ce0c-c5aa-3691-063a">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="99e9-aa5b-b776-bf52" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Pyrovores" hidden="false" id="d41f-ea6c-e659-0c8d" type="selectionEntry" targetId="2efe-2a03-4b4d-92c5">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="eda6-1c03-c291-2a24" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dimachaeron" hidden="false" id="5f7c-4c2b-3f1d-fec1" type="selectionEntry" targetId="7675-5cee-79cd-2957">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="9a91-1484-9370-791f" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Trygon" hidden="false" id="fd8b-30d8-2706-912b" type="selectionEntry" targetId="2d8a-4353-e29b-1f6b">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="45c8-0001-1830-be94" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mawloc" hidden="false" id="a1b9-4553-a24e-cd97" type="selectionEntry" targetId="ed48-2bbc-97cb-9325">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="88dc-7053-2f5c-6d35" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Trygon Prime" hidden="false" id="1d92-6eb7-32c0-e8df" type="selectionEntry" targetId="1105-e653-53d1-4156">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="5ba9-6687-c85a-e377" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Toxotyrant" hidden="false" id="9024-a74b-3ab7-0125" type="selectionEntry" targetId="dc51-a7dd-4520-9814">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="3f5d-7802-3b2f-cbc2" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tervigon" hidden="false" id="f026-ce31-7aa6-642c" type="selectionEntry" targetId="63e0-f826-a590-8f18">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="51b3-e495-ecf5-0473" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lictor Prime" hidden="false" id="cf8b-a208-0617-307a" type="selectionEntry" targetId="c182-e26c-1909-9103">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="30fc-93b7-2976-334a" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lictor" hidden="false" id="f97c-7787-f541-3ec2" type="selectionEntry" targetId="1374-19a8-eabf-aab9">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="c435-c0a7-939c-3b2e" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hive Fleet Selection" hidden="false" id="7758-2f28-d50c-c297" type="selectionEntry" targetId="c04e-9b65-9f77-a14a"/>
   </entryLinks>
 </catalogue>

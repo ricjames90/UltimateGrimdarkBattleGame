@@ -16065,6 +16065,132 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Death Company Squad" hidden="false" id="b8f3-0e46-63e3-0d9b">
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="177a-ea56-16a6-48f5" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="b202-ca1d-b81f-fec2" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="8599-9479-106b-178c" id="b51b-a645-6156-60a6" primary="false" name="FACTION: Space Marines"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="5e2b-bef4-26ac-9347" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="a14a-aa5d-e785-7caf" id="5d1d-f638-4cfb-cab8" primary="false" name="Subfaction: Blood Angels"/>
+        <categoryLink targetId="116c-005f-30a3-e48b" id="a8de-5896-716e-b698" primary="false" name="Death Company Squad"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="1f5d-2c73-99d8-be80" primary="false" name="Power Armor"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Death Company Squad" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="cd05-c718-c746-986b">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="12" field="adff-38e4-108c-b07c">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="019e-d0cc-73a3-0012" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Black Rage" id="881a-e712-e14e-8a4c" hidden="false" type="rule" targetId="4bab-1180-ec4d-6a1d"/>
+        <infoLink name="Iron Will" id="d81d-aa6d-a35c-e8c7" hidden="false" type="rule" targetId="d344-5a1c-9f57-f482"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Death Companists" id="2609-2af1-39e4-0ebe" hidden="false">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="3323-ab95-6321-1594" includeChildSelections="false"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="0104-bf8f-1bab-c195" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Death Companist" hidden="false" id="2992-1bb1-312a-44ea">
+              <costs>
+                <cost name="Pts" typeId="Points" value="25"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="d311-dc1d-88c5-6448" includeChildSelections="false"/>
+                <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="e5c9-517d-2e9d-4ad9" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="dc56-b1fc-0f66-205f" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="5acf-68ca-54d2-b0ba" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c5b4-658a-f2f4-c636" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Pistols" hidden="false" id="a27f-55ac-e0df-3b05" type="selectionEntryGroup" targetId="e35a-e20a-e6a-5e1c">
+                      <modifiers>
+                        <modifier type="set" value="374d-9378-5420-f300" field="defaultSelectionEntryId"/>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Combat Weapons" id="a1cf-5041-9c7e-1949" hidden="false">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5173-9a8e-16e4-f1f7" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0370-4a90-5fb2-f5ff" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Chainsword" hidden="false" id="e409-8d84-31da-2eca" type="selectionEntry" targetId="da01-3c07-68ca-3b66"/>
+                        <entryLink import="true" name="Powerfist" hidden="false" id="51ec-fcf2-e86a-2b98" type="selectionEntry" targetId="d658-88ba-1a49-474a">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="10"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Thunder Hammer" hidden="false" id="097b-55f2-03f6-d1d4" type="selectionEntry" targetId="53e2-6bf8-b232-397e">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="15"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                      <modifiers>
+                        <modifier type="set" value="e409-8d84-31da-2eca" field="defaultSelectionEntryId"/>
+                      </modifiers>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Jump Pack" hidden="false" id="019e-d0cc-73a3-0012" type="selectionEntry" targetId="d8d6-4a2d-f04d-bcb3">
+          <modifiers>
+            <modifier type="increment" value="3" field="Points">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="b8f3-0e46-63e3-0d9b" childId="2609-2af1-39e4-0ebe" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="da01-3c07-68ca-3b66" collective="false">
+      <profiles>
+        <profile name="Chainsword" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="33c5-ed70-71eb-30b0">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+          <comment>4 Attacks</comment>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b20a-343a-5aab-2423"/>
+      </constraints>
+      <comment>4 Attacks</comment>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Space Marine" hidden="false" id="ea13-acb4-5747-5a3e" typeId="a545-37bd-31e3-a90c" typeName="Unit">

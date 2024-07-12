@@ -473,9 +473,14 @@
             <repeat value="1" repeats="1" field="selections" scope="force" childId="b3ee-773d-9de7-b101" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
           </repeats>
         </modifier>
+        <modifier type="increment" value="1" field="6e4e-a9f7-2522-f176">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="4260-ce65-0642-49ca" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint type="max" value="0" field="selections" scope="force" shared="true" id="6e4e-a9f7-2522-f176"/>
+        <constraint type="max" value="0" field="selections" scope="7b65-9b94-47a-9e7a" shared="true" id="6e4e-a9f7-2522-f176"/>
       </constraints>
     </entryLink>
     <entryLink import="true" name="Techmarine" hidden="false" id="f5cd-f6ef-d166-c385" type="selectionEntry" targetId="0004-c78c-6d2a-d3b5">
@@ -605,21 +610,6 @@
           </conditions>
         </modifier>
       </modifiers>
-    </entryLink>
-    <entryLink import="true" name="Vanguard Veterans Squad" hidden="false" id="8e90-c15e-e267-ec06" type="selectionEntry" targetId="cbc3-f561-7594-cd99">
-      <categoryLinks>
-        <categoryLink targetId="7b65-9b94-47a-9e7a" id="0767-7b63-382f-7f08" primary="true" name="NON ARMY ORG SLOT"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="equalTo" value="0" field="selections" scope="force" childId="4260-ce65-0642-49ca" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a455-c1cc-25bd-5281"/>
-      </constraints>
     </entryLink>
     <entryLink import="true" name="Master Of The Forge" hidden="false" id="610c-2784-2f59-c173" type="selectionEntry" targetId="9405-a201-a2c5-07d7">
       <categoryLinks>
@@ -755,6 +745,18 @@
           </conditions>
         </modifier>
       </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Death Company Squad" hidden="false" id="2b5a-6cba-0bd5-6e6e" type="selectionEntry" targetId="b8f3-0e46-63e3-0d9b">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="44f-7b73-a31f-e1dc" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="e8ca-5a62-15f2-453c" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <catalogueLinks>
