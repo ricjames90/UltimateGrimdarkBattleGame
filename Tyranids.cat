@@ -121,5 +121,85 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Hive Fleet Selection" hidden="false" id="7758-2f28-d50c-c297" type="selectionEntry" targetId="c04e-9b65-9f77-a14a"/>
+    <entryLink import="true" name="Leapers" hidden="false" id="7618-1aac-d6a2-13b9" type="selectionEntry" targetId="6eaa-5e0c-2581-f0dc">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="d281-639c-c6bb-c2f4" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Psychophage" hidden="false" id="ea90-69df-d80d-90b3" type="selectionEntry" targetId="a99d-25b8-ec79-3739">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="9930-1cd6-4cb8-1823" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ripperswarms" hidden="false" id="fe5a-a6cd-e8c5-f41a" type="selectionEntry" targetId="0129-0e55-49c8-5a91">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="346a-87b1-bd07-0d51" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Zoanthropes" hidden="false" id="0e98-0fc5-c53c-04de" type="selectionEntry" targetId="4987-9852-a550-e62f">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="7cf2-dd9f-7cbd-9549" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Venomthropes" hidden="false" id="87c2-4d0b-36ea-a281" type="selectionEntry" targetId="d7e4-93fb-1c2f-452a">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="5605-9c37-31dc-a436" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Neurolictor" hidden="false" id="7def-1f3a-197e-c21b" type="selectionEntry" targetId="be75-0d77-2be6-3e27">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="6467-3062-5a7c-57b6" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Genestealers" hidden="false" id="e069-9f34-cc28-1a21" type="selectionEntry" targetId="23a8-28c0-a261-5d59">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="155e-59df-00a2-f2b6" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Maleceptor" hidden="false" id="404a-6b98-b368-5b7f" type="selectionEntry" targetId="1689-aa67-571a-f3b5">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="20ef-36f1-662c-3ff1" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Norn Assimilator" hidden="false" id="49e6-c2a6-c346-e483" type="selectionEntry" targetId="957f-02eb-581a-73b2">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="d928-fb40-8c1b-e5cb" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Norn Emissary" hidden="false" id="341d-340f-93f4-5e35" type="selectionEntry" targetId="f387-7fc9-e530-4785">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="705a-b235-062b-9068" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hierophant" hidden="false" id="80db-13fa-a902-7a18" type="selectionEntry" targetId="4dcd-ce8c-2bb7-cbd9">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="42a1-54ba-895e-98da" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Harridan" hidden="false" id="b33f-c0ad-a7dd-0533" type="selectionEntry" targetId="7e3b-2ccd-bcd5-5e2c">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="5a68-e50e-afb0-8bee" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Neurotyrant" hidden="false" id="af37-6cb3-8071-0b5f" type="selectionEntry" targetId="b470-3649-9be9-58d4">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="2189-9325-ac9a-308f" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Broodlord" hidden="false" id="fbae-8b2b-15df-86ec" type="selectionEntry" targetId="cbfb-9520-781c-f57b">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="e2c6-f694-5449-cb6a" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hive Tyrant" hidden="false" id="ce6c-c057-8e52-45de" type="selectionEntry" targetId="bc98-48e8-2fca-4334">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="6b2b-3f2a-c527-efb6" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thornback Carnifexes" hidden="false" id="a4c5-c495-4fc0-9e2e" type="selectionEntry" targetId="ca55-2651-cb80-93d5">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="2934-9d84-a875-3565" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
