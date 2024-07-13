@@ -3354,7 +3354,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
             <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">6+</characteristic>
             <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
             <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
-            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
             <characteristic name="LP" typeId="c061-dd1-7417-ca6b">2</characteristic>
@@ -3750,7 +3750,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
-            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User </characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
@@ -3878,7 +3878,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
-            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User </characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">6</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
@@ -3979,7 +3979,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           <modifiers>
             <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3c8-2cdb-c541-baa0" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3c8-2cdb-c541-baa0" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4033,7 +4033,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
-            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User </characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">Ar,Pre</characteristic>
@@ -4045,7 +4045,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
       <profiles>
         <profile name="Extended Broodlord Carapace" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="a14c-c9d1-4bb1-6dee">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Models with Extended Carapace have a 2+/2+ Armor Save statistic and an Invulnerable Save Characteristic of (4+). </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Models with Extended Carapace have a 2+/2+ Armor Save statistic and an Invulnerable Save Characteristic of (4+).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4454,7 +4454,7 @@ suffers a single Mortal Wound.</description>
       <description>This unit MUST pick the Flying mode before the game and enter as Aerial Reserves the battlefield. It does not count towards the Strategic Reserves Limit. At the start of each turn, this unit can pick between the Hover and Aerial mode.</description>
     </rule>
     <rule name="Neuronodes" id="723e-9fa5-443d-dc13" hidden="false">
-      <description>At the start of every turn, pick 2 friendly units anywhere on the battlefield, these units are considered to be within Synapse Range </description>
+      <description>At the start of every turn, pick 2 friendly units anywhere on the battlefield, these units are considered to be within Synapse Range</description>
     </rule>
     <rule name="Warpminded Cerebrum" id="24e4-7d9e-6680-cbd4" hidden="false">
       <description>This model never suffers „Perils Of The Warp“. It also adds +3&apos;&apos; to the range of any Psychic Powers that have a range requirement in their rules, this bonus also applies to a „Zoanthrope“ unit this model may be attached to.</description>
