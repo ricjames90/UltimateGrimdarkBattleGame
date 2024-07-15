@@ -201,5 +201,25 @@
         <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="2934-9d84-a875-3565" primary="true" name="HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Tyrannocyte" hidden="false" id="b9b7-edd1-9b1f-daad" type="selectionEntry" targetId="f340-8f63-92b6-2b1d">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="3dad-eeb7-2b11-2008" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Harpy" hidden="false" id="6714-c857-bb94-9bea" type="selectionEntry" targetId="d266-5926-5a4b-0fac">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="5be0-c5fc-e59c-abf6" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hive Crone" hidden="false" id="362b-6fcd-e8fa-07e7" type="selectionEntry" targetId="5a0a-4b86-1f00-20fa">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="4c25-3e5d-5214-8287" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Raveners" hidden="false" id="b089-e5fe-1650-ac67" type="selectionEntry" targetId="d14d-9cbe-25ca-0a33">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="8676-f5d0-53ff-955f" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
