@@ -221,5 +221,10 @@
         <categoryLink targetId="cd71-bdd8-97de-6dd5" id="8676-f5d0-53ff-955f" primary="true" name="FAST ATTACK"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Haruspex" hidden="false" id="7875-636b-3350-99cc" type="selectionEntry" targetId="e250-4cc4-d982-3b41">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="ee4c-3b38-f9d9-cade" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d3ac-a641-5f91-8ef7" name="Imperial Guard" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="d3ac-a641-5f91-8ef7" name="Imperial Guard" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Imperial Guard" id="32e8-030d-86a6-7a02" targetId="17fb-98ca-42e0-2e4c"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Infantry Guardsmen" hidden="false" id="6b02-d900-5903-f622" type="selectionEntry" targetId="23e8-cf10-1263-bb76">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="e7c5-a298-cdec-bedc" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Leman Russ Battle Tank Squadron" hidden="false" id="6121-e7a0-8d77-b0a2" type="selectionEntry" targetId="4ce4-90d3-f8b5-507d">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="74ef-f208-c6eb-6190" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>

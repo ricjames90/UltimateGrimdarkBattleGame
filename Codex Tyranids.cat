@@ -5202,6 +5202,98 @@ change the damage characteristic of the attack to D6+2.</characteristic>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Haruspex" hidden="false" id="e250-4cc4-d982-3b41">
+      <profiles>
+        <profile name="Haruspex" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="0049-edb3-e134-cc6c">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">9</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">16</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Grisly Spectacle" id="1889-94ba-dfae-b1ac" hidden="false" type="rule" targetId="7a41-b55b-1a6e-faf2"/>
+        <infoLink name="Deadly Demise(6/D6)" id="2b1b-0fe7-eb55-49f4" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Grasping Tongue" hidden="false" id="4923-c5ab-15b2-6c3d" type="selectionEntry" targetId="ce3f-2e2c-1746-26a5"/>
+        <entryLink import="true" name="Ravenous Maws" hidden="false" id="1332-ce7d-2aaa-17c9" type="selectionEntry" targetId="4082-95d5-9495-1b31"/>
+        <entryLink import="true" name="Shovelling Claws" hidden="false" id="6c7b-42aa-56e4-748e" type="selectionEntry" targetId="6ba8-feae-f05f-f423"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="135"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="42d3-64d1-b710-6f62" id="5e46-3d66-afd0-ba48" primary="false" name="Monster"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="4573-b528-a975-db1d" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="e926-7697-48ba-75f3" id="38d1-dea5-9593-2159" primary="false" name="SUPER FACTION: Tyranids"/>
+        <categoryLink targetId="4da3-c252-e57e-461f" id="2189-639d-d866-c28c" primary="false" name="FACTION: Tyranids"/>
+        <categoryLink targetId="ea9c-729e-9317-55bb" id="cb70-44a0-22a8-f3bb" primary="false" name="Synapse"/>
+        <categoryLink targetId="0dc5-4c63-4cdd-3637" id="b1c6-fda2-5c83-633f" primary="false" name="Haruspex"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grasping Tongue" hidden="false" id="ce3f-2e2c-1746-26a5" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8d0-d338-6f38-e6f4" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0b8-5acf-5587-e7a4" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Grasping Tongue" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="7a0e-111f-1f05-a0a0">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">10</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Pre</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ravenous Maws" hidden="false" id="4082-95d5-9495-1b31" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0bd-27af-2cc4-c35f" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc0c-6b69-4ab4-4120" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Ravenous Maws" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="f1a0-ba36-7483-6b0a">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">ExA</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shovelling Claws" hidden="false" id="6ba8-feae-f05f-f423" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="89b4-5493-a2b2-8016" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="506c-b072-efae-4fa4" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Shovelling Claws" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="3ac0-5f43-5772-b9f8">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">Melee</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">6</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">x2</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D3+3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <rules>
     <rule name="Synaptic Link" id="b61b-68d4-d797-68ac" hidden="false">
@@ -5324,7 +5416,7 @@ suffers a single Mortal Wound.</description>
     </rule>
     <rule name="Hatching Reserves" id="646c-7ccc-7afe-ea64" hidden="false">
       <description>This model and the unit it transports have to be placed into „Strategic Reserves“. This unit does never count towards the points limit of the Reinforcements rule. Once this unit is set up according to the regular Deep Strike Special rule, all models have to disembark immediately according to the regular disembarkment rules. No models can embark back into this unit once it has disembarked its original carried unit(s). 
-Units that disembarked from this unit are eligible to declare a charge in the same turn. </description>
+Units that disembarked from this unit are eligible to declare a charge in the same turn.</description>
     </rule>
     <rule name="Spore Mine Cysts" id="ee2e-2a87-af17-4c75" hidden="false">
       <description>At the end of every movement phases, this unit can set up a new Sporemine unit consisting of D6 models. The new Sporemine unit can be set up anywhere on the battlefield but not closer than 12&apos;&apos; to any enemy unit.</description>
@@ -5332,6 +5424,9 @@ Units that disembarked from this unit are eligible to declare a charge in the sa
     <rule name="Death From Below (Raveners)" id="bfb4-8d73-2797-d839" hidden="false">
       <description>Death From Below:
 When this unit enters the battlefield by using its „Deep Strike“ Special Rule. EVERY unit within 12&apos;&apos; of this model suffers D3 Mortal wounds.</description>
+    </rule>
+    <rule name="Grisly Spectacle" id="7a41-b55b-1a6e-faf2" hidden="false">
+      <description>Every enemy unit within 9&apos;&apos; of this model subtracts -1 from their LD characteristic.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>

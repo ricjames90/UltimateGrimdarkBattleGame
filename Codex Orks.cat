@@ -1,2 +1,482 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="2a27-fc9c-f8d0-40bd" name="Codex Orks" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="true" id="2a27-fc9c-f8d0-40bd" name="Codex Orks" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Boyz" id="2c86-bd5f-4387-53c0" hidden="false"/>
+    <categoryEntry name="Gretchin" id="02b1-7bb2-270c-3b91" hidden="false"/>
+    <categoryEntry name="Beastsnagga Boyz" id="93e0-3c5e-1f7d-78e9" hidden="false"/>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Boyz" hidden="false" id="26c9-be8c-2d97-2745">
+      <profiles>
+        <profile name="Boyz" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="8480-9150-9e4b-94db">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">5+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">2</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">6</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">5+/5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="1733-7f9e-0698-3006" primary="false" name="Infantry"/>
+        <categoryLink targetId="8de4-edc3-a99c-9c13" id="05cc-0158-beb2-ae98" primary="false" name="AT - Light Armor"/>
+        <categoryLink targetId="84c8-f93b-6fe6-e29d" id="4718-e2b5-6f6c-bf65" primary="false" name="FACTION: Orks"/>
+        <categoryLink targetId="2c86-bd5f-4387-53c0" id="c025-50a3-2e07-be49" primary="false" name="Boyz"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Boyz" id="b469-ae70-cb90-97b7" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Boy" hidden="false" id="94b8-b09a-6d6d-609e">
+              <costs>
+                <cost name="Pts" typeId="Points" value="8"/>
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="fed7-4db8-7e5a-0bb7" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="26ee-40ee-089e-b32d" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7103-fc0c-956b-8321" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Shoota and Fistz " hidden="false" id="1ebf-df00-473e-309a" type="selectionEntry" targetId="f3e5-d0c9-b29b-836e"/>
+                    <entryLink import="true" name="Slugga and Choppa" hidden="false" id="5911-a173-82aa-b369" type="selectionEntry" targetId="2074-b7d7-27f6-d1c3"/>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="1ebf-df00-473e-309a" field="defaultSelectionEntryId"/>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="7" field="selections" scope="parent" shared="true" id="bd41-252b-2302-c617" includeChildSelections="false"/>
+                <constraint type="max" value="49" field="selections" scope="parent" shared="true" id="7bf7-7585-7e7e-5ade" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Nob" hidden="false" id="998a-5a5a-b1ac-01e0" collective="true">
+              <costs>
+                <cost name="Pts" typeId="Points" value="8"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1ab3-b6dc-f9d1-9b6d" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b14-79a9-f5ce-a8be" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Nob Loadouts" hidden="false" id="5f64-3de4-696e-826d" type="selectionEntryGroup" targetId="b22e-8244-6397-ffca"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Boy w/Special Weapon" hidden="false" id="b429-620c-3a73-891d">
+              <entryLinks>
+                <entryLink import="true" name="Fizts" hidden="false" id="1d60-13bd-0646-95a6" type="selectionEntry" targetId="93d2-8b18-5bbd-216f"/>
+                <entryLink import="true" name="Special Weapons" hidden="false" id="606b-04c6-c40a-68d0" type="selectionEntryGroup" targetId="774b-bdfd-16dd-66d9"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="de99-b2dd-db6b-ef05" includeChildSelections="false"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="bd0c-2243-c628-ea06" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="bd0c-2243-c628-ea06">
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="26c9-be8c-2d97-2745" childId="b469-ae70-cb90-97b7" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="Points" value="8"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="1f08-45c8-f64f-07da" includeChildSelections="false"/>
+            <constraint type="max" value="50" field="selections" scope="parent" shared="true" id="89dc-9fd7-b22e-2be1" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="94b8-b09a-6d6d-609e" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Green Wall" id="8fd6-c4d5-a4b0-0777" hidden="false" type="rule" targetId="6790-7983-3cd8-a9a8"/>
+        <infoLink name="Green Tide" id="5a15-ca27-53b1-4dc5" hidden="false" type="rule" targetId="c427-e2c2-4508-4519"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shoota and Fizts" hidden="false" id="f3e5-d0c9-b29b-836e">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ef9-3bcd-24a4-7c13" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Fizts" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="4eac-ddb0-b911-be1e">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">1</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User </characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Shoota" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="b9a2-ad9d-aaea-dea8">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Slugga and Choppa" hidden="false" id="2074-b7d7-27f6-d1c3">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47b3-52c2-555b-4ec4" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Choppa" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="38fc-8a7e-89b8-e42e">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">3</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Slugga" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="5076-308d-0811-5035">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fizts" hidden="false" id="93d2-8b18-5bbd-216f" collective="true">
+      <comment>1 Attack</comment>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5fb8-411f-b6d0-def4" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd15-8868-ea82-c0a6" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Fizts" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="87a6-5b0d-be52-29f9">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">1</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="82ec-bcc7-6688-8bfd">
+      <profiles>
+        <profile name="Big Shoota" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="2013-b419-63ac-d288">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">8</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Skorcha" hidden="false" id="6f71-62e1-304e-fc5f">
+      <profiles>
+        <profile name="Skorcha" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c39a-9e12-41c6-649a">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">8</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">*</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">To,IgC</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="0e89-0bec-98e7-d133">
+      <profiles>
+        <profile name="Rokkit Launcha - Frag" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="dff0-7b87-1983-53e7">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(5)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rokkit Launcha - Krak" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="6180-8e49-34e2-9f0b">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">12</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Slugga and Big Choppa" hidden="false" id="7011-6eb9-4b14-94d7">
+      <profiles>
+        <profile name="Slugga" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="4820-b6b1-f3a5-87fe">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Big Choppa" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="2014-78ef-2f03-f1fe">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba97-83aa-3e76-5a12" includeChildSelections="false"/>
+      </constraints>
+      <comment>Boyz Nob</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Slugga and Powaclaw" hidden="false" id="be43-1f87-df61-59a5">
+      <profiles>
+        <profile name="Slugga" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="eb27-5420-175a-5102">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Powaclaw" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="a1f4-d83f-39fe-c11d">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="863f-a10f-aee8-1340" includeChildSelections="false"/>
+      </constraints>
+      <comment>Boyz Nob</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Slugga and Killsaw" hidden="false" id="6cd7-022f-d7ea-4290">
+      <profiles>
+        <profile name="Slugga" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="9e07-7f7f-aea6-e2d6">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Killsaw" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="1d3d-c694-f91a-7538">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7809-374a-bec1-0c33" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Gretchin" hidden="false" id="0edc-f92b-c52e-bd7d">
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="adc7-4f38-750d-3244" primary="false" name="Infantry"/>
+        <categoryLink targetId="8de4-edc3-a99c-9c13" id="484c-ba41-2457-ead7" primary="false" name="AT - Light Armor"/>
+        <categoryLink targetId="02b1-7bb2-270c-3b91" id="2ab9-4bc7-682e-443d" primary="false" name="Gretchin"/>
+        <categoryLink targetId="84c8-f93b-6fe6-e29d" id="0c40-8200-e0d6-eac8" primary="false" name="FACTION: Orks"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Gretchin" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="b9d9-3f89-a196-7a2a">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">5+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">2</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">2</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">1</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">4</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">6+/6+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="The Small Guys" hidden="false" id="706e-db41-62e4-1a83" type="rule" targetId="a4e7-ece8-9e60-9850"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Gretchin" id="490e-75bc-f58f-4e30" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Grot" hidden="false" id="f091-1e70-9f40-9657">
+              <costs>
+                <cost name="Pts" typeId="Points" value="3"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="c41c-d059-cd3f-7f9c" includeChildSelections="false"/>
+                <constraint type="max" value="100" field="selections" scope="parent" shared="true" id="614d-5507-f116-203a" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Grot Blaster" hidden="false" id="bb29-034d-94fc-cf94" type="selectionEntry" targetId="064f-ded4-1a9b-afcf"/>
+                <entryLink import="true" name="Gribblies" hidden="false" id="2ba4-7798-5975-99d3" type="selectionEntry" targetId="58d7-9840-ea25-ba39"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="088d-ff20-7e3d-89eb" includeChildSelections="false"/>
+            <constraint type="max" value="100" field="selections" scope="parent" shared="true" id="153e-20ac-d6ad-b89a" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Feel No Pain(6+)" id="21f4-86a9-07fc-09ce" hidden="false" type="rule" targetId="8261-c96-7db2-434a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gribblies" hidden="false" id="58d7-9840-ea25-ba39" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a563-7ab4-ffa7-811f" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58b7-7b27-83aa-afcd" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Gribblies" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="f0fd-4de8-aa1a-3011">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">1</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grot Blaster" hidden="false" id="064f-ded4-1a9b-afcf" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f27-c8b0-4c21-8fa7" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfbd-0ee7-ec79-b576" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Grot Blaster" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="7782-ac5b-4547-9319">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">3</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="Green Tide" id="c427-e2c2-4508-4519" hidden="false">
+      <description>As long as this unit consists of 15 models or more, it automatically passes every leadership test.</description>
+    </rule>
+    <rule name="Green Wall" id="6790-7983-3cd8-a9a8" hidden="false">
+      <description>As long as this unit consists of 20 models or more, a single „Great Warboss“ model that is attached to this unit, can not be selected as the target of ranged attacs, exluding weapons with the „Precision“ Special Rule. </description>
+    </rule>
+    <rule name="The Small Guys" id="a4e7-ece8-9e60-9850" hidden="false">
+      <description>When this unit benefits from cover, improve their Armor Save by two instead of one. Subtract -1 from any ranged attack Hit Rolls made from 12&apos;&apos; or further away against this unit. Also, always half the number of attacks caused(rounded up) by Weapons with the „Explosive“ Special Rule AFTER the initial Hit Roll to see of the Explosive rule is applied.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Special Weapons" id="774b-bdfd-16dd-66d9" hidden="false">
+      <comment>Boyz</comment>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a93a-c43d-0e3d-8a4b" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f460-8808-bf3b-4f3b" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Big Shoota" hidden="false" id="55a5-9374-2261-cb97" type="selectionEntry" targetId="82ec-bcc7-6688-8bfd">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4509-10d5-1d13-aa61" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Skorcha" hidden="false" id="93e3-a13c-fa86-daa9" type="selectionEntry" targetId="6f71-62e1-304e-fc5f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f935-bf8b-0bea-d8dd" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Rokkit Launcha" hidden="false" id="0dc3-d208-14c0-2d11" type="selectionEntry" targetId="0e89-0bec-98e7-d133">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e36-d74c-2472-48fe" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="15"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="55a5-9374-2261-cb97" field="defaultSelectionEntryId"/>
+      </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Nob Loadouts" id="b22e-8244-6397-ffca" hidden="false">
+      <comment>Boyz</comment>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="71b0-2e82-0ead-9590" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09dc-b5fc-6a50-219c" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Slugga and Choppa" hidden="false" id="e92b-5d20-a86a-0435" type="selectionEntry" targetId="2074-b7d7-27f6-d1c3"/>
+        <entryLink import="true" name="Shoota and Fizts" hidden="false" id="9b3d-c6d9-2184-4b19" type="selectionEntry" targetId="f3e5-d0c9-b29b-836e"/>
+        <entryLink import="true" name="Slugga and Killsaw" hidden="false" id="e7ed-fe54-dc29-6df7" type="selectionEntry" targetId="6cd7-022f-d7ea-4290">
+          <costs>
+            <cost name="Pts" typeId="Points" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Slugga and Powaclaw" hidden="false" id="d8e6-6d95-d11e-293b" type="selectionEntry" targetId="be43-1f87-df61-59a5">
+          <costs>
+            <cost name="Pts" typeId="Points" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Slugga and Big Choppa" hidden="false" id="3f89-f5e7-eae9-2b46" type="selectionEntry" targetId="7011-6eb9-4b14-94d7">
+          <costs>
+            <cost name="Pts" typeId="Points" value="5"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="9b3d-c6d9-2184-4b19" field="defaultSelectionEntryId"/>
+      </modifiers>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

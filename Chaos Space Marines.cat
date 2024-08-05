@@ -1,2 +1,140 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d866-d734-2176-1323" name="Chaos Space Marines" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="d866-d734-2176-1323" name="Chaos Space Marines" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Chaos Space Marines" id="3131-620b-f43c-48c5" targetId="7e01-7be-d0bd-1674"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Predator" hidden="false" id="1e35-db7f-036c-0a97" type="selectionEntry" targetId="a724-6d9a-886f-17a8">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="9bbb-ec31-ca42-9ad7" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kratos" hidden="false" id="e456-8fda-c76c-98df" type="selectionEntry" targetId="be82-3273-5b6a-4a0b">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="f387-2730-de65-0524" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Raider" hidden="false" id="e1f6-e15a-e447-ab6c" type="selectionEntry" targetId="ae77-cc57-b9b3-03af">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="6dbb-9308-a929-4a49" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sabre Strike" hidden="false" id="735e-21fa-c073-ab11" type="selectionEntry" targetId="8fbf-4109-3df3-1fea">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="fa43-a2fa-5490-5e8b" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sicaran" hidden="false" id="9f79-d935-48f0-f853" type="selectionEntry" targetId="f128-3a83-4183-bcb3">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="cd98-8b1e-c89a-732e" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Spartan" hidden="false" id="ceff-caee-8a83-05d3" type="selectionEntry" targetId="1653-338e-0281-b897">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="f869-43a7-4657-6ba8" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vindicator" hidden="false" id="5df7-abee-7b62-29ea" type="selectionEntry" targetId="568e-a53a-79f5-54f7">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="8cc7-3ac9-5c30-5c6a" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vindicator Laser Destroyer" hidden="false" id="2a5e-c5fb-1d4e-9a1f" type="selectionEntry" targetId="7b3f-be28-93c8-0ee7">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="d35c-9077-8176-c8a8" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Whirlwind Hyperios" hidden="false" id="98d7-ef41-1954-13f7" type="selectionEntry" targetId="d664-4303-e404-7022">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="c1c3-94a5-f089-4178" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cerberus" hidden="false" id="7982-c32a-84bb-50d5" type="selectionEntry" targetId="7077-eea0-afcf-3fb5">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="0420-977b-7430-4767" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Falchion" hidden="false" id="bc2f-c40a-b6dd-e083" type="selectionEntry" targetId="8978-12d1-85e3-c51c">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="8317-3a9a-c4a5-e2c0" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fellblade" hidden="false" id="1e7c-1f84-a3e6-131c" type="selectionEntry" targetId="1ef3-92d7-7c4f-87e3">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="adb8-4851-6f55-2090" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Glaive" hidden="false" id="4204-d826-c2ff-9972" type="selectionEntry" targetId="a89b-2c77-b55d-dedd">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="3ead-720c-572d-64dd" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Typhon" hidden="false" id="6b1b-0ed2-d8bc-eb89" type="selectionEntry" targetId="0b1c-7ad0-7443-7e92">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="09dc-e3cf-b537-68dd" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rhino" hidden="false" id="5cd0-0756-61e0-95aa" type="selectionEntry" targetId="d94f-4280-2088-70bf">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="a7ab-ddc3-6d46-0865" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Drop Pod" hidden="false" id="4562-1146-335e-73fe" type="selectionEntry" targetId="bbf5-1e58-f72b-b874">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="5be3-ebf9-bc59-665d" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fireraptor" hidden="false" id="3a90-6f55-9443-33e2" type="selectionEntry" targetId="9258-45e1-f176-d156">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="18e5-6742-003d-7035" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormeagle" hidden="false" id="6d65-05f2-8a2a-cb5b" type="selectionEntry" targetId="507f-9e9a-8dcd-6278">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="1b71-a596-7eaf-4d4e" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormhawk" hidden="false" id="f657-9249-aa3e-9e6a" type="selectionEntry" targetId="f4a9-b788-942c-c213">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="5ac0-233c-3c12-9c3d" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Xyphon Interceptor" hidden="false" id="d98e-8f11-5597-8489" type="selectionEntry" targetId="498b-974d-b53b-4857">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="aa7a-5350-e5d6-66dc" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legionaires" hidden="false" id="1da1-2aff-ef82-77d6" type="selectionEntry" targetId="3364-d57b-f030-30ae">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="1d79-3141-d77b-4423" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cultists" hidden="false" id="0b59-1530-eeb6-e42e" type="selectionEntry" targetId="f559-2b1e-cc59-d95d">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="03ea-cea4-d459-1f33" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Space Marine Codex Rules" hidden="false" id="d1ba-3470-6299-98bc" type="selectionEntry" targetId="6d8c-1eda-755e-6c7e"/>
+    <entryLink import="true" name="Legion Selection" hidden="false" id="116a-dbad-35a1-86ec" type="selectionEntry" targetId="38c2-504d-ddfe-007f"/>
+    <entryLink import="true" name="Accursed Cultists" hidden="false" id="5517-f66d-0d0e-65d6" type="selectionEntry" targetId="df7c-e73b-00b9-4956">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="182c-f051-ffe2-eb0a" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Forgefiend" hidden="false" id="6a92-b96a-7018-0aba" type="selectionEntry" targetId="2b4d-2d03-3b8c-5bb5">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="fe4c-557f-5acd-270c" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Maulerfiend" hidden="false" id="b6cb-1b56-4e12-2b7d" type="selectionEntry" targetId="4244-3eb5-9a5c-3f20">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="d273-f61d-ca3a-a66d" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Possessed" hidden="false" id="dba7-8005-5a0e-713d" type="selectionEntry" targetId="d01b-b014-4441-f390">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="4696-670f-a74c-9556" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>

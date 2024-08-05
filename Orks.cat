@@ -3,4 +3,16 @@
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Orks" id="f14d-9adc-656c-76bf" targetId="2a27-fc9c-f8d0-40bd"/>
   </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Boyz" hidden="false" id="0f22-47e7-9f22-4deb" type="selectionEntry" targetId="26c9-be8c-2d97-2745">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="5ef5-7fa5-1706-73e8" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Gretchin" hidden="false" id="0684-8d97-b683-c146" type="selectionEntry" targetId="0edc-f92b-c52e-bd7d">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="add4-b598-f343-61b9" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>

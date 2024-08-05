@@ -1665,6 +1665,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
       <costs>
         <cost name="Pts" typeId="Points" value="60"/>
       </costs>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Twin Las Cannon" hidden="false" id="42a2-bc99-3dc-6a20">
       <profiles>
@@ -1817,6 +1818,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
         <categoryLink targetId="fa28-a209-4a67-e026" id="568c-d1bd-b441-90b" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="74bd-b96f-ae6e-840b" id="559d-8840-8cc1-4621" primary="false" name="Vindicator"/>
       </categoryLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Intercessors Squad" hidden="false" id="4488-3912-6d93-f8fb">
       <categoryLinks>
@@ -2026,6 +2028,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
         <categoryLink targetId="fa28-a209-4a67-e026" id="3f97-9f00-aad4-d99d" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="51af-3ba2-bbee-5539" id="51bb-357-4c0e-f6b5" primary="false" name="Predator"/>
       </categoryLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Predator Las Cannon" hidden="false" id="631c-244c-a5e7-97f7">
       <constraints>
@@ -6117,6 +6120,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="fa28-a209-4a67-e026" id="33a3-b8f2-cbcb-418a" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="9b19-5708-cde2-d1e2" id="eb91-a5f9-03a7-bc3d" primary="false" name="Land Raider"/>
       </categoryLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Godhammer Las Cannons" hidden="false" id="49b9-a319-0dd7-146d" collective="true">
       <constraints>
@@ -8631,6 +8635,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="fa28-a209-4a67-e026" id="c9f8-f5f8-a885-e9d2" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="61de-4844-9fb4-76e7" id="1b1a-af74-788b-49f5" primary="false" name="Drop Pod"/>
       </categoryLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Impulsor" hidden="false" id="a74f-d04d-2977-1bca">
       <costs>
@@ -9829,6 +9834,7 @@ Save (6+)“ Special Rule.</characteristic>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Eliminators Squad" hidden="false" id="b42b-2ae4-9e98-8972">
       <infoLinks>
@@ -10127,6 +10133,7 @@ Save (6+)“ Special Rule.</characteristic>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Volkite Caliver Sponsons" hidden="false" id="903b-6bf5-5a87-e8e1">
       <constraints>
@@ -10780,6 +10787,7 @@ Save (6+)“ Special Rule.</characteristic>
         <categoryLink targetId="fa28-a209-4a67-e026" id="3173-dc09-9424-fe3e" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="9d61-8df6-d860-794f" id="dea7-0efc-20b7-a241" primary="false" name="Whirlwind Hyperios"/>
       </categoryLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Hyperios Launcher" hidden="false" id="5d29-cfec-4389-19e6" collective="true">
       <constraints>
@@ -10835,6 +10843,7 @@ Save (6+)“ Special Rule.</characteristic>
         <categoryLink targetId="fa28-a209-4a67-e026" id="55f0-1297-0ea8-113a" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="7b62-a5a1-ccfe-7e52" id="61ba-7780-c4a4-42ff" primary="false" name="Vindicator Laser Destroyer"/>
       </categoryLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Vindicator Las Destroyer" hidden="false" id="36e9-6720-1870-a446" collective="true">
       <constraints>
@@ -11002,6 +11011,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           </characteristics>
         </profile>
       </profiles>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Twin Laser Destroyer" hidden="false" id="476f-a41c-e452-7834">
       <profiles>
@@ -11229,6 +11239,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="fa28-a209-4a67-e026" id="e114-8141-baaa-57dd" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="a9c8-b282-e4fb-fd0f" id="4fd5-3601-eeb6-471a" primary="false" name="Sicaran"/>
       </categoryLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heracles Pattern Autocannon" hidden="false" id="1bc6-4113-0615-7a88">
       <constraints>
@@ -11392,6 +11403,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="fa28-a209-4a67-e026" id="1d35-4237-57bf-3bb3" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="3117-623a-baba-b190" id="e7d0-8377-2394-aefa" primary="false" name="Sabre Strike"/>
       </categoryLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sabre Autocannon" hidden="false" id="04f2-d524-6a0b-5fd7">
       <constraints>
@@ -11505,6 +11517,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="fa28-a209-4a67-e026" id="c9b5-f32c-37aa-4516" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="5c0e-a282-9a0c-b451" id="135b-30f2-7b15-eba3" primary="false" name="Falchion"/>
       </categoryLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Titan Killer Neutron Laser" hidden="false" id="84be-6779-6025-4a21" collective="true">
       <constraints>
@@ -11590,6 +11603,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <costs>
         <cost name="Pts" typeId="Points" value="690"/>
       </costs>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Volkite Carronade" hidden="false" id="ca63-1745-2446-22bd" collective="true">
       <profiles>
@@ -11654,6 +11668,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <costs>
         <cost name="Pts" typeId="Points" value="480"/>
       </costs>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dreadhammer Siege Cannon" hidden="false" id="548b-e387-60d3-d5eb" collective="true">
       <constraints>
@@ -11718,6 +11733,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <costs>
         <cost name="Pts" typeId="Points" value="480"/>
       </costs>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Cerberus Pulse Array" hidden="false" id="ef73-8971-ab8d-ca68" collective="true">
       <constraints>
@@ -12129,6 +12145,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Icarus Stormcannon" hidden="false" id="d6f9-1044-9e94-042b">
       <profiles>
@@ -12386,6 +12403,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="fa28-a209-4a67-e026" id="2c45-9cf1-8ba2-c799" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="9128-c62d-9018-124a" id="4899-ba95-c17d-9628" primary="false" name="Xyphon Interceptor"/>
       </categoryLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Xyphon Missile Battery" hidden="false" id="587b-90c4-e496-b2e1" collective="true">
       <profiles>
@@ -12527,6 +12545,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <infoLink name="Hover" id="881e-dae9-51eb-dbff" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
         <infoLink name="Deadly Demise(12/D6+3)" id="038c-0b54-fbaf-6004" hidden="false" type="rule" targetId="82a7-3a39-240f-eac2"/>
       </infoLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Vengeance Launcher" hidden="false" id="1f7f-12aa-3f22-2af7">
       <profiles>
@@ -12677,6 +12696,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="fa28-a209-4a67-e026" id="1691-c7e3-f8d9-7d3e" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="2ac0-723d-38b9-638d" id="1cb2-fc36-0238-e551" primary="false" name="Fireraptor"/>
       </categoryLinks>
+      <comment>Loyalists</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Quad Heavy Bolter" hidden="false" id="b306-f271-f484-1ea6">
       <profiles>
@@ -16191,6 +16211,1303 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       </constraints>
       <comment>4 Attacks</comment>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Predator" hidden="false" id="a724-6d9a-886f-17a8">
+      <profiles>
+        <profile name="Predator" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="2292-f7b3-f6dd-6500">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">12</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">13</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">20</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="Points" value="205"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Destructive Annihilation" id="eb8e-ef36-024f-344f" hidden="false" type="rule" targetId="1114-6269-7acf-9fc4"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="4390-e116-a986-7525" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
+        <entryLink import="true" name="Predator Turrets" hidden="false" id="df24-baaf-a5b0-5460" type="selectionEntryGroup" targetId="60db-7ffe-6a5a-7fb8"/>
+        <entryLink import="true" name="Predator Sponsons" hidden="false" id="5275-073b-5d82-78b1" type="selectionEntryGroup" targetId="d830-b415-d346-b5b6"/>
+        <entryLink import="true" name="Rhino Chassis Support Weapons" hidden="false" id="a53d-cc98-f31c-fcbe" type="selectionEntryGroup" targetId="2bcf-5af9-13d3-10bb"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="9bf8-74b1-0fcc-b378" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="d917-309b-d461-e183" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="51af-3ba2-bbee-5539" id="d701-ceeb-2b2a-6878" primary="false" name="Predator"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="b422-e2ce-8a45-7b66" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="b18c-ac7e-df88-6ca7" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Kratos" hidden="false" id="be82-3273-5b6a-4a0b">
+      <costs>
+        <cost name="Pts" typeId="Points" value="480"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Kratos Pintle Mounts" hidden="false" id="129a-1172-f80a-f885" type="selectionEntryGroup" targetId="cf9f-3693-d988-94ee"/>
+        <entryLink import="true" name="Kratos Sponsons" hidden="false" id="577e-ea30-6f88-1162" type="selectionEntryGroup" targetId="0791-adf9-eb91-30a0"/>
+        <entryLink import="true" name="Kratos Turret Weapon" hidden="false" id="bdd4-e8d4-0ee7-48bc" type="selectionEntryGroup" targetId="0a5e-4448-2efa-1558"/>
+        <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="98cf-5655-5da0-c147" type="selectionEntry" targetId="6215-d596-90c2-915a">
+          <costs>
+            <cost name="Pts" typeId="Points" value="7"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b354-cd04-02ac-ee4f" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Kratos" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="27dd-591b-820d-023f">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">12</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">8</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">16</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">38</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(9/D6+3)" id="c1c2-a190-fc28-05cf" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Unforgiving Advance" id="4778-5428-dc59-cf83" hidden="false" type="rule" targetId="52e4-bdd8-3fc1-461a"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="9345-f54e-ab37-f86a" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="17bf-1acf-dc2c-7d09" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7977-7278-40a6-3003" id="0c79-b976-5979-da7b" primary="false" name="Kratos"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="f499-273d-16f4-ebf2" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="44f8-df20-8eaf-8a87" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Kratos Support Weapons" id="da3c-e463-546f-c065" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0007-a728-c2cb-b85a" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Heavy Flamer" hidden="false" id="9351-7977-f103-f28a" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e20-75eb-af21-25fa" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Multi Melta" hidden="false" id="10e2-15b7-2a00-6a53" type="selectionEntry" targetId="ab57-6993-9bf2-3089">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8726-3d9e-7182-03c8" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Land Raider" hidden="false" id="ae77-cc57-b9b3-03af">
+      <infoLinks>
+        <infoLink name="Land Raider" id="5e1e-f959-0760-73bb" hidden="false" type="profile" targetId="13d7-2cb7-1634-a075">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88"/>
+                <modifier type="set" value="2+" field="ba87-1f7-5679-198e"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="ae77-cc57-b9b3-03af" childId="e4e2-8ecd-990a-ed8d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+        <infoLink name="Deadly Demise(9/D6)" id="8e90-4afd-f91a-4677" hidden="false" type="rule" targetId="dde8-f470-8461-97"/>
+        <infoLink name="Adamantine Assault" id="eb1c-38e9-3503-8166" hidden="false" type="rule" targetId="1d86-bcec-70d9-eda5"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Land Raider" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="27e0-7148-e169-61e9">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 12 Infantry models.
+Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ and „Possessed Armor“ count as 2 and models with the keyword „Obliterator Armor“ count as 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="Points" value="355"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Land Raider Chassis Support Weapons" hidden="false" id="fb76-0d17-129d-4f93" type="selectionEntryGroup" targetId="b41a-e61c-9b8d-6f81"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="f0ce-fb20-d0fa-9309" type="selectionEntry" targetId="f460-1f29-9a39-8fda" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e192-cf54-dcaf-25a5"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e5b-242e-f972-54a2"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Godhammer Las Cannons" hidden="false" id="cdb1-377e-bb97-a863" type="selectionEntry" targetId="49b9-a319-0dd7-146d">
+          <categoryLinks>
+            <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="92aa-e56b-4f24-1c6d" primary="false" name="Vehicle"/>
+            <categoryLink targetId="12fc-d5fa-55b9-732e" id="edf9-f88b-e841-b318" primary="false" name="AT - Super Heavy Armor"/>
+            <categoryLink targetId="6e12-88d0-c09c-2c72" id="536b-1f69-219a-7068" primary="false" name="Tansport"/>
+            <categoryLink targetId="8599-9479-106b-178c" id="87b0-1e83-714e-a5a6" primary="false" name="FACTION: Space Marines"/>
+            <categoryLink targetId="fa28-a209-4a67-e026" id="2910-36b3-86e9-0693" primary="false" name="SUPER FACTION: Imperium"/>
+            <categoryLink targetId="9b19-5708-cde2-d1e2" id="7459-223b-0f5c-2036" primary="false" name="Land Raider"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Deathwing Land Raider" hidden="false" id="e4e2-8ecd-990a-ed8d" type="selectionEntry" targetId="0304-412c-7119-77b1">
+          <costs>
+            <cost name="Pts" typeId="Points" value="40"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="45e6-9db4-2a26-4240" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="ec0f-59b9-0bf0-25af" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="a8f3-d256-2dc8-0750" primary="false" name="Tansport"/>
+        <categoryLink targetId="9b19-5708-cde2-d1e2" id="c8e2-2af7-1d8f-f61d" primary="false" name="Land Raider"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="93e1-7349-0c59-a970" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="fd97-e11a-9045-f6e2" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sabre Strike" hidden="false" id="8fbf-4109-3df3-1fea">
+      <profiles>
+        <profile name="Sabre Strike" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="1ff7-e0d7-e9c4-ee78">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">12</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">11</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">16</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(6/D6)" id="6753-9037-93a6-f07f" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Targeted Strike" id="bf47-cf44-5524-6de0" hidden="false" type="rule" targetId="a860-80dd-3f90-95d0"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sicaran Secondary Weapon" id="cd50-922b-c366-fa38" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e36b-ad0e-a356-5805" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Heavy Bolter" hidden="false" id="fde2-b215-b8d3-be82" type="selectionEntry" targetId="400e-c07b-a638-e99c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f71-d66b-bb5d-cac1" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Multi Melta" hidden="false" id="752a-f230-4c2f-7ae3" type="selectionEntry" targetId="ab57-6993-9bf2-3089">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="353e-1bea-9170-b527" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Volkite Caliver" hidden="false" id="3949-57ae-fd56-daae" type="selectionEntry" targetId="6204-9b8d-8cc9-2e05">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="338f-0ba9-0258-481c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy Flamer" hidden="false" id="3e9e-d5c7-5f51-b00e" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d033-9b82-eccb-7510" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="Points" value="165"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="4f37-b0d9-8065-d4e3" type="selectionEntry" targetId="6215-d596-90c2-915a">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2022-385b-0683-9699" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="7"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Sabre Primary Weapon" hidden="false" id="f059-c78b-dd53-75a6" type="selectionEntryGroup" targetId="6072-36fe-7473-9962"/>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="803f-0d90-b984-81a9" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="1e83-21ab-23bc-8029" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="2d77-81d1-09f9-efb8" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="3117-623a-baba-b190" id="2249-5438-5f86-7e38" primary="false" name="Sabre Strike"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="65b1-b51d-44f6-5c07" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="009f-2939-6dbc-712a" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sicaran" hidden="false" id="f128-3a83-4183-bcb3">
+      <costs>
+        <cost name="Pts" typeId="Points" value="280"/>
+      </costs>
+      <profiles>
+        <profile name="Sicaran" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="5089-5514-d0c3-fc5d">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">12</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">28</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(9/D6)" id="bfd9-bddd-22b7-74d4" hidden="false" type="rule" targetId="dde8-f470-8461-97"/>
+        <infoLink name="Unforgiving Advance" id="0419-039e-d1bf-9fc8" hidden="false" type="rule" targetId="52e4-bdd8-3fc1-461a"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sicaran Sponsons" id="c795-41ad-170e-d2d8" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="274d-7b3c-d646-2074" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Las Cannon Sponsons" hidden="false" id="558c-383a-f0f2-37fd" type="selectionEntry" targetId="9c22-8314-b464-bdb8">
+              <costs>
+                <cost name="Pts" typeId="Points" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy Bolter Sponsons" hidden="false" id="d849-dd2b-2d0a-bcdf" type="selectionEntry" targetId="4ae2-7003-2997-f8a5">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Support Weapons" id="0534-7029-e751-aaf7" hidden="false">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="95f0-4fdb-6467-476d" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="50c4-7a1f-3331-c4f9" type="selectionEntry" targetId="6215-d596-90c2-915a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d359-c466-b97b-c851" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="7"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Storm Bolter" hidden="false" id="d6a3-24fc-4710-4a5d" type="selectionEntry" targetId="d626-7eaf-2a59-9aa8">
+              <costs>
+                <cost name="Pts" typeId="Points" value="3"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Sicaran Turrets" hidden="false" id="6994-8742-d855-8e16" type="selectionEntryGroup" targetId="0bb6-7c75-6322-beee"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="7a8d-013e-9902-ab90" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="dfa2-16b6-a785-7c94" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="a9c8-b282-e4fb-fd0f" id="0d16-859b-ac2b-b196" primary="false" name="Sicaran"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="89b0-1242-293c-4ddb" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="7472-8336-c86d-a4ec" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Spartan" hidden="false" id="1653-338e-0281-b897">
+      <infoLinks>
+        <infoLink name="Deadly Demise(9/D6+3)" id="28f0-0ade-a47b-9fa3" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Adamantine Assault" id="6fd6-11c4-c821-e09d" hidden="false" type="rule" targetId="1d86-bcec-70d9-eda5"/>
+        <infoLink name="Spartan Chassis" id="e004-ce21-f8cb-4cfe" hidden="false" type="profile" targetId="20fa-953e-7473-742b"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="550"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="83f6-a25d-7a16-d705" type="selectionEntry" targetId="6215-d596-90c2-915a">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="972c-9e46-b7a9-79c5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e6e-46ae-a7e8-674d" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="7"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Storm Bolter" hidden="false" id="584a-0fb7-13be-fb90" type="selectionEntry" targetId="d626-7eaf-2a59-9aa8">
+          <costs>
+            <cost name="Pts" typeId="Points" value="3"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Spartan Chassis Support Weapons" hidden="false" id="9273-190f-3772-5df2" type="selectionEntryGroup" targetId="a565-cf95-f71f-983e"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="8744-7902-be3d-6829" type="selectionEntry" targetId="f460-1f29-9a39-8fda" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d8d0-71f0-c713-dc0d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b79-641b-eed9-9531" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="1a6e-0482-7ffd-a494" type="selectionEntry" targetId="f655-bd54-59d-6e0c"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Spartan Sponsons" id="c2ad-8b52-52ce-dbdc" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="05ca-ac8c-5712-090c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae22-de9a-29f2-28da" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Quad Las Cannon Sponsons" hidden="false" id="0d72-e3ec-3870-148b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16d3-715b-e943-7f48" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Quad Las Cannon" hidden="false" id="78b3-a93f-751d-a924" type="selectionEntry" targetId="6c0e-414d-3a70-6e01">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="12a2-eda7-54ac-702b" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5a02-fc49-0c36-6c58" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="2 Twin Laser Destroyer Sponsons" hidden="false" id="87d0-552b-d2c1-afee">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ce9-7879-bb62-bdf8" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Twin Laser Destroyer" hidden="false" id="d2a6-f8f7-afe8-a261" type="selectionEntry" targetId="476f-a41c-e452-7834">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="6492-e76a-b905-53d0" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7718-2814-a3b7-fd3b" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="0121-1219-6d32-0da7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="e5c7-51ca-a84e-59b3" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="7a52-530e-6374-e7e1" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="62fe-7758-6ecc-d553" primary="false" name="Tansport"/>
+        <categoryLink targetId="72a0-a0b7-4aec-73fe" id="88c7-b237-04b5-fccc" primary="false" name="Spartan"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="40e7-a6dc-2385-c2d6" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="2809-4097-700f-5ed3" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Spartan" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="fe20-175f-a68b-e0f3">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 30 Space Marine Infantry models.
+Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ and „Possessed Armor“ count as 2 and models with the keyword „Obliterator Armor“ count as 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Vindicator" hidden="false" id="568e-a53a-79f5-54f7" collapsible="true">
+      <entryLinks>
+        <entryLink import="true" name="Rhino Chassis Support Weapons" hidden="false" id="2150-4a92-fad8-a9a8" type="selectionEntryGroup" targetId="2bcf-5af9-13d3-10bb"/>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="42f8-c8c8-895f-78d3" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
+        <entryLink import="true" name="Vindicator Demolisher Cannon" hidden="false" id="3a81-8ab8-a226-024b" type="selectionEntry" targetId="a76c-afd7-f3c4-dad1"/>
+        <entryLink import="true" name="Vindicator Bulldoze Siege Shield" hidden="false" id="4ccd-6697-29b5-cbb7" type="selectionEntry" targetId="913c-8cd9-50ef-76ad">
+          <costs>
+            <cost name="Pts" typeId="Points" value="5"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85f3-f208-0eeb-9db9"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Rolling Siege" id="867e-83ef-b5a8-630b" hidden="false" type="rule" targetId="5763-95b3-e1bb-a341"/>
+        <infoLink name="Deadly Demise(6/D6)" id="08e6-e75d-38da-e222" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Vindicator" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="7450-72b0-09b0-cae8">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">22</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="Points" value="225"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="87fb-e25a-d8b0-54fd" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="2559-792d-d87d-f9cb" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="74bd-b96f-ae6e-840b" id="3748-08de-5ef6-1a99" primary="false" name="Vindicator"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="c372-61ff-9efd-4c33" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="5ba4-0be1-dd2f-4ab1" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Vindicator Laser Destroyer" hidden="false" id="7b3f-be28-93c8-0ee7">
+      <infoLinks>
+        <infoLink name="Absolute Laser Destruction" id="355c-b9af-d24d-9c4a" hidden="false" type="rule" targetId="c7ed-eece-02f2-b3bc"/>
+        <infoLink name="Deadly Demise(6/D6+3)" id="09bf-3fbd-aedc-cc58" hidden="false" type="rule" targetId="1a02-52a-5104-ff02"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Vindicator Las Destroyer" hidden="false" id="bc63-cfcc-7ddc-7cc3" type="selectionEntry" targetId="36e9-6720-1870-a446"/>
+        <entryLink import="true" name="Rhino Chassis Support Weapons" hidden="false" id="bd23-279d-cd96-c3c2" type="selectionEntryGroup" targetId="2bcf-5af9-13d3-10bb"/>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="5805-02a5-33b7-bc54" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="230"/>
+      </costs>
+      <profiles>
+        <profile name="Vindicator Laser Destroyer" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="25b3-7466-1de4-79f6">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">I</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">T14</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">22</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="94ae-f69c-e32f-7c22" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="ff1f-bbff-60aa-5ec2" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="7b62-a5a1-ccfe-7e52" id="411f-d9c8-9834-dfa1" primary="false" name="Vindicator Laser Destroyer"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="d1df-b808-b2cf-5e4b" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="86e1-2efa-29ca-8b35" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Whirlwind Hyperios" hidden="false" id="d664-4303-e404-7022">
+      <infoLinks>
+        <infoLink name="Deadly Demise(6/D6)" id="bb03-4d31-c698-3c0c" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Hyperios Marksmen" id="db46-0ed8-364b-8f3f" hidden="false" type="rule" targetId="4917-4419-06d8-d35e"/>
+        <infoLink name="Rhino Battle Tank" id="6d18-82df-7917-81dc" hidden="false" type="profile" targetId="ff5a-4cd0-373-5bd9"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Rhino Chassis Support Weapons" hidden="false" id="f959-bbfe-341e-c31f" type="selectionEntryGroup" targetId="2bcf-5af9-13d3-10bb"/>
+        <entryLink import="true" name="Hyperios Launcher" hidden="false" id="1095-cb17-39b6-7de1" type="selectionEntry" targetId="5d29-cfec-4389-19e6"/>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="3f00-3ce5-cc55-760f" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="190"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="0d0d-6681-acc0-4109" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="fd57-851d-4462-e6b0" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="9d61-8df6-d860-794f" id="f6e4-10e4-a86d-3a53" primary="false" name="Whirlwind Hyperios"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="39eb-2266-23cf-f129" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="8800-42a1-4eaa-a461" primary="false" name="SUPER FACTION: Chaos"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Cerberus" hidden="false" id="7077-eea0-afcf-3fb5">
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="e00f-63c8-7598-5e87" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="ef3b-e048-c7ef-918f" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="2faf-d8a0-7d1e-9c4b" id="901b-ad71-dcad-f7cf" primary="false" name="Cerberus"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="f615-922f-0c5b-b7f6" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="bb36-cca3-ab9b-7393" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Deadly Demise(9/D6+3)" id="b474-adac-165c-3003" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Titan Killer" id="e58b-698a-fbf3-00b7" hidden="false" type="rule" targetId="5e35-5aa3-b7fc-7a34"/>
+        <infoLink name="Spartan Chassis" id="b741-527b-78b1-509e" hidden="false" type="profile" targetId="20fa-953e-7473-742b"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="ca2a-42e4-1374-2bfd" type="selectionEntry" targetId="f655-bd54-59d-6e0c"/>
+        <entryLink import="true" name="Spartan Chassis Support Weapons" hidden="false" id="60a0-7091-c360-c36c" type="selectionEntryGroup" targetId="a565-cf95-f71f-983e"/>
+        <entryLink import="true" name="Cerberus Pulse Array" hidden="false" id="d5aa-5a28-0def-d9b7" type="selectionEntry" targetId="ef73-8971-ab8d-ca68"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sponsons" id="2716-d6a0-c800-36d3" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c306-ca44-7420-b28d" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Heavy Bolter Sponsons" hidden="false" id="85f5-0af8-d7d3-b9d9" type="selectionEntry" targetId="4ae2-7003-2997-f8a5">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Volkite Caliver Sponsons" hidden="false" id="b9e4-bd5b-d0f7-8157" type="selectionEntry" targetId="903b-6bf5-5a87-e8e1">
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Las Cannon Sponsons" hidden="false" id="f66e-6d49-e1bc-814e" type="selectionEntry" targetId="9c22-8314-b464-bdb8">
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="Points" value="480"/>
+      </costs>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Falchion" hidden="false" id="8978-12d1-85e3-c51c">
+      <infoLinks>
+        <infoLink name="Astartes Baneblade Chassis" id="6d12-e72e-ee49-5eb5" hidden="false" type="profile" targetId="8570-0994-2528-cbcc"/>
+        <infoLink name="Titan Killer" id="b17c-ebf4-b04e-6ce1" hidden="false" type="rule" targetId="5e35-5aa3-b7fc-7a34"/>
+        <infoLink name="Deadly Demise(12/D6+6)" id="0edd-f914-c418-1e6d" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="790"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="22b3-f0d2-d4a0-1525" type="selectionEntry" targetId="f655-bd54-59d-6e0c"/>
+        <entryLink import="true" name="Titan Killer Neutron Laser" hidden="false" id="c6fc-4824-8b32-e954" type="selectionEntry" targetId="84be-6779-6025-4a21"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hatch Weapon Options" id="02a0-1341-bc1a-1d5f" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62a1-486b-69f9-f1a6" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Multi Melta" hidden="false" id="aff4-cc7e-b94e-7d1b" type="selectionEntry" targetId="ab57-6993-9bf2-3089">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3154-268e-7c79-b5b0" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy Flamer" hidden="false" id="75fd-01fc-6573-8111" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfac-ec14-1d84-2683" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="2 Quad Las Cannon Sponsons" hidden="false" id="32ce-ea5c-3534-1e19" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a23a-2b93-e815-c4ab" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf83-b937-f683-93b6" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Quad Las Cannon" hidden="false" id="c8ab-bcd9-2426-746c" type="selectionEntry" targetId="6c0e-414d-3a70-6e01">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d73e-ce7a-0361-ca16" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0c88-de49-709b-f29a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="3d0a-aab0-984d-891c" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="ce97-ed3b-786b-210f" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="5c0e-a282-9a0c-b451" id="283f-de22-8940-7517" primary="false" name="Falchion"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="c120-6691-d2fc-1612" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="f120-04b5-d6f1-7298" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Fellblade" hidden="false" id="1ef3-92d7-7c4f-87e3">
+      <costs>
+        <cost name="Pts" typeId="Points" value="720"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Titan Killer" id="a970-c013-cfb0-134c" hidden="false" type="rule" targetId="5e35-5aa3-b7fc-7a34"/>
+        <infoLink name="Deadly Demise(12/D6+6)" id="bc71-d5db-3f12-197b" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Astartes Baneblade Chassis" id="e884-5c2f-5099-d20c" hidden="false" type="profile" targetId="8570-0994-2528-cbcc"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Fellblade Accelerator Cannon" hidden="false" id="26f9-7f02-7ccc-55d1" type="selectionEntry" targetId="fb8e-161e-5a86-525e"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="762a-3c3c-de03-d9bd" type="selectionEntry" targetId="f460-1f29-9a39-8fda" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5423-aadc-5d24-4068" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c28-33b2-940e-15dd" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Demolisher Cannon" hidden="false" id="a941-e827-4125-1e1c" type="selectionEntry" targetId="bcd1-d4d5-4aa2-2fdc" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a7e-48fb-67b8-ccd8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a204-07f0-1519-e798" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="d10b-6192-dde3-aaac" type="selectionEntry" targetId="f655-bd54-59d-6e0c"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="8397-e01e-b7cf-a148" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="d1e3-d9f6-44a8-2faf" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="224f-ece2-5dd6-aeb0" id="c56e-0270-9906-a498" primary="false" name="Fellblade"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="f878-9ff3-49bf-1827" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="9682-9af5-f854-d342" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="2 Quad Las Cannon Sponsons" hidden="false" id="808a-cc46-cc3c-da1f" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1c4-bcb6-43e8-ebeb" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70bc-bb18-5395-0ed6" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Quad Las Cannon" hidden="false" id="7136-b208-a802-c5c0" type="selectionEntry" targetId="6c0e-414d-3a70-6e01" collective="true">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4a97-86fe-9907-6910" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9af3-8a7c-eee4-e5ff" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hatch Weapon Options" id="2986-c724-31cf-55f8" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4148-5011-3244-adf1" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Multi Melta" hidden="false" id="5790-292c-c416-3292" type="selectionEntry" targetId="ab57-6993-9bf2-3089">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d46-95d2-eaec-b499" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy Flamer" hidden="false" id="4a7b-1bb0-9186-60a8" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37a9-6942-4039-4edd" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Glaive" hidden="false" id="a89b-2c77-b55d-dedd">
+      <infoLinks>
+        <infoLink name="Astartes Baneblade Chassis" id="c36e-9652-de52-dc0b" hidden="false" type="profile" targetId="8570-0994-2528-cbcc"/>
+        <infoLink name="Deadly Demise(12/D6+6)" id="1f2e-6bea-219b-08d7" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Eradicate The Pleb" id="9095-de49-00cf-c557" hidden="false" type="rule" targetId="b160-299e-1df4-219f"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="0984-90a8-6808-e9a2" type="selectionEntry" targetId="f460-1f29-9a39-8fda" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="906e-7d3d-2039-58e4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0dcd-379a-6b6d-8ebd" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Volkite Carronade" hidden="false" id="0dc7-8f40-95b0-1025" type="selectionEntry" targetId="ca63-1745-2446-22bd"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="2 Quad Las Cannon Sponsons" hidden="false" id="78bb-4324-b981-b141" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6c63-8d6a-f250-a010" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75d5-e427-a6ae-938a" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Quad Las Cannon" hidden="false" id="068a-5ef0-6eb5-6f8d" type="selectionEntry" targetId="6c0e-414d-3a70-6e01">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1fb0-c2e1-4563-1263" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b5ec-fe3c-e5c0-1260" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="2883-9eb1-57f9-afde" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="ca59-e29b-b65c-1427" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="8f5a-dae2-41f6-81f8" id="c800-5f4f-f857-fb0e" primary="false" name="Glaive"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="90a9-95a3-1bdc-6bb5" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="ab40-075a-0424-08e0" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hatch Weapon Options" id="e788-7871-ffa1-9446" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13e7-843c-1a25-080d" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Heavy Flamer" hidden="false" id="8348-3401-822c-7980" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca87-61d8-6df2-5035" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Multi Melta" hidden="false" id="507c-8635-3487-ea01" type="selectionEntry" targetId="ab57-6993-9bf2-3089">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c71-b2db-2483-1e45" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="Points" value="690"/>
+      </costs>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Typhon" hidden="false" id="0b1c-7ad0-7443-7e92">
+      <infoLinks>
+        <infoLink name="Spartan Chassis" id="3a3b-7dfa-68a9-d082" hidden="false" type="profile" targetId="20fa-953e-7473-742b"/>
+        <infoLink name="Deadly Demise(6/D6+3)" id="c8d8-279f-3f8b-8683" hidden="false" type="rule" targetId="1a02-52a-5104-ff02"/>
+        <infoLink name="Titan Killer" id="8abf-20a5-13d7-566a" hidden="false" type="rule" targetId="5e35-5aa3-b7fc-7a34"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Spartan Chassis Support Weapons" hidden="false" id="254c-fe2c-8c71-605a" type="selectionEntryGroup" targetId="a565-cf95-f71f-983e"/>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="7528-59ee-4f96-efa1" type="selectionEntry" targetId="f655-bd54-59d-6e0c"/>
+        <entryLink import="true" name="Dreadhammer Siege Cannon" hidden="false" id="2076-3608-d2f9-83b8" type="selectionEntry" targetId="548b-e387-60d3-d5eb"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sponsons" id="84b5-f006-5a50-06e1" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3f6-aa24-1533-c53b" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Las Cannon Sponsons" hidden="false" id="afd0-a141-5448-16db" type="selectionEntry" targetId="9c22-8314-b464-bdb8">
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Volkite Caliver Sponsons" hidden="false" id="17c3-d843-d03d-5ebc" type="selectionEntry" targetId="903b-6bf5-5a87-e8e1">
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy Bolter Sponsons" hidden="false" id="47ed-3882-e1a6-5c2f" type="selectionEntry" targetId="4ae2-7003-2997-f8a5">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="7c35-046f-58a2-d5d2" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="dd57-6290-17f1-ba95" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="9ab0-38bb-7ecb-f1be" id="9fe7-31e0-5332-cd6a" primary="false" name="Typhon"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="33b7-e328-720c-f527" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="ca82-038b-d1dd-1827" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="480"/>
+      </costs>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Rhino" hidden="false" id="d94f-4280-2088-70bf">
+      <infoLinks>
+        <infoLink name="Rhino Transport Chassis" id="0698-ae8d-f48c-485e" hidden="false" type="profile" targetId="95df-f417-8c89-1e2f"/>
+        <infoLink name="Emergency Repair" id="b3ba-52b8-0397-6e7d" hidden="false" type="rule" targetId="6912-904e-17d2-4bb8"/>
+        <infoLink name="Deadly Demise(6/D6)" id="c65c-1d01-5876-dad2" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="0c27-9681-ba40-7acf" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="64c5-5253-c8b2-03be" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="b5e4-cf9d-c9d8-9d9e" primary="false" name="Tansport"/>
+        <categoryLink targetId="6e41-beb2-f156-df25" id="63fd-d82e-3c43-690d" primary="false" name="Rhino"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="a285-1642-c012-02c9" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="a1ba-f883-6a49-549f" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Rhino" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="be3d-a965-9723-ea5f">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 11 Infantry models.
+It can only transport models with the keyword „Power Armor“.
+Models with the keyword „Power Armor“ count as 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Storm Bolter" hidden="false" id="1c02-91dc-5c32-00a2" type="selectionEntry" targetId="a0c0-bdc-289d-a9df"/>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="e4a0-5cc9-58cc-1bc3" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
+        <entryLink import="true" name="Rhino Chassis Support Weapons" hidden="false" id="074f-2b52-0b61-2266" type="selectionEntryGroup" targetId="2bcf-5af9-13d3-10bb"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="60"/>
+      </costs>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Drop Pod" hidden="false" id="bbf5-1e58-f72b-b874">
+      <profiles>
+        <profile name="Drop Pod" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="a657-7e82-62ae-bb01">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">-</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">10</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">14</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Drop Pod" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="e23c-51c0-b27e-e799">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The Model can transport up to 12 Infantry models or one model with „Dreadnought“ in its name.
+Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ or „Possessed Armor“ count as 2 and models with the keyword „Obliterator Armor“ count as 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="97c4-c256-80ed-0688" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="Deadly Demise(6/D6)" id="dd27-48ba-467f-20cf" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Shock Reserves" id="446d-1497-0d95-a525" hidden="false" type="rule" targetId="2260-8dae-3a62-dc59"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="100"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Storm Bolter" hidden="false" id="8770-8225-c84d-602e" type="selectionEntry" targetId="a0c0-bdc-289d-a9df"/>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="8ed7-f387-02d6-bbcd" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="9727-48e3-6e36-cd32" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="09dc-e1dc-a5c4-5be9" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="4884-7b8b-1bba-b771" primary="false" name="Tansport"/>
+        <categoryLink targetId="61de-4844-9fb4-76e7" id="b29c-b4b3-f86d-db5b" primary="false" name="Drop Pod"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="3dc6-b0ba-c6a4-9767" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="cc17-e2a8-f902-4faf" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Fireraptor" hidden="false" id="9258-45e1-f176-d156">
+      <profiles>
+        <profile name="Fireraptor" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="4a81-1ed1-23a1-89c9">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">20</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">13</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">28</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Anti Aerial Fire" id="4375-26f6-4a7e-e702" hidden="false" type="rule" targetId="4f28-8647-b26d-6b1d"/>
+        <infoLink name="Deadly Demise(12/D6+3)" id="18ae-9def-db89-02e8" hidden="false" type="rule" targetId="82a7-3a39-240f-eac2"/>
+        <infoLink name="Hover" id="c2d1-75d5-c6b7-32b7" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="c8bb-7d8e-d043-fb05" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
+        <entryLink import="true" name="Avenger Bolt Cannon" hidden="false" id="5944-392b-e056-15d6" type="selectionEntry" targetId="aa86-1f76-c4f4-05e9" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="27dd-2635-e3b8-2b1b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6977-0048-1da1-51c3" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wing Weapons" id="9b50-907d-f6e1-4318" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b23-039b-a60e-198e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ba2-f9ff-e91a-1ff1" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Twin Hellstrike Launchers" hidden="false" id="7137-c004-7904-ebf1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19eb-35f8-085a-33f2" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Twin Hellstrike Launcher" hidden="false" id="9899-551b-15a3-f1e6" type="selectionEntry" targetId="85f3-f8bd-fe6a-45dd">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="aed7-5d3f-968e-423d" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="89cf-e7db-5056-9e94" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="2 Twin Las Cannons" hidden="false" id="28fb-05d5-3094-f61c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87e5-30d8-813f-d211" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Twin Las Cannon" hidden="false" id="1baf-6e3e-1fb4-1b39" type="selectionEntry" targetId="42a2-bc99-3dc-6a20">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8afb-a58d-dedd-5071" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b31f-bef9-c3e8-c95b" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="c479-6ad7-75a7-bdac" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Side Sponsons" id="1181-f064-0e84-caff" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2f3e-ea3d-5db4-627b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a51-4dab-ec7b-58af" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Quad Heavy Bolters" hidden="false" id="bc4d-6692-c068-c869">
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Quad Heavy Bolter" hidden="false" id="843b-be5e-641d-774b" type="selectionEntry" targetId="b306-f271-f484-1ea6">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b3a5-749e-1d41-9f5e" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4210-70b4-19c7-1441" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bbd-13a6-39f9-bef5" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="2 Twin Autocannons" hidden="false" id="ea13-5899-af8c-7687">
+              <costs>
+                <cost name="Pts" typeId="Points" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Twin Autocannon" hidden="false" id="79dd-49ac-925d-ee65" type="selectionEntry" targetId="0a05-e584-c8c3-3a06">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1471-9658-2208-ba62" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f85d-9ebf-3b84-3acd" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="Points" value="330"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="acbb-6a76-1b98-521a" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="a959-916b-2fcb-9e68" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="3491-01a5-217c-d598" primary="false" name="Fly"/>
+        <categoryLink targetId="2ac0-723d-38b9-638d" id="572e-f9db-644f-fd69" primary="false" name="Fireraptor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="8379-6f60-2367-07e9" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="a829-db74-1864-8bc8" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormeagle" hidden="false" id="507f-9e9a-8dcd-6278">
+      <costs>
+        <cost name="Pts" typeId="Points" value="370"/>
+      </costs>
+      <profiles>
+        <profile name="Stormeagle" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="5509-0487-0a91-9abc">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">20</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">13</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">28</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Stormeagle" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="8aed-ce2f-8db4-7092">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">This model can transport up to 25 Infantry models.
+Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ and „Possessed Armor“ count as 2 and models with the keyword „Obliterator Armor“ count as 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="b0cf-4303-752a-2230" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
+        <entryLink import="true" name="Vengeance Launcher" hidden="false" id="2dbd-512e-9496-54da" type="selectionEntry" targetId="1f7f-12aa-3f22-2af7" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="56ae-0414-b5b4-8fca" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01b9-9295-5187-0fb9" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="27c9-15a3-f614-cc1e" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="eced-8524-a6f7-7a8c" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="a939-ff72-c60c-b52b" primary="false" name="Fly"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="33e4-aa24-7817-c67f" primary="false" name="Tansport"/>
+        <categoryLink targetId="43c7-1015-bb7d-79f4" id="315a-c7a4-3731-2532" primary="false" name="Stormeagle"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="7964-877c-5838-79bb" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="9f67-6dff-21b2-d23b" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hull Weapon" id="eaa0-05c6-45d9-8ae7" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a43b-1ba4-d261-9e0f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5c7-bc64-71a6-8276" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Typhoon Rocket Launcher" hidden="false" id="99f2-b1a3-c6ba-408a" type="selectionEntry" targetId="73a9-b6d2-40a6-26cf">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1017-f813-044d-5edc" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Twin Multi Melta" hidden="false" id="3fd0-ebe2-5f7f-2359" type="selectionEntry" targetId="666f-03f6-9c35-8e63">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e815-5ee1-49b7-1244" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="33aa-e508-75b5-5f0f" type="selectionEntry" targetId="f460-1f29-9a39-8fda">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6e0-e7b3-e154-46e6" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="3fcb-6c0c-2810-051a" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Wing Weapons" id="88d0-b33e-f846-9349" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7efe-1be7-2a05-2381" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd0f-9cda-ac8b-1aea" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Twin Las Cannons" hidden="false" id="b79e-1d8c-e1fe-7b6c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1dd-c429-b8ad-261a" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Twin Las Cannon" hidden="false" id="a5c8-cd90-cb99-ddd4" type="selectionEntry" targetId="42a2-bc99-3dc-6a20">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e8a4-8847-6524-0e6c" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6326-4efe-48a8-dd3e" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="2 Twin Hellstrike Launchers" hidden="false" id="2910-b2c1-ff08-4e50">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46f4-7057-e159-1ac5" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Twin Hellstrike Launcher" hidden="false" id="2625-9998-252f-f320" type="selectionEntry" targetId="85f3-f8bd-fe6a-45dd">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="185d-a092-30da-d499" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="cce0-ba35-7250-f120" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="8683-6778-36a7-530e" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Hover" id="2d2f-04b7-c4dd-6cf5" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+        <infoLink name="Deadly Demise(12/D6+3)" id="3c01-5257-3438-c923" hidden="false" type="rule" targetId="82a7-3a39-240f-eac2"/>
+      </infoLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormhawk" hidden="false" id="f4a9-b788-942c-c213">
+      <costs>
+        <cost name="Pts" typeId="Points" value="265"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="e6bf-59e3-6b9d-0fe9" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="264f-94ba-85d4-c718" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="9ed7-b98e-9ea4-ac0e" primary="false" name="Fly"/>
+        <categoryLink targetId="c96-c5f9-c69d-3978" id="f94a-9826-4fbc-6bd0" primary="false" name="Stormhawk"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="c1b1-9838-5f46-4e47" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="2294-98ed-8d25-1597" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Stormhawk" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="2f2b-d2fe-42b8-4f94"/>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(6/D6)" id="fca6-41d5-d0a3-438f" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Anti Aerial Fire" id="8dd4-9015-a07d-5cb2" hidden="false" type="rule" targetId="4f28-8647-b26d-6b1d"/>
+        <infoLink name="Hover" id="aa53-e2bb-9fcc-bc87" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Twin Assault Cannon" hidden="false" id="8062-4833-88ed-2c36" type="selectionEntry" targetId="6691-f966-f7e6-d761" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3eb5-c00d-90cf-5067" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d33d-9fec-50a9-3995" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="11bf-cc60-e2d3-8242" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Stormhawk Primary Weapon Option" id="515c-bfa1-4897-7cd6" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4f34-081d-94ba-c800" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70ea-6ad6-c989-9c1a" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Skyhammer Rocket Launcher" hidden="false" id="2659-f8fe-3f88-85b1" type="selectionEntry" targetId="11a2-5870-ed36-7aaa">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc36-898f-15aa-1cc1" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Typhoon Rocket Launcher" hidden="false" id="d15c-c955-46e9-713a" type="selectionEntry" targetId="73a9-b6d2-40a6-26cf">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="452b-fdd7-f481-036c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="e081-ccea-1412-4828" type="selectionEntry" targetId="f460-1f29-9a39-8fda">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52a8-7cad-eba3-50cf" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="df61-24e8-ed0e-4309" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Stormhawk Secondary Weapon Option" id="9971-815e-d358-a6b4" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9c23-5a47-b7eb-ffa6" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="811f-8f1b-2bdb-5774" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Las Talon" hidden="false" id="0ffa-d455-ad0e-9fb5" type="selectionEntry" targetId="1fc4-8f1c-7945-d5ff">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0673-f9c8-e154-4779" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Icarus Stormcannon" hidden="false" id="3f7b-7491-9654-5570" type="selectionEntry" targetId="d6f9-1044-9e94-042b"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="ee99-80f8-145a-ba3d" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>Chaos</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Xyphon Interceptor" hidden="false" id="498b-974d-b53b-4857">
+      <profiles>
+        <profile name="Xyphon Interceptor" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="ba5d-8ed2-a27a-7618">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">20</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">11</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">16</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(6/D6)" id="cd4f-df86-4d50-5bef" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Anti Aerial Fire" id="82d1-419f-b838-7936" hidden="false" type="rule" targetId="4f28-8647-b26d-6b1d"/>
+        <infoLink name="Hover" id="3dfd-0135-c8f3-dd09" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="2 Twin Las Cannons" hidden="false" id="f6b5-a23c-f919-6f6e" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4ee6-eb6a-b55b-35d4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e70-0e4a-b621-84af" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Twin Las Cannon" hidden="false" id="4ce3-c88d-3813-2b50" type="selectionEntry" targetId="42a2-bc99-3dc-6a20">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="605f-bbfc-bb7e-514b" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1b44-2ca4-cc1c-f4f3" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="Points" value="270"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Xyphon Missile Battery" hidden="false" id="5ec4-399c-7271-0977" type="selectionEntry" targetId="587b-90c4-e496-b2e1"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="1c58-6769-67bf-0add" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="e4d7-2db6-f352-18d6" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="a34a-c151-f39f-5f84" primary="false" name="Fly"/>
+        <categoryLink targetId="9128-c62d-9018-124a" id="4641-7161-2a7d-d2ce" primary="false" name="Xyphon Interceptor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="9c73-e157-f9be-65c0" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="eabd-af56-85c8-8b7b" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Space Marine" hidden="false" id="ea13-acb4-5747-5a3e" typeId="a545-37bd-31e3-a90c" typeName="Unit">
@@ -18230,6 +19547,29 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
       <constraints>
         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3e04-5936-48ec-5d79"/>
       </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Combi Weapons" id="e1f5-e461-2fe4-ab96" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Combi-Melta" hidden="false" id="8f24-8cd3-c87b-6592" type="selectionEntry" targetId="a8da-62b8-2155-150d">
+          <costs>
+            <cost name="Pts" typeId="Points" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combi-Plasma" hidden="false" id="6987-27e6-1bf0-fe55" type="selectionEntry" targetId="5ed6-7471-4ec1-e574">
+          <costs>
+            <cost name="Pts" typeId="Points" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combi-Flamer" hidden="false" id="762b-89c5-505f-27be" type="selectionEntry" targetId="f476-6a10-741-9a1f">
+          <costs>
+            <cost name="Pts" typeId="Points" value="15"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="857d-c430-b734-b00f"/>
+      </constraints>
+      <comment>No Grav</comment>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

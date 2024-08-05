@@ -1,2 +1,139 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="8720-7ee2-f3a9-9fbf" name="Eldar" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="8720-7ee2-f3a9-9fbf" name="Eldar" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Guardians" hidden="false" id="2976-d9e8-dee7-50de" type="selectionEntry" targetId="f5dc-316c-ffcb-a12f">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="18ca-4426-64aa-f031" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Autarch" hidden="false" id="f165-5e65-9ddc-9eb7" type="selectionEntry" targetId="df9d-0698-fc9a-6f33">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="edfe-5c0a-3b65-1bed" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Autarch on Jetbike" hidden="false" id="9d57-96be-a6b4-12f3" type="selectionEntry" targetId="826f-24b7-e015-93c4">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="516b-0fdb-e7cf-4bb0" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rangers" hidden="false" id="f090-8757-c2af-3e43" type="selectionEntry" targetId="91b0-8832-774d-6091">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="09cf-89e8-e050-851b" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dire Avengers" hidden="false" id="ca77-88ef-f5ad-57e1" type="selectionEntry" targetId="650e-f086-e77f-f39a">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="d093-7ff4-73d5-8e4b" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Corsair Voidreavers" hidden="false" id="2be0-60f9-08e7-a5d5" type="selectionEntry" targetId="2075-2a49-9a4a-16b3">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="71e1-b0b8-8801-6d7f" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Harlequin Troupe" hidden="false" id="cdda-caa8-c541-1d3a" type="selectionEntry" targetId="ea29-69f6-cc89-8f2c">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="b90b-5258-094d-5371" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Corsair Voidscarred" hidden="false" id="4ae5-f2d8-dbef-2bf9" type="selectionEntry" targetId="6918-37b1-b6ff-68a8">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="9ee3-f269-b8ef-82b3" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fire Drakes" hidden="false" id="5e0a-21d1-b8f4-8502" type="selectionEntry" targetId="da40-ac81-16cc-0466">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="deb8-d531-7aef-7f78" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Avatar Of Khain" hidden="false" id="9e75-42fc-0a2b-4065" type="selectionEntry" targetId="443a-d53f-721d-5df5">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="5da7-3366-b504-1028" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fireprism" hidden="false" id="5655-fbcb-37ca-4ff4" type="selectionEntry" targetId="780a-4b3d-dfda-8216">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="34d8-b29f-35fd-81a9" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nightspinner" hidden="false" id="c206-57f9-c4dd-815a" type="selectionEntry" targetId="060b-1041-b72a-4be1">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="4160-6941-61f8-8bc1" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Firestorm" hidden="false" id="d63e-9a02-f108-5c79" type="selectionEntry" targetId="ac0f-a4e1-fbc3-e3ad">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="af29-5dac-6ef1-adc4" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warphunter" hidden="false" id="67d5-6723-4ab5-2732" type="selectionEntry" targetId="b470-475c-32cb-e5ca">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="a081-5c5a-e5f5-62b3" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Falcon" hidden="false" id="1b70-56af-0902-7b22" type="selectionEntry" targetId="e960-e960-3cd7-82ed">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="6482-4c43-b364-601a" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Serpent" hidden="false" id="b704-588c-363e-051f" type="selectionEntry" targetId="bdd3-3654-ce78-b13f">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="28ce-81e6-c1af-fa7b" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Windriders" hidden="false" id="6586-eaa5-0610-a3c2" type="selectionEntry" targetId="04b2-768b-6f38-94c2">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="4591-7229-2b91-5f8e" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Windriders" hidden="false" id="3ce2-c72d-6a76-334a" type="selectionEntry" targetId="04b2-768b-6f38-94c2">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="1200-f054-ae65-32c7" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="826f-24b7-e015-93c4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="bb18-b5a3-d53a-5712">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="826f-24b7-e015-93c4" shared="true" roundUp="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="bb18-b5a3-d53a-5712"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Swooping Hawks" hidden="false" id="87c0-a849-95af-6f73" type="selectionEntry" targetId="04df-7848-7722-278c">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="0f4f-0193-eef1-3b45" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Howling Banshees" hidden="false" id="7d65-827d-33b7-7c1d" type="selectionEntry" targetId="284a-504f-b031-1299">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="b099-7282-d5bb-cb57" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wraithlord" hidden="false" id="3eae-816f-923c-bb6a" type="selectionEntry" targetId="1678-a09d-4cec-72de">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="cdbc-d274-47c5-4e48" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Eldar Codex Rules" hidden="false" id="b5cb-0c46-0249-b70a" type="selectionEntry" targetId="8cca-26d7-a53c-cf9b"/>
+    <entryLink import="true" name="Wraithblades" hidden="false" id="ebce-2c71-92a0-d593" type="selectionEntry" targetId="2806-3024-de95-5ecf">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="acd9-b8e7-2ecc-493e" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wraithguards" hidden="false" id="0323-b75d-3105-7353" type="selectionEntry" targetId="1d2e-bc27-958b-6e8f">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="30c3-62d2-4a1b-0380" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Eldar" id="a6b8-fc79-dd10-4cf1" targetId="b14e-215b-f3ae-6da7"/>
+  </catalogueLinks>
+</catalogue>
