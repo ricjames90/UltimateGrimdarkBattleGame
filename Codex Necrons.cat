@@ -1,2 +1,133 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="6e13-4402-237c-51c2" name="Codex Necrons" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="true" id="6e13-4402-237c-51c2" name="Codex Necrons" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Warriors" hidden="false" id="99e3-4e21-cf26-3506">
+      <profiles>
+        <profile name="Warriors" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="dcc8-3e3a-8f3a-9cfa">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">5</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">1</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">1</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Neverending March" id="66c6-4f41-e6b4-8389" hidden="false" type="rule" targetId="e15e-b4e6-355d-f296"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Warriors" id="e883-e3a2-1fd6-c3df" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Warrior" hidden="false" id="bd93-232f-31f4-4d3c">
+              <constraints>
+                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="5e33-ef06-1edf-e5f5" includeChildSelections="false"/>
+                <constraint type="max" value="50" field="selections" scope="parent" shared="true" id="0259-89d9-9beb-abd0" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Scythonets" hidden="false" id="d8a4-603a-a014-5488" type="selectionEntry" targetId="c404-0120-c07f-36e7"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="43ff-6084-fd8f-16d8" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="94e2-6fda-1333-c189" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dec5-5795-c2d7-696b" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Gauss Reaper" hidden="false" id="217e-551c-b578-3fc0" type="selectionEntry" targetId="3270-a972-753b-a482"/>
+                    <entryLink import="true" name="Gauss Flayer" hidden="false" id="d185-d5bf-baaa-781b" type="selectionEntry" targetId="87d4-4fb7-5cac-3385"/>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="217e-551c-b578-3fc0" field="defaultSelectionEntryId"/>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Pts" typeId="Points" value="8"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="8ab4-7c11-d2d8-31bc" includeChildSelections="false"/>
+            <constraint type="max" value="50" field="selections" scope="parent" shared="true" id="8723-379d-68a7-41aa" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="159c-3a7a-34f2-15a1" primary="false" name="Infantry"/>
+        <categoryLink targetId="8de4-edc3-a99c-9c13" id="8b5e-7dc0-6cac-8976" primary="false" name="AT - Light Armor"/>
+        <categoryLink targetId="d55b-775c-99d2-b1da" id="23a3-1a26-e1be-2726" primary="false" name="FACTION: Necrons"/>
+        <categoryLink targetId="09bd-7f4b-8df9-976e" id="5684-ab45-0bcd-ae8e" primary="false" name="Warriors"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gauss Reaper" hidden="false" id="3270-a972-753b-a482" collective="true">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54c9-3c3c-bdda-0c9e" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Gauss Reaper" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="24b6-49f2-cbcf-2c68">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">12</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">1</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">5</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">He,As</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gauss Flayer" hidden="false" id="87d4-4fb7-5cac-3385" collective="true">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ff3-762f-fbc6-7add" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Gauss Flayer" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="8679-5d0d-0f49-05c2">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,As</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scythonets" hidden="false" id="c404-0120-c07f-36e7" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4791-4137-3424-4011" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a80b-b7b1-7443-b478" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Scythonets" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="c10e-0f68-5749-d6e7">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">1</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Warriors" id="09bd-7f4b-8df9-976e" hidden="false"/>
+    <categoryEntry name="Pariah" id="42f6-0072-8835-da50" hidden="false"/>
+    <categoryEntry name="Immortals" id="6e52-ae1f-cbaa-5fe7" hidden="false"/>
+    <categoryEntry name="Lord" id="9773-0947-8a2c-2a56" hidden="false"/>
+    <categoryEntry name="Overlord" id="5f4a-e6ce-b642-ec8a" hidden="false"/>
+  </categoryEntries>
+  <sharedRules>
+    <rule name="Neverending March" id="e15e-b4e6-355d-f296" hidden="false">
+      <description>Necron Warriors reroll failed „I&apos;ll Be Back“-Tests of 1.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

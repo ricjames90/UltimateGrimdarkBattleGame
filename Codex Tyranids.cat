@@ -56,6 +56,7 @@
     <categoryEntry name="Synapse" id="ea9c-729e-9317-55bb" hidden="false"/>
     <categoryEntry name="Psychophage" id="5e1d-ced2-096a-eb50" hidden="false"/>
     <categoryEntry name="Raveners" id="d405-6aaf-730e-28de" hidden="false"/>
+    <categoryEntry name="Expiravis Parasites" id="bf98-7e79-92ca-157b" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Tyranids Codex Rules" hidden="false" id="cfe3-bea3-a18d-75a6" collective="true">
@@ -1436,6 +1437,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
       <infoLinks>
         <infoLink name="Hierodule Carapax" id="df23-c19c-0c35-badc" hidden="false" type="rule" targetId="4475-7c6e-dc76-3195"/>
         <infoLink name="Deadly Demise(9/D6+3)" id="bbd9-6459-fb39-2c19" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Impervious To Injuries(-1)" id="b0b3-0e3c-c1bc-7901" hidden="false" type="rule" targetId="b0d5-df50-640b-c3d4"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="42d3-64d1-b710-6f62" id="5629-a935-cb02-fe0c" primary="false" name="Monster"/>
@@ -1473,7 +1475,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
             <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2D6</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">12</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
-            <characteristic name="D" typeId="1805-642f-c70c-51b6">D3</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
             <characteristic name="Rules" typeId="95e4-c145-7574-7e22">-</characteristic>
           </characteristics>
         </profile>
@@ -1492,7 +1494,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+5</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
-            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">4</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
           </characteristics>
         </profile>
@@ -1518,6 +1520,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
       <infoLinks>
         <infoLink name="Deadly Demise(9/D6+3)" id="d41a-ba92-7ea4-288f" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
         <infoLink name="Hierodule Carapax" id="b602-b5bf-0462-37f9" hidden="false" type="rule" targetId="4475-7c6e-dc76-3195"/>
+        <infoLink name="Impervious To Injuries(-1)" id="b9d5-8a7d-094f-5080" hidden="false" type="rule" targetId="b0d5-df50-640b-c3d4"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="Points" value="265"/>
@@ -1547,7 +1550,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">15</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+5</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
-            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">4</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
           </characteristics>
         </profile>
@@ -2319,12 +2322,12 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           <characteristics>
             <characteristic name="M" typeId="adff-38e4-108c-b07c">12</characteristic>
             <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
-            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
             <characteristic name="S" typeId="ab5f-556e-2-f3e4">8</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">26</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">32</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -2337,7 +2340,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
         <infoLink name="Invulnerable Save(5+)" id="f60d-664b-822c-b591" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
       </infoLinks>
       <costs>
-        <cost name="Pts" typeId="Points" value="190"/>
+        <cost name="Pts" typeId="Points" value="205"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Trygon Talons" hidden="false" id="88c3-b3b0-35de-7886" type="selectionEntry" targetId="ab64-6dda-9dc0-2d1c"/>
@@ -5294,6 +5297,78 @@ change the damage characteristic of the attack to D6+2.</characteristic>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Expiravis Parasites" hidden="false" id="915f-e06c-06d2-cda4">
+      <profiles>
+        <profile name="Expiravis Parasites" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="3926-2fdf-92c3-3672">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">14</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">6+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="bf98-7e79-92ca-157b" id="a291-1d72-8200-a930" primary="false" name="Expiravis Parasites"/>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="e3eb-58bf-4ae4-28b8" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="7eb8-f73d-1daf-87d9" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="8267-60c4-c579-4624" primary="false" name="Fly"/>
+        <categoryLink targetId="e926-7697-48ba-75f3" id="738c-8fa7-d8e5-5de3" primary="false" name="SUPER FACTION: Tyranids"/>
+        <categoryLink targetId="4da3-c252-e57e-461f" id="0958-1589-5e8f-8dfa" primary="false" name="FACTION: Tyranids"/>
+        <categoryLink targetId="ea9c-729e-9317-55bb" id="7b5b-4bd5-a668-ad41" primary="false" name="Synapse"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Expiravis Parasites" id="99bb-adf9-6947-54c0" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Parasites" hidden="false" id="9a9b-4589-4e06-11a9">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1f89-0983-21fb-31e1" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="aa26-387d-eac6-1739" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Mortrex Claws" hidden="false" id="fd9c-fa4b-1c59-41fb" type="selectionEntry" targetId="4f6b-cf52-6198-b5f3"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="79d1-4f2c-e30e-f74c" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ef38-c177-6b94-fdf7" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="04ca-c2bb-13c4-07a6" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="Invulnerable Save(5+)" id="e4af-e2a5-2b0a-29f9" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Ripper Parasites" id="9cbc-d06c-c560-8463" hidden="false" type="rule" targetId="cb6e-37df-d5eb-8c95"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mortrex Claws" hidden="false" id="4f6b-cf52-6198-b5f3" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a51-f4f8-aa0e-d4f1" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e1d-7fae-e7b2-c68f" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Mortrex Claws" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="0735-f29b-090c-795f">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">7</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">MA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <rules>
     <rule name="Synaptic Link" id="b61b-68d4-d797-68ac" hidden="false">
@@ -5427,6 +5502,9 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
     </rule>
     <rule name="Grisly Spectacle" id="7a41-b55b-1a6e-faf2" hidden="false">
       <description>Every enemy unit within 9&apos;&apos; of this model subtracts -1 from their LD characteristic.</description>
+    </rule>
+    <rule name="Ripper Parasites" id="cb6e-37df-d5eb-8c95" hidden="false">
+      <description>After this unit made all its attacks(both in your and your opponents turns fight phases), roll a single D6 for every wound you scored. For every roll of 4+, this unit additionally suffers a single Mortal Wound, and for a roll of 6 it is D3 Mortal Wounds instead. Also, for every 3 Mortal Wounds caused by this rule, you add a unit of a single model of „Ripperswarms“ to the field within 6&apos;&apos; of any Expiravis Parasites model. If the model can&apos;t be placed, it is considered destroyed. This unit can also be placed in engagement range with enemy models, as long as it is wholly within 6&apos;&apos; of any Expiravis Parasites model from the unit that it caused to generate.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>
@@ -5661,7 +5739,7 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
     </profile>
     <profile name="Ripping Em&apos; Apart" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="f36e-3c85-60be-9fb8">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">In a turn a Hive Fleet Kraken unit has charged, add +1 to its Initiative Characteristic. Also add +1 to the strength characteristic of all Hife Fleet Kraken unts and add +1A to the weapons profile of a single melee weapon permanently.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">In a turn a Hive Fleet Kraken unit has charged, add +1 to its Initiative Characteristic. Also add +1 to the strength characteristic of all Hive Fleet Kraken infantry units and add +1A to the weapons profile of a single melee weapon permanently. Also, when declaring a charge, roll 3D6 and pick the two highest rolls. Monster units with 20LP or less in score on unmodified wound rolls of a 6 a single Mortal Wound, monster units with over 20LP score D3 Mortal Wounds on unmodified Wound Rolls of 6. </characteristic>
       </characteristics>
     </profile>
     <profile name="Swarming Insects" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="c49c-7deb-fb21-fd3d">
@@ -5672,7 +5750,7 @@ Monster Type Units ad +1M&apos;&apos; to their stat and also add +1 to their cha
     </profile>
     <profile name="Hidden In Every Crevice" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="dc36-8192-ac0c-349e">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Hive Fleet Jormungandr Infantry unit that is further than 12&apos;&apos; away from an enemy unit that has selected an eligible unit as the target of ranged attack is considered to benefit from cover, no Special Rule can cancel this rule. Also, any Hive Fleet Jormungandr Infantry Units can „Go Into Hiding“ in open field and can never be uncovered. They can only be selected as a target for charges during your opponents Fight Phase. Monster-Units with 20LP and below gain the „Stealth“ Special Rule.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Hive Fleet Jormungandr Infantry unit that is further than 12&apos;&apos; away from an enemy unit that has selected an eligible unit as the target of ranged attack is considered to benefit from cover, no Special Rule can cancel this rule. Also, any Hive Fleet Jormungandr Infantry Units can „Go Into Hiding“ in open field and can never be uncovered. They can only be selected as a target for charges during your opponents Fight Phase. Monster-Units with 20LP and below gain the „Stealth“ Special Rule. Monster units do not benefit from the „Guards Of Behemoths“ Tyranid Warrior Special Rule if you start the game.</characteristic>
       </characteristics>
     </profile>
     <profile name="Out Of The Dark" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="ca8b-17cb-19ce-edfe">

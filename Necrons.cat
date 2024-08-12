@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="43fa-e154-e092-40f4" name="Necrons" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="43fa-e154-e092-40f4" name="Necrons" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Necrons" id="88e3-5ed8-4bdd-d229" targetId="6e13-4402-237c-51c2"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Warriors" hidden="false" id="2b70-509c-6231-02af" type="selectionEntry" targetId="99e3-4e21-cf26-3506">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="1814-9746-f6a5-c310" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>

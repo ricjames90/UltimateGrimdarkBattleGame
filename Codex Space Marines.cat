@@ -8659,7 +8659,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <profile name="Impulsor" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="b81e-cbd9-3588-1c28">
           <characteristics>
             <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 6 Infantry models.
-It can ony transport models with the keyword „Power Armor“.
+It can only transport models with the keyword „Power Armor“.
 Models with the keyword „Power Armor“ count as 1.</characteristic>
           </characteristics>
         </profile>
