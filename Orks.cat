@@ -14,5 +14,274 @@
         <categoryLink targetId="79e5-570b-2bdd-d3d7" id="add4-b598-f343-61b9" primary="true" name="TROOPS"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Beastsnagga Boyz" hidden="false" id="c7ab-29f0-66a6-8288" type="selectionEntry" targetId="5366-bc7b-3a14-f6fb">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="37d2-c40b-024f-9929" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warboss" hidden="false" id="4cb7-badf-d0c7-0ddb" type="selectionEntry" targetId="2645-77a9-53a5-0e4e">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="1c8c-4326-3638-72b4" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Battlewagons" hidden="false" id="e064-a106-1c4c-faf2" type="selectionEntry" targetId="c464-4d11-adf7-4f79">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="5ecc-2984-7112-fca8" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormboyz" hidden="false" id="3b9c-a84c-70e3-27e5" type="selectionEntry" targetId="9d4e-2e58-79e8-3ced">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="894e-01c7-5872-d0e9" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Orks Codex Rules" hidden="false" id="5517-a0d9-cd54-51b2" type="selectionEntry" targetId="26a6-7e6a-57b7-1f5c"/>
+    <entryLink import="true" name="Ork Cvlt Selection" hidden="false" id="63dc-f6e1-8a29-dc4b" type="selectionEntry" targetId="b36b-4dfa-fc7a-c993"/>
+    <entryLink import="true" name="Stompa" hidden="false" id="bdbd-831f-cb91-e84d" type="selectionEntry" targetId="8436-7aaa-7db4-2f2d">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="2b15-5724-09dc-be41" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Killtank" hidden="false" id="fb1f-e44b-c6c8-c3c8" type="selectionEntry" targetId="dd13-bb11-2d1a-a694">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="b2ba-49a0-b719-41b6" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Runtherd" hidden="false" id="ab40-fc2d-d864-6aef" type="selectionEntry" targetId="eb50-8d3f-8593-dc61">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="d542-7a7a-d5cb-87e2" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Runtherd" hidden="false" id="985c-7508-36d9-7dbe" type="selectionEntry" targetId="eb50-8d3f-8593-dc61">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="0221-a310-b78f-ee78" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="0edc-f92b-c52e-bd7d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="ded8-dea4-093d-712e">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="0edc-f92b-c52e-bd7d" shared="true" roundUp="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="ded8-dea4-093d-712e"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Great Warboss" hidden="false" id="cec2-e42a-86dd-1e5f" type="selectionEntry" targetId="7875-c28c-8fdd-20da">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="da0c-b2f8-ca65-6a5b" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Boss" hidden="false" id="b4f1-17ee-a2fb-e297" type="selectionEntry" targetId="5486-538a-8edb-39cb">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="67ca-7711-a578-6cca" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Weirdboy" hidden="false" id="049d-3dc6-3dd2-42d6" type="selectionEntry" targetId="fd4c-3145-8d9d-f80c">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="ea24-ad48-148e-84d7" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wurrboy" hidden="false" id="299a-362c-2b25-1a0b" type="selectionEntry" targetId="dba7-d4cd-47b6-9171">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="1852-bf89-c9de-6b76" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Painboy" hidden="false" id="d280-7ed6-923c-d0b1" type="selectionEntry" targetId="b980-1cf6-804e-56f8">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="0fa8-ed65-5f30-8181" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Painboss" hidden="false" id="df38-8276-cba1-9e0a" type="selectionEntry" targetId="2fb7-668e-368d-e4c8">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="d05b-33d5-15a2-50f9" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Big Mek" hidden="false" id="6ee3-bb59-8c9d-a181" type="selectionEntry" targetId="ed66-baea-a022-5637">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="28db-1ec5-ba10-baf6" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Meks" hidden="false" id="37ca-ec2f-e202-7932" type="selectionEntry" targetId="9135-4f0f-1a2f-54bd">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="6ffe-e6ca-e0fb-60f7" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Burna Boyz" hidden="false" id="7d59-88ea-64fd-083c" type="selectionEntry" targetId="9c02-e2b7-29e0-d1be">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="fae1-b58e-3dd3-8b6f" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tankbustas" hidden="false" id="cf01-d487-69a2-1481" type="selectionEntry" targetId="0cb3-aa1d-ef1d-576e">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="7d07-d2e3-0912-cfc1" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Flash Gitz" hidden="false" id="5c27-9268-8da4-f213" type="selectionEntry" targetId="7b49-9dcb-9905-6f1a">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="656f-c44a-537c-23a5" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lootaz" hidden="false" id="bfa7-69a0-a7ac-a4b1" type="selectionEntry" targetId="d4a1-6fe2-655d-eac8">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="7f63-903b-ccde-3c6a" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kill Rig" hidden="false" id="27b5-99ea-8cf4-08a9" type="selectionEntry" targetId="7ba5-74f4-ba01-0ae4">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="8a17-b9d6-976b-80fb" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hunta Rig" hidden="false" id="ea06-2c55-e399-bb9c" type="selectionEntry" targetId="0109-aebc-0fc5-13b3">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="5246-7ff2-7b9f-52af" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Gargantuan Squiggoth" hidden="false" id="a5f4-a90f-2776-a26b" type="selectionEntry" targetId="7948-ea31-6f7c-bfaf">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="0c16-2994-6f4e-b170" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warbikers" hidden="false" id="f685-dc9f-89f2-ad85" type="selectionEntry" targetId="d5a3-9941-e8ef-1dc5">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="9f20-3376-7f27-7318" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Trukk" hidden="false" id="2bd0-141c-9604-1f2b" type="selectionEntry" targetId="4532-4423-fead-7340">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="e0d6-2304-1f34-c1d7" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Gorkanaut" hidden="false" id="ccd5-dced-eae6-f4b1" type="selectionEntry" targetId="4978-0e2c-9e32-ad9b">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="5456-1404-397d-6399" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Morkanaut" hidden="false" id="4951-124a-634e-b0b5" type="selectionEntry" targetId="ea40-b251-6b8d-0d71">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="5ed2-27f6-734b-d12e" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Squiggoth" hidden="false" id="57ca-651a-e279-9a02" type="selectionEntry" targetId="1e6e-15b9-b287-5edd">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="d8b6-7887-3d0f-cb73" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Killakans" hidden="false" id="de3b-53e9-bf8b-a98a" type="selectionEntry" targetId="6503-c805-93b3-94ba">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="2df2-9951-8c37-4971" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deffkoptas" hidden="false" id="c0d6-4b19-b569-9468" type="selectionEntry" targetId="5a13-5d12-5d18-3bfd">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="e7d4-fe5e-dcc4-a914" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shokkjump Dragstas" hidden="false" id="feeb-ebce-523c-37df" type="selectionEntry" targetId="356b-9ce5-97da-10c1">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="d39e-9696-1887-820f" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rukkatrukk Squigbuggys" hidden="false" id="6824-f17b-579d-d311" type="selectionEntry" targetId="bba9-5034-6e2e-2b25">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="e4d7-1528-96db-9c54" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Megatrakk Scrapjets" hidden="false" id="324c-1b5d-4706-dc82" type="selectionEntry" targetId="85c6-56b4-b35b-adb9">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="aac2-9b26-25d0-b9d2" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kustom Boosta Blastas" hidden="false" id="812e-588d-0194-f71e" type="selectionEntry" targetId="e507-d953-ca1e-1c5c">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="1e39-fa71-57bf-3a7a" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Boomdakka Snazzwagons" hidden="false" id="964b-d726-f179-9240" type="selectionEntry" targetId="73b1-684f-e9a2-ee0f">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="1b56-a483-8317-04fb" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deff Dreadz" hidden="false" id="0559-b8b4-2fb7-0153" type="selectionEntry" targetId="4d37-6032-4abb-209c">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="56d0-c467-71ed-2506" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nobz" hidden="false" id="5595-d2df-18d7-a1c4" type="selectionEntry" targetId="7ab2-30f1-1555-d07d">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="8f7a-99d3-e0a0-fc4b" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Meganobz" hidden="false" id="92f0-b1ba-ebcc-31d6" type="selectionEntry" targetId="ad1f-ad21-1022-3143">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="37e7-821f-472a-f9db" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dakkajet" hidden="false" id="7128-1d6b-a06e-0d91" type="selectionEntry" targetId="cf9a-5440-35b8-3a0e">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="cfc2-759a-196f-077b" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Blitza Bomma" hidden="false" id="f1fc-ad71-7f79-b6d4" type="selectionEntry" targetId="b76a-0c7c-e789-3ee7">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="4004-5ea8-5f49-987a" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wazbom Blastajet" hidden="false" id="a6a0-424a-6b15-51d1" type="selectionEntry" targetId="c71d-8134-e1a5-e4cd">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="67c2-3f70-7cad-89ef" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nobz" hidden="false" id="fbf2-b6e7-175b-daff" type="selectionEntry" targetId="78c0-1fdc-91da-0bc4">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="bfe1-1b88-79a1-610f" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="c3b9-5f51-0776-fa51"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="7875-c28c-8fdd-20da" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="2645-77a9-53a5-0e4e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="5486-538a-8edb-39cb" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="5" field="c3b9-5f51-0776-fa51">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7875-c28c-8fdd-20da" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="3" field="c3b9-5f51-0776-fa51">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="2645-77a9-53a5-0e4e" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="c3b9-5f51-0776-fa51">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="5486-538a-8edb-39cb" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Megadread" hidden="false" id="5128-a8df-eecb-1ec5" type="selectionEntry" targetId="4aeb-b23d-61dd-5295">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="2a31-0f3e-8a06-0920" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Squighog Boyz" hidden="false" id="506a-aaf8-d456-04b4" type="selectionEntry" targetId="a91e-08a5-b315-97ee">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="42b1-f284-bc3d-f3fb" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kommandoz" hidden="false" id="1beb-4ab4-aec9-fbfe" type="selectionEntry" targetId="4e1c-e72d-93c0-e0e4">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="2bf4-b0d5-e471-3ce3" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

@@ -1,2 +1,702 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="f62c-2cae-6827-39d5" name="Codex Imperial Auxiliaries" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="true" id="f62c-2cae-6827-39d5" name="Codex Imperial Auxiliaries" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <rules>
+    <rule name="Imperial Auxiliaries" id="777e-17c3-9cea-88ab" hidden="false">
+      <description>Units with the „Imperial Auxiliaries“ Faction Keyword can be added to any army with the Imperium and Genestealer Cults(Genestealer Cults can only take units from the „Bane-Tanks“ Selection) Faction Keyword. Imperial Auxiliaries are allowed to take up to a maximum of 30% of your Army List. 
+
+
+Imperial Auxiliaries are allowed to take up to a maximum of 50% of your Army List when this is an „AdMech“ Army, but only if all Imperial Auxiliaries Units are picked from the „Imperial Knights“ Section. Otherwise they can only take up to 30%. 
+
+
+Regarding your Army Organisation Plan, they take up units according to their unit type, unless otherwise mentioned. 
+
+
+Imperial Auxiliaries Units never profit from any Main-, oder Subfaction Rules unless otherwise mentioned.
+
+
+Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Imperial Knight and Titan Selection units with Repair Abilities that target vehicles. All other vehicles may be selected as the target of Repair abilities from any Imperium Unit, for example a „Space Marine Techmarine“.</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Imperial Knight" hidden="false" id="040f-6ccd-dd5b-fd47">
+      <profiles>
+        <profile name="Imperial Knight" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="d0a6-19b8-56d3-1fa2">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">12</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">30</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="2a33-28cb-f351-548c" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="43d8-0d1a-5fba-dd11" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="900f-93a6-3526-29dd" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="4b9c-afe4-7b77-d66a" id="9634-66ae-9753-741b" primary="false" name="Imperial Knight"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="e4c4-9305-b016-8ded" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="b6c9-0670-1413-fa76" primary="false" name="Imperial Reinforcements"/>
+        <categoryLink targetId="f3a4-61dd-14ed-d1e4" id="64c6-4451-6977-ae84" primary="false" name="Royal Knights"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Deadly Demise(12/D6+6)" id="f752-5ac8-b667-322f" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Invulnerable Save(5+)" id="ef7f-862c-4c77-ab2f" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Ancient Architecture" id="e6b1-e588-d44c-714d" hidden="false" type="rule" targetId="201e-25d9-6c28-d532"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="330"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Stomping Feet" hidden="false" id="a1ef-c5ae-6456-11bd" type="selectionEntry" targetId="bee0-dcca-26fc-63be"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Auxiliary Weapon" id="af6b-2c4d-8700-9881" hidden="false">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="968f-a783-5a8d-eb99" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a38a-271f-d296-6f98" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Melta Gun" hidden="false" id="e38a-efb7-3eb4-26ff" type="selectionEntry" targetId="7618-1e92-18bb-a50b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e282-9566-13f1-9fd2" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Multilaser" hidden="false" id="4a58-572e-2403-369c" type="selectionEntry" targetId="1f96-1e0a-6ca6-b756">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bec-9d65-b4e2-b92d" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Roof Pod Weapon" id="ba69-eef6-a4cd-1bf7" hidden="false">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0bac-ecfc-b396-857e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c00c-592e-8af3-f2ab" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Icarus Rocket Pod" hidden="false" id="e982-fd35-d98c-c263" type="selectionEntry" targetId="b1b4-948c-43d7-6b3b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3971-e4ff-7790-c991" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Ironstorm Missile Pod" hidden="false" id="0fcb-704d-8e36-3a98" type="selectionEntry" targetId="6a10-49f4-0bb1-b963">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8f0-e334-d09e-c9b9" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Stormspear Rocket Pod" hidden="false" id="d6a9-298d-b0ce-e982" type="selectionEntry" targetId="dc87-615e-88ec-384d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bccd-edc9-3364-4275" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="20"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Arm Weapons" id="3070-f2ab-4a8a-bfe4" hidden="false">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4168-5510-15c2-7882" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3fa8-c6f8-12c8-1d21" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Arm 1" id="9c2a-48e2-ee5a-8ebc" hidden="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32b1-aadb-e2eb-8500" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5edb-b297-ecdf-3038" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Avenger Gatling Cannon w/Heavy Flamer" hidden="false" id="a81b-eb6b-bfc0-9659" type="selectionEntry" targetId="4724-2f2e-8512-c1dc">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="35"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="742d-a1e0-b209-c4df" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Rapidfire Battlecannon" hidden="false" id="262c-1eeb-daa9-8a81" type="selectionEntry" targetId="5df4-c323-27cf-9344">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="30"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe23-4534-9bf6-a122" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Las Impulsor" hidden="false" id="9501-b110-5fcf-4fd9" type="selectionEntry" targetId="312f-d77e-d155-129d">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="50"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d3c-708b-6f0c-e457" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thunderstorm Gauntlet" hidden="false" id="bccc-748d-ee2a-b2f3" type="selectionEntry" targetId="f10f-686a-029b-681a">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="243c-7c6b-9dce-96e8" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thermal Cannon" hidden="false" id="f145-4009-e45c-e14d" type="selectionEntry" targetId="c665-fabc-d658-29db">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="40"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1832-f96f-ea5a-4a59" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Reaper Chainsword" hidden="false" id="2526-7067-adaa-807b" type="selectionEntry" targetId="9959-afc2-5a2b-1357">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e56b-2ffc-50fb-7ddb" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <modifiers>
+                <modifier type="set" value="2526-7067-adaa-807b" field="defaultSelectionEntryId"/>
+              </modifiers>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Arm 2" id="6bb1-bf24-3521-c0ef" hidden="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e734-5e60-0533-5595" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="574f-974f-a279-3f58" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Avenger Gatling Cannon w/Heavy Flamer" hidden="false" id="75af-4e1e-000d-258a" type="selectionEntry" targetId="4724-2f2e-8512-c1dc">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="35"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab6d-43fb-0156-4de3" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Las Impulsor" hidden="false" id="13f2-b985-1ab4-770d" type="selectionEntry" targetId="312f-d77e-d155-129d">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="50"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8bd-0eb0-d722-1dd7" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Rapidfire Battlecannon" hidden="false" id="35d4-6dc0-b943-6c72" type="selectionEntry" targetId="5df4-c323-27cf-9344">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="30"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="594a-8414-1242-a797" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Reaper Chainsword" hidden="false" id="57a8-1bf1-61ba-2e38" type="selectionEntry" targetId="9959-afc2-5a2b-1357">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce80-55ee-65d7-e7a7" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thermal Cannon" hidden="false" id="d9e4-6582-4685-861b" type="selectionEntry" targetId="c665-fabc-d658-29db">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="40"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd0c-4768-11d2-9e53" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thunderstorm Gauntlet" hidden="false" id="dd0a-799b-ccf4-2194" type="selectionEntry" targetId="f10f-686a-029b-681a">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a37f-e274-761e-a523" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <modifiers>
+                <modifier type="set" value="35d4-6dc0-b943-6c72" field="defaultSelectionEntryId"/>
+              </modifiers>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stomping Feet" hidden="false" id="bee0-dcca-26fc-63be" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0918-002a-87c1-30b3" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30cf-db72-fa65-e245" includeChildSelections="false"/>
+      </constraints>
+      <comment>Imperial Knight</comment>
+      <profiles>
+        <profile name="Stomping Feet" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="1309-00d0-182c-4369">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">ExA</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melta Gun" hidden="false" id="7618-1e92-18bb-a50b">
+      <profiles>
+        <profile name="Melta Gun" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="bb93-3a96-741b-f15b">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,Tb(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Multilaser" hidden="false" id="1f96-1e0a-6ca6-b756">
+      <profiles>
+        <profile name="Multilaser" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="aad0-baa1-b55b-bb7b">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">R18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">12</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stormspear Rocket Pod" hidden="false" id="dc87-615e-88ec-384d">
+      <profiles>
+        <profile name="Stormspear Rocket Pod" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="9f07-95dd-1b2d-6dba">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">12</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Icarus Rocket Pod" hidden="false" id="b1b4-948c-43d7-6b3b">
+      <profiles>
+        <profile name="Icarus Rocket Pod" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="2a23-3f24-c2c5-4bdb">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">5</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ironstorm Missile Pod" hidden="false" id="6a10-49f4-0bb1-b963">
+      <profiles>
+        <profile name="Ironstorm Missile Pod" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="ced7-fa83-b1f9-277a">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,ArF,Ex(5)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thunderstorm Gauntlet" hidden="false" id="f10f-686a-029b-681a">
+      <profiles>
+        <profile name="Thunderstorm Gauntlet" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="8439-0907-006a-7a6d">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">8</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-1 Ini,Tre</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Reaper Chainsword" hidden="false" id="9959-afc2-5a2b-1357">
+      <profiles>
+        <profile name="Reaper Chainsword - Strike" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="4ffc-a4b8-a624-2e9a">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">DD6</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Reaper Chainsword - Sweep" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="8cd2-ae24-a72c-eeef">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">10</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thermal Cannon" hidden="false" id="c665-fabc-d658-29db">
+      <profiles>
+        <profile name="Thermal Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="3c99-8168-9053-2aae">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">20</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">8</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Tb(4)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rapidfire Battlecannon" hidden="false" id="5df4-c323-27cf-9344">
+      <profiles>
+        <profile name="Rapidfire Battlecannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="26f4-6ca3-4427-dc59">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">10</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">9</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Las Impulsor" hidden="false" id="312f-d77e-d155-129d">
+      <profiles>
+        <profile name="Las Impulsor - High Intensity" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="fe30-7ce3-3d98-a0ff">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">18</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">6</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Las Impulsor - Low Intensity" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="5b53-8b12-fb2f-203f">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">6</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Avenger Gatling Cannon w/Heavy Flamer" hidden="false" id="4724-2f2e-8512-c1dc">
+      <profiles>
+        <profile name="Avenger Gatling Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="81e6-4d07-7fe9-94e4">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">24</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">6</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ar</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heavy Flamer" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="770e-540d-f71a-0027">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">*</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">To,IgC</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Imperial Auxiliaries Rules" hidden="false" id="6655-6d17-08b1-bb3e">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="330b-d820-6249-1bd9" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0dc-aa28-ffd5-3b0f" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="c145-d9c2-faa2-ffc6" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b06c-807b-166d-57b3" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Imperial Auxiliaries" id="02ad-e675-4140-dcf2" hidden="false" type="rule" targetId="777e-17c3-9cea-88ab"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="bf9c-ecb1-6aa4-5acf" id="e006-93e3-191c-cd51" primary="true" name="Configuration"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="7666-0058-2b1f-2ef6" primary="false" name="FACTION: Imperial Auxiliaries"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Armiger Helverin" hidden="false" id="58c7-369f-4c4a-a1cb">
+      <infoLinks>
+        <infoLink name="Armiger" id="2186-522d-680f-3120" hidden="false" type="profile" targetId="5036-7548-55b9-f89b"/>
+        <infoLink name="Deadly Demise(6/D6)" id="e595-066d-5950-b062" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Invulnerable Save(6+)" id="bc0e-d4de-e1c1-da7f" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="d3a8-bf03-bcff-409c" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="526d-2a1a-f8c1-6042" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="456c-f07d-8240-6032" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="2cd1-da46-b3fc-b5c0" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="cfe9-ecbb-1805-0d24" id="38cc-272f-45c3-14c1" primary="false" name="Armiger Helverin"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="03fb-5548-8e90-5b9c" primary="false" name="Imperial Reinforcements"/>
+        <categoryLink targetId="f3a4-61dd-14ed-d1e4" id="1b79-a936-e98a-1b21" primary="false" name="Royal Knights"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armiger Helverins" id="f112-5204-9601-987d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Armiger" hidden="false" id="4fef-b1da-9d85-dcd9">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="2 Armiger Autocannons" hidden="false" id="b25b-acf7-b31a-9f0c" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3316-a561-a785-0355" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b5d-d3da-bc63-09bb" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Armiger Autocannon" hidden="false" id="0723-8dfb-3e59-8daf" type="selectionEntry" targetId="cffa-46f3-0c19-a84a" collective="true">
+                      <constraints>
+                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0212-e057-efc9-833e" includeChildSelections="false"/>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="813c-8a4d-9955-8920" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Armiger Auxiliary Weapon" hidden="false" id="eb65-6781-7a22-3118" type="selectionEntryGroup" targetId="229b-a4b4-8c31-a0ac"/>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="Points" value="180"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d7a9-2b7f-3e2b-a592" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d6c3-6aac-3711-d937" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c5e0-fe52-e9a2-1bba" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e033-3349-5150-3184" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stomping Feet" hidden="false" id="1dfb-9d03-e2e8-05a8" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="adea-3357-5565-e33a" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="483d-3794-45c9-f741" includeChildSelections="false"/>
+      </constraints>
+      <comment>Armiger</comment>
+      <profiles>
+        <profile name="Stomping Feet" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="574b-6758-5fb7-3f49">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Armiger Warglaive" hidden="false" id="a1c7-3a48-2062-5694">
+      <infoLinks>
+        <infoLink name="Armiger" id="2269-d142-1177-025c" hidden="false" type="profile" targetId="5036-7548-55b9-f89b"/>
+        <infoLink name="Deadly Demise(6/D6)" id="19bd-8386-62a2-bc58" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Invulnerable Save(6+)" id="bae2-8c58-d41c-163b" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="73ff-2d7b-444b-6a81" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="7a2b-7c33-bd5a-02b0" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="d0ca-9513-ddfd-8ef8" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="40b6-16b4-c8b7-f274" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="f902-8e80-4bd6-2d7b" id="7484-ba74-5d29-9210" primary="false" name="Armiger Warglaive"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="4d4f-4817-0de2-bccc" primary="false" name="Imperial Reinforcements"/>
+        <categoryLink targetId="f3a4-61dd-14ed-d1e4" id="6f6d-8320-eb8d-95fa" primary="false" name="Royal Knights"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armiger Warglaives" id="dd80-6b71-48bc-80b8" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="49c7-8253-a858-51e5" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="eb88-54cd-c681-6bc2" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Armiger" hidden="false" id="57aa-97b6-033a-68f6">
+              <costs>
+                <cost name="Pts" typeId="Points" value="210"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Stomping Feet" hidden="false" id="b8e0-7e07-cd31-bab1" type="selectionEntry" targetId="1dfb-9d03-e2e8-05a8"/>
+                <entryLink import="true" name="Armiger Auxiliary Weapon" hidden="false" id="3b7c-db2a-6a9d-7f7e" type="selectionEntryGroup" targetId="229b-a4b4-8c31-a0ac"/>
+                <entryLink import="true" name="Armiger Reaper Chainsword" hidden="false" id="bb86-8f38-2b90-6f52" type="selectionEntry" targetId="cfe7-e86a-8170-95bf" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="536c-7822-5f3f-801e" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b3c-902c-9c08-1003" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thermal Spear" hidden="false" id="8159-9dbd-4654-f055" type="selectionEntry" targetId="18f4-2d37-5e2b-417b" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5407-e52c-46fe-8a7b" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="caf5-395f-2bda-53c9" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f04f-0f42-bbdd-0238" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a9ad-4070-6b5f-e1c1" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Stubber" hidden="false" id="f80f-d6fc-87e8-85fc">
+      <profiles>
+        <profile name="Heavy Stubber" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="d871-9fd0-357e-019d">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">6</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Armiger Autocannon" hidden="false" id="cffa-46f3-0c19-a84a">
+      <profiles>
+        <profile name="Armiger Autocannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="6b37-8d0e-880a-904d">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Armiger Reaper Chainsword" hidden="false" id="cfe7-e86a-8170-95bf">
+      <profiles>
+        <profile name="Armiger Reaper Chainsword - Strike" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="cb43-dc58-1d9f-f8b7">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">3</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Armiger Reaper Chainsword - Sweep" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="25ba-a984-d08b-c792">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">7</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User </characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thermal Spear" hidden="false" id="18f4-2d37-5e2b-417b">
+      <profiles>
+        <profile name="Thermal Spear" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="9245-7f85-f0a5-8492">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">20</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Tb(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Imperial Knight" id="4b9c-afe4-7b77-d66a" hidden="false"/>
+    <categoryEntry name="Armiger Helverin" id="cfe9-ecbb-1805-0d24" hidden="false"/>
+    <categoryEntry name="Armiger Warglaive" id="f902-8e80-4bd6-2d7b" hidden="false"/>
+    <categoryEntry name="Imperial Reinforcements" id="9c77-3154-dcd8-f229" hidden="false">
+      <constraints>
+        <constraint type="max" value="30" field="Points" scope="force" shared="true" id="85f1-33af-82a6-853e" includeChildSelections="true" percentValue="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="Royal Knights" id="f3a4-61dd-14ed-d1e4" hidden="false"/>
+  </categoryEntries>
+  <sharedRules>
+    <rule name="Ancient Architecture" id="201e-25d9-6c28-d532" hidden="false">
+      <description>Wound Rolls of 1-3 made against this model always fail.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile name="Armiger" hidden="false" id="5036-7548-55b9-f89b" typeId="a545-37bd-31e3-a90c" typeName="Unit">
+      <characteristics>
+        <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+        <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+        <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+        <characteristic name="S" typeId="ab5f-556e-2-f3e4">8</characteristic>
+        <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+        <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
+        <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">20</characteristic>
+        <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+        <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Armiger Auxiliary Weapon" id="229b-a4b4-8c31-a0ac" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91c3-97ff-9133-871e" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Melta Gun" hidden="false" id="717a-01e9-8d3b-7f5b" type="selectionEntry" targetId="7618-1e92-18bb-a50b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="02cf-6826-8303-dd4a" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Heavy Stubber" hidden="false" id="4209-193d-3cba-0646" type="selectionEntry" targetId="f80f-d6fc-87e8-85fc"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

@@ -2100,7 +2100,7 @@
             <selectionEntry type="model" import="true" name="Rubric Marine" hidden="false" id="d181-6da0-092e-848e">
               <entryLinks>
                 <entryLink import="true" name="Combatweapon" hidden="false" id="c50d-bf62-5ded-8ef1" type="selectionEntry" targetId="275-a5a3-6e96-ee42"/>
-                <entryLink import="true" name="Inferno Boltpistol" hidden="false" id="ff43-a49f-353b-4036" type="selectionEntry" targetId="bb5b-b61a-adbf-6b8d"/>
+                <entryLink import="true" name="Inferno Bolt Pistol" hidden="false" id="ff43-a49f-353b-4036" type="selectionEntry" targetId="bb5b-b61a-adbf-6b8d"/>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="8a7a-1fd6-c86b-d38b" includeChildSelections="false"/>
@@ -2150,7 +2150,7 @@
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23c5-efa5-8a9e-7315" includeChildSelections="false"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Inferno Boltpistol" hidden="false" id="5157-fe0e-5d42-beb2" type="selectionEntry" targetId="bb5b-b61a-adbf-6b8d"/>
+                        <entryLink import="true" name="Inferno Bolt Pistol" hidden="false" id="5157-fe0e-5d42-beb2" type="selectionEntry" targetId="bb5b-b61a-adbf-6b8d"/>
                         <entryLink import="true" name="Plasma Pistol" hidden="false" id="5250-2219-55ff-2d13" type="selectionEntry" targetId="a4d4-23bc-1e16-506e">
                           <costs>
                             <cost name="Pts" typeId="Points" value="5"/>
@@ -2201,7 +2201,7 @@
               </modifiers>
               <entryLinks>
                 <entryLink import="true" name="Combatweapon" hidden="false" id="6adf-652b-d783-716f" type="selectionEntry" targetId="275-a5a3-6e96-ee42"/>
-                <entryLink import="true" name="Inferno Boltpistol" hidden="false" id="06e7-368e-abbe-136d" type="selectionEntry" targetId="bb5b-b61a-adbf-6b8d"/>
+                <entryLink import="true" name="Inferno Bolt Pistol" hidden="false" id="06e7-368e-abbe-136d" type="selectionEntry" targetId="bb5b-b61a-adbf-6b8d"/>
                 <entryLink import="true" name="Inferno Chaincannon" hidden="false" id="2dc6-6ca8-43e7-84b6" type="selectionEntry" targetId="598e-cc4c-8317-18b4" collective="true">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="576d-6984-712e-20a2" includeChildSelections="false"/>
@@ -2383,6 +2383,24 @@
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="aa2a-dd11-ef2f-b03c" includeChildSelections="false"/>
                 <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="7831-9957-8837-8154" includeChildSelections="false"/>
               </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="c7d0-6143-56c0-e008" type="selectionEntry" targetId="e288-90ad-8e77-1908"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="16ec-65f4-afaa-effe" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8af-1913-b0f3-ac17" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="296f-675e-2e70-19d5" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Pair Of Plague Knives" hidden="false" id="3f8d-fe65-f90f-1cfb" type="selectionEntry" targetId="4fbb-05d5-c95e-7be4"/>
+                    <entryLink import="true" name="Plague Knife and Bolt Gun" hidden="false" id="53bb-a051-1b1f-cea1" type="selectionEntry" targetId="115c-3a73-8550-aebc"/>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="53bb-a051-1b1f-cea1" field="defaultSelectionEntryId"/>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Plague Champion" hidden="false" id="4c56-5949-560d-7540">
               <costs>
@@ -2392,11 +2410,130 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb31-4574-8db6-a077" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d7a-d5a7-5d01-1d20" includeChildSelections="false"/>
               </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Plague Knife" hidden="false" id="b4ee-5c4b-aa2a-e777" type="selectionEntry" targetId="4674-545c-28be-bb4d"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="9248-72eb-8354-e7f7" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bc2f-0696-1730-f095" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="00c0-2067-f18f-cbc0" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Ranged Weapons" id="df8e-3a1d-0cd4-35ff" hidden="false">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b25-ed5f-ef58-d651" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Bolt Gun" hidden="false" id="ea78-9d55-50e9-43c2" type="selectionEntry" targetId="532e-a988-2ad2-efe1"/>
+                        <entryLink import="true" name="Combi-Plasma" hidden="false" id="e021-e030-28e1-4ae0" type="selectionEntry" targetId="5ed6-7471-4ec1-e574">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="15"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Combi-Melta" hidden="false" id="e1f9-9224-931e-f492" type="selectionEntry" targetId="a8da-62b8-2155-150d">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="15"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                      <modifiers>
+                        <modifier type="set" value="ea78-9d55-50e9-43c2" field="defaultSelectionEntryId"/>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Pistols" id="692f-cf85-82c1-1b13" hidden="false">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0258-56bd-c8b9-b14c" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Plasma Pistol" hidden="false" id="9a0e-0c35-ba41-ad7e" type="selectionEntry" targetId="a4d4-23bc-1e16-506e">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="5"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Bolt Pistol" hidden="false" id="36b8-2365-7c05-6a4f" type="selectionEntry" targetId="e288-90ad-8e77-1908"/>
+                      </entryLinks>
+                      <modifiers>
+                        <modifier type="set" value="36b8-2365-7c05-6a4f" field="defaultSelectionEntryId"/>
+                      </modifiers>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Melee Weapons" id="93ac-d472-a641-24fb" hidden="false">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3559-733d-6bd4-0d91" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Powerfist" hidden="false" id="8e01-1b95-bd99-f011" type="selectionEntry" targetId="d658-88ba-1a49-474a">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="7"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Plague Blade" hidden="false" id="b9ad-73bc-ce56-e401" type="selectionEntry" targetId="cab9-e227-3de0-a1a0">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="7"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Plague Marine w/Special Weapon" hidden="false" id="622c-25d1-94db-9dac">
               <costs>
                 <cost name="Pts" typeId="Points" value="27"/>
               </costs>
+              <entryLinks>
+                <entryLink import="true" name="Plague Knife" hidden="false" id="9cec-6ed5-37cb-7229" type="selectionEntry" targetId="4674-545c-28be-bb4d"/>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="0a9d-ab46-812b-6f9f" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Special Weapon" id="bcc0-9618-eb88-3f1c" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c9b-9701-7be7-0907" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4c4-88b1-06ca-b67e" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Plasma Gun" hidden="false" id="846e-6888-545d-4f45" type="selectionEntry" targetId="8afc-419e-de91-cd5">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc7a-dcbb-6d93-1d90" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Melta Gun" hidden="false" id="5054-8f63-365b-4cad" type="selectionEntry" targetId="f293-823c-7450-92c1">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e62-4556-5446-8c5d" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Plague Spewer" hidden="false" id="a1b3-55cc-2828-cbf2" type="selectionEntry" targetId="6ec7-8190-d98b-3553">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3ad-6d4b-c107-a33c" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="15"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="846e-6888-545d-4f45" field="defaultSelectionEntryId"/>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e726-963e-2e35-149d"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="d0d9-39df-7353-7dcc"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="d0d9-39df-7353-7dcc">
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="1209-9273-812a-3c73" childId="4d98-a9cd-3def-454c" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Plague Marine w/Blight Launcher" hidden="false" id="9ded-dc80-d51d-170a">
               <costs>
@@ -2406,11 +2543,42 @@
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c04f-1983-fa92-ef4f" includeChildSelections="false"/>
                 <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="367e-990c-1182-3475" includeChildSelections="false"/>
               </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="b6bd-2295-8c12-9cb2" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
+                <entryLink import="true" name="Plague Knife" hidden="false" id="1b3a-f9a4-d752-3c24" type="selectionEntry" targetId="4674-545c-28be-bb4d"/>
+                <entryLink import="true" name="Blight Launcher" hidden="false" id="687b-17ab-8577-b270" type="selectionEntry" targetId="f082-f53a-f862-38e5" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b5f6-5f52-7f74-4228" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db63-b45c-6914-e2e6" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <modifiers>
+                <modifier type="increment" value="1" field="367e-990c-1182-3475">
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="1209-9273-812a-3c73" childId="4d98-a9cd-3def-454c" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Plague Marine w/Plague Flail" hidden="false" id="93b6-76a1-a4cb-1cc2">
               <costs>
                 <cost name="Pts" typeId="Points" value="37"/>
               </costs>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="aa05-6c97-aa7f-db83" includeChildSelections="false"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="51b6-715f-ffe2-11f0" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="69c7-fe73-d95f-1eb6" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
+              </entryLinks>
+              <modifiers>
+                <modifier type="increment" value="1" field="51b6-715f-ffe2-11f0">
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="1209-9273-812a-3c73" childId="4d98-a9cd-3def-454c" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Plague Marine w/Plague Cleaver" hidden="false" id="20e8-7c15-09c6-de2f">
               <costs>
@@ -2420,16 +2588,146 @@
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="56a2-2257-a0d2-d7dd" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c445-6751-872d-21a4" includeChildSelections="false"/>
               </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="6ec8-fb78-73ba-ad61" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
+                <entryLink import="true" name="Plague Cleaver" hidden="false" id="b8e1-9d4e-72b8-4b1a" type="selectionEntry" targetId="e697-6aba-627f-45ae"/>
+              </entryLinks>
+              <modifiers>
+                <modifier type="increment" value="1" field="c445-6751-872d-21a4">
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="1209-9273-812a-3c73" childId="4d98-a9cd-3def-454c" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="beb6-cdcc-af30-251d" field="defaultSelectionEntryId"/>
+          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Plague Knife" hidden="false" id="38d3-7d82-620a-bd0f">
+    <selectionEntry type="upgrade" import="true" name="Pair Of Plague Knives" hidden="false" id="4fbb-05d5-c95e-7be4">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a175-3a93-afa8-50cb" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee81-9666-6f52-2a6d" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc70-e06c-b181-9d75" includeChildSelections="false"/>
       </constraints>
+      <profiles>
+        <profile name="Pair Of Plague Knives" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="78d2-2398-b059-0578">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plague Knife" hidden="false" id="4674-545c-28be-bb4d" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c5a-6b34-d978-e6ed" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a8f-988d-263b-3704" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Plague Knife" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="9186-dc37-34fb-f1b5">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plague Knife and Bolt Gun" hidden="false" id="115c-3a73-8550-aebc">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e39-6157-4fda-5e7e" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Plague Knife" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="2c7f-93a8-4c2c-1373">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bolt Gun" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="4ed1-576f-07b9-748f">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blight Launcher" hidden="false" id="f082-f53a-f862-38e5">
+      <profiles>
+        <profile name="Blight Launcher" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="143b-5aad-d4f2-c230">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">6</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plague Cleaver" hidden="false" id="e697-6aba-627f-45ae" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a7d8-e753-2cec-67c0" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b00f-5ae5-51c1-c6bb" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Plague Cleaver" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="6209-9501-4d40-f5e0">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">Melee</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">x3</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">-1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plague Spewer" hidden="false" id="6ec7-8190-d98b-3553">
+      <profiles>
+        <profile name="Plague Spewer" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="b736-5a32-28c8-edda">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">*</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">To,IgC</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plague Blade" hidden="false" id="cab9-e227-3de0-a1a0">
+      <profiles>
+        <profile name="Plague Blade" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="da73-490d-2708-0398">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2774,7 +3072,7 @@ If this units starting strength is 10, this unit gains the „Infilitrators“ S
       <description>When Rubric Marine models are wounded by D1 attacks, improve their Armor Save characteristic to 2+/2+.</description>
     </rule>
     <rule name="Pandemic Demise" id="4ec7-53a4-2521-67d6" hidden="false">
-      <description>Everytime a Plague Marines model is destroyed, roll a single D6, on a 3+ the unit that destroyed the model suffers 1 Mortal Wound.</description>
+      <description>Everytime a Plague Marines model is destroyed, roll a single D6, on a 3+ the unit that destroyed the model suffers 1 Mortal Wound. Also reduce all incoming damage by 1, up to a minimum of 1.</description>
     </rule>
   </sharedRules>
   <rules>

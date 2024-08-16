@@ -758,8 +758,25 @@
         <categoryLink targetId="cd71-bdd8-97de-6dd5" id="e8ca-5a62-15f2-453c" primary="true" name="FAST ATTACK"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Imperial Knight" hidden="false" id="bf91-7bbc-f195-53a7" type="selectionEntry" targetId="040f-6ccd-dd5b-fd47">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="680d-4cdb-5975-f5b2" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Auxiliaries Rules" hidden="false" id="c80d-0150-f9f6-09c5" type="selectionEntry" targetId="6655-6d17-08b1-bb3e"/>
+    <entryLink import="true" name="Armiger Helverin" hidden="false" id="ed71-0b35-2e57-a51b" type="selectionEntry" targetId="58c7-369f-4c4a-a1cb">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="12a4-bbee-fc63-195f" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armiger Warglaive" hidden="false" id="3744-5654-a108-08a5" type="selectionEntry" targetId="a1c7-3a48-2062-5694">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="a8d2-22a5-3808-601e" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Space Marines" id="1a54-9cc0-6596-93c6" targetId="b9aa-5902-f97d-9cd5"/>
+    <catalogueLink type="catalogue" name="Codex Imperial Auxiliaries" id="796d-f9ab-0ff1-153e" targetId="f62c-2cae-6827-39d5"/>
   </catalogueLinks>
 </catalogue>

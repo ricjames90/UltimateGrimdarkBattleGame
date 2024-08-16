@@ -44,6 +44,7 @@
     <categoryEntry name="FACTION: Custodes" id="6ac6-8b39-d81-d39a" hidden="false"/>
     <categoryEntry name="FACTION: Tyranids" id="4da3-c252-e57e-461f" hidden="false"/>
     <categoryEntry name="Character" id="a150-8d9a-4095-e170" hidden="false"/>
+    <categoryEntry name="FACTION: Imperial Auxiliaries" id="cd4f-60a6-1e2e-1c88" hidden="false"/>
   </categoryEntries>
   <publications>
     <publication name="Ultimate Grimdark Battle Game" id="2bcf-a7c8-99f8-b1eb" hidden="false" publisher="Richie" shortName="Ultimate Grimdark Battle Game" publicationDate="2024"/>
@@ -713,6 +714,12 @@ Unlike armour saving throws (which use a model’s Save characteristic), invuln
     <rule name="Feel No Pain(4+)" id="600f-5a92-839d-c5b3" hidden="false">
       <description>Some models have ‘Feel No Pain x+’ listed in their abilities. Each time a model with this ability suffers damage and so would lose a wound (including wounds lost due Deadly Demise, Perils of the Warp etc.), roll one D6: if the result is greater than or equal to the number denoted by ‘x’,
 that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.</description>
+    </rule>
+    <rule name="Firing Deck(16)" id="db7d-2200-5775-6e62" hidden="false">
+      <description>Some Transport models have ‘Firing Deck x’
+listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it.
+Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with. Until that Transport
+model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
