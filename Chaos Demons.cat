@@ -1,2 +1,215 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="f612-30dd-1527-594a" name="Chaos Demons" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="f612-30dd-1527-594a" name="Chaos Demons" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Chaos Demons Codex Rules" hidden="false" id="17cc-4333-5276-3aa4" type="selectionEntry" targetId="e806-4f2b-fc87-2c98"/>
+    <entryLink import="true" name="Bloodletters" hidden="false" id="d728-87b0-1d3f-c67b" type="selectionEntry" targetId="075a-1fc7-d598-9e71">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="3777-f3b0-5db9-3e98" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Demonettes" hidden="false" id="b238-37a0-93fc-171a" type="selectionEntry" targetId="d93b-38a9-e6f7-c53f">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="c7e0-6954-8357-fde8" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Pink Horrors" hidden="false" id="0def-baad-332e-ab08" type="selectionEntry" targetId="79d1-fef2-c46b-dc50">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="b748-c20b-d3bc-2d18" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Plaguebearers" hidden="false" id="2110-a2cf-4ac4-fbcd" type="selectionEntry" targetId="4d4b-264d-ac67-11a4">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="032b-d35a-f01f-22c2" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Demons God Cult Selection" hidden="false" id="f315-e183-970d-ea61" type="selectionEntry" targetId="bea3-473f-e5f3-8192"/>
+    <entryLink import="true" name="Greater Demon Of Chaos Undivided" hidden="false" id="5c8e-0fb1-e849-b689" type="selectionEntry" targetId="63ab-dbb6-0181-bf04">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="be81-5f6a-2b2c-6349" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Khorne" hidden="false" id="b097-26f3-8f65-05ca" type="selectionEntry" targetId="1a60-b3d9-d38e-ec75">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="da0e-9f9b-0899-e223" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dispayres" hidden="false" id="3bcd-0d73-a6ae-4ac3" type="selectionEntry" targetId="e241-8957-8ab4-cd99">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="884a-2042-936c-9108" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Beasts Of Nurgle" hidden="false" id="c193-777e-cda6-3736" type="selectionEntry" targetId="a8a2-90f2-82dd-bdfb">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="d803-9bce-3f90-ef11" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bloodcrushers" hidden="false" id="f5d0-c1df-afec-287e" type="selectionEntry" targetId="d3f2-2561-a7f8-4b72">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="03ab-d9d5-ab56-c0ab" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fiends" hidden="false" id="55f1-9178-231e-f400" type="selectionEntry" targetId="f917-03b0-d8fa-5d7a">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="4604-4a14-121a-6eb9" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Flamers Of Tzeentch" hidden="false" id="6ed3-39ff-a2b4-3c67" type="selectionEntry" targetId="3525-d90f-ba59-c42f">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="0718-753a-f8e3-25f3" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nurglings" hidden="false" id="9bad-c8c6-1355-2dc0" type="selectionEntry" targetId="2604-d6d7-5759-d4c9">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="884c-f285-a839-d45c" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fleshhounds" hidden="false" id="8496-9a28-e0d7-4b11" type="selectionEntry" targetId="3851-8c41-330e-6b91">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="bd48-06bf-a62f-1f67" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Screamers" hidden="false" id="bb0d-ce63-8781-f8ab" type="selectionEntry" targetId="42c9-78d2-804e-1fcb">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="28e0-ac7e-e1db-beaa" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Seekers" hidden="false" id="a48e-05df-db93-538d" type="selectionEntry" targetId="b632-d8cc-2edd-b1be">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="d396-6cad-a217-7f15" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Nurgle" hidden="false" id="8e6b-9efa-2e90-9588" type="selectionEntry" targetId="e37f-e3a8-8b37-ec89">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="5669-eb1f-3f1e-1829" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Slaanesh" hidden="false" id="eea1-6da8-d267-b77f" type="selectionEntry" targetId="0b4c-7935-f6b1-d960">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="b151-f806-c1de-f952" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Tzeentch" hidden="false" id="fdc5-ba2f-3a04-2d9d" type="selectionEntry" targetId="2c0e-15df-f652-f59e">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="cbe8-cfda-1b4a-9683" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Soulgrinder" hidden="false" id="626f-f758-34e2-fde3" type="selectionEntry" targetId="36c4-2d76-4134-0a68">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="fb95-0fc3-ef16-22f9" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skull Cannons" hidden="false" id="a6bf-d36c-67eb-dfb6" type="selectionEntry" targetId="13e4-6eb3-481f-12e3">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="2912-5a70-7571-8fa2" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Burning Chariots" hidden="false" id="55d0-f564-82f4-380f" type="selectionEntry" targetId="3e8a-9dde-275a-a4d5">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="65f3-0f7d-4edf-f5c8" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Exalted Seeker Chariot" hidden="false" id="97ca-7928-328a-3ef3" type="selectionEntry" targetId="db77-462f-744e-41b6">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="2060-887e-25f6-70bc" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Plaguehulk Of Nurgle" hidden="false" id="3b49-edea-854e-66df" type="selectionEntry" targetId="47f9-89f4-36e2-2aab">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="e815-d636-00ae-d8c8" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Furies" hidden="false" id="074b-f0ff-fb13-971c" type="selectionEntry" targetId="afd4-cb04-de14-a915">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="70fd-e6b8-a7c6-a5d0" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Seeker Chariots" hidden="false" id="7155-77f4-fe17-73e0" type="selectionEntry" targetId="fecc-f9b5-91e4-9f13">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="447d-7e18-ef98-b5b5" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Plague Drones" hidden="false" id="798a-7b74-92d3-f209" type="selectionEntry" targetId="d3de-7b23-3948-6bd4">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="b082-6f8e-1654-7f09" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hellflayers" hidden="false" id="8448-55de-1495-3d01" type="selectionEntry" targetId="5368-303d-9aa5-bbd9">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="a667-1d80-ebb8-a191" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Exalted Flamer" hidden="false" id="08d2-f669-1771-8c3c" type="selectionEntry" targetId="327f-e56a-157d-2ad6">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="4590-c020-09cc-d226" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Demon Prince" hidden="false" id="2f03-313d-00d3-bba3" type="selectionEntry" targetId="5f9c-2797-8183-4275">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="c916-3656-7838-f967" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Khorne On Juggernaut" hidden="false" id="1a0b-f6a8-257b-b5f3" type="selectionEntry" targetId="d376-7b9f-f423-3dd7">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="1a69-52bd-9be1-143c" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Khorne On Bloodthrone" hidden="false" id="d56a-c10b-5ca0-6c2f" type="selectionEntry" targetId="6ddc-84a8-72b6-e2de">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="5d5e-6565-1ca0-7d1e" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Tzeentch On Disk Of Tzeentch" hidden="false" id="e998-d0f6-8856-d7d2" type="selectionEntry" targetId="4f58-a26e-ccde-0617">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="4015-7554-81d7-50bc" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Tzeentch On Burning Chariot" hidden="false" id="91d7-f500-7f61-8eee" type="selectionEntry" targetId="4ff5-b665-cef8-5d92">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="9830-36fa-553c-8005" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Slaanesh With Heartstring Lyre" hidden="false" id="c78e-9a5b-495f-58e1" type="selectionEntry" targetId="a7a6-5001-c4cd-5b88">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="d260-43cb-4a27-0d55" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Slaanesh With Contorted Epitome" hidden="false" id="8a63-e1df-2f65-b155" type="selectionEntry" targetId="1f01-6632-0471-b34b">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="69e7-3ae5-524d-04b7" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Nurgle With Spoilpox Scriptures" hidden="false" id="4848-3466-d8b1-963d" type="selectionEntry" targetId="a988-8b51-f671-e52d">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="16d2-fa87-e587-232b" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Herald Of Nurgle On Foul Slug" hidden="false" id="2a06-bbe3-f446-eb6d" type="selectionEntry" targetId="cb38-55c5-2814-5044">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="06f1-aeea-150a-97bc" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Greater Demon Of Khorne" hidden="false" id="b782-27ac-352b-9fa2" type="selectionEntry" targetId="094c-7eff-151a-04cd">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="aded-9415-3915-357a" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Greater Demon Of Nurgle" hidden="false" id="1dec-b54d-a65b-0df9" type="selectionEntry" targetId="129f-aadc-3496-eae0">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="d89f-90cb-582d-1761" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Greater Demon Of Tzeentch" hidden="false" id="b89e-debb-3bf6-c4cd" type="selectionEntry" targetId="2a3a-67a0-1841-11e3">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="34cd-d724-275c-7ff8" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Greater Demon Of Slaanesh" hidden="false" id="4636-6770-2b91-973c" type="selectionEntry" targetId="72a4-6bc3-617e-676b">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="22c3-8c95-910f-8d5d" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Chaos Demons" id="e506-b98b-2e84-c228" targetId="d320-960f-c386-889"/>
+  </catalogueLinks>
+</catalogue>
