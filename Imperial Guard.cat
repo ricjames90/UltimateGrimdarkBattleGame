@@ -4,7 +4,7 @@
     <catalogueLink type="catalogue" name="Codex Imperial Guard" id="32e8-030d-86a6-7a02" targetId="17fb-98ca-42e0-2e4c"/>
   </catalogueLinks>
   <entryLinks>
-    <entryLink import="true" name="Infantry Guardsmen" hidden="false" id="6b02-d900-5903-f622" type="selectionEntry" targetId="23e8-cf10-1263-bb76">
+    <entryLink import="true" name="Vostroyan Firstborn Guardsmen" hidden="false" id="6b02-d900-5903-f622" type="selectionEntry" targetId="23e8-cf10-1263-bb76">
       <categoryLinks>
         <categoryLink targetId="79e5-570b-2bdd-d3d7" id="e7c5-a298-cdec-bedc" primary="true" name="TROOPS"/>
       </categoryLinks>
@@ -13,6 +13,309 @@
       <categoryLinks>
         <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="74ef-f208-c6eb-6190" primary="true" name="HEAVY SUPPORT"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Guard Codex Rules" hidden="false" id="65d1-05a5-8dfd-f373" type="selectionEntry" targetId="31f3-d035-caac-e29d"/>
+    <entryLink import="true" name="Commissar" hidden="false" id="800f-d04a-f509-49f7" type="selectionEntry" targetId="4c95-5da5-019e-c4f4">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="c9e6-087d-ed7f-3b81" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Leman Russ Tank Commander" hidden="false" id="5cb0-8845-4191-b89b" type="selectionEntry" targetId="f0ed-33bb-3598-8dfe">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="f8d0-8d5c-3bc8-579b" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Primaris Psyker" hidden="false" id="2c0a-cb3a-ef8b-3297" type="selectionEntry" targetId="8388-e7fb-2d9e-5bb0">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="1a83-5101-d507-f1f2" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Castellan" hidden="false" id="ffaa-8111-a4dc-c2ea" type="selectionEntry" targetId="4469-139f-a159-4ee2">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="444b-c801-631a-de8f" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lord Comissar" hidden="false" id="9d4b-25cf-e848-a7d1" type="selectionEntry" targetId="6fcd-8a70-bf40-4112">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="722a-739f-4533-aaf0" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lord Comissar On Steed" hidden="false" id="65ed-19de-1768-0e07" type="selectionEntry" targetId="c857-09ff-1164-353a">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="5467-3602-1cb6-c2ec" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Platoon Command Squad" hidden="false" id="4e51-8118-f32f-19c5" type="selectionEntry" targetId="6d8a-92b1-bdc8-d985">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="3075-f498-8581-73bd" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Company Command Squad" hidden="false" id="5493-937c-7949-6deb" type="selectionEntry" targetId="c178-7089-b6af-69c0">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="0200-2be4-3722-c88a" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tempestus Scions Command Squad" hidden="false" id="8227-a9b0-aeb0-ac57" type="selectionEntry" targetId="6c38-e65b-92c4-7ff3">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="0e7f-4678-ab09-c94d" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tempestus Scions" hidden="false" id="13f5-2066-9efa-b177" type="selectionEntry" targetId="0c44-1598-96e8-78a2">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="f3d3-f0fa-e375-10a4" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tempestus Aquillons" hidden="false" id="44c4-4b98-5724-da52" type="selectionEntry" targetId="9cf9-85ba-59b0-f4e1">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="a864-97b6-fa40-1031" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tempestus Servo Sentry" hidden="false" id="1173-ed69-e370-7155" type="selectionEntry" targetId="c382-682c-989e-c8f7">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="6427-3ab1-9467-5233" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Veteran Guardsmen" hidden="false" id="151a-7f0a-5405-a41c" type="selectionEntry" targetId="e342-1567-9cc5-1a1a">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="51ac-311a-1e0b-bacd" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ratlings" hidden="false" id="def5-3a55-bf39-b36c" type="selectionEntry" targetId="0bb9-6894-ad6f-eeaa">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="99e1-7876-df69-c9d4" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rogal Dorn Squadron" hidden="false" id="f78e-37c9-ae39-7ce1" type="selectionEntry" targetId="ab67-a09b-f42b-787e">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="a01e-623e-1413-adf3" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Basilisk Squadron" hidden="false" id="93a7-f299-0165-f890" type="selectionEntry" targetId="8f0b-bf0a-7236-e8ce">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="e8f4-0d87-986b-a8ed" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wyvern Squadron" hidden="false" id="7caf-75b2-8ce5-1642" type="selectionEntry" targetId="f329-ad8d-3ecf-2a7b">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="858d-11dc-3427-f3e7" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hydra Squadron" hidden="false" id="770f-55d6-168f-c13c" type="selectionEntry" targetId="f6b8-1baa-1357-c832">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="7f01-ee93-ebc8-f496" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deathstrike" hidden="false" id="b1fd-0f68-dcd8-108f" type="selectionEntry" targetId="4786-c3f0-f48a-b590">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="d965-178e-58bc-93e3" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Heavy Weapons Teams" hidden="false" id="ffae-71b6-d932-966c" type="selectionEntry" targetId="102c-51ee-8574-2a5a">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="f0a1-68e8-9b1e-6e46" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Field Ordnance Batteries" hidden="false" id="bd3d-eda8-e398-9044" type="selectionEntry" targetId="e91f-74c7-e465-7f04">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="72e1-f84a-72e6-e649" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Earthshaker Carriage Batteries" hidden="false" id="4178-3b3a-aaa1-6ad8" type="selectionEntry" targetId="2666-c220-cfee-b2c7">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="e68a-22c7-760a-0101" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chimera" hidden="false" id="4a6b-7d6b-2f97-c7d0" type="selectionEntry" targetId="5505-00be-1cdb-adb9">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="a4ea-3736-7110-b8a9" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Taurox" hidden="false" id="b066-1e0f-3486-41dd" type="selectionEntry" targetId="2c43-3d33-590b-98a7">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="e13e-9595-2d91-2add" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Taurox Prime" hidden="false" id="e9d0-9656-71b3-2720" type="selectionEntry" targetId="9537-d632-5532-2c51">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="7221-1120-653b-ba98" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dracosan" hidden="false" id="c12f-4cf0-9384-26dd" type="selectionEntry" targetId="04d6-705a-9250-d27a">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="659b-55b1-44c0-4982" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sentinel Squadron" hidden="false" id="4a88-a55e-2a74-2d7d" type="selectionEntry" targetId="768e-8500-26ca-a5ed">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="f2d5-800a-6d38-8050" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scout Sentinel Squadron" hidden="false" id="d414-0aa7-566e-81c4" type="selectionEntry" targetId="44a2-4f61-b457-04ab">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="0cd7-9fe3-4f8c-9454" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Heavy Sentinel Squadron" hidden="false" id="4f74-bd2e-a428-35a0" type="selectionEntry" targetId="806b-5488-e8d2-8952">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="fa6b-08f2-2f87-eeaf" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hellhound Squadron" hidden="false" id="0a0d-0514-f60e-eef1" type="selectionEntry" targetId="a482-a378-4fbf-554f">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="f93c-6c97-f5bb-b240" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rough Riders" hidden="false" id="6d75-d692-a184-cfc4" type="selectionEntry" targetId="98bd-96af-0589-b926">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="883a-03b4-5ce8-4462" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rough Riders Command Squad" hidden="false" id="b99b-1ddf-b460-4788" type="selectionEntry" targetId="eadb-8ad4-9b47-dafc">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="c92e-c56b-f38b-031a" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Valkyrie Squadron" hidden="false" id="b0b7-a446-49c7-973a" type="selectionEntry" targetId="1002-c8ae-e3b3-d6e9">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="ed40-ea2c-156b-4a37" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vendetta Squadron" hidden="false" id="e8d3-c567-a43e-de0e" type="selectionEntry" targetId="7941-2935-bc49-23e2">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="63cf-e357-5d11-6f97" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vulture Squadron" hidden="false" id="dd41-5224-434e-dad5" type="selectionEntry" targetId="b66e-e0e2-4533-79a0">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="0efb-78ec-45ee-2f53" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ogryns" hidden="false" id="eb34-6c7b-1ba0-d678" type="selectionEntry" targetId="983d-f67f-874d-2728">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="c66e-3888-ec36-0e67" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bullgryns" hidden="false" id="191b-0ae7-fef5-c53f" type="selectionEntry" targetId="c9a5-2fd8-9e98-ac79">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="581f-76ef-d7ec-63d3" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Conscripts" hidden="false" id="1d8b-ce0e-90ca-94a6" type="selectionEntry" targetId="33c5-cc7e-eba2-c8d6">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="7f30-4d1c-5e15-221d" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Steel Legion Guardsmen" hidden="false" id="8d36-9222-6401-9994" type="selectionEntry" targetId="5130-6647-dbe3-c14a">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="e9a8-6a26-ed98-6f57" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cadian Shock Troop Guardsmen" hidden="false" id="606f-6d9c-127e-9aa5" type="selectionEntry" targetId="8124-6595-7299-9811">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="bb5c-365f-446b-3fad" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Catachan Jungle Guardsmen" hidden="false" id="279f-484c-8e9b-f46c" type="selectionEntry" targetId="110c-627f-c302-d293">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="c680-9041-98b0-4522" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Death Korps Guardsmen" hidden="false" id="3de1-7725-2ded-68b1" type="selectionEntry" targetId="c8b7-c994-6685-aa1a">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="df09-d91a-cb19-a7cb" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Elysian Droptroop Guardsmen" hidden="false" id="c976-c888-83a2-bce8" type="selectionEntry" targetId="3a55-b7b8-0562-ef9d">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="af3f-dfd0-79cb-0d94" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Solar Auxilia Guardsmen" hidden="false" id="f87d-cf8c-3f71-b807" type="selectionEntry" targetId="171b-edfe-eaae-d6c7">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="6de7-2080-fb2f-7585" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Castellan" hidden="false" id="6da5-4f92-7f10-5a02" type="selectionEntry" targetId="4469-139f-a159-4ee2">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="c577-4e92-8306-e6a3" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="7b65-9b94-47a-9e7a" shared="true" id="a332-02de-7e4f-762d"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="a332-02de-7e4f-762d">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="4e51-8118-f32f-19c5" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="5493-937c-7949-6deb" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="b99b-1ddf-b460-4788" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Commissar" hidden="false" id="e2f6-af26-7ccd-2853" type="selectionEntry" targetId="4c95-5da5-019e-c4f4">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="f4b8-628f-5327-0b67" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="7b65-9b94-47a-9e7a" shared="true" id="b243-9b8a-967c-2648"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="b243-9b8a-967c-2648">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="4e51-8118-f32f-19c5" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="5493-937c-7949-6deb" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="b99b-1ddf-b460-4788" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Primaris Psyker" hidden="false" id="b3f3-4a30-8724-e3fc" type="selectionEntry" targetId="8388-e7fb-2d9e-5bb0">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="cb3f-9aa4-e896-17ff" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="7b65-9b94-47a-9e7a" shared="true" id="dad4-939a-92b5-0384" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="dad4-939a-92b5-0384">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="4e51-8118-f32f-19c5" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="5493-937c-7949-6deb" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="b99b-1ddf-b460-4788" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Lord Comissar" hidden="false" id="7bb1-c00f-1f6e-bfda" type="selectionEntry" targetId="6fcd-8a70-bf40-4112">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="db78-8c24-5504-727f" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="7b65-9b94-47a-9e7a" shared="true" id="012f-c1a3-d50d-c783" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="012f-c1a3-d50d-c783">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="5493-937c-7949-6deb" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="b99b-1ddf-b460-4788" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Lord Comissar On Steed" hidden="false" id="5728-5c79-6b3d-5d7c" type="selectionEntry" targetId="c857-09ff-1164-353a">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="ea1a-6fa8-bafb-1e9b" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="7b65-9b94-47a-9e7a" shared="true" id="e5b1-32f4-81a4-be3e" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="e5b1-32f4-81a4-be3e">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="b99b-1ddf-b460-4788" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
 </catalogue>

@@ -721,6 +721,10 @@ listed in their abilities. Each time such a model is selected to shoot in the Sh
 Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with. Until that Transport
 model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons.</description>
     </rule>
+    <rule name="Deadly Demise(9/D6+6)" id="4b9c-33bc-bfea-4f58" hidden="false">
+      <description>Some models have ‘Deadly Demise y/x’ listed in their
+abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a Transport, roll before any embarked models disembark). On a 6, each unit within y inches of that model suffers a number of wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within y inches. Wounds dealt by this ability will carry over to the next model in a unit in case it has more than one model until no wounds are left to distribute.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="23ef-f720-6e37-9b21">
