@@ -352,7 +352,7 @@
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Bolt Pistol and Chainsword" hidden="false" id="106a-9361-6515-dea0" type="selectionEntry" targetId="bd9a-a868-eb70-8df7"/>
-                    <entryLink import="true" name="Bolt Gun, Bolt Pistol and Combat Weapon" hidden="false" id="4eeb-1f26-15d2-ad74" type="selectionEntry" targetId="2f54-872c-cf11-68a9"/>
+                    <entryLink import="true" name="Bolt Gun, Bolt Pistol and Combatweapon" hidden="false" id="4eeb-1f26-15d2-ad74" type="selectionEntry" targetId="2f54-872c-cf11-68a9"/>
                   </entryLinks>
                   <modifiers>
                     <modifier type="set" value="4eeb-1f26-15d2-ad74" field="defaultSelectionEntryId"/>
@@ -619,7 +619,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bolt Gun, Bolt Pistol and Combat Weapon" hidden="false" id="2f54-872c-cf11-68a9">
+    <selectionEntry type="upgrade" import="true" name="Bolt Gun, Bolt Pistol and Combatweapon" hidden="false" id="2f54-872c-cf11-68a9">
       <comment>Legionaires</comment>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e5a-5dd5-059b-ce41" includeChildSelections="false"/>
@@ -645,7 +645,7 @@
             <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps</characteristic>
           </characteristics>
         </profile>
-        <profile name="Combat Weapon" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="ee49-bdaa-4d79-ee11">
+        <profile name="Combatweapon" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="ee49-bdaa-4d79-ee11">
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">2</characteristic>
@@ -2729,6 +2729,113 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Contemptor Dreadnought" hidden="false" id="67ad-2d8a-928d-8c91">
+      <costs>
+        <cost name="Pts" typeId="Points" value="145"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="a91d-345d-004d-9168" targetId="bc81-8c0c-a3e9-47a4" primary="false"/>
+        <categoryLink name="AT - Heavy Armor" hidden="false" id="313d-8f39-1af6-c7a1" targetId="7cbd-10fc-5d99-3f09" primary="false"/>
+        <categoryLink name="Contemptor Dreadnought" hidden="false" id="cf3f-9de0-870a-5b80" targetId="2394-539b-1254-b618" primary="false"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="81b3-3469-08e1-0cf6" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="fa0a-1725-b554-6982" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Contemptor Dreadnought" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="d912-e002-a977-31fb">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">10</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">10</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">16</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="11" field="ab5f-556e-2-f3e4">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="67ad-2d8a-928d-8c91" childId="3e62-f270-2de3-3e71" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="effd-f3a8-9f2b-4b8">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="565f-c567-1ee7-6a16" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="3" field="effd-f3a8-9f2b-4b8"/>
+                <modifier type="set" value="11" field="8d7f-2fc2-c449-7537"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="67ad-2d8a-928d-8c91" childId="0103-151f-3246-bb3a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(6/D6)" id="c1fe-ad1a-cc67-28d6" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Ancient Warrior" id="d798-cdd0-c277-94f0" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Cyclone Rocket Launcher" hidden="false" id="cb83-66f8-1663-ee8c" type="selectionEntry" targetId="c19b-da5f-c166-966b">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bd7-9bc4-af46-7681" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="30"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="e4c7-b819-5be5-0528" type="selectionEntry" targetId="f6cb-ed51-faad-e4b8"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Contemptor Arm Options" id="193d-d41f-94dc-68e5" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Contemptor Dreadnought Left Arm" hidden="false" id="b033-a30c-8006-4378" type="selectionEntryGroup" targetId="bfb9-1de6-8077-221b"/>
+            <entryLink import="true" name="Contemptor Dreadnought Right Arm" hidden="false" id="8f72-85ae-9fec-6c1a" type="selectionEntryGroup" targetId="7205-1883-fd8e-372d"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="556d-e772-f423-0e6a" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5542-0629-500b-f16d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Marks Of Chaos" id="8c08-530f-607c-94ce" hidden="false" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="67ba-187a-78e2-c173" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f33-c650-6367-a188" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Mark Of Chaos Undivided" hidden="false" id="25dc-7959-358d-cf5d" type="selectionEntry" targetId="6ac7-43ba-d100-ddf9"/>
+            <entryLink import="true" name="Mark Of Khorne" hidden="false" id="3e62-f270-2de3-3e71" type="selectionEntry" targetId="8f9b-c7d5-a46c-6ea5">
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Mark Of Nurgle" hidden="false" id="0103-151f-3246-bb3a" type="selectionEntry" targetId="22fd-e5af-c61b-51ef">
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Mark Of Slaanesh" hidden="false" id="565f-c567-1ee7-6a16" type="selectionEntry" targetId="60fb-a452-4f0b-b3b4">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Mark Of Tzeentch" hidden="false" id="4f39-4a35-7db9-4099" type="selectionEntry" targetId="9715-e863-3804-ac0f">
+              <costs>
+                <cost name="Pts" typeId="Points" value="20"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Marks Of Chaos" id="6543-e87d-3d2f-0a12" hidden="false">
@@ -2847,7 +2954,6 @@
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d0b0-80da-3d5d-1a22" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91a4-e0b6-4c36-9895" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="aef2-2a26-eeed-d23d" includeChildSelections="false"/>
       </constraints>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Black Legion" hidden="false" id="d9ba-063d-9382-16f5">

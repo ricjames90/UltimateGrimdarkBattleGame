@@ -17879,7 +17879,6 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
       </selectionEntries>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b66f-552c-fd70-7466"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a00c-8c80-79eb-b167"/>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a765-9165-65e-be5"/>
       </constraints>
     </selectionEntryGroup>

@@ -65,7 +65,6 @@ When all your units have the „Slaanesh“ Mark Of Chaos, all units score an ad
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="767b-c458-85c9-e184" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b36b-8261-237c-c884" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d0db-9597-7e37-bebf" includeChildSelections="false"/>
       </constraints>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Demons Of Undivided Chaos" hidden="false" id="fa2e-9538-5295-a337">
@@ -4593,7 +4592,7 @@ When all your units have the „Slaanesh“ Mark Of Chaos, all units score an ad
       <profiles>
         <profile name="Exalted War Locust" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="4ffc-5c87-ddc8-c7c4">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Extend the range of „Warp Locust“ to 12&apos;&apos;. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Extend the range of „Warp Locust“ to 12&apos;&apos;.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4644,7 +4643,7 @@ When all your units have the „Slaanesh“ Mark Of Chaos, all units score an ad
       <profiles>
         <profile name="Armor Of Brass" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="1e64-8645-ea8a-48b8">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Unmodified Wound Rolls of 1-3 against this model always fail. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Unmodified Wound Rolls of 1-3 against this model always fail.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4658,7 +4657,7 @@ When all your units have the „Slaanesh“ Mark Of Chaos, all units score an ad
       <profiles>
         <profile name="Blood Elevated Warrior" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="e98d-1a43-779f-a15d">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f"> Improve this models Ballistic Skill and Weapon Skill Characteristic by 1.</characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Improve this models Ballistic Skill and Weapon Skill Characteristic by 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4845,7 +4844,7 @@ When all your units have the „Slaanesh“ Mark Of Chaos, all units score an ad
         <profile name="Lash" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="7191-65f3-c1df-db11">
           <characteristics>
             <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
-            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">12 </characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">12</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">D3</characteristic>
@@ -5356,7 +5355,7 @@ When all your units have the „Slaanesh“ Mark Of Chaos, all units score an ad
       <profiles>
         <profile name="Orgasmic Ecstasy" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="fa5b-5183-28c4-8443">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f"> Everytime this model destroys an enemy unit, add +2 Attacks to both the Witstealer Sword and Snapping Claws Weapons Profiles.</characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Everytime this model destroys an enemy unit, add +2 Attacks to both the Witstealer Sword and Snapping Claws Weapons Profiles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5678,16 +5677,16 @@ This unit can also make Ranged Attacks after having made a Fall Back Move.</desc
       <description>This model and the unit it may be attached to has the Feel No Pain(3+) Special Rule against Mortal Wounds.</description>
     </rule>
     <rule name="Vaccination Of The Unclean" id="288a-0269-6ae9-e37b" hidden="false">
-      <description>Attacks of a Plaguebearer unit this model may be attached to, automatically wound the target with unmodified Hit Rolls of 6 against targets with a Toughness Characteristic Of 9 or lower. </description>
+      <description>Attacks of a Plaguebearer unit this model may be attached to, automatically wound the target with unmodified Hit Rolls of 6 against targets with a Toughness Characteristic Of 9 or lower.</description>
     </rule>
     <rule name="Seeds Of The Gardes Of Nurgle" id="5003-3695-f31c-74d0" hidden="false">
       <description>At the start of each players Command Phase, any enemy unit within 7&apos;&apos; of this model rolls a D6, on a 3+ it suffers D3 Mortal Wounds.</description>
     </rule>
     <rule name="Paladin Of The Skullthrone" id="0430-39f0-41a4-3367" hidden="false">
-      <description>All Lesser Demons Of Khorne units within 6&apos;&apos; of this model add +1 to their Charge Roll. </description>
+      <description>All Lesser Demons Of Khorne units within 6&apos;&apos; of this model add +1 to their Charge Roll.</description>
     </rule>
     <rule name="March Of The Dead" id="dedf-5d9c-648f-183a" hidden="false">
-      <description>All Lesser Demons Of Nurgle units within 6&apos;&apos; of this model add +1 to their Advance Roll. </description>
+      <description>All Lesser Demons Of Nurgle units within 6&apos;&apos; of this model add +1 to their Advance Roll.</description>
     </rule>
     <rule name="Pink Fire Of Interdimensional Destruction" id="b10c-7d41-9aca-c7ee" hidden="false">
       <description>All Lesser Demons Of Tzeentch units within 6&apos;&apos; of this model add +3&apos;&apos; to the Range of their „Pink Fire“ Weapons Profiles.</description>

@@ -1,2 +1,210 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="7035-d3d0-10cb-3909" name="Sororitas" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="7035-d3d0-10cb-3909" name="Sororitas" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Sororitas Codex Rules" hidden="false" id="c6e6-1d88-a3e4-7db9" type="selectionEntry" targetId="da34-0b27-f7ab-f309"/>
+    <entryLink import="true" name="Battle Sisters" hidden="false" id="73e6-87f0-6574-7f1d" type="selectionEntry" targetId="9dac-908b-f4aa-7fc8">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="9082-5b61-d9e5-809d" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Palatine" hidden="false" id="6ffc-c2cf-bfd8-ab96" type="selectionEntry" targetId="6bcc-a721-c4bf-7a8a">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="ef45-3cf6-70b5-c027" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rhino" hidden="false" id="852b-7c73-0257-e2dc" type="selectionEntry" targetId="13c5-d4ee-a8ad-64c5">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="6a1f-be1e-21ab-f803" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Retributors" hidden="false" id="7b83-9365-e43d-cba3" type="selectionEntry" targetId="b4d5-799b-bf5d-e3cc">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="d503-0f45-e737-4db8" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Castigator" hidden="false" id="153a-3f9e-720a-765b" type="selectionEntry" targetId="0314-2752-2ac1-eb42">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="ad4d-8d8d-4ba5-79ba" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Seraphim" hidden="false" id="7d85-e76b-cace-9b13" type="selectionEntry" targetId="65a8-b3ee-af87-4269">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="64c8-fc33-2fd9-da32" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Paragon Warsuits" hidden="false" id="0dc2-9992-0fc5-6a83" type="selectionEntry" targetId="d4e8-348f-7d78-31b1">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="fa53-9004-eaf7-19f3" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Exorcist" hidden="false" id="7123-feb0-a2d3-6d08" type="selectionEntry" targetId="2967-ae3c-8d74-895e">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="50ca-04dd-c352-3f34" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Penitent Engines" hidden="false" id="687b-efde-98aa-7ff5" type="selectionEntry" targetId="c849-33ef-765c-1a8a">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="9d2c-ad9f-8e55-f659" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mortifiers" hidden="false" id="2240-5563-4653-f810" type="selectionEntry" targetId="e312-6ee4-fb57-3c85">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="6dc0-b629-8ab0-75cf" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Repentia" hidden="false" id="9004-224a-460b-c27d" type="selectionEntry" targetId="fa77-261b-0cec-b8d6">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="1b08-c82a-e2be-14fa" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dominions" hidden="false" id="569b-8b46-287b-6638" type="selectionEntry" targetId="9973-a11f-c8d6-6511">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="8d48-a44f-8968-1866" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Novitiate" hidden="false" id="f263-6a49-3bce-8764" type="selectionEntry" targetId="1d58-2131-d0f2-a136">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="f935-bccb-8890-578f" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Zephyrim" hidden="false" id="4fcb-75af-0260-4852" type="selectionEntry" targetId="20a0-08c5-a049-682a">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="667a-4f0a-ffc3-37e4" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Repressor" hidden="false" id="9f33-eee7-0d9b-d487" type="selectionEntry" targetId="82e5-303d-e42e-65b7">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="e08e-f0f7-65bf-df3c" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Immolator" hidden="false" id="97e5-4217-e476-2b94" type="selectionEntry" targetId="0b3f-25fc-bf6e-7468">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="4235-8c00-a6a8-9c4f" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Celestians" hidden="false" id="33e6-2c6c-6a91-a022" type="selectionEntry" targetId="0c3e-1fad-3ccd-7c1e">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="1ba6-900a-9b6d-e457" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Celestian Sacresants" hidden="false" id="9966-288b-d138-0386" type="selectionEntry" targetId="d55e-ca21-25a6-defa">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="0810-5b69-eb9a-5067" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Crusaders" hidden="false" id="2625-e1a7-f2b8-e8a8" type="selectionEntry" targetId="652c-c8d5-da15-183b">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="e8d0-0176-ca8d-edf9" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Arco Flagellants" hidden="false" id="5511-4863-38e4-865e" type="selectionEntry" targetId="464c-ed31-f580-6cce">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="68ab-029c-b2ab-2468" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Death Cult Assassins" hidden="false" id="e501-5353-849f-0009" type="selectionEntry" targetId="ce85-6998-c215-c181">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="b19d-d83d-477d-6082" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Repentia Superior" hidden="false" id="dd96-242b-772e-9024" type="selectionEntry" targetId="3db2-df31-653a-bc54">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="abb0-b048-5f30-183c" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Novitiate Superior" hidden="false" id="688f-b32c-0611-6e06" type="selectionEntry" targetId="81b8-c1a0-7435-7f0a">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="cd49-13a4-940a-2fdb" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Preacher" hidden="false" id="0c6e-39f0-7d07-f7dc" type="selectionEntry" targetId="d8ff-51d1-b965-d6b1">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="cf86-a256-5fb1-d538" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Missionary" hidden="false" id="db3e-0451-cc21-8a48" type="selectionEntry" targetId="9ff8-9167-213c-30e8">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="e672-dc19-16fa-bebc" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Paragon High Lord Abbess" hidden="false" id="7b62-125f-e279-1ae0" type="selectionEntry" targetId="3136-e377-041a-6711">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="dfc7-aefb-d32d-e226" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dialogus" hidden="false" id="cd9a-f0c5-54fa-e0f1" type="selectionEntry" targetId="3855-8c6b-f9b3-e036">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="be84-9329-46ba-4138" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dogmata" hidden="false" id="285f-5afd-f6f3-006d" type="selectionEntry" targetId="16bf-cd6a-1fff-fdab">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="7119-fd7e-cdda-5a2b" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hospitaller" hidden="false" id="1a94-80fb-b243-d418" type="selectionEntry" targetId="2af9-bed6-ac1d-60f7">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="9155-5b09-2ffc-1ee3" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imagifier" hidden="false" id="b574-ac9e-57aa-433c" type="selectionEntry" targetId="23b7-3b7d-db88-1dc1">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="b859-4bd7-757f-39d8" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoness" hidden="false" id="5ac3-b600-041b-c629" type="selectionEntry" targetId="5a81-52c0-869a-4f68">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="0ac0-0dd1-fc4c-661f" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Order Selection" hidden="false" id="81f8-a893-a9d6-7d8d" type="selectionEntry" targetId="5786-b16a-4d66-326b"/>
+    <entryLink import="true" name="Hospitaller" hidden="false" id="6ab7-f1a1-a233-cd2e" type="selectionEntry" targetId="2af9-bed6-ac1d-60f7">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="95cb-1e7e-9d5d-bf92" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="84cf-8b37-4272-cea2"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="84cf-8b37-4272-cea2">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="5a81-52c0-869a-4f68" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Palatine" hidden="false" id="47e6-8740-9151-3f00" type="selectionEntry" targetId="6bcc-a721-c4bf-7a8a">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="dd7c-42b9-d382-976a" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="73dc-8874-2e0a-bdc1"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="73dc-8874-2e0a-bdc1">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="5a81-52c0-869a-4f68" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Imagifier" hidden="false" id="77a8-3210-d82a-2941" type="selectionEntry" targetId="23b7-3b7d-db88-1dc1">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="f349-bb37-85f7-6712" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="7241-77b5-53bf-be3f"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="7241-77b5-53bf-be3f">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="5a81-52c0-869a-4f68" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Sororitas" id="d451-9f4d-ef1e-6120" targetId="dac8-b6f8-45b3-1d59"/>
+  </catalogueLinks>
+</catalogue>

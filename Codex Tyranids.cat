@@ -3769,7 +3769,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
-            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">6</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
           </characteristics>
         </profile>
@@ -5659,7 +5659,6 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="69c7-9162-92e0-7421" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3315-b28c-8d75-87f7" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b6e4-8221-1f42-1225" includeChildSelections="false"/>
       </constraints>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Leviathan" hidden="false" id="95e6-5b5b-0361-faf8">
@@ -5703,6 +5702,9 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="95e6-5b5b-0361-faf8" field="defaultSelectionEntryId"/>
+      </modifiers>
     </selectionEntryGroup>
     <selectionEntryGroup name="Tyranid Hive Fleet Psychic Powers" id="f42c-12fd-3788-6fde" hidden="false">
       <entryLinks>
@@ -5739,7 +5741,7 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
     </profile>
     <profile name="Ripping Em&apos; Apart" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="f36e-3c85-60be-9fb8">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">In a turn a Hive Fleet Kraken unit has charged, add +1 to its Initiative Characteristic. Also add +1 to the strength characteristic of all Hive Fleet Kraken infantry units and add +1A to the weapons profile of a single melee weapon permanently. Also, when declaring a charge, roll 3D6 and pick the two highest rolls. Monster units with 20LP or less in score on unmodified wound rolls of a 6 a single Mortal Wound, monster units with over 20LP score D3 Mortal Wounds on unmodified Wound Rolls of 6. </characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">In a turn a Hive Fleet Kraken unit has charged, add +1 to its Initiative Characteristic. Also add +1 to the strength characteristic of all Hive Fleet Kraken infantry units and add +1A to the weapons profile of a single melee weapon permanently. Also, when declaring a charge, roll 3D6 and pick the two highest rolls. Monster units with 20LP or less in score on unmodified wound rolls of a 6 a single Mortal Wound, monster units with over 20LP score D3 Mortal Wounds on unmodified Wound Rolls of 6.</characteristic>
       </characteristics>
     </profile>
     <profile name="Swarming Insects" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="c49c-7deb-fb21-fd3d">

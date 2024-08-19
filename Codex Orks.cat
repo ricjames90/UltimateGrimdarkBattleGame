@@ -7355,7 +7355,7 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Kommando Protocol " id="e6de-5a03-7170-2433" hidden="false" type="rule" targetId="7359-ab51-3985-fb80"/>
+        <infoLink name="Kommando Protocol" id="e6de-5a03-7170-2433" hidden="false" type="rule" targetId="7359-ab51-3985-fb80"/>
         <infoLink name="Infiltrators" id="9305-383a-1533-5c5c" hidden="false" type="rule" targetId="16b3-ebbc-abff-96b"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -7749,7 +7749,7 @@ After having resolved the movement, you roll another D6. On a 2+ this unit suffe
     <rule name="Mega Charge" id="c4e6-c2df-b288-aa15" hidden="false">
       <description>Everytime you declare a charge, roll 3D6 instead of 2 for determining the charge range, and discard the lowest one.</description>
     </rule>
-    <rule name="Kommando Protocol " id="7359-ab51-3985-fb80" hidden="false">
+    <rule name="Kommando Protocol" id="7359-ab51-3985-fb80" hidden="false">
       <description>Once per Game, at the end of one of your movement phases, remove this unit from the battlefield and immediately set it up again anywhere on the battlefield, but not closer than 9&apos;&apos; to any enemy units.</description>
     </rule>
   </sharedRules>
@@ -7978,7 +7978,6 @@ After having resolved the movement, you roll another D6. On a 2+ this unit suffe
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e4d-aff3-582e-ec04" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab92-9026-9c6d-ccbb" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b4e9-d0e9-a391-9c07" includeChildSelections="false"/>
       </constraints>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Goffs" hidden="false" id="7061-797b-0845-f9bf">

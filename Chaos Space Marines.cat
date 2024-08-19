@@ -258,5 +258,10 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Contemptor Dreadnought" hidden="false" id="883f-454e-2254-20ad" type="selectionEntry" targetId="67ad-2d8a-928d-8c91">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="1d41-a637-b2b5-2528" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
