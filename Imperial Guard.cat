@@ -2,6 +2,7 @@
 <catalogue library="false" id="d3ac-a641-5f91-8ef7" name="Imperial Guard" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Imperial Guard" id="32e8-030d-86a6-7a02" targetId="17fb-98ca-42e0-2e4c"/>
+    <catalogueLink type="catalogue" name="Codex Imperial Auxiliaries" id="70e4-8519-bdab-d61e" targetId="f62c-2cae-6827-39d5"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Vostroyan Firstborn Guardsmen" hidden="false" id="6b02-d900-5903-f622" type="selectionEntry" targetId="23e8-cf10-1263-bb76">
@@ -316,6 +317,66 @@
           </repeats>
         </modifier>
       </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Baneblade" hidden="false" id="e39e-c9eb-be55-d6b1" type="selectionEntry" targetId="3ddd-78dc-c8ed-66ba">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="2d77-599f-3233-5ad4" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Banehammer" hidden="false" id="e939-5c3d-6b83-6e76" type="selectionEntry" targetId="4eaa-2767-ee4b-aef6">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="0a7e-d956-512a-74a9" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Knight" hidden="false" id="fd41-581b-d799-b8ba" type="selectionEntry" targetId="040f-6ccd-dd5b-fd47">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="0840-01b8-f46d-268f" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armiger Helverin" hidden="false" id="68cf-6f1a-15f6-7671" type="selectionEntry" targetId="58c7-369f-4c4a-a1cb">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="e6cb-0b62-c4e5-66f9" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armiger Warglaive" hidden="false" id="f2b6-f610-0619-b5e4" type="selectionEntry" targetId="a1c7-3a48-2062-5694">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="d0f8-fb32-d06f-9d71" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Banesword" hidden="false" id="f0b5-7524-9074-4997" type="selectionEntry" targetId="3e9a-e2e7-03af-3836">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="ca81-a4a5-5656-def8" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Doomhammer" hidden="false" id="834d-6a6c-5af5-43a8" type="selectionEntry" targetId="b61d-d46b-3598-5e30">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="bd40-a23b-aca8-2e11" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hellhammer" hidden="false" id="4df5-9e48-3f23-fa1c" type="selectionEntry" targetId="0305-b8f5-675e-277d">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="3462-b2b4-5bed-780c" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shadowsword" hidden="false" id="392e-0e61-3c28-5e88" type="selectionEntry" targetId="9727-1381-7b89-adae">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="7b19-0579-050e-33b3" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormlord" hidden="false" id="d8db-9488-9283-7754" type="selectionEntry" targetId="b161-33db-ef26-8a83">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="2946-dc27-0c11-0bbc" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormsword" hidden="false" id="dca0-a9fb-41ab-a770" type="selectionEntry" targetId="8e70-063c-5ae0-a0cb">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="e8e9-fbae-e80f-f15a" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Enginseer" hidden="false" id="0e4a-b249-b2f8-9a12" type="selectionEntry" targetId="21ac-8e8d-03a8-dcec">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="8a12-21eb-3ffc-64ee" primary="true" name="HERO"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
 </catalogue>

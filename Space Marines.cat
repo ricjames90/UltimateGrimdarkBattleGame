@@ -774,6 +774,51 @@
         <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="a8d2-22a5-3808-601e" primary="true" name="HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Baneblade" hidden="false" id="1631-b40f-b586-30a7" type="selectionEntry" targetId="0dee-8e41-22ef-c8f1">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="f60e-9717-3992-3e86" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Banehammer" hidden="false" id="1280-724e-f2ec-46fe" type="selectionEntry" targetId="9d99-a3f1-d55c-10ee">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="748e-8a21-cb57-1885" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Banesword" hidden="false" id="6f45-c1e8-e7c7-43c7" type="selectionEntry" targetId="74c4-d8b0-da21-eb7b">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="bcfd-241c-d631-8b63" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Doomhammer" hidden="false" id="682c-1198-a54f-fbce" type="selectionEntry" targetId="b97a-d679-0d74-7f9a">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="4b4f-a5fd-6ce1-b4ea" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hellhammer" hidden="false" id="fa0d-8f2b-80cb-21dd" type="selectionEntry" targetId="7a35-5c4a-22c9-6ada">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="70c1-b2bc-07af-fb68" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shadowsword" hidden="false" id="e246-becc-5122-94fd" type="selectionEntry" targetId="e010-ec94-b0bb-3214">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="a0f2-7023-feb0-6b8d" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormlord" hidden="false" id="e7ab-d145-dcb5-5144" type="selectionEntry" targetId="c91e-cffa-bcbb-a3b2">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="07ac-c524-542b-5baf" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormsword" hidden="false" id="9fed-1243-a7c7-2e3f" type="selectionEntry" targetId="bfda-a58f-67e1-23ee">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="81df-67cd-a4a5-d48f" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Enginseer" hidden="false" id="e772-26ef-8758-7f6a" type="selectionEntry" targetId="21ac-8e8d-03a8-dcec">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="ce7d-cb0b-1659-9282" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Space Marines" id="1a54-9cc0-6596-93c6" targetId="b9aa-5902-f97d-9cd5"/>

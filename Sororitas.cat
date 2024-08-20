@@ -203,8 +203,69 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Baneblade" hidden="false" id="7462-2c26-6d9a-713d" type="selectionEntry" targetId="0dee-8e41-22ef-c8f1">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="aa35-dbb8-019d-b997" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Banehammer" hidden="false" id="f7e3-0289-003e-2608" type="selectionEntry" targetId="9d99-a3f1-d55c-10ee">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="958a-e19a-7ab4-d9a0" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Knight" hidden="false" id="18d0-f0cc-4b55-a2f0" type="selectionEntry" targetId="040f-6ccd-dd5b-fd47">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="a721-1f96-2f2f-0c78" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armiger Helverin" hidden="false" id="7e95-0c4a-22c5-5f11" type="selectionEntry" targetId="58c7-369f-4c4a-a1cb">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="aa6f-da2e-aa08-3c91" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armiger Warglaive" hidden="false" id="205a-196c-12ce-c793" type="selectionEntry" targetId="a1c7-3a48-2062-5694">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="048c-5ec3-e94b-b00d" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Banesword" hidden="false" id="adeb-4a5c-d78c-2c70" type="selectionEntry" targetId="74c4-d8b0-da21-eb7b">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="ac07-3be4-04d0-fe36" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Doomhammer" hidden="false" id="08cf-d092-c2f5-0d71" type="selectionEntry" targetId="b97a-d679-0d74-7f9a">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="0571-cccf-dc8a-d1c9" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hellhammer" hidden="false" id="b01c-e5a2-2c9c-d5e6" type="selectionEntry" targetId="7a35-5c4a-22c9-6ada">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="3f3f-f7cf-71ee-606d" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shadowsword" hidden="false" id="5972-ecae-a684-1f8a" type="selectionEntry" targetId="e010-ec94-b0bb-3214">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="1ea8-6a34-627b-26af" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormlord" hidden="false" id="a8ca-e9af-ead1-2b7f" type="selectionEntry" targetId="c91e-cffa-bcbb-a3b2">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="6d79-0d3b-c537-8ef4" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormsword" hidden="false" id="b0fe-3700-f2ac-5990" type="selectionEntry" targetId="bfda-a58f-67e1-23ee">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="7843-c7b5-5847-00d2" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Enginseer" hidden="false" id="90af-fdad-c9f2-12bf" type="selectionEntry" targetId="21ac-8e8d-03a8-dcec">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="0a4c-1ae2-14d4-a514" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Sororitas" id="d451-9f4d-ef1e-6120" targetId="dac8-b6f8-45b3-1d59"/>
+    <catalogueLink type="catalogue" name="Codex Imperial Auxiliaries" id="b4e4-1153-cfcd-5b68" targetId="f62c-2cae-6827-39d5"/>
   </catalogueLinks>
 </catalogue>

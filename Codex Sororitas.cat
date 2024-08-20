@@ -2060,12 +2060,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
         <entryLink import="true" name="Heavy Flamer" hidden="false" id="f48b-9e86-e8f1-36d4" type="selectionEntry" targetId="cda9-71c8-8145-e22" collective="true">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c428-aec4-e13f-2ff0" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15ea-f4ff-bcdf-27fc" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Heavy Flamer" hidden="false" id="e543-0351-8e35-b8f1" type="selectionEntry" targetId="cda9-71c8-8145-e22">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58f7-8b11-f4c2-3c36" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="15ea-f4ff-bcdf-27fc" includeChildSelections="false"/>
           </constraints>
           <costs>
             <cost name="Pts" typeId="Points" value="15"/>
@@ -2073,7 +2068,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="Points" value="100"/>
+        <cost name="Pts" typeId="Points" value="85"/>
       </costs>
       <comment>Sororitas</comment>
     </selectionEntry>
@@ -3918,7 +3913,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
       <profiles>
         <profile name="Halo Of The Saint" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="b02a-6b76-b38d-7e1f">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The equipped model gains the „Feel No Pain“ (5+) ability. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The equipped model gains the „Feel No Pain“ (5+) ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3976,7 +3971,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
       <profiles>
         <profile name="Blessed Armorim Cherubim" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="9f36-546a-4684-2117">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Once per Game, activated in the opposing players Command Phase, the equipped model can reroll all failed „Armor Save“ and „Invulnerable Save“ Roles. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Once per Game, activated in the opposing players Command Phase, the equipped model can reroll all failed „Armor Save“ and „Invulnerable Save“ Roles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3993,7 +3988,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
       <profiles>
         <profile name="Sword Of Holy Justice" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="ebab-0c1f-54de-17c2">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Upgrade for an equipped Power Sword. The Sword Of Holy Justice ignores the „Feel No Pain“ and the „Impervious To Injuries“ Ability. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Upgrade for an equipped Power Sword. The Sword Of Holy Justice ignores the „Feel No Pain“ and the „Impervious To Injuries“ Ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4287,7 +4282,7 @@ Second Paragraph: Change „a single friendly model“ to „D3 friendly models�
       <profiles>
         <profile name="Halo Of The Night" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="2299-f122-d35d-dbf3">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The equipped model gains the „Stealth“ and „Lone Operative“ Special Rule.  </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The equipped model gains the „Stealth“ and „Lone Operative“ Special Rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4312,7 +4307,7 @@ Second Paragraph: Change „a single friendly model“ to „D3 friendly models�
       <profiles>
         <profile name="Shrine Of Lupins" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="a99b-b82e-d1bd-cfc0">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f"> Imagifier only: This replaces the compulsory Banner of the Imagifier, but applies to the „Tales Of Inspiration“ Special Rule. Enemy units subtract -1 from all Wound Rolls against this unit that are caused by ranged Attacks made from units over 12&apos;&apos; away from the specific unit.</characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Imagifier only: This replaces the compulsory Banner of the Imagifier, but applies to the „Tales Of Inspiration“ Special Rule. Enemy units subtract -1 from all Wound Rolls against this unit that are caused by ranged Attacks made from units over 12&apos;&apos; away from the specific unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4400,7 +4395,7 @@ Second Paragraph: Change „a single friendly model“ to „D3 friendly models�
       <profiles>
         <profile name="Chants Of The God Emperor" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="d9c0-ee87-ea6a-2d0e">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Dogmata only: The model is allowed to use her „Hymns Of Battle“ Rule twice. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Dogmata only: The model is allowed to use her „Hymns Of Battle“ Rule twice.</characteristic>
           </characteristics>
         </profile>
       </profiles>

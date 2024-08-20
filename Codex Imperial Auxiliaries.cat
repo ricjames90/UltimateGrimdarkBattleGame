@@ -33,6 +33,23 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="36" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="040f-6ccd-dd5b-fd47" childId="a9aa-f73f-715c-2228" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="040f-6ccd-dd5b-fd47" childId="a92c-6b29-d9b2-e1cb" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="ba87-1f7-5679-198e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="040f-6ccd-dd5b-fd47" childId="ea55-bfb4-070f-6b28" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <categoryLinks>
@@ -54,6 +71,7 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
       </costs>
       <entryLinks>
         <entryLink import="true" name="Stomping Feet" hidden="false" id="a1ef-c5ae-6456-11bd" type="selectionEntry" targetId="bee0-dcca-26fc-63be"/>
+        <entryLink import="true" name="Royal Houses" hidden="false" id="862a-5681-e3cf-e41e" type="selectionEntryGroup" targetId="b87a-54a2-1e52-500c" sortIndex="1"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Auxiliary Weapon" id="af6b-2c4d-8700-9881" hidden="false">
@@ -239,6 +257,7 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <comment>Reinforcements Version</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Stomping Feet" hidden="false" id="bee0-dcca-26fc-63be" collective="true">
       <constraints>
@@ -460,9 +479,28 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Armiger Helverin" hidden="false" id="58c7-369f-4c4a-a1cb">
       <infoLinks>
-        <infoLink name="Armiger" id="2186-522d-680f-3120" hidden="false" type="profile" targetId="5036-7548-55b9-f89b"/>
+        <infoLink name="Armiger" id="2186-522d-680f-3120" hidden="false" type="profile" targetId="5036-7548-55b9-f89b">
+          <modifiers>
+            <modifier type="set" value="24" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="58c7-369f-4c4a-a1cb" childId="e7f9-8ac2-3dc5-e44c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="58c7-369f-4c4a-a1cb" childId="f76e-88ec-6557-9510" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="ba87-1f7-5679-198e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="58c7-369f-4c4a-a1cb" childId="86bf-6101-0d45-332a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink name="Deadly Demise(6/D6)" id="e595-066d-5950-b062" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Invulnerable Save(6+)" id="bc0e-d4de-e1c1-da7f" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+        <infoLink name="Ancient Architecture" id="465a-1772-91cf-b4ed" hidden="false" type="rule" targetId="201e-25d9-6c28-d532"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="d3a8-bf03-bcff-409c" primary="false" name="Vehicle"/>
@@ -511,6 +549,10 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <comment>Reinforcements Version</comment>
+      <entryLinks>
+        <entryLink import="true" name="Royal Houses" hidden="false" id="87e2-1422-df7a-7183" type="selectionEntryGroup" targetId="501f-57b4-ffd3-7840" sortIndex="1"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Stomping Feet" hidden="false" id="1dfb-9d03-e2e8-05a8" collective="true">
       <constraints>
@@ -533,9 +575,28 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Armiger Warglaive" hidden="false" id="a1c7-3a48-2062-5694">
       <infoLinks>
-        <infoLink name="Armiger" id="2269-d142-1177-025c" hidden="false" type="profile" targetId="5036-7548-55b9-f89b"/>
+        <infoLink name="Armiger" id="2269-d142-1177-025c" hidden="false" type="profile" targetId="5036-7548-55b9-f89b">
+          <modifiers>
+            <modifier type="set" value="24" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="a1c7-3a48-2062-5694" childId="e7f9-8ac2-3dc5-e44c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="a1c7-3a48-2062-5694" childId="f76e-88ec-6557-9510" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="ba87-1f7-5679-198e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="a1c7-3a48-2062-5694" childId="86bf-6101-0d45-332a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink name="Deadly Demise(6/D6)" id="19bd-8386-62a2-bc58" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Invulnerable Save(6+)" id="bae2-8c58-d41c-163b" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+        <infoLink name="Ancient Architecture" id="6759-51b3-7a60-3b63" hidden="false" type="rule" targetId="201e-25d9-6c28-d532"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="73ff-2d7b-444b-6a81" primary="false" name="Vehicle"/>
@@ -581,6 +642,10 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <comment>Reinforcements Version</comment>
+      <entryLinks>
+        <entryLink import="true" name="Royal Houses" hidden="false" id="7c41-7383-787e-14fc" type="selectionEntryGroup" targetId="501f-57b4-ffd3-7840" sortIndex="1"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Stubber" hidden="false" id="f80f-d6fc-87e8-85fc">
       <profiles>
@@ -626,7 +691,7 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">7</characteristic>
-            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User </characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
@@ -648,6 +713,1994 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Superior Marksmen" hidden="false" id="5053-10d4-628c-ea1f">
+      <costs>
+        <cost name="Pts" typeId="Points" value="70"/>
+      </costs>
+      <profiles>
+        <profile name="Superior Marksmen" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="1206-b873-112f-a94d">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Improve this models Ballistic Skill Characteristic to 3+.
+(Only Non-Imperial Guard)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8887-9bde-d1bb-f374" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="28f4-cd0d-3305-781f">
+      <profiles>
+        <profile name="Autocannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="d668-4275-7922-3525">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Demolisher Cannon" hidden="false" id="3616-2566-afbe-ebf1">
+      <profiles>
+        <profile name="Demolisher Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="2bb0-0f6e-ffca-9eb7">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">16</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ex(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="bf10-9aac-db3c-8354">
+      <profiles>
+        <profile name="Heavy Bolter" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="b438-f312-da33-7e60">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Las Cannon" hidden="false" id="cd7b-352d-74a8-5d59">
+      <profiles>
+        <profile name="Las Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="b12c-b310-1cfd-2d79">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">16</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combatweapon" hidden="false" id="c650-74b8-0114-abcc" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e714-bc39-f34c-6347" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="033a-bc67-dc75-8d11" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Combatweapon" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="acbf-4d83-df30-2a78">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">10</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Baneblade" hidden="false" id="3ddd-78dc-c8ed-66ba">
+      <costs>
+        <cost name="Pts" typeId="Points" value="360"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="c9b7-0e68-b528-bf1c" hidden="false" type="profile" targetId="5059-ba09-28f4-de16"/>
+        <infoLink name="Deadly Demise(12/D6+6)" id="be5a-e875-a4da-2cba" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Bane Of Enemies" id="f4ca-4dfd-454c-9659" hidden="false" type="rule" targetId="0fae-3c41-db70-08ff"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="ff59-ed09-3984-1e36" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Demolisher Cannon" hidden="false" id="3787-f79c-6e10-cd29" type="selectionEntry" targetId="3616-2566-afbe-ebf1" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b0c6-8cef-3f37-6885" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfcb-7159-5b6e-2541" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="30d9-b939-923a-c973" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cc3d-1bcf-5493-1753" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d21-3de0-76ce-61b5" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Autocannon" hidden="false" id="005a-6035-22c1-f4c8" type="selectionEntry" targetId="28f4-cd0d-3305-781f" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d8d3-d207-15e4-407c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3a0-5839-0eaa-4e61" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Baneblade Cannon" hidden="false" id="f040-2281-47c2-7a95" type="selectionEntry" targetId="8ed5-e5e9-7c4d-4a42" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df00-cea1-2f59-b42d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2f2-905e-539f-ff72" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="b8d7-b504-77c6-8027" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ce29-512b-3357-706c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cbf-bbf9-6d4b-c938" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="caab-f477-c4d8-caa7" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="408f-7cd5-31a0-e2e5" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="7cbf-b9f9-cfa8-55cd" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="38db-04db-fc8b-874a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="e063-b874-f554-de0c" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2cc-5c93-1a48-7eeb" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="740c-d111-ac93-d2d8" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8fad-9678-d9fc-a98c" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="a5fb-c7c8-0b00-4d10" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f108-4d02-bd67-c267" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="05f9-3d7f-5f72-eee7" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="bde4-730a-1f86-39d0" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="75ff-86dd-dcc4-afe3" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e01-160d-17b3-e61c" id="a100-894c-d636-dc0e" primary="false" name="FACTION: Imperial Guard"/>
+        <categoryLink targetId="6984-5ef8-3f7f-dc81" id="bf01-bbb3-5819-3468" primary="false" name="Baneblade"/>
+      </categoryLinks>
+      <comment>Imperial Guard Version</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Baneblade Chassis Sponson Twin Heavy Flamer Version" hidden="false" id="a5a8-fea8-639f-9a8c">
+      <profiles>
+        <profile name="Las Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="4f2e-e2ed-95fe-15e8">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">16</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Twin Heavy Flamer" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="790b-0012-e87a-3f39">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">*</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">6</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">To,IgC</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Baneblade Chassis Sponson Twin Heavy Bolter Version" hidden="false" id="8eb9-7e87-6b53-ace7">
+      <profiles>
+        <profile name="Las Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="4964-9465-53d0-fc48">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">16</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Twin Heavy Bolter" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="f28d-c23e-9610-e965">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">8</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="7ac5-4a27-02f7-b196">
+      <entryLinks>
+        <entryLink import="true" name="Baneblade Chassis Sponson Twin Heavy Flamer Version" hidden="false" id="4f37-efaa-58a9-a7df" type="selectionEntry" targetId="a5a8-fea8-639f-9a8c" collective="true">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="77e5-101a-3452-3391" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="df06-6c56-7be6-2469" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="d3a6-fe27-2a0b-8ed2">
+      <entryLinks>
+        <entryLink import="true" name="Baneblade Chassis Sponson Twin Heavy Bolter Version" hidden="false" id="e5b9-d760-dbda-d010" type="selectionEntry" targetId="8eb9-7e87-6b53-ace7" collective="true">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="67de-12c7-572f-2282" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="db2f-84fc-332c-d5d9" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin Heavy Bolter" hidden="false" id="2108-17e3-3670-5285">
+      <profiles>
+        <profile name="Twin Heavy Bolter" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="d281-ae20-ac3e-7520">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">8</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Baneblade Cannon" hidden="false" id="8ed5-e5e9-7c4d-4a42">
+      <profiles>
+        <profile name="Baneblade Cannon - Concentrated Blast" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="d437-a586-529b-7006">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">72</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Tre</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Baneblade Cannon - Burst Blast" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="89bf-b910-0712-022b">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">72</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(5)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Baneblade" hidden="false" id="0dee-8e41-22ef-c8f1">
+      <costs>
+        <cost name="Pts" typeId="Points" value="360"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="2119-bd9c-118b-102f" hidden="false" type="profile" targetId="5059-ba09-28f4-de16">
+          <modifiers>
+            <modifier type="set" value="3+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="0dee-8e41-22ef-c8f1" childId="1191-8b9c-1ee7-b2b8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(12/D6+6)" id="2719-281f-6e76-e2fa" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Bane Of Enemies" id="e53b-27a3-0c32-3f07" hidden="false" type="rule" targetId="0fae-3c41-db70-08ff"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="2334-9fe4-0c51-f92f" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Demolisher Cannon" hidden="false" id="53b1-d157-8ca1-845b" type="selectionEntry" targetId="3616-2566-afbe-ebf1" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="852c-abe0-9663-a294" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bae6-0023-23f7-fec2" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="e459-69c4-a5b5-8503" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dfd3-cf59-5189-a1d5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="679d-7fa3-94bb-e096" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Autocannon" hidden="false" id="3253-1e3a-1166-5893" type="selectionEntry" targetId="28f4-cd0d-3305-781f" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e92-9b2c-d4f9-09f7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f12c-aaf8-1705-b567" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Baneblade Cannon" hidden="false" id="b134-e8a9-871a-c4ae" type="selectionEntry" targetId="8ed5-e5e9-7c4d-4a42" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2b4-5491-26ac-65d8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c21-b779-48db-3d05" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Superior Marksmen" hidden="false" id="1191-8b9c-1ee7-b2b8" type="selectionEntry" targetId="5053-10d4-628c-ea1f" sortIndex="1"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="2778-f6dd-3ee1-d23f" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="14e5-d084-71f6-55ef" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b87-bb46-d18b-2495" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="eec5-6b72-4b7b-e560" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="149a-80fd-5e6c-71c7" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="b9c3-07da-1037-1382" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9679-172a-9099-679b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="8b8c-b818-6290-55df" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3aa9-26ef-e9df-601a" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="1cca-8f9e-5028-8861" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c3e4-70cf-c450-4c6b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="37dc-34ff-17c6-6399" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="03ba-fa1c-10e0-0464" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="79fe-5fc9-119c-67d8" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="3d66-acdc-b271-455d" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="303e-338f-b1b8-247d" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="6984-5ef8-3f7f-dc81" id="7aa3-dbbe-5692-8681" primary="false" name="Baneblade"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="c407-d40e-73c0-4bdc" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="58a1-aa73-4545-b0e0" primary="false" name="Imperial Reinforcements"/>
+      </categoryLinks>
+      <comment>Reinforcements Version</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Banehammer" hidden="false" id="4eaa-2767-ee4b-aef6">
+      <costs>
+        <cost name="Pts" typeId="Points" value="380"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="8320-da7b-e0e1-2ba1" hidden="false" type="profile" targetId="5059-ba09-28f4-de16"/>
+        <infoLink name="Deadly Demise(12/D6+6)" id="8e23-afda-1051-5a68" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Terrifying Disembarkment" id="66ac-895d-cb86-e3e3" hidden="false" type="rule" targetId="7e2d-7e4a-5b9c-1ffa"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="6e38-ad9e-87a9-f9b7" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="2f3c-c423-f565-2b96" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db75-530f-f6be-fc27" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d780-bb95-391e-3fba" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Banehammer Cannon" hidden="false" id="dcfb-b6bd-70cb-72ef" type="selectionEntry" targetId="85a4-9eee-0c75-e0dc" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9fab-c851-e28c-1720" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbdb-b914-138d-edb5" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="603f-64ea-af10-e72c" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="642c-a642-7119-a107" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="292a-767a-ce70-f12f" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="6c90-6234-043b-20a5" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f045-3656-3a8f-3250" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="c4b5-8351-af58-5899" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4dd2-cbda-1871-79ce" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="14e6-8b76-5952-0f25" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8784-0c82-28e1-b803" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="f302-20eb-79f1-6584" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="eaa1-a86c-3182-f451" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="6d3c-d1c0-8e8d-39a8" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="63d9-7851-3c75-b2c0" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="ac9f-4e17-42f1-7cd6" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="7142-9f1b-346c-fbc8" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="f68e-91c9-a376-7702" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e01-160d-17b3-e61c" id="087f-45f1-17a2-6aa4" primary="false" name="FACTION: Imperial Guard"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="611a-2513-5918-7c26" primary="false" name="Tansport"/>
+        <categoryLink targetId="68d8-bc35-ddbf-b969" id="d9d1-1e4f-dd08-2593" primary="false" name="Banehammer"/>
+      </categoryLinks>
+      <comment>Imperial Guard Version</comment>
+      <profiles>
+        <profile name="Banehammer" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="c53c-5651-8a2b-d6c4">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 25 Infantry models.
+Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take up 3. Only Infantry models from the Imperial Guard, AdMech, Genestealer Cults, Sororitas and Imperial Auxiliaries Codexes may be embarked into this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banehammer Cannon" hidden="false" id="85a4-9eee-0c75-e0dc">
+      <profiles>
+        <profile name="Banehammer Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="1691-2009-c446-096e">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">18</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ex(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Banehammer" hidden="false" id="9d99-a3f1-d55c-10ee">
+      <costs>
+        <cost name="Pts" typeId="Points" value="380"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="ddf4-6c32-1aaf-f330" hidden="false" type="profile" targetId="5059-ba09-28f4-de16">
+          <modifiers>
+            <modifier type="set" value="3+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="9d99-a3f1-d55c-10ee" childId="52fb-a9a3-be61-b808" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(12/D6+6)" id="adab-eb38-c65f-b35a" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Terrifying Disembarkment" id="3126-15b7-793c-41ba" hidden="false" type="rule" targetId="7e2d-7e4a-5b9c-1ffa"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="f8c8-f9a3-cdf5-3fd6" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="c92f-539b-4eea-cf34" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a63-5526-b197-1ce1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b057-b9d6-9ce1-7e0b" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Banehammer Cannon" hidden="false" id="08d5-a9fe-f93e-a987" type="selectionEntry" targetId="85a4-9eee-0c75-e0dc" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8767-1e59-17f5-8355" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7303-e5cc-2afe-9615" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Superior Marksmen" hidden="false" id="52fb-a9a3-be61-b808" type="selectionEntry" targetId="5053-10d4-628c-ea1f" sortIndex="1">
+          <costs>
+            <cost name="Pts" typeId="Points" value="40"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="3971-7505-89ef-559f" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a8aa-a0e8-438d-8d2c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66ec-d95e-0b13-7a5d" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="de2a-9c39-54cc-55b6" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="19ac-f254-1d94-6384" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="f1ec-7704-2384-5f35" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e743-dedc-a25d-d3be" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="dc45-76ee-8423-6be2" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b13-9b74-b628-fddb" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="579b-76cd-53ef-b2ed" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c4b6-4cc4-2a6e-e6e7" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="5aed-8d0e-3fd3-fae9" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="538c-f77b-0658-d666" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="cf7b-1041-2d15-f488" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="6e50-c955-2b43-8f17" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="3c29-1437-615a-b8e1" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="4b28-51ea-4e5f-2a00" primary="false" name="Tansport"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="82ec-f9bf-a737-9660" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="0281-f39d-3edd-4c8c" primary="false" name="Imperial Reinforcements"/>
+        <categoryLink targetId="68d8-bc35-ddbf-b969" id="2ffd-1c1d-541c-e9a5" primary="false" name="Banehammer"/>
+      </categoryLinks>
+      <comment>Reinforcements Version</comment>
+      <profiles>
+        <profile name="Banehammer" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="eb6c-66cf-ed96-12ed">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 25 Infantry models.
+Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take up 3. Only Infantry models from the Imperial Guard, AdMech, Genestealer Cults, Sororitas and Imperial Auxiliaries Codexes may be embarked into this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Banesword" hidden="false" id="3e9a-e2e7-03af-3836">
+      <costs>
+        <cost name="Pts" typeId="Points" value="400"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="1323-42d9-fc19-bad5" hidden="false" type="profile" targetId="5059-ba09-28f4-de16"/>
+        <infoLink name="Deadly Demise(12/D6+6)" id="11af-fe7b-5473-47b8" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Earthquakes That Bane The Enemy" id="ffe7-95af-1981-d3a7" hidden="false" type="rule" targetId="2681-52f7-d65c-66f1"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="8fca-2fd7-88aa-568f" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="f3ab-79e4-e94d-9188" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0648-c9fb-a94d-7757" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82a6-108a-3663-b5d4" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Quake Cannon" hidden="false" id="5693-1f47-eb4d-5494" type="selectionEntry" targetId="ceaa-abce-2ba5-4983" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f88c-b94c-6caa-f847" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5dee-8bbf-be5d-6c48" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="f64c-b954-c12d-0704" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c2b8-f668-5c29-44e3" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd8e-b216-b1f0-f21a" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="dc6a-bcd5-90cc-f78c" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8ad7-c3d6-889c-f5fb" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="dd12-21a5-65e0-4cfa" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fb8d-6b11-3044-3c57" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="c3b0-f4d4-89c5-89ef" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cda-3175-7e95-5cd7" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="e7c6-e6c0-8768-a831" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="813b-8cc4-1fa0-b68b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="5f89-3aca-36fa-991c" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8498-82e5-64ee-8323" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="31b5-b961-3cc9-ab0a" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="6921-66ce-8772-f719" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="f2f7-ea77-23ff-d913" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e01-160d-17b3-e61c" id="864f-feac-73c4-4ca8" primary="false" name="FACTION: Imperial Guard"/>
+        <categoryLink targetId="357c-7d71-c1a3-65ce" id="40b5-0bbf-6737-0657" primary="false" name="Banesword"/>
+      </categoryLinks>
+      <comment>Imperial Guard Version</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Quake Cannon" hidden="false" id="ceaa-abce-2ba5-4983">
+      <profiles>
+        <profile name="Quake Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="602f-1d16-7c7f-7c7e">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">60</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">5</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Sur</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Banesword" hidden="false" id="74c4-d8b0-da21-eb7b">
+      <costs>
+        <cost name="Pts" typeId="Points" value="400"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="e019-6164-23e4-9ced" hidden="false" type="profile" targetId="5059-ba09-28f4-de16">
+          <modifiers>
+            <modifier type="set" value="3+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="74c4-d8b0-da21-eb7b" childId="cd3b-e86f-4f8a-4185" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(12/D6+6)" id="3b9a-d20e-488a-1675" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Earthquakes That Bane The Enemy" id="a186-a5a1-8e0b-2586" hidden="false" type="rule" targetId="2681-52f7-d65c-66f1"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="9271-260d-15e2-57f4" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="4434-ba37-57ec-c02c" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5534-fdb7-6d28-48a1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="586d-2f5a-7b71-7a92" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Quake Cannon" hidden="false" id="e21a-6d91-1075-b70a" type="selectionEntry" targetId="ceaa-abce-2ba5-4983" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfea-47b0-30d4-8323" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6662-4602-4959-b0f3" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Superior Marksmen" hidden="false" id="cd3b-e86f-4f8a-4185" type="selectionEntry" targetId="5053-10d4-628c-ea1f" sortIndex="1"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="3d60-d2ce-89c8-8aaf" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="617d-53a2-eac1-99c8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bdb1-f988-6d3e-9f0f" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="aade-cee2-00cb-34a3" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b9f4-9b67-e987-6853" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="143f-da7c-d837-3fe3" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="31ca-1c35-fa8b-8c50" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="7dad-f70e-57c5-6e2a" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ce3-d3d2-67ff-7918" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="70fe-ec48-830c-2c8c" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="564b-36af-da15-136d" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="d097-1dac-4252-10af" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="039c-5e86-538a-797a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="3ce3-ca9f-c334-7baf" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="7a1d-4767-b9e6-1958" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="ea15-43ff-0c20-2f83" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="357c-7d71-c1a3-65ce" id="a98c-4838-b005-0998" primary="false" name="Banesword"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="1d5e-f57e-6a02-8dd2" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="c604-79a6-15a5-c06a" primary="false" name="Imperial Reinforcements"/>
+      </categoryLinks>
+      <comment>Reinforcements Version</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Doomhammer" hidden="false" id="b61d-d46b-3598-5e30">
+      <costs>
+        <cost name="Pts" typeId="Points" value="420"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="3281-85e6-cde7-939f" hidden="false" type="profile" targetId="5059-ba09-28f4-de16"/>
+        <infoLink name="Deadly Demise(12/D6+6)" id="aac0-d114-6b6e-e5cd" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Terrifying Disembarkment" id="642b-4550-ed62-873a" hidden="false" type="rule" targetId="7e2d-7e4a-5b9c-1ffa"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="7e30-1922-2d71-198f" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="04c4-0273-7962-08d7" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1790-c779-ec49-e87a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6710-16ea-ff0f-a261" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Doomhammer Cannon" hidden="false" id="123e-f61d-3c93-ae91" type="selectionEntry" targetId="bdde-8c8a-f934-b1e0" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8879-10f8-bd97-9c14" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb01-b8ed-7cb9-1d52" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="81ca-4a23-dcc7-80e3" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5d2-0e91-9c19-e073" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e92-51b8-77a3-1a66" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="b906-2dad-caaf-1ab1" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1aa9-5a88-74db-b540" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="08bb-a77c-f947-eeb5" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0ea7-ebb1-a402-2e16" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="9385-7643-b2a9-e4aa" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c83d-8abf-ed60-7e1a" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="63f1-dc5d-f71b-e31e" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fd93-7fb8-9905-2cbd" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="2251-13a6-ceef-5275" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7ce5-ca93-78d0-e868" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="7787-5709-5692-8cbc" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="f80a-577a-daba-46a5" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="149a-0b30-f884-96e5" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e01-160d-17b3-e61c" id="0e76-986c-d60a-8ede" primary="false" name="FACTION: Imperial Guard"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="dd31-8f4b-9864-9cef" primary="false" name="Tansport"/>
+        <categoryLink targetId="5c10-8612-50e6-908c" id="9d2e-4942-b66e-9ea0" primary="false" name="Doomhammer"/>
+      </categoryLinks>
+      <comment>Imperial Guard Version</comment>
+      <profiles>
+        <profile name="Doomhammer" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="761f-d468-a6ef-f7ce">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 25 Infantry models.
+Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take up 3. Only Infantry models from the Imperial Guard, AdMech, Genestealer Cults, Sororitas and Imperial Auxiliaries Codexes may be embarked into this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Doomhammer Cannon" hidden="false" id="bdde-8c8a-f934-b1e0">
+      <profiles>
+        <profile name="Doomhammer Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="fcdf-5a61-c692-f0c2">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">20</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Doomhammer" hidden="false" id="b97a-d679-0d74-7f9a">
+      <costs>
+        <cost name="Pts" typeId="Points" value="420"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="0212-05c0-7227-e374" hidden="false" type="profile" targetId="5059-ba09-28f4-de16">
+          <modifiers>
+            <modifier type="set" value="3+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="b97a-d679-0d74-7f9a" childId="5bad-39f8-57ba-b5a5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(12/D6+6)" id="4434-ac34-089c-8dc2" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Terrifying Disembarkment" id="e83c-6866-a240-1656" hidden="false" type="rule" targetId="7e2d-7e4a-5b9c-1ffa"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="7baf-e94b-fc4a-bb56" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="d1de-2792-3db7-d255" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2430-b7a6-3824-f980" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed9a-d63c-e0c6-4db2" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Doomhammer Cannon" hidden="false" id="50e7-851c-7a0d-6c7d" type="selectionEntry" targetId="bdde-8c8a-f934-b1e0" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb5a-d868-9611-c7de" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00dd-8a98-0eba-ad07" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Superior Marksmen" hidden="false" id="5bad-39f8-57ba-b5a5" type="selectionEntry" targetId="5053-10d4-628c-ea1f" sortIndex="1"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="0738-d92b-891a-84fc" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d44e-aef7-cf26-a7a1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="caf9-b0fa-190b-d371" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="d288-da11-d10e-86a1" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3fb5-4a9d-6b6b-f8ba" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="731a-42fa-f4b3-e746" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f0e3-25a0-0845-0376" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="3e8a-d5c7-9da9-1e9b" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b45e-4080-d664-64cf" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="4ad2-fc12-761d-b126" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="45eb-b42d-99d5-8e51" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="d4de-a201-85b4-870f" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="cdf7-5b75-36a9-152e" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="7596-69ff-c7e6-32b9" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="7ea7-475b-f46b-1da7" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="9545-0d97-a4d9-b035" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="bf24-0e0e-3901-090b" primary="false" name="Tansport"/>
+        <categoryLink targetId="5c10-8612-50e6-908c" id="b6a1-1158-6c75-4f40" primary="false" name="Doomhammer"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="5f9b-df3a-7ec3-3499" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="4732-0207-c88b-db54" primary="false" name="Imperial Reinforcements"/>
+      </categoryLinks>
+      <comment>Reinforcements Version</comment>
+      <profiles>
+        <profile name="Doomhammer" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="e2b9-19d4-3b61-9198">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 25 Infantry models.
+Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take up 3. Only Infantry models from the Imperial Guard, AdMech, Genestealer Cults, Sororitas and Imperial Auxiliaries Codexes may be embarked into this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="House Cadmus" hidden="false" id="e422-c705-9fbd-b615">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1eed-09f5-b083-d236" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="House Cadmus" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="af90-61d1-0f63-e6f8">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Increase the models Life Points characteristic by 4 for an Armiger Knight and by 6 for a Canis Rex or Valiant Chassis.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="House Griffith" hidden="false" id="9c4c-6ae7-3e66-2a99">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e9b-d37a-b198-4462" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="House Griffith" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="99ca-3510-ea58-6ba9">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Improve the models Invulnerable Save Special Rule by one stage up to a maximum of 4+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(4+)" id="d18b-9940-8b1a-fbc7" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+      </infoLinks>
+      <comment>4+ Invul Version</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="House Mortan" hidden="false" id="85b2-642b-b1f8-e8c7">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17ec-9de6-4b04-914b" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="House Mortan" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="7334-ca8c-786c-df02">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Improve the models Ballistic Skil Characteristic by 1 Stage to a Maximum of 2+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="House Griffith" hidden="false" id="0113-0d31-604d-1dc6">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cf5-ab50-d20a-9264" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="House Griffith" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="52ca-524a-bd28-fe5d">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Improve the models Invulnerable Save Special Rule by one stage up to a maximum of 4+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(5+)" id="4190-5509-278a-eb05" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+      </infoLinks>
+      <comment>5+ Invul Version</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="House Teryn" hidden="false" id="6d9d-8634-d896-8b4f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d960-e674-bdc5-cf87" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="House Teryn" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="7ac8-5748-2625-d3ee">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Improve the models Weapon Skill Characteristic by 1 Stage to a Maximum of 2+. Also add +1 to Charge Rolls.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="House Hawkshroud" hidden="false" id="0ada-f31e-ea02-83c0">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d0c-c4c9-361c-5575" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="House Hawkshroud" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="ea06-4e2b-20dc-9472">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The model gains the &quot;Feel No Pain(6+)&quot; Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Feel No Pain(6+)" id="2318-8290-de28-680e" hidden="false" type="rule" targetId="8261-c96-7db2-434a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hellhammer" hidden="false" id="0305-b8f5-675e-277d">
+      <costs>
+        <cost name="Pts" typeId="Points" value="340"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="402e-2dcc-77ce-ece1" hidden="false" type="profile" targetId="5059-ba09-28f4-de16"/>
+        <infoLink name="Deadly Demise(12/D6+6)" id="f281-f6a3-67f6-37c4" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Hell On Earth" id="7168-66f3-0126-c30b" hidden="false" type="rule" targetId="4878-8a17-b6fc-5139"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="2010-5b7c-0cda-5393" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Demolisher Cannon" hidden="false" id="5fe7-59f5-511c-2f58" type="selectionEntry" targetId="3616-2566-afbe-ebf1" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="201f-eafe-178e-d5ef" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d838-a360-ecf7-6caa" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="f153-8ee5-24eb-3a8f" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0145-dc01-57f8-fa92" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45d2-12db-fdec-902e" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Autocannon" hidden="false" id="1fd9-a171-75f0-9bd3" type="selectionEntry" targetId="28f4-cd0d-3305-781f" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c3c-fcb2-983f-892e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40e0-2b7f-de60-7c3c" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Hellhammer Cannon" hidden="false" id="64fa-ea97-a803-bb49" type="selectionEntry" targetId="baa0-c407-d41c-b324" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="57fa-434e-15e6-9199" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87c5-0089-5e62-3730" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="4d58-a27e-abdc-e517" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8463-e0c9-5002-1ca1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be43-fcda-7fe0-9b2e" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="8f31-85d5-ef3e-205c" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="abd9-2e9b-a684-ef6c" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="9115-ed59-0e1e-4bf7" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e38c-e5a2-9bab-c05a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="222f-b47a-5dd2-eb69" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="beea-f4ae-268f-2d02" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="e8e7-55f8-c165-e695" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="04df-4bed-776e-3a13" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="edea-1253-f652-1478" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="da9b-3b6c-23c4-e640" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="cbd2-3e0b-c6ce-4532" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="8200-c866-ebcf-48dc" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="37f7-f4fe-30b9-7a5f" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e01-160d-17b3-e61c" id="7d7a-ce98-416c-881d" primary="false" name="FACTION: Imperial Guard"/>
+        <categoryLink targetId="ea5b-ed2c-d244-8115" id="b229-012c-5197-c402" primary="false" name="Hellhammer"/>
+      </categoryLinks>
+      <comment>Imperial Guard Version</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hellhammer Cannon" hidden="false" id="baa0-c407-d41c-b324">
+      <profiles>
+        <profile name="Hellhammer Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="0cf9-c20f-c8f1-3417">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">*</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">To,IgC</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Superior Marksmen" hidden="false" id="ea3c-d323-ab84-694f">
+      <costs>
+        <cost name="Pts" typeId="Points" value="40"/>
+      </costs>
+      <profiles>
+        <profile name="Superior Marksmen" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="2e79-a4f5-c053-5a16">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Improve this models Ballistic Skill Characteristic to 3+.
+(Only Non-Imperial Guard)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87f6-3190-361b-c083" includeChildSelections="false"/>
+      </constraints>
+      <comment>Hellhammer</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hellhammer" hidden="false" id="7a35-5c4a-22c9-6ada">
+      <costs>
+        <cost name="Pts" typeId="Points" value="340"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="d0fc-c2bc-55dc-80ef" hidden="false" type="profile" targetId="5059-ba09-28f4-de16">
+          <modifiers>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="7a35-5c4a-22c9-6ada" childId="5f96-64fa-3a83-3e07" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(12/D6+6)" id="d1a5-d3d0-3397-ea1f" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Hell On Earth" id="ed50-ca34-48a8-386a" hidden="false" type="rule" targetId="4878-8a17-b6fc-5139"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="d3c2-cd06-3357-ac10" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Demolisher Cannon" hidden="false" id="fdec-1c8f-3c99-e203" type="selectionEntry" targetId="3616-2566-afbe-ebf1" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="523d-0540-15ea-268f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa58-fd19-e876-45ac" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="a49f-23ed-bc30-eb47" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8591-6273-f117-f9cf" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a50f-55e5-c6ec-7d31" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Autocannon" hidden="false" id="fb20-6421-9264-9510" type="selectionEntry" targetId="28f4-cd0d-3305-781f" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df2f-6b65-3dc6-c83c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5cc-9e55-9471-6348" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Hellhammer Cannon" hidden="false" id="0032-53bf-311f-28d8" type="selectionEntry" targetId="baa0-c407-d41c-b324" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa5e-304b-29e9-283f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d180-cb01-8011-b5fa" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Superior Marksmen" hidden="false" id="5f96-64fa-3a83-3e07" type="selectionEntry" targetId="ea3c-d323-ab84-694f" sortIndex="1"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="81b8-bc49-0f08-ccb7" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a49e-f275-cc7e-05bd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4713-7e29-44b5-635a" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="f31d-a633-b852-a20d" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c29c-fab6-6dcf-8ecf" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="00a6-b474-d36c-1639" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e989-e852-8e24-6ecf" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="209d-b134-a1de-5f50" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbe8-c6cb-58c1-59a0" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="e6ce-36da-b0f9-2b93" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="33f3-e032-f137-c3ce" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="a33e-0714-3d52-b76c" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1770-c275-9c0a-4879" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="e8b4-3503-59e4-f373" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="a7fc-4a09-7954-ce06" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="cbc0-1b4d-cf64-054f" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="ea5b-ed2c-d244-8115" id="7194-5936-9dd3-580d" primary="false" name="Hellhammer"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="1853-cd14-16a1-c4b8" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="5f42-f73a-b190-eba9" primary="false" name="Imperial Reinforcements"/>
+      </categoryLinks>
+      <comment>Reinforcement Version</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Shadowsword" hidden="false" id="9727-1381-7b89-adae">
+      <costs>
+        <cost name="Pts" typeId="Points" value="380"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="c71e-6d62-ecb5-92e5" hidden="false" type="profile" targetId="5059-ba09-28f4-de16"/>
+        <infoLink name="Deadly Demise(12/D6+6)" id="001a-d865-2c74-0793" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Shadow Of Death" id="a8af-6f4d-2e19-d496" hidden="false" type="rule" targetId="c594-6800-430b-e7e8"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="ae51-0720-362e-f53f" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="ec97-ac11-eab2-0d23" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="608a-eaf0-a922-7e97" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ec2-649b-4287-586a" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Volcano Cannon" hidden="false" id="3b16-43f8-d6f1-05f3" type="selectionEntry" targetId="d087-7a0c-2f2a-42d0" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3964-f6b9-b076-6fc9" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="616c-ab2d-245c-a997" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="d851-6ce8-d4c3-32cf" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="45f2-7c75-982f-9275" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c977-3b31-b476-f55d" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="79fe-8e40-ba99-0bdb" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0696-e30b-b576-1ce3" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="4818-7c45-0b71-c04d" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a8de-9a27-094e-9c62" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="7e75-8443-00f4-649d" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18f6-221c-b51f-3b3a" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="b19a-6ccf-1ba9-8e89" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6847-1986-f0d1-782f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="ec4b-78eb-2d2b-0c8a" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="81a8-028b-0bb6-da05" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="3634-b335-f67f-32f5" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="00be-5b87-cfa9-edfd" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="5c36-d0f5-3d33-a9fb" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e01-160d-17b3-e61c" id="a0b1-263b-b045-f9df" primary="false" name="FACTION: Imperial Guard"/>
+        <categoryLink targetId="8e4e-10ba-d313-da71" id="395d-58ec-2db0-f8a9" primary="false" name="Shadowsword"/>
+      </categoryLinks>
+      <comment>Imperial Guard Version</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volcano Cannon" hidden="false" id="d087-7a0c-2f2a-42d0">
+      <profiles>
+        <profile name="Volcano Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="dbdf-c751-76c5-9b52">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">72</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">D3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">28</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Shadowsword" hidden="false" id="e010-ec94-b0bb-3214">
+      <costs>
+        <cost name="Pts" typeId="Points" value="380"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="93a5-42c7-7725-1f60" hidden="false" type="profile" targetId="5059-ba09-28f4-de16">
+          <modifiers>
+            <modifier type="set" value="3+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="e010-ec94-b0bb-3214" childId="f1e7-33af-7916-04ba" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(12/D6+6)" id="8886-40b0-6286-bf5a" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Shadow Of Death" id="c68b-bc99-2441-1016" hidden="false" type="rule" targetId="c594-6800-430b-e7e8"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="841e-348a-1eaf-c080" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="6895-95dd-491f-ff9d" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c4a-17fb-a99d-422a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ede-9909-915a-836c" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Volcano Cannon" hidden="false" id="964f-7d19-5743-e6d1" type="selectionEntry" targetId="d087-7a0c-2f2a-42d0" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5e2d-2e39-e715-a23d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f610-9afb-f7e7-6e19" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Superior Marksmen" hidden="false" id="f1e7-33af-7916-04ba" type="selectionEntry" targetId="5053-10d4-628c-ea1f" sortIndex="1"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="ac07-badd-1fdd-8780" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f17f-34c0-1a86-1c07" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e96b-f9a0-70d6-4d5d" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="cdce-d473-2ff9-a382" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ec97-2b74-52d0-d5c8" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="dd59-0b38-cf6e-8194" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8c4b-571f-1cc5-d092" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="bb31-be17-cab6-fa9e" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9053-9389-c261-55bc" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="5110-5a61-2a84-aebc" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="bcfa-75a4-5e3c-e662" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="a061-5232-14a5-4402" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4a4c-2562-3df4-792b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="47e7-97ec-3f6f-255c" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="bb62-c269-56a4-6759" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="b7fd-1946-c76a-245d" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e4e-10ba-d313-da71" id="38e8-09a6-c2c6-2afc" primary="false" name="Shadowsword"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="39ca-3fed-1534-640d" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="962f-a3a3-da11-775d" primary="false" name="Imperial Reinforcements"/>
+      </categoryLinks>
+      <comment>Reinforcements Version</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormlord" hidden="false" id="b161-33db-ef26-8a83">
+      <costs>
+        <cost name="Pts" typeId="Points" value="390"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="e526-2bfe-6322-dc71" hidden="false" type="profile" targetId="5059-ba09-28f4-de16"/>
+        <infoLink name="Deadly Demise(12/D6+6)" id="ec92-3932-3dd2-37af" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Terrifying Disembarkment" id="4339-d43c-2091-4159" hidden="false" type="rule" targetId="7e2d-7e4a-5b9c-1ffa"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="350f-217b-3e5a-1b59" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="19aa-6482-0350-32ae" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b213-339e-30b2-5228" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e0a-4f26-856f-5727" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Vulcan Mega Bolter" hidden="false" id="66cc-0ff4-d730-6d78" type="selectionEntry" targetId="f064-9446-e53f-4c18" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b406-46ce-4dc5-8b87" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca22-3110-9ef9-d3f6" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="adfa-b19e-8273-b36e" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6405-ce48-d1f8-3a74" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73d6-3059-88e5-9ef3" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="5d28-ca8d-7003-2ff6" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="88a9-1174-4fda-2f3a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="1f04-37e4-15b8-5542" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="806b-7461-cdc0-7d4f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="cf7f-03e0-8228-a970" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eda8-be71-4b39-b341" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="f9cf-ac02-bcda-0b72" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a8e2-5231-5a9e-571b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="660b-d360-5d78-9422" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="62fc-fe64-d7c4-fb44" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="2e7c-0c75-3a0a-2a86" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="cb16-6377-df26-b098" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="29e7-2e0e-af42-41b6" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e01-160d-17b3-e61c" id="ca96-3c4d-3f48-808c" primary="false" name="FACTION: Imperial Guard"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="ed10-a62c-0b32-873c" primary="false" name="Tansport"/>
+        <categoryLink targetId="26aa-780a-c51e-8ef8" id="67f4-1c9e-6724-f467" primary="false" name="Stormlord"/>
+      </categoryLinks>
+      <comment>Imperial Guard Version</comment>
+      <profiles>
+        <profile name="Stormlord" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="3b6c-209e-0110-5855">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 35 Infantry models.
+Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take up 3. Only Infantry models from the Imperial Guard, AdMech, Genestealer Cults, Sororitas and Imperial Auxiliaries Codexes may be embarked into this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vulcan Mega Bolter" hidden="false" id="f064-9446-e53f-4c18">
+      <profiles>
+        <profile name="Vulcan Mega Bolter" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="87de-e4cb-f164-130d">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">30</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">6</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormlord" hidden="false" id="c91e-cffa-bcbb-a3b2">
+      <costs>
+        <cost name="Pts" typeId="Points" value="390"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="f0e6-a417-5980-c504" hidden="false" type="profile" targetId="5059-ba09-28f4-de16">
+          <modifiers>
+            <modifier type="set" value="3+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="c91e-cffa-bcbb-a3b2" childId="0a86-c323-1c36-b8d4" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(12/D6+6)" id="9009-7117-2146-1093" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Terrifying Disembarkment" id="e085-d28e-7bb0-2b11" hidden="false" type="rule" targetId="7e2d-7e4a-5b9c-1ffa"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="424f-2003-0bf4-aceb" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="bf5d-74af-f213-99e7" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba95-5dc6-dc31-4df5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79d5-0540-3bd7-a98f" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Vulcan Mega Bolter" hidden="false" id="58a1-1c47-1d68-3532" type="selectionEntry" targetId="f064-9446-e53f-4c18" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e48c-28b8-5636-e384" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0710-9734-cb08-cc5c" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Superior Marksmen" hidden="false" id="0a86-c323-1c36-b8d4" type="selectionEntry" targetId="5053-10d4-628c-ea1f" sortIndex="1"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="26d0-84ef-8693-d1d5" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8a4e-bcb9-466e-1494" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f48c-e4ce-0260-87b5" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="5d7b-ce3d-268d-e6ff" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e3f9-476d-03f8-6280" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="5b8d-54b9-91e6-55b2" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3126-cb5b-8817-5069" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="603b-c530-3d82-1d9a" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fda4-1cd3-f57d-aade" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="c177-2909-7389-2276" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c0ab-a4ce-c885-047e" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="9935-6c70-8944-5cd7" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f198-539e-926a-4d10" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="623c-c490-2256-7d45" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="14cf-9b9e-fd71-59c5" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="c2dd-1b14-7ace-2acc" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="fa67-51a7-7d4b-d556" primary="false" name="Tansport"/>
+        <categoryLink targetId="26aa-780a-c51e-8ef8" id="8cf3-d595-4d42-c7e2" primary="false" name="Stormlord"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="07cf-e005-6fed-3fcf" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="90df-7451-33bc-e715" primary="false" name="Imperial Reinforcements"/>
+      </categoryLinks>
+      <comment>Reinforcement Version</comment>
+      <profiles>
+        <profile name="Stormlord" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="c175-b975-2f71-fba0">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 35 Infantry models.
+Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take up 3. Only Infantry models from the Imperial Guard, AdMech, Genestealer Cults, Sororitas and Imperial Auxiliaries Codexes may be embarked into this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Storm Siege Cannon" hidden="false" id="44be-4810-4ba7-07c5">
+      <profiles>
+        <profile name="Storm Siege Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="2036-e6f8-44c0-3fca">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(5)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormsword" hidden="false" id="8e70-063c-5ae0-a0cb">
+      <costs>
+        <cost name="Pts" typeId="Points" value="400"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="67aa-230b-ea95-10af" hidden="false" type="profile" targetId="5059-ba09-28f4-de16"/>
+        <infoLink name="Deadly Demise(12/D6+6)" id="f352-28a7-d648-ccf1" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Storm Siege" id="becc-86b3-84b0-f973" hidden="false" type="rule" targetId="16b0-450b-aef9-3976"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="1f14-c80c-b8a7-e92c" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="b884-f694-9b5c-fdf5" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6aeb-2914-3a45-0f34" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56fa-2040-5114-c019" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Storm Siege Cannon" hidden="false" id="83c4-39f2-9630-1857" type="selectionEntry" targetId="44be-4810-4ba7-07c5" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f4e-6e86-a2b2-6fe5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4624-3645-d77b-d2ee" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="086d-4354-df77-790f" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2edf-33af-b8e5-45e8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c69-de19-4949-d6cb" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="1c0b-a6ca-87de-77d5" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b3de-bc92-b113-0e21" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="fb6b-4100-7b7f-a733" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0ca7-7c60-cb3e-7c4b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="2ed0-e478-5510-5bd8" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b10-beaa-a5c4-0a92" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="e13d-abcc-3e10-cd3c" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="114e-47df-8509-b47d" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="70ea-74c0-17e2-5702" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f250-51e3-66b7-0481" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="6e6d-cee9-5e4e-118b" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="ef4e-7701-0ea9-1ccc" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="5a87-ad4f-8e25-0135" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e01-160d-17b3-e61c" id="6375-9873-cbf3-2f44" primary="false" name="FACTION: Imperial Guard"/>
+        <categoryLink targetId="96b4-2386-d5a9-5f3f" id="cc59-851c-5d90-65bb" primary="false" name="Stormsword"/>
+      </categoryLinks>
+      <comment>Imperial Guard Version</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormsword" hidden="false" id="bfda-a58f-67e1-23ee">
+      <costs>
+        <cost name="Pts" typeId="Points" value="400"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade-Chassis" id="8823-ff07-3ab4-6aad" hidden="false" type="profile" targetId="5059-ba09-28f4-de16">
+          <modifiers>
+            <modifier type="set" value="3+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="bfda-a58f-67e1-23ee" childId="b3bf-aecd-5553-68de" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(12/D6+6)" id="2e4b-ee65-40b5-8ed0" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Storm Siege" id="93d7-be27-ed1f-187b" hidden="false" type="rule" targetId="16b0-450b-aef9-3976"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="3148-0866-1ffd-14f6" type="selectionEntry" targetId="c650-74b8-0114-abcc"/>
+        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="13e7-6b3b-3c82-3637" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0c82-99f9-27d6-c945" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c16f-720e-e0ee-542b" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Storm Siege Cannon" hidden="false" id="d08d-71bd-ef43-c38c" type="selectionEntry" targetId="44be-4810-4ba7-07c5" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9bfa-5146-a681-2bd1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="972f-3e81-eb28-7a25" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Superior Marksmen" hidden="false" id="b3bf-aecd-5553-68de" type="selectionEntry" targetId="5053-10d4-628c-ea1f" sortIndex="1"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Main Sponsons" id="5bad-a4ab-c2c6-9e96" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c12d-4b03-b80a-098b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c32-1ed8-f8d6-19f6" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="6614-80ab-2bd3-12e6" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="43fb-caf9-8798-687f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="8cbe-a650-af63-7666" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3473-2b3e-930c-048c" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="caab-f477-c4d8-caa7" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Option Sponsons" id="c7dc-a29e-4bd1-dbbe" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a875-5ab0-c7a7-55c6" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Bolter Verion" hidden="false" id="10c6-b164-6ed9-ff48" type="selectionEntry" targetId="d3a6-fe27-2a0b-8ed2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7d40-ceff-6a14-192a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="2 Baneblade Sponsons Twin Heavy Flamer Verion" hidden="false" id="e1ec-2bc3-2337-ae7f" type="selectionEntry" targetId="7ac5-4a27-02f7-b196">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3165-37f1-59db-7774" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="1196-c906-2fca-f1f6" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="952f-0eb2-fba9-b256" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="562e-be20-374e-7541" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="96b4-2386-d5a9-5f3f" id="9072-17d8-6dfc-e66f" primary="false" name="Stormsword"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="5eea-f469-04d2-4bec" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="a3f9-0675-4e8b-5020" primary="false" name="Imperial Reinforcements"/>
+      </categoryLinks>
+      <comment>Reinforcement Version</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Enginseer" hidden="false" id="21ac-8e8d-03a8-dcec">
+      <infoLinks>
+        <infoLink name="Whisper To The Omnissiah" id="c86d-a186-79c9-78e7" hidden="false" type="rule" targetId="494d-4a74-6c22-0e53"/>
+        <infoLink name="Invulnerable Save(5+)" id="1bac-7d14-395d-4c6a" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="50"/>
+      </costs>
+      <profiles>
+        <profile name="Enginseer" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="cecc-28e3-65f7-411b">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Mechanicus Pistol" hidden="false" id="698c-9537-2eda-c735" type="selectionEntry" targetId="03e1-d75c-793e-49ce" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec1a-43b0-e2fe-9c09" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65d1-5bda-002c-a30f" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Servoarm" hidden="false" id="1f4e-92b9-b860-1068" type="selectionEntry" targetId="37cb-8af8-aa43-25f8" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32bf-41c6-2c5c-50e0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a37-6d76-b2a4-0334" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Omnissiah Axe" hidden="false" id="c364-24f3-604d-b8f0" type="selectionEntry" targetId="1371-99aa-295e-43ab" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="438d-ff96-9d09-c875" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="affe-e447-ae99-ba97" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="e321-0e20-bf9f-640b" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="df0d-3b44-b40c-d6dc" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="d5a9-9334-a0cf-8d67" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="0a9c-a666-4e94-5bca" primary="false" name="Character"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="80ea-e6d4-dac3-f98b" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="8032-9ba1-76aa-45be" id="5f64-2f7b-ff2e-3874" primary="false" name="Enginseer"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="fcf2-6ffd-a63b-f478" primary="false" name="Imperial Reinforcements"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mechanicus Pistol" hidden="false" id="03e1-d75c-793e-49ce">
+      <profiles>
+        <profile name="Mechanicus Pistol" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="a92d-e719-c214-eccd">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Servoarm" hidden="false" id="37cb-8af8-aa43-25f8">
+      <profiles>
+        <profile name="Servoarm" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="4957-abc6-a79e-f2bb">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">2</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">ExA, -1 Ini</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Omnissiah Axe" hidden="false" id="1371-99aa-295e-43ab">
+      <profiles>
+        <profile name="Omnissiah Axe" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="29a8-d795-ca63-cb83">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">2</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x3</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Imperial Knight" id="4b9c-afe4-7b77-d66a" hidden="false"/>
@@ -659,10 +2712,40 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
       </constraints>
     </categoryEntry>
     <categoryEntry name="Royal Knights" id="f3a4-61dd-14ed-d1e4" hidden="false"/>
+    <categoryEntry name="Baneblade" id="6984-5ef8-3f7f-dc81" hidden="false"/>
+    <categoryEntry name="Banehammer" id="68d8-bc35-ddbf-b969" hidden="false"/>
+    <categoryEntry name="Banesword" id="357c-7d71-c1a3-65ce" hidden="false"/>
+    <categoryEntry name="Doomhammer" id="5c10-8612-50e6-908c" hidden="false"/>
+    <categoryEntry name="Hellhammer" id="ea5b-ed2c-d244-8115" hidden="false"/>
+    <categoryEntry name="Shadowsword" id="8e4e-10ba-d313-da71" hidden="false"/>
+    <categoryEntry name="Stormlord" id="26aa-780a-c51e-8ef8" hidden="false"/>
+    <categoryEntry name="Stormsword" id="96b4-2386-d5a9-5f3f" hidden="false"/>
+    <categoryEntry name="Enginseer" id="8032-9ba1-76aa-45be" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Ancient Architecture" id="201e-25d9-6c28-d532" hidden="false">
       <description>Wound Rolls of 1-3 made against this model always fail.</description>
+    </rule>
+    <rule name="Bane Of Enemies" id="0fae-3c41-db70-08ff" hidden="false">
+      <description>This model does never suffer the penalty to its hit rolls for the „Big Guns Never Tire“ Special Rule.</description>
+    </rule>
+    <rule name="Terrifying Disembarkment" id="7e2d-7e4a-5b9c-1ffa" hidden="false">
+      <description>When a unit disembarks from this model, it can do so wholly within 6&apos;&apos; instead of the usual 3&apos;&apos;.</description>
+    </rule>
+    <rule name="Earthquakes That Bane The Enemy" id="2681-52f7-d65c-66f1" hidden="false">
+      <description>When this model destroys an enemy unit, all enemy units within 6&apos;&apos; of the destroyed unit, these units have to take a „Morale Break“ test during their following Morale Breake phase. </description>
+    </rule>
+    <rule name="Hell On Earth" id="4878-8a17-b6fc-5139" hidden="false">
+      <description>Units that suffer model losses by the Hellhammer Cannon reduce their Leadership Characteristic by -1 until the start of your next turn.</description>
+    </rule>
+    <rule name="Shadow Of Death" id="c594-6800-430b-e7e8" hidden="false">
+      <description>Unmodified Wound Rolls of 6+ of attacks made with the Volcano Cannon score D6 Mortal Wounds in addition to any other Damage.</description>
+    </rule>
+    <rule name="Storm Siege" id="16b0-450b-aef9-3976" hidden="false">
+      <description>On Wound Rolls of 5+, this model ignores the „Impervious To Injuries“ and „Feel No Pain“ Special Rule.</description>
+    </rule>
+    <rule name="Whisper To The Omnissiah" id="494d-4a74-6c22-0e53" hidden="false">
+      <description>Once per turn, pick a single friendly Vehicle Unit within 6&apos;&apos; of this model it regains D6 lost Life Points.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -680,6 +2763,20 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
       </characteristics>
     </profile>
+    <profile name="Baneblade-Chassis" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="5059-ba09-28f4-de16">
+      <characteristics>
+        <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+        <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+        <characteristic name="WS" typeId="ba87-1f7-5679-198e">5+</characteristic>
+        <characteristic name="S" typeId="ab5f-556e-2-f3e4">10</characteristic>
+        <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+        <characteristic name="T" typeId="8d7f-2fc2-c449-7537">16</characteristic>
+        <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">45</characteristic>
+        <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+        <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Armiger Auxiliary Weapon" id="229b-a4b4-8c31-a0ac" hidden="false">
@@ -695,7 +2792,77 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
             <cost name="Pts" typeId="Points" value="10"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Heavy Stubber" hidden="false" id="4209-193d-3cba-0646" type="selectionEntry" targetId="f80f-d6fc-87e8-85fc"/>
+        <entryLink import="true" name="Heavy Stubber" hidden="false" id="4209-193d-3cba-0646" type="selectionEntry" targetId="f80f-d6fc-87e8-85fc">
+          <costs>
+            <cost name="Pts" typeId="Points" value="5"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Royal Houses" id="b87a-54a2-1e52-500c" hidden="false">
+      <comment>Large Knight Version</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37e3-55f7-c0fb-c699" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="House Cadmus" hidden="false" id="a9aa-f73f-715c-2228" type="selectionEntry" targetId="e422-c705-9fbd-b615">
+          <costs>
+            <cost name="Pts" typeId="Points" value="20"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="House Griffith" hidden="false" id="9dcb-45d0-d28b-190a" type="selectionEntry" targetId="9c4c-6ae7-3e66-2a99">
+          <costs>
+            <cost name="Pts" typeId="Points" value="30"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="House Mortan" hidden="false" id="a92c-6b29-d9b2-e1cb" type="selectionEntry" targetId="85b2-642b-b1f8-e8c7">
+          <costs>
+            <cost name="Pts" typeId="Points" value="30"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="House Hawkshroud" hidden="false" id="e2ce-08ca-1e86-7c2a" type="selectionEntry" targetId="0ada-f31e-ea02-83c0">
+          <costs>
+            <cost name="Pts" typeId="Points" value="25"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="House Teryn" hidden="false" id="ea55-bfb4-070f-6b28" type="selectionEntry" targetId="6d9d-8634-d896-8b4f">
+          <costs>
+            <cost name="Pts" typeId="Points" value="25"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Royal Houses" id="501f-57b4-ffd3-7840" hidden="false">
+      <comment>Armiger Version</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f356-a85a-1a0d-80c0" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="House Cadmus" hidden="false" id="e7f9-8ac2-3dc5-e44c" type="selectionEntry" targetId="e422-c705-9fbd-b615">
+          <costs>
+            <cost name="Pts" typeId="Points" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="House Griffith" hidden="false" id="e54f-e5c0-bf06-7158" type="selectionEntry" targetId="0113-0d31-604d-1dc6">
+          <costs>
+            <cost name="Pts" typeId="Points" value="20"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="House Mortan" hidden="false" id="f76e-88ec-6557-9510" type="selectionEntry" targetId="85b2-642b-b1f8-e8c7">
+          <costs>
+            <cost name="Pts" typeId="Points" value="20"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="House Hawkshroud" hidden="false" id="6815-a34c-3e23-3038" type="selectionEntry" targetId="0ada-f31e-ea02-83c0">
+          <costs>
+            <cost name="Pts" typeId="Points" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="House Teryn" hidden="false" id="86bf-6101-0d45-332a" type="selectionEntry" targetId="6d9d-8634-d896-8b4f">
+          <costs>
+            <cost name="Pts" typeId="Points" value="15"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
