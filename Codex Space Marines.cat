@@ -1279,7 +1279,7 @@
         <profile name="Powerfist" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="511e-6e1c-209d-756a">
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
-            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
@@ -3161,13 +3161,13 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               </entryLinks>
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="799-3336-263f-49c9"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4be-af39-39c7-2454"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="e4be-af39-39c7-2454"/>
               </constraints>
               <modifiers>
                 <modifier type="increment" value="1" field="e4be-af39-39c7-2454">
-                  <conditions>
-                    <condition type="atLeast" value="10" field="selections" scope="b9f3-d0e3-4107-ea9b" childId="11d3-c071-b5a5-c6fe" shared="true" includeChildSelections="true"/>
-                  </conditions>
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="b9f3-d0e3-4107-ea9b" childId="11d3-c071-b5a5-c6fe" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
                 </modifier>
               </modifiers>
             </selectionEntry>

@@ -3543,13 +3543,13 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Basilisk Tremmor Cannon" hidden="false" id="d817-9a07-a9a8-a299" collective="true">
+    <selectionEntry type="upgrade" import="true" name="Basilisk Tremor Cannon" hidden="false" id="d817-9a07-a9a8-a299" collective="true">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e5a-f204-6be3-12d1" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa7d-8ba3-be9b-5ebc" includeChildSelections="false"/>
       </constraints>
       <profiles>
-        <profile name="Basilisk Tremmor Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c8e2-af1f-dff3-9f54">
+        <profile name="Basilisk Tremor Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c8e2-af1f-dff3-9f54">
           <characteristics>
             <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">96</characteristic>
             <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">D6</characteristic>
@@ -7600,7 +7600,7 @@ Also if this unit is at half strength or below, add +1 to Hit Rolls for Melee at
     </rule>
     <rule name="Shock Attack" id="f4d5-6024-a6b5-705d" hidden="false">
       <description>This unit can make use of its „Deep Strike“ Special Rule in Game Turn 1.
-Also when making use of Deep Strike, you can place this unit up to 6&apos;&apos; to any enemy units instead of the usual 9&apos;&apos;. </description>
+Also when making use of Deep Strike, you can place this unit up to 6&apos;&apos; to any enemy units instead of the usual 9&apos;&apos;.</description>
     </rule>
     <rule name="Ancient Aloy Armor" id="b579-7aa7-6cd2-a14d" hidden="false">
       <description>If this unit is selected as the target of weapons with the „Torrent“ or „Explosive“ Special Rule, after the initial hit, half (rounded up) the number of attacks made against this unit. This rule does not apply when being selected as the target of „Overwatch“. This unit never increases its Armor Save Characteristic when benefitting from Cover.</description>

@@ -144,6 +144,7 @@
     <entryLink import="true" name="Khorne Berzerkers" hidden="false" id="c178-5564-82f5-b70c" type="selectionEntry" targetId="09c3-d565-0c2d-6c70">
       <categoryLinks>
         <categoryLink targetId="f1fb-8972-b52f-8855" id="ad53-9844-ef8f-baeb" primary="true" name="ELITE"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="dfaa-4b51-4840-a16a" primary="false" name="Cult Allies"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -183,6 +184,7 @@
     <entryLink import="true" name="Rubric Marines" hidden="false" id="0ddb-5ad3-375a-b884" type="selectionEntry" targetId="bf71-ec9f-470d-985f">
       <categoryLinks>
         <categoryLink targetId="f1fb-8972-b52f-8855" id="ef5b-afce-67c4-2654" primary="true" name="ELITE"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="b67f-8a31-b9f8-38c9" primary="false" name="Cult Allies"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -234,6 +236,7 @@
     <entryLink import="true" name="Plague Marines" hidden="false" id="faa7-3683-32e6-8509" type="selectionEntry" targetId="1209-9273-812a-3c73">
       <categoryLinks>
         <categoryLink targetId="f1fb-8972-b52f-8855" id="4139-88d7-5446-bd84" primary="true" name="ELITE"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="cd95-eaa6-64d6-2354" primary="false" name="Cult Allies"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -262,6 +265,668 @@
       <categoryLinks>
         <categoryLink targetId="f1fb-8972-b52f-8855" id="1d41-a637-b2b5-2528" primary="true" name="ELITE"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Leviathan Dreadnought" hidden="false" id="a9e3-3934-485c-3dae" type="selectionEntry" targetId="4782-35e8-4a6d-1f37">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="0614-be7b-fcee-566d" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Venerable Contemptor Dreadnought" hidden="false" id="87d9-96b3-b3de-c528" type="selectionEntry" targetId="cbd3-6568-a1e0-0ecf">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="7af5-7bb9-d3d9-1ba2" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deredeo Dreadnought" hidden="false" id="0586-fc86-2175-e377" type="selectionEntry" targetId="b378-764e-d830-4e2b">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="2b71-9bde-c314-899a" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dreadnought" hidden="false" id="70a6-af98-c9ca-8678" type="selectionEntry" targetId="0b3d-c917-59f9-f116">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="a54c-3dfb-15ef-3338" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Terminators" hidden="false" id="eaeb-9ecd-0f18-0648" type="selectionEntry" targetId="e3d2-ddf7-d28b-ae97">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="ea5a-81cd-b167-5952" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chosen" hidden="false" id="8f49-b02b-5a53-b6ec" type="selectionEntry" targetId="69b9-b619-0f29-d53a">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="8ef9-38b0-c499-b1bd" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Venomcrawler" hidden="false" id="b6f7-1fc6-7024-5d1f" type="selectionEntry" targetId="d420-4c70-2c63-0bfb">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="108c-3106-cde9-d2da" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Spawns" hidden="false" id="2176-ce8a-ce6e-6b85" type="selectionEntry" targetId="6c03-f128-9689-4909">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="ce24-993d-afcd-b9b5" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warp Talons" hidden="false" id="dfba-4910-f956-45e6" type="selectionEntry" targetId="d7f1-551c-6f82-4e9e">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="1283-022d-eeb6-f003" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Raptors" hidden="false" id="d54d-a8b7-114b-7e49" type="selectionEntry" targetId="1826-a6a2-06c7-cbdd">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="6331-3b2e-31ed-1e79" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bike Squadron" hidden="false" id="00a3-c78a-1681-ec2d" type="selectionEntry" targetId="4626-5ce2-b4c3-246f">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="3818-a839-7caf-03ce" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Basilisk" hidden="false" id="8746-2a07-a7f9-7771" type="selectionEntry" targetId="84d2-e7fa-28a1-e075">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="ecdb-e1b5-1960-9779" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Defiler" hidden="false" id="a53f-eb31-a531-7c9c" type="selectionEntry" targetId="87c5-1373-d6ea-7ddb">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="9cb2-9c3c-5777-4e1d" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Havocs" hidden="false" id="960c-672c-bbde-a3eb" type="selectionEntry" targetId="46cd-3ac7-206a-f4c3">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="5c27-1b6a-88ef-c9cb" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Heldrake" hidden="false" id="0bc3-1d00-1dfb-2cde" type="selectionEntry" targetId="65e4-c8cb-56fb-cdc9">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="1b29-d702-3da1-6f1d" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Traitor Guardsmen" hidden="false" id="9158-5dbc-9206-b493" type="selectionEntry" targetId="e95a-3fef-5461-5bb0">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="ca7b-5887-2275-dc14" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vex Machinator" hidden="false" id="fe86-4fcd-efe5-5816" type="selectionEntry" targetId="5c86-462f-3f92-5dc5">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="b60a-7060-834f-458d" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lord" hidden="false" id="79b5-0e14-0463-b33c" type="selectionEntry" targetId="fc3e-df05-b66d-60f3">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="f1a4-8814-e6af-5454" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Overlord" hidden="false" id="df28-f2f0-b437-9044" type="selectionEntry" targetId="6bb9-f5ae-b186-5906">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="886c-cc30-17ad-ff35" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="72f9-e323-2ca8-5b19" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sorcerer" hidden="false" id="3a1d-5db6-42aa-745f" type="selectionEntry" targetId="023d-594e-23c2-5490">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="139a-b7ce-0991-0097" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Master Sorcerer" hidden="false" id="ae86-1a53-477f-2d50" type="selectionEntry" targetId="7a4b-be64-0350-5c52">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="c92b-179c-cb5d-7fb6" primary="true" name="HERO"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3018-ed6b-687d-9330" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Warpsmith" hidden="false" id="5999-49c2-76ae-f3b3" type="selectionEntry" targetId="cab0-a1e7-8dc4-937e">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="4768-60ee-0261-8d86" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Master Of The Hellforge" hidden="false" id="a272-7c38-29fa-2965" type="selectionEntry" targetId="37d7-db47-f19a-2b63">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="2c62-b99a-a6ec-8c5f" primary="true" name="HERO"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="db62-fb08-93b6-543c" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Master Of Executions" hidden="false" id="b1c9-f253-08d7-d134" type="selectionEntry" targetId="a82e-82ba-da86-8b16">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="cad7-cb6b-fe0a-5700" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Master Of Possession" hidden="false" id="16d4-7308-5b19-db0e" type="selectionEntry" targetId="f90c-f5a2-690b-dcaf">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="ae3c-42ca-6e55-14cb" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dark Commune" hidden="false" id="15d6-2b86-22aa-9708" type="selectionEntry" targetId="a6fe-16df-b140-bbe8">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="d3ca-60b6-c951-76eb" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Traitor Commissar" hidden="false" id="6f07-0189-7b79-7d00" type="selectionEntry" targetId="16bd-4b60-0306-2fc8">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="8fa9-7372-57d0-9e86" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dark Apostle" hidden="false" id="fb76-b033-b011-b9e7" type="selectionEntry" targetId="8bc4-a1db-2917-1f77">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="6ac8-ff59-1831-a700" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Master Of Treachery" hidden="false" id="3fd4-89c5-03a9-bd62" type="selectionEntry" targetId="ef8e-1e15-49e5-1aa0">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="3043-3003-53ad-dc41" primary="true" name="HERO"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="01ef-4eea-7148-14c1" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Noise Marines" hidden="false" id="fa5b-135a-418c-08f3" type="selectionEntry" targetId="56cc-3262-cdc7-66de">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="aa4a-652b-3102-bac4" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c7de-dcef-25c5-da3a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Noise Marines" hidden="false" id="52f1-2be3-be3b-45a0" type="selectionEntry" targetId="56cc-3262-cdc7-66de">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="ca6d-a1d6-47a7-1749" primary="true" name="ELITE"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="4ef4-4062-f033-55dc" primary="false" name="Cult Allies"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="c7de-dcef-25c5-da3a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="fd33-78b8-2c4c-a977" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Tzaangors" hidden="false" id="62db-d848-13fd-a8b7" type="selectionEntry" targetId="d66c-543c-5181-6bc2">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="f4f2-a083-feea-59a7" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Mutalith Vortexbeast" hidden="false" id="232b-b12d-3950-139b" type="selectionEntry" targetId="a1e2-b996-2a05-d9fe">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="94b0-846a-a6ff-654a" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Mutalith Vortexbeast" hidden="false" id="03e2-8796-b83a-f42d" type="selectionEntry" targetId="a1e2-b996-2a05-d9fe">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="e851-30e0-35fc-b334" primary="true" name="HEAVY SUPPORT"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="51f0-c553-ce68-0a49" primary="false" name="Cult Allies"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="789c-6a6c-befc-0b71" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d9ba-063d-9382-16f5" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="0832-ea3b-c1e0-cb13" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c2ba-312b-803f-caba" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3f15-877c-c441-564b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Tzaangor Shaman" hidden="false" id="0b50-9f24-9754-0c9d" type="selectionEntry" targetId="dc7d-7570-39d0-a84d">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="13a4-17e3-5264-de00" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tzaangors Enlightened" hidden="false" id="a242-42e4-e3cc-3153" type="selectionEntry" targetId="e6d1-7fa5-0a07-f9c9">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="d57e-00e3-c056-d3fa" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scarab Occult Terminators" hidden="false" id="9507-8081-f499-5892" type="selectionEntry" targetId="31fc-d75e-b0a5-a8e2">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="7fb3-87e3-33e3-3fca" primary="true" name="ELITE"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Scarab Occult Terminators" hidden="false" id="a237-cdd7-e4bb-8d59" type="selectionEntry" targetId="31fc-d75e-b0a5-a8e2">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="d86d-773a-6848-0303" primary="true" name="ELITE"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="e198-1607-06d2-59f9" primary="false" name="Cult Allies"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="789c-6a6c-befc-0b71" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d9ba-063d-9382-16f5" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="0832-ea3b-c1e0-cb13" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c2ba-312b-803f-caba" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3f15-877c-c441-564b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Infernal Master" hidden="false" id="a145-3a27-4094-4600" type="selectionEntry" targetId="6c67-1d44-c481-7aad">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="62ba-b03c-f538-4531" primary="true" name="HERO"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Exalted Rubric Sorcerer" hidden="false" id="430f-6b3e-9490-1b00" type="selectionEntry" targetId="a162-a131-db96-70a2">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="b050-8d0f-7ccf-4b13" primary="true" name="HERO"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ad82-8aae-7eae-5524" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Obliterators" hidden="false" id="1c88-634a-7321-5acc" type="selectionEntry" targetId="7bbd-0639-b71c-4ac0">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="5ec6-d998-f607-58cf" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Eightbound" hidden="false" id="7d62-02cc-5310-87e1" type="selectionEntry" targetId="ab8f-9b8e-4675-114d">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="691b-17a5-91b6-8a48" primary="true" name="ELITE"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="fd33-78b8-2c4c-a977" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Eightbound" hidden="false" id="a559-7649-e12e-24d9" type="selectionEntry" targetId="ab8f-9b8e-4675-114d">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="3d1b-e0de-77dc-2fa8" primary="true" name="ELITE"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="a4e8-2d8d-872d-e105" primary="false" name="Cult Allies"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="789c-6a6c-befc-0b71" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d9ba-063d-9382-16f5" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="0832-ea3b-c1e0-cb13" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c2ba-312b-803f-caba" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3f15-877c-c441-564b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Jakhals" hidden="false" id="7e9b-7d9c-b7d0-f36e" type="selectionEntry" targetId="3e27-0283-f869-8470">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="d10f-a066-88b1-f7cd" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="fd33-78b8-2c4c-a977" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Greater Brass Scorpion" hidden="false" id="b2b2-84c3-b4dc-365b" type="selectionEntry" targetId="c97e-13fc-7df3-a203">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="bd4a-0d2b-77f9-27f5" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="fd33-78b8-2c4c-a977" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Lord Of Skulls" hidden="false" id="609b-d0bb-7162-e259" type="selectionEntry" targetId="6016-2a66-995a-e9d5">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="42ec-de52-2237-9efc" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="fd33-78b8-2c4c-a977" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Lord Of Butchers" hidden="false" id="c21b-97d5-651e-ca34" type="selectionEntry" targetId="b286-11a4-9fc3-0ff9">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="0b75-ef9a-ec51-a222" primary="true" name="HERO"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="fd33-78b8-2c4c-a977" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="da74-d503-13ff-9998" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Poxwalkers" hidden="false" id="6eff-34e1-4385-305c" type="selectionEntry" targetId="716a-94aa-9b71-cb0c">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="17a1-dd4d-c17c-580d" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Lord Of Contagion" hidden="false" id="465e-ade0-461f-d141" type="selectionEntry" targetId="b14a-ffd0-5bde-6f70">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4592-2dbf-7b59-00cd" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="1895-c09f-bcde-9a4a" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Red Butchers" hidden="false" id="8347-b7fa-3185-38f2" type="selectionEntry" targetId="86cb-b95d-9e52-52f6">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="20e3-d8d1-7faf-7b8a" primary="true" name="ELITE"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="fd33-78b8-2c4c-a977" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Red Butchers" hidden="false" id="9b50-c566-91c8-194c" type="selectionEntry" targetId="86cb-b95d-9e52-52f6">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="3393-6777-f9e4-994c" primary="true" name="ELITE"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="ab71-56ee-4723-58c8" primary="false" name="Cult Allies"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="789c-6a6c-befc-0b71" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d9ba-063d-9382-16f5" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="0832-ea3b-c1e0-cb13" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c2ba-312b-803f-caba" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3f15-877c-c441-564b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Myphitic Blighthaulers" hidden="false" id="6091-afcb-6e06-8d9a" type="selectionEntry" targetId="d6f4-3a9f-d691-06f3">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="2016-cd37-157c-20e8" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Myphitic Blighthaulers" hidden="false" id="e3df-6da1-6879-d6d5" type="selectionEntry" targetId="d6f4-3a9f-d691-06f3">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="0e74-7c8f-9aa4-eddf" primary="true" name="FAST ATTACK"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="5c28-5595-cc07-92b2" primary="false" name="Cult Allies"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="789c-6a6c-befc-0b71" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d9ba-063d-9382-16f5" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="0832-ea3b-c1e0-cb13" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c2ba-312b-803f-caba" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3f15-877c-c441-564b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Lord Of Virulence" hidden="false" id="e30d-e3f0-ef35-bdce" type="selectionEntry" targetId="20e2-82df-24f9-b053">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="9e8f-59e3-b2e0-e5c3" primary="true" name="HERO"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="bb60-c869-5c2e-6217" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Plague Surgeon" hidden="false" id="5265-2dfc-cfe1-a931" type="selectionEntry" targetId="d5f0-8a54-5092-b23f">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="f2bc-96cb-2621-180c" primary="true" name="HERO"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Tallyman" hidden="false" id="52aa-d04f-a98e-d278" type="selectionEntry" targetId="ee2d-05eb-af58-64c7">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="9cb7-4071-9c0f-e9d8" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deathshroud Terminators" hidden="false" id="78f4-9196-d372-9d1c" type="selectionEntry" targetId="f4da-8c76-e0b5-14f2">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="fdef-f09e-6513-3864" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Foetide Bloatdrones" hidden="false" id="6916-02db-97eb-2214" type="selectionEntry" targetId="e5ea-ef63-d2bf-a425">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="5e54-77e1-09be-8ff3" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Foetide Bloatdrones" hidden="false" id="f3d6-2a0f-b806-a81c" type="selectionEntry" targetId="e5ea-ef63-d2bf-a425">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="7b79-1587-7670-65c1" primary="true" name="FAST ATTACK"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="5fd1-42e9-4196-ad9e" primary="false" name="Cult Allies"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="789c-6a6c-befc-0b71" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d9ba-063d-9382-16f5" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="0832-ea3b-c1e0-cb13" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c2ba-312b-803f-caba" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3f15-877c-c441-564b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Noxious Blightbringer" hidden="false" id="0dc8-f518-380e-e806" type="selectionEntry" targetId="935e-7609-62b9-041c">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="4eb0-4718-ca4a-fd26" primary="true" name="HERO"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Biologus Putrifier" hidden="false" id="1fe2-92f0-76f7-9ceb" type="selectionEntry" targetId="1b24-70e8-adce-dbba">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="2257-f244-6532-ae22" primary="true" name="HERO"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Malignant Plaguecaster" hidden="false" id="dbb0-54b0-b75b-f90d" type="selectionEntry" targetId="8ec2-d8aa-7963-bab1">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="9341-17a3-ce14-4922" primary="true" name="HERO"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Plagueburst Crawler" hidden="false" id="1a1f-c4ae-4bb2-022f" type="selectionEntry" targetId="099b-4cb4-e0b2-06d7">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="9a59-6aea-adfd-399f" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Plagueburst Crawler" hidden="false" id="8655-b27a-1fa9-8df9" type="selectionEntry" targetId="099b-4cb4-e0b2-06d7">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="b4f6-ea21-9b3f-d883" primary="true" name="HEAVY SUPPORT"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="e6a9-c6fe-7c59-7cd4" primary="false" name="Cult Allies"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="789c-6a6c-befc-0b71" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d9ba-063d-9382-16f5" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="0832-ea3b-c1e0-cb13" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c2ba-312b-803f-caba" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3f15-877c-c441-564b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Blightlord Terminators" hidden="false" id="ccba-cf12-59e0-c4d1" type="selectionEntry" targetId="1e49-4843-21a2-54ce">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="93f9-59b6-7911-5fdc" primary="true" name="ELITE"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Blightlord Terminators" hidden="false" id="d77a-e45e-1178-955f" type="selectionEntry" targetId="1e49-4843-21a2-54ce">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="2e29-6a0a-b9cd-22cd" primary="true" name="ELITE"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="e0b8-d690-2caa-6b4f" primary="false" name="Cult Allies"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="789c-6a6c-befc-0b71" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d9ba-063d-9382-16f5" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="0832-ea3b-c1e0-cb13" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c2ba-312b-803f-caba" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3f15-877c-c441-564b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
 </catalogue>
