@@ -1,2 +1,113 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="e3e9-88ba-a2db-1fe8" name="Codex Grey Knights" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="true" id="e3e9-88ba-a2db-1fe8" name="Codex Grey Knights" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Space Marines" id="d23c-1d7a-2a58-6bde" targetId="b9aa-5902-f97d-9cd5"/>
+  </catalogueLinks>
+  <categoryEntries>
+    <categoryEntry name="Grey Knight Strike Squad" id="29f1-295f-cab7-70de" hidden="false"/>
+    <categoryEntry name="Grey Knight Terminator Squad" id="e8af-b10b-6b55-9d99" hidden="false"/>
+    <categoryEntry name="Brother Captain" id="99a6-933f-9aee-a44b" hidden="false"/>
+    <categoryEntry name="Grandmaster" id="d24e-6fde-c6ed-bbcd" hidden="false"/>
+    <categoryEntry name="Nemesis Dreadknight" id="74ee-775d-2a23-27b5" hidden="false"/>
+    <categoryEntry name="Grey Knight Purgation Squad" id="bfa2-d6be-d75f-ad0d" hidden="false"/>
+    <categoryEntry name="Land Raider Banisher" id="68cf-15db-fb47-fa01" hidden="false"/>
+    <categoryEntry name="Grey Knight Purifier Squad" id="d9b2-954b-ae18-78db" hidden="false"/>
+    <categoryEntry name="Grey Knight Interceptor Squad" id="fd6a-beb3-e1a1-cc8f" hidden="false"/>
+    <categoryEntry name="Grey Knight Paladin Squad" id="f388-68c6-8bb6-7e5d" hidden="false"/>
+    <categoryEntry name="Doomglaive Dreadnought" id="22b8-f84d-720b-90fb" hidden="false"/>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Strike Squad" hidden="false" id="2506-16b3-c352-3a15">
+      <profiles>
+        <profile name="Strike Squad" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="5748-ea47-93d4-3042">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Psyker(1)" id="9779-1b06-06d5-fdca" hidden="false" type="rule" targetId="d5ea-65af-88e1-f529"/>
+        <infoLink name="Deep Strike" id="841e-31e7-8da8-78a6" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="We Never Relent" id="95ed-80db-ea8a-0226" hidden="false" type="rule" targetId="68fa-7a37-099e-a143"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Strike Squad Grey Knights" id="029e-a158-65c6-5829" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Justicar" hidden="false" id="cf28-f740-e1fc-12c9">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f3d-7311-e08d-f672" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4977-2239-4662-1625" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="23"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Storm Bolter" hidden="false" id="60ce-10c1-857f-139f" type="selectionEntry" targetId="a0c0-bdc-289d-a9df"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Grey Knight" hidden="false" id="8066-2cc0-52d6-8144">
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="0278-c383-2558-452f" includeChildSelections="false"/>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="6aa5-76a6-fd6b-3dae" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="23"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Storm Bolter" hidden="false" id="a857-72be-2599-7fd5" type="selectionEntry" targetId="a0c0-bdc-289d-a9df"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Grey Knight w/Heavy Weapon" hidden="false" id="2d1b-07f7-aa7d-2311">
+              <costs>
+                <cost name="Pts" typeId="Points" value="23"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="5428-5b39-8d2c-0fb5" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3e65-fd1a-b5ed-6032" includeChildSelections="false"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="7cf7-f311-65ef-25bd" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="7cf7-f311-65ef-25bd">
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="2506-16b3-c352-3a15" childId="029e-a158-65c6-5829" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="fe2b-0d49-06bf-a1b2" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="8495-1e4a-e388-98c0" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="8066-2cc0-52d6-8144" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="e632-db3a-7532-ede7" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="a64e-2627-ad00-7a22" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="14f-8da2-7b06-ecdb" id="8f1d-65e9-4b9e-22df" primary="false" name="Psyker"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="4b18-427a-7254-70de" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="14af-5927-aae4-8cd2" id="81dd-3d4d-6a19-1cb1" primary="false" name="FACTION: Grey Knights"/>
+        <categoryLink targetId="29f1-295f-cab7-70de" id="41b5-f189-4e7c-63db" primary="false" name="Grey Knight Strike Squad"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="We Never Relent" id="68fa-7a37-099e-a143" hidden="false">
+      <description>Any enemy unit who at least loses one model caused by Psychic Powers cast by this unit or attacks made with any weapons with „Nemesis“ in their name MUST take a „Morale Break“-test during their next Morale Break Phase and subtract -1 from their LD Characteristic during that test. </description>
+    </rule>
+  </sharedRules>
+</catalogue>

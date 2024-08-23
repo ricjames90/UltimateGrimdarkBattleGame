@@ -928,5 +928,102 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Exalted Champion" hidden="false" id="0d71-03f7-eb89-d8b9" type="selectionEntry" targetId="6dc4-84ba-1310-7eb7">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="2212-4dd5-d15b-d1a4" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Foul Blightspawn" hidden="false" id="a426-6b90-0f28-7319" type="selectionEntry" targetId="5670-4f29-e08a-df31">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="2d1a-e0ae-f67e-3243" primary="true" name="HERO"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Biologus Putrifier" hidden="false" id="a2d7-231d-3836-d812" type="selectionEntry" targetId="1b24-70e8-adce-dbba">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="380e-6eb9-348b-5052" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="dc88-f5d1-e0fd-f6e4">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="b14a-ffd0-5bde-6f70" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="dc88-f5d1-e0fd-f6e4"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Foul Blightspawn" hidden="false" id="fb1a-2233-cd08-7f09" type="selectionEntry" targetId="5670-4f29-e08a-df31">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="963a-2864-a919-473c" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="ba2c-84ed-b2f5-c23b">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="b14a-ffd0-5bde-6f70" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="ba2c-84ed-b2f5-c23b" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Noxious Blightbringer" hidden="false" id="4e2c-a38f-b1d7-ba31" type="selectionEntry" targetId="935e-7609-62b9-041c">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="2dce-e3cd-0818-33a4" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="64cc-2d82-b150-2665">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="b14a-ffd0-5bde-6f70" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="64cc-2d82-b150-2665" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Tallyman" hidden="false" id="a6e0-2f9d-1960-32c8" type="selectionEntry" targetId="ee2d-05eb-af58-64c7">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="21c5-88af-33ef-e86a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="5f4e-f1c6-720c-662a">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="b14a-ffd0-5bde-6f70" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="926e-969f-4667-de52" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="5f4e-f1c6-720c-662a" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
 </catalogue>

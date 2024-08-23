@@ -17508,6 +17508,44 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       </categoryLinks>
       <comment>Chaos</comment>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="fc13-a9dc-3501-a704">
+      <profiles>
+        <profile name="Lightning Claw" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="0550-eb8c-7c7e-4c3e">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">+1 Ini</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="10" field="6e89-f6be-c86c-ea9e">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="parent" childId="fc13-a9dc-3501-a704" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="Dual Lightning Claws" field="name">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="parent" childId="fc13-a9dc-3501-a704" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6e8c-4640-771f-9b15"/>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8b98-9171-4371-f3f1"/>
+      </constraints>
+      <comment>6/10 Attacks</comment>
+      <modifiers>
+        <modifier type="set" value="Dual Lightning Claws" field="name">
+          <conditions>
+            <condition type="atLeast" value="2" field="selections" scope="parent" childId="fc13-a9dc-3501-a704" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Space Marine" hidden="false" id="ea13-acb4-5747-5a3e" typeId="a545-37bd-31e3-a90c" typeName="Unit">
