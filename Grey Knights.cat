@@ -1,2 +1,206 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="e528-9d7f-8153-6670" name="Grey Knights" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="e528-9d7f-8153-6670" name="Grey Knights" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Strike Squad" hidden="false" id="7129-060b-1af0-3fb7" type="selectionEntry" targetId="2506-16b3-c352-3a15">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="7dac-6b51-32a7-399c" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dreadnought" hidden="false" id="5b5b-a6de-39cc-1c69" type="selectionEntry" targetId="a8e8-204f-6d6a-5133">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="45f2-c898-ed5f-b5d6" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rhino" hidden="false" id="babf-0f13-d98f-9131" type="selectionEntry" targetId="22d1-4a02-0896-b040">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="c5f1-75b5-9705-2552" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Razorback" hidden="false" id="4f6e-a708-7182-d0de" type="selectionEntry" targetId="f9e1-38ca-8cf1-d69b">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="712f-d01a-c096-7843" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Raider" hidden="false" id="b82b-e4fe-60de-daf9" type="selectionEntry" targetId="4a17-b216-e0f0-f4f5">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="3e44-62d5-cf5c-6555" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormhawk" hidden="false" id="fe49-533c-2c4f-f6bc" type="selectionEntry" targetId="2e6a-5ec2-ce05-ed12">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="2381-4fa8-0745-bd0b" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormraven" hidden="false" id="9121-32c8-dea9-2085" type="selectionEntry" targetId="201d-73fd-35a8-fc6b">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="3052-7be3-7ed0-2744" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormtalon" hidden="false" id="7d88-5cd6-71bd-4890" type="selectionEntry" targetId="b5ee-a90a-4b83-9f9b">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="84bc-d1a6-688a-85f1" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Terminator Squad" hidden="false" id="8f67-31f2-b084-90d4" type="selectionEntry" targetId="12a3-89cd-3adc-14ab">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="a2f9-9797-fc21-2782" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Doomglaive Dreadnought" hidden="false" id="c974-a2ab-3a01-833d" type="selectionEntry" targetId="1208-77b8-2a35-16aa">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="40f9-a572-b342-477c" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Paladin Squad" hidden="false" id="0c3a-7a69-70e0-abf1" type="selectionEntry" targetId="376b-0a0d-f18a-7379">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="7b6d-6d46-8fa3-3355" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Purifier Squad" hidden="false" id="7d28-93ff-f672-6ed2" type="selectionEntry" targetId="b0e9-0406-d34f-d2aa">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="6956-8621-7f1d-6bc0" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Purgation Squad" hidden="false" id="e3e2-7fdb-f4ba-f924" type="selectionEntry" targetId="9252-712b-ec87-d35d">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="5647-38ea-c0c1-7f49" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Raider Crusader" hidden="false" id="7b65-93f6-95b0-e2f5" type="selectionEntry" targetId="4f3c-9681-39cb-2b33">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="99bf-56e9-febb-c90a" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Raider Redeemer" hidden="false" id="1b8c-bfa5-6d89-573d" type="selectionEntry" targetId="a1c5-63c2-6834-aec9">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="5d7b-8f46-73b2-d9c0" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Raider Banisher" hidden="false" id="0717-f4e6-e05d-d7b1" type="selectionEntry" targetId="65a7-92de-1a54-9936">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="d8ae-ef17-a823-a5f7" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Interceptor Squad" hidden="false" id="87d9-f74b-6441-a8c4" type="selectionEntry" targetId="d6a9-f7b7-1537-210e">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="e56a-37a3-754a-5cbd" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nemesis Dreadknight" hidden="false" id="3f9a-2557-cfbb-7df3" type="selectionEntry" targetId="0ca5-0b9d-a99b-d565">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="04d3-88b7-dade-4e9e" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Techmarine" hidden="false" id="6c9a-e0ff-8a3f-0ef7" type="selectionEntry" targetId="7992-3fd2-faea-2d7c">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="9873-0211-67c1-b170" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Grandmaster In Nemesis Dreadknight" hidden="false" id="14f7-9fca-1794-4e4c" type="selectionEntry" targetId="e5e2-8a03-8e9b-e811">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="3ac6-dc9c-df7d-f9d7" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Paladin Apothecary" hidden="false" id="44cf-d62f-0267-5e7f" type="selectionEntry" targetId="39a9-fd44-0d69-ead2">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="ba40-6198-2c58-19c2" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Paladin Ancient" hidden="false" id="3718-0768-41b2-08f1" type="selectionEntry" targetId="eca8-93e9-f7fa-4b97">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="e19e-92eb-df59-f176" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Brother Captain Dreadnought" hidden="false" id="f6f3-61f5-6279-1f15" type="selectionEntry" targetId="7468-62a6-5880-c6ed">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="f5d8-0217-6a3d-f5e9" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Grey Knights Codex Rules" hidden="false" id="38e5-1f23-168d-5077" type="selectionEntry" targetId="2428-4b37-be85-1052"/>
+    <entryLink import="true" name="Librarian" hidden="false" id="7224-b527-77e3-427a" type="selectionEntry" targetId="3bd1-af8b-7e54-7dff">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="d604-82c5-1b6c-0552" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Brother Captain" hidden="false" id="a258-2da8-8284-f992" type="selectionEntry" targetId="d07a-17be-bb95-9100">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="883e-5637-1b78-5a97" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaplain" hidden="false" id="9ca0-021a-728e-dda7" type="selectionEntry" targetId="dacf-ac5d-ba5f-819f">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="d25b-cc9a-5a51-fb3e" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Grandmaster" hidden="false" id="b814-125f-71c4-c6dd" type="selectionEntry" targetId="32f0-9160-02da-b1d4">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="5da7-6c96-f7b6-d835" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Auxiliaries Rules" hidden="false" id="ab67-1c1b-1d56-8f46" type="selectionEntry" targetId="6655-6d17-08b1-bb3e"/>
+    <entryLink import="true" name="Imperial Knight" hidden="false" id="190f-d51a-98da-07e8" type="selectionEntry" targetId="040f-6ccd-dd5b-fd47">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="9ece-fdd6-360c-ce61" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armiger Helverin" hidden="false" id="c2be-fea9-5dbd-5937" type="selectionEntry" targetId="58c7-369f-4c4a-a1cb">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="885b-9a38-d953-901b" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armiger Warglaive" hidden="false" id="3217-09a2-3ccb-32f5" type="selectionEntry" targetId="a1c7-3a48-2062-5694">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="62a6-7b12-702f-0e2e" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Baneblade" hidden="false" id="3cc4-f781-995a-d090" type="selectionEntry" targetId="0dee-8e41-22ef-c8f1">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="b024-913c-a56c-e9dc" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Banehammer" hidden="false" id="e084-0311-f589-b540" type="selectionEntry" targetId="9d99-a3f1-d55c-10ee">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="8b0d-b847-e28e-7b91" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Banesword" hidden="false" id="2064-5526-3316-b5f4" type="selectionEntry" targetId="74c4-d8b0-da21-eb7b">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="a375-3431-f4a1-8625" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Doomhammer" hidden="false" id="af9a-1937-5ff0-d177" type="selectionEntry" targetId="b97a-d679-0d74-7f9a">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="b800-1190-a952-bdd6" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Enginseer" hidden="false" id="e11d-8e3c-683f-4c63" type="selectionEntry" targetId="21ac-8e8d-03a8-dcec">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="b37f-9c8d-5cf8-863a" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hellhammer" hidden="false" id="4eec-5b12-2b5c-b7fb" type="selectionEntry" targetId="7a35-5c4a-22c9-6ada">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="6d64-4ac1-4b7a-5fd6" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shadowsword" hidden="false" id="ed0e-3be6-8922-8b7a" type="selectionEntry" targetId="e010-ec94-b0bb-3214">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="bada-8b60-961f-5a36" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormlord" hidden="false" id="5c97-7b88-facd-f895" type="selectionEntry" targetId="c91e-cffa-bcbb-a3b2">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="0265-546a-6a3a-ffc4" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormsword" hidden="false" id="72fd-ba26-e155-f75e" type="selectionEntry" targetId="bfda-a58f-67e1-23ee">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="b7d8-4a6f-d1b2-8727" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Grey Knights" id="4d8d-453a-90b3-ca60" targetId="e3e9-88ba-a2db-1fe8"/>
+    <catalogueLink type="catalogue" name="Codex Imperial Auxiliaries" id="edfa-c8c5-bc1f-8453" targetId="f62c-2cae-6827-39d5"/>
+  </catalogueLinks>
+</catalogue>

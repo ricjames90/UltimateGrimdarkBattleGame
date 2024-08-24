@@ -378,5 +378,6 @@
         <categoryLink targetId="2357-54fe-ef95-53ed" id="8a12-21eb-3ffc-64ee" primary="true" name="HERO"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Imperial Auxiliaries Rules" hidden="false" id="82e7-5c8e-49f8-faca" type="selectionEntry" targetId="6655-6d17-08b1-bb3e"/>
   </entryLinks>
 </catalogue>

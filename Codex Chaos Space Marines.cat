@@ -2604,7 +2604,7 @@
                 <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="7831-9957-8837-8154" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Bolt Pistol" hidden="false" id="c7d0-6143-56c0-e008" type="selectionEntry" targetId="e288-90ad-8e77-1908"/>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="927b-ae97-edef-7be9" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
               </entryLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Loadout" id="16ec-65f4-afaa-effe" hidden="false">
@@ -12567,7 +12567,7 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
             <constraint type="max" value="50" field="selections" scope="parent" shared="true" id="ee94-5c27-6a07-ee9d" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Poxwalker" hidden="false" id="30ad-a9b7-e9d9-0300">
+            <selectionEntry type="model" import="true" name="Poxwalker" hidden="false" id="30ad-a9b7-e9d9-0300">
               <costs>
                 <cost name="Pts" typeId="Points" value="6"/>
               </costs>

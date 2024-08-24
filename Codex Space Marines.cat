@@ -5952,7 +5952,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Venerable Captain Dreadnought" hidden="false" id="1ca7-085f-818e-38e6">
       <profiles>
-        <profile name="Venerable  Captain Dreadnought" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="d32d-397b-4be6-7198">
+        <profile name="Venerable Captain Dreadnought" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="d32d-397b-4be6-7198">
           <characteristics>
             <characteristic name="M" typeId="adff-38e4-108c-b07c">7</characteristic>
             <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
@@ -5981,6 +5981,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="6a72-9223-60da-de6c" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="6cde-865e-f50c-a4f1" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="fbea-935a-794a-29bd" id="d3e9-42bc-251a-3f93" primary="false" name="Venerable Captain Dreadnought"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="c5a1-ad1b-fa36-4797" primary="false" name="Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Dreadnought Left Arm Options" hidden="false" id="b331-4c13-662f-3c10" type="selectionEntryGroup" targetId="285e-033a-42d4-64b2"/>
@@ -6024,6 +6025,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="66ec-41b3-d8b7-c65f" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="4a11-a611-b910-8690" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="fbea-935a-794a-29bd" id="6672-5ee6-031f-1505" primary="false" name="Venerable Captain Dreadnought"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="4fd4-36cc-029e-ac99" primary="false" name="Character"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Dreadnought Right Arm Options" hidden="false" id="721f-1a5c-4237-91bf" type="selectionEntryGroup" targetId="e698-3ea1-6b6d-52b2"/>
@@ -16322,19 +16324,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Land Raider" hidden="false" id="ae77-cc57-b9b3-03af">
       <infoLinks>
-        <infoLink name="Land Raider" id="5e1e-f959-0760-73bb" hidden="false" type="profile" targetId="13d7-2cb7-1634-a075">
-          <modifierGroups>
-            <modifierGroup type="and">
-              <modifiers>
-                <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88"/>
-                <modifier type="set" value="2+" field="ba87-1f7-5679-198e"/>
-              </modifiers>
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="ae77-cc57-b9b3-03af" childId="e4e2-8ecd-990a-ed8d" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
-            </modifierGroup>
-          </modifierGroups>
-        </infoLink>
+        <infoLink name="Land Raider" id="5e1e-f959-0760-73bb" hidden="false" type="profile" targetId="13d7-2cb7-1634-a075"/>
         <infoLink name="Deadly Demise(9/D6)" id="8e90-4afd-f91a-4677" hidden="false" type="rule" targetId="dde8-f470-8461-97"/>
         <infoLink name="Adamantine Assault" id="eb1c-38e9-3503-8166" hidden="false" type="rule" targetId="1d86-bcec-70d9-eda5"/>
       </infoLinks>
@@ -16366,11 +16356,6 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <categoryLink targetId="fa28-a209-4a67-e026" id="2910-36b3-86e9-0693" primary="false" name="SUPER FACTION: Imperium"/>
             <categoryLink targetId="9b19-5708-cde2-d1e2" id="7459-223b-0f5c-2036" primary="false" name="Land Raider"/>
           </categoryLinks>
-        </entryLink>
-        <entryLink import="true" name="Deathwing Land Raider" hidden="false" id="e4e2-8ecd-990a-ed8d" type="selectionEntry" targetId="0304-412c-7119-77b1">
-          <costs>
-            <cost name="Pts" typeId="Points" value="40"/>
-          </costs>
         </entryLink>
       </entryLinks>
       <categoryLinks>

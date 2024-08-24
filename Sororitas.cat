@@ -263,6 +263,7 @@
         <categoryLink targetId="2357-54fe-ef95-53ed" id="0a4c-1ae2-14d4-a514" primary="true" name="HERO"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Imperial Auxiliaries Rules" hidden="false" id="0c1d-21e1-4fea-4a48" type="selectionEntry" targetId="6655-6d17-08b1-bb3e"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Sororitas" id="d451-9f4d-ef1e-6120" targetId="dac8-b6f8-45b3-1d59"/>
