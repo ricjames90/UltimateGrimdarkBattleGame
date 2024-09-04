@@ -1,2 +1,154 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="7995-b4dd-a85a-e1e5" name="Dark Eldar" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="7995-b4dd-a85a-e1e5" name="Dark Eldar" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="true" name="Dark Eldar Codex Rules" hidden="false" id="7134-df17-9a6e-b93d" type="selectionEntry" targetId="830b-ec72-46e8-b548"/>
+    <entryLink import="true" name="Kabalites" hidden="false" id="8f21-a497-e6c6-28ea" type="selectionEntry" targetId="7362-52d2-f69f-61f1">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="e5bb-8f9a-e200-b0b3" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dark Eldar Hierarchy Selection" hidden="false" id="afb8-02a0-8d13-6491" type="selectionEntry" targetId="4689-8e2c-2ca1-ae8a"/>
+    <entryLink import="true" name="Raider" hidden="false" id="8879-8894-4c7d-f44d" type="selectionEntry" targetId="a2f3-1344-2685-010c">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="098b-f871-d262-792c" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Archon" hidden="false" id="5a58-a9d3-528a-2c93" type="selectionEntry" targetId="b1c3-1778-f396-8f98">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="1a11-f920-04c2-3f4a" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Voidraven Bomber" hidden="false" id="f782-8073-43a2-addf" type="selectionEntry" targetId="ab5a-935c-9d78-7e40">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="1e99-197e-f34b-5a62" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ravager" hidden="false" id="640a-d03c-868c-b4cd" type="selectionEntry" targetId="ca90-f5e4-ee16-16e0">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="cd7c-0479-ae4c-d1a1" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Venom" hidden="false" id="d3f4-9f5d-14fd-6bc7" type="selectionEntry" targetId="b628-a0a9-6cd7-acb7">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="2668-c799-e8f2-8eac" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wyches" hidden="false" id="8c81-1df5-53a8-d43b" type="selectionEntry" targetId="0712-b417-b430-fb5f">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="d232-5fed-f2fb-9c55" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wracks" hidden="false" id="866c-80e3-3a98-732f" type="selectionEntry" targetId="f0c9-21cb-8e14-698c">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="cbd2-3cf1-8416-c166" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tantalus" hidden="false" id="1d78-b59d-25ee-34c9" type="selectionEntry" targetId="6da6-c980-8154-b719">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="edb6-e552-5d98-aec8" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mandrakes" hidden="false" id="ab64-86d3-2a56-4163" type="selectionEntry" targetId="a03e-c85d-385c-f4ec">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="7a52-fe5e-e21b-bd3e" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Incubi" hidden="false" id="79af-512c-644d-8719" type="selectionEntry" targetId="b1a0-11a5-b1f2-b099">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="71f0-a14e-f390-c71a" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Grotesques" hidden="false" id="dd25-573e-ee76-2174" type="selectionEntry" targetId="beee-16de-e140-ce53">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="3de9-6e39-9f5d-380f" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Reavers" hidden="false" id="deb8-245a-7481-6d48" type="selectionEntry" targetId="6bf8-b6d7-537b-4685">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="2dfd-5be6-09c1-2dbc" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Razorwing Flocks" hidden="false" id="8d86-3f5f-c808-e9a9" type="selectionEntry" targetId="9f75-08ea-bc56-8cbc">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="09e3-0e4d-01f3-701e" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Clawed Fiends" hidden="false" id="3aa7-561d-deec-6244" type="selectionEntry" targetId="09cc-5206-4d05-93f5">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="dd4c-d2ad-c732-b552" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Khymera" hidden="false" id="e8ba-1186-a5ff-68b5" type="selectionEntry" targetId="221e-7929-3770-08bc">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="88c5-4c1b-00b7-6f10" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Helions" hidden="false" id="ff8f-7d30-a601-1083" type="selectionEntry" targetId="f296-1e04-2163-92fc">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="0629-a80a-3d16-1ba3" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scourges" hidden="false" id="db51-125e-0d6a-2ca8" type="selectionEntry" targetId="576b-5dbe-0ec3-745d">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="fa8d-e422-b2b2-ad1b" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cronos" hidden="false" id="e8b3-0332-cf8b-1631" type="selectionEntry" targetId="f4c6-646b-4188-ae2a">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="ebff-85e1-1d4c-818b" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Talos" hidden="false" id="7ae2-9137-1b7a-8fcb" type="selectionEntry" targetId="200b-95e1-a3f4-76aa">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="446a-a139-c45f-34e4" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dark Phoenix Lord Drazhar" hidden="false" id="d5e6-5df8-c720-82dd" type="selectionEntry" targetId="34b9-c23a-1d51-9145">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d797-1d68-7e9f-9f8b" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="2767-40b3-b943-fc32" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Beastmaster" hidden="false" id="7df8-381d-2e32-5f96" type="selectionEntry" targetId="55af-c5ff-3cb5-f4e4">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="b96d-4c46-ddd4-1850" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Succubus" hidden="false" id="981a-ee84-30ea-dc16" type="selectionEntry" targetId="b7b0-0844-f1c8-ac4b">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="9dd1-fc16-3c9d-b5ab" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Haemonculus" hidden="false" id="848c-7e82-8324-b24e" type="selectionEntry" targetId="37db-03e1-8746-60bc">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="54e0-dea5-6a41-b380" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Razorwing Jetfighter" hidden="false" id="1547-f0e3-f886-bcc7" type="selectionEntry" targetId="4cab-8e8d-a704-7b44">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="15c1-6e28-56a3-1659" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Raven Strikefighter" hidden="false" id="9e17-cfbe-da4e-8e59" type="selectionEntry" targetId="17ee-bb30-bee9-270f">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="77ff-69d5-26bc-8429" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Corsair Voidreavers" hidden="false" id="b274-5a3c-5aa1-f2d1" type="selectionEntry" targetId="2075-2a49-9a4a-16b3">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="6b83-45c6-02a2-d48a" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Corsair Voidscarred" hidden="false" id="a3f2-16b4-2235-c8ea" type="selectionEntry" targetId="6918-37b1-b6ff-68a8">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="aada-91a8-bb46-d05e" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Dark Eldar" id="1dc3-00de-a78a-2d89" targetId="ace7-37ed-76f2-f1f8"/>
+    <catalogueLink type="catalogue" name="Codex Eldar" id="469a-8e28-207f-0f1a" targetId="b14e-215b-f3ae-6da7"/>
+  </catalogueLinks>
+</catalogue>

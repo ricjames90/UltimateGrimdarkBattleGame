@@ -616,7 +616,7 @@ listed in their abilities. Each time such a model is selected to shoot in the Sh
 Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with. Until that Transport
 model has resolved all of its attacks, it counts as being equipped with all of the weapons you selected in this way, in addition to its other weapons.</description>
     </rule>
-    <rule name="Firing Deck(6)" id="26a8-5312-538a-570a" hidden="false">
+    <rule name="Firing Deck(6)" id="ead0-c24c-cbdc-bb62" hidden="false">
       <description>Some Transport models have ‘Firing Deck x’
 listed in their abilities. Each time such a model is selected to shoot in the Shooting phase, you can select up to ‘x’ models embarked within it.
 Then, for each of those embarked models, you can select one ranged weapon that embarked model is equipped with. Until that Transport

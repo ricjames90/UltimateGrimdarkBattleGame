@@ -387,7 +387,7 @@
       <profiles>
         <profile name="Plasma Cannon - Normal" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="869c-afd9-4a91-621b">
           <characteristics>
-            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">38</characteristic>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
             <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">11</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
