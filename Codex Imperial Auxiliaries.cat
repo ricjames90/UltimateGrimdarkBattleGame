@@ -533,6 +533,7 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
               </selectionEntries>
               <entryLinks>
                 <entryLink import="true" name="Armiger Auxiliary Weapon" hidden="false" id="eb65-6781-7a22-3118" type="selectionEntryGroup" targetId="229b-a4b4-8c31-a0ac"/>
+                <entryLink import="true" name="Royal Houses" hidden="false" id="87e2-1422-df7a-7183" type="selectionEntryGroup" targetId="501f-57b4-ffd3-7840" sortIndex="1"/>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="Points" value="180"/>
@@ -550,9 +551,6 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
         </selectionEntryGroup>
       </selectionEntryGroups>
       <comment>Reinforcements Version</comment>
-      <entryLinks>
-        <entryLink import="true" name="Royal Houses" hidden="false" id="87e2-1422-df7a-7183" type="selectionEntryGroup" targetId="501f-57b4-ffd3-7840" sortIndex="1"/>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Stomping Feet" hidden="false" id="1dfb-9d03-e2e8-05a8" collective="true">
       <constraints>
@@ -633,6 +631,7 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="caf5-395f-2bda-53c9" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Royal Houses" hidden="false" id="7c41-7383-787e-14fc" type="selectionEntryGroup" targetId="501f-57b4-ffd3-7840" sortIndex="1"/>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f04f-0f42-bbdd-0238" includeChildSelections="false"/>
@@ -643,9 +642,6 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
         </selectionEntryGroup>
       </selectionEntryGroups>
       <comment>Reinforcements Version</comment>
-      <entryLinks>
-        <entryLink import="true" name="Royal Houses" hidden="false" id="7c41-7383-787e-14fc" type="selectionEntryGroup" targetId="501f-57b4-ffd3-7840" sortIndex="1"/>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Stubber" hidden="false" id="f80f-d6fc-87e8-85fc">
       <profiles>
@@ -2701,6 +2697,394 @@ Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take u
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Imperial Knight" hidden="false" id="fff5-ea6b-6384-1605">
+      <profiles>
+        <profile name="Imperial Knight" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="6317-3134-7313-eb05">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">12</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">30</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="36" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="fff5-ea6b-6384-1605" childId="a9aa-f73f-715c-2228" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="fff5-ea6b-6384-1605" childId="a92c-6b29-d9b2-e1cb" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="ba87-1f7-5679-198e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="fff5-ea6b-6384-1605" childId="ea55-bfb4-070f-6b28" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="743d-8c2d-f3f8-441c" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="260f-29d9-75db-8fd2" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="1b61-3a0b-b2f4-d37f" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="4b9c-afe4-7b77-d66a" id="4fd4-4089-331e-18a9" primary="false" name="Imperial Knight"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="d2d1-7e49-cc47-d6ef" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="f3a4-61dd-14ed-d1e4" id="7d7d-da07-a1f1-f948" primary="false" name="Royal Knights"/>
+        <categoryLink targetId="0485-6846-a037-0478" id="ed59-2092-7e1e-8040" primary="false" name="Forgeworld Royalty"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Deadly Demise(12/D6+6)" id="09d1-eba5-f54b-c0d7" hidden="false" type="rule" targetId="8e71-bdcb-e739-953"/>
+        <infoLink name="Invulnerable Save(5+)" id="4705-bfa3-92ef-1519" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Ancient Architecture" id="a7c7-7bc8-3f5c-344f" hidden="false" type="rule" targetId="201e-25d9-6c28-d532"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="330"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Stomping Feet" hidden="false" id="b99a-9669-c206-cfa0" type="selectionEntry" targetId="bee0-dcca-26fc-63be"/>
+        <entryLink import="true" name="Royal Houses" hidden="false" id="ad56-2806-1e07-0e2b" type="selectionEntryGroup" targetId="b87a-54a2-1e52-500c" sortIndex="1"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Auxiliary Weapon" id="bb64-1ed1-13e1-9d3f" hidden="false">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5156-8e7a-2471-5098" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="209a-d536-a836-7b6a" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Melta Gun" hidden="false" id="42ea-2275-8166-18e5" type="selectionEntry" targetId="7618-1e92-18bb-a50b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a20-3ee2-0e4b-344f" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Multilaser" hidden="false" id="c477-bbcd-c3b3-e55c" type="selectionEntry" targetId="1f96-1e0a-6ca6-b756">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f0a-a588-4aee-c87c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Roof Pod Weapon" id="879f-8689-9e11-36d5" hidden="false">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ce49-6f4c-e484-0488" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9901-9ac0-6359-5d82" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Icarus Rocket Pod" hidden="false" id="a2db-fc8c-b7ed-2536" type="selectionEntry" targetId="b1b4-948c-43d7-6b3b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddb2-b97e-28dc-9ea5" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Ironstorm Missile Pod" hidden="false" id="792b-cea4-56ce-7f16" type="selectionEntry" targetId="6a10-49f4-0bb1-b963">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3254-b4b3-61e1-316d" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Stormspear Rocket Pod" hidden="false" id="220a-8a74-b12f-908f" type="selectionEntry" targetId="dc87-615e-88ec-384d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbd7-03aa-ef7b-fb51" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="20"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Arm Weapons" id="8230-5684-eca3-9315" hidden="false">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0368-30b5-38a4-f72f" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="dcca-ec4b-78db-1239" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Arm 1" id="28c9-4e92-b5e1-cf3c" hidden="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ff62-eed9-daeb-1d6c" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3559-0708-28f3-1daa" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Avenger Gatling Cannon w/Heavy Flamer" hidden="false" id="187b-e5dc-f56b-bc43" type="selectionEntry" targetId="4724-2f2e-8512-c1dc">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="35"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="511a-6e97-6f5d-e6dd" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Rapidfire Battlecannon" hidden="false" id="90b1-2151-91df-fcf4" type="selectionEntry" targetId="5df4-c323-27cf-9344">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="30"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a61f-a641-454b-18f9" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Las Impulsor" hidden="false" id="b8ad-d30b-8322-1853" type="selectionEntry" targetId="312f-d77e-d155-129d">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="50"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a32-fbf3-89de-4e86" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thunderstorm Gauntlet" hidden="false" id="b891-4a47-3bfc-79e5" type="selectionEntry" targetId="f10f-686a-029b-681a">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8625-9f0c-352d-f15c" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thermal Cannon" hidden="false" id="22c3-103d-5a35-a2c1" type="selectionEntry" targetId="c665-fabc-d658-29db">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="40"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7083-8a2b-a3b2-3c2f" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Reaper Chainsword" hidden="false" id="a9fa-1e1d-5e4a-d557" type="selectionEntry" targetId="9959-afc2-5a2b-1357">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94f5-46c0-3971-4dad" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <modifiers>
+                <modifier type="set" value="a9fa-1e1d-5e4a-d557" field="defaultSelectionEntryId"/>
+              </modifiers>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Arm 2" id="a3c1-c475-77c2-87cc" hidden="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b6d6-2eda-9e30-2c7a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96a3-1dc0-9d0e-077e" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Avenger Gatling Cannon w/Heavy Flamer" hidden="false" id="4fb0-1584-689b-28f2" type="selectionEntry" targetId="4724-2f2e-8512-c1dc">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="35"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a9a-a864-043c-098d" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Las Impulsor" hidden="false" id="ea37-041b-a07f-cc04" type="selectionEntry" targetId="312f-d77e-d155-129d">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="50"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37a9-891e-fd8a-7b66" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Rapidfire Battlecannon" hidden="false" id="24ff-d892-183d-be57" type="selectionEntry" targetId="5df4-c323-27cf-9344">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="30"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1498-2872-240a-b8be" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Reaper Chainsword" hidden="false" id="1288-6cc4-fba4-9d0d" type="selectionEntry" targetId="9959-afc2-5a2b-1357">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75a0-ab09-04fa-5664" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thermal Cannon" hidden="false" id="c05a-d9c0-0e01-6280" type="selectionEntry" targetId="c665-fabc-d658-29db">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="40"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7556-d266-91d2-8677" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thunderstorm Gauntlet" hidden="false" id="b9b1-2ef8-89ab-5877" type="selectionEntry" targetId="f10f-686a-029b-681a">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd58-4f2d-fb0d-60ef" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <modifiers>
+                <modifier type="set" value="24ff-d892-183d-be57" field="defaultSelectionEntryId"/>
+              </modifiers>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>AdMech Version</comment>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Armiger Helverin" hidden="false" id="b5b2-7cd9-bcd4-f197">
+      <infoLinks>
+        <infoLink name="Armiger" id="8345-6afb-36ca-312f" hidden="false" type="profile" targetId="5036-7548-55b9-f89b">
+          <modifiers>
+            <modifier type="set" value="24" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="b5b2-7cd9-bcd4-f197" childId="e7f9-8ac2-3dc5-e44c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="b5b2-7cd9-bcd4-f197" childId="f76e-88ec-6557-9510" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="ba87-1f7-5679-198e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="b5b2-7cd9-bcd4-f197" childId="86bf-6101-0d45-332a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(6/D6)" id="40c0-bb33-fb92-ac09" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Invulnerable Save(6+)" id="a687-afb0-aba6-48f1" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+        <infoLink name="Ancient Architecture" id="678d-1c6d-f066-bce9" hidden="false" type="rule" targetId="201e-25d9-6c28-d532"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="9a14-dac8-3100-7249" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="1db2-8494-7e0b-09e6" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="167c-76a3-bc4d-37c6" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="28f4-7bd7-230d-6d57" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="cfe9-ecbb-1805-0d24" id="572e-0bf7-b6dc-824d" primary="false" name="Armiger Helverin"/>
+        <categoryLink targetId="f3a4-61dd-14ed-d1e4" id="2c84-3194-91a9-3d87" primary="false" name="Royal Knights"/>
+        <categoryLink targetId="0485-6846-a037-0478" id="3f36-8e36-f535-7724" primary="false" name="Forgeworld Royalty"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armiger Helverins" id="bb02-b308-a61c-02b6" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Armiger" hidden="false" id="ad04-af87-036e-92f6">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="2 Armiger Autocannons" hidden="false" id="4636-f15c-9aad-277e" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="68cf-b49e-f1db-7284" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e9f-a923-fcba-934f" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Armiger Autocannon" hidden="false" id="8082-3cc0-3ad1-15c7" type="selectionEntry" targetId="cffa-46f3-0c19-a84a" collective="true">
+                      <constraints>
+                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="2126-5b4f-de46-6bec" includeChildSelections="false"/>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6a0e-0bb4-a929-14f8" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Armiger Auxiliary Weapon" hidden="false" id="ce50-b5f0-2ab8-e037" type="selectionEntryGroup" targetId="229b-a4b4-8c31-a0ac"/>
+                <entryLink import="true" name="Royal Houses" hidden="false" id="84e1-d661-4e7d-13dc" type="selectionEntryGroup" targetId="501f-57b4-ffd3-7840" sortIndex="1"/>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="Points" value="180"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fca0-9f16-6ff1-03fe" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="99c2-2590-2307-cdae" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e552-f084-436a-e7d0" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0671-e5de-9096-8802" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>AdMech Version</comment>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Armiger Warglaive" hidden="false" id="32ad-1034-199b-85af">
+      <infoLinks>
+        <infoLink name="Armiger" id="b333-5338-d139-45fc" hidden="false" type="profile" targetId="5036-7548-55b9-f89b">
+          <modifiers>
+            <modifier type="set" value="24" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="32ad-1034-199b-85af" childId="e7f9-8ac2-3dc5-e44c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="32ad-1034-199b-85af" childId="f76e-88ec-6557-9510" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="ba87-1f7-5679-198e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="32ad-1034-199b-85af" childId="86bf-6101-0d45-332a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(6/D6)" id="7793-095e-d99e-5b39" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Invulnerable Save(6+)" id="b60b-b23c-9f89-58c6" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+        <infoLink name="Ancient Architecture" id="0810-7df5-b310-5860" hidden="false" type="rule" targetId="201e-25d9-6c28-d532"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="a010-befa-197e-9992" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="78ae-a6fe-1003-c295" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="1698-95ec-9b97-5146" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="9c49-749d-39c4-1610" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="f902-8e80-4bd6-2d7b" id="1a1d-25d0-43cf-f2a3" primary="false" name="Armiger Warglaive"/>
+        <categoryLink targetId="f3a4-61dd-14ed-d1e4" id="e67c-88de-c277-5eac" primary="false" name="Royal Knights"/>
+        <categoryLink targetId="0485-6846-a037-0478" id="fc99-aa73-6d4f-8ada" primary="false" name="Forgeworld Royalty"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armiger Warglaives" id="9442-2565-1682-06ae" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7e6e-192f-2b8c-45e4" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b9e6-3341-caf6-f276" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Armiger" hidden="false" id="31a9-3768-7816-55bd">
+              <costs>
+                <cost name="Pts" typeId="Points" value="210"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Stomping Feet" hidden="false" id="015e-a1a8-4176-d01b" type="selectionEntry" targetId="1dfb-9d03-e2e8-05a8"/>
+                <entryLink import="true" name="Armiger Auxiliary Weapon" hidden="false" id="fadb-97d6-8138-520f" type="selectionEntryGroup" targetId="229b-a4b4-8c31-a0ac"/>
+                <entryLink import="true" name="Armiger Reaper Chainsword" hidden="false" id="2cfa-f6f8-2cd4-e482" type="selectionEntry" targetId="cfe7-e86a-8170-95bf" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6a89-eed4-73c4-b766" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec08-baf9-58e8-400b" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thermal Spear" hidden="false" id="9b56-94ef-3e17-2a9a" type="selectionEntry" targetId="18f4-2d37-5e2b-417b" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b05b-a424-53d4-5118" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a49-992a-b7c2-8d61" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Royal Houses" hidden="false" id="63d2-e2a1-6a98-4894" type="selectionEntryGroup" targetId="501f-57b4-ffd3-7840" sortIndex="1"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c3bb-7087-d8b1-c695" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="49bd-d8b0-36dc-f9c5" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>AdMech Version</comment>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Imperial Knight" id="4b9c-afe4-7b77-d66a" hidden="false"/>
@@ -2721,6 +3105,18 @@ Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take u
     <categoryEntry name="Stormlord" id="26aa-780a-c51e-8ef8" hidden="false"/>
     <categoryEntry name="Stormsword" id="96b4-2386-d5a9-5f3f" hidden="false"/>
     <categoryEntry name="Enginseer" id="8032-9ba1-76aa-45be" hidden="false"/>
+    <categoryEntry name="Forgeworld Royalty" id="0485-6846-a037-0478" hidden="false">
+      <constraints>
+        <constraint type="max" value="30" field="Points" scope="force" shared="true" id="574e-8c9e-1b88-6c6f" includeChildSelections="true" percentValue="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="50" field="574e-8c9e-1b88-6c6f">
+          <conditions>
+            <condition type="equalTo" value="0" field="Points" scope="force" childId="9c77-3154-dcd8-f229" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
   </categoryEntries>
   <sharedRules>
     <rule name="Ancient Architecture" id="201e-25d9-6c28-d532" hidden="false">
@@ -2733,7 +3129,7 @@ Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take u
       <description>When a unit disembarks from this model, it can do so wholly within 6&apos;&apos; instead of the usual 3&apos;&apos;.</description>
     </rule>
     <rule name="Earthquakes That Bane The Enemy" id="2681-52f7-d65c-66f1" hidden="false">
-      <description>When this model destroys an enemy unit, all enemy units within 6&apos;&apos; of the destroyed unit, these units have to take a „Morale Break“ test during their following Morale Breake phase. </description>
+      <description>When this model destroys an enemy unit, all enemy units within 6&apos;&apos; of the destroyed unit, these units have to take a „Morale Break“ test during their following Morale Breake phase.</description>
     </rule>
     <rule name="Hell On Earth" id="4878-8a17-b6fc-5139" hidden="false">
       <description>Units that suffer model losses by the Hellhammer Cannon reduce their Leadership Characteristic by -1 until the start of your next turn.</description>

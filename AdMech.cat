@@ -1,2 +1,237 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="23b3-8738-c201-12c2" name="AdMech" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="23b3-8738-c201-12c2" name="AdMech" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex AdMech" id="7b9c-ef0d-8a61-1d43" targetId="b51e-967c-4d65-301a"/>
+    <catalogueLink type="catalogue" name="Codex Imperial Auxiliaries" id="d49f-c787-e56d-687d" targetId="f62c-2cae-6827-39d5"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="AdMech Codex Rules" hidden="false" id="94e1-c13a-cdfc-6f88" type="selectionEntry" targetId="24be-6c32-184d-1145"/>
+    <entryLink import="true" name="Forgeworld Selection" hidden="false" id="e391-5960-2d15-6771" type="selectionEntry" targetId="651b-77e5-e5cc-d1ce"/>
+    <entryLink import="true" name="Ranger Squad" hidden="false" id="0c3d-0131-ca69-ee46" type="selectionEntry" targetId="b081-7328-74c3-4376">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="167f-9d7c-2dd3-493f" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Enginseer" hidden="false" id="6bba-09cf-f083-d394" type="selectionEntry" targetId="c0e9-aeed-b709-e346">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="0a88-b686-910c-093d" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vanguard Squad" hidden="false" id="8226-65c3-0ab4-0dcb" type="selectionEntry" targetId="92d7-d12d-eab5-422e">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="7020-45fd-e3a3-80eb" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Servitors" hidden="false" id="e307-6e33-94c8-66c8" type="selectionEntry" targetId="f499-66c1-e42c-b6e1">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="5d9b-e233-28a0-66a0" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Adsecularis Tech Thralls" hidden="false" id="9ef2-d9d1-7007-d335" type="selectionEntry" targetId="5ac2-004c-4970-c833">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="1d54-1a5c-54e0-5bb7" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kataphron Breachers" hidden="false" id="3fe9-6c9a-47d5-5959" type="selectionEntry" targetId="f864-5ae5-5244-cb36">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="3bd7-2480-9ad8-f8ba" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kataphron Destroyers" hidden="false" id="4dd4-6876-7064-53de" type="selectionEntry" targetId="7908-dcea-b180-2096">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="369e-bb8e-a4eb-f424" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thallax Cohort" hidden="false" id="37e8-326c-b1d7-3ff5" type="selectionEntry" targetId="b1ba-e240-32d8-02ad">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="6bb4-93f3-127b-f6f9" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Onager Dunecrawler" hidden="false" id="fefd-6a6d-e439-0bcc" type="selectionEntry" targetId="12e3-c5d2-0d8f-476c">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="976d-7f27-f959-e9ed" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skorpius Disintegrator" hidden="false" id="0d97-07cf-50da-35ef" type="selectionEntry" targetId="83ed-0450-bb00-4472">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="29d5-460f-05d2-2fd4" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kastelan Robots" hidden="false" id="37f9-9e23-5fd3-759f" type="selectionEntry" targetId="ce73-efe5-8dee-9f51">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="e634-6da1-8c82-fd54" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thanatar Siege-Automata Maniple" hidden="false" id="2504-25c6-5eaa-162c" type="selectionEntry" targetId="1aab-9947-d5a6-1cd9">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="76dd-9491-451e-d851" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ironstrider Balistarii" hidden="false" id="bec7-4290-b6c0-a4d0" type="selectionEntry" targetId="34cb-9d0e-6e2c-f56e">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="27c0-bed1-67e1-5d68" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sydonian Dragoons" hidden="false" id="f4c2-003a-1c1e-3eef" type="selectionEntry" targetId="5523-f4b1-0794-fe0a">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="a6e5-826b-2f51-b71d" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Pteraxii Skystalkers" hidden="false" id="83a6-8534-134e-ad58" type="selectionEntry" targetId="ad5a-658b-d2d6-e782">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="4f49-76cc-0024-d51a" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Pteraxii Sterylizors" hidden="false" id="e499-d1a6-3f19-9e8b" type="selectionEntry" targetId="1a4b-3812-2185-914b">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="e87f-0d27-5719-6fac" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Serberys Raiders" hidden="false" id="0ae9-9f57-8816-51b2" type="selectionEntry" targetId="0428-e569-8174-3416">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="da40-e541-cf04-8900" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Serberys Sulphurhounds" hidden="false" id="156d-1b73-e659-4bef" type="selectionEntry" targetId="6c92-731d-973a-fcc6">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="bd0a-0890-139c-5ed1" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Castellax Battle-Automata Maniple" hidden="false" id="eebc-4c7c-e591-6b18" type="selectionEntry" targetId="0fd8-a2ff-b3e5-210c">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="cdc7-2eaf-37d2-4408" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Corpuscarii Elextropriests" hidden="false" id="7f4a-ac65-87d4-14b4" type="selectionEntry" targetId="21ba-8780-3957-26c3">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="6274-5456-6670-1cab" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fulgurite Elextropriests" hidden="false" id="e769-c602-590c-0c01" type="selectionEntry" targetId="ba0b-5880-7826-b3d6">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="f110-9707-a6b5-db59" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Secutarii Peltats" hidden="false" id="46c4-1e1a-62ee-1b50" type="selectionEntry" targetId="f707-3bfb-ac83-bc1d">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="bc46-add7-1dc2-6a3f" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Secutarii Hoplites" hidden="false" id="763f-3a0f-40aa-51d2" type="selectionEntry" targetId="c9ea-65d3-9498-5607">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="d1ff-90db-c203-18ef" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Knight" hidden="false" id="bdfd-a999-2a1e-36a4" type="selectionEntry" targetId="fff5-ea6b-6384-1605">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="063e-9398-93fd-d542" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armiger Helverin" hidden="false" id="4ef9-e28c-ea0f-cab7" type="selectionEntry" targetId="b5b2-7cd9-bcd4-f197">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="3775-7522-4d72-d49c" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armiger Warglaive" hidden="false" id="2913-4c4f-d918-8368" type="selectionEntry" targetId="32ad-1034-199b-85af">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="2dcf-e1cb-fac6-0753" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Auxiliaries Rules" hidden="false" id="2242-50c6-1b4b-afcc" type="selectionEntry" targetId="6655-6d17-08b1-bb3e"/>
+    <entryLink import="true" name="Sicaran Infiltrators" hidden="false" id="bc69-1561-5b20-6a70" type="selectionEntry" targetId="8482-cc0e-6771-c12f">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="3c66-817f-529f-53a7" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sicaran Ruststalkers" hidden="false" id="df4e-7919-ede7-2b70" type="selectionEntry" targetId="af09-e35b-bb6f-afd3">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="4ff6-5bef-e680-9968" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Archeopter Fusilave" hidden="false" id="8c09-1263-c870-e4d0" type="selectionEntry" targetId="f68d-26b9-ed19-e18a">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="34aa-9f06-15ad-ece2" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Archeopter Stratoraptor" hidden="false" id="2319-b8e1-f48d-8f1d" type="selectionEntry" targetId="88bc-9dd7-d7f7-8857">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="5638-5a35-14d4-ac0b" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Archeopter Transvector" hidden="false" id="c4e9-348a-5d91-69ca" type="selectionEntry" targetId="4769-41eb-c559-178a">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="f17f-3265-6e6d-91ce" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skorpius Dunerider" hidden="false" id="7aa6-0dc0-bf97-d755" type="selectionEntry" targetId="d607-7502-2eb3-87af">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="24d9-e539-fe83-9cb2" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Triaros Conveyor" hidden="false" id="42b3-3a18-db87-6d3f" type="selectionEntry" targetId="d93b-5380-fd4b-5830">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="3d71-bd76-edbb-6666" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cybernetica Datasmith" hidden="false" id="8b49-21b2-51c3-4097" type="selectionEntry" targetId="a064-3ba7-971e-944a">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="dab3-11b9-aef6-ac51" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cybernetica Datasmith" hidden="false" id="5cec-bece-9a81-53b0" type="selectionEntry" targetId="a064-3ba7-971e-944a">
+      <categoryLinks>
+        <categoryLink targetId="7b65-9b94-47a-9e7a" id="1074-9759-7d8b-83eb" primary="true" name="NON ARMY ORG SLOT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="ce73-efe5-8dee-9f51" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="76b7-714e-2609-1cea">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="ce73-efe5-8dee-9f51" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="76b7-714e-2609-1cea" includeChildSelections="false"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Skitarii Marshall" hidden="false" id="cb51-9989-75ee-e40b" type="selectionEntry" targetId="e3b1-8888-7cae-0192">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="3edf-0ef4-3a0f-e952" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skratos" hidden="false" id="c9db-1afe-e5f1-373b" type="selectionEntry" targetId="7ba1-031b-0771-5e7c">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="fc2c-94ac-4793-7698" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Technoarchaeologist" hidden="false" id="3331-0fbf-8e8c-7b54" type="selectionEntry" targetId="d6aa-e5c8-fd30-99fa">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="cb56-7d5d-0d2d-9d63" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Manipulus" hidden="false" id="9d3d-5c07-0b93-c56e" type="selectionEntry" targetId="b642-7452-800a-c0b2">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="1b5a-4564-7f68-d4ff" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dominus" hidden="false" id="abf8-c1ef-6cec-96a5" type="selectionEntry" targetId="571f-829e-71bf-619f">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="2d6e-5982-9eb9-573e" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Archmagos" hidden="false" id="2529-452f-3ae5-326b" type="selectionEntry" targetId="a5de-16c5-e1c5-d000">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="489e-a5f4-f8c9-df87" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Terrax Pattern Assault Drill" hidden="false" id="b919-ca8f-0d23-0091" type="selectionEntry" targetId="e3f9-b35a-c1c0-f072">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="d512-e6f6-df91-0534" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
