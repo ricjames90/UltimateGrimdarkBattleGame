@@ -1782,7 +1782,7 @@ Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take u
       <profiles>
         <profile name="House Hawkshroud" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="ea06-4e2b-20dc-9472">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The model gains the &quot;Feel No Pain(6+)&quot; Special Rule.</characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The model gains the &quot;Feel No Pain(6+)&quot; Special Rule. (May rerolled failed Feel No Pain rolls of 1 when already has the Feel No Pain Special Rule. Castigator Lancer for example)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3085,6 +3085,416 @@ Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take u
       </selectionEntryGroups>
       <comment>AdMech Version</comment>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Cerastus Knight" hidden="false" id="e4ae-98f9-294b-4075">
+      <profiles>
+        <profile name="Cerastus Knight" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="a819-9f99-1f24-f410">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">14</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">15</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">41</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="47" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="e4ae-98f9-294b-4075" childId="a9aa-f73f-715c-2228" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="e4ae-98f9-294b-4075" childId="a92c-6b29-d9b2-e1cb" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="ba87-1f7-5679-198e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="e4ae-98f9-294b-4075" childId="ea55-bfb4-070f-6b28" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="3a55-7829-6c3c-db5f" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="f469-9b4b-705e-2b49" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="d13c-8062-3644-5d68" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="9004-c8b7-5883-1833" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="0a43-6d53-84b8-afaa" primary="false" name="Imperial Reinforcements"/>
+        <categoryLink targetId="f3a4-61dd-14ed-d1e4" id="aa18-a4a7-7de1-b029" primary="false" name="Royal Knights"/>
+        <categoryLink targetId="8e98-ade2-dabf-ace4" id="2c05-834d-a767-f9f7" primary="false" name="Cerastus Knight"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(5+)" id="537e-361f-4c5c-0970" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Ancient Architecture" id="51f2-c488-49db-08c6" hidden="false" type="rule" targetId="201e-25d9-6c28-d532"/>
+        <infoLink name="Deadly Demise(15/D6+6)" id="2b21-ec05-636c-aaff" hidden="false" type="rule" targetId="a0cf-d8c3-f60d-93f3"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="510"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Royal Houses" hidden="false" id="2edb-d2fb-5166-cc40" type="selectionEntryGroup" targetId="b87a-54a2-1e52-500c" sortIndex="1"/>
+        <entryLink import="true" name="Stomping Feet" hidden="false" id="4520-f2ae-4d74-8c86" type="selectionEntry" targetId="8f7b-f8a2-b583-11bb"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="3012-3c44-6e25-90b9" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c6b-afb0-7005-6a9e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d937-f1ee-0527-e77f" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Lancer Loadout" hidden="false" id="032c-c358-12e8-7824">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4344-5948-aa4a-671c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="55"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Shock Lance" hidden="false" id="5c68-9375-27f0-3ee5" type="selectionEntry" targetId="9b5c-241b-184f-dc62" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0b08-0a3e-731b-5d3c" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="828b-eeb0-e98f-1255" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Ion Gauntlet Shield" hidden="false" id="01fb-9138-4444-bd1d" type="selectionEntry" targetId="2da9-0158-8504-98d5" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="680f-61d3-2701-f267" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6203-12a3-ff3d-908d" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Acheron Loadout" hidden="false" id="01c5-c5e3-58b0-c70e">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfd5-b49b-66bb-deb9" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="2a75-5fe1-cda1-cf57" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f01-a5d3-2afb-1ba9" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20ee-2af5-aa2b-736e" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Acheron Flame Cannon" hidden="false" id="dee0-3a8b-448d-1004" type="selectionEntry" targetId="6c72-5816-8642-f02c" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="27da-1876-cb7d-e347" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df0c-e85e-3bf9-bbd2" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Reaper Chainfist" hidden="false" id="151f-5d27-97dd-32bd" type="selectionEntry" targetId="f6df-5839-aced-edad" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0465-5a62-bcfb-e01a" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c4f-9e27-6310-839e" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Castigator Loadout" hidden="false" id="102c-a7d4-59fd-5e84">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07e7-be65-c591-a88e" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Castigator Bolt Cannon" hidden="false" id="9ce9-f281-1cde-9a4d" type="selectionEntry" targetId="63b9-eb5c-a0cc-571c" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4cf1-114b-e64b-447e" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2ff-380e-69eb-9ff0" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Tempest Warblade" hidden="false" id="130f-7f55-d00a-77b9" type="selectionEntry" targetId="6e72-8c7e-0e7b-3a29" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c43d-e723-a71e-1817" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3ba-55b6-0974-7f79" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="01c5-c5e3-58b0-c70e" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>Reinforcements Version</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stomping Feet" hidden="false" id="8f7b-f8a2-b583-11bb" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b87f-3d4c-dbe1-3ee0" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3dd4-2a32-81cb-193d" includeChildSelections="false"/>
+      </constraints>
+      <comment>Cerastus Knight</comment>
+      <profiles>
+        <profile name="Stomping Feet" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="e530-8fe7-6680-fc4b">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">ExA</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shock Lance" hidden="false" id="9b5c-241b-184f-dc62">
+      <profiles>
+        <profile name="Shock Lance" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="f520-b1c9-47e2-b21c">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x3</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">8</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Tre</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ion Gauntlet Shield" hidden="false" id="2da9-0158-8504-98d5">
+      <profiles>
+        <profile name="Ion Gauntlet Shield" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="22b9-d3a4-1415-f6ac">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">This Model gains the „Feel No Pain(5+)“ Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Feel No Pain(5+)" id="8ac2-9ac0-9e05-8c4c" hidden="false" type="rule" targetId="fefa-ab9a-a874-42de"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Castigator Bolt Cannon" hidden="false" id="63b9-eb5c-a0cc-571c">
+      <profiles>
+        <profile name="Castigator Bolt Cannon" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="4cd3-857a-9148-2395">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Unmodified Wound Rolls of 5+ score one Mortal Wound in addition to any other damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Castigator Bolt Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="d459-ca23-b722-dce6">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">16</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">9</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tempest Warblade" hidden="false" id="6e72-8c7e-0e7b-3a29">
+      <profiles>
+        <profile name="Tempest Warblade - Swing" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="c991-6666-9cbd-9b5a">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">20</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tempest Warblade - Strike" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="58a2-09f0-f88c-e202">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Reaper Chainfist" hidden="false" id="f6df-5839-aced-edad">
+      <profiles>
+        <profile name="Reaper Chainfist" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="d8d6-ccff-fad3-2dc8">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6+1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Acheron Flame Cannon" hidden="false" id="6c72-5816-8642-f02c">
+      <profiles>
+        <profile name="Acheron Flame Cannon - Promethium Bombs" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="8c24-6443-aed4-9d64">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">10</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Tb(1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Acheron Flame Cannon - Promethium Torrent" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="5cbb-888b-a932-3a44">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">15</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">*</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">To,IgC</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Cerastus Knight" hidden="false" id="619d-d544-b962-63bf">
+      <profiles>
+        <profile name="Cerastus Knight" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="4867-f292-f983-3e8a">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">14</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">15</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">41</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="47" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="619d-d544-b962-63bf" childId="a9aa-f73f-715c-2228" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="619d-d544-b962-63bf" childId="a92c-6b29-d9b2-e1cb" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="ba87-1f7-5679-198e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="619d-d544-b962-63bf" childId="ea55-bfb4-070f-6b28" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="6379-b41a-92ff-c340" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="233a-cff1-972d-14fb" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="f3de-9815-213a-b2d6" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="696b-3c28-2dd0-b94d" primary="false" name="FACTION: Imperial Auxiliaries"/>
+        <categoryLink targetId="f3a4-61dd-14ed-d1e4" id="684a-4b26-cfcf-32ae" primary="false" name="Royal Knights"/>
+        <categoryLink targetId="8e98-ade2-dabf-ace4" id="5c66-4629-fda0-c907" primary="false" name="Cerastus Knight"/>
+        <categoryLink targetId="0485-6846-a037-0478" id="4385-121b-2d32-0942" primary="false" name="Forgeworld Royalty"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(5+)" id="a228-b9c3-ea2b-9a5b" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Ancient Architecture" id="e6bc-8259-07b8-c002" hidden="false" type="rule" targetId="201e-25d9-6c28-d532"/>
+        <infoLink name="Deadly Demise(15/D6+6)" id="4eb3-4bc8-7d26-182a" hidden="false" type="rule" targetId="a0cf-d8c3-f60d-93f3"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="510"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Royal Houses" hidden="false" id="332f-b695-9bcd-c43c" type="selectionEntryGroup" targetId="b87a-54a2-1e52-500c" sortIndex="1"/>
+        <entryLink import="true" name="Stomping Feet" hidden="false" id="e06a-4a76-c538-3b09" type="selectionEntry" targetId="8f7b-f8a2-b583-11bb"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="2028-22ef-a72d-6e07" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb70-85b3-426a-1ef1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fd5-5a13-ccdc-9da4" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Lancer Loadout" hidden="false" id="aafb-77e0-89ec-55cf">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bc2-aa98-0a17-e2bc" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="55"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Shock Lance" hidden="false" id="a643-e15b-0b34-3b47" type="selectionEntry" targetId="9b5c-241b-184f-dc62" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d11-67c5-e06f-def6" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17d0-fb2a-e34a-c0b6" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Ion Gauntlet Shield" hidden="false" id="62c9-877c-b568-8360" type="selectionEntry" targetId="2da9-0158-8504-98d5" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a0f-7750-67d4-ac70" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1696-0992-083e-64c4" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Acheron Loadout" hidden="false" id="0a31-230b-6591-4f2c">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c3d-782f-1cd4-1836" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="9ccb-7876-ab0d-789d" type="selectionEntry" targetId="2108-17e3-3670-5285" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a91-bef7-3944-2825" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d125-f6c9-fc37-8900" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Acheron Flame Cannon" hidden="false" id="fca1-fd62-bd7e-d40c" type="selectionEntry" targetId="6c72-5816-8642-f02c" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2f30-db6d-02de-cb01" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13b3-33f7-f39c-bcb2" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Reaper Chainfist" hidden="false" id="e63a-1634-4093-3ce7" type="selectionEntry" targetId="f6df-5839-aced-edad" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f4b-f0af-7901-c9cc" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a45-855c-4698-1811" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Castigator Loadout" hidden="false" id="5f44-4340-3bb4-d927">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="510c-7ec6-4fcd-8b43" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Castigator Bolt Cannon" hidden="false" id="f019-7ae1-c35c-33fb" type="selectionEntry" targetId="63b9-eb5c-a0cc-571c" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7190-790f-2a0a-239d" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9be1-a6aa-f3ac-a21a" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Tempest Warblade" hidden="false" id="274c-9187-1751-6b12" type="selectionEntry" targetId="6e72-8c7e-0e7b-3a29" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be9f-2656-6269-343e" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7737-0b69-d62a-3615" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="0a31-230b-6591-4f2c" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>AdMech Version</comment>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Imperial Knight" id="4b9c-afe4-7b77-d66a" hidden="false"/>
@@ -3117,6 +3527,7 @@ Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take u
         </modifier>
       </modifiers>
     </categoryEntry>
+    <categoryEntry name="Cerastus Knight" id="8e98-ade2-dabf-ace4" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Ancient Architecture" id="201e-25d9-6c28-d532" hidden="false">

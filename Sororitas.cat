@@ -264,6 +264,11 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Imperial Auxiliaries Rules" hidden="false" id="0c1d-21e1-4fea-4a48" type="selectionEntry" targetId="6655-6d17-08b1-bb3e"/>
+    <entryLink import="true" name="Cerastus Knight" hidden="false" id="5e56-4d6a-0b57-1955" type="selectionEntry" targetId="e4ae-98f9-294b-4075">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="fc87-d8ae-e1e1-47d6" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Sororitas" id="d451-9f4d-ef1e-6120" targetId="dac8-b6f8-45b3-1d59"/>

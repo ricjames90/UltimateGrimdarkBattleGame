@@ -233,5 +233,10 @@
         <categoryLink targetId="ad71-d71a-8d04-2e3d" id="d512-e6f6-df91-0534" primary="true" name="DEDICATED TRANSPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Cerastus Knight" hidden="false" id="533d-10a0-8466-9042" type="selectionEntry" targetId="619d-d544-b962-63bf">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="245c-fd92-55aa-d74e" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

@@ -45,6 +45,7 @@
     <categoryEntry name="FACTION: Tyranids" id="4da3-c252-e57e-461f" hidden="false"/>
     <categoryEntry name="Character" id="a150-8d9a-4095-e170" hidden="false"/>
     <categoryEntry name="FACTION: Imperial Auxiliaries" id="cd4f-60a6-1e2e-1c88" hidden="false"/>
+    <categoryEntry name="FACTION: Chaos Auxiliaries" id="4255-e47f-00cd-1a97" hidden="false"/>
   </categoryEntries>
   <publications>
     <publication name="Ultimate Grimdark Battle Game" id="2bcf-a7c8-99f8-b1eb" hidden="false" publisher="Richie" shortName="Ultimate Grimdark Battle Game" publicationDate="2024"/>

@@ -379,5 +379,10 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Imperial Auxiliaries Rules" hidden="false" id="82e7-5c8e-49f8-faca" type="selectionEntry" targetId="6655-6d17-08b1-bb3e"/>
+    <entryLink import="true" name="Cerastus Knight" hidden="false" id="fd70-d7b8-6c3c-d5f8" type="selectionEntry" targetId="e4ae-98f9-294b-4075">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="fcd8-3061-6da5-a022" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

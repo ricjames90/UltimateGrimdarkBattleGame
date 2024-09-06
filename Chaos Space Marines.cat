@@ -2,6 +2,7 @@
 <catalogue library="false" id="d866-d734-2176-1323" name="Chaos Space Marines" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Chaos Space Marines" id="3131-620b-f43c-48c5" targetId="7e01-7be-d0bd-1674"/>
+    <catalogueLink type="catalogue" name="Codex Chaos Auxiliaries" id="7490-151c-1c52-b37d" targetId="752f-e21f-876c-9b76"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Predator" hidden="false" id="1e35-db7f-036c-0a97" type="selectionEntry" targetId="a724-6d9a-886f-17a8">
@@ -1024,6 +1025,26 @@
       <constraints>
         <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="5f4e-f1c6-720c-662a" includeChildSelections="false"/>
       </constraints>
+    </entryLink>
+    <entryLink import="true" name="War Dog Executioners" hidden="false" id="0def-44ba-8512-8d76" type="selectionEntry" targetId="2136-7eed-8db6-671d">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="33aa-0b78-988d-41d0" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="War Dog Huntsmen" hidden="false" id="1abb-cdbf-e16d-c8e3" type="selectionEntry" targetId="09fb-1388-3eb7-3d9e">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="9de7-c461-f04b-266a" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Knight" hidden="false" id="ce0d-cdc5-5138-1887" type="selectionEntry" targetId="673f-12e3-3e8f-95a3">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="cab7-50ee-6711-2f52" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Cerastus Knight" hidden="false" id="e081-1c2f-1867-2420" type="selectionEntry" targetId="1eb4-920a-6046-9d59">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="c5f4-c7a0-2cc8-f3d2" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
 </catalogue>

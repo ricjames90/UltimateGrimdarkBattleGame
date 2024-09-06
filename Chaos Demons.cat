@@ -211,5 +211,6 @@
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Chaos Demons" id="e506-b98b-2e84-c228" targetId="d320-960f-c386-889"/>
+    <catalogueLink type="catalogue" name="Codex Chaos Auxiliaries" id="752d-400b-2942-0604" targetId="752f-e21f-876c-9b76"/>
   </catalogueLinks>
 </catalogue>
