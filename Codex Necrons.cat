@@ -116,6 +116,83 @@
           </characteristics>
         </profile>
       </profiles>
+      <comment>1 Attack</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scythonets" hidden="false" id="e8b9-bc90-0f82-2a1a" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dcb-d540-09fb-955f" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38df-adac-1caf-8c38" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Scythonets" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="7526-940e-ce54-6cce">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">2</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>2 Attacks</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scythonets" hidden="false" id="7e41-3011-075c-67b3" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b57-3d57-311f-6516" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2158-3d69-a86e-8530" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Scythonets" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="ed04-5ec3-62a6-2c04">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">3</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>3 Attacks</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scythonets" hidden="false" id="7ecb-6a3c-0b71-f1b6" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="732e-43c1-2c05-db7f" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aab4-c69c-5b6c-d1d3" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Scythonets" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="c184-7cd2-ca4e-c5a3">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>4 Attacks</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scythonets" hidden="false" id="16aa-3362-0936-0398" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a446-3a95-19ea-7891" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18d9-8b6c-9359-84d0" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Scythonets" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="834c-b669-e274-3d22">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>5 Attacks</comment>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
@@ -124,6 +201,47 @@
     <categoryEntry name="Immortals" id="6e52-ae1f-cbaa-5fe7" hidden="false"/>
     <categoryEntry name="Lord" id="9773-0947-8a2c-2a56" hidden="false"/>
     <categoryEntry name="Overlord" id="5f4a-e6ce-b642-ec8a" hidden="false"/>
+    <categoryEntry name="C&apos;tan" id="cb40-dbef-e3d5-9340" hidden="false"/>
+    <categoryEntry name="The Deceiver" id="0e43-300c-a9f4-03c5" hidden="false"/>
+    <categoryEntry name="The Flayer" id="dff3-0bc4-c566-391f" hidden="false"/>
+    <categoryEntry name="The Nightbringer" id="ed54-c8cc-80fd-92c6" hidden="false"/>
+    <categoryEntry name="The Void Dragon" id="3c66-378b-1c84-5a7e" hidden="false"/>
+    <categoryEntry name="Chronomancer" id="e5c7-d47d-1f31-46f6" hidden="false"/>
+    <categoryEntry name="Technomancer" id="7252-363b-bd67-3042" hidden="false"/>
+    <categoryEntry name="Plasmancer" id="b8fd-6a37-1725-2624" hidden="false"/>
+    <categoryEntry name="Psychomancer" id="0a0a-6f0b-2a46-a1e4" hidden="false"/>
+    <categoryEntry name="Lokhusta Destroyerlord" id="0d83-5122-64a7-76b5" hidden="false"/>
+    <categoryEntry name="Hexmark Destroyer" id="12b2-4b6c-32de-fe73" hidden="false"/>
+    <categoryEntry name="Royal Warden" id="84e5-6b31-d5fd-8363" hidden="false"/>
+    <categoryEntry name="Skorpekh Destroyerlord" id="1a59-230d-b942-6be3" hidden="false"/>
+    <categoryEntry name="Obelisk" id="8a36-109c-873a-6c65" hidden="false"/>
+    <categoryEntry name="Annihilation Barges" id="10ae-04be-f552-e084" hidden="false"/>
+    <categoryEntry name="Doomsday Ark" id="83fd-8451-8b7b-773a" hidden="false"/>
+    <categoryEntry name="Canoptek Doomstalker" id="756f-2143-20dd-6fc3" hidden="false"/>
+    <categoryEntry name="Lokhust Heavy Destroyers" id="4382-0577-2f18-c1db" hidden="false"/>
+    <categoryEntry name="Monolith" id="3cb4-8b9a-c610-170b" hidden="false"/>
+    <categoryEntry name="Triarch Stalkers" id="fe5a-1001-da38-bcb2" hidden="false"/>
+    <categoryEntry name="Super Monolith" id="50e5-d9c8-59b6-a77c" hidden="false"/>
+    <categoryEntry name="Tesseract Vault" id="20c3-7dae-2f2c-0cf7" hidden="false"/>
+    <categoryEntry name="Canoptek Ancanthrites" id="ae16-df61-a155-f1fe" hidden="false"/>
+    <categoryEntry name="Canoptek Scarabs" id="b67e-2e88-aca3-0605" hidden="false"/>
+    <categoryEntry name="Canoptek Wraiths" id="b47c-4aeb-b0d1-7c67" hidden="false"/>
+    <categoryEntry name="Lokhust Destroyers" id="be84-bb53-f206-b672" hidden="false"/>
+    <categoryEntry name="Ophydian Destroyers" id="2d81-3be7-8911-78d4" hidden="false"/>
+    <categoryEntry name="Destroyer" id="d393-42e2-9a03-aba3" hidden="false"/>
+    <categoryEntry name="Tomb Blades" id="d71c-d1c7-5462-70ef" hidden="false"/>
+    <categoryEntry name="Triarch Praetorians" id="032a-a528-83df-2fae" hidden="false"/>
+    <categoryEntry name="Canoptek Reanimator" id="c440-1220-f933-fbc3" hidden="false"/>
+    <categoryEntry name="Canoptek Spiders" id="7b1c-937b-73cf-7003" hidden="false"/>
+    <categoryEntry name="Canoptek Tomb Stalker " id="cc5b-87c2-8574-984c" hidden="false"/>
+    <categoryEntry name="Canoptek Tomb Sentinel" id="6882-a93b-4584-08fb" hidden="false"/>
+    <categoryEntry name="Deathmarks" id="fe4b-02e0-9413-9bc9" hidden="false"/>
+    <categoryEntry name="Flayed Ones" id="5534-2cdd-da9e-d740" hidden="false"/>
+    <categoryEntry name="Lychguard" id="fd7c-0336-737b-edf8" hidden="false"/>
+    <categoryEntry name="Skorpekh Destroyers" id="5a1e-280a-935d-eb1d" hidden="false"/>
+    <categoryEntry name="Ghost Ark" id="043c-0f25-f1ea-0993" hidden="false"/>
+    <categoryEntry name="Doom Scythe" id="1f37-52b2-b31b-1459" hidden="false"/>
+    <categoryEntry name="Night Scythe" id="b0b6-92fd-13de-a689" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Neverending March" id="e15e-b4e6-355d-f296" hidden="false">

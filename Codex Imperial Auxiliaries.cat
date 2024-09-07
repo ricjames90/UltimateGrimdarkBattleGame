@@ -534,6 +534,7 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
               <entryLinks>
                 <entryLink import="true" name="Armiger Auxiliary Weapon" hidden="false" id="eb65-6781-7a22-3118" type="selectionEntryGroup" targetId="229b-a4b4-8c31-a0ac"/>
                 <entryLink import="true" name="Royal Houses" hidden="false" id="87e2-1422-df7a-7183" type="selectionEntryGroup" targetId="501f-57b4-ffd3-7840" sortIndex="1"/>
+                <entryLink import="true" name="Stomping Feet" hidden="false" id="2c71-2b6e-8a37-0117" type="selectionEntry" targetId="1dfb-9d03-e2e8-05a8"/>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="Points" value="180"/>
@@ -566,7 +567,7 @@ Only „AdMech“ and „Imperial Auxiliaries Enginseer“ units can target Impe
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44"/>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">ExA</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2995,6 +2996,7 @@ Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take u
               <entryLinks>
                 <entryLink import="true" name="Armiger Auxiliary Weapon" hidden="false" id="ce50-b5f0-2ab8-e037" type="selectionEntryGroup" targetId="229b-a4b4-8c31-a0ac"/>
                 <entryLink import="true" name="Royal Houses" hidden="false" id="84e1-d661-4e7d-13dc" type="selectionEntryGroup" targetId="501f-57b4-ffd3-7840" sortIndex="1"/>
+                <entryLink import="true" name="Stomping Feet" hidden="false" id="8b0c-39ab-874f-d304" type="selectionEntry" targetId="1dfb-9d03-e2e8-05a8"/>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="Points" value="180"/>

@@ -3,6 +3,7 @@
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Imperial Auxiliaries" id="725c-ca8d-c056-a4b2" targetId="f62c-2cae-6827-39d5"/>
     <catalogueLink type="catalogue" name="Codex Chaos Space Marines" id="e680-021b-6c08-385f" targetId="7e01-7be-d0bd-1674"/>
+    <catalogueLink type="catalogue" name="Codex Chaos Demons" id="180c-4311-ce99-c9a4" targetId="d320-960f-c386-889"/>
   </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Chaos Reinforcements" id="a018-a059-6ac6-5481" hidden="false">
@@ -14,6 +15,9 @@
     <categoryEntry name="War Dog Huntsmen" id="0e0b-757f-20ba-4506" hidden="false"/>
     <categoryEntry name="Chaos Knight" id="f141-abbf-6ca2-a7a7" hidden="false"/>
     <categoryEntry name="Chaos Cerastus Knight" id="c40b-82ce-f7b6-b40d" hidden="false"/>
+    <categoryEntry name="War Dog Brigands" id="ba8a-b6e3-65b5-58c6" hidden="false"/>
+    <categoryEntry name="War Dog Stalkers" id="776a-62a8-fb67-853d" hidden="false"/>
+    <categoryEntry name="War Dog Karnivores" id="1877-7798-75eb-ce36" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="War Dog Executioners" hidden="false" id="2136-7eed-8db6-671d">
@@ -74,6 +78,7 @@
                 <entryLink import="true" name="Armiger Auxiliary Weapon" hidden="false" id="06e4-5dc6-2f8a-a4f2" type="selectionEntryGroup" targetId="229b-a4b4-8c31-a0ac" sortIndex="4"/>
                 <entryLink import="true" name="Marks Of Chaos" hidden="false" id="3c20-d1b6-afb7-9ffb" type="selectionEntryGroup" targetId="499d-e7ff-024c-50a1" sortIndex="1"/>
                 <entryLink import="true" name="Dread Households" hidden="false" id="028c-cc85-acba-e0c2" type="selectionEntryGroup" targetId="8840-c9b4-7908-1859" sortIndex="2"/>
+                <entryLink import="true" name="Stomping Feet" hidden="false" id="e3af-076d-a16c-064a" type="selectionEntry" targetId="1dfb-9d03-e2e8-05a8"/>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="Points" value="180"/>
@@ -582,7 +587,30 @@
             <condition type="atLeast" value="1" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="3260-c975-009f-ae0c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="69ae-6d6d-198d-2e3a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="724d-d1e5-6a1c-74d7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="01ad-9995-73d0-112d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="f554-f3f8-6036-8847" id="dc84-060a-c395-3b65" primary="false" name="Mark Of Chaos Undivided"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mark Of Khorne" hidden="false" id="5804-23cd-0398-c45b">
       <profiles>
@@ -611,7 +639,25 @@
             <condition type="atLeast" value="1" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="69ae-6d6d-198d-2e3a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="724d-d1e5-6a1c-74d7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="01ad-9995-73d0-112d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="f62c-ac3d-c1d6-6306" id="a84f-2b13-29aa-9954" primary="false" name="Mark Of Khorne"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mark Of Slaanesh" hidden="false" id="dc7e-58ef-4684-fb7c">
       <profiles>
@@ -643,7 +689,25 @@
             <condition type="atLeast" value="1" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="3260-c975-009f-ae0c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="69ae-6d6d-198d-2e3a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="01ad-9995-73d0-112d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="f58c-0355-b35c-c7db" id="884b-f970-e481-36ce" primary="false" name="Mark Of Slaanesh"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mark Of Nurgle" hidden="false" id="fcb9-f441-097a-13e6">
       <constraints>
@@ -675,7 +739,25 @@
             <condition type="atLeast" value="1" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="3260-c975-009f-ae0c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="724d-d1e5-6a1c-74d7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="01ad-9995-73d0-112d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="2099-72fb-a99c-3dfd" id="a32c-e59f-886c-4f9a" primary="false" name="Mark Of Nurgle"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mark Of Tzeentch" hidden="false" id="e487-543f-71db-8370">
       <constraints>
@@ -704,7 +786,25 @@
             <condition type="atLeast" value="1" field="selections" scope="force" childId="c7de-dcef-25c5-da3a" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="3260-c975-009f-ae0c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="69ae-6d6d-198d-2e3a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="724d-d1e5-6a1c-74d7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="81a2-d708-c36c-17be" id="27cf-7674-f033-8f96" primary="false" name="Mark Of Tzeentch"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="House Herpetrax" hidden="false" id="453f-2815-7006-fd54">
       <constraints>
@@ -785,6 +885,281 @@
         <profile name="House Teryn" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="3d77-bb1d-9ae1-c4ff">
           <characteristics>
             <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Improve the models Weapon Skill Characteristic by 1 Stage to a Maximum of 2+. Also add +1 to Charge Rolls.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="War Dog Brigands" hidden="false" id="1639-5e3d-572c-b48f">
+      <infoLinks>
+        <infoLink name="Armiger" id="06fd-2c60-c28c-6ca7" hidden="false" type="profile" targetId="5036-7548-55b9-f89b">
+          <modifiers>
+            <modifier type="set" value="24" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="1639-5e3d-572c-b48f" childId="453f-2815-7006-fd54" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="1639-5e3d-572c-b48f" childId="5c08-6781-c94a-5fee" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="ba87-1f7-5679-198e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="1639-5e3d-572c-b48f" childId="31e3-5881-fee3-f2a2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(6/D6)" id="7dde-ecc8-39cd-8508" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Invulnerable Save(6+)" id="792f-cae3-114d-87da" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+        <infoLink name="Ancient Architecture" id="3736-a0e6-ae57-5945" hidden="false" type="rule" targetId="201e-25d9-6c28-d532"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="b8cc-e820-f25b-4402" targetId="bc81-8c0c-a3e9-47a4" primary="false"/>
+        <categoryLink name="AT - Super Heavy Armor" hidden="false" id="a4f0-153e-1d45-f9e8" targetId="12fc-d5fa-55b9-732e" primary="false"/>
+        <categoryLink name="Royal Knights" hidden="false" id="b512-c126-c00b-63ac" targetId="f3a4-61dd-14ed-d1e4" primary="false"/>
+        <categoryLink targetId="a018-a059-6ac6-5481" id="7bd2-21a1-4955-6e70" primary="false" name="Chaos Reinforcements"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="e192-dd4a-12b8-7430" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="4255-e47f-00cd-1a97" id="0245-00a3-0146-270c" primary="false" name="FACTION: Chaos Auxiliaries"/>
+        <categoryLink targetId="ba8a-b6e3-65b5-58c6" id="3072-42ab-6dca-e925" primary="false" name="War Dog Brigands"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="War Dog Brigands" id="4c01-2d89-c4b2-b1a7" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e48-8152-7d03-d9e7" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b0c6-e91e-3260-744b" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="War Dog" hidden="false" id="f33a-6f00-b264-0d82">
+              <costs>
+                <cost name="Pts" typeId="Points" value="225"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Stomping Feet" hidden="false" id="91ae-93e9-8532-43aa" type="selectionEntry" targetId="1dfb-9d03-e2e8-05a8"/>
+                <entryLink import="true" name="Thermal Spear" hidden="false" id="015e-f728-3907-9fbc" type="selectionEntry" targetId="18f4-2d37-5e2b-417b" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="082d-8bbb-4320-4c2c" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a711-c421-82cb-b705" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Marks Of Chaos" hidden="false" id="5e57-4648-da66-43d1" type="selectionEntryGroup" targetId="499d-e7ff-024c-50a1" sortIndex="1"/>
+                <entryLink import="true" name="Dread Households" hidden="false" id="ae31-be60-a5ea-ba4d" type="selectionEntryGroup" targetId="8840-c9b4-7908-1859" sortIndex="2"/>
+                <entryLink import="true" name="Armiger Auxiliary Weapon" hidden="false" id="3ea3-9ad4-a020-718b" type="selectionEntryGroup" targetId="3c1e-cf17-e4d2-ed4d"/>
+                <entryLink import="true" name="Shredder Chaincannon" hidden="false" id="1e4b-2472-c7fe-f9f0" type="selectionEntry" targetId="13a3-d0f4-4474-59c3" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d697-48a7-8fd8-03b6" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="adcd-6035-6adc-b69b" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e469-1fe6-ccb9-5b83" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="619a-aba7-9b74-044f" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>Reinforcements Version</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Havoc Multi Launcher" hidden="false" id="93e3-d100-513b-390e">
+      <profiles>
+        <profile name="Havoc Multi Launcher" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="3599-f18e-8af4-9796">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">10</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shredder Chaincannon" hidden="false" id="13a3-d0f4-4474-59c3">
+      <profiles>
+        <profile name="Shredder Chaincannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="60ac-4f1c-e857-67a9">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">14</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">6</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="War Dog Stalkers" hidden="false" id="1308-91fa-3300-f799">
+      <infoLinks>
+        <infoLink name="Armiger" id="a699-2490-fa92-f36d" hidden="false" type="profile" targetId="5036-7548-55b9-f89b">
+          <modifiers>
+            <modifier type="set" value="24" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="1308-91fa-3300-f799" childId="453f-2815-7006-fd54" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="1308-91fa-3300-f799" childId="5c08-6781-c94a-5fee" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="ba87-1f7-5679-198e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="1308-91fa-3300-f799" childId="31e3-5881-fee3-f2a2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(6/D6)" id="ee15-9e44-d346-44ec" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Invulnerable Save(6+)" id="c60b-db3b-7328-efb1" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+        <infoLink name="Ancient Architecture" id="12e7-279a-d88e-8c68" hidden="false" type="rule" targetId="201e-25d9-6c28-d532"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="9753-7eb9-2d77-2ddf" targetId="bc81-8c0c-a3e9-47a4" primary="false"/>
+        <categoryLink name="AT - Super Heavy Armor" hidden="false" id="94cf-2791-f845-24e4" targetId="12fc-d5fa-55b9-732e" primary="false"/>
+        <categoryLink name="Royal Knights" hidden="false" id="cf7e-c8cd-cb7c-531e" targetId="f3a4-61dd-14ed-d1e4" primary="false"/>
+        <categoryLink targetId="a018-a059-6ac6-5481" id="4204-1f3a-d0fe-8287" primary="false" name="Chaos Reinforcements"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="3903-9074-88f4-6f30" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="4255-e47f-00cd-1a97" id="4d1d-990d-b4fc-8f1b" primary="false" name="FACTION: Chaos Auxiliaries"/>
+        <categoryLink targetId="776a-62a8-fb67-853d" id="c3de-b9c2-254f-91a9" primary="false" name="War Dog Stalkers"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="War Dog Stalkers" id="8de4-24b4-4c76-5631" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="96a9-f906-b2f4-a4c6" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5ff2-d233-5f6c-5fac" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="War Dog" hidden="false" id="bc63-ec4f-3b87-00a8">
+              <costs>
+                <cost name="Pts" typeId="Points" value="195"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Stomping Feet" hidden="false" id="b2b6-f87f-c37d-ff4b" type="selectionEntry" targetId="1dfb-9d03-e2e8-05a8"/>
+                <entryLink import="true" name="Marks Of Chaos" hidden="false" id="7080-09cd-8c0a-342f" type="selectionEntryGroup" targetId="499d-e7ff-024c-50a1" sortIndex="1"/>
+                <entryLink import="true" name="Dread Households" hidden="false" id="72c2-2e9b-11be-3635" type="selectionEntryGroup" targetId="8840-c9b4-7908-1859" sortIndex="2"/>
+                <entryLink import="true" name="Armiger Auxiliary Weapon" hidden="false" id="65d3-007b-740a-1c68" type="selectionEntryGroup" targetId="3c1e-cf17-e4d2-ed4d"/>
+                <entryLink import="true" name="Shredder Chaincannon" hidden="false" id="b15a-cfa0-6c60-6be6" type="selectionEntry" targetId="13a3-d0f4-4474-59c3" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f04-ee28-ae0c-3e61" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe11-586b-1f99-ca57" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Slaughter Claw" hidden="false" id="e0cc-2060-6eda-a140" type="selectionEntry" targetId="1dbd-aa4e-082e-9f16" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1ef0-724c-e96c-ae6d" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b90-de99-a884-4ec1" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="335a-e87f-a9a7-b087" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="78f7-1415-bc73-94fa" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>Reinforcements Version</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Slaughter Claw" hidden="false" id="1dbd-aa4e-082e-9f16">
+      <profiles>
+        <profile name="Slaughter Claw" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="ccb1-b562-94d0-6165">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3+2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="War Dog Karnivores" hidden="false" id="8b5a-6dfb-e4cb-d16f">
+      <infoLinks>
+        <infoLink name="Armiger" id="927b-f247-5e52-0aa0" hidden="false" type="profile" targetId="5036-7548-55b9-f89b">
+          <modifiers>
+            <modifier type="set" value="24" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="8b5a-6dfb-e4cb-d16f" childId="453f-2815-7006-fd54" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="8e87-d12f-78d9-1f88">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="8b5a-6dfb-e4cb-d16f" childId="5c08-6781-c94a-5fee" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2+" field="ba87-1f7-5679-198e">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="8b5a-6dfb-e4cb-d16f" childId="31e3-5881-fee3-f2a2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deadly Demise(6/D6)" id="aaee-9754-7f95-08a4" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Invulnerable Save(6+)" id="47c7-1e2d-1476-4c15" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+        <infoLink name="Ancient Architecture" id="dc29-ab5a-697c-2ce5" hidden="false" type="rule" targetId="201e-25d9-6c28-d532"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="c28b-db4d-99f1-da63" targetId="bc81-8c0c-a3e9-47a4" primary="false"/>
+        <categoryLink name="AT - Super Heavy Armor" hidden="false" id="1925-f32e-42b6-22fe" targetId="12fc-d5fa-55b9-732e" primary="false"/>
+        <categoryLink name="Royal Knights" hidden="false" id="fcfa-e9fa-e6c7-0cab" targetId="f3a4-61dd-14ed-d1e4" primary="false"/>
+        <categoryLink targetId="a018-a059-6ac6-5481" id="dbb4-ed58-ef0d-4603" primary="false" name="Chaos Reinforcements"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="1cff-4606-1676-7737" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="4255-e47f-00cd-1a97" id="c788-05eb-aa5e-bb22" primary="false" name="FACTION: Chaos Auxiliaries"/>
+        <categoryLink targetId="1877-7798-75eb-ce36" id="ecac-8aa3-8741-8224" primary="false" name="War Dog Karnivores"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="War Dog Karnivores" id="f11c-47de-5475-14de" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8a79-5ee3-f145-ccf6" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2963-4521-b7dd-f30a" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="War Dog" hidden="false" id="4a70-71e3-c72d-e294">
+              <costs>
+                <cost name="Pts" typeId="Points" value="175"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Stomping Feet" hidden="false" id="b0f3-0158-4818-e770" type="selectionEntry" targetId="1dfb-9d03-e2e8-05a8"/>
+                <entryLink import="true" name="Marks Of Chaos" hidden="false" id="a857-cde2-ee14-707d" type="selectionEntryGroup" targetId="499d-e7ff-024c-50a1" sortIndex="1"/>
+                <entryLink import="true" name="Dread Households" hidden="false" id="3ca0-adcb-e543-36b5" type="selectionEntryGroup" targetId="8840-c9b4-7908-1859" sortIndex="2"/>
+                <entryLink import="true" name="Armiger Auxiliary Weapon" hidden="false" id="4be0-38c4-5916-bf83" type="selectionEntryGroup" targetId="3c1e-cf17-e4d2-ed4d"/>
+                <entryLink import="true" name="Slaughter Claw" hidden="false" id="cfdc-126a-18f7-56dc" type="selectionEntry" targetId="1dbd-aa4e-082e-9f16" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3be0-70b1-cd73-9531" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe61-bb59-f3c8-c567" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Chaintalons" hidden="false" id="41f8-e9ed-e64c-2236" type="selectionEntry" targetId="2fcf-153b-4f16-11c4" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="74bf-138b-ab79-faf4" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c79d-6355-e672-ed19" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5825-dcd3-0fd2-a130" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9355-dd4e-1db7-db12" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <comment>Reinforcements Version</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chaintalons" hidden="false" id="2fcf-153b-4f16-11c4">
+      <profiles>
+        <profile name="Chaintalons" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="de9b-b92a-0970-ba31">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">25</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">ExA,Ar</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -930,6 +1305,30 @@
       <modifiers>
         <modifier type="set" value="97ca-b84c-df1e-4701" field="defaultSelectionEntryId"/>
       </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Armiger Auxiliary Weapon" id="3c1e-cf17-e4d2-ed4d" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a9d-fd3c-1c0e-5027" includeChildSelections="false"/>
+      </constraints>
+      <comment>CSM Exclusive War Dogs</comment>
+      <entryLinks>
+        <entryLink import="true" name="Heavy Stubber" hidden="false" id="b2ea-5ea3-800a-8e32" type="selectionEntry" targetId="f80f-d6fc-87e8-85fc">
+          <costs>
+            <cost name="Pts" typeId="Points" value="5"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcea-09eb-e7af-f1e3" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Havoc Launcher" hidden="false" id="b153-c2f4-c63a-d6f0" type="selectionEntry" targetId="a26b-af74-2abf-ba27">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20bb-1aca-d6c6-3ef3" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="10"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

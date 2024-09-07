@@ -208,6 +208,41 @@
         <categoryLink targetId="2357-54fe-ef95-53ed" id="22c3-8c95-910f-8d5d" primary="true" name="HERO"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Chaos Knight" hidden="false" id="9f64-4777-c49d-cb28" type="selectionEntry" targetId="673f-12e3-3e8f-95a3">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="a2f7-1919-78bb-c4fb" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Cerastus Knight" hidden="false" id="2cd1-3e09-b280-23c4" type="selectionEntry" targetId="1eb4-920a-6046-9d59">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="6574-74ad-cab3-7232" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="War Dog Brigands" hidden="false" id="6c3c-da80-27e5-afb2" type="selectionEntry" targetId="1639-5e3d-572c-b48f">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="7fe7-d13c-6501-2b80" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="War Dog Executioners" hidden="false" id="73fe-1662-8dc5-1ed3" type="selectionEntry" targetId="2136-7eed-8db6-671d">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="1ead-4d07-8017-9a92" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="War Dog Huntsmen" hidden="false" id="ac3b-aecd-09b5-b466" type="selectionEntry" targetId="09fb-1388-3eb7-3d9e">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="4b07-291f-5469-5c82" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="War Dog Karnivores" hidden="false" id="77d8-91ef-cdfc-efa4" type="selectionEntry" targetId="8b5a-6dfb-e4cb-d16f">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="4b29-0e34-11bf-527b" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="War Dog Stalkers" hidden="false" id="e9fb-04de-b7f8-e911" type="selectionEntry" targetId="1308-91fa-3300-f799">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="3964-7023-4374-81fb" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Chaos Demons" id="e506-b98b-2e84-c228" targetId="d320-960f-c386-889"/>

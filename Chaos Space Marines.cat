@@ -1046,5 +1046,20 @@
         <categoryLink targetId="a770-8ecf-ed65-e419" id="c5f4-c7a0-2cc8-f3d2" primary="true" name="SUPER HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="War Dog Brigands" hidden="false" id="3b21-71fb-7ab8-4fa0" type="selectionEntry" targetId="1639-5e3d-572c-b48f">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="d580-ee58-3f82-4b0b" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="War Dog Stalkers" hidden="false" id="99a3-5d51-7a45-d321" type="selectionEntry" targetId="1308-91fa-3300-f799">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="b9b0-7c10-02ba-930b" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="War Dog Karnivores" hidden="false" id="822a-d467-99b7-a300" type="selectionEntry" targetId="8b5a-6dfb-e4cb-d16f">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="7b3e-0613-827d-f057" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
