@@ -9,5 +9,262 @@
         <categoryLink targetId="79e5-570b-2bdd-d3d7" id="1814-9746-f6a5-c310" primary="true" name="TROOPS"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Immortals" hidden="false" id="d1b4-6fa7-fcc4-af7e" type="selectionEntry" targetId="8e04-7d1b-3d66-a02a">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="284e-3e11-20d1-7b7f" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Necron Codex Rules" hidden="false" id="90f6-3838-2c02-8799" type="selectionEntry" targetId="31d9-8cd7-1da2-cb8a"/>
+    <entryLink import="true" name="Lord" hidden="false" id="42fe-059f-5150-0cfa" type="selectionEntry" targetId="76f4-1705-14d8-b8f2">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="345f-898a-626a-b4ef" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Necron Dynasty Selection" hidden="false" id="fa6f-3e58-f862-39fe" type="selectionEntry" targetId="be11-52a0-14df-d5fd"/>
+    <entryLink import="true" name="Overlord" hidden="false" id="452a-7240-181b-c847" type="selectionEntry" targetId="fc6e-d81d-a14c-eae9">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="ae57-9fed-5f46-4d7d" primary="true" name="HERO"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="daff-2e3a-815b-f962" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="daff-2e3a-815b-f962">
+          <repeats>
+            <repeat value="30" repeats="1" field="selections" scope="force" childId="f24d-c947-af49-646e" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Pariah" hidden="false" id="8339-9b3a-748b-5b81" type="selectionEntry" targetId="e149-3b92-db56-0b72">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="37a5-76b2-694b-1619" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Monolith" hidden="false" id="de82-8306-f3fa-c5ea" type="selectionEntry" targetId="d7f7-b291-1c31-485e">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="f5a5-8f5e-cb12-b7b5" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Doomsday Ark" hidden="false" id="573f-e9a6-4b89-9651" type="selectionEntry" targetId="7b4b-e1c7-5722-d869">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="ba11-31b2-ab83-abee" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lokhusta Heavy Destroyers" hidden="false" id="1753-351c-21f8-9b06" type="selectionEntry" targetId="21a9-3c40-1900-25ba">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="ce53-7fdf-594e-1d7a" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoptek Doomstalker" hidden="false" id="a744-2ec7-da64-2e79" type="selectionEntry" targetId="05c5-663f-bfcf-7417">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="a9b6-c75f-a86e-f715" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Triarch Stalkers" hidden="false" id="8ea1-4d6a-0595-e795" type="selectionEntry" targetId="cd54-faa9-05b4-62ce">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="0f07-13cd-a7d8-d3b3" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Doomsday Monolith" hidden="false" id="0c03-8c7e-a791-2b64" type="selectionEntry" targetId="1120-a699-eded-c578">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="1a7d-4357-760d-8a88" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Annihilation Barges" hidden="false" id="6fef-f339-028a-9cc5" type="selectionEntry" targetId="2e6d-f4a0-4f71-62bd">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="e572-0c26-e4ef-1384" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="C&apos;Tan The Void Dragon" hidden="false" id="3bbd-f191-2f09-a6a4" type="selectionEntry" targetId="1a97-0202-74be-e67c">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="5176-f255-735d-fd18" primary="true" name="HERO"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7c62-1ea6-f2ee-5a83" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Lokhusta Destroyerlord" hidden="false" id="bbe5-8fd7-5be3-3d86" type="selectionEntry" targetId="8c82-59de-c86c-8028">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="4050-c44e-130d-ca6f" primary="true" name="HERO"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="8f72-7bf3-aa6a-6ac9" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="8f72-7bf3-aa6a-6ac9">
+          <repeats>
+            <repeat value="5" repeats="1" field="selections" scope="force" childId="d903-0bd8-367a-8c91" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Tomb Blades" hidden="false" id="3e1b-e1f4-4de7-18ca" type="selectionEntry" targetId="6f5f-d8ad-428a-6695">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="f270-bfed-f267-eb7f" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoptek Scarabs" hidden="false" id="c1b1-844c-8695-8ba3" type="selectionEntry" targetId="c02d-3837-6ef4-653c">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="349f-68de-7022-7945" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoptek Wraiths" hidden="false" id="8bbc-d233-c4b4-da4b" type="selectionEntry" targetId="9e80-1766-f0e8-52ab">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="f951-fc8f-84b8-5bcf" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Triarch Praetorians" hidden="false" id="f067-b7be-a9f7-cc87" type="selectionEntry" targetId="f5b1-2b06-cc79-abfa">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="2bdf-8f34-73f4-6326" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lokhusta Destroyers" hidden="false" id="c8ea-aa29-e95d-ced4" type="selectionEntry" targetId="d019-890f-79c2-2ed4">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="138c-fd81-fb0d-fc56" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Flayed Ones" hidden="false" id="a042-0e7d-1027-ab4d" type="selectionEntry" targetId="809f-5add-3c14-019f">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="386a-a87b-e571-3ffc" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lychguard" hidden="false" id="6eca-62db-e4e4-3246" type="selectionEntry" targetId="4fe8-716e-96d0-6d7f">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="83c6-8d64-e707-b151" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deathmarks" hidden="false" id="a619-664a-c491-e1e0" type="selectionEntry" targetId="1668-9571-68b3-a404">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="f78d-ae9c-66cd-e4fb" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ghost Ark" hidden="false" id="bab7-be7c-48c9-99f9" type="selectionEntry" targetId="5412-8a48-785b-cf38">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="1043-53ce-59fd-440b" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Night Scythe" hidden="false" id="390f-b639-6bee-a759" type="selectionEntry" targetId="05cf-5a9f-cbb0-200d">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="b68a-a80e-33e5-960b" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ophydian Destroyers" hidden="false" id="df81-859e-64f7-a3a4" type="selectionEntry" targetId="bfde-6bb8-f10e-ea05">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="696d-30cd-5015-550d" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skorpekh Destroyers" hidden="false" id="53e2-c350-a87f-476c" type="selectionEntry" targetId="66b1-69f1-9651-e011">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="a3e3-64a7-fa8c-d2e6" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoptek Ancanthrites" hidden="false" id="8bf3-b8e8-f21a-663e" type="selectionEntry" targetId="30ed-14a9-3b2f-0b12">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="9a39-d8cc-bb39-422c" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoptek Reanimator" hidden="false" id="0fbf-b37e-37b8-0a2f" type="selectionEntry" targetId="1a8c-22c5-4fa4-dcfe">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="8cd3-cb99-43d6-216f" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoptek Tomb Sentinel" hidden="false" id="8865-9e87-3d78-1588" type="selectionEntry" targetId="811f-88e2-e096-7c4e">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="c8b0-d52c-12db-0148" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoptek Tomb Stalker" hidden="false" id="0511-9b63-0e87-83e7" type="selectionEntry" targetId="2ff1-c9bf-2dbe-84aa">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="f9a6-5710-9301-2d32" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoptek Spiders" hidden="false" id="0484-794a-ac0b-0159" type="selectionEntry" targetId="76a5-3f86-0265-30f4">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="0b36-6b0b-9dd6-c103" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Doom Scythe" hidden="false" id="0147-b0a5-9ece-32b2" type="selectionEntry" targetId="1a0c-5eba-a120-2718">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="b81a-51a4-a5f7-fabf" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Obelisk" hidden="false" id="e987-d9c4-9913-6c84" type="selectionEntry" targetId="f667-78b9-93ea-5962">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="c5fe-599b-4b24-0e1b" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="C&apos;tan The Nightbringer" hidden="false" id="cd91-fc99-740e-617a" type="selectionEntry" targetId="09bd-4789-ce9a-4f38">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="bf56-b808-733d-8df0" primary="true" name="HERO"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1019-bffe-fdf6-3b68" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="C&apos;tan The Omniarch" hidden="false" id="49b6-efdc-daab-af61" type="selectionEntry" targetId="f56f-a0fd-d114-25c3">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="83f5-1cdc-bea2-4398" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="f78d-2d83-4c73-315f" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="C&apos;Tan The Flayer" hidden="false" id="4ef3-c16e-72a6-e1a3" type="selectionEntry" targetId="cfc4-02fe-0681-a81e">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3bbb-a1a6-90c2-8063" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="944d-c1e7-0b3f-c472" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="C&apos;tan The Deceiver" hidden="false" id="90d0-42bf-19fa-8807" type="selectionEntry" targetId="6b01-18e2-11d7-846f">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="fdc1-7f9c-a951-7923" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="6420-bae9-b629-01f5" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skorpekh Destroyerlord" hidden="false" id="43a2-b6ac-b77a-9cc2" type="selectionEntry" targetId="4102-8fc6-f523-5ee0">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="8e9a-e45c-97ca-fb1f" primary="true" name="HERO"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="f5b7-2656-3809-df1e" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="f5b7-2656-3809-df1e">
+          <repeats>
+            <repeat value="5" repeats="1" field="selections" scope="force" childId="c811-2707-fbaa-7a5b" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Royal Warden" hidden="false" id="68dd-9ee1-c802-5e38" type="selectionEntry" targetId="66f4-bef9-c9c6-ddf3">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="ede4-680a-019c-a531" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Technomancer" hidden="false" id="5d53-4495-f54e-01fe" type="selectionEntry" targetId="0a74-5a9c-8ebe-d327">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="dfb6-c641-5e24-7e4e" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Plasmancer" hidden="false" id="776e-913a-a074-fadd" type="selectionEntry" targetId="f431-f194-ccfe-2e63">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="021e-e299-5aed-e4ef" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Psychomancer" hidden="false" id="54dd-2f02-8565-fbb5" type="selectionEntry" targetId="ec39-388c-4fb5-3639">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="66de-4ad3-ceb7-2393" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chronomancer" hidden="false" id="3a0d-87cc-d45f-a1bb" type="selectionEntry" targetId="6814-30ad-fbd4-8471">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="d703-c3ce-e9c6-f51d" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

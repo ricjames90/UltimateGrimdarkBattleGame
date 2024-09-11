@@ -726,6 +726,10 @@ model has resolved all of its attacks, it counts as being equipped with all of t
       <description>Some models have ‘Deadly Demise y/x’ listed in their
 abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a Transport, roll before any embarked models disembark). On a 6, each unit within y inches of that model suffers a number of wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within y inches. Wounds dealt by this ability will carry over to the next model in a unit in case it has more than one model until no wounds are left to distribute.</description>
     </rule>
+    <rule name="Deadly Demise(24/2D6+12)" id="f975-0178-f8b6-1acc" hidden="false">
+      <description>Some models have ‘Deadly Demise y/x’ listed in their
+abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a Transport, roll before any embarked models disembark). On a 6, each unit within y inches of that model suffers a number of wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within y inches. Wounds dealt by this ability will carry over to the next model in a unit in case it has more than one model until no wounds are left to distribute.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="23ef-f720-6e37-9b21">
