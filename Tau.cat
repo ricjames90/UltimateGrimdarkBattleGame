@@ -1,2 +1,182 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="896d-6dea-8b19-4546" name="Tau" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="896d-6dea-8b19-4546" name="Tau" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Codex Tau Empire" id="bcd5-cdc7-27c9-f3a3" targetId="e370-4383-ed83-1f9d"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Tau Codex Rules" hidden="false" id="0674-d38f-3621-910f" type="selectionEntry" targetId="e49b-8949-0abf-1e56"/>
+    <entryLink import="true" name="Fire Warriors" hidden="false" id="f10c-edf8-bf5e-8214" type="selectionEntry" targetId="fe03-1686-b26e-42ae">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="e5f7-1c74-64d2-5289" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tactical Drones" hidden="false" id="9e63-7457-4a48-0a6e" type="selectionEntry" targetId="5ef1-ef9a-98d0-414b">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="0aef-1a95-dafa-9b3d" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kroot Pack" hidden="false" id="252d-3cf3-baa6-35eb" type="selectionEntry" targetId="9b71-dd15-2abf-992d">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="5afa-c4cd-eae5-c752" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cadre Fireblade" hidden="false" id="c9cc-3dd1-1373-5e1e" type="selectionEntry" targetId="6294-4dac-32c0-6310">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="36d0-009a-e17e-8834" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Crisis Battlesuits" hidden="false" id="ea56-c23a-d31f-3312" type="selectionEntry" targetId="9bf4-ebb1-c888-1ae0">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="b9cb-9708-c18a-3d95" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Commander In Crisis Battlesuit" hidden="false" id="ff25-f31d-fc14-3d5e" type="selectionEntry" targetId="3a71-1768-8019-f81e">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="6e0f-37fc-882e-f23e" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Commander In Enforcer Battlesuit" hidden="false" id="7bb6-e243-cbcd-6033" type="selectionEntry" targetId="e4d0-7b26-fe22-0a51">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="e5b3-f24c-afba-fe80" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Commander In Coldstar Battlesuit" hidden="false" id="f91b-a375-491a-fb3b" type="selectionEntry" targetId="5965-acfd-01e5-c025">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="65a1-74c6-4028-a4cf" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ethereal" hidden="false" id="8425-33e0-ab69-e3af" type="selectionEntry" targetId="c7cf-1bd3-85d6-e732">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="189b-73b9-c272-0de4" primary="true" name="HERO"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="2701-f3c2-2391-830d" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Kroot Flesh Shaper" hidden="false" id="50ba-3d1c-dc34-db17" type="selectionEntry" targetId="cc9f-9b46-c61e-c1e9">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="2440-af94-aa85-7d25" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kroot Lone Spear" hidden="false" id="eb3e-44ce-4351-38ee" type="selectionEntry" targetId="37e3-79aa-13a6-1ba9">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="9f19-0920-159a-0c5d" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kroot Trail Shaper" hidden="false" id="d243-f2be-668f-5554" type="selectionEntry" targetId="e7a2-44c4-b0c1-1d25">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="48da-a324-8e22-5790" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kroot War Shaper" hidden="false" id="aaab-9c9a-1c4b-dc95" type="selectionEntry" targetId="dee2-101d-74b7-5c53">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="2516-6732-8dfa-3a2a" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ghost Battlesuits" hidden="false" id="beb5-acc0-1998-f68b" type="selectionEntry" targetId="c85d-c638-df98-fda2">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="8d79-d5a3-ab0e-dae0" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Riptide" hidden="false" id="d701-bc81-e344-d4b6" type="selectionEntry" targetId="fef6-b529-8897-0eea">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="7fb4-0ffd-0d11-979c" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ghostkeel Battlesuit" hidden="false" id="e67d-df53-febc-74c0" type="selectionEntry" targetId="dcad-9586-f0b3-611f">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="8f44-b756-c585-c2b1" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hammerhead" hidden="false" id="1d3f-33b1-ca14-8ad5" type="selectionEntry" targetId="ed2d-7749-9acf-b336">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="62b2-6ca3-42f9-ef44" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sky Ray Gunship" hidden="false" id="7722-1b18-5599-a706" type="selectionEntry" targetId="99e7-540f-9371-c390">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="11bc-1c8b-a648-5db1" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Broadside Battlesuits" hidden="false" id="88e8-7ab6-eab9-9100" type="selectionEntry" targetId="54fd-7860-8056-f15a">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="49c4-c3ce-244c-a4b6" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kroot Great Knarlocs" hidden="false" id="bb1e-94b8-8bdd-9508" type="selectionEntry" targetId="fb5b-39e0-3031-74dd">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="acc6-f87b-b6d1-2c45" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Heavy Gun Drones" hidden="false" id="6b0f-e457-20d8-d400" type="selectionEntry" targetId="8a34-8506-a93b-bd55">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="35e8-c401-5cb0-d775" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Devilfish" hidden="false" id="bc92-ae6d-210d-7c25" type="selectionEntry" targetId="2bed-97de-60f6-b101">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="24f0-92a0-caac-448f" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Razorshark Strike Fighter" hidden="false" id="9a81-59ee-1bd5-8c06" type="selectionEntry" targetId="6d55-a988-016f-3192">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="707f-2773-a6cf-5bf5" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sunshark Bomber" hidden="false" id="4d26-9989-307f-d4a3" type="selectionEntry" targetId="542a-ed91-68d3-f95e">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="10dc-b87b-fc73-ed93" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Piranhas" hidden="false" id="4bab-a5a2-97b9-aa47" type="selectionEntry" targetId="a14b-b880-bd71-6051">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="702d-ae6f-a798-0ba5" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="TX42 Piranhas" hidden="false" id="35b0-dcf3-bc50-6a2d" type="selectionEntry" targetId="2b1e-2acf-8784-b8b6">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="4660-48ab-210e-a616" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kroot Hounds" hidden="false" id="0ec1-b4fa-32a7-24d5" type="selectionEntry" targetId="1049-1108-cd1e-71a0">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="f820-db5a-140d-9846" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tetras" hidden="false" id="b7a1-0596-c156-1e7f" type="selectionEntry" targetId="bfef-e3e2-523d-0876">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="13b2-72c8-b41a-8ead" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kroot Farstalkers" hidden="false" id="8740-8bea-8d3a-f4b5" type="selectionEntry" targetId="92aa-1daf-faf1-252d">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="bf5e-5938-64f8-5b84" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Krootox Riders" hidden="false" id="023a-f47e-c8d5-bf34" type="selectionEntry" targetId="f55d-8bf9-211c-815f">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="59a1-9ee1-218a-ed0b" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Krootox Rampagers" hidden="false" id="5497-d398-f970-6615" type="selectionEntry" targetId="aa86-cc72-8d86-c275">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="e52e-e515-9cb5-05a0" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Pathfinders" hidden="false" id="020d-0762-ccf2-173a" type="selectionEntry" targetId="6bf5-3099-3708-eb02">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="e233-858f-ab9c-7392" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormsurge Battlesuit" hidden="false" id="bb60-1a14-55b0-db13" type="selectionEntry" targetId="50d2-93f4-e3ac-5237">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="dda4-40e2-0f6e-8696" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tau Sept Selection" hidden="false" id="f4e5-bd9d-c8e2-9ac2" type="selectionEntry" targetId="6505-cfa1-1b46-b3b2"/>
+  </entryLinks>
+</catalogue>

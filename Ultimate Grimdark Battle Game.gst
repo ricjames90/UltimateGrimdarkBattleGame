@@ -730,6 +730,9 @@ abilities. When such a model is destroyed, roll one D6 before removing it from p
       <description>Some models have ‘Deadly Demise y/x’ listed in their
 abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a Transport, roll before any embarked models disembark). On a 6, each unit within y inches of that model suffers a number of wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within y inches. Wounds dealt by this ability will carry over to the next model in a unit in case it has more than one model until no wounds are left to distribute.</description>
     </rule>
+    <rule name="Scouts(10)" id="83ab-da19-cb08-8038" hidden="false">
+      <description>Some units have ‘Scouts x&quot;’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x&quot; as if it were your Movement phase – as can any Dedicated Transport model such a unit starts the battle embarked within (provided only models with this ability are embarked within that Dedicated Transport model). A unit that moves using this ability must end that move more than 9&quot; horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="23ef-f720-6e37-9b21">
