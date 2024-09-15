@@ -57,7 +57,7 @@ Keyword: Docked Drones</description>
       <infoLinks>
         <infoLink name="For The Greater Good" id="bcb6-969b-3b06-c172" hidden="false" type="rule" targetId="b1c0-7f6a-055f-d994"/>
         <infoLink name="Markerlights" id="7c20-3820-967e-aa77" hidden="false" type="rule" targetId="a6d5-0dcd-3352-c747"/>
-        <infoLink name="Docked Drones" id="b5f0-67b6-d328-4e7c" hidden="false" type="rule" targetId="236d-d08d-c174-fe38"/>
+        <infoLink name="Drones Docked Drones" id="b5f0-67b6-d328-4e7c" hidden="false" type="rule" targetId="236d-d08d-c174-fe38"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="bf9c-ecb1-6aa4-5acf" id="9072-2867-26a4-ffcb" primary="true" name="Configuration"/>
@@ -4506,7 +4506,7 @@ The model has the „Invulnerable Save(4+)“ Special Rule. Shield Drones which 
         <categoryLink targetId="ca74-25d8-3eb4-bf23" id="4bd7-95eb-49db-3273" primary="false" name="Infantry"/>
         <categoryLink targetId="8de4-edc3-a99c-9c13" id="06bf-b911-413a-9036" primary="false" name="AT - Light Armor"/>
         <categoryLink targetId="d3c2-e486-649a-be04" id="e0d5-eb94-6447-8c47" primary="false" name="FACTION: T&apos;au"/>
-        <categoryLink targetId="9281-6ba9-919a-13cb" id="8d12-d8e3-0bf3-ec12" primary="false" name="Kroot Farstalker"/>
+        <categoryLink targetId="9281-6ba9-919a-13cb" id="8d12-d8e3-0bf3-ec12" primary="false" name="Kroot Farstalkers"/>
         <categoryLink targetId="0c94-cc7e-d938-51ec" id="dee9-96ca-078c-c892" primary="false" name="Kroot"/>
       </categoryLinks>
     </selectionEntry>
@@ -5391,7 +5391,7 @@ The model has the „Invulnerable Save(4+)“ Special Rule. Shield Drones which 
       <profiles>
         <profile name="Mark Of Honour" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="f4b8-12bc-c986-faf5">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Ethereal only. When making use of its first Heavenly Invocation. Improve the Leadership by 2 instead of 1. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Ethereal only. When making use of its first Heavenly Invocation. Improve the Leadership by 2 instead of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5466,7 +5466,7 @@ The model has the „Invulnerable Save(4+)“ Special Rule. Shield Drones which 
         <profile name="Battlesuit Survival System" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="5d1a-e5bc-c43a-88b4">
           <characteristics>
             <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Tau Commander. The model gains the   
-„Feel No Pain(4+)“ Special Rule. </characteristic>
+„Feel No Pain(4+)“ Special Rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5494,7 +5494,7 @@ The model has the „Invulnerable Save(4+)“ Special Rule. Shield Drones which 
       <profiles>
         <profile name="Fireblade Combat Mastery" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="1f99-2917-ccc5-53cf">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Cadre Fireblade only. This model and a unit of Firewarriors this model may be attached to, improve their WS characteristic to 3+. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Cadre Fireblade only. This model and a unit of Firewarriors this model may be attached to, improve their WS characteristic to 3+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5601,7 +5601,7 @@ The model has the „Invulnerable Save(4+)“ Special Rule. Shield Drones which 
       <profiles>
         <profile name="Invocations Iconoclast" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="eeb7-a4e3-b6c3-f188">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Ethereal only. The Ethereal can make use of his Ethereal Invocations Ability twice per turn. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Ethereal only. The Ethereal can make use of his Ethereal Invocations Ability twice per turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5759,6 +5759,264 @@ The model has the „Invulnerable Save(4+)“ Special Rule. Shield Drones which 
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Vespid Stingwings" hidden="false" id="fd83-b03b-3758-fefb">
+      <profiles>
+        <profile name="Vespid Stingwings" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="7a93-3b72-89a5-9dcb">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">15</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">2</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="5f1c-3ad3-a6d1-225e" primary="false" name="Infantry"/>
+        <categoryLink targetId="c4e9-abd5-def8-c3ab" id="912c-38f4-b46e-f48f" primary="false" name="AT - Medium Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="e3c7-58f4-7487-f899" primary="false" name="Fly"/>
+        <categoryLink targetId="d3c2-e486-649a-be04" id="28ab-3506-ee9b-02c0" primary="false" name="FACTION: T&apos;au"/>
+        <categoryLink targetId="ff10-7eb8-22ae-e42f" id="c121-55a2-0b1e-a769" primary="false" name="Vespid Stingwings"/>
+        <categoryLink targetId="252e-ab94-907b-0e91" id="4e01-7fd1-dabf-64ae" primary="false" name="Vespids"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Flight Of The Vespids" id="2903-355d-7a58-cda7" hidden="false" type="rule" targetId="3ee1-e2c1-307a-f30b"/>
+        <infoLink name="Deep Strike" id="e684-77d9-62c9-4697" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Vespid Stingwings" id="9100-4f4e-99bc-0322" hidden="false">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="b958-32af-bd22-6af4" includeChildSelections="false"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="7505-0eab-64e0-8e1c" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Vespid Stingwing" hidden="false" id="196f-332e-e8af-befc">
+              <costs>
+                <cost name="Pts" typeId="Points" value="12"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="4bec-1c92-2dd5-a436" includeChildSelections="false"/>
+                <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="3bdf-6c0d-04aa-289f" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Stingwing Claws" hidden="false" id="f387-619c-0816-0ae8" type="selectionEntry" targetId="cf8e-8434-ff32-3251" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="59cb-f822-e386-8afa" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="520f-60ff-ad30-8a66" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Neutron Blaster" hidden="false" id="d17d-356c-6657-7135" type="selectionEntry" targetId="4216-d063-b4e7-3685" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7012-f923-5287-656f" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d2c-5035-9335-52be" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Vespid Stingwing w/Special Weapon" hidden="false" id="6b0a-b18e-566a-325f">
+              <costs>
+                <cost name="Pts" typeId="Points" value="12"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7bdb-b917-7f41-84ac" includeChildSelections="false"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2e5b-e64f-2a1a-7ceb" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Stingwing Claws" hidden="false" id="6a44-51ca-4f0e-251a" type="selectionEntry" targetId="cf8e-8434-ff32-3251" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98c5-cf85-ea22-28b1" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70a9-77ac-f9cf-01a3" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Special Weapon" id="ea91-ee1a-44e3-2bba" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b50-52c9-a179-d524" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23c4-0779-9e9c-76f3" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Rail Rifle" hidden="false" id="24a6-2e15-fe13-a7bd" type="selectionEntry" targetId="d5ab-ad0f-3e31-0963">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="063a-8914-98b2-4538" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Plasma Rifle" hidden="false" id="ded2-68b4-a55b-0644" type="selectionEntry" targetId="8172-6526-0f94-c9b6">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8409-6a4d-e473-83b2" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="5"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="ded2-68b4-a55b-0644" field="defaultSelectionEntryId"/>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" value="1" field="2e5b-e64f-2a1a-7ceb">
+                  <repeats>
+                    <repeat value="5" repeats="1" field="selections" scope="fd83-b03b-3758-fefb" childId="9100-4f4e-99bc-0322" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Vespid Stingwing w/Skyblast Neutron Grenade Launcher" hidden="false" id="0661-ffdd-e1ee-9e50">
+              <costs>
+                <cost name="Pts" typeId="Points" value="22"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5d21-2f34-f79e-75c2" includeChildSelections="false"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="00d7-9884-ae8a-d9e0" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Stingwing Claws" hidden="false" id="e6f8-039c-0069-82d6" type="selectionEntry" targetId="cf8e-8434-ff32-3251" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="676e-b53e-0ee9-c48b" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ddc-8e09-03b1-bef1" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Skyblast Neutron Grenade Launcher" hidden="false" id="20b3-5110-b17e-9433" type="selectionEntry" targetId="177c-90dd-b99b-7eed" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f69-74b5-0e94-6a44" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d3c-8340-9b67-3d3d" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <modifiers>
+                <modifier type="increment" value="1" field="00d7-9884-ae8a-d9e0">
+                  <repeats>
+                    <repeat value="10" repeats="1" field="selections" scope="fd83-b03b-3758-fefb" childId="9100-4f4e-99bc-0322" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="196f-332e-e8af-befc" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Drone: Oversight Drone" hidden="false" id="c840-5ec5-2c53-e3dd" type="selectionEntry" targetId="192b-ce2a-a794-f8a6" collective="false">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="15bc-6690-e672-8cd6" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0022-815f-01f2-1437" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="10"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="1" field="15bc-6690-e672-8cd6">
+              <repeats>
+                <repeat value="10" repeats="1" field="selections" scope="fd83-b03b-3758-fefb" childId="9100-4f4e-99bc-0322" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stingwing Claws" hidden="false" id="cf8e-8434-ff32-3251">
+      <profiles>
+        <profile name="Stingwing Claws" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="e594-8e1b-6b49-abb4">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Neutron Blaster" hidden="false" id="4216-d063-b4e7-3685">
+      <profiles>
+        <profile name="Neutron Blaster" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c9f7-6273-c189-9d77">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">15</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Skyblast Neutron Grenade Launcher" hidden="false" id="177c-90dd-b99b-7eed">
+      <profiles>
+        <profile name="Skyblast Neutron Grenade Launcher - Shock" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="fd35-e2be-2cf3-c05d">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">12</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Skyblast Neutron Grenade Launcher - Blast" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="d17e-bc8f-9513-f4a1">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,Ex(5)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Drone: Oversight Drone" hidden="false" id="192b-ce2a-a794-f8a6">
+      <profiles>
+        <profile name="Oversight Drone" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="6b8d-60a6-a153-7b01">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">14</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">-</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">1</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">1</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">3</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">6+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">1</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Oversight Drone" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="460c-c95a-83a9-ddbc">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">An Oversight Drone is equipped with a Markerlight and this Markerlight always hits on its maximum BS characteristic, even when targeting enemy units with the „Lone Operator“ Keyword.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>Vespids</comment>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="6e54-05e6-ebfb-91cf" primary="false" name="Infantry"/>
+        <categoryLink targetId="c4e9-abd5-def8-c3ab" id="235f-6552-9e8c-9a9d" primary="false" name="AT - Medium Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="fc57-8dce-8ab8-f648" primary="false" name="Fly"/>
+        <categoryLink targetId="f8c1-8205-a220-664c" id="c574-0bf1-961d-9d9c" primary="false" name="Drone"/>
+        <categoryLink targetId="d3c2-e486-649a-be04" id="d33f-fd23-e445-d7a0" primary="false" name="FACTION: T&apos;au"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Markerlight" hidden="false" id="3f32-5298-2d41-2c91" type="selectionEntry" targetId="3966-b30e-286d-faf2" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af2e-20d9-9602-58da" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5f6-4794-b229-b2be" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Firewarriors" id="495e-9b8b-a79f-7223" hidden="false"/>
@@ -5796,6 +6054,7 @@ The model has the „Invulnerable Save(4+)“ Special Rule. Shield Drones which 
     <categoryEntry name="Drone" id="f8c1-8205-a220-664c" hidden="false"/>
     <categoryEntry name="Kroot" id="0c94-cc7e-d938-51ec" hidden="false"/>
     <categoryEntry name="Docked Drone" id="9d38-0d4a-38b9-d532" hidden="false"/>
+    <categoryEntry name="Vespids" id="252e-ab94-907b-0e91" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Baptism Of The Fire Cast" id="c819-d0a2-35ae-0c02" hidden="false">
@@ -5890,6 +6149,9 @@ When a friendly Tau Unit within 3&apos;&apos; of this unit is selected as a targ
     </rule>
     <rule name="Battle Mech Support Systems" id="c9b8-3c48-ab2c-73a2" hidden="false">
       <description>This model does not suffer the penalty on its hit roll for the „Big Guns Never Tire“ Rule. This modell also adds +1 to the Hit Roll of either the Pulse Driver Cannon or Pulse Blast Cannon when it has remained stationary in the previous movement phase.</description>
+    </rule>
+    <rule name="Flight Of The Vespids" id="3ee1-e2c1-307a-f30b" hidden="false">
+      <description>Vespids can shoot and charge in a turn in which they have made a Fall Back move. At the end of the shooting phase, this unit may move up to D6 in inch.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>
@@ -6281,7 +6543,7 @@ When a friendly Tau Unit within 3&apos;&apos; of this unit is selected as a targ
     </profile>
     <profile name="The Best Pilots" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="9a84-49f2-9c22-f80e">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Improve the Movement Characteristic of all Vehicle units by 4&apos;&apos;. Also, all Vehicles that have moved no further than half of ther maximum movement Range are considered having remained stationary. </characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Improve the Movement Characteristic of all Vehicle units by 4&apos;&apos;. Also, all Vehicles that have moved no further than half of ther maximum movement Range are considered having remained stationary.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -178,5 +178,10 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Tau Sept Selection" hidden="false" id="f4e5-bd9d-c8e2-9ac2" type="selectionEntry" targetId="6505-cfa1-1b46-b3b2"/>
+    <entryLink import="true" name="Vespid Stingwings" hidden="false" id="2142-3f54-e4e3-cd39" type="selectionEntry" targetId="fd83-b03b-3758-fefb">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="f15a-e2e5-f922-2d6e" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
