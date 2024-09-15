@@ -138,6 +138,9 @@
     <categoryEntry name="Sanguinary Priest" id="8147-fa07-167d-0178" hidden="false"/>
     <categoryEntry name="Sanguinary Ancient" id="e45a-c774-63ea-cfe9" hidden="false"/>
     <categoryEntry name="Baal Predator" id="aa3c-8171-b4c4-238c" hidden="false"/>
+    <categoryEntry name="Deathwatch Veterans" id="4053-33a9-ace8-e295" hidden="false"/>
+    <categoryEntry name="Deathwatch Watchmaster" id="0f24-d545-c75e-9932" hidden="false"/>
+    <categoryEntry name="Deathwatch Corvus Blackstar" id="0618-e680-6be5-0aac" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Bolt Rifle" hidden="false" id="472a-704c-17ec-ad7e" collective="true">
@@ -17531,6 +17534,513 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Deathwatch Veterans" hidden="false" id="8448-fb3a-0c81-8b60">
+      <profiles>
+        <profile name="Deathwatch Veterans" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="6a77-127f-5bb8-e0cb">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="8448-fb3a-0c81-8b60" childId="8315-7bdb-0756-4a9a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deathwatch Veteran Versatility" id="a193-515b-da0f-618c" hidden="false" type="rule" targetId="510b-7069-2fe8-c462"/>
+        <infoLink name="Invulnerable Save(6+)" id="914d-8b25-5980-d58b" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="32eb-45cc-a84e-c67e" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="5259-c8cb-469e-c6c1" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="198d-5483-dcd2-9d66" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8599-9479-106b-178c" id="e5d1-3da0-2dae-ebe7" primary="false" name="FACTION: Space Marines"/>
+        <categoryLink targetId="4053-33a9-ace8-e295" id="fcc6-befd-5cbe-89cf" primary="false" name="Deathwatch Veterans"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="ef19-4feb-eb6f-ad31" primary="false" name="Power Armor"/>
+        <categoryLink targetId="6b68-dc48-d187-947e" id="eea7-d4b3-39ba-3c57" primary="false" name="Subfaction: Deathwatch"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Deathwatch Veterans" id="9a4b-896e-c7cd-a45c" hidden="false">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="b72c-83c5-a462-09ce" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="d006-94b0-f15a-e293" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Deathwatch Veteran" hidden="false" id="3bd0-9604-3372-0dbb">
+              <costs>
+                <cost name="Pts" typeId="Points" value="23"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="ba36-0be5-3b1a-9164" includeChildSelections="false"/>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="95ed-9cff-86ab-b415" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Loadout" id="a97e-7755-831a-3349" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7562-acdf-84c7-436d" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9316-f98b-18b6-c823" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Pistols" hidden="false" id="e481-b39c-3d8a-2ed8" type="selectionEntryGroup" targetId="b5c8-9122-913f-1dcf">
+                      <modifiers>
+                        <modifier type="set" value="2736-324-a853-c9a" field="defaultSelectionEntryId"/>
+                        <modifier type="set" value="0" field="e493-fa25-39bc-533a">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="27a8-b0ac-83da-f51d" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="0" field="e493-fa25-39bc-533a">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="3935-bfb9-9566-7f57" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e493-fa25-39bc-533a" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Combi Weapons" hidden="false" id="3935-bfb9-9566-7f57" type="selectionEntryGroup" targetId="45a2-82ac-fb3f-7498"/>
+                    <entryLink import="true" name="Special Weapons" hidden="false" id="9d4c-d8a2-e978-6543" type="selectionEntryGroup" targetId="a642-0cdd-85cf-7887">
+                      <entryLinks>
+                        <entryLink import="true" name="Deathwatch Bolt Gun" hidden="false" id="572b-f8e5-70f4-a669" type="selectionEntry" targetId="1860-e144-8994-558e">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea5e-98c2-121b-e0de" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <modifiers>
+                        <modifier type="set" value="572b-f8e5-70f4-a669" field="defaultSelectionEntryId"/>
+                        <modifier type="set" value="0" field="5d60-bc2c-ed48-aa34">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="27a8-b0ac-83da-f51d" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="set" value="0" field="5d60-bc2c-ed48-aa34">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="parent" childId="3935-bfb9-9566-7f57" shared="true" includeChildSelections="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5d60-bc2c-ed48-aa34" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Melee Weapons" id="27a8-b0ac-83da-f51d" hidden="false">
+                      <constraints>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8f42-e558-f008-7224" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Chainsword" hidden="false" id="9c19-a756-3cc0-0b0e" type="selectionEntry" targetId="268-58ff-86c2-e0ca"/>
+                        <entryLink import="true" name="Powerweapon" hidden="false" id="190a-0be1-7cdb-2159" type="selectionEntry" targetId="610e-938b-bd18-9ab5">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="4"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Powerfist" hidden="false" id="9d40-a669-2719-9f86" type="selectionEntry" targetId="d658-88ba-1a49-474a">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="7"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Thunder Hammer" hidden="false" id="8f97-b624-c53e-6fde" type="selectionEntry" targetId="53e2-6bf8-b232-397e">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="13"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Lightning Claw" hidden="false" id="ad19-3e15-c723-e71d" type="selectionEntry" targetId="fc13-a9dc-3501-a704">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="4"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Storm Shield" hidden="false" id="8315-7bdb-0756-4a9a" type="selectionEntry" targetId="1a8d-be12-33d8-8a1e">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="4"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="8b00-0c58-1522-4b96" type="selectionEntry" targetId="275-a5a3-6e96-ee42"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Deathwatch Bolt Gun" hidden="false" id="1860-e144-8994-558e">
+      <profiles>
+        <profile name="Deathwatch Bolt Gun - Regular Ammo" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="a077-ae51-54fc-c1a6">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,He</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Deathwatch Bolt Gun - Scatter Ammo" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="0e2f-378a-d436-b92f">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">5</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">3</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Deathwatch Bolt Gun - Buckshot Ammo" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="99d1-f149-f93c-bdf2">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Deathwatch Watchmaster" hidden="false" id="1636-7c1a-00d3-f9f4">
+      <costs>
+        <cost name="Pts" typeId="Points" value="120"/>
+      </costs>
+      <profiles>
+        <profile name="Deathwatch Watchmaster" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="d81a-4e79-1c17-44ee">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="increment" value="2" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="1636-7c1a-00d3-f9f4" childId="f5a3-971f-3e50-7675" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deathwatchers On The Watch" id="27fe-ab2c-1334-5bfc" hidden="false" type="rule" targetId="4079-ae67-93fc-b79c"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Vigil Spear" hidden="false" id="2fb8-b533-2988-15f0" type="selectionEntry" targetId="9a58-0452-29ef-f6b2" collective="true" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dadb-52c9-1206-197b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8f0-fd6f-be2e-9dc8" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Space Marine Codex Relics" hidden="false" id="7704-7407-15b8-d382" type="selectionEntryGroup" targetId="e0da-4576-f252-7055" sortIndex="1"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="33d4-4c0e-0fbe-e920" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="5e6f-5bdc-1865-d7c3" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="8599-9479-106b-178c" id="35e8-6bfe-28d1-c584" primary="false" name="FACTION: Space Marines"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="a41b-2e07-c6aa-d458" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="35ff-b662-5b1f-b634" primary="false" name="Character"/>
+        <categoryLink targetId="6b68-dc48-d187-947e" id="7424-f444-82a1-5f94" primary="false" name="Subfaction: Deathwatch"/>
+        <categoryLink targetId="0f24-d545-c75e-9932" id="27b7-e61d-bb3c-0d5e" primary="false" name="Deathwatch Watchmaster"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="86df-2cdb-f9f2-bfda" primary="false" name="Power Armor"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vigil Spear" hidden="false" id="9a58-0452-29ef-f6b2">
+      <profiles>
+        <profile name="Vigil Spear" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="27db-d199-8043-6729">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">15</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,He,Ps</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Vigil Spear" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="f5d2-f0c2-a7b2-38c9">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Spear Of The First Vigil" hidden="false" id="63f7-5ba4-cde3-8c8f">
+      <comment>Deathwatch Relic</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c78-0e51-e51b-896e" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3b87-a8aa-a490-927b" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="Points" value="15"/>
+      </costs>
+      <profiles>
+        <profile name="Spear Of The First Vigil" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="a8d8-53fc-9d88-930a">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Watchmaster only. Upgrade for a Vigil Spear.
+Replace both the ranged and melee weapons profiles for the Vigil Spear with the following profile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spear Of The First Vigil" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="9665-09b5-008d-9dcd">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">15</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,He,Ps</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spear Of The First Vigil" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="c1b1-4fef-7125-accb">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3+1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">+1 Ini</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="parent" childId="9a58-0452-29ef-f6b2" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Osseus Key" hidden="false" id="ee25-7c41-8598-6e17">
+      <profiles>
+        <profile name="Osseus Key" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="dc6b-87fe-c8df-c013">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Watchmaster Only. The unit the Watchmaster is attached to is considered to benefit from all three Deathwatch Subfaction Special Rule, including the Watchmaster. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>Deathwatch Relic</comment>
+      <costs>
+        <cost name="Pts" typeId="Points" value="25"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3394-0936-5acf-83f8" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e4de-eca9-b3d0-87ea" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="1636-7c1a-00d3-f9f4" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="The Blackweave Shroud" hidden="false" id="f5a3-971f-3e50-7675">
+      <profiles>
+        <profile name="The Blackweave Shroud" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="5712-7bfb-7426-da61">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The Model gains +2 to its Life Points Characteristic and the Feel No Pain(4+) Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="Points" value="25"/>
+      </costs>
+      <comment>Deathwatch Relic</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6197-94cf-4675-7a65" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2ed6-cbf7-529c-2221" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="1636-7c1a-00d3-f9f4" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Deathwatch Corvus Blackstar" hidden="false" id="940f-0126-3937-fb8c">
+      <costs>
+        <cost name="Pts" typeId="Points" value="330"/>
+      </costs>
+      <profiles>
+        <profile name="Deathwatch Corvus Blackstar" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="893d-9dfd-2cfc-197c">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">20</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">22</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Deathwatch Corvus Blackstar" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="c591-a981-a08b-656b">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">This model can transport up to 12 Infantry models AND a model with „Dreadnought“ in its name. 
+Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ and „Gravis Armor“ count as 2 and models with the keyword „Centurion Armor“ count as 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="c9e9-d847-e414-554e" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="737e-fdc3-62c3-64bd" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="d0c1-d590-c340-0fc1" primary="false" name="Fly"/>
+        <categoryLink targetId="8599-9479-106b-178c" id="5d20-9d33-7216-fb15" primary="false" name="FACTION: Space Marines"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="411c-4370-3dee-8ac1" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="896a-2f72-a54c-07f6" primary="false" name="Tansport"/>
+        <categoryLink targetId="6b68-dc48-d187-947e" id="70e8-0039-ab24-86c3" primary="false" name="Subfaction: Deathwatch"/>
+        <categoryLink targetId="0618-e680-6be5-0aac" id="3c2a-7d26-6e37-00ea" primary="false" name="Deathwatch Corvus Blackstar"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Deadly Demise(12/D6+3)" id="1404-06bc-fca5-6f64" hidden="false" type="rule" targetId="82a7-3a39-240f-eac2"/>
+        <infoLink name="Hover" id="0908-c4d9-a42e-4fbd" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+        <infoLink name="Adamantine Assault" id="7e98-dfe6-7345-78f5" hidden="false" type="rule" targetId="1d86-bcec-70d9-eda5"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="f805-318a-f0a0-b3a5" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
+        <entryLink import="true" name="Hurricane Bolter" hidden="false" id="bf86-0436-c093-e0ef" type="selectionEntry" targetId="07d1-ff6b-eecf-e48c">
+          <costs>
+            <cost name="Pts" typeId="Points" value="10"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a29-d3d6-a237-fef9" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Secondary Weapons" id="127d-4e0f-db16-e0d3" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1bcb-8c9e-a7e2-028d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c23f-cfe5-c46b-aef6" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Twin Assault Cannon" hidden="false" id="8010-c6e0-4daa-e7d3" type="selectionEntry" targetId="6691-f966-f7e6-d761">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f02-02f8-321b-0516" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Twin Las Cannon" hidden="false" id="9878-8396-1a87-945b" type="selectionEntry" targetId="42a2-bc99-3dc-6a20">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64ba-0eef-535d-892a" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="8010-c6e0-4daa-e7d3" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Primary Weapons" id="b8a4-475f-bfc4-a21d" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3006-6a89-5844-a292" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="676d-66a7-f7fc-89e3" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Stormstrike Rocket Launchers" hidden="false" id="4f19-7ddc-6e1b-b429">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a29-ae0b-5a9c-de7b" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Stormstrike Rocket Launcher" hidden="false" id="ad20-800d-3fc5-8a59" type="selectionEntry" targetId="3c9f-0f37-6797-2bd0" collective="true">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a854-46e6-6d0e-922e" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="95ae-ac5b-d376-f399" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="2 Blackstar Rocket Launchers" hidden="false" id="a16e-da90-d747-c1c2">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53e8-764b-7073-f142" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Blackstar Rocket Launcher" hidden="false" id="4311-00de-b6d4-f35e" type="selectionEntry" targetId="b6d8-3d4b-e027-b50c" collective="true">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="ffca-cc59-d7fa-395c" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8d53-4c0e-39cf-2563" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="a16e-da90-d747-c1c2" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stormstrike Rocket Launcher" hidden="false" id="3c9f-0f37-6797-2bd0">
+      <profiles>
+        <profile name="Stormstrike Rocket Launcher" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="e1e5-c67b-d992-ace1">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">10</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blackstar Rocket Launcher" hidden="false" id="b6d8-3d4b-e027-b50c">
+      <profiles>
+        <profile name="Blackstar Rocket Launcher - Krak" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="56c7-403d-8731-0f9e">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">12</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ex(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blackstar Rocket Launcher - Frag" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="96ee-1eee-6c7d-b2ec">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ex(5)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Space Marine" hidden="false" id="ea13-acb4-5747-5a3e" typeId="a545-37bd-31e3-a90c" typeName="Unit">
@@ -18593,7 +19103,20 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
             </modifier>
           </modifiers>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Chapter Deathwatch" id="5e76-1a-209-848" hidden="false"/>
+        <selectionEntryGroup name="Chapter Deathwatch" id="5e76-1a-209-848" hidden="false">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1c5f-5bb0-d0c7-5b7" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Spear Of The First Vigil" hidden="false" id="e4d3-5e97-2158-71dc" type="selectionEntry" targetId="63f7-5ba4-cde3-8c8f"/>
+            <entryLink import="true" name="Osseus Key" hidden="false" id="2ccf-1622-5aac-a2bf" type="selectionEntry" targetId="ee25-7c41-8598-6e17"/>
+            <entryLink import="true" name="The Blackweave Shroud" hidden="false" id="5f36-9055-5e41-e510" type="selectionEntry" targetId="f5a3-971f-3e50-7675"/>
+          </entryLinks>
+        </selectionEntryGroup>
         <selectionEntryGroup name="Chapter White Scars" id="8c78-6c0-feca-cdac" hidden="false">
           <entryLinks>
             <entryLink import="true" name="Sabre Of The Khan" hidden="false" id="8ae5-5389-5568-29cf" type="selectionEntry" targetId="3ade-4f7f-a6bd-f3d7"/>
@@ -19593,6 +20116,35 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
       </constraints>
       <comment>No Grav</comment>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Special Weapons" id="a642-0cdd-85cf-7887" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Plasma Gun" hidden="false" id="ed11-6ed0-0493-11de" type="selectionEntry" targetId="8afc-419e-de91-cd5">
+          <costs>
+            <cost name="Pts" typeId="Points" value="14"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Flamer" hidden="false" id="7ccb-ddda-4879-6b17" type="selectionEntry" targetId="7605-4e60-3cbc-27a5">
+          <costs>
+            <cost name="Pts" typeId="Points" value="14"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Grav Gun" hidden="false" id="4522-99db-301d-7665" type="selectionEntry" targetId="98ed-f7ab-d842-9f16">
+          <costs>
+            <cost name="Pts" typeId="Points" value="14"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Melta Gun" hidden="false" id="91a4-6986-6d51-535e" type="selectionEntry" targetId="f293-823c-7450-92c1">
+          <costs>
+            <cost name="Pts" typeId="Points" value="14"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="be1b-2d66-2e0c-8614"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86e7-5cb4-437a-1730"/>
+      </constraints>
+      <comment>Deathwatch</comment>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule name="Tactical Versatility" id="7894-817e-3cef-e06" hidden="false">
@@ -19801,6 +20353,12 @@ or
     </rule>
     <rule name="Black Rage" id="4bab-1180-ec4d-6a1d" hidden="false">
       <description>This unit must always move towards (and if possible charge) the closest enemy unit.</description>
+    </rule>
+    <rule name="Deathwatch Veteran Versatility" id="510b-7069-2fe8-c462" hidden="false">
+      <description>Once per Game,in a single phase, a Deathwatch Veteran unit can chose to either: Improve their Ballistic Skill or Weapon Skill Characteristic to 2+.</description>
+    </rule>
+    <rule name="Deathwatchers On The Watch" id="4079-ae67-93fc-b79c" hidden="false">
+      <description>A unit this model is attached to is considered to benefit from 2 of the three Deathwatch Subfaction Rules instead of one. Including this model.</description>
     </rule>
   </sharedRules>
 </catalogue>
