@@ -11,5 +11,156 @@
         <categoryLink targetId="79e5-570b-2bdd-d3d7" id="1615-05d3-31d7-238b" primary="true" name="TROOPS"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Sagittarum Custodians" hidden="false" id="73c6-bd6d-7a27-9069" type="selectionEntry" targetId="60da-4fa1-3561-e5d7">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="5ed1-ab0a-0537-84a9" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Prosecutors" hidden="false" id="b424-8c29-eb81-ca39" type="selectionEntry" targetId="d998-fbaa-b4a6-7852">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="e1a1-605c-6a6f-935e" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Blade Champion" hidden="false" id="3676-4024-1485-45c8" type="selectionEntry" targetId="37e6-2f49-c63c-9f2e">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="fa30-4090-8481-12dd" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shield Captain" hidden="false" id="f223-aa4b-cca8-74af" type="selectionEntry" targetId="a27a-2fac-7cd3-78fb">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="b7af-d150-ef39-f5da" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vertus Preators" hidden="false" id="a617-78bd-7f4b-c40f" type="selectionEntry" targetId="05a3-a3a5-de1d-d934">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="21c2-47a2-ad53-be3b" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shield Captain On Dawneagle Jetbike" hidden="false" id="e6f6-ac52-72c6-7f90" type="selectionEntry" targetId="c86d-87d1-b833-337b">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="d881-2d29-426e-2afb" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Witchseekers" hidden="false" id="8b94-e2a9-99f3-62b0" type="selectionEntry" targetId="e383-b0e5-1c7a-76f4">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="f956-aa61-c2d5-eeb1" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Custodian Wardens" hidden="false" id="6e15-1af3-698c-1f47" type="selectionEntry" targetId="b712-f198-7977-ef00">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="ad90-47c8-47ca-cafc" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vigilators" hidden="false" id="a550-29a3-d34c-1820" type="selectionEntry" targetId="3654-a213-74ad-52a9">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="9be3-d268-6cf0-5c52" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Allarus Custodians" hidden="false" id="7f11-780a-b09e-9e50" type="selectionEntry" targetId="deb3-799f-accf-e8d2">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="2f39-22ad-2df5-2258" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Aquillon Custodians" hidden="false" id="ff13-02f2-4d34-355b" type="selectionEntry" targetId="0065-6506-ee5b-a4f1">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="2a40-0656-becf-6717" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shield Captain In Vigilus Armor" hidden="false" id="f294-241f-c000-2fed" type="selectionEntry" targetId="9dae-1443-3250-7205">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="11fa-9779-7c6d-83c9" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Caladius Grav Tank" hidden="false" id="4b7f-7632-9752-6aca" type="selectionEntry" targetId="5217-8e2d-0ae2-70c3">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="fa53-a659-3f5e-514f" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Coronus Grav Carrier" hidden="false" id="a221-c9e5-dfd6-7d97" type="selectionEntry" targetId="8c10-e095-ba8f-fe2d">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="99e1-34da-79d1-9ddb" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Knight Centura" hidden="false" id="115d-f49e-8461-993f" type="selectionEntry" targetId="43c1-77d7-3d2b-71bb">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="b7ec-3156-96b1-3647" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vexillus Preator" hidden="false" id="7076-e706-b4fa-7ea6" type="selectionEntry" targetId="a0e7-3e64-d799-38b4">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="01e5-49df-16c1-8ce8" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vexillus Preator In Vigillus Armor" hidden="false" id="f94e-4934-6b75-bfc2" type="selectionEntry" targetId="a1ec-44f5-442c-699d">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="49a3-840b-545e-e982" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Venatari Custodians" hidden="false" id="75e6-5336-596e-6c75" type="selectionEntry" targetId="6020-f248-387b-3a9a">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="1454-a5d9-95d5-24ad" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Pallas Grav Attacks" hidden="false" id="1beb-6573-805c-f8c2" type="selectionEntry" targetId="1e5e-dd78-9a38-06a7">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="524b-93df-094e-ff22" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Venerable Contemptor Dreadnought" hidden="false" id="d401-6535-4905-704a" type="selectionEntry" targetId="ffef-64d9-8d40-6415">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="b2a6-cc3a-c955-4fae" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Contemptor Gallatus Dreadnought" hidden="false" id="2c75-51ad-eb21-0e18" type="selectionEntry" targetId="d1fb-c985-e6fe-9b4c">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="a878-bb11-1a8e-6bd5" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Contemptor Achillus Dreadnought" hidden="false" id="8645-238c-9b20-c272" type="selectionEntry" targetId="1b4d-1e72-a352-b7c5">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="b136-8c4f-6526-0eca" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Telemon Heavy Dreadnought" hidden="false" id="b858-1433-7c6b-7f1f" type="selectionEntry" targetId="94c8-5226-5381-4deb">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="4119-c6fa-846f-c3d1" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Venerable Land Raider" hidden="false" id="6b4d-06f3-a267-ea0b" type="selectionEntry" targetId="21e2-f8e7-ebcd-2c5f">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="9c98-272f-1ade-c21a" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Psykana Rhino" hidden="false" id="285a-c3e8-2e5e-87c0" type="selectionEntry" targetId="cbe2-a045-dd58-31a1">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="8b26-5e54-b27a-1fae" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Auxiliaries Rules" hidden="false" id="b442-4ab1-36b0-5676" type="selectionEntry" targetId="6655-6d17-08b1-bb3e"/>
+    <entryLink import="true" name="Armiger Helverin" hidden="false" id="4689-2dfe-8333-7505" type="selectionEntry" targetId="58c7-369f-4c4a-a1cb">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="c99a-a06a-a941-036f" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armiger Warglaive" hidden="false" id="ab35-f88e-2494-d0f6" type="selectionEntry" targetId="a1c7-3a48-2062-5694">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="af10-a3ad-60c3-4de6" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Enginseer" hidden="false" id="68ad-fdcd-de87-89e5" type="selectionEntry" targetId="21ac-8e8d-03a8-dcec">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="1e4b-3d47-5f4c-fa49" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Knight" hidden="false" id="161f-8fc9-e343-7f9d" type="selectionEntry" targetId="040f-6ccd-dd5b-fd47">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="c3b7-dc2f-dae5-0881" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cerastus Knight" hidden="false" id="6a08-98c3-ae2f-4b49" type="selectionEntry" targetId="e4ae-98f9-294b-4075">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="9f74-6b65-ef0a-faad" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

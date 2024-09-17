@@ -1164,6 +1164,20 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chaos Auxiliaries Rules" hidden="false" id="108f-cade-6652-dabc">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c69-92b3-6711-70fa" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4408-52f1-32c9-9fe7" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="14f3-2616-e91f-7162" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="adb0-e16e-4d9c-9867" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Chaos Auxiliaries" id="e9d3-7dbe-82a9-78b8" hidden="false" type="rule" targetId="08a4-acb4-32cf-6a3d"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="bf9c-ecb1-6aa4-5acf" id="e2c4-664b-d2ce-dfff" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Marks Of Chaos" id="499d-e7ff-024c-50a1" hidden="false">
@@ -1331,4 +1345,18 @@
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <rules>
+    <rule name="Chaos Auxiliaries" id="08a4-acb4-32cf-6a3d" hidden="false">
+      <description>Chaos Auxiliaries are allowed to take up to a maximum of 35% of your Army List. 
+
+
+Regarding your Army Organisation Plan, they take up units according to their unit type, unless otherwise mentioned. 
+
+
+Imperial Auxiliaries Units never profit from any Main-, oder Subfaction Rules unless otherwise mentioned.
+
+
+Chaos Auxiliaries Vehicles can never be selected as the target of „Repair“ Abilities such as the one of the „Chaos Space Marine Warpsmith“. </description>
+    </rule>
+  </rules>
 </catalogue>

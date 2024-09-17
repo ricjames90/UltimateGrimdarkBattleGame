@@ -243,6 +243,7 @@
         <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="3964-7023-4374-81fb" primary="true" name="HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Chaos Auxiliaries Rules" hidden="false" id="4123-0e1e-1f02-ccec" type="selectionEntry" targetId="108f-cade-6652-dabc"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Chaos Demons" id="e506-b98b-2e84-c228" targetId="d320-960f-c386-889"/>
