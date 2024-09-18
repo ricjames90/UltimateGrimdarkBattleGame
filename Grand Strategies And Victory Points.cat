@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="b558-be0d-6e5e-af47" name="Grand Strategies And Victory Points" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <rules>
+    <rule name="Following The Plan" id="f51f-483a-07a6-8ccc" hidden="false">
+      <description>Everytime you score Victory Points for holding any Objective markers, you score one(1) additional Points. Holding the Centre Objective rewards three(3) additional Victory Points instead of 2. You gain five(7) additional Victory Points when you&apos;re in control of 3 or more objectives by the time of scoring objectives. If you are in control of all objectives, you gain ten(12) additional Victory Points instead.</description>
+    </rule>
+    <rule name="Total Annihilation" id="fbeb-c0b8-ea9f-24e7" hidden="false">
+      <description>At the end of the battle, when calculating Victory Points, you gain two(2) additional Victory points for every 100 points of destroyed enemy units. (Read the „Calculating Victory Points“-step for how to determine how many Points of enemy units you destroyed)</description>
+    </rule>
+    <rule name="Battlefield Supremacy" id="52bb-6f62-f2db-2081" hidden="false">
+      <description>At the end of every game round, you score three(3) Victory points for every battliefield quarter with a unit of yours wholly within it said battlefield quarter.</description>
+    </rule>
+    <rule name="Hold The Line" id="2888-5a25-c87e-7a4c" hidden="false">
+      <description>At the end of every game round, except for the first, you gain Victory Points when no enemy models are located within your own deployment Zone. In turn second that is ten(10), in the third turn twelve(12), in the fourth turn fifteen(15) and in the last turn twenty(20).</description>
+    </rule>
+    <rule name="Breach The Enemies Front" id="8eb5-4f90-5435-d8ce" hidden="false">
+      <description>At the end of every game round, except for the first, you gain Victory Points when at least one of your unit is wholly within your enemies deployment Zone. In turn second that is ten(10), in the third turn twelve(12), in the fourth turn fifteen(15) and in the last turn twenty(20).</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Following The Plan" hidden="false" id="b2e3-68eb-c8d1-f252">
+      <infoLinks>
+        <infoLink name="Following The Plan" id="de02-115f-a0c5-65be" hidden="false" type="rule" targetId="f51f-483a-07a6-8ccc"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b602-a1c2-7fe7-d19a" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turns" id="bbe0-e939-ad4e-caa4" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Turn 2" id="6b14-3396-2a0c-3437" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Central Objective" hidden="false" id="890c-fd98-3b01-55de">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Secondary Objective" hidden="false" id="ed17-fe5b-ab31-eda2">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="1"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Objective Bonus" id="b361-1aef-7d9c-16be" hidden="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8774-a1cc-ab12-7261" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="3+ Objectives" hidden="false" id="d80c-6db6-5555-4225">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="0"/>
+                        <cost name="VP" typeId="Victory Points" value="7"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="All Objectives" hidden="false" id="7083-0049-0f7f-c042">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="0"/>
+                        <cost name="VP" typeId="Victory Points" value="12"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 5" id="a80e-cec7-ac3b-dda7" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Central Objective" hidden="false" id="e21e-4bea-a030-b42e">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Secondary Objective" hidden="false" id="dd8d-7e3f-1de8-8d5e">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="1"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Objective Bonus" id="3364-c585-01d2-5204" hidden="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e08-9734-d694-b9d3" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="3+ Objectives" hidden="false" id="afd5-474a-273d-c87d">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="0"/>
+                        <cost name="VP" typeId="Victory Points" value="7"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="All Objectives" hidden="false" id="b48c-6d61-9751-267f">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="0"/>
+                        <cost name="VP" typeId="Victory Points" value="12"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 3" id="d584-8e8c-e990-3b9d" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Central Objective" hidden="false" id="1c03-0a62-7876-795e">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Secondary Objective" hidden="false" id="c6c1-6961-f2bf-6ab4">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="1"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Objective Bonus" id="ded4-dd02-bd90-a1d2" hidden="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9011-8931-a428-7adf" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="3+ Objectives" hidden="false" id="1762-530f-be06-bdaa">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="0"/>
+                        <cost name="VP" typeId="Victory Points" value="7"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="All Objectives" hidden="false" id="3b5e-a0e2-50fd-15e6">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="0"/>
+                        <cost name="VP" typeId="Victory Points" value="12"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 4" id="9b52-f683-cd73-4586" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Central Objective" hidden="false" id="5351-5c02-7962-8377">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Secondary Objective" hidden="false" id="87b9-5621-ed27-a652">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="1"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Objective Bonus" id="1708-84d2-0803-ec1b" hidden="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bd5-4a96-20a0-eda7" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="3+ Objectives" hidden="false" id="191c-38e7-7c35-9071">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="0"/>
+                        <cost name="VP" typeId="Victory Points" value="7"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="All Objectives" hidden="false" id="238d-6241-0ae3-5cb8">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="0"/>
+                        <cost name="VP" typeId="Victory Points" value="12"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Total Annihilation" hidden="false" id="a9d1-4519-5e8f-28a3">
+      <infoLinks>
+        <infoLink name="Total Annihilation" id="b113-add1-79b3-0167" hidden="false" type="rule" targetId="fbeb-c0b8-ea9f-24e7"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c983-7e6b-9a69-a9cb" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Destroyed Total Points Per 100 Bonus" hidden="false" id="fa95-922a-9847-87d1">
+          <costs>
+            <cost name="Pts" typeId="Points" value="0"/>
+            <cost name="VP" typeId="Victory Points" value="2"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Battlefield Supremacy" hidden="false" id="31c3-a416-2fed-be4d">
+      <infoLinks>
+        <infoLink name="Battlefield Supremacy" id="f4ab-5db3-0c7f-08cf" hidden="false" type="rule" targetId="52bb-6f62-f2db-2081"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77be-f7ac-7634-653a" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turns" id="b277-adcc-6680-08f3" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Turn 1" id="a8e2-af80-3244-89c0" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Battlefield Quarters" hidden="false" id="1062-036f-8aa7-6592">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="b825-ffe1-6dd3-3114" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 2" id="6736-3063-340c-caaa" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Battlefield Quarters" hidden="false" id="2c2a-31db-1630-34f0">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="b6f9-3908-d363-1e22" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 3" id="f9fe-9b16-e3e0-1f88" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Battlefield Quarters" hidden="false" id="61be-9059-6687-5244">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="0197-6330-8c6f-c928" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 4" id="5a63-c1d6-4f6a-785c" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Battlefield Quarters" hidden="false" id="c230-5c5c-2792-7035">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="0471-7cc3-aa7f-9ba8" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 5" id="3e95-0bd1-965d-660b" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Battlefield Quarters" hidden="false" id="6dae-1469-b728-fa38">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="65d4-e0b8-d91c-b9e9" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Breach The Enemies Front" hidden="false" id="82b5-e56f-c0fa-a808">
+      <infoLinks>
+        <infoLink name="Breach The Enemies Front" id="3811-3d55-bbe1-bc30" hidden="false" type="rule" targetId="8eb5-4f90-5435-d8ce"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c10f-6e95-449a-c97b" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turns" id="5d4e-ed9e-55ab-58e4" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Turn 2" id="3840-6ba4-4c74-5678" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Breach The Enemies Front Bonus" hidden="false" id="fc03-3842-58da-0cd3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a95-70cd-b06a-0537" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="10"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 3" id="81b7-6b2e-55a9-7a0b" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Breach The Enemies Front Bonus" hidden="false" id="3a82-691b-6346-2fe4">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3695-32b6-ac93-9107" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="12"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 4" id="0f41-1cae-de7a-c3bc" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Breach The Enemies Front Bonus" hidden="false" id="a044-ae31-1c57-6086">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7b3-9cd8-9f4c-3bd4" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="15"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 5" id="00b9-2d81-9eac-a24f" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Breach The Enemies Front Bonus" hidden="false" id="8b5e-7eaf-28d5-2044">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9fd-b5b5-da6d-d1af" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="20"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hold The Line" hidden="false" id="5bfb-26c9-ab3a-9d16">
+      <infoLinks>
+        <infoLink name="Hold The Line" id="0835-5533-1675-093c" hidden="false" type="rule" targetId="2888-5a25-c87e-7a4c"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6149-83fe-9228-9b66" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turns" id="f871-cbf0-4f54-4860" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Turn 2" id="dfea-6917-59ad-d14f" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Hold The Line Bonus" hidden="false" id="724f-0280-7a0c-05c8">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6d9-547e-11ec-f2f9" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="10"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 3" id="d125-f325-6bd8-222c" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Hold The Line Bonus" hidden="false" id="54ab-e85a-4ec8-3957">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be92-0aad-6e7d-a151" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="12"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 4" id="de0d-0d8c-264f-65fb" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Hold The Line Bonus" hidden="false" id="3c4b-6eb2-1a58-262b">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c254-f092-5f4f-e7e9" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="15"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 5" id="ebfb-378c-f98c-a823" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Hold The Line Bonus" hidden="false" id="45b3-669a-14b5-83c5">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5af5-82a7-44ae-dd7b" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="20"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grand Strategies And Victory Points" hidden="false" id="16e1-cf23-f7fa-490e">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="3a9a-641e-0fcc-96f3" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="32f2-57a0-cedd-0b1a" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="bf9c-ecb1-6aa4-5acf" id="78c5-1b19-1fd2-d4fe" primary="true" name="Configuration"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turns" id="55c9-abc7-5d82-96c9" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Destroyed Total Points Per 100P" hidden="false" id="5e8e-4abc-1c69-da50">
+              <costs>
+                <cost name="Pts" typeId="Points" value="0"/>
+                <cost name="VP" typeId="Victory Points" value="1"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Turn 2" id="3c94-6b40-2e85-0f97" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Secondary Objective" hidden="false" id="4675-7395-1687-9cac">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Central Objective" hidden="false" id="e058-9108-e4b5-aba1">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8102-7b24-dd53-61e3" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 3" id="ebaa-3e75-3ec6-aef6" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Secondary Objective" hidden="false" id="ba76-9633-290f-84ea">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Central Objective" hidden="false" id="17c4-5033-91c5-8fc3">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af87-d3b8-fe6a-22c1" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 4" id="8e2e-7409-d544-9867" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Secondary Objective" hidden="false" id="9cd5-0fea-7c62-bf63">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Central Objective" hidden="false" id="b391-4b00-49c8-b337">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24ee-dc1a-98bf-22a7" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turn 5" id="0172-4a56-7dda-92b4" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Secondary Objective" hidden="false" id="1541-46d9-e9b3-daf9">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="3"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Central Objective" hidden="false" id="8459-2d0c-ddbf-b757">
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                    <cost name="VP" typeId="Victory Points" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4627-3a9f-298e-9713" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Grand Strategy" id="ae78-4a2f-4e1d-3420" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8da2-9e5a-9b7c-527b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4eb-7b98-7f21-ea26" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Battlefield Supremacy" hidden="false" id="26ad-1c1c-1742-5210" type="selectionEntry" targetId="31c3-a416-2fed-be4d"/>
+            <entryLink import="true" name="Breach The Enemies Front" hidden="false" id="1cad-f08d-4358-b009" type="selectionEntry" targetId="82b5-e56f-c0fa-a808"/>
+            <entryLink import="true" name="Following The Plan" hidden="false" id="8c88-8da8-8496-85ff" type="selectionEntry" targetId="b2e3-68eb-c8d1-f252"/>
+            <entryLink import="true" name="Hold The Line" hidden="false" id="1d51-c128-09ee-0d58" type="selectionEntry" targetId="5bfb-26c9-ab3a-9d16"/>
+            <entryLink import="true" name="Total Annihilation" hidden="false" id="6b7e-c443-3c96-f845" type="selectionEntry" targetId="a9d1-4519-5e8f-28a3"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

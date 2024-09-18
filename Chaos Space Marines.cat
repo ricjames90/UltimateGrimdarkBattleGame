@@ -3,6 +3,7 @@
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Chaos Space Marines" id="3131-620b-f43c-48c5" targetId="7e01-7be-d0bd-1674"/>
     <catalogueLink type="catalogue" name="Codex Chaos Auxiliaries" id="7490-151c-1c52-b37d" targetId="752f-e21f-876c-9b76"/>
+    <catalogueLink type="catalogue" name="Grand Strategies And Victory Points" id="275f-77ad-f5fa-a431" targetId="b558-be0d-6e5e-af47"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Predator" hidden="false" id="1e35-db7f-036c-0a97" type="selectionEntry" targetId="a724-6d9a-886f-17a8">
@@ -1062,5 +1063,6 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Chaos Auxiliaries Rules" hidden="false" id="f449-f958-9594-f997" type="selectionEntry" targetId="108f-cade-6652-dabc"/>
+    <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="b2a4-76bc-531d-4b48" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
   </entryLinks>
 </catalogue>

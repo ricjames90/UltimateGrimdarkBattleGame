@@ -3,6 +3,7 @@
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Imperial Guard" id="32e8-030d-86a6-7a02" targetId="17fb-98ca-42e0-2e4c"/>
     <catalogueLink type="catalogue" name="Codex Imperial Auxiliaries" id="70e4-8519-bdab-d61e" targetId="f62c-2cae-6827-39d5"/>
+    <catalogueLink type="catalogue" name="Grand Strategies And Victory Points" id="c366-5633-7559-bb79" targetId="b558-be0d-6e5e-af47"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Vostroyan Firstborn Guardsmen" hidden="false" id="6b02-d900-5903-f622" type="selectionEntry" targetId="23e8-cf10-1263-bb76">
@@ -384,5 +385,6 @@
         <categoryLink targetId="a770-8ecf-ed65-e419" id="fcd8-3061-6da5-a022" primary="true" name="SUPER HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="05f9-dade-c31c-5ea4" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
   </entryLinks>
 </catalogue>

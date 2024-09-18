@@ -1236,9 +1236,11 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="61dd-35a2-72ad-c9d1" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Eldar" id="a6b8-fc79-dd10-4cf1" targetId="b14e-215b-f3ae-6da7"/>
     <catalogueLink type="catalogue" name="Codex Dark Eldar" id="b2cd-487d-9fa6-a437" targetId="ace7-37ed-76f2-f1f8"/>
+    <catalogueLink type="catalogue" name="Grand Strategies And Victory Points" id="5cc8-6720-11e8-cb78" targetId="b558-be0d-6e5e-af47"/>
   </catalogueLinks>
 </catalogue>

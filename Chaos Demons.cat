@@ -244,9 +244,11 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Chaos Auxiliaries Rules" hidden="false" id="4123-0e1e-1f02-ccec" type="selectionEntry" targetId="108f-cade-6652-dabc"/>
+    <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="d75a-4f00-21a6-b038" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Chaos Demons" id="e506-b98b-2e84-c228" targetId="d320-960f-c386-889"/>
     <catalogueLink type="catalogue" name="Codex Chaos Auxiliaries" id="752d-400b-2942-0604" targetId="752f-e21f-876c-9b76"/>
+    <catalogueLink type="catalogue" name="Grand Strategies And Victory Points" id="df9c-6a0e-b142-21b3" targetId="b558-be0d-6e5e-af47"/>
   </catalogueLinks>
 </catalogue>

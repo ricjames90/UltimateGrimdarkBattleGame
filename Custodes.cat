@@ -3,6 +3,7 @@
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Custodes" id="f24d-5e95-e294-6ebd" targetId="1e79-3399-754d-7000"/>
     <catalogueLink type="catalogue" name="Codex Imperial Auxiliaries" id="a30b-d7b5-86b1-da2f" targetId="f62c-2cae-6827-39d5"/>
+    <catalogueLink type="catalogue" name="Grand Strategies And Victory Points" id="a6ca-99f6-9419-fde8" targetId="b558-be0d-6e5e-af47"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Custodes Codex Rules" hidden="false" id="cca0-43dc-734e-3cb3" type="selectionEntry" targetId="f69f-c536-56c7-f7cc"/>
@@ -162,5 +163,6 @@
         <categoryLink targetId="a770-8ecf-ed65-e419" id="9f74-6b65-ef0a-faad" primary="true" name="SUPER HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="542d-50e7-4a53-6b68" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
   </entryLinks>
 </catalogue>

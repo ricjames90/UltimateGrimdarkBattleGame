@@ -52,6 +52,7 @@
   </publications>
   <costTypes>
     <costType name="Pts" id="Points" defaultCostLimit="0"/>
+    <costType name="VP" id="Victory Points" defaultCostLimit="-1"/>
   </costTypes>
   <profileTypes>
     <profileType name="Special Rules" id="8c82-b15b-36bc-df95" hidden="false">

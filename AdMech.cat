@@ -3,6 +3,7 @@
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex AdMech" id="7b9c-ef0d-8a61-1d43" targetId="b51e-967c-4d65-301a"/>
     <catalogueLink type="catalogue" name="Codex Imperial Auxiliaries" id="d49f-c787-e56d-687d" targetId="f62c-2cae-6827-39d5"/>
+    <catalogueLink type="catalogue" name="Grand Strategies And Victory Points" id="83d2-2b6b-a6f9-96de" targetId="b558-be0d-6e5e-af47"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="AdMech Codex Rules" hidden="false" id="94e1-c13a-cdfc-6f88" type="selectionEntry" targetId="24be-6c32-184d-1145"/>
@@ -238,5 +239,6 @@
         <categoryLink targetId="a770-8ecf-ed65-e419" id="245c-fd92-55aa-d74e" primary="true" name="SUPER HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="b462-4329-2312-a683" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
   </entryLinks>
 </catalogue>

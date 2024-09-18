@@ -17,7 +17,7 @@ Effect 2: You can reroll failed unmodified Armor Save or Invulnerable Save roles
 Effect 3: The effect of „MgNa“ Weapons Rule is triggered on an unmodified role of 5+ instead of 6+.</description>
     </rule>
     <rule name="Void Armor" id="0664-3d41-e284-4182" hidden="false">
-      <description>Wound Rolls of 1-2 made against Leagues Of Votann Infantry models always fail. Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Space Marine Infantry unit.</description>
+      <description>Wound Rolls of 1-2 made against Leagues Of Votann Infantry models always fail. Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Leagues Of Votann Infantry unit.</description>
     </rule>
     <rule name="HntR Weapons" id="13b5-5784-f972-a120" hidden="false">
       <description>Weapons with the Weapons Keyword „HntR“ double the number of attacks when making ranged attacks within half of their maximum weapons range.</description>
@@ -1634,7 +1634,7 @@ The Sagitaur can not transport models with „Einhyr“ or „Hearthguard“ in 
       <profiles>
         <profile name="Hernkyn Pioneers" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="0e0c-1798-bc95-ebd8">
           <characteristics>
-            <characteristic name="M" typeId="adff-38e4-108c-b07c">0</characteristic>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">9</characteristic>
             <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
             <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
             <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
@@ -2844,7 +2844,7 @@ The Sagitaur can not transport models with „Einhyr“ or „Hearthguard“ in 
       <profiles>
         <profile name="The Forge Master" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="07bf-bd2c-116b-2912">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Brokhyr Iron Master Only. The „Iron Master Craftmansship“ Rule returns D6+3 lost wounds (plus E-COG Bonus) instead of just D6. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Brokhyr Iron Master Only. The „Iron Master Craftmansship“ Rule returns D6+3 lost wounds (plus E-COG Bonus) instead of just D6.</characteristic>
           </characteristics>
         </profile>
       </profiles>

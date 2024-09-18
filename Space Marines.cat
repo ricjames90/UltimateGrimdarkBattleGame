@@ -860,9 +860,11 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="c851-bb4a-5de8-122a" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Space Marines" id="1a54-9cc0-6596-93c6" targetId="b9aa-5902-f97d-9cd5"/>
     <catalogueLink type="catalogue" name="Codex Imperial Auxiliaries" id="796d-f9ab-0ff1-153e" targetId="f62c-2cae-6827-39d5"/>
+    <catalogueLink type="catalogue" name="Grand Strategies And Victory Points" id="e5a0-adcd-7e7b-2b3d" targetId="b558-be0d-6e5e-af47"/>
   </catalogueLinks>
 </catalogue>

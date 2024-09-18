@@ -269,9 +269,11 @@
         <categoryLink targetId="a770-8ecf-ed65-e419" id="fc87-d8ae-e1e1-47d6" primary="true" name="SUPER HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="eea6-99d3-415a-3b85" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Sororitas" id="d451-9f4d-ef1e-6120" targetId="dac8-b6f8-45b3-1d59"/>
     <catalogueLink type="catalogue" name="Codex Imperial Auxiliaries" id="b4e4-1153-cfcd-5b68" targetId="f62c-2cae-6827-39d5"/>
+    <catalogueLink type="catalogue" name="Grand Strategies And Victory Points" id="8546-84b1-446b-33cc" targetId="b558-be0d-6e5e-af47"/>
   </catalogueLinks>
 </catalogue>

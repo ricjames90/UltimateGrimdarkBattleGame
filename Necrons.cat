@@ -2,6 +2,7 @@
 <catalogue library="false" id="43fa-e154-e092-40f4" name="Necrons" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Necrons" id="88e3-5ed8-4bdd-d229" targetId="6e13-4402-237c-51c2"/>
+    <catalogueLink type="catalogue" name="Grand Strategies And Victory Points" id="b4a7-fa30-23c5-8794" targetId="b558-be0d-6e5e-af47"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Warriors" hidden="false" id="2b70-509c-6231-02af" type="selectionEntry" targetId="99e3-4e21-cf26-3506">
@@ -266,5 +267,6 @@
         <categoryLink targetId="2357-54fe-ef95-53ed" id="d703-c3ce-e9c6-f51d" primary="true" name="HERO"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="47af-5a57-ded3-f772" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
   </entryLinks>
 </catalogue>

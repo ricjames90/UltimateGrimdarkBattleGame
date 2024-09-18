@@ -2,6 +2,7 @@
 <catalogue library="false" id="e95-cda-7d51-cf14" name="Leagues Of Votann" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Leagues Of Votann" id="d7b4-3a99-0229-930b" targetId="6c56-7d9d-d6c8-38b8"/>
+    <catalogueLink type="catalogue" name="Grand Strategies And Victory Points" id="dae6-db15-1e2a-eee3" targetId="b558-be0d-6e5e-af47"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Leagues Of Votann Codex Rules" hidden="false" id="7e58-f42e-a2eb-2c33" type="selectionEntry" targetId="7d02-b2d8-c7e9-001a"/>
@@ -66,5 +67,6 @@
         <categoryLink targetId="2357-54fe-ef95-53ed" id="7453-b261-f110-0cef" primary="true" name="HERO"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="9c57-1f72-bcda-5f48" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
   </entryLinks>
 </catalogue>

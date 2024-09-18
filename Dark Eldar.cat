@@ -146,9 +146,11 @@
         <categoryLink targetId="f1fb-8972-b52f-8855" id="aada-91a8-bb46-d05e" primary="true" name="ELITE"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="fc73-b38d-f6de-4037" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Dark Eldar" id="1dc3-00de-a78a-2d89" targetId="ace7-37ed-76f2-f1f8"/>
     <catalogueLink type="catalogue" name="Codex Eldar" id="469a-8e28-207f-0f1a" targetId="b14e-215b-f3ae-6da7"/>
+    <catalogueLink type="catalogue" name="Grand Strategies And Victory Points" id="6e9d-55ee-8525-f73d" targetId="b558-be0d-6e5e-af47"/>
   </catalogueLinks>
 </catalogue>
