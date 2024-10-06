@@ -16016,29 +16016,21 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <selectionEntryGroups>
                 <selectionEntryGroup name="Left Arm" id="f9e4-85eb-f5dc-5840" hidden="false">
                   <entryLinks>
-                    <entryLink import="true" name="Dreadnought Powerfist w/Storm Bolter" hidden="false" id="5d84-71a7-2762-0a94" type="selectionEntry" targetId="1389-db30-ab17-9df8"/>
-                    <entryLink import="true" name="Dreadnought Powerfist w/Heavy Flamer" hidden="false" id="1a72-d6cc-3d8f-6e45" type="selectionEntry" targetId="9b1f-3b49-212a-dc48">
-                      <costs>
-                        <cost name="Pts" typeId="Points" value="10"/>
-                      </costs>
-                    </entryLink>
+                    <entryLink import="true" name="Dreadnought Powerfist w/Storm Bolter" hidden="false" id="2dcd-23c7-bbe5-8c2e" type="selectionEntry" targetId="e713-b800-aa2d-cd85"/>
+                    <entryLink import="true" name="Dreadnought Powerfist w/Heavy Flamer" hidden="false" id="dbfc-c4be-1c37-a955" type="selectionEntry" targetId="87c1-d642-5b56-3915"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0576-e99a-f917-66c0" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70e6-387a-88db-452b" includeChildSelections="false"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="5d84-71a7-2762-0a94" field="defaultSelectionEntryId"/>
+                    <modifier type="set" value="2dcd-23c7-bbe5-8c2e" field="defaultSelectionEntryId"/>
                   </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Right Arm" id="244c-2521-75b1-5ab4" hidden="false">
                   <entryLinks>
-                    <entryLink import="true" name="Dreadnought Powerfist w/Heavy Flamer" hidden="false" id="8806-2ba7-fc99-314f" type="selectionEntry" targetId="9b1f-3b49-212a-dc48"/>
-                    <entryLink import="true" name="Dreadnought Powerfist w/Melta Gun" hidden="false" id="24cb-7697-65b6-4af9" type="selectionEntry" targetId="4e1b-3b74-3852-28d0">
-                      <costs>
-                        <cost name="Pts" typeId="Points" value="5"/>
-                      </costs>
-                    </entryLink>
+                    <entryLink import="true" name="Dreadnought Powerfist w/Heavy Flamer" hidden="false" id="55de-e7a4-5b64-d2bd" type="selectionEntry" targetId="87c1-d642-5b56-3915"/>
+                    <entryLink import="true" name="Dreadnought Powerfist w/Melta Gun" hidden="false" id="7dc0-f0b5-fa0e-b160" type="selectionEntry" targetId="062a-8912-1085-6889"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c118-70e8-8f72-9c47" includeChildSelections="false"/>
@@ -17840,7 +17832,7 @@ Replace both the ranged and melee weapons profiles for the Vigil Spear with the 
       <profiles>
         <profile name="Osseus Key" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="dc6b-87fe-c8df-c013">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Watchmaster Only. The unit the Watchmaster is attached to is considered to benefit from all three Deathwatch Subfaction Special Rule, including the Watchmaster. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Watchmaster Only. The unit the Watchmaster is attached to is considered to benefit from all three Deathwatch Subfaction Special Rule, including the Watchmaster.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18040,6 +18032,90 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dreadnought Powerfist w/Heavy Flamer" hidden="false" id="87c1-d642-5b56-3915">
+      <profiles>
+        <profile name="Dreadnought Powerfist" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="9eed-5408-35f6-8f99">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">7</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3+2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heavy Flamer" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="9498-821a-22f1-b51d">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">*</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">To,IgC</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="daf2-8280-9329-fa75"/>
+      </constraints>
+      <comment>Death Company Dread</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dreadnought Powerfist w/Melta Gun" hidden="false" id="062a-8912-1085-6889">
+      <profiles>
+        <profile name="Dreadnought Powerfist" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="09c9-01ed-2b55-a0b7">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">7</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3+2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Melta Gun" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="6d60-c767-576a-e988">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,Tb(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3d5-2303-2108-1b51"/>
+      </constraints>
+      <comment>Death Company Dread</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dreadnought Powerfist w/Storm Bolter" hidden="false" id="e713-b800-aa2d-cd85">
+      <profiles>
+        <profile name="Dreadnought Powerfist" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="2d7f-8562-0f57-9880">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">7</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3+2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Storm Bolter" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="0bb5-acad-c4b9-5bf7">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3d3-4d65-8a63-0535"/>
+      </constraints>
+      <comment>Death Company Dread</comment>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
