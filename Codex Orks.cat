@@ -477,7 +477,11 @@
                 <cost name="Pts" typeId="Points" value="15"/>
               </costs>
               <entryLinks>
-                <entryLink import="true" name="Slugga and Choppa" hidden="false" id="8e5e-f892-7015-f55a" type="selectionEntry" targetId="2074-b7d7-27f6-d1c3" collective="true"/>
+                <entryLink import="true" name="Slugga and Choppa" hidden="false" id="8e5e-f892-7015-f55a" type="selectionEntry" targetId="2074-b7d7-27f6-d1c3" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f684-e7b4-49a7-0ec7"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="8" field="selections" scope="parent" shared="true" id="d3a4-0820-c420-b76d" includeChildSelections="false"/>

@@ -1064,5 +1064,15 @@
     </entryLink>
     <entryLink import="true" name="Chaos Auxiliaries Rules" hidden="false" id="f449-f958-9594-f997" type="selectionEntry" targetId="108f-cade-6652-dabc"/>
     <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="b2a4-76bc-531d-4b48" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
+    <entryLink import="true" name="Hell Blade" hidden="false" id="9f12-0cca-81c0-1473" type="selectionEntry" targetId="1d1f-04c6-aac0-f075">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="b9f8-d8b2-87cf-c47f" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hell Talon" hidden="false" id="57ad-a2eb-ea04-7a12" type="selectionEntry" targetId="561f-5552-a94d-822c">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="580a-68a3-b546-15c7" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

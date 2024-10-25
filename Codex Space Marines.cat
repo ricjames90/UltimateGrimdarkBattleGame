@@ -18117,6 +18117,20 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       </constraints>
       <comment>Death Company Dread</comment>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin Hell Blade Las Cannon" hidden="false" id="123e-a11d-193c-c0c7">
+      <profiles>
+        <profile name="Twin Hell Blade Las Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="6802-5baf-afaf-b9d5">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">18</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Space Marine" hidden="false" id="ea13-acb4-5747-5a3e" typeId="a545-37bd-31e3-a90c" typeName="Unit">
@@ -18139,7 +18153,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
         <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
         <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
-        <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5+</characteristic>
+        <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
         <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
         <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
         <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>

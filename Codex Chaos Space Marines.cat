@@ -88,6 +88,8 @@
     </categoryEntry>
     <categoryEntry name="Noise Marines" id="7481-5184-a5c9-c949" hidden="false"/>
     <categoryEntry name="Obliterator Armor" id="68c9-9b88-373d-b381" hidden="false"/>
+    <categoryEntry name="Hell Blade" id="1455-3084-29d6-72fb" hidden="false"/>
+    <categoryEntry name="Hell Talon" id="e820-6b9b-0aab-d174" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Mark Of Chaos Undivided" hidden="false" id="6ac7-43ba-d100-ddf9">
@@ -5061,7 +5063,16 @@
       <profiles>
         <profile name="Legion Basilisk" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="5fe7-c0a8-b2e8-b467">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f"/>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">11</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">18</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14715,6 +14726,248 @@ Damage suffered by this weapon will not be lost against units with more than one
         <categoryLink targetId="f887-85e4-37bb-fe59" id="3215-4b7c-71e5-1b85" primary="false" name="Power Armor"/>
         <categoryLink targetId="966d-58e2-401e-9ae5" id="02fc-aa89-4abd-8ca7" primary="false" name="Foul Blightspawn"/>
       </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hell Blade" hidden="false" id="1d1f-04c6-aac0-f075">
+      <costs>
+        <cost name="Pts" typeId="Points" value="320"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Hell Blade" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="4b65-beb6-c674-9e8f">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">20</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">22</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="3d87-d41f-a3f3-c05d" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="d124-8c42-7ce8-e37a" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="f604-c4de-c98f-c850" primary="false" name="Fly"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="ba4f-ff8e-4e5f-20d7" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="50e7-7d0b-d40b-288c" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="1455-3084-29d6-72fb" id="3a6d-6a40-dadf-53fa" primary="false" name="Hell Blade"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="3593-7429-1880-9c70" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Hover" id="ed8c-1bcc-db48-51bd" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+        <infoLink name="Deadly Demise(6/D6)" id="9ce5-32f2-350f-c982" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Anti Aerial Fire" id="2fd2-a749-3839-8ac3" hidden="false" type="rule" targetId="4f28-8647-b26d-6b1d"/>
+        <infoLink name="Invulnerable Save(5+)" id="3a43-78de-7a0f-246a" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Primary Weapon" id="5301-b8f6-d741-caef" hidden="false" defaultSelectionEntryId="1984-56ab-6856-a859">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="04fd-0146-bfde-6f6f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba0a-13d7-d5c1-f058" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Twin Hell Blade Las Cannon" hidden="false" id="1984-56ab-6856-a859" type="selectionEntry" targetId="123e-a11d-193c-c0c7">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ebb-9d93-a821-af26" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Twin Hellstorm Cannon" hidden="false" id="d164-e725-0b6e-4320" type="selectionEntry" targetId="a3c1-0889-ae0f-7b40">
+              <costs>
+                <cost name="Pts" typeId="Points" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0598-fc12-7081-e471" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin Hellstorm Cannon" hidden="false" id="a3c1-0889-ae0f-7b40">
+      <profiles>
+        <profile name="Twin Hellstorm Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="2241-6f19-3318-8224">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">8</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Mal</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Twin Hellstorm Cannon" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="f34d-3530-7aa0-83c1">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">For every unmodified Wound Roll of 6, made by attacks with this weapon, the score 2 addition Mortal Wounds.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hell Talon" hidden="false" id="561f-5552-a94d-822c">
+      <costs>
+        <cost name="Pts" typeId="Points" value="400"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Hell Talon" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="696f-93e0-d142-ba2c">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">20</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">13</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">26</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="e80a-5fbe-b7ec-7d91" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="8b95-9745-e34c-de98" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="3b49-2495-f9b4-f6ea" primary="false" name="Fly"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="9237-fdd2-5bcb-abb3" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="c098-4958-5a18-80b4" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="e820-6b9b-0aab-d174" id="6533-0f05-4aba-0922" primary="false" name="Hell Talon"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="ec57-7f7f-6edf-1736" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
+        <entryLink import="true" name="Twin Hell Blade Las Cannon" hidden="false" id="cfdb-c83d-4a12-b58d" type="selectionEntry" targetId="123e-a11d-193c-c0c7" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="230a-0489-619a-c07d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6895-05c8-5a49-e233" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Hover" id="c7fe-5c8f-5eae-a83c" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+        <infoLink name="Deadly Demise(6/D6)" id="f0d5-c75c-b916-e8a3" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Anti Aerial Fire" id="05a9-f72f-619c-da4f" hidden="false" type="rule" targetId="4f28-8647-b26d-6b1d"/>
+        <infoLink name="Invulnerable Save(5+)" id="9a61-5ea5-8377-d667" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Secondary Weapon" id="ba82-8067-69ba-0d00" hidden="false" defaultSelectionEntryId="e2a2-c6fc-2e4e-cfd5">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6da6-b3ec-f63d-8faf" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcd8-c6f6-fdd1-a85c" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Twin Hellstorm Cannon" hidden="false" id="ae1b-195d-6e14-4d0e" type="selectionEntry" targetId="a3c1-0889-ae0f-7b40">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b65-90e2-852a-2fc5" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Hell Talon Havoc Launcher" hidden="false" id="e2a2-c6fc-2e4e-cfd5" type="selectionEntry" targetId="8c74-ebaf-572c-9136">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8e5-6f17-d021-2fac" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Bombs" id="d17a-344b-ba00-4250" hidden="false" defaultSelectionEntryId="7f31-2cd4-1148-563b">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb5b-1a6d-fa44-70d9" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1dca-3b49-1991-bdec" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Baletalon Warp Charges" hidden="false" id="3292-1faa-258e-5896" type="selectionEntry" targetId="6337-b3e5-ba06-623c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8735-e00c-9964-cea2" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Pyrax Incendiary Bombs" hidden="false" id="7f31-2cd4-1148-563b" type="selectionEntry" targetId="8071-f1b4-d945-c44e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3481-9f0c-492b-1e62" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Warp Pulse Bombs" hidden="false" id="71a9-956b-0b57-7474" type="selectionEntry" targetId="f895-8613-4417-cf4a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cac-7e88-d8ee-2d74" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="45"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hell Talon Havoc Launcher" hidden="false" id="8c74-ebaf-572c-9136">
+      <profiles>
+        <profile name="Hell Talon Havoc Launcher - Frag" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="61fd-ca81-141d-f68c">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(5)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hell Talon Havoc Launcher - Krak" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="6923-e8f3-c426-18eb">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Baletalon Warp Charges" hidden="false" id="6337-b3e5-ba06-623c">
+      <profiles>
+        <profile name="Baletalon Warp Charges" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="e790-73ad-bdf6-816f">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Once per Game, after having moved, pick one enemy Monster or Vehicle model (Including Super Heavy Support Units) this model moved over. Roll a D6 on a 2+ execute the following rules: Roll a single D6 for every remaining LP of the enemy unit you selected as target of this rule, for every 4+, this model suffers a single Mortal Wound. These Mortal Wounds can NOT be reduced to 0 by the „Impervious To Injuries“ Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pyrax Incendiary Bombs" hidden="false" id="8071-f1b4-d945-c44e">
+      <profiles>
+        <profile name="Pyrax Incendiary Bombs" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="5025-0a5a-7342-82be">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">3</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">IgC,Ex(10)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warp Pulse Bombs" hidden="false" id="f895-8613-4417-cf4a">
+      <profiles>
+        <profile name="Warp Pulse Bombs" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="3622-9b5a-7402-7983">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">D6+3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
