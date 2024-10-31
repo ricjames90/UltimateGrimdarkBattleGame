@@ -233,5 +233,15 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="036c-bdb5-89b9-e0c3" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
+    <entryLink import="true" name="Hiveguard" hidden="false" id="07a8-730f-0982-2aa3" type="selectionEntry" targetId="fd12-1181-26e0-c14e">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="424f-24ad-63d8-d7d9" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tyrantguard" hidden="false" id="64b3-f1c6-0f4c-6ef9" type="selectionEntry" targetId="7afc-e949-2be6-f764">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="6d12-56de-64d9-7e79" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

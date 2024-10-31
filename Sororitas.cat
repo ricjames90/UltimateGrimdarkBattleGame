@@ -270,6 +270,46 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="eea6-99d3-415a-3b85" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
+    <entryLink import="true" name="Imperial Auxiliaries Servitors" hidden="false" id="32ec-eca4-7ea1-f69a" type="selectionEntry" targetId="9e04-53e5-2eb7-ca93">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="fdab-cfec-c077-421a" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Callidus Assassin" hidden="false" id="7475-42f8-7dca-6f71" type="selectionEntry" targetId="5302-7771-af4b-7a63">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="177c-2c17-4f5f-00bd" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Culexus Assassin" hidden="false" id="41cf-794e-67c8-9128" type="selectionEntry" targetId="2e4d-2b61-4ebe-5c48">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="f77e-43a0-36d5-2513" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Eversor Assassin" hidden="false" id="e435-77a4-c81a-fddc" type="selectionEntry" targetId="e558-3ba4-8da1-876e">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="b9ec-775c-0844-4c4f" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Vindicare Assassin" hidden="false" id="85a9-c8df-2309-29c7" type="selectionEntry" targetId="5994-87f1-843e-a8bd">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="30da-700a-7377-00ea" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Adeptus Arbites Exaction Squad" hidden="false" id="ed17-bbf8-c5e3-436f" type="selectionEntry" targetId="575b-3911-943a-f6b0">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="3624-35c3-87bf-76c4" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Navy Breachers" hidden="false" id="5e2c-5d40-1fb0-a636" type="selectionEntry" targetId="69a2-cec2-13c5-c5ab">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="4548-294e-864b-e1e5" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Legion Of The Damned" hidden="false" id="4a81-fd40-eef5-4286" type="selectionEntry" targetId="8dbe-fee5-3ffe-04b9">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="84ea-5024-dd4f-9486" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Sororitas" id="d451-9f4d-ef1e-6120" targetId="dac8-b6f8-45b3-1d59"/>

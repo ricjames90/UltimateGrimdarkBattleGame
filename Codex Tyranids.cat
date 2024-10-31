@@ -2455,7 +2455,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           <entryLinks>
             <entryLink import="true" name="Crushing Claws" hidden="false" id="1c1e-ccb9-55c6-3566" type="selectionEntry" targetId="03f0-e956-d3e5-8653">
               <costs>
-                <cost name="Pts" typeId="Points" value="5"/>
+                <cost name="Pts" typeId="Points" value="15"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Scything Talons" hidden="false" id="d33f-27b6-b735-92e2" type="selectionEntry" targetId="f3dc-501b-8bcc-c313"/>
@@ -5378,6 +5378,250 @@ change the damage characteristic of the attack to D6+2.</characteristic>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hiveguard" hidden="false" id="fd12-1181-26e0-c14e">
+      <profiles>
+        <profile name="Hiveguard" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="cb7d-98e9-429b-2665">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Protection Protocoll" id="22d2-660c-9d7a-1a52" hidden="false" type="rule" targetId="cedc-53ad-feae-dbbd"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hiveguardians" id="a5d1-44a1-4dce-8c1c" hidden="false">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="d4ad-0c12-703e-55d4" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f745-fc22-6a19-c343" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Hiveguardian" hidden="false" id="23d4-12dd-7ed6-39f8">
+              <costs>
+                <cost name="Pts" typeId="Points" value="45"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="2599-53a7-5361-02da" includeChildSelections="false"/>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="8f98-2898-c619-edba" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Claws" hidden="false" id="9dd2-acc7-9680-5823" type="selectionEntry" targetId="5d28-4871-183e-a526"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Primary Weapon" id="1dea-6ca3-db9c-1616" hidden="false" defaultSelectionEntryId="f6ae-46cc-1f46-b973">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1ae-d809-8a69-313f" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49b1-456a-ae7b-57c1" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Shock Cannon" hidden="false" id="f6ae-46cc-1f46-b973" type="selectionEntry" targetId="1400-586a-757d-cb6a">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d800-d856-ad9f-1768" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Impaler Cannon" hidden="false" id="1acf-c921-c780-6fff" type="selectionEntry" targetId="798f-b2ca-989f-5f21">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1332-c5b6-5f01-8759" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="f06e-15db-ba08-23f2" primary="false" name="Infantry"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="6d15-e213-e1b4-755d" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="e926-7697-48ba-75f3" id="10b4-54be-cb89-2db3" primary="false" name="SUPER FACTION: Tyranids"/>
+        <categoryLink targetId="4da3-c252-e57e-461f" id="5ef2-d50f-5fc6-4c5d" primary="false" name="FACTION: Tyranids"/>
+        <categoryLink targetId="ea9c-729e-9317-55bb" id="08e6-f0df-9df4-9a7e" primary="false" name="Synapse"/>
+        <categoryLink targetId="53ba-acfa-9e45-92b4" id="de33-cfb5-56da-5a8e" primary="false" name="Hiveguard"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Claws" hidden="false" id="5d28-4871-183e-a526" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="752c-1566-25bf-a150" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2944-3f38-2955-d404" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Claws" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="9149-deb0-58a4-45b7">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>6 Attacks</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shock Cannon" hidden="false" id="1400-586a-757d-cb6a">
+      <profiles>
+        <profile name="Shock Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="78bc-f647-24d9-e42d">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">D6+2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">10</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Impaler Cannon" hidden="false" id="798f-b2ca-989f-5f21">
+      <profiles>
+        <profile name="Impaler Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c8f0-c544-39f4-a9b5">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">ArF</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tyrantguard" hidden="false" id="7afc-e949-2be6-f764">
+      <profiles>
+        <profile name="Tyrantguard" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="3a8d-ed4c-a70e-f2e7">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">6+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">9</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Protection Protocoll" id="185a-911a-62ef-3d19" hidden="false" type="rule" targetId="cedc-53ad-feae-dbbd"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Tyrantguardians" id="e11e-a291-5374-30bb" hidden="false">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="e2d8-8fd4-f421-caff" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="c9a6-e31b-2ee5-e9ee" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Tyrantguardian" hidden="false" id="5f0e-ad05-3570-3570">
+              <costs>
+                <cost name="Pts" typeId="Points" value="45"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="5fa4-a977-10c8-2c07" includeChildSelections="false"/>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="1e20-da93-c6a4-c92b" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Primary Weapons" id="53bb-9622-a21d-47f8" hidden="false" defaultSelectionEntryId="9df0-6c79-e4cc-3397">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f26-35b3-85e8-e938" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86f6-0b73-d8a7-1f46" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Bonesword And Lashed Whip" hidden="false" id="9df0-6c79-e4cc-3397" type="selectionEntry" targetId="6864-705a-4b99-5f3a"/>
+                    <entryLink import="true" name="Crushing Claws" hidden="false" id="96f9-033c-05ea-6e30" type="selectionEntry" targetId="142f-1e0c-9e59-b8b4">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Scything Talons" hidden="false" id="6902-e53a-ae28-3c0a" type="selectionEntry" targetId="14b6-ee3a-5dc0-32ec"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="5f73-52aa-bcc6-8d51" primary="false" name="Infantry"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="6374-59db-037e-87ef" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="e926-7697-48ba-75f3" id="0712-b99f-07ad-f422" primary="false" name="SUPER FACTION: Tyranids"/>
+        <categoryLink targetId="4da3-c252-e57e-461f" id="602b-3d6b-aa25-9cb1" primary="false" name="FACTION: Tyranids"/>
+        <categoryLink targetId="ea9c-729e-9317-55bb" id="7a89-7734-be3c-9ca9" primary="false" name="Synapse"/>
+        <categoryLink targetId="4d34-dee7-b3f1-6a71" id="e6fb-7df7-b547-8d48" primary="false" name="Tyrantguard"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bonesword And Lashed Whip" hidden="false" id="6864-705a-4b99-5f3a">
+      <profiles>
+        <profile name="Bonesword And Lashed Whip" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="fbf4-7f84-65bc-d35c">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bonesword And Lashed Whip" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="b5db-b41e-be77-d221">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Models with Lash Whips reroll failed melee hit rolls of 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fdd-0b2c-125c-b376"/>
+      </constraints>
+      <comment>Tyrantguard</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Crushing Claws" hidden="false" id="142f-1e0c-9e59-b8b4">
+      <comment>Tyrantguard</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="060f-cdd5-8a59-3641" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Crushing Claws" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="69ba-fc8b-6941-4d93">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">- 1 Ini</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="14b6-ee3a-5dc0-32ec">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f634-2d20-63e4-ac1d" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Scything Talons" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="95d3-580c-f1d6-d40a">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">22</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>Tyrantguard</comment>
+    </selectionEntry>
   </sharedSelectionEntries>
   <rules>
     <rule name="Synaptic Link" id="b61b-68d4-d797-68ac" hidden="false">
@@ -5514,6 +5758,9 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
     </rule>
     <rule name="Ripper Parasites" id="cb6e-37df-d5eb-8c95" hidden="false">
       <description>After this unit made all its attacks(both in your and your opponents turns fight phases), roll a single D6 for every wound you scored. For every roll of 4+, this unit additionally suffers a single Mortal Wound, and for a roll of 6 it is D3 Mortal Wounds instead. Also, for every 3 Mortal Wounds caused by this rule, you add a unit of a single model of „Ripperswarms“ to the field within 6&apos;&apos; of any Expiravis Parasites model. If the model can&apos;t be placed, it is considered destroyed. This unit can also be placed in engagement range with enemy models, as long as it is wholly within 6&apos;&apos; of any Expiravis Parasites model from the unit that it caused to generate.</description>
+    </rule>
+    <rule name="Protection Protocoll" id="cedc-53ad-feae-dbbd" hidden="false">
+      <description>A single Hive Tyrant model can be attached to this unit. An attach Hive Tyrant can not be selected as the target of any ranged attacks with the exception of weapons with the „Precision“ Special Rule. </description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>
@@ -5761,7 +6008,7 @@ Monster Type Units ad +1M&apos;&apos; to their stat and also add +1 to their cha
     </profile>
     <profile name="Hidden In Every Crevice" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="dc36-8192-ac0c-349e">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Hive Fleet Jormungandr Infantry unit that is further than 12&apos;&apos; away from an enemy unit that has selected an eligible unit as the target of ranged attack is considered to benefit from cover, no Special Rule can cancel this rule. Also, any Hive Fleet Jormungandr Infantry Units can „Go Into Hiding“ in open field and can never be uncovered. They can only be selected as a target for charges during your opponents Fight Phase. Monster-Units with 20LP and below gain the „Stealth“ Special Rule. Monster units do not benefit from the „Guards Of Behemoths“ Tyranid Warrior Special Rule if you start the game.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Hive Fleet Jormungandr Infantry unit that is further than 12&apos;&apos; away from an enemy unit that has selected an eligible unit as the target of ranged attack is considered to benefit from cover, no Special Rule can cancel this rule. Also, any Hive Fleet Jormungandr Infantry Unit that is eligible to make use of the „Go Into Hiding“ special rule, can do so in the open field and can never be uncovered. In case that infantry unit is a „-Gant“ unit with any attached units that are NOT infantry-type units, these models can be selected as the target of ranged attacks unless they themselves are wholly within the perimeters of a terrain feature according to the regular „Go Into Hiding“ special rule. They can only be selected as a target for charges during your opponents Fight Phase. Monster-Units with 20LP and below gain the „Stealth“ Special Rule. Monster units do not benefit from the „Guards Of Behemoths“ Tyranid Warrior Special Rule if you start the game.</characteristic>
       </characteristics>
     </profile>
     <profile name="Out Of The Dark" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="ca8b-17cb-19ce-edfe">

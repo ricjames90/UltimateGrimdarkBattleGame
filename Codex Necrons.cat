@@ -2387,16 +2387,16 @@
       <profiles>
         <profile name="Lokhusta Destroyers" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="bf6c-cca2-3d3d-70df">
           <characteristics>
-            <characteristic name="M" typeId="adff-38e4-108c-b07c"/>
-            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88"/>
-            <characteristic name="WS" typeId="ba87-1f7-5679-198e"/>
-            <characteristic name="S" typeId="ab5f-556e-2-f3e4"/>
-            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8"/>
-            <characteristic name="T" typeId="8d7f-2fc2-c449-7537"/>
-            <characteristic name="PR" typeId="70ed-4074-1e94-a957"/>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b"/>
-            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1"/>
-            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8"/>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">9</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4717,7 +4717,7 @@
         </profile>
         <profile name="Starforged Harvester" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="621d-e83d-e215-27c2">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Señor Skorpekh only. Hyperphase Harvester Upgrade: </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Señor Skorpekh only. Hyperphase Harvester Upgrade:</characteristic>
           </characteristics>
         </profile>
       </profiles>

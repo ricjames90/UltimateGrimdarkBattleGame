@@ -90,6 +90,11 @@
     <categoryEntry name="Obliterator Armor" id="68c9-9b88-373d-b381" hidden="false"/>
     <categoryEntry name="Hell Blade" id="1455-3084-29d6-72fb" hidden="false"/>
     <categoryEntry name="Hell Talon" id="e820-6b9b-0aab-d174" hidden="false"/>
+    <categoryEntry name="Demon Progenitor" id="44d9-0242-8278-1450" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="811a-de8f-0442-6618" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Mark Of Chaos Undivided" hidden="false" id="6ac7-43ba-d100-ddf9">
@@ -14969,6 +14974,379 @@ Damage suffered by this weapon will not be lost against units with more than one
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Horace ASSended" hidden="false" id="e267-e3ba-569d-6ed7">
+      <profiles>
+        <profile name="Horace ASSended" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="fbe8-af22-04ee-c970">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">12</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">7</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">2+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">24</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Going Out With A Vengeance" id="7d4c-88df-2bda-cb5a" hidden="false" type="rule" targetId="c8ac-dc37-505e-a067"/>
+        <infoLink name="The Chosen One" id="95d3-795a-5866-ae4d" hidden="false" type="rule" targetId="f4ab-9d2c-958f-0041"/>
+        <infoLink name="Invulnerable Save(4+)" id="1cae-8e7b-98b7-688f" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Feel No Pain(5+)" id="0dec-5229-8ab4-575a" hidden="false" type="rule" targetId="fefa-ab9a-a874-42de"/>
+        <infoLink name="Deep Strike" id="6dee-b056-5861-ba7c" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="Deadly Demise(9/D6+3)" id="ced6-a3fb-e7e4-a949" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Psyker(2)" id="82b5-dfd5-6b43-3901" hidden="false" type="rule" targetId="943-26d8-d8fc-7f0a"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="42d3-64d1-b710-6f62" id="bf05-3ce0-45b7-6d08" primary="false" name="Monster"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="5a0f-b173-7f50-1471" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="84d1-9206-7513-0251" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="e0b9-90df-5e15-80f3" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="5787-93ab-9d5f-91f4" primary="false" name="Character"/>
+        <categoryLink targetId="c438-8072-20d6-2d19" id="79ac-410a-bcb4-3393" primary="false" name="Subfaction: Black Legion"/>
+        <categoryLink targetId="44d9-0242-8278-1450" id="b054-d7e0-2c40-dea9" primary="false" name="Demon Progenitor"/>
+        <categoryLink targetId="f554-f3f8-6036-8847" id="07b5-1293-cd18-0940" primary="false" name="Mark Of Chaos Undivided"/>
+        <categoryLink targetId="f62c-ac3d-c1d6-6306" id="5aef-29e1-8445-8677" primary="false" name="Mark Of Khorne"/>
+        <categoryLink targetId="81a2-d708-c36c-17be" id="c0f7-72ab-3656-6725" primary="false" name="Mark Of Tzeentch"/>
+        <categoryLink targetId="2099-72fb-a99c-3dfd" id="dfb8-a380-f201-d9c6" primary="false" name="Mark Of Nurgle"/>
+        <categoryLink targetId="f58c-0355-b35c-c7db" id="7f94-11b1-6644-19fe" primary="false" name="Mark Of Slaanesh"/>
+        <categoryLink targetId="14f-8da2-7b06-ecdb" id="9360-8e44-edcb-29d5" primary="false" name="Psyker"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Psychic Powers" id="fe95-c3d0-c51c-8dd8" hidden="false" sortIndex="1">
+          <constraints>
+            <constraint type="max" value="75" field="Points" scope="parent" shared="true" id="1943-74cd-268a-9799"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Universal Psychic Powers" hidden="false" id="bc8b-df02-5122-46e4" type="selectionEntryGroup" targetId="3f03-4dbd-e6c3-bb48"/>
+            <entryLink import="true" name="Chaos Space Marines Psychic Powers" hidden="false" id="334f-7afd-74fe-1f6e" type="selectionEntryGroup" targetId="d80f-c57b-e3c8-a6a0"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Warmaster Talon" hidden="false" id="9565-b5db-87d2-70e8" type="selectionEntry" targetId="4df5-3dec-3b4c-4cc4" collective="true" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d8e5-6a52-db26-c2fa" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85e6-c715-48f2-c7e6" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="World Breaker" hidden="false" id="fa52-0671-c243-897e" type="selectionEntry" targetId="224c-c113-dfe4-d3e0" collective="true" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="921a-6a4b-d7ff-d1dd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7acc-de9f-888f-f7a2" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="380"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warmaster Talon" hidden="false" id="4df5-3dec-3b4c-4cc4">
+      <profiles>
+        <profile name="Warmaster Talon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c6ab-bbd4-0bc0-4ed5">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">6</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,As,Ps</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Warmaster Talon" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="f23b-4f09-0962-41c8">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">20</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">MA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Ar,ExA</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="World Breaker" hidden="false" id="224c-c113-dfe4-d3e0">
+      <profiles>
+        <profile name="World Breaker" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="ebd7-991f-0f88-0db8">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+4</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Tre</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Uncle Festarion" hidden="false" id="a0de-51e5-ae4a-f44a">
+      <costs>
+        <cost name="Pts" typeId="Points" value="370"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="42d3-64d1-b710-6f62" id="4249-5526-7586-a7c3" primary="false" name="Monster"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="7855-c3fd-d5d7-e2f1" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="14f-8da2-7b06-ecdb" id="6ef4-c9f1-2835-2183" primary="false" name="Psyker"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="a119-561f-aeef-f443" primary="false" name="Fly"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="925e-5b12-3d28-50c1" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="c5c8-9238-d33b-6971" primary="false" name="Character"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="0cdf-b7b0-674e-8085" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="2099-72fb-a99c-3dfd" id="f9e5-43bd-69a5-17f9" primary="false" name="Mark Of Nurgle"/>
+        <categoryLink targetId="eed9-4b0d-816e-bd6b" id="4783-bf68-056e-0341" primary="false" name="Subfaction: Death Guard"/>
+        <categoryLink targetId="44d9-0242-8278-1450" id="c283-b12e-741d-21eb" primary="false" name="Demon Progenitor"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Uncle Festarion" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="0115-04d4-0356-9bfe">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">10</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">1</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">28</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(9/D6+3)" id="9b3d-b45f-52ab-1ece" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Going Out With A Vengeance" id="34cf-51be-399d-50be" hidden="false" type="rule" targetId="c8ac-dc37-505e-a067"/>
+        <infoLink name="Invulnerable Save(4+)" id="b9d9-4fff-beed-26ac" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Psyker(2)" id="92f1-2879-6631-b64f" hidden="false" type="rule" targetId="943-26d8-d8fc-7f0a"/>
+        <infoLink name="The Lord Of The Seven" id="b851-224c-1f5f-48e1" hidden="false" type="rule" targetId="efa9-f59d-b3f1-dbdd"/>
+        <infoLink name="Impervious To Injuries(-1)" id="5b4b-dd7c-ae94-7e8e" hidden="false" type="rule" targetId="b0d5-df50-640b-c3d4"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="The Lantern" hidden="false" id="248f-2094-1913-6ff6" type="selectionEntry" targetId="53ac-b8fe-3753-f70f" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d05e-2aad-1a26-3fc5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b15-ee0b-7345-c184" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Silence" hidden="false" id="88f9-c873-0fcb-e246" type="selectionEntry" targetId="69a9-a2d1-ba39-bf5c" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a1c4-09a7-3d25-59ef" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73ee-e4a5-dfa9-4edf" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Psychic Powers" id="d366-998f-6679-ca55" hidden="false">
+          <constraints>
+            <constraint type="max" value="50" field="Points" scope="parent" shared="true" id="140b-37ea-0b1d-3e10"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Universal Psychic Powers" hidden="false" id="ad3a-8c3a-ed20-a7fb" type="selectionEntryGroup" targetId="3f03-4dbd-e6c3-bb48"/>
+            <entryLink import="true" name="Chaos Space Marines Psychic Powers" hidden="false" id="7cf4-d3a9-67b0-d613" type="selectionEntryGroup" targetId="d80f-c57b-e3c8-a6a0"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="The Lantern" hidden="false" id="53ac-b8fe-3753-f70f">
+      <profiles>
+        <profile name="The Lantern" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c922-6e8f-6b4f-2964">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">6</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Silence" hidden="false" id="69a9-a2d1-ba39-bf5c">
+      <comment>Mortarion Version</comment>
+      <profiles>
+        <profile name="Silence - Strike" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="5471-19ec-0e9e-f823">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+4</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Silence - Sweep" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="9314-f6a7-007a-da2b">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">21</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Angry Ron" hidden="false" id="3e06-3484-cfbd-ca9c">
+      <infoLinks>
+        <infoLink name="The Butchers Nails" id="3661-a5c8-7e51-29ac" hidden="false" type="rule" targetId="b22e-f8ed-219d-596e"/>
+        <infoLink name="Deadly Demise(9/D6+3)" id="2753-f32c-515b-118c" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Deep Strike" id="d6c5-566b-35f7-272a" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="Invulnerable Save(4+)" id="a722-9484-6e43-edb7" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Going Out With A Vengeance" id="09c2-eb96-9a6a-741c" hidden="false" type="rule" targetId="c8ac-dc37-505e-a067"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Angry Ron" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="12e9-5ad3-f3e6-85eb">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">12</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">16</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">13</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">2+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">30</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="42d3-64d1-b710-6f62" id="fedb-81a8-53b2-dfa5" primary="false" name="Monster"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="fbfc-8d6d-1bcb-fbee" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="c413-e1f5-5ab1-bb55" primary="false" name="Fly"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="f8e7-3691-488e-14d1" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="1dfc-34e8-3f60-5093" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="3502-0376-b4cf-ec4e" primary="false" name="Character"/>
+        <categoryLink targetId="1568-4a0d-c632-0d3e" id="f525-5325-1c54-56dd" primary="false" name="Subfaction: World Eaters"/>
+        <categoryLink targetId="f62c-ac3d-c1d6-6306" id="1e62-592c-7e02-05ff" primary="false" name="Mark Of Khorne"/>
+        <categoryLink targetId="44d9-0242-8278-1450" id="4af4-16b8-c94a-4b58" primary="false" name="Demon Progenitor"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Black Blade" hidden="false" id="0ad5-3883-b02d-0f66" type="selectionEntry" targetId="f9fa-0edd-697c-4e01" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f4e9-0798-06ff-d78a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f714-9373-e547-8462" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Gorefather" hidden="false" id="16b6-2003-477a-18d9" type="selectionEntry" targetId="a998-d848-9ea2-b1e5" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e67a-db3f-bd2f-dabe" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d732-2d35-4487-d907" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="380"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Black Blade" hidden="false" id="f9fa-0edd-697c-4e01">
+      <profiles>
+        <profile name="Black Blade" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="f384-39be-d8f2-0bc7">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">5</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gorefather" hidden="false" id="a998-d848-9ea2-b1e5">
+      <comment>Angron Version</comment>
+      <profiles>
+        <profile name="Gorefather" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="7ccf-59cc-7d44-b0fc">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">36</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mag Nuss" hidden="false" id="5f7d-ae2f-d403-74f9">
+      <costs>
+        <cost name="Pts" typeId="Points" value="280"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Deadly Demise(9/D6+3)" id="9865-1730-a4de-9628" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Deep Strike" id="3b74-1cb7-4b9b-7ad5" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="Going Out With A Vengeance" id="9c43-2783-c62b-6607" hidden="false" type="rule" targetId="c8ac-dc37-505e-a067"/>
+        <infoLink name="Psyker(5)" id="612d-3405-cb6e-7ece" hidden="false" type="rule" targetId="4c9c-98fa-cc6e-8577"/>
+        <infoLink name="He who did nothing wrong" id="2e2c-19c4-92df-7245" hidden="false" type="rule" targetId="ee8d-9a68-62ff-25ad"/>
+        <infoLink name="Invulnerable Save(3+)" id="6f0c-6d9f-c37a-0c8c" hidden="false" type="rule" targetId="6d92-abb1-98f1-9910"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Blade Of Magnus" hidden="false" id="ba6b-5404-c1ee-5bd2" type="selectionEntry" targetId="da49-8b46-3ac0-f6c2" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fd03-ac07-17de-0102" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba6c-46e5-27d6-92f4" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="42d3-64d1-b710-6f62" id="0780-eb46-4122-74f2" primary="false" name="Monster"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="a3af-60dc-a848-326a" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="7bcf-13c0-4ec6-e884" primary="false" name="Fly"/>
+        <categoryLink targetId="14f-8da2-7b06-ecdb" id="107c-c9e6-f713-e8e5" primary="false" name="Psyker"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="3c93-85e5-34a6-c2d1" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="e967-755c-4bc8-908a" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="6c74-d6d5-2727-b0fd" primary="false" name="Character"/>
+        <categoryLink targetId="44d9-0242-8278-1450" id="006e-7349-b745-7eae" primary="false" name="Demon Progenitor"/>
+        <categoryLink targetId="f9f8-fb62-9358-d5ff" id="5ed3-791a-94c9-9aa8" primary="false" name="Subfaction: Thousand Sons"/>
+        <categoryLink targetId="81a2-d708-c36c-17be" id="ef78-6cd0-2466-0bc7" primary="false" name="Mark Of Tzeentch"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Mag Nuss" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="9da2-da17-a831-eb97">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">12</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">10</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">30</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Psychic Powers" id="9238-f013-4781-46e6" hidden="false">
+          <constraints>
+            <constraint type="max" value="150" field="Points" scope="parent" shared="true" id="1128-0a07-afa0-607c" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Chaos Space Marines Psychic Powers" hidden="false" id="0657-93f8-2294-50f4" type="selectionEntryGroup" targetId="d80f-c57b-e3c8-a6a0"/>
+            <entryLink import="true" name="Universal Psychic Powers" hidden="false" id="2842-77b8-eab5-92c5" type="selectionEntryGroup" targetId="3f03-4dbd-e6c3-bb48"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blade Of Magnus" hidden="false" id="da49-8b46-3ac0-f6c2">
+      <profiles>
+        <profile name="Blade Of Magnus" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="b78f-231b-d366-a71b">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Marks Of Chaos" id="6543-e87d-3d2f-0a12" hidden="false">
@@ -16660,6 +17038,22 @@ or
     </rule>
     <rule name="Toxic Suicide" id="7f5c-9e26-ca2c-4091" hidden="false">
       <description>At the start of any of your phases, you can decide to commit a suicide bombing. Before removing this model from the field, every unit, friend or foe, within 7&apos;&apos; of this model suffer 2D6+3 Mortal Wounds.</description>
+    </rule>
+    <rule name="Going Out With A Vengeance" id="c8ac-dc37-505e-a067" hidden="false">
+      <description>This models „Deadly Demise“ Special Rule triggers on a 5+ instead of 6+.</description>
+    </rule>
+    <rule name="The Chosen One" id="f4ab-9d2c-958f-0041" hidden="false">
+      <description>As long as this model remains in the Battlefield, your entire army gains the „Iron Will“ Special Rule. Also unmodified Wound Rolls of 1-3 against this unit always fail.</description>
+    </rule>
+    <rule name="The Lord Of The Seven" id="efa9-f59d-b3f1-dbdd" hidden="false">
+      <description>Friendly Death Guard Units with 7&apos;&apos; of this model reroll failed „Feel No Pain“ Rolls of 1. This model must never roll on the table for „Vehicle and Monster degradation“.</description>
+    </rule>
+    <rule name="The Butchers Nails" id="b22e-f8ed-219d-596e" hidden="false">
+      <description>This model must never roll on the table for „Vehicle and Monster degradation.“ For every 5 Life Points add +1 Attack to the Black Blades Weapons Profile and +5 Attacks to Gorefathers Weapons Profile.</description>
+    </rule>
+    <rule name="He who did nothing wrong" id="ee8d-9a68-62ff-25ad" hidden="false">
+      <description>This model must never roll on the table for „Vehicle and Monster degradation“.
+This model can cast any Psychic Powers it is equipped up to twice per turn and never suffer „Perils Of The Warp“, no matter what any other Special Rule suggests.</description>
     </rule>
   </sharedRules>
   <rules>

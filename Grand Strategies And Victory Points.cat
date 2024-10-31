@@ -2,7 +2,7 @@
 <catalogue library="true" id="b558-be0d-6e5e-af47" name="Grand Strategies And Victory Points" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <rules>
     <rule name="Following The Plan" id="f51f-483a-07a6-8ccc" hidden="false">
-      <description>Everytime you score Victory Points for holding any Objective markers, you score one(1) additional Points. Holding the Centre Objective rewards three(3) additional Victory Points instead of 2. You gain five(7) additional Victory Points when you&apos;re in control of 3 or more objectives by the time of scoring objectives. If you are in control of all objectives, you gain ten(12) additional Victory Points instead.</description>
+      <description>Everytime you score Victory Points for holding any Objective markers, you score one(1) additional Point. Holding the Centre Objective rewards three(3) additional Victory Points instead. You gain seven(7) additional Victory Points when you&apos;re in control of 3 or more objectives by the time of scoring objectives. If you are in control of all objectives, you gain twelve(12) additional Victory Points instead.</description>
     </rule>
     <rule name="Total Annihilation" id="fbeb-c0b8-ea9f-24e7" hidden="false">
       <description>At the end of the battle, when calculating Victory Points, you gain two(2) additional Victory points for every 100 points of destroyed enemy units. (Read the „Calculating Victory Points“-step for how to determine how many Points of enemy units you destroyed)</description>

@@ -734,6 +734,10 @@ abilities. When such a model is destroyed, roll one D6 before removing it from p
     <rule name="Scouts(10)" id="83ab-da19-cb08-8038" hidden="false">
       <description>Some units have ‘Scouts x&quot;’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x&quot; as if it were your Movement phase – as can any Dedicated Transport model such a unit starts the battle embarked within (provided only models with this ability are embarked within that Dedicated Transport model). A unit that moves using this ability must end that move more than 9&quot; horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.</description>
     </rule>
+    <rule name="Deadly Demise(9/D6+1)" id="9df5-e1ea-b6ac-9237" hidden="false">
+      <description>Some models have ‘Deadly Demise y/x’ listed in their
+abilities. When such a model is destroyed, roll one D6 before removing it from play (if such a model is a Transport, roll before any embarked models disembark). On a 6, each unit within y inches of that model suffers a number of wounds denoted by ‘x’ (if this is a random number, roll separately for each unit within y inches. Wounds dealt by this ability will carry over to the next model in a unit in case it has more than one model until no wounds are left to distribute.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="23ef-f720-6e37-9b21">
@@ -904,75 +908,4 @@ abilities. When such a model is destroyed, roll one D6 before removing it from p
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <rules>
-    <rule name="Assault" id="aea3-38a7-33ff-2dbd" hidden="false">
-      <description>Units that have advanced can shoot this ranged weapon.</description>
-      <alias>As</alias>
-    </rule>
-    <rule name="Heavy" id="4a91-4ba3-947e-b94e" hidden="false">
-      <description>Units that have remained stationary are allowed to double their attacks with this weapon. </description>
-      <alias>He</alias>
-    </rule>
-    <rule name="Pistol" id="5aa5-09c3-de8a-4a29" hidden="false">
-      <description>This weapon can be fired even when the unit is engaged in close combat. Also, when in engagement range, you are making attacks with these weapons during the Combat Phase(In turn you have charged have been charged, you can only fire your Pistols when you haven&apos;t fire them in the previous Shooting Phase). Instead of making any attacks with your regular eligible Combat Weapon, you can double the number of attacks of all eligible Weapons with the Pistol Keyword.</description>
-      <alias>Ps</alias>
-    </rule>
-    <rule name="Torrent" id="00f4-a5dd-35d5-7bd7" hidden="false">
-      <description>Models equipped with eapons with this keyword pick the unit they want to target and automatically hit every model in range of the weapon. But only models of one enemy unit.</description>
-      <alias>To</alias>
-    </rule>
-    <rule name="Tankbuster" id="8c52-5fca-83e9-7784" hidden="false">
-      <description>Weapons with this keyword can add the number in parentheses to the damage of the weapon when fired at half of the maximum range of the weapon or less.</description>
-      <alias>Tb</alias>
-    </rule>
-    <rule name="Armor Rend" id="0c09-9d99-0568-eb12" hidden="false">
-      <description>Weapons with this keyword gain an AP of „SHA“ when they roll a 6 on the wound roll.</description>
-      <alias>Ar</alias>
-    </rule>
-    <rule name="Sundering" id="540a-441f-4d8a-23fc" hidden="false">
-      <description>Models that suffer damage by weapons with this keyword suffer a -1 penalty to their hit roll and -1 to their initiative stat until the start of next turn of the player that caused the Sundering effect.</description>
-      <alias>Sur</alias>
-    </rule>
-    <rule name="Explosive" id="fc54-7d9c-64fa-0f91" hidden="false">
-      <description>When a weapon with this keyword is fired and successfully hits its target, the attacker picks one model in range of the weapon of the unit it attacked and then measures around the base or hull (when it is mentioned that distances are measured from the hull of a model) the number in parentheses. Every base or hull that is touched will receive an attack from said weapon. The hit roll and damage rolle as to be resolved as normal. This mechanic determines the number of attacks. Half the damage (rounded up) of the additional hits after the initial hit.</description>
-      <alias>Ex</alias>
-    </rule>
-    <rule name="Malfunction" id="52ff-d072-9767-6623" hidden="false">
-      <alias>Mal</alias>
-      <description>Whenever a Weapon with this rule has fired, after you have fired all shots, you role one D6, if the result is a 1-2, an „Infantry“ or „Mounted“ model suffers D3+1 Mortal Wounds while a „Monster“ or „Vehicle“ model suffers D6+1 Mortal Wounds. </description>
-    </rule>
-    <rule name="Ignores Cover" id="6f37-9b1c-0ae7-16ad" hidden="false">
-      <alias>IgC</alias>
-      <description>A weapon with this rule ignores any benefits of cover the targeted unit would benefit from. </description>
-    </rule>
-    <rule name="Tremor" id="dc28-0110-18c1-e8d4" hidden="false">
-      <alias>Tre</alias>
-      <description>A unit that suffers at least one model as a loss through an attack by a Weapon with the keyword „Tremor“ halves its regular movement speed and it can not use its „Initiative“-Stat in place of the advance roll. And also halves all Advance Rolls, rounded up. Units that only consist of a single model suffer the effects of the „Tremor“ Rule“ when losing at least 25% of it&apos;s current remaining life points, rounded up when determining the number of needed damage. (for example when the model has 20LP remaining, and it it suffers at least 5 LP Damage from a weapon with the „Tremor“ Keyword, it is considered to suffer the Tremor effect).</description>
-    </rule>
-    <rule name="Precision" id="527f-7b6d-cf30-06e0" hidden="false">
-      <description>Weapons with Precision in their profile are known
-as Precision weapons. Each time an attack made with such a weapon successfully wounds an Attached unit, if a Character model in that unit is visible to the attacking model, the attacking model’s player can choose to have that attack allocated to that Character model instead of following the normal attack sequence.</description>
-      <alias>Pre</alias>
-    </rule>
-    <rule name="Artillery Fire" id="0861-e0e7-dd45-603f" hidden="false">
-      <alias>ArF</alias>
-      <description>Weapons with Artillery Fire in their profile are
-known as Artillery Fire weapons, and attacks can be made with them even if the target is not visible to the attacking model. These attacks can destroy enemy models in a target unit even though none may have
-been visible to the attacking unit when you selected that target.
-
-
-If no models in a target unit are visible to the attacking unit when you select that target, then each time a model in the attacking unit makes an attack
-against that target using an Artillery Fire weapon, subtract 1 from that attack’s Hit roll.</description>
-    </rule>
-    <rule name="Extra Attacks" id="10cd-ecb2-cbc3-6d2c" hidden="false">
-      <alias>ExA</alias>
-      <description>Weapons with Extra Attacks in their profile are
-known as Extra Attacks weapons. Each time the bearer of such a weapon fights, it can make attacks with that weapon in addition to the one it chooses
-to fight with. The number of attacks made with an Extra Attacks weapon cannot be modified by other rules.</description>
-    </rule>
-    <rule name="Once Per Game" id="b86c-fec8-160f-07e9" hidden="false">
-      <alias>OpG</alias>
-      <description>A weapon with this keyword can only be fired once per game.</description>
-    </rule>
-  </rules>
 </gameSystem>

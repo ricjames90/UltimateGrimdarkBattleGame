@@ -141,6 +141,11 @@
     <categoryEntry name="Deathwatch Veterans" id="4053-33a9-ace8-e295" hidden="false"/>
     <categoryEntry name="Deathwatch Watchmaster" id="0f24-d545-c75e-9932" hidden="false"/>
     <categoryEntry name="Deathwatch Corvus Blackstar" id="0618-e680-6be5-0aac" hidden="false"/>
+    <categoryEntry name="Progenitor" id="770b-baf3-bfe4-2084" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3763-4322-bd91-b890" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Bolt Rifle" hidden="false" id="472a-704c-17ec-ad7e" collective="true">
@@ -18131,6 +18136,193 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Lionel Richie" hidden="false" id="780b-2cd1-32dd-e1d5">
+      <costs>
+        <cost name="Pts" typeId="Points" value="280"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Lionel Richie" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="598a-f5c7-4fca-736a">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">7</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">7</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">15</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Forest Walking" id="0326-1347-ee39-c9d9" hidden="false" type="rule" targetId="1fe0-eca6-e24c-5ff3"/>
+        <infoLink name="Invulnerable Save(3+)" id="6e48-8207-9871-d66d" hidden="false" type="rule" targetId="6d92-abb1-98f1-9910"/>
+        <infoLink name="Deep Strike" id="e636-bdc4-8d1c-c1b0" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="Deadly Demise(9/D6+1)" id="f197-fee2-f306-46e3" hidden="false" type="rule" targetId="9df5-e1ea-b6ac-9237"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Warp Tech Plasma Pistol" hidden="false" id="f486-4a2a-b43c-789b" type="selectionEntry" targetId="a5a9-65fd-605d-6d4a" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1835-ddf9-c3bf-7426" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d466-d545-d58f-39be" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Fealty" hidden="false" id="bc3a-9123-6ff3-d35d" type="selectionEntry" targetId="a5a5-acb9-90d3-4f0c" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de83-29b3-0967-29f4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47d0-bf9d-fa66-97a3" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="42d3-64d1-b710-6f62" id="1e7e-b03b-0e84-14e1" primary="false" name="Monster"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="a162-e214-48f1-47b1" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="de68-902b-0c68-f9bb" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8599-9479-106b-178c" id="cb04-d667-7e91-99bc" primary="false" name="FACTION: Space Marines"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="6427-73cf-db30-3d10" primary="false" name="Character"/>
+        <categoryLink targetId="d636-fd42-5f30-c84d" id="10e9-e0ee-47ce-3093" primary="false" name="Subfaction: Dark Angels"/>
+        <categoryLink targetId="770b-baf3-bfe4-2084" id="6690-e868-69aa-061b" primary="false" name="Progenitor"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warp Tech Plasma Pistol" hidden="false" id="a5a9-65fd-605d-6d4a">
+      <profiles>
+        <profile name="Warp Tech Plasma Pistol - Normal" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="7e37-5967-589e-51b5">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">15</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">10</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Warp Tech Plasma Pistol - Overcharged" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="3c04-84ad-c36c-813a">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">15</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">12</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps,Mal</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fealty" hidden="false" id="a5a5-acb9-90d3-4f0c">
+      <profiles>
+        <profile name="Fealty - Sweep" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="d927-666a-f33c-565a">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">20</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fealty - Strike" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="42d5-1d5c-3d2f-3d5a">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+3</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Robert G-Man" hidden="false" id="a101-5c15-09b7-0cf8">
+      <profiles>
+        <profile name="Robert G-Man" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="fb0f-9e40-35bc-30c7">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">7</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">15</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="42d3-64d1-b710-6f62" id="af29-25f1-79ac-1d05" primary="false" name="Monster"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="e69c-6042-e4eb-7366" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="00a7-c7f6-0116-c217" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8599-9479-106b-178c" id="5f0c-717e-00f1-e23e" primary="false" name="FACTION: Space Marines"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="b4fd-d34b-e548-25e9" primary="false" name="Character"/>
+        <categoryLink targetId="dc78-a4ff-8262-e686" id="3277-afa1-299b-a5ef" primary="false" name="Subfaction: Ultramarines"/>
+        <categoryLink targetId="770b-baf3-bfe4-2084" id="7c72-ed04-17d1-bea9" primary="false" name="Progenitor"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Superior Tactician" id="16ed-1201-cb50-a051" hidden="false" type="rule" targetId="b827-78fc-0114-442f"/>
+        <infoLink name="Invulnerable Save(4+)" id="b1ba-09ae-934c-d5ac" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Deadly Demise(9/D6+1)" id="5a99-da6e-d9f3-ec4f" hidden="false" type="rule" targetId="9df5-e1ea-b6ac-9237"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Hand Of Dominion" hidden="false" id="f67c-9540-07ef-6eb0" type="selectionEntry" targetId="d5e0-bde1-c855-18f9" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="59f8-8496-6c2e-84b5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b911-0d36-4787-b3d7" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Emperor&apos;s Sword" hidden="false" id="1d17-c84f-16eb-8459" type="selectionEntry" targetId="ac98-c673-e174-8783" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd61-9731-faab-d163" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8791-fe93-3680-f4df" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="250"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hand Of Dominion" hidden="false" id="d5e0-bde1-c855-18f9">
+      <profiles>
+        <profile name="Hand Of Dominion" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="0150-e1c9-38f9-e778">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">5</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ps</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hand Of Dominion" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="5dce-4d1e-6562-2fbd">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">ExA</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Emperor&apos;s Sword" hidden="false" id="ac98-c673-e174-8783">
+      <profiles>
+        <profile name="Emperor&apos;s Sword" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="63e1-19e2-b35e-bb83">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">12</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+3</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Space Marine" hidden="false" id="ea13-acb4-5747-5a3e" typeId="a545-37bd-31e3-a90c" typeName="Unit">
@@ -20449,6 +20641,12 @@ or
     </rule>
     <rule name="Deathwatchers On The Watch" id="4079-ae67-93fc-b79c" hidden="false">
       <description>A unit this model is attached to is considered to benefit from 2 of the three Deathwatch Subfaction Rules instead of one. Including this model.</description>
+    </rule>
+    <rule name="Forest Walking" id="1fe0-eca6-e24c-5ff3" hidden="false">
+      <description>At the end of each of your movement phases, you may take this model off of the battlefield and immediately place it anywhere on the battlefield, but not closer than 9&apos;&apos; inch to any enemy unit. This model must never roll on the table for „Vehicle and Monster degradation“.</description>
+    </rule>
+    <rule name="Superior Tactician" id="b827-78fc-0114-442f" hidden="false">
+      <description>As long as this unit is on the battlefield, your entire army gains the „Iron Will“ Special Rule This model must never roll on the table for „Vehicle and Monster degradation“.</description>
     </rule>
   </sharedRules>
 </catalogue>
