@@ -4974,6 +4974,73 @@
         <cost name="Pts" typeId="Points" value="20"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hexmark Destroyer" hidden="false" id="f2cd-ca19-7666-68bb">
+      <profiles>
+        <profile name="Hexmark Destroyer" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="a155-78e3-2c7b-ec87">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="Points" value="85"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="7d9d-1053-8f76-526" id="6779-d58f-b6b5-0d49" primary="false" name="Mounted"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="8d1c-f2f7-5b66-d3b7" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="6d70-8e74-4cf2-2b7a" primary="false" name="Character"/>
+        <categoryLink targetId="d55b-775c-99d2-b1da" id="8ef1-47cd-afae-b40b" primary="false" name="FACTION: Necrons"/>
+        <categoryLink targetId="12b2-4b6c-32de-fe73" id="08f6-a0dc-0471-89ae" primary="false" name="Hexmark Destroyer"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="f123-9bc9-5247-0eaf" type="selectionEntry" targetId="3305-8f0d-c983-201e"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="6 Emnitic Disintegrator Pistols" hidden="false" id="0f4a-7e50-1f43-6cb8" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f02d-3650-9efe-ec74" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a0f-1db3-eebb-dbfa" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Emnitic Disintegrator Pistol" hidden="false" id="df63-76b8-4c57-f34c" type="selectionEntry" targetId="d96f-af3e-e2e5-3aba" collective="true">
+              <constraints>
+                <constraint type="min" value="6" field="selections" scope="parent" shared="true" id="87dd-12b4-4912-b73b" includeChildSelections="false"/>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="cabc-572e-d632-a202" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Hexmark Multi-Thread Destroyer" id="5dbc-6d71-56ad-cb9c" hidden="false" type="rule" targetId="6f54-da53-5db9-cd29"/>
+        <infoLink name="Invulnerable Save(5+)" id="d4cf-5002-0054-826e" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Lone Operator" id="854d-ae62-a12b-0d08" hidden="false" type="rule" targetId="1ac2-6570-4e5f-b1ff"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Emnitic Disintegrator Pistol" hidden="false" id="d96f-af3e-e2e5-3aba">
+      <profiles>
+        <profile name="Emnitic Disintegrator Pistol" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="df31-8799-cedc-7b1f">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">6</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps,Pre</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Warriors" id="09bd-7f4b-8df9-976e" hidden="false"/>
@@ -5165,6 +5232,9 @@ All Auras have a range of 12&apos;&apos;.
     </rule>
     <rule name="Chronometron" id="3416-1bc0-667e-8f5d" hidden="false">
       <description>The unit this model is attached to gains the „Invulnerable Save(5+)“ Special Rule.</description>
+    </rule>
+    <rule name="Hexmark Multi-Thread Destroyer" id="6f54-da53-5db9-cd29" hidden="false">
+      <description>This model ignores any penalties to both its ranged Hit Rolls and its Ballistic Skill Characteristic. It also hits successfuly on 2+ when firing Overwatch. Everytime a friendly Necron Unit within 9&apos;&apos; of this model is being selected as the target of a charge, this model can fire Overwatch as well. </description>
     </rule>
   </sharedRules>
   <rules>

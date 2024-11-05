@@ -200,6 +200,16 @@
             <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Models equipped with a Praesidium Shield add+1LP to their LP Characteristic.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Sentinel Blade" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="d1cb-e01d-53bc-516c">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <comment>Guardians</comment>
     </selectionEntry>
@@ -755,6 +765,16 @@
         <profile name="Praesidium Shield" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="d052-fb98-b7f6-0a85">
           <characteristics>
             <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Models equipped with a Praesidium Shield add+2LP to their LP Characteristic.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sentinel Blade" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="15cb-997f-c61c-9f4a">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps</characteristic>
           </characteristics>
         </profile>
       </profiles>

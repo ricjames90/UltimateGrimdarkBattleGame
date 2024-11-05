@@ -146,6 +146,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3763-4322-bd91-b890" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry name="Battleline Marine" id="0758-26f6-aac4-4b38" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Bolt Rifle" hidden="false" id="472a-704c-17ec-ad7e" collective="true">
@@ -246,6 +247,9 @@
                 <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="983-f978-c7-68ec"/>
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="eb83-3141-bc74-6122"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="0758-26f6-aac4-4b38" id="1ff4-5a44-c0d8-ff94" primary="false" name="Battleline Marine"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Tactical Marine Sergeant" hidden="false" id="46dc-6ed0-430c-f26d">
               <costs>
@@ -272,6 +276,9 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b9e-f9a4-a354-732a"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5159-23ca-6d62-bac7"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="0758-26f6-aac4-4b38" id="3d04-f9ba-307e-1351" primary="false" name="Battleline Marine"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Tactical Marine w/Special Weapon" hidden="false" id="6079-df0a-6f74-ca8b">
               <costs>
@@ -286,6 +293,9 @@
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d383-23b8-1810-913f"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c0-cef6-4cf7-b17a"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="0758-26f6-aac4-4b38" id="2376-fe88-7275-dce7" primary="false" name="Battleline Marine"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Tactical Marine w/Heavy Weapon" hidden="false" id="6624-bb65-b969-6127">
               <costs>
@@ -307,6 +317,9 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <categoryLinks>
+                <categoryLink targetId="0758-26f6-aac4-4b38" id="ca14-ad64-dec0-cbf3" primary="false" name="Battleline Marine"/>
+              </categoryLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1864,6 +1877,9 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
               <costs>
                 <cost name="Pts" typeId="Points" value="22"/>
               </costs>
+              <categoryLinks>
+                <categoryLink targetId="0758-26f6-aac4-4b38" id="99f8-b06c-1a1d-8231" primary="false" name="Battleline Marine"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Intercessor Sergeant" hidden="false" id="2d2e-f04d-75f5-b662">
               <costs>
@@ -1898,6 +1914,9 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
                   </selectionEntryGroups>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <categoryLinks>
+                <categoryLink targetId="0758-26f6-aac4-4b38" id="0838-9ede-d334-ac38" primary="false" name="Battleline Marine"/>
+              </categoryLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1970,6 +1989,9 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="d3b5-b2ef-434a-a567"/>
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="89df-e96a-d924-653f"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="0758-26f6-aac4-4b38" id="0dca-bb80-fa63-76d0" primary="false" name="Battleline Marine"/>
+              </categoryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Assault Intercessor Sergeant" hidden="false" id="696e-e7c5-37e3-29f9">
               <selectionEntryGroups>
@@ -1991,6 +2013,9 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b514-98f5-b072-9c15"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35e4-4517-47ae-17f3"/>
               </constraints>
+              <categoryLinks>
+                <categoryLink targetId="0758-26f6-aac4-4b38" id="645e-3521-496c-adf6" primary="false" name="Battleline Marine"/>
+              </categoryLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>

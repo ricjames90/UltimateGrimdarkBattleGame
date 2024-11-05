@@ -927,6 +927,26 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Bike Squadron" hidden="false" id="6a09-f522-5a06-1a11" type="selectionEntry" targetId="d3e2-34fe-7905-d865">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="e938-e717-af46-a61e" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="79e5-570b-2bdd-d3d7" shared="true" id="0bc6-c41d-b1a3-c4dc"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="718b-3a7a-a40d-e823" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="0bc6-c41d-b1a3-c4dc">
+          <repeats>
+            <repeat value="10" repeats="1" field="selections" scope="79e5-570b-2bdd-d3d7" childId="0758-26f6-aac4-4b38" shared="true" roundUp="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Space Marines" id="1a54-9cc0-6596-93c6" targetId="b9aa-5902-f97d-9cd5"/>

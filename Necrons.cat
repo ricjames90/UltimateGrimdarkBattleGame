@@ -268,5 +268,10 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="47af-5a57-ded3-f772" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
+    <entryLink import="true" name="Hexmark Destroyer" hidden="false" id="5b6a-5e60-7619-07c1" type="selectionEntry" targetId="f2cd-ca19-7666-68bb">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="f3df-b940-04a0-cb85" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
