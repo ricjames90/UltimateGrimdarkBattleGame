@@ -4411,13 +4411,13 @@ Second Paragraph: Change „a single friendly model“ to „D3 friendly models�
   <sharedProfiles>
     <profile name="Sacrifice Of The Martyr" hidden="false" id="bba1-42ab-c76d-44c4" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Our Martyred Lady Infantry units gain the „Iron Will“ Special Rule. Our Martyred Lady Infantry units at „Half Strength“ or less add +1 to their Hit Rolls.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Our Martyred Lady Infantry units gain the „Iron Will“ Special Rule. Our Martyred Lady Vehicle units at Half Life Points or less add +1 to their Hit Rolls. Our Martyred Lady Infantry units add +1 to their Hit Rolls as soon as they suffer the first model lost.</characteristic>
       </characteristics>
     </profile>
     <profile name="Anger Of The Sisterhood" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="80c2-0449-ce92-9f47">
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">Bloody Rose Infantry units gain +1 to their Strength Characteristics. 
-Bloody Rose units add +1 Attack to all their eligible Melee Weapons Profiles in a turn they charged or were selected as the target of a charge.</characteristic>
+Bloody Rose units add +1 Attack to all their eligible Melee Weapons. They add +1 to their charge rules and gain the „Furious Assault“ Special Rule in a turn they have declared a charge.</characteristic>
       </characteristics>
     </profile>
     <profile name="Devout Serenity" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="9180-866d-f933-3971">
@@ -4429,12 +4429,13 @@ Every Sacred Rose Unit (count attached units as their Datasheets separately) is 
     <profile name="Deeds Of The Blessed" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="5fa2-1027-bfca-59bf">
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">The Argent Shroud Infantry units are considered to having remained stationary when having made a Normal Move. 
-The Argent Shroud units are allowed to fire Ranged Weapons normally when having made a Fallback Move.</characteristic>
+The Argent Shroud units are allowed to fire Ranged Weapons normally when having made a Fallback Move. 
+Enemy units that make ranged attacks from 18&apos;&apos; or further away against Argent subtract -1 from their Hit Roll.</characteristic>
       </characteristics>
     </profile>
     <profile name="Stoic Endurance" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="f20b-6826-a13b-2835">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Valorous Heart Infantry units gain +1 to their Toughness Characteristics. 
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">All Valorous Heart units gain +1 to their Toughness Characteristics. 
 Valorous Heart units gain the „Feel No Pain(6+)“ Special Rule.</characteristic>
       </characteristics>
     </profile>

@@ -199,6 +199,10 @@
         <categoryLink targetId="79e5-570b-2bdd-d3d7" id="b500-5b85-5fd8-6627" primary="true" name="TROOPS"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Legion Of The Damned" hidden="false" id="8f7f-262f-7ffd-b317" type="selectionEntry" targetId="8dbe-fee5-3ffe-04b9"/>
+    <entryLink import="true" name="Legion Of The Damned" hidden="false" id="8f7f-262f-7ffd-b317" type="selectionEntry" targetId="8dbe-fee5-3ffe-04b9">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="7e32-8e01-e3ff-7b6f" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

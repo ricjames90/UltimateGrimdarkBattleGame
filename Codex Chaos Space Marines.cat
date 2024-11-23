@@ -2370,13 +2370,12 @@
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2bfe-1c9b-0946-328e" includeChildSelections="false"/>
                   </constraints>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Pistols" id="cd84-8d6d-3657-6625" hidden="false">
+                    <selectionEntryGroup name="Pistols" id="cd84-8d6d-3657-6625" hidden="false" defaultSelectionEntryId="68d0-6f98-d184-c283">
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a7c0-4ec9-d0ef-d13b" includeChildSelections="false"/>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23c5-efa5-8a9e-7315" includeChildSelections="false"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Inferno Bolt Pistol" hidden="false" id="5157-fe0e-5d42-beb2" type="selectionEntry" targetId="bb5b-b61a-adbf-6b8d"/>
                         <entryLink import="true" name="Plasma Pistol" hidden="false" id="5250-2219-55ff-2d13" type="selectionEntry" targetId="a4d4-23bc-1e16-506e">
                           <costs>
                             <cost name="Pts" typeId="Points" value="5"/>
@@ -2387,6 +2386,7 @@
                             <cost name="Pts" typeId="Points" value="5"/>
                           </costs>
                         </entryLink>
+                        <entryLink import="true" name="Inferno Bolt Pistol" hidden="false" id="68d0-6f98-d184-c283" type="selectionEntry" targetId="f95d-3d07-bea2-67de"/>
                       </entryLinks>
                       <modifiers>
                         <modifier type="set" value="5157-fe0e-5d42-beb2" field="defaultSelectionEntryId"/>
@@ -4650,7 +4650,7 @@
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Pistols" id="d915-19ee-fea9-9d02" hidden="false">
                       <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="77fc-c79c-5fbe-70b3" includeChildSelections="false"/>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="77fc-c79c-5fbe-70b3" includeChildSelections="false"/>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="459e-9cd1-bd7d-69c2" includeChildSelections="false"/>
                       </constraints>
                       <entryLinks>
@@ -17058,7 +17058,7 @@ This model can cast any Psychic Powers it is equipped up to twice per turn and n
   </sharedRules>
   <rules>
     <rule name="Eternal Hatred" id="1211-1b56-0f2d-c26b" hidden="false">
-      <description>At the start of every of ypur Command Phases, you can pick a single enemy unit, you can reroll all failed Ranged or Melee Hit Rolls of 1 against that unit.</description>
+      <description>At the start of every of your Command Phases, you can pick a single enemy unit, you can reroll all failed Ranged or Melee Hit Rolls of 1 against that unit.</description>
     </rule>
     <rule name="Warp Armor" id="aca0-3946-7681-7a4a" hidden="false">
       <description>Wound Rolls of 1-2 always fail against Chaos Space Marine „Infantry“ units.(only units with Heavy Armor or higher) Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Space Marine Infantry unit.</description>
