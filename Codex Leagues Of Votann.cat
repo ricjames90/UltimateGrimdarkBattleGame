@@ -2,17 +2,16 @@
 <catalogue library="true" id="6c56-7d9d-d6c8-38b8" name="Codex Leagues Of Votann" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <rules>
     <rule name="Token Of Judgement" id="ad4d-e7c8-7466-91df" hidden="false">
-      <description>At the start of each Game Round, you can place a single Token Of Judgement On a single enemy unit. (Hero, Vehicles and Monster units count as one unit per model, so a Token Of Judgement placed on an attached unit only applies to either the Hero Unit(s) or the Bodyguard unit) And never more than one Token Of Judgement per unit. Only units that are visible to any friendly Leagues Of Votann unit can be selected as the target of a Token Of Judgement. 
+      <description>At the start of each Game Round, you can place a single Token Of Judgement On a single enemy unit. (Hero, Vehicles and Monster units count as one unit per model, so a Token Of Judgement placed on an attached unit only applies to either the Hero Unit(s) or the Bodyguard unit) And never more than one Token Of Judgement per unit. Only units that are visible to any friendly Leagues Of Votann unit can be selected as the target of a Token Of Judgement.
 
+
+Per full 2000 Points game size (2000,4000,6000,8000etc.) you can select another unit. 
 
 After having placed any Token Of Judgement, you decide to gain one of the following effects against the unit that has been selected as the target of a Token Of Judgement. 
 
-
 Effect 1: The minimum required range for the „HntR“ Weapon Rule to trigger is extended by 6&apos;&apos;. (For example instead of needing to be within 10&apos;&apos; for the Autoch Boltguns HntR Rule to trigger, you only need to be within 16&apos;&apos;.)
 
-
 Effect 2: You can reroll failed unmodified Armor Save or Invulnerable Save roles of 1 caused by attacks from this unit. 
-
 
 Effect 3: The effect of „MgNa“ Weapons Rule is triggered on an unmodified role of 5+ instead of 6+.</description>
     </rule>

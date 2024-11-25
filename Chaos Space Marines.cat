@@ -1126,5 +1126,10 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Chaos Thunderhawk Gunship" hidden="false" id="f93f-c7c1-e114-a1ef" type="selectionEntry" targetId="308c-691f-da29-8585">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="024f-45d5-22b7-03f3" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

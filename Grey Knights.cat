@@ -244,6 +244,7 @@
         <categoryLink targetId="79e5-570b-2bdd-d3d7" id="d9c7-a29f-1dc7-041b" primary="true" name="TROOPS"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Thunderhawk Gunship" hidden="false" id="d87c-004f-0821-58e9" type="selectionEntry" targetId="87fa-3582-02b0-5205"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Grey Knights" id="4d8d-453a-90b3-ca60" targetId="e3e9-88ba-a2db-1fe8"/>

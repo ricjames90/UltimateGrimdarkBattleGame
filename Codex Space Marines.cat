@@ -147,6 +147,9 @@
       </constraints>
     </categoryEntry>
     <categoryEntry name="Battleline Marine" id="0758-26f6-aac4-4b38" hidden="false"/>
+    <categoryEntry name="Thunderhawk Gunship" id="0614-d0a0-36d8-d084" hidden="false"/>
+    <categoryEntry name="Thunderhawk Transporter" id="ec8f-dede-917f-1b57" hidden="false"/>
+    <categoryEntry name="Phobos Marine" id="625e-275a-92a2-ba15" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Bolt Rifle" hidden="false" id="472a-704c-17ec-ad7e" collective="true">
@@ -16099,6 +16102,16 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="b13a-0942-23a4-b6e6" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="8f18-d501-1e4b-b819" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="8599-9479-106b-178c" id="f433-8f8d-57fc-9a22" primary="false" name="FACTION: Space Marines"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="9afe-8edb-97bc-7fb3" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="a14a-aa5d-e785-7caf" id="8ecc-a4d0-891a-aef6" primary="false" name="Subfaction: Blood Angels"/>
+        <categoryLink targetId="38c1-c3bf-46ea-4126" id="9121-7416-b98e-73c7" primary="false" name="Castrafferum Dreadnought"/>
+        <categoryLink targetId="2512-b62f-c0f0-91a3" id="6d36-16ef-48c2-5544" primary="false" name="Death Company"/>
+        <categoryLink targetId="156f-1218-875c-a89e" id="faa1-cd94-99ae-e927" primary="false" name="Death Company Dreadnought"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Magna Grapple" hidden="false" id="e300-9d54-c43b-143c">
       <profiles>
@@ -18247,8 +18260,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <profile name="Warp Tech Plasma Pistol - Normal" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="7e37-5967-589e-51b5">
           <characteristics>
             <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">15</characteristic>
-            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
-            <characteristic name="S" typeId="2436-99f4-4527-c475">10</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">12</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
             <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps</characteristic>
@@ -18257,8 +18270,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <profile name="Warp Tech Plasma Pistol - Overcharged" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="3c04-84ad-c36c-813a">
           <characteristics>
             <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">15</characteristic>
-            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
-            <characteristic name="S" typeId="2436-99f4-4527-c475">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
             <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps,Mal</characteristic>
@@ -18281,10 +18294,10 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <profile name="Fealty - Strike" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="42d5-1d5c-3d2f-3d5a">
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
-            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
-            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+3</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">7</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+2</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
-            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2D3</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
           </characteristics>
         </profile>
@@ -18377,6 +18390,325 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Thunderhawk Gunship" hidden="false" id="a921-73ca-10e1-5097">
+      <costs>
+        <cost name="Pts" typeId="Points" value="1800"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Thunderhawk Gunship" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="e1be-3a05-56e6-c82c">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">20</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">16</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">46</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thunderhawk Gunship" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="467c-bc17-19be-1374">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">This model can transport up to 33 Infantry or up to 11 models on „Bike“ including up to two Invader ATV/Trike(any mixture) models.
+Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ and „Gravis Armor“ count as 2 and models with the keyword „Centurion Armor“ count as 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Adamantine Assault" id="e17e-e5f3-538e-9e23" hidden="false" type="rule" targetId="1d86-bcec-70d9-eda5"/>
+        <infoLink name="Deadly Demise(24/2D6+12)" id="3770-46aa-a13d-60b6" hidden="false" type="rule" targetId="f975-0178-f8b6-1acc"/>
+        <infoLink name="Hover" id="a54f-9e0c-9b64-5940" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+        <infoLink name="Invulnerable Save(5+)" id="31f5-ab07-87cd-a4ce" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="4 Twin Heavy Bolters" hidden="false" id="7afc-1c28-2fea-c615" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fc42-c016-4676-45f0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a58-2274-251f-8ceb" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="634e-91c6-f2a6-85e1" type="selectionEntry" targetId="f460-1f29-9a39-8fda" collective="true">
+              <constraints>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="042a-9e93-5f14-73f7" includeChildSelections="false"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="b743-16e2-60e3-0bbf" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="2 Thunderhawk Las Cannons" hidden="false" id="b48a-09e1-b9ef-45bf" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9011-51ba-4215-6021" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd6e-7321-2360-2344" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Thunderhawk Las Cannon" hidden="false" id="6ecf-51f8-e564-08aa" type="selectionEntry" targetId="da0b-2a7c-1ae7-79d1" collective="true">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="821d-8be0-c915-8a86" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3c48-b05c-de5b-ded5" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Primary Cannon" id="7b2f-4de0-c4ca-4a54" hidden="false" defaultSelectionEntryId="7f40-e718-0ffc-0ec2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3479-a169-2d4a-9e94" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f076-a239-8fa3-695a" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Thunderhawk Heavy Cannon" hidden="false" id="7f40-e718-0ffc-0ec2" type="selectionEntry" targetId="ff72-3561-03e7-09a9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3d7-0961-e5fa-3d9d" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Thunderhawk Turbo Laser Destroyer" hidden="false" id="e471-9795-554d-d6e0" type="selectionEntry" targetId="e0cf-f0d9-9bcf-321b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1199-3d5d-a6e4-b1ad" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="100"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Secondary Equipment" id="d421-1eb5-836b-f514" hidden="false" defaultSelectionEntryId="c7b0-76f8-ef04-ef43">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54de-61fc-1589-6455" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c42-d0b4-b141-1bdf" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Thunderhawk Cluster Bombs" hidden="false" id="c7b0-76f8-ef04-ef43" type="selectionEntry" targetId="bb61-4158-e387-7212">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c88-026e-4eb0-95f6" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Hellstrike Battery" hidden="false" id="1f29-b0e6-df4a-7600" type="selectionEntry" targetId="5718-daa1-7fe9-365f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a078-11b3-e4c1-73c0" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="100"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="a620-6937-07b0-b832" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="f390-73ae-bacc-d621" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="d8f2-626b-70af-3f82" primary="false" name="Fly"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="980f-9ef8-e1f4-65b8" primary="false" name="Tansport"/>
+        <categoryLink targetId="8599-9479-106b-178c" id="285d-038a-b581-f21a" primary="false" name="FACTION: Space Marines"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="4e6e-6140-3b8d-04e6" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="0614-d0a0-36d8-d084" id="d759-cc63-5ed2-123f" primary="false" name="Thunderhawk Gunship"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thunderhawk Las Cannon" hidden="false" id="da0b-2a7c-1ae7-79d1">
+      <profiles>
+        <profile name="Thunderhawk Las Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="4055-06ef-fb92-db85">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">18</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thunderhawk Heavy Cannon" hidden="false" id="ff72-3561-03e7-09a9">
+      <profiles>
+        <profile name="Thunderhawk Heavy Cannon - Concentrated Blast" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="fc11-1043-41b7-7d1f">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">72</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">16</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D3+3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Tre</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thunderhawk Heavy Cannon - Burst Blast" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="6ffe-298f-5877-3eea">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">72</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(5)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thunderhawk Turbo Laser Destroyer" hidden="false" id="e0cf-f0d9-9bcf-321b">
+      <profiles>
+        <profile name="Thunderhawk Turbo Laser Destroyer" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="e33d-4e5b-5a09-1ee1">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">60</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">24</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3D3+6</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thunderhawk Cluster Bombs" hidden="false" id="bb61-4158-e387-7212">
+      <profiles>
+        <profile name="Thunderhawk Cluster Bombs" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="446b-c9d7-786e-471b">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Once per turn, if this model is equipped with Thunderhawk Clusterbombs pick up to three enemy units this model has moved over. Roll a D6 for every single one of them. For every 3+, this unit suffers 5D6 Mortal Wounds.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hellstrike Battery" hidden="false" id="5718-daa1-7fe9-365f">
+      <profiles>
+        <profile name="Hellstrike Battery - Krak" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="35ca-7f7b-af9e-28cb">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">8</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hellstrike Battery - Frag" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="bdf5-0568-2135-452d">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">6</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(5)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Chaos Thunderhawk Gunship" hidden="false" id="308c-691f-da29-8585">
+      <costs>
+        <cost name="Pts" typeId="Points" value="1800"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Thunderhawk Gunship" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="6555-24bd-6763-4d09">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">20</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">16</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">46</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thunderhawk Gunship" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="5683-cb5c-fe39-a848">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">This model can transport up to 33 Infantry or up to 11 models on „Bike“ including up to two Invader ATV/Trike(any mixture) models.
+Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ and „Gravis Armor“ count as 2 and models with the keyword „Centurion Armor“ count as 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Adamantine Assault" id="c8bb-6c40-99d1-7d92" hidden="false" type="rule" targetId="1d86-bcec-70d9-eda5"/>
+        <infoLink name="Deadly Demise(24/2D6+12)" id="622f-dfe8-6058-0636" hidden="false" type="rule" targetId="f975-0178-f8b6-1acc"/>
+        <infoLink name="Hover" id="e3fe-39ed-cf2e-458a" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+        <infoLink name="Invulnerable Save(5+)" id="c62b-a241-95a8-a684" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="4 Twin Heavy Bolters" hidden="false" id="c87e-b5db-564b-e7e3" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f47d-9436-84b6-4446" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="732b-53c2-426b-e127" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="bae7-80f3-6362-5ec2" type="selectionEntry" targetId="f460-1f29-9a39-8fda" collective="true">
+              <constraints>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="1c91-f03d-0590-562b" includeChildSelections="false"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1796-307e-0fb6-f8a8" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="2 Thunderhawk Las Cannons" hidden="false" id="5faf-838d-1ffc-942d" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="713c-ec85-a768-00fd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aaf9-7260-7587-6a1e" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Thunderhawk Las Cannon" hidden="false" id="71de-753a-310e-ef03" type="selectionEntry" targetId="da0b-2a7c-1ae7-79d1" collective="true">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8b84-abda-83b0-7521" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="462e-ed88-815a-98dc" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Primary Cannon" id="f230-c618-9501-b91c" hidden="false" defaultSelectionEntryId="7f40-e718-0ffc-0ec2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8907-466a-8cf0-4bb4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c57-f847-8b0f-9c0f" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Thunderhawk Heavy Cannon" hidden="false" id="d0b0-f0bd-bd67-b5de" type="selectionEntry" targetId="ff72-3561-03e7-09a9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d83-2ddb-a5c7-e0b3" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Thunderhawk Turbo Laser Destroyer" hidden="false" id="a9cd-239d-7d33-0769" type="selectionEntry" targetId="e0cf-f0d9-9bcf-321b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4ff-b495-2afc-19f3" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="100"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Secondary Equipment" id="d50f-b325-b1a5-5a34" hidden="false" defaultSelectionEntryId="c7b0-76f8-ef04-ef43">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32b4-de02-a776-6b26" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2efe-012f-340e-5b72" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Thunderhawk Cluster Bombs" hidden="false" id="e100-e624-270b-b971" type="selectionEntry" targetId="bb61-4158-e387-7212">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16b3-7bed-c8f5-1e01" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Hellstrike Battery" hidden="false" id="d675-77cb-cc72-6b5b" type="selectionEntry" targetId="5718-daa1-7fe9-365f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94d0-7c5b-18b1-8a52" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="100"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="6778-0ec5-b2da-3dbf" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="c454-29e4-9ceb-b5ee" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="6a94-03de-6f44-ef8c" primary="false" name="Fly"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="daf0-44b9-ac37-8470" primary="false" name="Tansport"/>
+        <categoryLink targetId="0614-d0a0-36d8-d084" id="f6ec-bc2b-bfc7-5cf8" primary="false" name="Thunderhawk Gunship"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="0535-d2f1-f8f0-a1c3" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="c27d-cbf3-29be-7b05" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>

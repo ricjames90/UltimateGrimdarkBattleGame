@@ -2807,6 +2807,123 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Thunderhawk Gunship" hidden="false" id="87fa-3582-02b0-5205">
+      <costs>
+        <cost name="Pts" typeId="Points" value="1800"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Thunderhawk Gunship" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="a650-5a29-00cd-f1d6">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">20</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">16</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">46</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thunderhawk Gunship" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="77e9-a6e6-ae54-2fb0">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">This model can transport up to 33 Infantry or up to 11 models on „Bike“ including up to two Invader ATV/Trike(any mixture) models.
+Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ and „Gravis Armor“ count as 2 and models with the keyword „Centurion Armor“ count as 3 models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Adamantine Assault" id="245b-e4fa-23ed-336d" hidden="false" type="rule" targetId="1d86-bcec-70d9-eda5"/>
+        <infoLink name="Deadly Demise(24/2D6+12)" id="6b7b-7adc-c894-59c8" hidden="false" type="rule" targetId="f975-0178-f8b6-1acc"/>
+        <infoLink name="Hover" id="24ad-6b0b-9478-c76d" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+        <infoLink name="Invulnerable Save(5+)" id="9561-0335-d2c1-fbf0" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="4 Twin Heavy Bolters" hidden="false" id="897a-62a3-4e56-220e" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e7e6-4987-6a0f-6702" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edbe-7355-849e-ffc1" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="b27c-f0ec-d85d-22da" type="selectionEntry" targetId="f460-1f29-9a39-8fda" collective="true">
+              <constraints>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="814b-71f3-7fa9-0f84" includeChildSelections="false"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="c12c-4324-7eb8-7d51" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="2 Thunderhawk Las Cannons" hidden="false" id="cd87-2fdb-b625-0665" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b29-7ff7-fbd2-96ef" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad9e-40d4-b985-981c" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Thunderhawk Las Cannon" hidden="false" id="0733-1038-7163-4a9d" type="selectionEntry" targetId="da0b-2a7c-1ae7-79d1" collective="true">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1521-17b1-15d2-97a6" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="896b-fedd-00d5-552f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Primary Cannon" id="10e8-73b4-f867-0b2b" hidden="false" defaultSelectionEntryId="7f40-e718-0ffc-0ec2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fb8f-0218-a0c0-8203" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57b2-c825-5cfc-c01b" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Thunderhawk Heavy Cannon" hidden="false" id="c33d-d5d7-e436-c8df" type="selectionEntry" targetId="ff72-3561-03e7-09a9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4695-0f92-49be-7402" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Thunderhawk Turbo Laser Destroyer" hidden="false" id="9b3a-abe4-3000-6cc6" type="selectionEntry" targetId="e0cf-f0d9-9bcf-321b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b85c-5d71-f9c1-9c2c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="100"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Secondary Equipment" id="ee22-3078-60fa-2651" hidden="false" defaultSelectionEntryId="c7b0-76f8-ef04-ef43">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="024c-dfb3-4b0a-6f4b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c9e-c7d0-1a3f-6259" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Thunderhawk Cluster Bombs" hidden="false" id="6d99-8cae-7b49-bd6b" type="selectionEntry" targetId="bb61-4158-e387-7212">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17e8-a780-207b-0a2c" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Hellstrike Battery" hidden="false" id="c114-02f4-5922-66ab" type="selectionEntry" targetId="5718-daa1-7fe9-365f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d51-3529-5af1-522c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="100"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="a907-cfb1-6a9a-e830" targetId="bc81-8c0c-a3e9-47a4" primary="false"/>
+        <categoryLink name="AT - Super Heavy Armor" hidden="false" id="8d2a-cdf0-0e06-c64d" targetId="12fc-d5fa-55b9-732e" primary="false"/>
+        <categoryLink name="Fly" hidden="false" id="f813-3c5e-220d-da6f" targetId="31ec-3b28-d612-9363" primary="false"/>
+        <categoryLink name="Tansport" hidden="false" id="bd5f-5193-62bf-2fe4" targetId="6e12-88d0-c09c-2c72" primary="false"/>
+        <categoryLink name="SUPER FACTION: Imperium" hidden="false" id="4532-12c5-99ca-99a2" targetId="fa28-a209-4a67-e026" primary="false"/>
+        <categoryLink name="Thunderhawk Gunship" hidden="false" id="018b-f7cb-1a99-df96" targetId="0614-d0a0-36d8-d084" primary="false"/>
+        <categoryLink targetId="14af-5927-aae4-8cd2" id="e0a7-e16e-a6bc-6d39" primary="false" name="FACTION: Grey Knights"/>
+      </categoryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="We Never Relent" id="68fa-7a37-099e-a143" hidden="false">
@@ -3029,7 +3146,7 @@ The Psilencer scores two(2) additional hits for every unmodified Hit Roll of 6.<
         <entryLink import="true" name="Interception Generator" hidden="false" id="9f72-b403-c38c-7a5a" type="selectionEntry" targetId="ec45-c0e4-dfc2-49c4"/>
         <entryLink import="true" name="Voldus&apos; Matrix" hidden="false" id="508f-853e-b477-0406" type="selectionEntry" targetId="da67-c1d3-064e-2978"/>
         <entryLink import="true" name="Null Field Generator" hidden="false" id="1ee4-0976-cd97-0def" type="selectionEntry" targetId="f7e6-c0b0-bd58-6ae9"/>
-        <entryLink import="true" name="Warp Shattering Great Demon Hammer" hidden="false" id="913f-0d76-8c24-161b" type="selectionEntry" targetId="df61-f4aa-6cd6-ecce"/>
+        <entryLink import="true" name="Warp Shattering Demon Greathammer" hidden="false" id="913f-0d76-8c24-161b" type="selectionEntry" targetId="df61-f4aa-6cd6-ecce"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

@@ -55,6 +55,9 @@
     <categoryEntry name="Vendetta" id="c6bb-ea06-476b-8eb3" hidden="false"/>
     <categoryEntry name="Vulture Gunship" id="8f65-a937-df79-4733" hidden="false"/>
     <categoryEntry name="Conscripts" id="56ee-4fb7-e2c8-da0e" hidden="false"/>
+    <categoryEntry name="Malcador" id="5314-8c22-cbfe-189e" hidden="false"/>
+    <categoryEntry name="Malcador Infernus" id="d7cc-a552-a80e-123b" hidden="false"/>
+    <categoryEntry name="Valdor Tank Hunter" id="41d2-f15a-6be1-b530" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Vostroyan Firstborn Guardsmen" hidden="false" id="23e8-cf10-1263-bb76">
@@ -3536,7 +3539,7 @@
                     <cost name="Pts" typeId="Points" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink import="true" name="Basilisk Tremmor Cannon" hidden="false" id="f937-e7e2-d698-7d54" type="selectionEntry" targetId="d817-9a07-a9a8-a299"/>
+                <entryLink import="true" name="Basilisk Tremor Cannon" hidden="false" id="f937-e7e2-d698-7d54" type="selectionEntry" targetId="d817-9a07-a9a8-a299"/>
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
@@ -7454,6 +7457,445 @@ Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take u
           </costs>
         </entryLink>
       </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Malcador" hidden="false" id="302a-0c27-858d-e306">
+      <costs>
+        <cost name="Pts" typeId="Points" value="225"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="1759-126e-f709-b95b" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="c5b4-4035-6879-691a" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="415e-665c-df3b-6767" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e01-160d-17b3-e61c" id="a3b6-4372-24e9-10b5" primary="false" name="FACTION: Imperial Guard"/>
+        <categoryLink targetId="5314-8c22-cbfe-189e" id="a84f-f611-afea-f101" primary="false" name="Malcador"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Malcador" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="f25f-7482-8ded-e95e">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">9</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">5+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">8</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">15</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">36</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fortified Tank" id="d3ff-71ac-996a-80be" hidden="false" type="rule" targetId="ec95-58ab-917c-22f3"/>
+        <infoLink name="Deadly Demise(9/D6+6)" id="3ced-184a-2c0c-618c" hidden="false" type="rule" targetId="4b9c-33bc-bfea-4f58"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hull Weapon" id="7569-127d-81c4-7c4b" hidden="false" defaultSelectionEntryId="200e-7078-4c68-3d70" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a334-5bd7-2de3-cda3" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ea5-47b9-8baf-c43b" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Heavy Stubber" hidden="false" id="200e-7078-4c68-3d70" type="selectionEntry" targetId="fc66-d4fb-9970-8a1c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bda3-a44a-4085-9368" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Heavy Bolter" hidden="false" id="8ce7-1875-98a9-767c" type="selectionEntry" targetId="400e-c07b-a638-e99c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab3b-84b1-a259-5206" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Autocannon" hidden="false" id="068f-d776-34d8-2633" type="selectionEntry" targetId="f6f0-c8b1-7505-5f8b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fac-a4ae-cf4d-4b92" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Las Cannon" hidden="false" id="92fc-4dd4-3732-3b4b" type="selectionEntry" targetId="fe-667b-254f-727d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37c7-fe9e-770a-b4a5" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy Flamer" hidden="false" id="eac6-fb67-61a5-7363" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a05-40eb-952c-667f" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Demolisher Cannon" hidden="false" id="1f29-77a0-373f-1cad" type="selectionEntry" targetId="bcd1-d4d5-4aa2-2fdc">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d11-ced4-980c-e164" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Sponsons" id="136b-9388-4e42-a326" hidden="false" sortIndex="3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00ff-75b5-fade-a7e8" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Heavy Bolter Sponsons" hidden="false" id="2d78-3d98-7426-55fa" type="selectionEntry" targetId="4ae2-7003-2997-f8a5">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Autocannon Sponsons" hidden="false" id="9a82-e058-c943-651f" type="selectionEntry" targetId="8f11-2545-bf54-d12e">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Las Cannon Sponsons" hidden="false" id="4106-4bf6-a35b-fd37" type="selectionEntry" targetId="9c22-8314-b464-bdb8">
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy Flamer Sponsons" hidden="false" id="f002-afd0-eac4-a3c4" type="selectionEntry" targetId="927f-a1d4-26e1-2c7">
+              <costs>
+                <cost name="Pts" typeId="Points" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Stubber Sponsons" hidden="false" id="05ef-de7d-0b97-a105">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bd9-7b4a-d3a7-3d24" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Heavy Stubber" hidden="false" id="2cf3-829d-86f7-6d0e" type="selectionEntry" targetId="fc66-d4fb-9970-8a1c">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="232e-6d1b-a226-a8ed" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5f47-833d-8de8-c408" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="Points" value="5"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Turret Weapon" id="c9d1-532d-a3a2-b7e7" hidden="false" sortIndex="1" defaultSelectionEntryId="c2ad-ab99-d2a2-4507">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98f7-ade7-685c-6c00" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75f3-f0e2-a20c-9920" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Malcador Battlecannon" hidden="false" id="c2ad-ab99-d2a2-4507" type="selectionEntry" targetId="397a-28db-8889-cfe6">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78f9-a781-47b9-3c0b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Heavy Vanquisher Cannon" hidden="false" id="469b-9ce5-ead3-213f" type="selectionEntry" targetId="5491-5172-17d8-feeb">
+              <costs>
+                <cost name="Pts" typeId="Points" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f84-5d91-b131-2482" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Twin Heavy Las Cannon" hidden="false" id="a007-2ae9-45a9-37ff" type="selectionEntry" targetId="c771-045f-4381-7364">
+              <costs>
+                <cost name="Pts" typeId="Points" value="35"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4af4-df0e-de72-9ae3" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="6a3e-b100-7c4c-a77f" type="selectionEntry" targetId="6215-d596-90c2-915a" sortIndex="4">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c2b5-2018-9421-995f" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="fd96-c22f-68b3-003e" type="selectionEntry" targetId="f655-bd54-59d-6e0c" sortIndex="5"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Malcador Battlecannon" hidden="false" id="397a-28db-8889-cfe6">
+      <profiles>
+        <profile name="Malcador Battlecannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="f5e7-b231-77d4-142a">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">10</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(3),Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Vanquisher Cannon" hidden="false" id="5491-5172-17d8-feeb">
+      <profiles>
+        <profile name="Heavy Vanquisher Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="6448-bf4c-fd31-50dc">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">72</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">18</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin Heavy Las Cannon" hidden="false" id="c771-045f-4381-7364">
+      <profiles>
+        <profile name="Twin Heavy Las Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="49ba-6083-d964-d7c8">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">18</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">6</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Malcador Infernus" hidden="false" id="8016-3fd5-672f-c7ca">
+      <costs>
+        <cost name="Pts" typeId="Points" value="255"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="d76a-9609-b011-1dc8" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="3a5a-e1ef-3bb4-d6df" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="5cc0-6859-9176-28f6" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e01-160d-17b3-e61c" id="fabf-9ff6-fb29-41e2" primary="false" name="FACTION: Imperial Guard"/>
+        <categoryLink targetId="d7cc-a552-a80e-123b" id="ad57-e4fb-af52-8acf" primary="false" name="Malcador Infernus"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Malcador Infernus" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="8435-ba87-4d1e-2704">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">9</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">5+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">8</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">15</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">36</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fortified Tank" id="e978-f5ef-6a55-97d7" hidden="false" type="rule" targetId="ec95-58ab-917c-22f3"/>
+        <infoLink name="Deadly Demise(9/D6+6)" id="74bc-33c5-a150-c01e" hidden="false" type="rule" targetId="4b9c-33bc-bfea-4f58"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sponsons" id="59a7-3698-4a00-0f96" hidden="false" sortIndex="2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eab1-36ff-555a-a29f" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Heavy Bolter Sponsons" hidden="false" id="b3be-9488-4b38-76e6" type="selectionEntry" targetId="4ae2-7003-2997-f8a5">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Autocannon Sponsons" hidden="false" id="2077-3abd-0c24-3c57" type="selectionEntry" targetId="8f11-2545-bf54-d12e">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Las Cannon Sponsons" hidden="false" id="553e-2b96-9aea-dcfc" type="selectionEntry" targetId="9c22-8314-b464-bdb8">
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Heavy Flamer Sponsons" hidden="false" id="62d4-7953-065b-8142" type="selectionEntry" targetId="927f-a1d4-26e1-2c7">
+              <costs>
+                <cost name="Pts" typeId="Points" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Stubber Sponsons" hidden="false" id="1eea-428b-9833-a997">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="02d4-dc4a-5c6b-87d0" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Heavy Stubber" hidden="false" id="99e8-b990-d3af-db4b" type="selectionEntry" targetId="fc66-d4fb-9970-8a1c">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="532c-47cf-8952-17b1" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b342-2005-6bf7-9781" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="Points" value="5"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="40c6-6267-1376-18eb" type="selectionEntry" targetId="6215-d596-90c2-915a" sortIndex="3">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="456c-8f2d-b507-c282" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="ffe1-e2fc-5d28-89f8" type="selectionEntry" targetId="f655-bd54-59d-6e0c" sortIndex="4"/>
+        <entryLink import="true" name="Malcador Infernus Cannon" hidden="false" id="8fe4-6ac4-d478-6a0f" type="selectionEntry" targetId="d753-24f0-6d60-7f7a" collective="true" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cdaa-8db1-78ab-e82e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="730b-fb91-8575-c361" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Malcador Infernus Cannon" hidden="false" id="d753-24f0-6d60-7f7a">
+      <profiles>
+        <profile name="Malcador Infernus Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="be77-8641-0057-8d61">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">20</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">6</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Tb(4)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Valdor Tank Hunter" hidden="false" id="4081-7e4a-f48e-080e">
+      <costs>
+        <cost name="Pts" typeId="Points" value="245"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="b4a7-c22b-3d0e-14b0" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="8886-5b6e-9823-3aaf" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="9d13-2bb0-8e69-574c" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="8e01-160d-17b3-e61c" id="970f-f5ed-9980-f194" primary="false" name="FACTION: Imperial Guard"/>
+        <categoryLink targetId="41d2-f15a-6be1-b530" id="b1b9-2f2c-2bf9-9ad9" primary="false" name="Valdor Tank Hunter"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Valdor Tank Hunter" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="ee10-8cf6-bbac-61a8">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">9</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">5+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">8</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">15</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">36</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fortified Tank" id="3400-7931-7e94-7c70" hidden="false" type="rule" targetId="ec95-58ab-917c-22f3"/>
+        <infoLink name="Deadly Demise(9/D6+6)" id="0ece-cfb0-47e0-c3d1" hidden="false" type="rule" targetId="4b9c-33bc-bfea-4f58"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sponson" id="54ad-be02-6a28-4508" hidden="false" sortIndex="2" defaultSelectionEntryId="b76f-93da-6b34-3626">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e7c0-8e0a-0745-1fd0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d385-2b2e-4cfa-936b" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Heavy Stubber" hidden="false" id="b76f-93da-6b34-3626" type="selectionEntry" targetId="fc66-d4fb-9970-8a1c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="761b-5ac7-4011-0b75" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Heavy Bolter" hidden="false" id="dc34-39c5-7ddb-d401" type="selectionEntry" targetId="400e-c07b-a638-e99c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfc8-daf8-5c7d-b7ec" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Autocannon" hidden="false" id="0949-5b0a-b9b5-b5de" type="selectionEntry" targetId="f6f0-c8b1-7505-5f8b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80eb-ca91-81ab-17f4" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Las Cannon" hidden="false" id="1af8-fd0f-2390-e75c" type="selectionEntry" targetId="fe-667b-254f-727d">
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="477d-4a10-0b8a-56f7" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Heavy Flamer" hidden="false" id="e585-64c3-58e7-abe5" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb2e-7756-153b-6800" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="41c3-0c2c-1c46-d8a4" type="selectionEntry" targetId="6215-d596-90c2-915a" sortIndex="3">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0c57-ab87-4be8-64a2" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="4e25-223d-ebd3-3bea" type="selectionEntry" targetId="f655-bd54-59d-6e0c" sortIndex="4"/>
+        <entryLink import="true" name="Laser Tank Hunter" hidden="false" id="7309-5e34-707b-07ad" type="selectionEntry" targetId="cb3e-3a9a-9752-9b97" sortIndex="1" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="363e-1b5b-d6f0-da05" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b7e-bdf6-6bf6-e7ea" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Laser Tank Hunter" hidden="false" id="cb3e-3a9a-9752-9b97">
+      <profiles>
+        <profile name="Laser Tank Hunter" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="bfac-d283-7d33-4086">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">60</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">28</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>

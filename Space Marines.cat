@@ -947,6 +947,11 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Thunderhawk Gunship" hidden="false" id="cf58-9958-5d8e-8c10" type="selectionEntry" targetId="a921-73ca-10e1-5097">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="4b4e-fb2e-3d24-8304" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Space Marines" id="1a54-9cc0-6596-93c6" targetId="b9aa-5902-f97d-9cd5"/>

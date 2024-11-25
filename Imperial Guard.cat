@@ -426,5 +426,20 @@
         <categoryLink targetId="79e5-570b-2bdd-d3d7" id="787a-0e68-e007-2886" primary="true" name="TROOPS"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Malcador" hidden="false" id="4cb4-54e5-b89b-e403" type="selectionEntry" targetId="302a-0c27-858d-e306">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="e904-a8d0-53a4-f341" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Malcador Infernus" hidden="false" id="4e53-759c-54a0-28ee" type="selectionEntry" targetId="8016-3fd5-672f-c7ca">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="dc64-6fac-0684-6c1a" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Valdor Tank Hunter" hidden="false" id="182e-f1ec-2db2-1b98" type="selectionEntry" targetId="4081-7e4a-f48e-080e">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="aab0-7a3c-4299-b34d" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

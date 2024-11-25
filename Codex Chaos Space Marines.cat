@@ -17058,7 +17058,10 @@ This model can cast any Psychic Powers it is equipped up to twice per turn and n
   </sharedRules>
   <rules>
     <rule name="Eternal Hatred" id="1211-1b56-0f2d-c26b" hidden="false">
-      <description>At the start of every of your Command Phases, you can pick a single enemy unit, you can reroll all failed Ranged or Melee Hit Rolls of 1 against that unit.</description>
+      <description>At the start of every of your Command Phases, you can pick a single enemy unit, you can reroll all failed Ranged or Melee Hit Rolls of 1 against that unit.
+
+
+Per full 2000 Points game size (2000,4000,6000,8000etc.) you can select another unit.</description>
     </rule>
     <rule name="Warp Armor" id="aca0-3946-7681-7a4a" hidden="false">
       <description>Wound Rolls of 1-2 always fail against Chaos Space Marine „Infantry“ units.(only units with Heavy Armor or higher) Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Space Marine Infantry unit.</description>
