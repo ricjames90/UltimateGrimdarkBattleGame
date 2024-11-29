@@ -9511,7 +9511,7 @@ The units Psyker level is dependent on the amount of models in this unit.
   </sharedSelectionEntryGroups>
   <rules>
     <rule name="Weavers Of Destiny" id="bcfe-ba70-83a0-4cc7" hidden="false">
-      <description>For every started 1000P of game size (1-1000P,1001-2000P,2001-3000P,3001-4000P etc.), oncer per turn, you can consider a single Hit Roll, a single Wound Roll, a single Damage Roll and a single Save Roll to be an unmodified 6 after you&apos;ve resolved the roll. This rule can not modify a roll that has already been rerolled by a different rule. Only on of these roles per phase can be used on a Vehicle or Monster unit and only one per turn on a Super Heavy Support Unit.</description>
+      <description>For every started 1000P of game size (1-1000P,1001-2000P,2001-3000P,3001-4000P etc.), oncer per turn, you can consider a single Hit Roll, a single Wound Roll, a single Damage Roll and a single Save Roll to be an unmodified 6 after you&apos;ve resolved the roll. This rule can not modify a roll that has already been rerolled by a different rule. Only one of these roles per phase can be used on a Vehicle or Monster unit and only one per turn on a Super Heavy Support Unit.</description>
     </rule>
   </rules>
 </catalogue>

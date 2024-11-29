@@ -2697,7 +2697,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="equalTo" value="0" field="selections" scope="force" childId="9d74-aafe-b73c-1c6f" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="79b2-c692-374a-e8d0" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3954,6 +3954,8 @@ change the damage characteristic of the attack to D6+2.</characteristic>
         <entryLink import="true" name="Tyranid Relics" hidden="false" id="efd4-38b7-c1d4-9835" type="selectionEntryGroup" targetId="b24d-dbe1-2776-0b38">
           <entryLinks>
             <entryLink import="true" name="Impenetrable Mind" hidden="false" id="abcf-0d16-31cb-8969" type="selectionEntry" targetId="f332-106d-ab1d-9043"/>
+            <entryLink import="true" name="Apex Warp Predator" hidden="false" id="7327-d777-0f0c-94cb" type="selectionEntry" targetId="4ad6-59d9-5218-d3cb"/>
+            <entryLink import="true" name="Super Improved Cerebral Genetics" hidden="false" id="d5b8-120d-63b5-60fb" type="selectionEntry" targetId="0d37-3d91-8e27-9380"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -4680,6 +4682,10 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+      <costs>
+        <cost name="Pts" typeId="Points" value="20"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Definitive Death" hidden="false" id="45bf-54e6-8a77-fc4d">
       <comment>Kronos Relic</comment>
@@ -5622,6 +5628,113 @@ change the damage characteristic of the attack to D6+2.</characteristic>
       </profiles>
       <comment>Tyrantguard</comment>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Overwhelmed By The Shadow In The Warp" hidden="false" id="99eb-4efd-dcd9-5cba">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ded-fef6-044a-6d76" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="Points" value="15"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Overwhelmed By The Shadow In The Warp" typeId="8517-662f-2fa8-20df" typeName="Psychic Power" hidden="false" id="04f8-cfde-9792-101a">
+          <characteristics>
+            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">6+</characteristic>
+            <characteristic name="Type" typeId="6ef-c62c-afed-c479">Buff</characteristic>
+            <characteristic name="Range" typeId="51d3-8e0a-687-f09f">18</characteristic>
+            <characteristic name="A" typeId="4f00-8e5f-499b-879b"/>
+            <characteristic name="S" typeId="840c-e1cb-221b-d605"/>
+            <characteristic name="D" typeId="8789-ec23-5ea-8f4b"/>
+            <characteristic name="Rules" typeId="b42d-8312-d021-6cc3">Pick a single friendly „Neurogants“ unit with 18&apos;&apos; of the casting model. Unmodified Wound Rolls of 6 automatically wound the target. This includes atacks made with Psychic Powers cast by a „Neurogants“ unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="073c-bd84-3b74-a28e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Apex Warp Predator" hidden="false" id="4ad6-59d9-5218-d3cb">
+      <comment>Ouroboris Relic</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52dd-fd02-edc2-3a43" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5001-14d1-6c30-5725" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Apex Warp Predator" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="95e0-fabc-3ab0-7adf">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Neurotyrant only. Enemy units within 24&apos;&apos; of this model subtract -1 from their „Psychic Resilience“ Roll, this also can cause the roll to fail automatically.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="Points" value="35"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="073c-bd84-3b74-a28e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Super Improved Cerebral Genetics" hidden="false" id="0d37-3d91-8e27-9380">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fa3-47e2-3cf7-ee55" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="72c8-7948-1787-8244" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <comment>Ouroboris Relic</comment>
+      <costs>
+        <cost name="Pts" typeId="Points" value="15"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Super Improved Cerebral Genetics" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="7d87-3122-6698-e0bb">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Neurotyrant only. Improves it&apos;s „Psyker“ Stage from 4 to 5.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Psyker(5)" id="a82c-bf2d-1ad8-c1ee" hidden="false" type="rule" targetId="4c9c-98fa-cc6e-8577"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="073c-bd84-3b74-a28e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warp Resistant Carapace" hidden="false" id="2299-7181-13f0-0742">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fbc-af83-15e2-4f38" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8a1a-2ca4-2a03-2845" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <comment>Ouroboris Relic</comment>
+      <profiles>
+        <profile name="Warp Resistant Carapace" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="9ccd-169d-944c-2efd">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The models „Psychic Resilience“ rolls are improved by 1. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="Points" value="5"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="073c-bd84-3b74-a28e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <rules>
     <rule name="Synaptic Link" id="b61b-68d4-d797-68ac" hidden="false">
@@ -5957,6 +6070,14 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
             <infoLink name="Out Of The Dark" id="f972-0ae1-800e-df01" hidden="false" type="profile" targetId="ca8b-17cb-19ce-edfe"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Ouroboris" hidden="false" id="073c-bd84-3b74-a28e">
+          <infoLinks>
+            <infoLink name="Shadow In The Warp" id="bdd0-caa1-9deb-8918" hidden="false" type="profile" targetId="e642-b5fc-d30e-8cea"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a769-0bb0-0e1a-e516" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
       <modifiers>
         <modifier type="set" value="95e6-5b5b-0361-faf8" field="defaultSelectionEntryId"/>
@@ -5969,6 +6090,7 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
         <entryLink import="true" name="Insectoid Suppression" hidden="false" id="d01f-0e92-3151-fd21" type="selectionEntry" targetId="61ac-ade7-45d8-a5fe"/>
         <entryLink import="true" name="Shadow Of The Hivemind" hidden="false" id="b555-b9b7-15f9-622a" type="selectionEntry" targetId="6951-39de-2c35-f7a1"/>
         <entryLink import="true" name="Lightning Quick Charge" hidden="false" id="96fe-e055-df86-c2e9" type="selectionEntry" targetId="34bb-c344-c5aa-3720"/>
+        <entryLink import="true" name="Overwhelmed By The Shadow In The Warp" hidden="false" id="7fb9-ab32-577d-80ba" type="selectionEntry" targetId="99eb-4efd-dcd9-5cba"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Tyranid Relics" id="b24d-dbe1-2776-0b38" hidden="false">
@@ -5986,6 +6108,7 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
         <entryLink import="true" name="Draw Life" hidden="false" id="2c93-5dad-1971-cae1" type="selectionEntry" targetId="2c5b-f5bd-2db2-5ae1"/>
         <entryLink import="true" name="Regrowing Limbs" hidden="false" id="cc83-8b28-4b80-e68b" type="selectionEntry" targetId="47ad-0e2c-45bd-cbbf"/>
         <entryLink import="true" name="Chamelioline Carapace" hidden="false" id="2fff-c822-fb7d-face" type="selectionEntry" targetId="1add-0b68-7048-102e"/>
+        <entryLink import="true" name="Warp Resistant Carapace" hidden="false" id="a3e6-755b-e8e6-5cff" type="selectionEntry" targetId="2299-7181-13f0-0742"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -6014,6 +6137,11 @@ Monster Type Units ad +1M&apos;&apos; to their stat and also add +1 to their cha
     <profile name="Out Of The Dark" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="ca8b-17cb-19ce-edfe">
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">Hive Fleet Kronos units are eligible to declare a charge in a turn they advanced. Also, Infantry units that have remained stationary gain the „Stealth“ Special Rule. Monster units gain the „Stealth“ Rule in a turn they advanced and/or have charged.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shadow In The Warp" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="e642-b5fc-d30e-8cea">
+      <characteristics>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Hive Fleet Ouroboris „Neurogants“ gain the „Invulnerable Save(5+)“ Special Rule Also add +1A to the Neurogants „Claws“ profile. Hive Fleet Ouroboris „Zoanthropes“, „Neurotyrants“, „Maleceptor“ and „Neurogant units add +1 to their Psychic Power casting rolls. Neurolictors can be attached to „Neurogants“ as if they were „Hero“-Type units. Neurolictors attached to Neurogants that way can&apos;t be selected as the target of attacks at all, even if they have the „Precision“ special rule.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

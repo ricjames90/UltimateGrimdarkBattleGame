@@ -395,9 +395,9 @@
         <entryLink import="true" name="Necron Relics" hidden="false" id="de93-faf0-6fb6-1432" type="selectionEntryGroup" targetId="0a47-c0ed-fbe6-c713" sortIndex="1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Orb Of Ressurection" hidden="false" id="162c-64f1-7755-6c97">
+    <selectionEntry type="upgrade" import="true" name="Orb Of Resurrection" hidden="false" id="162c-64f1-7755-6c97">
       <profiles>
-        <profile name="Orb Of Ressurection" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="9589-d80b-1e74-bad6">
+        <profile name="Orb Of Resurrection" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="9589-d80b-1e74-bad6">
           <characteristics>
             <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The unit this model may be attached to considers every successful „I&apos;ll Be Back“ Roll of 6+ as two. So you return 2 models according to the „I&apos;ll Be Back“ Special Rule. If the targeted unit is a „Necron Warriors“ Unit, this rule triggers on a 5+.</characteristic>
           </characteristics>
@@ -1725,9 +1725,9 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Orb Of Ressurrection" hidden="false" id="6539-f6e4-a929-9e92">
+    <selectionEntry type="upgrade" import="true" name="Orb Of Resurrection" hidden="false" id="6539-f6e4-a929-9e92">
       <profiles>
-        <profile name="Orb Of Ressurrection" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="b541-6169-80f3-ab88">
+        <profile name="Orb Of Resurrection" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="b541-6169-80f3-ab88">
           <characteristics>
             <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The unit this model may be attached to considers every successful „I&apos;ll Be Back“ Roll of 6+ as two. So you return 2 models according to the „I&apos;ll Be Back“ Special Rule. If the targeted unit is a „Necron Warriors“ Unit, this rule triggers on a 5+. If the unit this model is attached to is a „Mounted“ unit you can roll double the number of dice you would normaly roll and pick the 2 highest.</characteristic>
           </characteristics>
@@ -5234,7 +5234,7 @@ All Auras have a range of 12&apos;&apos;.
       <description>The unit this model is attached to gains the „Invulnerable Save(5+)“ Special Rule.</description>
     </rule>
     <rule name="Hexmark Multi-Thread Destroyer" id="6f54-da53-5db9-cd29" hidden="false">
-      <description>This model ignores any penalties to both its ranged Hit Rolls and its Ballistic Skill Characteristic. It also hits successfuly on 2+ when firing Overwatch. Everytime a friendly Necron Unit within 9&apos;&apos; of this model is being selected as the target of a charge, this model can fire Overwatch as well. </description>
+      <description>This model ignores any penalties to both its ranged Hit Rolls and its Ballistic Skill Characteristic. It also hits successfuly on 2+ when firing Overwatch. Everytime a friendly Necron Unit within 9&apos;&apos; of this model is being selected as the target of a charge, this model can fire Overwatch as well.</description>
     </rule>
   </sharedRules>
   <rules>

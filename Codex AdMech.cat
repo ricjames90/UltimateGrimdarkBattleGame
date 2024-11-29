@@ -524,7 +524,7 @@
             <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
-            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Pre</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4943,7 +4943,7 @@
         <categoryLink targetId="45a-53f1-6fb3-a010" id="eb8d-184d-e0a3-e242" primary="false" name="FACTION: AdMech"/>
         <categoryLink targetId="a150-8d9a-4095-e170" id="22e6-fd87-8a49-5e94" primary="false" name="Character"/>
         <categoryLink targetId="a614-365f-e5c1-d4b2" id="062e-1b26-2631-6b0c" primary="false" name="Skitarii"/>
-        <categoryLink targetId="8cd7-921b-02a9-d790" id="339c-b279-00dc-bcdc" primary="false" name="Marshall Skratos"/>
+        <categoryLink targetId="8cd7-921b-02a9-d790" id="339c-b279-00dc-bcdc" primary="false" name="Marshall"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Invulnerable Save(5+)" id="0b8d-918a-da5c-93ca" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
@@ -6392,7 +6392,7 @@ Aegis Protocol: Increase the BS Characteristic to 3+.</description>
       <description>Once per Game Turn, at the end of your movement phase, after this model has moved, you can pick a single enemy unit you moved over and roll 10D6. For every 3+, that enemy unit suffers a single Mortal Wound.</description>
     </rule>
     <rule name="Flare Shield" id="bbf0-b125-285a-7b8d" hidden="false">
-      <description>Subtract -1 from wound rolls made by enemy ranged attacks, that were at 9&apos;&apos; or closer to this model when firing. </description>
+      <description>Subtract -1 from wound rolls made by enemy ranged attacks, that were at 9&apos;&apos; or closer to this model when firing.</description>
     </rule>
     <rule name="Protected By Kastelans" id="698e-71c9-2ece-829b" hidden="false">
       <description>This model can not be selected as the target of any enemy attacks when within 3&apos;&apos; of at least a single friendly „Kastelan Robot“ model.</description>
@@ -6417,7 +6417,7 @@ Aegis Protocol: Increase the BS Characteristic to 3+.</description>
       <description>Once per turn, at the end of the movement phase, pick a single friendly Vehicle Unit within 6&apos;&apos; of this model it regains D6+3 lost Life Points.</description>
     </rule>
     <rule name="Lord Of Plebs" id="d31a-f565-7882-358d" hidden="false">
-      <description>At the start of your command phase, pick one friendly „Ranger Squad“, „Vanguard Squad“ or „Adsecularis Tech Thralls“ unit within 3&apos;&apos; of this model. Return D3(D6 in case of Adescularis Tech Tralls) plus 1 model per 10 models of starting strength lost models back to the unit. </description>
+      <description>At the start of your command phase, pick one friendly „Ranger Squad“, „Vanguard Squad“ or „Adsecularis Tech Thralls“ unit within 3&apos;&apos; of this model. Return D3(D6 in case of Adescularis Tech Tralls) plus 1 model per 10 models of starting strength lost models back to the unit.</description>
     </rule>
     <rule name="Magos Flare Shield" id="c19a-155c-2330-f2f8" hidden="false">
       <description>Subtract -1 from wound rolls made by enemy ranged attacks, that were at 12&apos;&apos; or closer to this model and the unit it is attached to when firing.</description>

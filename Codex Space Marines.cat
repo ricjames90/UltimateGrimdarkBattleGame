@@ -1791,6 +1791,20 @@ It can ony transport models with the keyword „Power Armor“.
 Models with the keyword „Power Armor“ count as 1.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Razorback" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="e10c-497d-876a-e651">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">14</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">18</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <entryLinks>
         <entryLink import="true" name="Combatweapon" hidden="false" id="8ae9-717c-256d-56e0" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
@@ -20855,7 +20869,7 @@ Assault Intercessors can declare a charge in a turn they advanced.</description>
       <description>In a turn this unit remained stationary, it adds +1 to any AS Rolls.</description>
     </rule>
     <rule name="Multispectral Auspex" id="682-d687-5877-14df" hidden="false">
-      <description>Pick one enemy unit that was target of any ranged attacks of this unit, a single friendly unit of yours is allowed to reroll failed any failed hit rolls of 1 against said picked enemy unit</description>
+      <description>Pick one enemy unit that was target of any ranged attacks of this unit, a single friendly unit of yours is allowed to reroll fany failed hit rolls of 1 against said enemy unit</description>
     </rule>
     <rule name="Nuclear Ammo" id="3de9-b391-4fef-f2de" hidden="false">
       <description>Once per Game, either:
@@ -20943,7 +20957,7 @@ Units that disembarked from this unit are eligible to declare a charge in the sa
       <description>Once per Game, every unodified hit roll of 5+ with a Plasma Incinerator adds another successful hit.</description>
     </rule>
     <rule name="Ultracharged Powergenerators" id="ee4f-43ff-9fa6-9b33" hidden="false">
-      <description>Everytime after this model has fire all its weapons, roll a single D6, if you roll a 1-2, this model suffers D6+1 Mortal Wounds. Also, this models Deadly Demise Special Rule is triggered on a 3+.</description>
+      <description>Everytime after this model has fired all its weapons, roll a single D6, if you roll a 1-2, this model suffers D6+1 Mortal Wounds. Also, this models Deadly Demise Special Rule is triggered on a 3+.</description>
     </rule>
     <rule name="Unforgiving Advance" id="52e4-bdd8-3fc1-461a" hidden="false">
       <description>Once per game, in a controlling player turn, this model is considered having remained stationary even when it has made a normal move.</description>
