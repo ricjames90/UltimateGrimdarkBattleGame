@@ -243,5 +243,10 @@
         <categoryLink targetId="f1fb-8972-b52f-8855" id="6d12-56de-64d9-7e79" primary="true" name="ELITE"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Dominatrix" hidden="false" id="abfa-57bb-8050-2e1f" type="selectionEntry" targetId="da6e-4919-a720-8018">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="7910-e8ef-8e5f-7175" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

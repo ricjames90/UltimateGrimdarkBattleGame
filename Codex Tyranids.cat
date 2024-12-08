@@ -57,6 +57,7 @@
     <categoryEntry name="Psychophage" id="5e1d-ced2-096a-eb50" hidden="false"/>
     <categoryEntry name="Raveners" id="d405-6aaf-730e-28de" hidden="false"/>
     <categoryEntry name="Expiravis Parasites" id="bf98-7e79-92ca-157b" hidden="false"/>
+    <categoryEntry name="Dominatrix" id="3991-89ce-c17e-8d52" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Tyranids Codex Rules" hidden="false" id="cfe3-bea3-a18d-75a6" collective="true">
@@ -787,7 +788,7 @@
       <profiles>
         <profile name="Barblauncher" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c42a-df59-db42-8371">
           <characteristics>
-            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">42</characteristic>
             <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
@@ -991,7 +992,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/4+</characteristic>
           </characteristics>
@@ -1644,7 +1645,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">10</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">D3+1</characteristic>
-            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">ArF</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,ArF</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5719,7 +5720,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
       <profiles>
         <profile name="Warp Resistant Carapace" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="9ccd-169d-944c-2efd">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The models „Psychic Resilience“ rolls are improved by 1. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The models „Psychic Resilience“ rolls are improved by 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5734,6 +5735,80 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Dominatrix" hidden="false" id="da6e-4919-a720-8018">
+      <costs>
+        <cost name="Pts" typeId="Points" value="295"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Dominatrix" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="3fa1-8a18-f1ca-0c53">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">9</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">16</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">36</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(9/D6+3)" id="decd-c6f2-d103-cb9c" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Impervious To Injuries(-1)" id="9d28-d60d-e74c-6b57" hidden="false" type="rule" targetId="b0d5-df50-640b-c3d4"/>
+        <infoLink name="Dominatrix Compound Eyes" id="23be-888e-cc14-1685" hidden="false" type="rule" targetId="3f73-d322-8330-367c"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Heavy Bio Plasmic Cannon" hidden="false" id="25db-a652-213d-f16c" type="selectionEntry" targetId="bcdf-5dd6-2113-885b"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="42d3-64d1-b710-6f62" id="f14c-90c1-f4a6-c669" primary="false" name="Monster"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="d982-f1d4-cacf-de83" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="e926-7697-48ba-75f3" id="661d-d40e-4202-53df" primary="false" name="SUPER FACTION: Tyranids"/>
+        <categoryLink targetId="4da3-c252-e57e-461f" id="d86f-7e47-d335-3e76" primary="false" name="FACTION: Tyranids"/>
+        <categoryLink targetId="3991-89ce-c17e-8d52" id="62d3-2adf-c4b5-2fd3" primary="false" name="Dominatrix"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Bio Plasmic Cannon" hidden="false" id="bcdf-5dd6-2113-885b" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fde0-e3cf-f313-ca3f" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="888a-41a2-4073-f6c3" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Heavy Bio Plasmic Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="4c9c-4be5-7539-985a">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">D3+1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">20</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,ArF</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dominatrix Scythes" hidden="false" id="e5e4-fe6e-2e0d-9048" collective="true">
+      <comment>Barbed Hierodule</comment>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b5ef-8868-073a-035c" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a823-8fef-4881-1131" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Dominatrix Scythes" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="b37b-8e1c-9f29-62f4">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+5</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <rules>
@@ -5874,6 +5949,9 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
     </rule>
     <rule name="Protection Protocoll" id="cedc-53ad-feae-dbbd" hidden="false">
       <description>A single Hive Tyrant model can be attached to this unit. An attach Hive Tyrant can not be selected as the target of any ranged attacks with the exception of weapons with the „Precision“ Special Rule.</description>
+    </rule>
+    <rule name="Dominatrix Compound Eyes" id="3f73-d322-8330-367c" hidden="false">
+      <description>This model does not suffer any penalties to its hit roll when targeting units with the „Flying“ keyword or „Aerial“ units, also if this unit moved half or less of its maximum movement range, it is still considered having remained stationary.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>
