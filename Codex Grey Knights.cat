@@ -2127,7 +2127,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         </profile>
       </profiles>
       <costs>
-        <cost name="Pts" typeId="Points" value="15"/>
+        <cost name="Pts" typeId="Points" value="20"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Titan&apos;s Demoncrusher" hidden="false" id="b466-51a2-ab83-5058">
@@ -2138,7 +2139,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <profiles>
         <profile name="Titan&apos;s Demoncrusher" typeId="8517-662f-2fa8-20df" typeName="Psychic Power" hidden="false" id="6b85-6e67-2e23-d183">
           <characteristics>
-            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">8+</characteristic>
+            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">7+</characteristic>
             <characteristic name="Type" typeId="6ef-c62c-afed-c479">Ranged</characteristic>
             <characteristic name="Range" typeId="51d3-8e0a-687-f09f">18</characteristic>
             <characteristic name="A" typeId="4f00-8e5f-499b-879b">D3+3</characteristic>
@@ -2160,7 +2161,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <profiles>
         <profile name="Warp Shielding" typeId="8517-662f-2fa8-20df" typeName="Psychic Power" hidden="false" id="cf23-99f8-34bc-2b5b">
           <characteristics>
-            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">7+</characteristic>
+            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">6+</characteristic>
             <characteristic name="Type" typeId="6ef-c62c-afed-c479">Buff</characteristic>
             <characteristic name="Range" typeId="51d3-8e0a-687-f09f">Self</characteristic>
             <characteristic name="A" typeId="4f00-8e5f-499b-879b"/>
@@ -2171,7 +2172,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         </profile>
       </profiles>
       <costs>
-        <cost name="Pts" typeId="Points" value="25"/>
+        <cost name="Pts" typeId="Points" value="30"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Purifying Flames" hidden="false" id="f922-3d62-4b7c-b106">
@@ -2182,18 +2184,19 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <profiles>
         <profile name="Purifying Flames" typeId="8517-662f-2fa8-20df" typeName="Psychic Power" hidden="false" id="3042-db00-6f52-8870">
           <characteristics>
-            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">8+</characteristic>
+            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">7+</characteristic>
             <characteristic name="Type" typeId="6ef-c62c-afed-c479">Ranged</characteristic>
             <characteristic name="Range" typeId="51d3-8e0a-687-f09f">12</characteristic>
             <characteristic name="A" typeId="4f00-8e5f-499b-879b">*</characteristic>
-            <characteristic name="S" typeId="840c-e1cb-221b-d605">4</characteristic>
+            <characteristic name="S" typeId="840c-e1cb-221b-d605">6</characteristic>
             <characteristic name="D" typeId="8789-ec23-5ea-8f4b">1</characteristic>
             <characteristic name="Rules" typeId="b42d-8312-d021-6cc3">Treat this Psychic Power as if it had the „Torrent“ and „Ignore Cover“ Special Rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Pts" typeId="Points" value="15"/>
+        <cost name="Pts" typeId="Points" value="20"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Slowing Time" hidden="false" id="5fba-0d21-ad6a-2241">
@@ -2215,7 +2218,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         </profile>
       </profiles>
       <costs>
-        <cost name="Pts" typeId="Points" value="25"/>
+        <cost name="Pts" typeId="Points" value="15"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Aetheric Terrain" hidden="false" id="7aba-fdb2-ffea-97ac">
@@ -2226,7 +2230,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <profiles>
         <profile name="Aetheric Terrain" typeId="8517-662f-2fa8-20df" typeName="Psychic Power" hidden="false" id="a3ac-3fab-28ad-0e74">
           <characteristics>
-            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">7+</characteristic>
+            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">6+</characteristic>
             <characteristic name="Type" typeId="6ef-c62c-afed-c479">Debuff</characteristic>
             <characteristic name="Range" typeId="51d3-8e0a-687-f09f">9</characteristic>
             <characteristic name="A" typeId="4f00-8e5f-499b-879b"/>
@@ -2237,7 +2241,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         </profile>
       </profiles>
       <costs>
-        <cost name="Pts" typeId="Points" value="15"/>
+        <cost name="Pts" typeId="Points" value="20"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Field Of Interference" hidden="false" id="8da0-de13-0975-a52a">
