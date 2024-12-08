@@ -5082,7 +5082,8 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Pts" typeId="Points" value="255"/>
+        <cost name="Pts" typeId="Points" value="245"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Legion Basilisk Tremor Cannon" hidden="false" id="f780-cb39-6fdd-bbfe" type="selectionEntry" targetId="f711-8117-5417-4a2b"/>

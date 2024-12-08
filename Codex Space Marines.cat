@@ -3112,7 +3112,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Whirlwind" hidden="false" id="5363-bf3-d2be-4e72">
       <costs>
-        <cost name="Pts" typeId="Points" value="200"/>
+        <cost name="Pts" typeId="Points" value="210"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="c133-722a-81e7-6009" primary="false" name="Vehicle"/>
@@ -3145,17 +3146,17 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="S" typeId="2436-99f4-4527-c475">6</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
-            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ex(7),ArF,IgC</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(7),ArF,IgC</characteristic>
           </characteristics>
         </profile>
         <profile name="Whirlwind Rocket Launcher - Castellan Missiles" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="cf85-d75d-bc9a-d6ae">
           <characteristics>
             <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
-            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+3</characteristic>
-            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Arf</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Arf</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10830,7 +10831,8 @@ Save (6+)“ Special Rule.</characteristic>
         <entryLink import="true" name="Combatweapon" hidden="false" id="97de-28db-9ed7-7c21" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="Points" value="190"/>
+        <cost name="Pts" typeId="Points" value="200"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="6d3a-4489-8b4f-38e5" primary="false" name="Vehicle"/>
@@ -10853,8 +10855,8 @@ Save (6+)“ Special Rule.</characteristic>
             <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">6</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">10</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
-            <characteristic name="D" typeId="1805-642f-c70c-51b6">D3</characteristic>
-            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">ArF,Tre</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D3+1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,ArF,Tre</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16787,7 +16789,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <entryLink import="true" name="Combatweapon" hidden="false" id="3f00-3ce5-cc55-760f" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="Points" value="190"/>
+        <cost name="Pts" typeId="Points" value="200"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="0d0d-6681-acc0-4109" primary="false" name="Vehicle"/>

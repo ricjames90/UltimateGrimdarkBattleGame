@@ -16,6 +16,25 @@
     <rule name="Breach The Enemies Front" id="8eb5-4f90-5435-d8ce" hidden="false">
       <description>At the end of every game round, except for the first, you gain Victory Points when at least one of your unit is wholly within your enemies deployment Zone. In turn second that is ten(10), in the third turn twelve(12), in the fourth turn fifteen(15) and in the last turn twenty(20).</description>
     </rule>
+    <rule name="Base Mission Rules" id="e1ee-2fdb-f80c-3a04" hidden="false">
+      <description>Calculating Victory Points
+
+
+1. Being In Range Of Objective Markers:
+Every model within 3&apos;&apos; horizontally and 5&apos;&apos; vertically is considered to be in Range of an Objective Marker.
+
+
+2. Controlling Of Objective Markers:
+You count all remaining Life Points(Monster and Vehicle Units half that number, rounded up) of all of your models in range of an Objective Marker, if that Number of Life Points exceeds that of your opponents number, you control that Objective Marker. If the number is equal, nobody controls the Objective and it is considered „contested“.
+
+
+3. Gaining Victory Points For Holding Objectives:
+At the start of each of your turns (except the first one) you gain 3 Victory points for any controlled Objective, with the exception of the Center Objective. If you control the Center Objective, you gain 5 Victory Points instead. The player who goes second, scores Victory Points for holding Objectives during turn 5 at the end of the turn.
+
+
+4. Enemy Destruction:
+At the end of the game, both players add together all the points of all the destroyed enemy units together, units at half strength(half hp for single model units) count as half their points rounded up. (A Land Raider with 5 remaing LP counts as 178 points for this rule for example). The respective player gains one(1) Victory Point for every 100 Points of destroyed enemy units.(For example 834 Points of enemy units are destroyed at the end of the game, you gain 8 Victory points). The way how an enemy unit was destroyed is irrelevant to this rule. Units that were placed in Strategic Reserves, but haven&apos;t entered the by end of the movement phase of turn 5 are considered destroyed. Aerial units that are not placed on the Battlefield at the end of turn 5 are also considered destroyed. Models that have been destroyed and returned or added to the game during the game do not count towards enemy destruction. Only models listed in the Army List and that are destroyed at the end of the game count towards this rule.</description>
+    </rule>
   </rules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Following The Plan" hidden="false" id="b2e3-68eb-c8d1-f252">
@@ -503,6 +522,9 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Base Mission Rules" id="8ae5-393c-3785-c356" hidden="false" type="rule" targetId="e1ee-2fdb-f80c-3a04"/>
+          </infoLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Grand Strategy" id="ae78-4a2f-4e1d-3420" hidden="false">
           <constraints>
@@ -518,6 +540,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Base Mission Rules" id="e5cd-6f9a-5ee2-810d" hidden="false" type="rule" targetId="e1ee-2fdb-f80c-3a04"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

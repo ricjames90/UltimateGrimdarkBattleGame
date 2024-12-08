@@ -384,7 +384,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Orb Of Ressurection" hidden="false" id="ac55-1432-633a-15e0" type="selectionEntry" targetId="162c-64f1-7755-6c97">
+        <entryLink import="true" name="Orb Of Resurrection" hidden="false" id="ac55-1432-633a-15e0" type="selectionEntry" targetId="162c-64f1-7755-6c97">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3983-77b4-776d-ed3e" includeChildSelections="false"/>
           </constraints>
@@ -571,7 +571,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Orb Of Ressurection" hidden="false" id="d17d-8159-b178-e2b4" type="selectionEntry" targetId="162c-64f1-7755-6c97">
+        <entryLink import="true" name="Orb Of Resurrection" hidden="false" id="d17d-8159-b178-e2b4" type="selectionEntry" targetId="162c-64f1-7755-6c97">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77f4-7d73-d470-7393" includeChildSelections="false"/>
           </constraints>
@@ -1807,7 +1807,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Orb Of Ressurrection" hidden="false" id="aa35-3589-3a48-8450" type="selectionEntry" targetId="6539-f6e4-a929-9e92">
+        <entryLink import="true" name="Orb Of Resurrection" hidden="false" id="aa35-3589-3a48-8450" type="selectionEntry" targetId="6539-f6e4-a929-9e92">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bdc-268b-aeb3-42a7" includeChildSelections="false"/>
           </constraints>
@@ -5251,11 +5251,12 @@ Necron units that are not considered to be „At Half Strength“ or worse, gain
       <description>Any weapons with „Gauss“ in their name profit from this rule.
 Gauss weapons with a Strength Profile of up to 5 can wound enemy Monster and Vehicle units with up to T12 with unmodified Wound Rolls of 6.
 
-
 Gauss weapons with a Strength Profile 6 or 7 can wound enemy Monster and Vehicle units with up to T16 with unmodified Wound Rolls of 6.
 
+Gauss weapons with a Strength Profile 8 or above can wound enemy Monster and Vehicle units with any Toughness with unmodified Wound Rolls of 6 (if the required wound roll is not already better).
 
-Gauss weapons with a Strength Profile 8 or above can wound enemy Monster and Vehicle units with any Toughness with unmodified Wound Rolls of 6 (if the required wound roll is not already better).</description>
+
+„Infantry“ models wound, when applying the „Diminished By Gauss“ always wound on 6s against any Toughness Characteristic, and on 5+ within their specific strength bracket. (For example Warriors with Gauss Flayers against a T10 Dreadnought would wound on a 5+ instead, or Immortals with Gauss Blasters would wound a T12 Predator on a 5+ instead.)</description>
     </rule>
   </rules>
   <sharedProfiles>
