@@ -16,7 +16,10 @@ Effect 2: You can reroll failed unmodified Armor Save or Invulnerable Save roles
 Effect 3: The effect of „MgNa“ Weapons Rule is triggered on an unmodified role of 5+ instead of 6+.</description>
     </rule>
     <rule name="Void Armor" id="0664-3d41-e284-4182" hidden="false">
-      <description>Wound Rolls of 1-2 made against Leagues Of Votann Infantry models always fail. Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Leagues Of Votann Infantry unit.</description>
+      <description>Wound Rolls of 1-2 made against Leagues Of Votann Infantry models always fail. Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Leagues Of Votann Infantry unit.
+
+
+Enemy units that make ranged attacks from 12&apos;&apos; away or further away, or melee attacks with a strength of 6 or less, subtract -1 from the wound roll made against friendly Leagues Of Votann Infantry units.</description>
     </rule>
     <rule name="HntR Weapons" id="13b5-5784-f972-a120" hidden="false">
       <description>Weapons with the Weapons Keyword „HntR“ double the number of attacks when making ranged attacks within half of their maximum weapons range.</description>

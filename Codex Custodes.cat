@@ -7,12 +7,9 @@
 
 &gt;Aegis Of Fire: Double the number of all Ranged Attacks. (Going by the Base number of Attacks. Special Rules like the „Heavy“ Special Rule and others are not taken into consideration, and these Rules also go off by the base number of Attacks. For example Prosecutors that have remained stationary and are making use if this Aegis fire 6 shots with their Boltguns.)
 
-
 &gt;Aegis Of Ashes: Unmodified Melee Hit Rolls Of 6 automatically wound the target. 
 
-
-&gt;Aegis Of Stone: The unit gains the „Feel No Pain (5+)“ Special Rule, but it can not make an advance, fall back move this turn. During Overwatch, unmodified Hit Rolls of 5+ are score hits.
-
+&gt;Aegis Of Stone: The unit gains the „Feel No Pain (5+)“ Special Rule, but it can not make an advance or fall back move this turn. During Overwatch, unmodified Hit Rolls of 5+ are score hits.
 
 &gt;Aegis Of Rejuvenation: Return one lost model with full LP back to the unit. (Hero Units excluded). Return D3 lost models with LP back to the unit when it is a „Vigilators“, „Witchseekers“ or „Prosecutors“ unit.</description>
     </rule>
@@ -64,6 +61,7 @@
       <infoLinks>
         <infoLink name="Guardian Versatility" id="e222-a5d3-658c-eb44" hidden="false" type="rule" targetId="3c81-0eb1-6923-8e2e"/>
         <infoLink name="Invulnerable Save(5+)" id="02c0-4e3f-fbfb-8cfd" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Deep Strike" id="7fca-2a09-a72c-0f13" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Guardians" id="07e1-cc3f-33fa-29c2" hidden="false">
@@ -935,16 +933,14 @@
       <profiles>
         <profile name="Hesh Udar&apos;s Iron Halo" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="d605-381a-28b8-41f0">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Improve the models „Invulnerable Save“ Special Rule to 3+.</characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">This model and the unit it may be attached to (excluding additional character models, only the equipped model and the bodyguard unit)is always considered to have the „Aegis Of Stone“ in addition to their regular Aegis activated, also this model and the unit it may be attached to reroll all failed rolls of 1-2 for the Feel No Pain Rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Pts" typeId="Points" value="25"/>
+        <cost name="Pts" typeId="Points" value="40"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
-      <infoLinks>
-        <infoLink name="Invulnerable Save(3+)" id="123e-7b60-1166-911f" hidden="false" type="rule" targetId="6d92-abb1-98f1-9910"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Watcher&apos;s Axe" hidden="false" id="9187-5266-b7f0-3c99">
       <profiles>
@@ -1237,6 +1233,7 @@ Replace both the Melee and Ranged Profile of the Guardian Spear with the followi
       <infoLinks>
         <infoLink name="Invulnerable Save(4+)" id="f3d2-a9cb-b951-062c" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
         <infoLink name="Dawneagle Turboboost" id="53bf-5cab-f106-7594" hidden="false" type="rule" targetId="8d72-2380-7de3-c67e"/>
+        <infoLink name="Leader Of The Shield Host" id="71bf-5ea4-647a-9132" hidden="false" type="rule" targetId="55d5-2357-1860-4e99"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="7d9d-1053-8f76-526" id="b6f3-422b-f237-09c3" primary="false" name="Mounted"/>
@@ -1412,6 +1409,7 @@ Replace both the Melee and Ranged Profile of the Guardian Spear with the followi
       <infoLinks>
         <infoLink name="Invulnerable Save(5+)" id="de06-abba-5ef3-2225" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
         <infoLink name="Watchmen" id="c394-8c87-3e8c-4f67" hidden="false" type="rule" targetId="927b-b07d-5621-4e2e"/>
+        <infoLink name="Deep Strike" id="fee7-30cc-cfaa-b1ac" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Custodian Wardens" id="f987-b74f-a1ca-0695" hidden="false">
