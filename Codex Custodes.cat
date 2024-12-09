@@ -933,12 +933,12 @@
       <profiles>
         <profile name="Hesh Udar&apos;s Iron Halo" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="d605-381a-28b8-41f0">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">This model and the unit it may be attached to (excluding additional character models, only the equipped model and the bodyguard unit)is always considered to have the „Aegis Of Stone“ in addition to their regular Aegis activated, also this model and the unit it may be attached to reroll all failed rolls of 1-2 for the Feel No Pain Rule.</characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">This model is always considered to have the „Aegis Of Stone“ in addition to their regular Aegis activated, also this model rerolls all failed rolls of 1-2 for the Feel No Pain Rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="Pts" typeId="Points" value="40"/>
+        <cost name="Pts" typeId="Points" value="30"/>
         <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
     </selectionEntry>
