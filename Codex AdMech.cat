@@ -249,7 +249,7 @@
         <selectionEntryGroup name="Rangers" id="fb8a-7d50-5af7-3e2a" hidden="false" sortIndex="2">
           <constraints>
             <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="a7c4-4532-3292-1b75" includeChildSelections="false"/>
-            <constraint type="max" value="30" field="selections" scope="force" shared="true" id="5a8c-fe11-3e4a-83ea" includeChildSelections="false"/>
+            <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="5a8c-fe11-3e4a-83ea" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Ranger" hidden="false" id="e5e9-7954-5d97-9e2f">
@@ -717,7 +717,7 @@
         <selectionEntryGroup name="Vanguards" id="f5da-3964-62a3-ff96" hidden="false" sortIndex="2">
           <constraints>
             <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="2a5c-62ec-3485-0acb" includeChildSelections="false"/>
-            <constraint type="max" value="30" field="selections" scope="force" shared="true" id="f129-85d6-63a4-fba1" includeChildSelections="false"/>
+            <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="f129-85d6-63a4-fba1" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Vanguard" hidden="false" id="7479-2dfd-30e0-513d">

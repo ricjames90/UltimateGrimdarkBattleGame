@@ -13541,7 +13541,16 @@ Damage suffered by this weapon will not be lost against units with more than one
       <profiles>
         <profile name="Foetide Bloatdrones" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="aec8-ce7a-12c1-548c">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f"/>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">7</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
