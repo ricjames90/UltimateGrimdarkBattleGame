@@ -1330,7 +1330,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
         <selectionEntryGroup name="Screamer Killers" id="9193-6778-5a62-de67" hidden="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="acce-8e0c-2569-a3ef" includeChildSelections="false"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ddf4-51e9-d4a7-7f6f" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="ddf4-51e9-d4a7-7f6f" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Screamer Killer" hidden="false" id="8cfc-0ae2-76fd-fba0">
@@ -1344,11 +1344,12 @@ change the damage characteristic of the attack to D6+2.</characteristic>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="Points" value="120"/>
+                <cost name="Pts" typeId="Points" value="105"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f299-6990-b85d-3b74" includeChildSelections="false"/>
-                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a601-4529-07c6-be61" includeChildSelections="false"/>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="a601-4529-07c6-be61" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
@@ -1842,7 +1843,8 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Stone Crusher" hidden="false" id="3fdf-746d-91a1-fd02">
               <costs>
-                <cost name="Pts" typeId="Points" value="120"/>
+                <cost name="Pts" typeId="Points" value="80"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Thresher Scythe" hidden="false" id="e815-3de7-0c2d-8744" type="selectionEntry" targetId="3be3-cb57-9cc9-61ef"/>
@@ -1873,13 +1875,13 @@ change the damage characteristic of the attack to D6+2.</characteristic>
               </selectionEntryGroups>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ab80-e686-75f6-c834" includeChildSelections="false"/>
-                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5a2d-c243-85b2-d2c9" includeChildSelections="false"/>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="5a2d-c243-85b2-d2c9" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9485-a7de-448d-c3a5" includeChildSelections="false"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9b0b-e18c-8873-6602" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="9b0b-e18c-8873-6602" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1987,7 +1989,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
         <selectionEntryGroup name="Thornbacks" id="0298-dc95-3976-4f4a" hidden="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="04d0-c5e1-133e-4efd" includeChildSelections="false"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="f982-2b73-df28-c5d0" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f982-2b73-df28-c5d0" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Thornback" hidden="false" id="92dc-3acb-4abd-a516">
@@ -1999,11 +2001,12 @@ change the damage characteristic of the attack to D6+2.</characteristic>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="Points" value="110"/>
+                <cost name="Pts" typeId="Points" value="60"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c85-11e1-ae7d-b6c2" includeChildSelections="false"/>
-                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3837-9601-6d51-f44a" includeChildSelections="false"/>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="3837-9601-6d51-f44a" includeChildSelections="false"/>
               </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Main Arm Mutations" id="5b09-5a88-d1bd-799b" hidden="false">

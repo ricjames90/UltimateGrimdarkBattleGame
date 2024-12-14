@@ -56,6 +56,7 @@
     <categoryEntry name="Lootaz" id="bac8-b5bb-25b3-3555" hidden="false"/>
     <categoryEntry name="Squiggoth" id="7f3e-e34f-8ef8-5b14" hidden="false"/>
     <categoryEntry name="Megadread" id="2f0a-951a-80e0-5dad" hidden="false"/>
+    <categoryEntry name="Ork-T Ork-T" id="1040-df31-d427-7d5c" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Boyz" hidden="false" id="26c9-be8c-2d97-2745">
@@ -7606,6 +7607,97 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ork-T Ork-T" hidden="false" id="967c-2640-c46d-ed9f">
+      <costs>
+        <cost name="Pts" typeId="Points" value="2250"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Ork-T Ork-T" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="c194-54cc-2272-899d">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">7</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">5+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">12</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">1</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">18</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">100</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ork-T Ork-T" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="172d-180b-6ea7-6b3f">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 51 Infantry models.
+All models with the „Mega Armor“ Keyword take up the space of 2 models, every other Infantry model 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="20 Twin Big Shootas" hidden="false" id="b865-2e85-0403-3e02" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="59e1-9ece-c563-2f08" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59a2-9bf4-8036-19af" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Twin Big Shoota" hidden="false" id="cadd-5dfd-5f7a-44ed" type="selectionEntry" targetId="317a-7b73-0d96-5fb8" collective="true">
+              <constraints>
+                <constraint type="min" value="20" field="selections" scope="parent" shared="true" id="9329-9cec-79ec-c759" includeChildSelections="false"/>
+                <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="ab58-eaf2-19a4-8ae7" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="2 Deff Kannons" hidden="false" id="3cf0-586f-ecb7-5946" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98a9-8e3a-10ff-045e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a73-a561-e20e-7bfc" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Deffkannon" hidden="false" id="2b72-9cfc-8c7e-1f2c" type="selectionEntry" targetId="5b9e-955e-1f41-6bc4" collective="true">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="47ea-ef3d-1b73-13d2" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="340b-cab9-8cfd-b95f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Deadly Demise(24/2D6+12)" id="44ba-dde3-8164-06d6" hidden="false" type="rule" targetId="f975-0178-f8b6-1acc"/>
+        <infoLink name="Nuclear Funguscaust" id="5218-0f33-4d93-05a1" hidden="false" type="rule" targetId="844f-3903-0f66-40c9"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Orkgantic Stomping Feet" hidden="false" id="c609-92ef-19ec-759b" type="selectionEntry" targetId="44f9-21d4-4152-cd9e" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5e1b-57e5-b454-c31c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f26-70f4-26c0-02f6" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="3bac-0f91-3ddd-d5f8" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="1975-793f-2cc3-7257" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="04ef-9887-97c3-03b5" primary="false" name="Tansport"/>
+        <categoryLink targetId="84c8-f93b-6fe6-e29d" id="3ff9-69b5-6ed3-9409" primary="false" name="FACTION: Orks"/>
+        <categoryLink targetId="1040-df31-d427-7d5c" id="ab7a-b534-2915-53fc" primary="false" name="Ork-T Ork-T"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Orkgantic Stomping Feet" hidden="false" id="44f9-21d4-4152-cd9e">
+      <profiles>
+        <profile name="Orkgantic Stomping Feet" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="e31b-ed71-9827-671f">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">12</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3+1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="Green Tide" id="c427-e2c2-4508-4519" hidden="false">
@@ -7755,6 +7847,9 @@ After having resolved the movement, you roll another D6. On a 2+ this unit suffe
     </rule>
     <rule name="Kommando Protocol" id="7359-ab51-3985-fb80" hidden="false">
       <description>Once per Game, at the end of one of your movement phases, remove this unit from the battlefield and immediately set it up again anywhere on the battlefield, but not closer than 9&apos;&apos; to any enemy units.</description>
+    </rule>
+    <rule name="Nuclear Funguscaust" id="844f-3903-0f66-40c9" hidden="false">
+      <description>This models „Deadly Demise“ Rule is triggered on a 3+. (This model can not be selected as the target of the „Da Mekaniaks“, „Mekaniak In Chief“, Custom Force Field and the „Morkanaut Custom Force Field Rules)</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>

@@ -285,5 +285,10 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="ba4b-b2dd-00a6-985a" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
+    <entryLink import="true" name="Ork-T Ork-T" hidden="false" id="8931-2090-f85b-a7a3" type="selectionEntry" targetId="967c-2640-c46d-ed9f">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="606d-db9c-e15f-d8d2" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
