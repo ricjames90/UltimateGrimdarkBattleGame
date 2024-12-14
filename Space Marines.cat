@@ -952,6 +952,276 @@
         <categoryLink targetId="a770-8ecf-ed65-e419" id="4b4e-fb2e-3d24-8304" primary="true" name="SUPER HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Emperor&apos;s Champion" hidden="false" id="0391-22c4-2fb4-ebdb" type="selectionEntry" targetId="0935-b421-937a-7422">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2b1d-794f-39ca-210a" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="da1b-6ee2-272a-c606" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="9e10-5d3a-23ae-d523" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="6276-49a8-f739-e801" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sky Hunter Squadron" hidden="false" id="34e7-0246-58c2-9ac0" type="selectionEntry" targetId="97d5-6e94-5cbd-3242">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="2eed-ed66-558a-de1e" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Speeder Javelin Squadron" hidden="false" id="2420-e307-57e1-bda8" type="selectionEntry" targetId="9c8f-aea4-6bbe-cdfd">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="abaa-5cfa-531b-052e" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Blood Claws Pack" hidden="false" id="c744-0b6a-8dd4-441c" type="selectionEntry" targetId="ccf7-3518-2b17-6769">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="bdf5-9172-efb9-df0c" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Sky Claws Pack" hidden="false" id="1493-ff23-1136-e045" type="selectionEntry" targetId="1659-8754-cf2b-464b">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="2376-69dc-ebf3-2b92" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Fenrisian Wolves" hidden="false" id="d8c4-9b83-e722-640a" type="selectionEntry" targetId="1c10-6e5f-efe8-b619">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="a2e4-e249-fa63-2ddb" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Cyber Wolves" hidden="false" id="61ff-9c4f-2698-c05f" type="selectionEntry" targetId="087d-8a52-fda9-f1f8">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="5b76-4d44-dff6-ee3b" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Swift Claws Pack" hidden="false" id="4df3-58be-5d35-aa02" type="selectionEntry" targetId="b0a1-7bec-98f0-a040">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="edac-90b1-4e2d-d277" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Grey Hunters Pack" hidden="false" id="5e75-8632-999d-1f86" type="selectionEntry" targetId="9c6a-561a-a451-14a3">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="a461-78ea-8c4f-c1f3" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Wulfen Pack" hidden="false" id="a97f-6179-77c4-4e67" type="selectionEntry" targetId="a472-ad2b-9dd2-14c0">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="4531-76c1-e914-7eaa" primary="true" name="ELITE"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Stormfang Gunship" hidden="false" id="c751-9ccb-35f1-9ed5" type="selectionEntry" targetId="62f0-ea42-d915-4892">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="6b37-10f8-fb5c-c816" primary="true" name="AERIAL"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormwolf Transporter" hidden="false" id="efef-3b9f-772f-478e" type="selectionEntry" targetId="5b0a-1d37-f554-5ae6">
+      <categoryLinks>
+        <categoryLink targetId="8181-a61d-c089-8f8a" id="3b44-b3e1-d4a1-afe3" primary="true" name="AERIAL"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Wulfen Dreadnought" hidden="false" id="5f3b-4680-3123-75ce" type="selectionEntry" targetId="4a6d-81a0-f1b2-d4ad">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="251f-7ef7-b73e-aeb2" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wolf Guard Pack" hidden="false" id="5427-0725-813f-2de3" type="selectionEntry" targetId="1ace-5831-e48b-1422">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="b4bb-1e56-5553-15c5" primary="true" name="ELITE"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Hounds Of Morkai Pack" hidden="false" id="4f74-40ca-979c-e557" type="selectionEntry" targetId="d643-7e70-cf6a-e85f">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="6c45-4104-df73-4fd9" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Thunderwolf Cavalry Pack" hidden="false" id="cbf0-d9f8-14a4-ea03" type="selectionEntry" targetId="fb96-bc92-6202-d963">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="0549-6719-ff54-751b" primary="true" name="ELITE"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d51c-90a0-10b1-aa14" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Crusader Squad" hidden="false" id="2d00-7d29-3421-a36d" type="selectionEntry" targetId="f6e1-7b78-b787-5b2f">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="105c-ecbb-d79c-8bf3" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="da1b-6ee2-272a-c606" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="9e10-5d3a-23ae-d523" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Sword Brethren Squad" hidden="false" id="fbd3-ce21-2a6e-a5a9" type="selectionEntry" targetId="43c1-2116-3f83-70cb">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="6b7d-ab0f-bf64-aed9" primary="true" name="ELITE"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="da1b-6ee2-272a-c606" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="9e10-5d3a-23ae-d523" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Firedrakes Terminator Squad" hidden="false" id="11c4-7bc6-4d35-8843" type="selectionEntry" targetId="582d-588e-eb60-6305">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3c02-8816-29d8-bf0e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Dark Fury Assault Squad" hidden="false" id="7975-06ef-a282-223f" type="selectionEntry" targetId="c590-5e5c-09bf-9e76">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="51fd-c432-db74-281e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Medusean Immortals Squad" hidden="false" id="6e9b-8ea7-a200-c91c" type="selectionEntry" targetId="bc77-c99f-9ec1-fa6b">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="cbba-179d-4613-48d0" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="1c14-a31c-3d1b-a2fd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Kyzagan Assault Speeder Squadron" hidden="false" id="4afc-0aa7-3b5d-2211" type="selectionEntry" targetId="7cb1-1593-a25e-684d">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="718b-3a7a-a40d-e823" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="a349-e99f-0fc0-c8ec" primary="true" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Assault Marines Squad" hidden="false" id="250f-8fdb-e3b9-01c6" type="selectionEntry" targetId="b9f3-d0e3-4107-ea9b">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="5166-447b-4fa2-640f" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="51fd-c432-db74-281e" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="0e57-b58d-059c-d26c">
+          <repeats>
+            <repeat value="10" repeats="1" field="selections" scope="79e5-570b-2bdd-d3d7" childId="625e-275a-92a2-ba15" shared="true" roundUp="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="79e5-570b-2bdd-d3d7" shared="true" id="0e57-b58d-059c-d26c"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Space Marines" id="1a54-9cc0-6596-93c6" targetId="b9aa-5902-f97d-9cd5"/>

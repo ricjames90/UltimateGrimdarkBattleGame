@@ -1264,6 +1264,23 @@
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="ab5f-556e-2-f3e4">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="2b4d-2d03-3b8c-5bb5" childId="ab11-de1c-e732-4730" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="effd-f3a8-9f2b-4b8">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="2b4d-2d03-3b8c-5bb5" childId="6f6f-bde0-c4ce-b7ff" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8d7f-2fc2-c449-7537">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="2b4d-2d03-3b8c-5bb5" childId="2289-68c2-d8a5-9909" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <entryLinks>
@@ -1444,6 +1461,23 @@
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="ab5f-556e-2-f3e4">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="4244-3eb5-9a5c-3f20" childId="b090-db18-b675-c0a7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="effd-f3a8-9f2b-4b8">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="4244-3eb5-9a5c-3f20" childId="1349-e112-999a-1fec" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8d7f-2fc2-c449-7537">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="4244-3eb5-9a5c-3f20" childId="61c3-c782-79bd-156d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <selectionEntryGroups>
