@@ -1131,5 +1131,28 @@
         <categoryLink targetId="a770-8ecf-ed65-e419" id="024f-45d5-22b7-03f3" primary="true" name="SUPER HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Lore Gar(Nicht)" hidden="false" id="1abd-dea0-1ae4-b2d4" type="selectionEntry" targetId="ac32-70e9-fdbc-767b">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="0832-ea3b-c1e0-cb13" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="5da1-a043-cd21-bd9f" primary="true" name="HERO"/>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="2e26-7ed4-d366-294f" primary="false" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Speeder Javelin Squadron" hidden="false" id="ad42-e952-156b-b5fc" type="selectionEntry" targetId="c685-9c24-b0e3-a3d2">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="bb72-384a-ff18-73d1" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sky Hunter Squadron" hidden="false" id="0530-3df6-78b7-b895" type="selectionEntry" targetId="e829-64d3-15bd-678f">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="0372-d7c6-f5c5-2fb5" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

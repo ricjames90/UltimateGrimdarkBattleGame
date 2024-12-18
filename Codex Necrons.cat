@@ -737,6 +737,7 @@
         <infoLink name="Gate Of Eternity" id="6ad2-9b5b-9bf1-8ee0" hidden="false" type="rule" targetId="455e-1f0f-1cac-cd80"/>
         <infoLink name="Deep Strike" id="ca2c-e4b8-bbdb-ef8a" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
         <infoLink name="Deadly Demise(12/D6+3)" id="8cac-149d-902f-4ee1" hidden="false" type="rule" targetId="82a7-3a39-240f-eac2"/>
+        <infoLink name="Invulnerable Save(5+)" id="3e59-3ba9-6c9b-353b" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Portal Of Exile" hidden="false" id="cff4-8e22-b70d-b905" type="selectionEntry" targetId="057d-8ea3-2987-d61f" collective="true">

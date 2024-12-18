@@ -1033,7 +1033,7 @@
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
+                <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
                 <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
@@ -8038,7 +8038,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">11</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">16</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -11066,7 +11066,8 @@ Save (6+)“ Special Rule.</characteristic>
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name="Pts" typeId="Points" value="550"/>
+        <cost name="Pts" typeId="Points" value="500"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="7ef2-b9f1-daf8-0d1d" type="selectionEntry" targetId="6215-d596-90c2-915a">
@@ -11084,12 +11085,6 @@ Save (6+)“ Special Rule.</characteristic>
           </costs>
         </entryLink>
         <entryLink import="true" name="Spartan Chassis Support Weapons" hidden="false" id="8cfe-2803-79b8-c388" type="selectionEntryGroup" targetId="a565-cf95-f71f-983e"/>
-        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="62d3-6053-85a4-a668" type="selectionEntry" targetId="f460-1f29-9a39-8fda" collective="true">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="041d-0a48-ee05-350b" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63b1-7219-cd47-0aa0" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Combatweapon" hidden="false" id="8eb0-74e2-cc41-cf1e" type="selectionEntry" targetId="f655-bd54-59d-6e0c"/>
         <entryLink import="true" name="Deathwing Spartan" hidden="false" id="d712-8b4b-6302-e0cd" type="selectionEntry" targetId="2f82-5d88-c179-2063">
           <costs>
@@ -11137,6 +11132,49 @@ Save (6+)“ Special Rule.</characteristic>
           <modifiers>
             <modifier type="set" value="0121-1219-6d32-0da7" field="defaultSelectionEntryId"/>
           </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Hull Mounted Weapon" id="122a-b899-5555-e932" hidden="false" defaultSelectionEntryId="21e6-1eb6-9569-9955">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d7fb-c2a1-50a9-e8fd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8bc-6bd6-95e6-cfaa" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="21e6-1eb6-9569-9955" type="selectionEntry" targetId="f460-1f29-9a39-8fda">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5073-57c9-ce38-b40e" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Twin Las Cannon" hidden="false" id="c842-283f-bcb4-b2b7" type="selectionEntry" targetId="42a2-bc99-3dc-6a20">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="221f-d94a-2093-9ff7" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="20"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Heavy Flamers" hidden="false" id="cbc9-7897-bfc3-b6e9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c53e-d4bd-b21b-accf" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Heavy Flamer" hidden="false" id="095c-db16-2925-6608" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3264-8a7b-9bbc-4735" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="aeea-2fc9-0e40-7cce" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <categoryLinks>
@@ -14010,7 +14048,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
+                <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
                 <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="7" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
@@ -16740,7 +16778,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <infoLink name="Spartan Chassis" id="e004-ce21-f8cb-4cfe" hidden="false" type="profile" targetId="20fa-953e-7473-742b"/>
       </infoLinks>
       <costs>
-        <cost name="Pts" typeId="Points" value="550"/>
+        <cost name="Pts" typeId="Points" value="500"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="83f6-a25d-7a16-d705" type="selectionEntry" targetId="6215-d596-90c2-915a">
@@ -16758,12 +16797,6 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           </costs>
         </entryLink>
         <entryLink import="true" name="Spartan Chassis Support Weapons" hidden="false" id="9273-190f-3772-5df2" type="selectionEntryGroup" targetId="a565-cf95-f71f-983e"/>
-        <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="8744-7902-be3d-6829" type="selectionEntry" targetId="f460-1f29-9a39-8fda" collective="true">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d8d0-71f0-c713-dc0d" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b79-641b-eed9-9531" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Combatweapon" hidden="false" id="1a6e-0482-7ffd-a494" type="selectionEntry" targetId="f655-bd54-59d-6e0c"/>
       </entryLinks>
       <selectionEntryGroups>
@@ -16806,6 +16839,49 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           <modifiers>
             <modifier type="set" value="0121-1219-6d32-0da7" field="defaultSelectionEntryId"/>
           </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Hull Mounted Weapon" id="386e-4926-a157-9f18" hidden="false" defaultSelectionEntryId="21e6-1eb6-9569-9955">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a2d-d434-d968-09f7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22e6-1dcb-809b-c516" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="e2a5-9bc5-b9f6-a520" type="selectionEntry" targetId="f460-1f29-9a39-8fda">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24b5-16a4-6a63-ca4b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Twin Las Cannon" hidden="false" id="142f-88fd-c73c-f473" type="selectionEntry" targetId="42a2-bc99-3dc-6a20">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf65-b0e5-7d94-bc1c" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="20"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Heavy Flamers" hidden="false" id="ddfb-2b0b-eb24-0a6a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a73-bf46-f499-9b1d" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Heavy Flamer" hidden="false" id="167a-f49b-b755-5b3f" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4039-38ca-529c-a5f6" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="07b7-3734-083b-d98a" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <categoryLinks>
@@ -19275,7 +19351,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <profiles>
         <profile name="Sky Hunter Jetbike" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="d840-100f-e404-9482">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Jet Bike(Captains and Chapter Masters only): +12&apos;&apos;M, +1I, +1T, +2LP loses „Infantry“ keyword, gains „Mounted“ and „Flying“ keyword.</characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Jet Bike(Captains and Chapter Masters only): +10&apos;&apos;M, +1I, +1T, +2LP loses „Infantry“ keyword, gains „Mounted“ and „Flying“ keyword.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22018,6 +22094,128 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Land Speeder Javelin Squadron" hidden="false" id="c685-9c24-b0e3-a3d2">
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="506d-cdee-7456-f14d" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="0c2a-24d9-5c12-a4c3" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="256f-f8cf-f70a-7f90" id="ff3f-12ba-e0b1-cef1" primary="false" name="Land Speeder Javelin Squadron"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="46b8-b9d4-4c38-87eb" primary="false" name="Fly"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="0263-a5f3-4c5a-0854" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="bda6-c674-a611-8576" primary="false" name="FACTION: Chaos Space Marines"/>
+      </categoryLinks>
+      <comment>Chaos</comment>
+      <profiles>
+        <profile name="Land Speeder Javelin Squadron" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="e003-0f49-990a-d6f4">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">16</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">12</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Turbo Boost" id="055d-ae71-bf57-0353" hidden="false" type="rule" targetId="7821-eb5a-0d32-268a"/>
+        <infoLink name="Deadly Demise(3/D3)" id="37b3-4c41-cd37-3f28" hidden="false" type="rule" targetId="aaf7-36b1-3dd4-c70a"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Land Speeder Javelins" id="6dcb-5714-3a4a-5b07" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="295c-be41-c131-8a46" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3154-4c49-8094-52db" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Land Speeder Javelin" hidden="false" id="09ff-6ae5-a03a-09fa">
+              <costs>
+                <cost name="Pts" typeId="Points" value="75"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ea2-2d13-ed12-d934" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7862-3a2a-6019-48b8" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="32b4-4642-db2a-725e" type="selectionEntry" targetId="e521-70d7-6582-9f57"/>
+                <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="d19c-9906-d4bf-4d06" type="selectionEntry" targetId="6215-d596-90c2-915a">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ebc9-3995-2f23-ef09" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="Points" value="6"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Pintle Weapon" id="ca2a-1148-c809-a4ea" hidden="false" defaultSelectionEntryId="f448-2126-de35-cf96">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb28-3353-7ea3-ea9e" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0391-965a-28fa-8d12" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Heavy Bolter" hidden="false" id="84bc-be6d-4801-1d7a" type="selectionEntry" targetId="400e-c07b-a638-e99c">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e64-e0f6-8761-0936" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Multi Melta" hidden="false" id="657a-69b4-5f17-1aa5" type="selectionEntry" targetId="ab57-6993-9bf2-3089">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a63-4460-63c6-20bc" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Heavy Flamer" hidden="false" id="fe4a-a56b-7a13-25aa" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d28-6203-d168-8b6e" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Hull Mounted Weapons" id="42eb-af56-24f8-8569" hidden="false" defaultSelectionEntryId="868f-d9ed-403b-4752">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c32-ef8f-5799-85c7" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4165-2b43-5092-e461" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="afd1-9874-b9d1-ee65" type="selectionEntry" targetId="f460-1f29-9a39-8fda">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="255d-f79f-c064-8df2" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Twin Las Cannon" hidden="false" id="972f-a476-78d5-f140" type="selectionEntry" targetId="42a2-bc99-3dc-6a20">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6687-0a26-766b-7d11" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Typhoon Rocket Launcher" hidden="false" id="d71d-f607-8d49-3ac2" type="selectionEntry" targetId="46fb-034e-e9e8-0832">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b58-137d-653d-b91b" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
