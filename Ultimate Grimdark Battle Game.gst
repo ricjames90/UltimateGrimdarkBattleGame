@@ -866,6 +866,82 @@ abilities. When such a model is destroyed, roll one D6 before removing it from p
         <cost name="Pts" typeId="Points" value="15"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warpspeed Charge" hidden="false" id="18cd-608e-9224-0810">
+      <costs>
+        <cost name="Pts" typeId="Points" value="10"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Warpspeed Charge" typeId="8517-662f-2fa8-20df" typeName="Psychic Power" hidden="false" id="bb3c-2376-1b90-0f45">
+          <characteristics>
+            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">6+</characteristic>
+            <characteristic name="Type" typeId="6ef-c62c-afed-c479">Buff</characteristic>
+            <characteristic name="Range" typeId="51d3-8e0a-687-f09f">Self/Attached Unit</characteristic>
+            <characteristic name="A" typeId="4f00-8e5f-499b-879b"/>
+            <characteristic name="S" typeId="840c-e1cb-221b-d605"/>
+            <characteristic name="D" typeId="8789-ec23-5ea-8f4b"/>
+            <characteristic name="Rules" typeId="b42d-8312-d021-6cc3">This model and a friendly attached unit (in case the casting model is a Hero-Type unit) up to one additional Hero-Type unit add +1 to the charge roll in the following fight phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Psychic Shielding" hidden="false" id="5382-6393-1b6f-ff51">
+      <costs>
+        <cost name="Pts" typeId="Points" value="10"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Psychic Shielding" typeId="8517-662f-2fa8-20df" typeName="Psychic Power" hidden="false" id="62b0-51ee-9469-a5e9">
+          <characteristics>
+            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">6+</characteristic>
+            <characteristic name="Type" typeId="6ef-c62c-afed-c479">Buff</characteristic>
+            <characteristic name="Range" typeId="51d3-8e0a-687-f09f">12</characteristic>
+            <characteristic name="A" typeId="4f00-8e5f-499b-879b"/>
+            <characteristic name="S" typeId="840c-e1cb-221b-d605"/>
+            <characteristic name="D" typeId="8789-ec23-5ea-8f4b"/>
+            <characteristic name="Rules" typeId="b42d-8312-d021-6cc3">Pick a single friendly Infantry(non hero) unit with 12&apos;&apos; of the Psyker, this unit gains the „Invulnerable Save (6+)“ Special Rule until the start of your next Psychic Phase. If the result of the „Casting Roll“ equals 11 or higher, change the attacks characteristic of the „Invulnerable Save“ to 5+ instead. Units that already have the Invulnerable Save Special Rule can not be selected as the target of this Psychic Power.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Psychic Smash" hidden="false" id="1d48-9717-4de7-8d46">
+      <profiles>
+        <profile name="Psychic Smash" typeId="8517-662f-2fa8-20df" typeName="Psychic Power" hidden="false" id="de62-cf4f-f8fc-cf7d">
+          <characteristics>
+            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">6+</characteristic>
+            <characteristic name="Type" typeId="6ef-c62c-afed-c479">Combat</characteristic>
+            <characteristic name="Range" typeId="51d3-8e0a-687-f09f">Melee</characteristic>
+            <characteristic name="A" typeId="4f00-8e5f-499b-879b">D3+1</characteristic>
+            <characteristic name="S" typeId="840c-e1cb-221b-d605">16</characteristic>
+            <characteristic name="D" typeId="8789-ec23-5ea-8f4b">D3+1</characteristic>
+            <characteristic name="Rules" typeId="b42d-8312-d021-6cc3">If the result of the „Casting Roll“ equals 10 or higher, change the attacks characteristic of the attack to D3+3.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="Points" value="15"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Null Zone Aura" hidden="false" id="0938-a7de-374e-cefd">
+      <costs>
+        <cost name="Pts" typeId="Points" value="25"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Null Zone Aura" typeId="8517-662f-2fa8-20df" typeName="Psychic Power" hidden="false" id="ba2f-8820-65d2-b158">
+          <characteristics>
+            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">6+</characteristic>
+            <characteristic name="Type" typeId="6ef-c62c-afed-c479">Debuff</characteristic>
+            <characteristic name="Range" typeId="51d3-8e0a-687-f09f">Battlefield</characteristic>
+            <characteristic name="A" typeId="4f00-8e5f-499b-879b"/>
+            <characteristic name="S" typeId="840c-e1cb-221b-d605"/>
+            <characteristic name="D" typeId="8789-ec23-5ea-8f4b"/>
+            <characteristic name="Rules" typeId="b42d-8312-d021-6cc3">All enemy units subtract -1 from any Psychic Power Casting rolls, also every Psychic Power cast by an enemy Psyker Unit with an unimodified Roll of 7 (before any boni/mali applied), suffer „Perils Of The Warp“. The Psychic Resilience Roll must be rolled for every of your opponents Psyker units separately. If this Psychic Power is failed, the casting model immediately suffers Perils Of The Warp.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Universal Psychic Powers" id="3f03-4dbd-e6c3-bb48" hidden="false">
@@ -903,6 +979,26 @@ abilities. When such a model is destroyed, roll one D6 before removing it from p
         <entryLink import="true" name="Psychic Block" hidden="false" id="b3d9-f6a4-2c1c-47e1" type="selectionEntry" targetId="8950-bc3d-5667-b1d0">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c1b-7b3e-aee6-8c94"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Warpspeed Charge" hidden="false" id="4a86-c6a8-0165-d3ec" type="selectionEntry" targetId="18cd-608e-9224-0810">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="292a-6808-d822-0a87" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Psychic Shielding" hidden="false" id="2307-97fb-9c81-7df1" type="selectionEntry" targetId="5382-6393-1b6f-ff51">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a23-20ca-8238-2ad2" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Psychic Smash" hidden="false" id="4b24-0c36-c3a4-d061" type="selectionEntry" targetId="1d48-9717-4de7-8d46">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80b7-6009-10f8-83cd" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Null Zone Aura" hidden="false" id="9c3f-e32e-4d29-1fec" type="selectionEntry" targetId="0938-a7de-374e-cefd">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="858b-9b0d-9f92-8b2a" includeChildSelections="false"/>
           </constraints>
         </entryLink>
       </entryLinks>
