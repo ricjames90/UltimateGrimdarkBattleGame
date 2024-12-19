@@ -7,19 +7,20 @@
 
 Per full 2000 Points game size (2000,4000,6000,8000etc.) you can select another unit. 
 
+
 After having placed any Token Of Judgement, you decide to gain one of the following effects against the unit that has been selected as the target of a Token Of Judgement. 
 
-Effect 1: The minimum required range for the „HntR“ Weapon Rule to trigger is extended by 6&apos;&apos;. (For example instead of needing to be within 10&apos;&apos; for the Autoch Boltguns HntR Rule to trigger, you only need to be within 16&apos;&apos;.)
 
-Effect 2: You can reroll failed unmodified Armor Save or Invulnerable Save roles of 1 caused by attacks from this unit. 
+Effect 1: Add +1 to the wound roll made with weapons with the „HntR“ Special Rule against this unit. Also, if the Weapons would be too weak to wound the unit general, HntR weapons always wound on an unmodified Wound Roll of 6. (for example the strength of the HntR weapon is 4 and the Toughness of the afflicted with the Token Of Judgement is 12, you would always score a Wound regardless of the toughness.)
+
+
+Effect 2: Add +1 to the Armor Save/Invulnerable Save roll. If the target of the token-afflicted unit is a friendly Vehicle-Unit, consider the vehicle to have the „Impervious To Injuries (-1)“ Rule instead.
+
 
 Effect 3: The effect of „MgNa“ Weapons Rule is triggered on an unmodified role of 5+ instead of 6+.</description>
     </rule>
     <rule name="Void Armor" id="0664-3d41-e284-4182" hidden="false">
-      <description>Wound Rolls of 1-2 made against Leagues Of Votann Infantry models always fail. Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Leagues Of Votann Infantry unit.
-
-
-Enemy units that make ranged attacks from 12&apos;&apos; away or further away, or melee attacks with a strength of 6 or less, subtract -1 from the wound roll made against friendly Leagues Of Votann Infantry units.</description>
+      <description>Enemy units that make ranged attacks from 12&apos;&apos; away or further away, or melee attacks with a strength of 6 or less, subtract -1 from the wound roll made against friendly Leagues Of Votann Infantry units.</description>
     </rule>
     <rule name="HntR Weapons" id="13b5-5784-f972-a120" hidden="false">
       <description>Weapons with the Weapons Keyword „HntR“ double the number of attacks when making ranged attacks within half of their maximum weapons range.</description>
@@ -2586,7 +2587,7 @@ The Sagitaur can not transport models with „Einhyr“ or „Hearthguard“ in 
           <characteristics>
             <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">7+</characteristic>
             <characteristic name="Type" typeId="6ef-c62c-afed-c479">Ranged</characteristic>
-            <characteristic name="Range" typeId="51d3-8e0a-687-f09f">36</characteristic>
+            <characteristic name="Range" typeId="51d3-8e0a-687-f09f">24</characteristic>
             <characteristic name="A" typeId="4f00-8e5f-499b-879b">1</characteristic>
             <characteristic name="S" typeId="840c-e1cb-221b-d605">24</characteristic>
             <characteristic name="D" typeId="8789-ec23-5ea-8f4b">D6+6</characteristic>
@@ -2598,7 +2599,8 @@ The Sagitaur can not transport models with „Einhyr“ or „Hearthguard“ in 
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70e9-de2b-bb7f-67fe" includeChildSelections="false"/>
       </constraints>
       <costs>
-        <cost name="Pts" typeId="Points" value="10"/>
+        <cost name="Pts" typeId="Points" value="25"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Tough As Leather" hidden="false" id="5068-9a64-eea4-1a31">
