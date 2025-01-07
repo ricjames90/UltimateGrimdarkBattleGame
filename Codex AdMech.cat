@@ -710,8 +710,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Galvanic Barrage" id="2dfa-c570-cb5e-7566" hidden="false" type="rule" targetId="95a3-0413-8151-d9a5"/>
         <infoLink name="Invulnerable Save(6+)" id="a873-1963-9ecf-daba" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+        <infoLink name="Radium Degradation" id="44fc-4bd2-d6eb-f2cf" hidden="false" type="rule" targetId="78a2-3033-feb3-e447"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Vanguards" id="f5da-3964-62a3-ff96" hidden="false" sortIndex="2">
@@ -5617,6 +5617,11 @@
             <characteristic name="LP" typeId="c061-dd1-7417-ca6b">20</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Terrax Pattern Assault Drill" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="4d0c-d028-0b58-20fa">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The model can transport up to 21 Infantry models. Excluding Thallax Cohort models.</characteristic>
           </characteristics>
         </profile>
       </profiles>

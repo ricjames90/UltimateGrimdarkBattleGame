@@ -3160,7 +3160,7 @@ The Psilencer scores two(2) additional hits for every unmodified Hit Roll of 6.<
       <description>Wound Rolls of 1-2 made against Space Marine Infantry models always fail. Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Space Marine Infantry unit.</description>
     </rule>
     <rule name="Aggression Of Titan" id="4200-c48b-effb-f781" hidden="false">
-      <description>Add +3 Inch to the range of any Psychic Powers that required a range measurement. Except for Psychic Powers that work like weapons with the „Torrent“ Special Rule. Grey Knights gain the „Feel No Pain(5+)“ Special Rule against damage caused by Psychic Powers. This includes Mortal Wounds caused by Perils Of The Warp. Grey Knights units gain the „Feel No Pain(6+)“ Special Rule against any other wounds.</description>
+      <description>Add +3 Inch to the range of any Psychic Powers that required a range measurement. Except for Psychic Powers that work like weapons with the „Torrent“ Special Rule. Grey Knights gain the „Feel No Pain(5+)“ Special Rule against damage caused by Psychic Powers. This includes Mortal Wounds caused by Perils Of The Warp. Grey Knights units gain the „Feel No Pain(6+)“ Special Rule against any other mortal wounds.</description>
     </rule>
     <rule name="Indomitable Willpower" id="4a78-257c-6358-5eff" hidden="false">
       <description>Grey Knight Units never suffer any penalties for Morale Break Tests, whether they originate from core rules or faction specific special rules.</description>
