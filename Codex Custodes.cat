@@ -566,6 +566,11 @@
                 <condition type="atLeast" value="1" field="selections" scope="a27a-2fac-7cd3-78fb" childId="5818-684a-6ee4-b57e" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
+            <modifier type="increment" value="2" field="c061-dd1-7417-ca6b">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="a27a-2fac-7cd3-78fb" childId="2dac-1a47-dcb5-89d7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </profile>
       </profiles>
@@ -579,6 +584,23 @@
           </costs>
         </entryLink>
         <entryLink import="true" name="Custodes Relics" hidden="false" id="c9a5-d56f-80d3-bb2d" type="selectionEntryGroup" targetId="3263-52eb-d271-840a" sortIndex="1"/>
+        <entryLink import="true" name="Praesidium Shield" hidden="false" id="2dac-1a47-dcb5-89d7" type="selectionEntry" targetId="dbbb-65a3-1f55-16c7">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a91-b211-241c-d60a" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="5"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="parent" childId="ae02-9fed-309c-e650" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="parent" childId="4c1c-f0c6-b300-f9e5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="parent" childId="373b-3298-2223-3af4" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Leader Of The Shield Host" id="4f56-dacd-f3c7-fd79" hidden="false" type="rule" targetId="55d5-2357-1860-4e99"/>
@@ -3076,6 +3098,210 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
       </costs>
       <comment>Loyalists</comment>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ares Gunship" hidden="false" id="924b-cf28-0b0e-61ab">
+      <costs>
+        <cost name="Pts" typeId="Points" value="1200"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Ares Gunship" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="ffc3-6c3c-aad9-177e">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">20</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">8</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">30</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Hover" id="bb17-8ae6-8755-6ad8" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+        <infoLink name="Deadly Demise(24/2D6+12)" id="fe96-7920-8e9b-bb87" hidden="false" type="rule" targetId="f975-0178-f8b6-1acc"/>
+        <infoLink name="Invulnerable Save(5+)" id="6bf0-db9e-ca4d-d82f" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Golden Hail Of Death" id="fa93-1c9a-062a-6234" hidden="false" type="rule" targetId="a4c3-b56f-fe72-4838"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="20f4-2a46-0606-a18f" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="da70-3a9f-a85b-0b2e" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="ae24-cab1-3583-9199" primary="false" name="Fly"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="265f-31bf-0952-6c18" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="6ac6-8b39-d81-d39a" id="9dd3-26e6-28a4-c680" primary="false" name="FACTION: Custodes"/>
+        <categoryLink targetId="1186-5c83-f724-10f3" id="35af-fcb7-5b84-7234" primary="false" name="Ares Gunship"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="8720-2f37-fcf2-ad48" type="selectionEntry" targetId="3620-e14c-cd22-3230"/>
+        <entryLink import="true" name="Arachnus Magna Blaze Cannon" hidden="false" id="48b1-8e07-b2af-8324" type="selectionEntry" targetId="e33f-1ef8-ec09-01af" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eecb-af30-4e4d-4a32" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5975-0718-a967-8349" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="2 Arachnus Heavy Blaze Cannons" hidden="false" id="5464-b4c6-38ea-89d3" collective="true">
+          <entryLinks>
+            <entryLink import="true" name="Arachnus Heavy Blaze Cannon" hidden="false" id="f505-0c55-349a-d574" type="selectionEntry" targetId="599e-407b-40de-34dd">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7e09-2ea1-3bf7-74f0" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="bc96-8e2c-a579-b30e" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eda9-ec6d-0c0d-6905" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20fe-60c4-afe6-cbd9" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Arachnus Magna Blaze Cannon" hidden="false" id="e33f-1ef8-ec09-01af">
+      <profiles>
+        <profile name="Arachnus Magna Blaze Cannon - Beam" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="dfd1-4c73-c561-678c">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">18</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">9</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Arachnus Magna Blaze Cannon - Burst" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="a82a-aeb3-ff02-32f7">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">7</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(7)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Orion Assault Dropship" hidden="false" id="3198-9f69-a025-54d6">
+      <costs>
+        <cost name="Pts" typeId="Points" value="1200"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Orion Assault Dropship" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="9a7a-14eb-ea46-2b38">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">20</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">8</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">30</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Orion Assault Dropship" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="d1e0-07f8-ddce-6de4">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">This model can transport up to 21 Infantry models.
+Models with the keyword „Guardian Armor“ count as 2, models with the keywords „Vigilus Armor“ count as 3 models. This model can additionally transport up to one model with „Dreadnought“ in its name.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Hover" id="0b91-1946-4216-2171" hidden="false" type="rule" targetId="22d5-e711-fec3-7f72"/>
+        <infoLink name="Deadly Demise(24/2D6+12)" id="de83-d143-c9c8-788d" hidden="false" type="rule" targetId="f975-0178-f8b6-1acc"/>
+        <infoLink name="Invulnerable Save(5+)" id="43e9-91c8-20a1-805b" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Adamantine Assault" id="4f70-11d3-852f-cfac" hidden="false" type="rule" targetId="1d86-bcec-70d9-eda5"/>
+        <infoLink name="Vehicle Of Golden Demigods" id="9d9c-23c9-9359-a482" hidden="false" type="rule" targetId="ed69-b83f-0168-0390"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="7a07-63c3-cabc-c111" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="119e-aa90-9124-d650" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="2441-f078-b5db-489a" primary="false" name="Fly"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="6819-43f0-62b3-3a84" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="6ac6-8b39-d81-d39a" id="a41b-1291-28fe-21c9" primary="false" name="FACTION: Custodes"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="21cf-547b-e311-888d" primary="false" name="Tansport"/>
+        <categoryLink targetId="5ba6-4035-71c7-0119" id="91b0-902d-c679-f260" primary="false" name="Orion Assault Dropship"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="90a2-6f0b-cf52-5df5" type="selectionEntry" targetId="3620-e14c-cd22-3230"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="2 Arachnus Heavy Blaze Cannons" hidden="false" id="68ae-ed49-5c89-c303" collective="true">
+          <entryLinks>
+            <entryLink import="true" name="Arachnus Heavy Blaze Cannon" hidden="false" id="e124-71c5-a986-e8e7" type="selectionEntry" targetId="599e-407b-40de-34dd">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4b74-9f9c-9d85-26cb" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4b4c-ee3e-7254-abd0" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3e4-5a81-b8a3-4661" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e9e-3aa4-2322-fe3b" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="2 Twin Lastrum Bolt Cannons" hidden="false" id="1a54-f0cd-d1e1-cbc6" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e23a-cc7c-6ef9-ffd4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d5e-d072-fce2-3ae3" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Twin Lastrum Bolt Cannon" hidden="false" id="043f-9207-df97-b2eb" type="selectionEntry" targetId="53f9-99aa-a46b-9cb1">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7afc-9597-55b2-7a41" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="82d5-cf60-c112-7acc" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="2 Spiculus Heavy Bolt Launchers" hidden="false" id="629c-3065-3ab7-6e2a" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c912-ae79-15bc-dbf4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2da-e486-dd60-8c1b" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Spiculus Heavy Bolt Launcher" hidden="false" id="c2ec-617c-c5c2-83ee" type="selectionEntry" targetId="2be2-9e9a-31bc-761a">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="40df-7eb1-b0df-6a71" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a496-c356-6970-52f7" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin Lastrum Bolt Cannon" hidden="false" id="53f9-99aa-a46b-9cb1">
+      <profiles>
+        <profile name="Twin Lastrum Bolt Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="d4f7-e9c8-c506-fc44">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">12</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Spiculus Heavy Bolt Launcher" hidden="false" id="2be2-9e9a-31bc-761a">
+      <profiles>
+        <profile name="Spiculus Heavy  Bolt Launcher" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="f0a4-3ef3-c600-6e04">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">12</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">7</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">NA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Guardians" id="f2d5-d426-831b-0169" hidden="false"/>
@@ -3104,6 +3330,8 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
     <categoryEntry name="Coronus Grav Carrier" id="6bbd-7f73-4279-bd70" hidden="false"/>
     <categoryEntry name="Psykana Rhino" id="1b43-1337-efdb-4c45" hidden="false"/>
     <categoryEntry name="Knight Centura" id="e6d7-2fdf-2b4f-213d" hidden="false"/>
+    <categoryEntry name="Ares Gunship" id="1186-5c83-f724-10f3" hidden="false"/>
+    <categoryEntry name="Orion Assault Dropship" id="5ba6-4035-71c7-0119" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Guardian Versatility" id="3c81-0eb1-6923-8e2e" hidden="false">
@@ -3161,6 +3389,12 @@ This rule is applied AFTER any Aegis Of Fire boni.</description>
     </rule>
     <rule name="Venatari Aerial Combat" id="9412-6b12-e8a3-15a0" hidden="false">
       <description>This unit can make a Fall Back Move and still shoot in the same turn.</description>
+    </rule>
+    <rule name="Golden Hail Of Death" id="a4c3-b56f-fe72-4838" hidden="false">
+      <description>Once per game, this model may be considered as having remained stationary, even if this model is currently in „Fly“ mode, but not the turn it entered the Battlefield if it enters the battlefield as reserves.</description>
+    </rule>
+    <rule name="Vehicle Of Golden Demigods" id="ed69-b83f-0168-0390" hidden="false">
+      <description>Units transported in this model never count towards the maximum of the reserve points limit.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>

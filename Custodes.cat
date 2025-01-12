@@ -204,5 +204,15 @@
         <categoryLink targetId="79e5-570b-2bdd-d3d7" id="7e32-8e01-e3ff-7b6f" primary="true" name="TROOPS"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Ares Gunship" hidden="false" id="9beb-407b-8ddd-82a8" type="selectionEntry" targetId="924b-cf28-0b0e-61ab">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="2e6d-8ea3-ca10-0fb8" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Orion Assault Dropship" hidden="false" id="f478-acd5-3706-1bc5" type="selectionEntry" targetId="3198-9f69-a025-54d6">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="6a7a-6d09-8a03-7080" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
