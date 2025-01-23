@@ -11,7 +11,7 @@
 
 &gt;Aegis Of Stone: The unit gains the „Feel No Pain (5+)“ Special Rule, but it can not make an advance or fall back move this turn. During Overwatch, unmodified Hit Rolls of 5+ are score hits.
 
-&gt;Aegis Of Rejuvenation: Return one lost model with full LP back to the unit. (Hero Units excluded). Return D3 lost models with LP back to the unit when it is a „Vigilators“, „Witchseekers“ or „Prosecutors“ unit.</description>
+&gt;Aegis Of Rejuvenation: Return one lost model with full LP back to the unit. (Hero Units excluded). Return D3 lost models with full LP back to the unit when it is a „Vigilators“, „Witchseekers“ or „Prosecutors“ unit.</description>
     </rule>
     <rule name="Auric Armor" id="5332-f0b6-bd40-21f9" hidden="false">
       <description>Unmodified Wound Rolls of 1-3 always fail against Adeptus Custodes Infantry and Mounted Units. If the enemy attack is 16 or higher, this rule is diminished to Unmodified Wound Rolls of 1-2 always fail.</description>
@@ -879,7 +879,7 @@
       <profiles>
         <profile name="Martial Ka&apos;Tah" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="8417-ce1d-7c59-3818">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Once per game, this model and the unit (and any other Hero units that are attached as well) is attached to are considered to have „Aegis Of The Fire“, „Aegis Of Ashes“ and „Aegis Of Rejuvenation“ active.</characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Once per game, this model and the unit (and any other Hero units that are attached as well) it is attached to are considered to have „Aegis Of The Fire“, „Aegis Of Ashes“ and „Aegis Of Rejuvenation“ active.</characteristic>
           </characteristics>
         </profile>
       </profiles>

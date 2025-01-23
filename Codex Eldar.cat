@@ -40,7 +40,8 @@
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Guardian" hidden="false" id="df84-f955-041e-c7b3">
               <costs>
-                <cost name="Pts" typeId="Points" value="8"/>
+                <cost name="Pts" typeId="Points" value="7"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Loadout" id="d7c5-622f-3502-e412" hidden="false">
@@ -688,14 +689,24 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Death Spinner" hidden="false" id="c398-819d-16f8-b8f6">
       <profiles>
-        <profile name="Death Spinner" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="8e68-d399-1861-3397">
+        <profile name="Death Spinner - Spinner Cloud" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="8e68-d399-1861-3397">
           <characteristics>
             <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
-            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">6</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
-            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,Ex(5)</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ex(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Death Spinner - Monofilament Beam" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="04b1-986b-234f-742f">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">9</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Tb(1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2585,7 +2596,7 @@ Every Eldar Infantry model counts as 1. „Wraith“ Infantry models can not be 
             <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">24</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
-            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+6</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+8</characteristic>
             <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
           </characteristics>
         </profile>
@@ -5166,7 +5177,8 @@ When the model is destroyed, roll a D6 on a 2+ return this model with D6+2 remai
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Warp Spiders" hidden="false" id="290f-bdfb-2552-0f14">
               <costs>
-                <cost name="Pts" typeId="Points" value="28"/>
+                <cost name="Pts" typeId="Points" value="26"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="5bdd-887e-44d1-adb8" includeChildSelections="false"/>
@@ -5201,7 +5213,7 @@ When the model is destroyed, roll a D6 on a 2+ return this model with D6+2 remai
                 </entryLink>
               </entryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon Options" id="453f-960b-5521-0bcb" hidden="false">
+                <selectionEntryGroup name="Weapon Options" id="453f-960b-5521-0bcb" hidden="false" defaultSelectionEntryId="86a1-d77d-12a5-d750">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dd2a-cd9f-a88e-65c1" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77c1-d006-375d-ae93" includeChildSelections="false"/>
@@ -5210,6 +5222,14 @@ When the model is destroyed, roll a D6 on a 2+ return this model with D6+2 remai
                     <entryLink import="true" name="Death Spinner" hidden="false" id="86a1-d77d-12a5-d750" type="selectionEntry" targetId="c398-819d-16f8-b8f6">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bb7-e8fd-ff3a-d030" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Pair Of Powerblades" hidden="false" id="865e-2973-f5d5-25fe" type="selectionEntry" targetId="2eb2-9270-5d5a-4107">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9cf-9b42-1316-70a1" includeChildSelections="false"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
@@ -5236,6 +5256,29 @@ When the model is destroyed, roll a D6 on a 2+ return this model with D6+2 remai
                         <cost name="Pts" typeId="Points" value="10"/>
                       </costs>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="2 Death Spinners And Spinneret Rifle" hidden="false" id="9470-2b3b-adbd-c436">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbe9-1551-7c5d-f152" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Death Spinner" hidden="false" id="1968-a090-66f3-e8af" type="selectionEntry" targetId="c398-819d-16f8-b8f6" collective="true">
+                          <constraints>
+                            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="74ac-d6b4-18da-26b2" includeChildSelections="false"/>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fc1c-4bbe-284c-c925" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Spinneret Rifle" hidden="false" id="9912-dafb-fd8a-cb2d" type="selectionEntry" targetId="6d48-fed7-6ba7-7bac" collective="true">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1cb1-6d1a-4b35-02dd" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="02cc-fba7-557d-1ce4" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="15"/>
+                        <cost name="VP" typeId="Victory Points" value="0"/>
+                      </costs>
+                    </selectionEntry>
                   </selectionEntries>
                   <modifiers>
                     <modifier type="set" value="86a1-d77d-12a5-d750" field="defaultSelectionEntryId"/>
@@ -5243,7 +5286,8 @@ When the model is destroyed, roll a D6 on a 2+ return this model with D6+2 remai
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="Pts" typeId="Points" value="28"/>
+                <cost name="Pts" typeId="Points" value="26"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5255,7 +5299,7 @@ When the model is destroyed, roll a D6 on a 2+ return this model with D6+2 remai
         <profile name="Powerblades" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="755b-d1e5-55ea-cd6a">
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
-            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
@@ -7512,7 +7556,8 @@ When the model is destroyed, roll a D6 on a 2+ return this model with D6+2 remai
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Phoenix Lord Maugan Ra" hidden="false" id="98b7-0ad6-d54a-4369">
       <costs>
-        <cost name="Pts" typeId="Points" value="180"/>
+        <cost name="Pts" typeId="Points" value="165"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="ca74-25d8-3eb4-bf23" id="73ed-4185-c379-53ce" primary="false" name="Infantry"/>
@@ -8831,6 +8876,130 @@ Improve the weapons profiles(both ranged and melee) „AP“ to „Super Heavy A
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Phoenix Lord Lhykhis" hidden="false" id="8f8b-2022-c15e-c181">
+      <costs>
+        <cost name="Pts" typeId="Points" value="165"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="2eb9-ef3f-a37d-b6cd" primary="false" name="Infantry"/>
+        <categoryLink targetId="e2f5-bd09-8fd7-22cb" id="ce9e-6248-a01b-11f5" primary="false" name="FACTION: Eldar"/>
+        <categoryLink targetId="3b98-132a-cc67-318b" id="3806-1679-6d73-9026" primary="false" name="SUPER FACTION: Eldar"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="faad-d939-691f-dd6d" primary="false" name="Character"/>
+        <categoryLink targetId="e474-61f2-3145-82e2" id="b39c-f075-e2e9-ed3c" primary="false" name="Phoenix Lord Lhykhis"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="af3a-852d-5310-5d4e" primary="false" name="AT - Heavy Armor"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(4+)" id="d633-20a2-aadb-c544" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Teleport Jump" id="9c2e-b3d2-9fb5-63cb" hidden="false" type="rule" targetId="dd40-ad59-3ec2-3eb8"/>
+        <infoLink name="Deep Strike" id="8457-2d51-673f-83ff" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="The Spider&apos;s Fangs" id="e391-0426-6f4c-d6ff" hidden="false" type="rule" targetId="9cbf-f14e-c569-96a7"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Phoenix Lord Lhykhis" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="37da-fdbd-0658-a925">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">12</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">3</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="The Brood Twain" hidden="false" id="e194-54d1-0bd0-d43e" type="selectionEntry" targetId="c80c-7500-194c-57fa"/>
+        <entryLink import="true" name="Vhattarkan" hidden="false" id="b863-129b-ddd2-2222" type="selectionEntry" targetId="217d-457f-e207-5907"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="The Brood Twain" hidden="false" id="c80c-7500-194c-57fa" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e2a-cd17-3947-838b" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="747b-7367-eb92-1090" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="The Brood Twain - Spiderweb Cloud" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="abd4-d56a-03a4-3b6e">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ex(4),Ar</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Brood Twain - Brood Beam" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="e1c6-61f6-0e01-cfb4">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Tb(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vhattarkan" hidden="false" id="217d-457f-e207-5907" collective="true">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8551-a4a5-c2af-6806" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="044b-7548-246c-671c" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Vhattarkan" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="5d96-85d4-a54f-49d9">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+7</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Spinneret Rifle" hidden="false" id="6d48-fed7-6ba7-7bac">
+      <profiles>
+        <profile name="Spinneret Rifle - Spinneret Cloud" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="d2ee-0971-cf8f-1fda">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ex(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spinneret Rifle - Spinneret Beam" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="87d2-3309-3128-a6f5">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">13</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Tb(2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pair Of Powerblades" hidden="false" id="2eb2-9270-5d5a-4107">
+      <profiles>
+        <profile name="Pair Of Powerblades" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="da7d-cb51-0d57-031d">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">10</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Guardians" id="e033-7d6c-a32c-187e" hidden="false"/>
@@ -8898,6 +9067,7 @@ Improve the weapons profiles(both ranged and melee) „AP“ to „Super Heavy A
         <constraint type="max" value="30" field="Points" scope="force" shared="true" id="af84-0a81-4cc8-ae51" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry name="Phoenix Lord Lhykhis" id="e474-61f2-3145-82e2" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Civilian Duty" id="2609-4df8-404e-4374" hidden="false">
@@ -9003,7 +9173,7 @@ The units Psyker level is dependent on the amount of models in this unit.
       <description>Wound Rolls made against this unit are worsened by -1.</description>
     </rule>
     <rule name="Teleport Jump" id="dd40-ad59-3ec2-3eb8" hidden="false">
-      <description>At the start of any Command Phase (yours and your opponents), you can remove this unit on the battlefield and place it immediately anywhere on the battlefield but not closer than 9&apos;&apos; to any enemy unit.</description>
+      <description>At the start of any Command Phase (yours and your opponents), you can remove this unit on the battlefield and place it immediately anywhere on the battlefield but not closer than 9&apos;&apos; to any enemy unit. If this unit moved out of Engagement Range using this rule, it can make ranged attacks as if it had moved normally.</description>
     </rule>
     <rule name="Swift Like The Wind" id="fffb-6248-a732-da98" hidden="false">
       <description>This unit can fire its weapons even after having advanced.</description>
@@ -9071,13 +9241,16 @@ The units Psyker level is dependent on the amount of models in this unit.
       <description>When this model is attached to a unit of „Striking Scorpions“ their „Mandi Blasts“ Special scores 2 additional hits instead of 1.</description>
     </rule>
     <rule name="Doom Incarnate" id="1492-2cab-3fbd-7a87" hidden="false">
-      <description>When this model is attached to a unit of „Dark Reapers“, they add +1 to their Hit Rolls.</description>
+      <description>When this model is attached to a unit of „Dark Reapers“, this model and the Dark Reapers unit it leads add +1 to their Hit Rolls.</description>
     </rule>
     <rule name="Venomous Bite" id="e51c-af07-0e44-00db" hidden="false">
       <description>For every wound roll of 4+ made for the „D-Impaler“, the selected enemy unit suffers D6 Mortal Wounds.</description>
     </rule>
     <rule name="Venomous Sting" id="6f0d-bdf1-7c48-6aa6" hidden="false">
       <description>For every 6 on a Wound Roll of the „Twin Scorpion Pulsar“, the targeted unit suffers D6 Mortal Wounds.</description>
+    </rule>
+    <rule name="The Spider&apos;s Fangs" id="9cbf-f14e-c569-96a7" hidden="false">
+      <description>When this model is attached to a unit of „Warp Spiders“, The unit adds the „Ar“ Special Rule to the Death Spinners „Spinner Cloud“ Profile and the Spinneret Rifles „Spinneret Cloud“ Profile. The unit also adds +1 to the Death Spinners and Spinneret Rifles „Tb“ Special Rule. Also add +2 to the Attacks of the Powerblades and Pair Of Powerblades Profile.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
