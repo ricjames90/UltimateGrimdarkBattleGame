@@ -2335,7 +2335,7 @@
       <profiles>
         <profile name="Vector Engines" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="56d3-96ee-9460-47cb">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Add +4&apos;&apos; to the Movement characteristic of the model.</characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">After having finished making ranged attacks, roll a D6 and immediately move up to the number you rolled in inch.</characteristic>
           </characteristics>
         </profile>
       </profiles>
