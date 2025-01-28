@@ -87,7 +87,8 @@
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Boy" hidden="false" id="94b8-b09a-6d6d-609e">
               <costs>
-                <cost name="Pts" typeId="Points" value="8"/>
+                <cost name="Pts" typeId="Points" value="7"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Loadout" id="fed7-4db8-7e5a-0bb7" hidden="false">
@@ -111,7 +112,8 @@
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Nob" hidden="false" id="998a-5a5a-b1ac-01e0" collective="true">
               <costs>
-                <cost name="Pts" typeId="Points" value="8"/>
+                <cost name="Pts" typeId="Points" value="7"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1ab3-b6dc-f9d1-9b6d" includeChildSelections="false"/>
@@ -138,7 +140,8 @@
                 </modifier>
               </modifiers>
               <costs>
-                <cost name="Pts" typeId="Points" value="8"/>
+                <cost name="Pts" typeId="Points" value="7"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1142,7 +1145,8 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
                 <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="69fd-c817-2a9c-2b3e" includeChildSelections="false"/>
               </constraints>
               <costs>
-                <cost name="Pts" typeId="Points" value="85"/>
+                <cost name="Pts" typeId="Points" value="50"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Kustom Vehicle Upgrades" hidden="false" id="0f75-bc8d-8218-784a" type="selectionEntryGroup" targetId="4ec5-48ef-06e8-fdfc"/>
@@ -1246,6 +1250,22 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Build In Big Shoota" hidden="false" id="b621-0a2e-619f-ec90" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25eb-7abd-78dc-0360" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61a4-2ad1-8275-9f9c" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Big Shoota" hidden="false" id="790a-2d0f-0de0-27fb" type="selectionEntry" targetId="82ec-bcc7-6688-8bfd" collective="true">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="efc4-8bb9-f06d-b718" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ec1-d792-7d5e-486b" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1434,7 +1454,8 @@ After having determined the number of attacks according to the profile and havin
                 <constraint type="max" value="49" field="selections" scope="parent" shared="true" id="ea83-c9f8-8870-d80a" includeChildSelections="false"/>
               </constraints>
               <costs>
-                <cost name="Pts" typeId="Points" value="12"/>
+                <cost name="Pts" typeId="Points" value="9"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Slugga and Choppa" hidden="false" id="94a7-346e-af05-8ebd" type="selectionEntry" targetId="2074-b7d7-27f6-d1c3" collective="true">
@@ -1450,7 +1471,8 @@ After having determined the number of attacks according to the profile and havin
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9bb0-4ab1-cb0e-0511" includeChildSelections="false"/>
               </constraints>
               <costs>
-                <cost name="Pts" typeId="Points" value="12"/>
+                <cost name="Pts" typeId="Points" value="9"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Slugga" hidden="false" id="87a3-9519-d49f-7f68" type="selectionEntry" targetId="6adb-04c8-bdd1-cb66" collective="true">
@@ -1733,7 +1755,8 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Killtank" hidden="false" id="dd13-bb11-2d1a-a694">
       <costs>
-        <cost name="Pts" typeId="Points" value="280"/>
+        <cost name="Pts" typeId="Points" value="240"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <profiles>
         <profile name="Killtank" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="7983-e72c-0bca-0fa2">
@@ -3243,7 +3266,8 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Tankbusta" hidden="false" id="6183-6013-8e93-2f28">
               <costs>
-                <cost name="Pts" typeId="Points" value="28"/>
+                <cost name="Pts" typeId="Points" value="24"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Fizts" hidden="false" id="5e26-dc49-05c1-41a4" type="selectionEntry" targetId="93d2-8b18-5bbd-216f"/>
@@ -3261,7 +3285,8 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Tankbusta w/Tankbusta Hammer" hidden="false" id="8761-48c1-c6ce-58e7">
               <costs>
-                <cost name="Pts" typeId="Points" value="43"/>
+                <cost name="Pts" typeId="Points" value="39"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Fizts" hidden="false" id="e7da-adc1-f393-628d" type="selectionEntry" targetId="93d2-8b18-5bbd-216f"/>
@@ -3286,7 +3311,8 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Tankbusta w/Rokkit Pistols" hidden="false" id="adaa-f31b-b856-b364">
               <costs>
-                <cost name="Pts" typeId="Points" value="33"/>
+                <cost name="Pts" typeId="Points" value="29"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Fizts" hidden="false" id="28f3-55f7-d167-d653" type="selectionEntry" targetId="93d2-8b18-5bbd-216f"/>
@@ -6546,7 +6572,8 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Dakkajet" hidden="false" id="ab29-8083-8a5d-91e8">
               <costs>
-                <cost name="Pts" typeId="Points" value="105"/>
+                <cost name="Pts" typeId="Points" value="75"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc82-72b2-6072-d2fe" includeChildSelections="false"/>
@@ -6702,7 +6729,8 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Wazbom Blastajet" hidden="false" id="c71d-8134-e1a5-e4cd">
       <costs>
-        <cost name="Pts" typeId="Points" value="185"/>
+        <cost name="Pts" typeId="Points" value="125"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <profiles>
         <profile name="Wazbom Blastajet" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="0074-715b-c9f6-ac9e">
@@ -7362,6 +7390,7 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
       <infoLinks>
         <infoLink name="Kommando Protocol" id="e6de-5a03-7170-2433" hidden="false" type="rule" targetId="7359-ab51-3985-fb80"/>
         <infoLink name="Infiltrators" id="9305-383a-1533-5c5c" hidden="false" type="rule" targetId="16b3-ebbc-abff-96b"/>
+        <infoLink name="Stealth" id="00e1-4265-082f-d92b" hidden="false" type="rule" targetId="288e-825d-c6ea-5f92"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Kommandoz" id="a39c-a404-989f-edc8" hidden="false">

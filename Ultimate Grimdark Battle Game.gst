@@ -179,14 +179,14 @@
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="fbe5-fea7-9b6c-56f3"/>
-        <constraint type="max" value="1000" field="limit::Points" scope="roster" shared="true" id="f314-968b-7bce-a45d" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1000" field="limit::Points" scope="parent" shared="true" id="f314-968b-7bce-a45d" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </forceEntry>
     <forceEntry name="3. Game Size - Medium (1501-2000 Pts)" id="f021-daf4-f9c0-13bf" hidden="false">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="84cd-530c-4d8d-6843"/>
-        <constraint type="min" value="1501" field="limit::Points" scope="roster" shared="true" id="d120-7eff-c188-b101" includeChildSelections="true" includeChildForces="true"/>
-        <constraint type="max" value="2000" field="limit::Points" scope="roster" shared="true" id="ecab-af5c-a87f-e947" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="1501" field="limit::Points" scope="parent" shared="true" id="d120-7eff-c188-b101" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="2000" field="limit::Points" scope="parent" shared="true" id="ecab-af5c-a87f-e947" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="3a40-a86a-16c6-1415" targetId="bf9c-ecb1-6aa4-5acf"/>
@@ -245,8 +245,8 @@
     <forceEntry name="4. Game Size - Medium Large (2001-3000 Pts)" id="b25a-ce1e-70c1-7179" hidden="false">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="ca48-ee65-2c78-3a89"/>
-        <constraint type="min" value="2001" field="limit::Points" scope="roster" shared="true" id="fdb6-ea00-430e-3ca6" includeChildSelections="true" includeChildForces="true"/>
-        <constraint type="max" value="3000" field="limit::Points" scope="roster" shared="true" id="503a-fde6-bb0f-a378" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="2001" field="limit::Points" scope="parent" shared="true" id="fdb6-ea00-430e-3ca6" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="3000" field="limit::Points" scope="parent" shared="true" id="503a-fde6-bb0f-a378" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="6503-ef43-74af-b9c4" targetId="bf9c-ecb1-6aa4-5acf"/>
@@ -305,8 +305,8 @@
     <forceEntry name="5. Game Size - Large (3001-4000 Pts)" id="79ab-fea0-5036-62ef" hidden="false">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="3f02-5d1e-8738-b65e"/>
-        <constraint type="min" value="3001" field="limit::Points" scope="roster" shared="true" id="707c-5f46-66bb-93ed" includeChildSelections="true" includeChildForces="true"/>
-        <constraint type="max" value="4000" field="limit::Points" scope="roster" shared="true" id="3db5-4868-bb10-3c5d" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="3001" field="limit::Points" scope="parent" shared="true" id="707c-5f46-66bb-93ed" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="4000" field="limit::Points" scope="parent" shared="true" id="3db5-4868-bb10-3c5d" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="b267-57ae-fc71-986e" targetId="bf9c-ecb1-6aa4-5acf"/>
@@ -365,8 +365,8 @@
     <forceEntry name="2. Game Size - Small Medium (1001-1500 Pts)" id="c7a0-713e-c0da-feec" hidden="false">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="6167-8b85-0484-dcd4"/>
-        <constraint type="min" value="1001" field="limit::Points" scope="roster" shared="true" id="ac2d-fffc-41e8-b8e5" includeChildSelections="true" includeChildForces="true"/>
-        <constraint type="max" value="1500" field="limit::Points" scope="roster" shared="true" id="a87a-068e-949f-b1ce" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="1001" field="limit::Points" scope="parent" shared="true" id="ac2d-fffc-41e8-b8e5" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1500" field="limit::Points" scope="parent" shared="true" id="a87a-068e-949f-b1ce" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="356d-3c2d-5a9b-9561" targetId="bf9c-ecb1-6aa4-5acf"/>
@@ -425,8 +425,8 @@
     <forceEntry name="6. Game Size - Extra Large (4001-5000 Pts)" id="46ba-3329-e277-65cf" hidden="false">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="4789-01e5-bb71-8184"/>
-        <constraint type="min" value="4001" field="limit::Points" scope="roster" shared="true" id="4919-c915-384f-c9fc" includeChildSelections="true" includeChildForces="true"/>
-        <constraint type="max" value="5000" field="limit::Points" scope="roster" shared="true" id="a1d3-073e-bfb9-5744" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="4001" field="limit::Points" scope="parent" shared="true" id="4919-c915-384f-c9fc" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="5000" field="limit::Points" scope="parent" shared="true" id="a1d3-073e-bfb9-5744" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="8ada-f019-e0cf-9f1b" targetId="bf9c-ecb1-6aa4-5acf"/>
@@ -485,7 +485,7 @@
     <forceEntry name="7. Game Size - Apocalypse (XXXX-XXXX Pts)" id="0be4-f458-e964-76d5" hidden="false">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="f6bd-99d1-5d2f-99a9"/>
-        <constraint type="min" value="1" field="limit::Points" scope="roster" shared="true" id="ce55-873d-6ecd-ec25" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="1" field="limit::Points" scope="parent" shared="true" id="ce55-873d-6ecd-ec25" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="a7be-630f-f88e-1ccc" targetId="bf9c-ecb1-6aa4-5acf"/>
