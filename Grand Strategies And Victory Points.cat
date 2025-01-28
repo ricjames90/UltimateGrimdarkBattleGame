@@ -5,7 +5,11 @@
       <description>Everytime you score Victory Points for holding any Objective markers, you score one(1) additional Point. Holding the Centre Objective rewards three(3) additional Victory Points instead. You gain seven(7) additional Victory Points when you&apos;re in control of 3 or more objectives by the time of scoring objectives. If you are in control of all objectives, you gain twelve(12) additional Victory Points instead.</description>
     </rule>
     <rule name="Total Annihilation" id="fbeb-c0b8-ea9f-24e7" hidden="false">
-      <description>At the end of the battle, when calculating Victory Points, you gain two(2) additional Victory points for every 100 points of destroyed enemy units. (Read the „Calculating Victory Points“-step for how to determine how many Points of enemy units you destroyed)</description>
+      <description>At the end of the battle, when calculating Victory Points, you gain two(2) additional Victory points for every 100 points of destroyed enemy units. (Read the „Calculating Victory Points“-step for how to determine how many Points of enemy units you destroyed). Also if you destroy a „Super Heavy Support“ unit, you immediately gain 15 Victory Points in addition to any other Victory Points. Also you gain the following amount of victory points for „Hero“ units:
+Hero units with 5LP or less = 3VP
+Hero units with 6-10LP = 5VP
+Hero units with 11-20LP = 7VP
+Hero units with 21+LP = 10VP</description>
     </rule>
     <rule name="Battlefield Supremacy" id="52bb-6f62-f2db-2081" hidden="false">
       <description>At the end of every game round, you score three(3) Victory points for every battliefield quarter with a unit of yours wholly within it said battlefield quarter.</description>
@@ -211,6 +215,36 @@ At the end of the game, both players add together all the points of all the dest
           <costs>
             <cost name="Pts" typeId="Points" value="0"/>
             <cost name="VP" typeId="Victory Points" value="2"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Destroyed Super Heavy Support Unit" hidden="false" id="8ebf-d2dc-059b-7229">
+          <costs>
+            <cost name="Pts" typeId="Points" value="0"/>
+            <cost name="VP" typeId="Victory Points" value="15"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Destroyed Hero 5LP or less" hidden="false" id="0b41-5996-ccfc-afdb">
+          <costs>
+            <cost name="Pts" typeId="Points" value="0"/>
+            <cost name="VP" typeId="Victory Points" value="3"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Destroyed Hero 6-10LP" hidden="false" id="43db-65f3-975e-ee9d">
+          <costs>
+            <cost name="Pts" typeId="Points" value="0"/>
+            <cost name="VP" typeId="Victory Points" value="5"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Destroyed Hero 11-20LP" hidden="false" id="6e2c-08a2-2d2e-962e">
+          <costs>
+            <cost name="Pts" typeId="Points" value="0"/>
+            <cost name="VP" typeId="Victory Points" value="7"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Destroyed Hero 21LP or more" hidden="false" id="4e66-6b7b-6e78-e3ad">
+          <costs>
+            <cost name="Pts" typeId="Points" value="0"/>
+            <cost name="VP" typeId="Victory Points" value="10"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

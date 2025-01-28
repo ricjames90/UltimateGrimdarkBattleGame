@@ -273,5 +273,14 @@
         <categoryLink targetId="2357-54fe-ef95-53ed" id="f3df-b940-04a0-cb85" primary="true" name="HERO"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="The Non-Verbal Monarch" hidden="false" id="3265-9493-39cf-171a" type="selectionEntry" targetId="faa8-c28c-b842-8725">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="5f96-4918-5d6f-b0f3" primary="true" name="HERO"/>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="28b7-ae0f-2717-f3a1" primary="false" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4cc0-9b98-7b03-96f8" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
 </catalogue>
