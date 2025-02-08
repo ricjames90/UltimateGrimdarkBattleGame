@@ -3041,7 +3041,7 @@ Effect 3: The MgNa effect is triggered on an unmodified roll of 4+.</description
     </profile>
     <profile name="Master Armourers" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="d63c-d772-f7b1-3a41">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Improve the Armor Type of „Hearthkyn“ units to „SHA“ and their As Characteristic to 3+/3+. Also every „Ymyr Conglomerate“ unit rerolls failed Armor Save and Invulnerable Save roles of 1, Hearthkyn units are excluded from rerolling failed Armor Save rolls, but not Invulnerable Saves, in case they have any applying to them.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Improve the As Characteristic to 3+/3+ or to 2+/2+ for models that already have a 3+3+ AS characteristic. Also every „Ymyr Conglomerate“ unit rerolls failed Armor Save and Invulnerable Save roles of 1, Hearthkyn units are excluded from rerolling failed Armor Save rolls, but not Invulnerable Saves, in case they have any applying to them.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

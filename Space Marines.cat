@@ -1222,6 +1222,32 @@
         <constraint type="max" value="0" field="selections" scope="79e5-570b-2bdd-d3d7" shared="true" id="0e57-b58d-059c-d26c"/>
       </constraints>
     </entryLink>
+    <entryLink import="true" name="Jackhietai Chan" hidden="false" id="dcd1-4134-8f2e-aef7" type="selectionEntry" targetId="1f66-3a05-0d6f-8e0d">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="cb48-7215-f986-bce9" primary="true" name="HERO"/>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="5d76-60e3-d5cf-d7a5" primary="false" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="718b-3a7a-a40d-e823" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Iron Mike" hidden="false" id="f166-f6e5-826f-f023" type="selectionEntry" targetId="9023-a5c6-d55f-92d7">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="10fa-a703-3011-b2dd" primary="true" name="HERO"/>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="89b0-470b-94f2-3d84" primary="false" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="1c14-a31c-3d1b-a2fd" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Space Marines" id="1a54-9cc0-6596-93c6" targetId="b9aa-5902-f97d-9cd5"/>

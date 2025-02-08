@@ -95,6 +95,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="811a-de8f-0442-6618" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry name="Lord Of Poxes" id="7363-21cf-bad6-ad56" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Mark Of Chaos Undivided" hidden="false" id="6ac7-43ba-d100-ddf9">
@@ -10562,7 +10563,6 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
       </profiles>
       <infoLinks>
         <infoLink name="Disharmonic Movement" id="f01d-d77a-02e2-bdc7" hidden="false" type="rule" targetId="ec32-0dcb-7de7-d7d6"/>
-        <infoLink name="Stealth" id="4bef-f559-3b13-6b14" hidden="false" type="rule" targetId="288e-825d-c6ea-5f92"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Noise Marines" id="c7b6-55b7-e3c1-2dde" hidden="false">
@@ -10573,7 +10573,8 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Noise Marine" hidden="false" id="7ccd-a9f8-1dfd-9030">
               <costs>
-                <cost name="Pts" typeId="Points" value="27"/>
+                <cost name="Pts" typeId="Points" value="26"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="3c71-d5ec-55c7-00c6" includeChildSelections="false"/>
@@ -10597,7 +10598,7 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b89f-1974-3869-131b" includeChildSelections="false"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="Points" value="3"/>
+                        <cost name="Pts" typeId="Points" value="4"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -10609,7 +10610,8 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Champion" hidden="false" id="312b-7a8d-521e-9c9a">
               <costs>
-                <cost name="Pts" typeId="Points" value="27"/>
+                <cost name="Pts" typeId="Points" value="26"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="463a-602c-7fe0-476e" includeChildSelections="false"/>
@@ -10617,14 +10619,6 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
               </constraints>
               <entryLinks>
                 <entryLink import="true" name="Combatweapon" hidden="false" id="9a6f-9e18-8c17-b377" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
-                <entryLink import="true" name="Doom Siren" hidden="false" id="6585-242c-768e-9ad9" type="selectionEntry" targetId="bcff-16ba-b2f2-103b">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ef6-6773-ab53-625c" includeChildSelections="false"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="Points" value="15"/>
-                  </costs>
-                </entryLink>
               </entryLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Melee Weapon" id="d873-3a0d-4bf3-1fe9" hidden="false">
@@ -10662,13 +10656,21 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fb7-40f8-a618-de0d" includeChildSelections="false"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="Points" value="3"/>
+                        <cost name="Pts" typeId="Points" value="4"/>
                       </costs>
                     </entryLink>
                     <entryLink import="true" name="Plasma Pistol" hidden="false" id="9247-d52b-4651-5007" type="selectionEntry" targetId="a4d4-23bc-1e16-506e">
                       <costs>
                         <cost name="Pts" typeId="Points" value="5"/>
                       </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Screamer Pistol" hidden="false" id="58fa-999b-3073-cebd" type="selectionEntry" targetId="b084-bc61-f0b9-6b94">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d317-2d6c-a372-829d" includeChildSelections="false"/>
+                      </constraints>
                     </entryLink>
                   </entryLinks>
                   <modifiers>
@@ -10717,14 +10719,29 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sonic Blaster" hidden="false" id="6b04-d80b-edfa-1bcb">
       <profiles>
-        <profile name="Sonic Blaster" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="ad19-3aba-473c-a1fa">
+        <profile name="Sonic Blaster - Sonic Staccato" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="ad19-3aba-473c-a1fa">
           <characteristics>
-            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
-            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
-            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,He,Ar</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,He</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sonic Blaster - Boom Burst" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="e3a8-97ff-4ea1-f776">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sonic Blaster" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="1e13-d9e7-56f0-7f1b">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">A Sonic Blaster can only make attacks with its „Boom Burst“ Profile if this unit has remained stationary.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15685,6 +15702,116 @@ Damage suffered by this weapon will not be lost against units with more than one
         <entryLink import="true" name="Marks Of Chaos" hidden="false" id="ecd4-7134-1ae6-91c1" type="selectionEntryGroup" targetId="c54e-43d0-6048-9535" sortIndex="1"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Lord Of Poxes" hidden="false" id="876a-07cc-d19c-86e4">
+      <costs>
+        <cost name="Pts" typeId="Points" value="150"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="359f-fdc0-8444-14e1" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="2b5e-5423-772c-88e2" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="55ca-5632-954c-0842" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="ba58-9acc-071c-5f21" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="d697-6c8a-be60-b055" primary="false" name="Character"/>
+        <categoryLink targetId="7363-21cf-bad6-ad56" id="3c6f-b936-9256-2592" primary="false" name="Lord Of Poxes"/>
+        <categoryLink targetId="eed9-4b0d-816e-bd6b" id="cc4a-2b06-1cc4-6a32" primary="false" name="Subfaction: Death Guard"/>
+        <categoryLink targetId="2099-72fb-a99c-3dfd" id="90c4-3ac2-8fcf-8b96" primary="false" name="Mark Of Nurgle"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="95b8-2cac-d0ef-b8d2" primary="false" name="Power Armor"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Lord Of Poxes" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="e96f-3855-add1-6b12">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">5</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Impervious To Injuries(-1)" id="c3a5-4bb4-a3a1-d148" hidden="false" type="rule" targetId="b0d5-df50-640b-c3d4"/>
+        <infoLink name="Invulnerable Save(4+)" id="6067-0757-a6f3-5c43" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Miasmic Turbine" id="c00f-652a-e660-c26b" hidden="false" type="rule" targetId="1389-2513-993b-8c82"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Mark Of Nurgle" hidden="false" id="9ded-ec96-7a71-0773" type="selectionEntry" targetId="22fd-e5af-c61b-51ef" collective="true" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7375-9d74-92c7-cda5" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Chaos Space Marines Relics" hidden="false" id="98c4-8f4c-137c-4f02" type="selectionEntryGroup" targetId="1b95-fa88-3061-f870" sortIndex="2"/>
+        <entryLink import="true" name="Rust-Crafted Plasma Pistol" hidden="false" id="f2e6-2792-8b7a-0417" type="selectionEntry" targetId="b723-dc80-56cb-8541" collective="true" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4efc-2fef-8dcd-f016" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7298-abb8-fc4e-515a" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Decayed Blade" hidden="false" id="0a44-7714-9e41-ca68" type="selectionEntry" targetId="1537-3d13-79ef-5a79" sortIndex="4" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c11-fef6-0bb7-a023" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52c4-9e70-70d3-65c1" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rust-Crafted Plasma Pistol" hidden="false" id="b723-dc80-56cb-8541">
+      <profiles>
+        <profile name="Rust-Crafted Plasma Pistol - Normal" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="0853-eae7-3c20-970a">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">12</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">2</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">12</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Ps</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rust-Crafted Plasma Pistol - Overcharged" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="97e1-d216-d34c-cbe5">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">12</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">2</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">14</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">4</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Ps,Mal</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Decayed Blade" hidden="false" id="1537-3d13-79ef-5a79">
+      <profiles>
+        <profile name="Decayed Blade" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="9c1f-399e-eb65-2f56">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x3</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Screamer Pistol" hidden="false" id="b084-bc61-f0b9-6b94">
+      <profiles>
+        <profile name="Screamer Pistol" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="f5c8-2536-d8b0-99c8">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,Ps</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Marks Of Chaos" id="6543-e87d-3d2f-0a12" hidden="false">
@@ -17377,7 +17504,7 @@ If this unit is within 3&apos;&apos; of any „Cultist“, „Accursed Cultist�
       <description>Once per turn, pick a single enemy unit within 3&apos;&apos; inches of this model and substract -1 from the LD characteristic of that unit until the end of the Chaplains players turn.</description>
     </rule>
     <rule name="Disharmonic Movement" id="ec32-0dcb-7de7-d7d6" hidden="false">
-      <description>At the end of the shooting phase, this unit may move D6+1&apos;&apos; in any direction.</description>
+      <description>At the end of the shooting phase, this unit may move D6+1&apos;&apos; in any direction. Also enemy units subtract -1 from their Wound Rolls against this unit when making melee attacks or ranged attacks within 18&apos;&apos; of this unit.</description>
     </rule>
     <rule name="Attacked By Talons And Beaks" id="eb5a-56e6-97bb-2155" hidden="false">
       <description>Add +1&apos;&apos; to any of this units charge roll. Also in a turn this unit charged, add +1I to their Initiative Characteristic.</description>
@@ -17478,6 +17605,9 @@ This model can cast any Psychic Powers it is equipped up to twice per turn and n
     <rule name="Preacher Of Hell" id="f04c-f623-8bb1-3633" hidden="false">
       <description>This model can cast up 4 Litanies per turn. This model must never roll on the table for „Vehicle and Monster degradation“. If this model is within 3&apos;&apos; of a friendly Word Bearers Unit, it gains the „Lone Operator“ Special Rule.</description>
     </rule>
+    <rule name="Miasmic Turbine" id="1389-2513-993b-8c82" hidden="false">
+      <description>The unit this model is attached to, gains the „Lone Operator“ Special Rule.</description>
+    </rule>
   </sharedRules>
   <rules>
     <rule name="Eternal Hatred" id="1211-1b56-0f2d-c26b" hidden="false">
@@ -17487,7 +17617,7 @@ This model can cast any Psychic Powers it is equipped up to twice per turn and n
 Per full 2000 Points game size (2000,4000,6000,8000etc.) you can select another unit.</description>
     </rule>
     <rule name="Warp Armor" id="aca0-3946-7681-7a4a" hidden="false">
-      <description>Wound Rolls of 1-2 always fail against Chaos Space Marine „Infantry“ units.(only units with Heavy Armor or higher) Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Space Marine Infantry unit.</description>
+      <description>Wound Rolls of 1-2 always fail against Chaos Space Marine „Infantry“ and &quot;Mounted&quot; units.(only units with Heavy Armor or higher) Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Space Marine Infantry unit.</description>
     </rule>
   </rules>
   <sharedProfiles>
