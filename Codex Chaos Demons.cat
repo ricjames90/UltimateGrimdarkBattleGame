@@ -4,11 +4,13 @@
     <rule name="Servants Of The Dark Gods" id="f4d8-5073-9f00-c3ee" hidden="false">
       <description>Friendly Chaos Demons „Lesser Demons“ units within 6&apos;&apos; of a unit with the „Warp Locust“ keyword add +1 to their Leadership Characteristic.
 
-
 Chaos Demons units can never benefit from the „Benefiting from Cover“ Special Rule.
 
+„Greater Demon“ units never suffer penalties to their Hit Rolls.
 
-„Greater Demon“ units never suffer penalties to their Hit Rolls.</description>
+
+At the start of every opposing player turns, add D6 models to every single one(up to their maximum unit size mentioned in the datasheet) to the following units:
+„Pink Horrors“, „Bloodletters“, „Plague Bearers“ and „Demonettes“.</description>
     </rule>
     <rule name="Tides Of The Gods" id="58b4-88d1-c99b-3a04" hidden="false">
       <description>Your army gains one of the following bonus when the following conditions are met:
