@@ -245,6 +245,32 @@
     </entryLink>
     <entryLink import="true" name="Chaos Auxiliaries Rules" hidden="false" id="4123-0e1e-1f02-ccec" type="selectionEntry" targetId="108f-cade-6652-dabc"/>
     <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="d75a-4f00-21a6-b038" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
+    <entryLink import="true" name="Blue Horrors" hidden="false" id="51c0-19a5-1353-bcc2" type="selectionEntry" targetId="c02b-21bb-4665-a164">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="03db-8673-91be-9fdc" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="01ad-9995-73d0-112d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="fa2e-9538-5295-a337" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Brimstone Horrors" hidden="false" id="ad5d-009c-1283-e98a" type="selectionEntry" targetId="63b5-4455-b9f1-525c">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="09e4-deb8-d4a5-9159" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="01ad-9995-73d0-112d" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="fa2e-9538-5295-a337" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Chaos Demons" id="e506-b98b-2e84-c228" targetId="d320-960f-c386-889"/>
