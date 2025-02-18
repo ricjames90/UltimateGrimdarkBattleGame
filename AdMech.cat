@@ -275,5 +275,80 @@
         <categoryLink targetId="79e5-570b-2bdd-d3d7" id="d4dd-e76f-2811-eb1c" primary="true" name="TROOPS"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Thanatar Calix-Automata Maniple" hidden="false" id="a371-c11d-a884-8b80" type="selectionEntry" targetId="41dc-a433-c67a-11c2">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="1e46-e8e9-2675-7ae7" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Karacnos Assault Tank" hidden="false" id="a257-78c1-4674-9b2a" type="selectionEntry" targetId="b09a-b269-02f0-ef00">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="1bd9-151a-3f48-93ae" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Krios Battle Tank Squadron" hidden="false" id="21b9-065e-b07a-26a1" type="selectionEntry" targetId="8a08-75ff-2235-0792">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="1e68-911a-3a1e-ebc9" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Secutarii Axiarch" hidden="false" id="cdff-f2f1-94d6-a6a1" type="selectionEntry" targetId="628e-0764-4e5b-6d9a">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="4965-5c74-c64f-3033" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Secutarii Hoplites" hidden="false" id="3999-5f9b-18f6-0496" type="selectionEntry" targetId="c9ea-65d3-9498-5607">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="3c0d-ae47-f2d8-5bc7" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="cdff-f2f1-94d6-a6a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="2ffc-8ffa-9f81-7e09">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="cdff-f2f1-94d6-a6a1" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" value="1" field="2ffc-8ffa-9f81-7e09">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="d4ad-8a45-b42b-7d3d" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="2ffc-8ffa-9f81-7e09"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Secutarii Peltats" hidden="false" id="d4ad-8a45-b42b-7d3d" type="selectionEntry" targetId="f707-3bfb-ac83-bc1d">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="31a5-4c41-0c05-879e" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="922d-f947-362c-4bd9"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="cdff-f2f1-94d6-a6a1" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="922d-f947-362c-4bd9">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="cdff-f2f1-94d6-a6a1" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" value="1" field="922d-f947-362c-4bd9">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="3999-5f9b-18f6-0496" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Arcuitor Magisterium" hidden="false" id="f006-5bb0-15b4-8dc8" type="selectionEntry" targetId="735c-c3a9-3832-79c3">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="e77a-32a8-e0ed-fbe5" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
