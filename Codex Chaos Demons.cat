@@ -5853,7 +5853,7 @@ This unit can also make Ranged Attacks after having made a Fall Back Move.</desc
       <description>Everytime a friendly „Pink Horrors“ model is destroyed, roll a D6, on a roll of 2+, add 1 Blue Horror (even if it would exceed the maximum in your army list listed number of models this unit has, but never above the maximum limit of 50 models) model to this unit. If the roll is a 6, add 2 models instead.</description>
     </rule>
     <rule name="Splinters Of The Blue" id="6a38-09f4-8709-802c" hidden="false">
-      <description>Everytime a friendly „Blue Horrors“ model is destroyed, roll a D6, on a roll of 3+, add 1 Blue Horror (even if it would exceed the maximum in your army list listed number of models this unit has, but never above the maximum limit of 50 models) model to this unit. If the roll is a 6, add 2 models instead.</description>
+      <description>Everytime a friendly „Blue Horrors“ model is destroyed, roll a D6, on a roll of 3+, add 1 Brimstone Horror (even if it would exceed the maximum in your army list listed number of models this unit has, but never above the maximum limit of 50 models) model to this unit. If the roll is a 6, add 2 models instead.</description>
     </rule>
   </sharedRules>
 </catalogue>
