@@ -261,9 +261,9 @@
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Tactical Marine" hidden="false" id="118b-f34d-d6a8-7fcb">
               <entryLinks>
-                <entryLink import="true" name="Combatweapon" hidden="false" id="5ce5-b9dc-dda7-ed95" type="selectionEntry" targetId="275-a5a3-6e96-ee42"/>
                 <entryLink import="true" name="Bolt Gun" hidden="false" id="3daf-5778-5578-645f" type="selectionEntry" targetId="a14e-a0fa-23df-bb2a"/>
                 <entryLink import="true" name="Bolt Pistol" hidden="false" id="2fe0-3099-1be8-69b8" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="2b60-e3d2-c286-a14b" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="Points" value="22"/>
@@ -281,7 +281,7 @@
                 <cost name="Pts" typeId="Points" value="22"/>
               </costs>
               <entryLinks>
-                <entryLink import="true" name="Combatweapon" hidden="false" id="3474-77e0-8c7a-2869" type="selectionEntry" targetId="275-a5a3-6e96-ee42"/>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="cd06-28f7-7339-47aa" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
               </entryLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon Options" id="84cd-e8cf-ab08-f66f" hidden="false">
@@ -310,9 +310,9 @@
                 <cost name="Pts" typeId="Points" value="22"/>
               </costs>
               <entryLinks>
-                <entryLink import="true" name="Combatweapon" hidden="false" id="487a-fb54-697e-63d8" type="selectionEntry" targetId="275-a5a3-6e96-ee42"/>
                 <entryLink import="true" name="Bolt Pistol" hidden="false" id="2181-7842-d0c4-f5e6" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
                 <entryLink import="true" name="Special Weapons" hidden="false" id="234d-9e86-ac26-5aac" type="selectionEntryGroup" targetId="9ac0-257f-491f-d0c8"/>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="f9ba-93ae-9117-5275" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d383-23b8-1810-913f"/>
@@ -328,8 +328,8 @@
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Bolt Pistol" hidden="false" id="831f-34c8-ffbd-aceb" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
-                <entryLink import="true" name="Combatweapon" hidden="false" id="8c56-71de-e151-6cf8" type="selectionEntry" targetId="275-a5a3-6e96-ee42"/>
                 <entryLink import="true" name="Heavy Weapons" hidden="false" id="e8b0-d5b1-e383-d037" type="selectionEntryGroup" targetId="93b9-cb42-47d1-3ac7"/>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="26f0-8901-2d7d-e5d6" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2bd-cb2a-11fb-68be"/>
@@ -2611,7 +2611,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
-            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,Ar</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,Ar,Pre</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22577,9 +22577,9 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">At the start of the game you can choose to benefit from one of the following benefits:
 
 
-1. Vermin-Ex: Reroll failed Wound Rolls of 1 against enemy Infantry Units.
-2. Behemoth-Ex: Reroll a single failed Hit- or Wound Roll per unit, per turn against enemy „Monster“ units.
-3. Xenosteel-Ex: Reroll a single failed Hit- or Wound Roll per unit, per turn against enemy „Vehicle“ units.</characteristic>
+1. Vermin-Ex: Reroll failed Wound Rolls and Hit Rolls of 1 against enemy Infantry Units.
+2. Behemoth-Ex: Reroll a single failed Hit- or Wound Roll per unit, per turn against enemy „Monster“ units. (one per every 500 points of game size)
+3. Xenosteel-Ex: Reroll a single failed Hit- or Wound Roll per unit, per turn against enemy „Vehicle“ units. (one per every 500 points of game size)</characteristic>
       </characteristics>
     </profile>
     <profile name="Unbridled Hatred" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="b1bd-1d65-4f0b-fea3">
@@ -24619,7 +24619,13 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
     <rule name="Tactical Versatility" id="7894-817e-3cef-e06" hidden="false">
       <description>Once per Game,in a single phase, a Tactical Marine unit can chose to either:
 &gt;double the attacks of their Boltguns
-&gt;double the attacks of their Combat Knife Attacks</description>
+&gt;double the attacks of their Combat Knife Attacks
+
+
+Also, at the start of the game, when this unit contains 10 models, you can separate it into two units of 5 models made up of any mixture of the models of this unit in this unit in your army list.
+
+
+Also, this unit can disembark from a „Rhino“ model, in a turn that „Rhino“ has advanced or declare a charge in a turn it has disembarked from a „Rhino“ model, if the Rhino moved normally but it subtracts -1 from its hit rolls when making ranged attacks with Weapons with the „Heavy“ keyword except for the „Boltgun“ weapon.</description>
     </rule>
     <rule name="Leading Command" id="545e-c5a8-eafc-e991" hidden="false">
       <description>Once per game, the Captain can order a „Troop“-Type unit he leads to either shoot again in a shooting phase the unit already made its ranged attacks, or fight again in a fight phase in which the unit already made its attacks. This also applies to a „Vanguard Veteran“ unit if a „Company Ancient“, „Company Champion“ and „Company Apothecary“ are also attached to this unit at the beginning of the game.</description>
@@ -24646,7 +24652,7 @@ Assault Intercessors can declare a charge in a turn they advanced.</description>
       <description>Monster and Vehicles are never considered „Hidden“ through the „Go Into Hiding“ Core Rule against ranged attacks of this units Demolisher Cannon.</description>
     </rule>
     <rule name="Precision Bolter Drill" id="db1d-c897-8127-b7fd" hidden="false">
-      <description>Every unmodified Hit-Roll of 6 with Boltcarbines adds the „Precision“ Special Rule to the weapons attack.</description>
+      <description>Every unmodified wound roll of 2+ Wounds the target.</description>
     </rule>
     <rule name="Advanced Terrain Utilisation" id="2cd2-ad66-a4ea-70fe" hidden="false">
       <description>When Scouts benefit from cover, their Armor Save is improved to 2+/2+ instead of 3+/3+.</description>
@@ -24833,7 +24839,7 @@ or
       <description>At the end of each of your movement phases, you may take this model and a single friendly „Deathwing Terminators“ or „Deathwing Knights“ off of the battlefield and immediately place it anywhere on the battlefield, but not closer than 9&apos;&apos; inch to any enemy unit. This model must never roll on the table for „Vehicle and Monster degradation“. Also, always add +1 to the charge roll for this model and a single friendly „Deathwing Terminators“ or „Deathwing Knights“ unit the following fight phase, if they moved by using this rule.</description>
     </rule>
     <rule name="Superior Tactician" id="b827-78fc-0114-442f" hidden="false">
-      <description>As long as this unit is on the battlefield, your entire army gains the „Iron Will“ Special Rule This model must never roll on the table for „Vehicle and Monster degradation“. Also, friendly „Ultramarines“ „Troop“ Type units within 6&apos;&apos; of this model reroll failed Hit Rolls of 1.</description>
+      <description>As long as this unit is on the battlefield, your entire army gains the „Iron Will“ Special Rule This model must never roll on the table for „Vehicle and Monster degradation“. Also, friendly „Ultramarines“ „Troop“ Type units within 6&apos;&apos; of this model reroll failed Hit Rolls of 1. Also, as long as this model is wholly within 6&apos;&apos; of a friendly „Troop“-Type unit, enemy units subtract -1 from wound rolls made against this model. </description>
     </rule>
     <rule name="Unparalleled Duelist" id="fc23-bd03-d794-4934" hidden="false">
       <description>Unmodified Wound Rolls of 1-3 always fail against this model.</description>
@@ -24889,10 +24895,10 @@ Dark Fury Assault Veterans and a single Captain/Chapter Master/Raven Raven model
       <description>In a turn this unit has successfully charged an enemy unit, add +1 to the Kyzagan Sabre Damage Stat.</description>
     </rule>
     <rule name="Leader Of The Wild Ride, The Khan Of Khans" id="f606-7f2c-a53b-014e" hidden="false">
-      <description>As long as this unit is on the battlefield, all friendly „White Scars“ units gain the „Iron Will“ Special Rule as long as they are within engagement range. Also all friendly „White Scars“ Infantry and „Dreadnought“ units add +1 Attack to all their Melee weapons profiles and +1 to their charge rolls.</description>
+      <description>As long as this unit is on the battlefield, all friendly „White Scars“ units gain the „Iron Will“ Special Rule as long as they are within engagement range. Also all friendly „White Scars“ Infantry and „Dreadnought“ units add +1 Attack to all their Melee weapons profiles and +1 to their charge rolls. Also, when rolling on the „Monster/Vehicle“ Degradation table, a roll of 6, is considered as a roll of 1. </description>
     </rule>
     <rule name="The Medusean Extra Sturdy Neck Carapace" id="cc3e-cd23-8c70-468f" hidden="false">
-      <description>As long as this unit is on the battlefield, your entire army gains rerolls failed rolls of 1 for the „Feel No Pain(6+)“ Special Rule gained through their „Iron Hands“-Subfaction Rule. (No other Feel No Pain Special Rule is allowed to be rerolled).</description>
+      <description>As long as this unit is on the battlefield, your entire army consideres unmodified successful „Feel No Pain(6+)“ rolls as two. (meaning: Just like additional Hit Rolls like exploding 6&apos;s, you generate an additional saved wound)</description>
     </rule>
   </sharedRules>
 </catalogue>
