@@ -96,6 +96,11 @@
       </constraints>
     </categoryEntry>
     <categoryEntry name="Lord Of Poxes" id="7363-21cf-bad6-ad56" hidden="false"/>
+    <categoryEntry name="Headhunters Squad" id="9053-8c81-a7d5-a86e" hidden="false"/>
+    <categoryEntry name="Reaver Attack Squad" id="a4d8-f044-c96f-b39c" hidden="false"/>
+    <categoryEntry name="Iron Circle Squad" id="389d-ef03-e944-793a" hidden="false"/>
+    <categoryEntry name="Contekars" id="d15e-a771-fd07-11fb" hidden="false"/>
+    <categoryEntry name="Gal Vorbak" id="3ca7-10f8-9754-7d90" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Mark Of Chaos Undivided" hidden="false" id="6ac7-43ba-d100-ddf9">
@@ -9515,7 +9520,8 @@
         </modifier>
       </modifiers>
       <costs>
-        <cost name="Pts" typeId="Points" value="40"/>
+        <cost name="Pts" typeId="Points" value="30"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mercy And Forgiveness" hidden="false" id="58df-0415-8bfc-7de9">
@@ -9540,13 +9546,15 @@
         </modifier>
       </modifiers>
       <costs>
-        <cost name="Pts" typeId="Points" value="30"/>
+        <cost name="Pts" typeId="Points" value="15"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Widowmakers" hidden="false" id="84dc-611c-9099-fe4e">
       <comment>Night Lords Relic</comment>
       <costs>
-        <cost name="Pts" typeId="Points" value="25"/>
+        <cost name="Pts" typeId="Points" value="20"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <profiles>
         <profile name="Widowmakers" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="326f-5554-3272-0042">
@@ -15046,7 +15054,7 @@ Damage suffered by this weapon will not be lost against units with more than one
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">7</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">2+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">24</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">28</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -15060,6 +15068,8 @@ Damage suffered by this weapon will not be lost against units with more than one
         <infoLink name="Deep Strike" id="6dee-b056-5861-ba7c" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
         <infoLink name="Deadly Demise(9/D6+3)" id="ced6-a3fb-e7e4-a949" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
         <infoLink name="Psyker(2)" id="82b5-dfd5-6b43-3901" hidden="false" type="rule" targetId="943-26d8-d8fc-7f0a"/>
+        <infoLink name="Stealth" id="06ad-6d88-6a6f-ac4c" hidden="false" type="rule" targetId="288e-825d-c6ea-5f92"/>
+        <infoLink name="Bane Of The Witch" id="111e-b57a-f6a9-391c" hidden="false" type="rule" targetId="4ca3-1de8-3b5a-30b8"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="42d3-64d1-b710-6f62" id="bf05-3ce0-45b7-6d08" primary="false" name="Monster"/>
@@ -15102,7 +15112,7 @@ Damage suffered by this weapon will not be lost against units with more than one
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="Points" value="380"/>
+        <cost name="Pts" typeId="Points" value="350"/>
         <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
     </selectionEntry>
@@ -15121,7 +15131,7 @@ Damage suffered by this weapon will not be lost against units with more than one
         <profile name="Warmaster Talon" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="f23b-4f09-0962-41c8">
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
-            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">20</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">25</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">MA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
@@ -15135,7 +15145,7 @@ Damage suffered by this weapon will not be lost against units with more than one
         <profile name="World Breaker" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="ebd7-991f-0f88-0db8">
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
-            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">7</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+4</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6</characteristic>
@@ -15146,7 +15156,7 @@ Damage suffered by this weapon will not be lost against units with more than one
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Uncle Festarion" hidden="false" id="a0de-51e5-ae4a-f44a">
       <costs>
-        <cost name="Pts" typeId="Points" value="370"/>
+        <cost name="Pts" typeId="Points" value="335"/>
         <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <categoryLinks>
@@ -15257,6 +15267,7 @@ Damage suffered by this weapon will not be lost against units with more than one
         <infoLink name="Deep Strike" id="d6c5-566b-35f7-272a" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
         <infoLink name="Invulnerable Save(4+)" id="a722-9484-6e43-edb7" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
         <infoLink name="Going Out With A Vengeance" id="09c2-eb96-9a6a-741c" hidden="false" type="rule" targetId="c8ac-dc37-505e-a067"/>
+        <infoLink name="Bane Of The Witch" id="6327-2104-82fd-d624" hidden="false" type="rule" targetId="4ca3-1de8-3b5a-30b8"/>
       </infoLinks>
       <profiles>
         <profile name="Angry Ron" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="12e9-5ad3-f3e6-85eb">
@@ -15300,7 +15311,7 @@ Damage suffered by this weapon will not be lost against units with more than one
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="Points" value="380"/>
+        <cost name="Pts" typeId="Points" value="340"/>
         <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
     </selectionEntry>
@@ -15312,7 +15323,7 @@ Damage suffered by this weapon will not be lost against units with more than one
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
-            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">5</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">6</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
           </characteristics>
         </profile>
@@ -15808,6 +15819,865 @@ Damage suffered by this weapon will not be lost against units with more than one
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
             <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As,Ps</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Gal Vorbak" hidden="false" id="d35d-7c51-4850-54e3">
+      <profiles>
+        <profile name="Dark Brother" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="69c4-8d90-e536-3d71">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">11</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Dark Brethren" id="01ea-2039-e2a3-a91e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Dark Brother" hidden="false" id="3e98-4ca7-a6ce-5f49">
+              <costs>
+                <cost name="Pts" typeId="Points" value="50"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="aab0-4eae-351a-3c52" includeChildSelections="false"/>
+                <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="9b4f-5ac5-2d23-324f" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Calthian Mutations" hidden="false" id="cf3a-8bdf-44a9-4651" type="selectionEntry" targetId="7591-bff7-4b68-8b63" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ae0-ef83-457e-63ff" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e02d-b71b-7653-8cd1" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Mutated Ranged Arms" id="1965-38f8-0852-863f" hidden="false" defaultSelectionEntryId="49dc-2cfc-4db7-352e">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea2c-0291-7ce2-807e" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="74c1-968a-dd8f-abf9" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Storm Bolter" hidden="false" id="49dc-2cfc-4db7-352e" type="selectionEntry" targetId="d626-7eaf-2a59-9aa8"/>
+                    <entryLink import="true" name="Combi-Flamer" hidden="false" id="bb56-bb08-265e-4d4c" type="selectionEntry" targetId="f476-6a10-741-9a1f">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Combi-Melta" hidden="false" id="02d0-f054-4cde-3151" type="selectionEntry" targetId="a8da-62b8-2155-150d">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Combi-Plasma" hidden="false" id="ea7c-5416-8fb0-4691" type="selectionEntry" targetId="5ed6-7471-4ec1-e574">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="0d78-88c2-b1f5-b57b" includeChildSelections="false"/>
+            <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="6c31-d5e8-3ad5-3189" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Scouts(7)" id="e397-101f-7ec1-8423" hidden="false" type="rule" targetId="9e46-fbdf-b123-8b82"/>
+        <infoLink name="Rage Of Colchis" id="6a8d-ab4d-a510-d77d" hidden="false" type="rule" targetId="2fe1-5cff-76ed-1e05"/>
+        <infoLink name="Deep Strike" id="003e-0267-3da7-7918" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="Invulnerable Save(4+)" id="86f8-64aa-23b5-87dd" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="8248-d259-ca22-fc65" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="f0d1-abc2-dd9e-4caf" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="cdf8-5d21-b127-a83f" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="4c76-0cbe-5a4d-74b4" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="a6ff-5db3-842c-214f" primary="false" name="Power Armor"/>
+        <categoryLink targetId="3ca7-10f8-9754-7d90" id="123f-c55c-7e61-43bf" primary="false" name="Gal Vorbak"/>
+        <categoryLink targetId="b2b7-b0fb-1441-98a5" id="57ff-613b-8150-937c" primary="false" name="Subfaction: Word Bearers"/>
+        <categoryLink targetId="f554-f3f8-6036-8847" id="aff0-7354-86bf-894d" primary="false" name="Mark Of Chaos Undivided"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Calthian Mutations" hidden="false" id="7591-bff7-4b68-8b63">
+      <profiles>
+        <profile name="Calthian Mutations" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="6811-a8a5-0e05-6c62">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Iron Circle Squad" hidden="false" id="43b6-b5c7-f7bb-dbd2">
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="4917-e512-33b0-c5c6" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="8eb8-093b-b006-8876" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="eaaa-fa2d-7c43-9e76" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="44b0-4e97-0709-140c" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="f554-f3f8-6036-8847" id="adba-23c8-9305-6f6f" primary="false" name="Mark Of Chaos Undivided"/>
+        <categoryLink targetId="27e8-f60f-7c36-3a28" id="679b-aef9-3821-1768" primary="false" name="Subfaction: Iron Warriors"/>
+        <categoryLink targetId="389d-ef03-e944-793a" id="9591-cd6d-0d39-0207" primary="false" name="Iron Circle Squad"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Iron Circle Squad" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="7c32-69cc-7b33-aaf2">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">7</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Domitar Ferrum Battle-Automata" id="d714-4a4e-db47-2d36" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d16b-4dfb-8544-05a5" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="81ce-f491-f09b-0e22" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Battle-Automata" hidden="false" id="8595-d99a-2b8a-cf8a">
+              <costs>
+                <cost name="Pts" typeId="Points" value="65"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a27-c9a9-5e99-e201" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b09c-708d-a7cf-ecaf" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Olympia Bolt Cannon" hidden="false" id="8e3b-ab37-0106-8bae" type="selectionEntry" targetId="d705-81f1-ba0f-d730" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2484-3936-9ecd-6fc2" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9239-2588-32e3-69a9" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Graviton Maul" hidden="false" id="9b2d-6aa5-f813-5801" type="selectionEntry" targetId="6e8c-4d8e-a7a7-07c1" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c8d-35b0-0542-4a87" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c4b-8f57-b736-6f05" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Karceri Battle Shields" id="bbb7-804c-bdf6-6369" hidden="false" type="rule" targetId="e9e9-5095-0db1-6844"/>
+        <infoLink name="Invulnerable Save(5+)" id="c260-d285-0862-7c8c" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Iron Will" id="ba08-efa6-a68e-d542" hidden="false" type="rule" targetId="d344-5a1c-9f57-f482"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Olympia Bolt Cannon" hidden="false" id="d705-81f1-ba0f-d730">
+      <profiles>
+        <profile name="Olympia Bolt Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="7bce-5e8a-e80a-db7d">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">8</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Graviton Maul" hidden="false" id="6e8c-4d8e-a7a7-07c1">
+      <profiles>
+        <profile name="Graviton Maul - Swing" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="5d8a-02d0-20d4-bd0b">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">18</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Graviton Maul - Strike" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="3112-464e-8e77-3d90">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x3</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-1 Ini,Sur</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Contekar Terminator Squad" hidden="false" id="2399-81d5-611c-acc1">
+      <profiles>
+        <profile name="Contekar Squad" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="0b60-3176-b156-a056">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">5</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(5+)" id="ae95-8ac5-5fcd-ff81" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Invulnerability Of The Elite" id="6403-ebcd-1514-236d" hidden="false" type="rule" targetId="42e7-a7bc-2f26-c19f"/>
+        <infoLink name="Deep Strike" id="6a37-82df-806a-267b" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="Stealth" id="8935-ecd3-a742-241d" hidden="false" type="rule" targetId="288e-825d-c6ea-5f92"/>
+        <infoLink name="Masters Of Torture" id="aec9-06d3-2bd9-7c2d" hidden="false" type="rule" targetId="d933-60b6-b55c-fbb0"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Contekar Terminators" id="d942-d84d-f9cc-9c15" hidden="false">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9dc5-12ae-4855-20b9" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="997a-5e8d-2f37-f30a" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Dissident" hidden="false" id="1384-4567-4291-1d69">
+              <costs>
+                <cost name="Pts" typeId="Points" value="55"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="644d-08dd-c9bc-8543" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f33-9836-7857-02cb" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Ranged Weapon" id="f273-bed3-4d8f-4a68" hidden="false" defaultSelectionEntryId="ed26-b53e-d698-d4ec">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="354a-3e4e-88c8-95c4" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24b6-1457-3d7b-cf87" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Volkite Cavitor" hidden="false" id="ed26-b53e-d698-d4ec" type="selectionEntry" targetId="8a98-9861-7329-f6ca">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23d7-de04-2fed-d6cc" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Heavy Flamer" hidden="false" id="9ebb-0252-1238-cc12" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d0d-74b7-de9f-96e2" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Melee Weapon" id="317d-e317-894a-0485" hidden="false" defaultSelectionEntryId="3c12-fdf9-90db-e614">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4470-0110-bbd8-3651" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae05-40a0-6ac3-4d55" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Nostramo Chainblade" hidden="false" id="3c12-fdf9-90db-e614" type="selectionEntry" targetId="7328-f5d6-0a01-0611">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bed3-57ec-c957-564f" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Escaton Power Claw" hidden="false" id="f2e0-f2f2-d3d8-817a" type="selectionEntry" targetId="f842-59b8-11a5-c889">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6574-bf43-5229-9a16" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Contekar" hidden="false" id="d225-a34c-f0d1-bfdf">
+              <costs>
+                <cost name="Pts" typeId="Points" value="55"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3fc3-59e2-cd56-d8cc" includeChildSelections="false"/>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="2506-579e-ff8b-b70a" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Ranged Weapon" id="1f06-d2c5-e499-cc06" hidden="false" defaultSelectionEntryId="c249-e8e0-cb53-3bec">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0707-e461-9d91-de2b" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dafd-597c-4627-4c19" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Volkite Cavitor" hidden="false" id="c249-e8e0-cb53-3bec" type="selectionEntry" targetId="8a98-9861-7329-f6ca">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b70-8f9f-7418-4c7d" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Heavy Flamer" hidden="false" id="98e5-e72f-cd1b-1341" type="selectionEntry" targetId="cda9-71c8-8145-e22">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="801e-1587-5ef4-1104" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Nostramo Chainblade" hidden="false" id="1ef1-abc7-e437-5858" type="selectionEntry" targetId="7328-f5d6-0a01-0611" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e02b-5af5-a8d1-81ed" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8eea-9d76-c104-9842" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="faed-524a-69ca-bc43" primary="false" name="Infantry"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="e595-90e5-e50f-e267" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="b55e-1993-241e-9093" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="612f-6ae4-18a8-0224" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="ffe0-4186-8a3b-85f4" id="0df2-8860-6946-ddb7" primary="false" name="Subfaction: Night Lords"/>
+        <categoryLink targetId="d15e-a771-fd07-11fb" id="b5ab-8950-2022-ac7e" primary="false" name="Contekars"/>
+        <categoryLink targetId="f554-f3f8-6036-8847" id="2eb6-9224-69a6-3941" primary="false" name="Mark Of Chaos Undivided"/>
+        <categoryLink targetId="f05f-92-eb3f-dd7c" id="9c7b-4222-4c00-1ed1" primary="false" name="Terminator Armor"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite Cavitor" hidden="false" id="8a98-9861-7329-f6ca">
+      <profiles>
+        <profile name="Volkite Cavitor" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="f055-cb5e-4f7b-0e5f">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">6</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Nostramo Chainblade" hidden="false" id="7328-f5d6-0a01-0611">
+      <profiles>
+        <profile name="Nostramo Chainblade" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="5fc1-22bb-b1e7-e8c6">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x3</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Escaton Power Claw" hidden="false" id="f842-59b8-11a5-c889">
+      <profiles>
+        <profile name="Escaton Power Claw" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="111e-7dd3-d63f-59a8">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x3</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">4</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Reaver Attack Squad" hidden="false" id="3688-a513-9c60-696d">
+      <profiles>
+        <profile name="Reaver Attack Squad" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="3aff-d212-d00b-9f7b">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">7</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="df1f-65e7-06d6-2307" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="63d2-817b-d1b5-9b37" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="cab0-980f-9c32-1390" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="2f79-a118-e024-3bf9" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="a4d8-f044-c96f-b39c" id="6675-7e72-dad1-ac43" primary="false" name="Reaver Attack Squad"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="6f4d-9640-8593-d33f" primary="false" name="Power Armor"/>
+        <categoryLink targetId="f554-f3f8-6036-8847" id="ac9c-8092-b100-8706" primary="false" name="Mark Of Chaos Undivided"/>
+        <categoryLink targetId="c438-8072-20d6-2d19" id="b246-520b-abf9-e3a9" primary="false" name="Subfaction: Black Legion"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Catulan Combat Doctrine" id="da76-c76b-ad6c-9b50" hidden="false" type="rule" targetId="1792-d391-425c-fcc5"/>
+        <infoLink name="Feel No Pain(6+)" id="2617-16a9-777e-ba8b" hidden="false" type="rule" targetId="8261-c96-7db2-434a"/>
+        <infoLink name="Invulnerable Save(5+)" id="2662-eaff-9883-0d16" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Iron Will" id="6795-0758-7d75-7668" hidden="false" type="rule" targetId="d344-5a1c-9f57-f482"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Reavers" id="e222-cf15-fadc-b8f6" hidden="false" defaultSelectionEntryId="ca15-e871-ad0e-7ad6">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="4f11-9aec-a877-52c1" includeChildSelections="false"/>
+            <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="cc8c-5f5d-3140-a203" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Dissident" hidden="false" id="3328-6b34-47a7-9ad6">
+              <costs>
+                <cost name="Pts" typeId="Points" value="28"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6a7b-dbd1-b6a1-21d8" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73b7-b98e-d90d-1ee7" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Melee Weapons" id="f2a3-9b7a-eff9-7b5c" hidden="false" defaultSelectionEntryId="c481-58d1-1131-dcfd">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0762-4d34-991c-a27c" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e88-b491-de2c-fef7" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Reaver Powersword" hidden="false" id="c481-58d1-1131-dcfd" type="selectionEntry" targetId="e965-4bba-5a14-eb4b">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f16-474e-aa7c-b513" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Powerfist" hidden="false" id="dc1b-565e-e6f7-6f8d" type="selectionEntry" targetId="d658-88ba-1a49-474a">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Thunder Hammer" hidden="false" id="7e25-812d-8818-b0a5" type="selectionEntry" targetId="53e2-6bf8-b232-397e">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="7"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Pistol" id="6c75-f653-8150-d5ea" hidden="false" defaultSelectionEntryId="f42a-6499-68fa-0ed0">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f562-2bbd-5f3f-997c" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf93-8abc-522e-2ab4" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Banestrike Boltpistol" hidden="false" id="f42a-6499-68fa-0ed0" type="selectionEntry" targetId="fcf3-92bc-43b4-7308">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30b1-2658-65ff-e596" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Plasma Pistol" hidden="false" id="fe48-7465-d7aa-0de8" type="selectionEntry" targetId="a4d4-23bc-1e16-506e">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="3"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Reaver" hidden="false" id="ca15-e871-ad0e-7ad6">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4711-f0ec-6d13-037d" includeChildSelections="false"/>
+                <constraint type="max" value="14" field="selections" scope="parent" shared="true" id="f314-1d75-6dba-bd02" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="28"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Banestrike Boltpistol" hidden="false" id="392a-8562-f78a-525d" type="selectionEntry" targetId="fcf3-92bc-43b4-7308" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c962-d7d9-536d-aa5d" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2b8-b0cc-964c-5170" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Reaver Powersword" hidden="false" id="3478-53e4-f38b-3717" type="selectionEntry" targetId="e965-4bba-5a14-eb4b" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5cb-4f54-650e-56ef" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c35-33b9-0d61-0f65" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Reaver w/Powerfist" hidden="false" id="83aa-4ff8-e9d2-a06e">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="fcc3-7c5f-df80-19aa" includeChildSelections="false"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="14f6-7ec8-a239-d188" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="31"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Banestrike Boltpistol" hidden="false" id="34a8-0075-61fb-b3ef" type="selectionEntry" targetId="fcf3-92bc-43b4-7308" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="94b7-10e2-e507-e955" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f764-ca3f-8b68-e221" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Powerfist" hidden="false" id="4b0f-16e7-d849-a011" type="selectionEntry" targetId="d658-88ba-1a49-474a" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b977-a9e0-4d5a-b2f2" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <modifiers>
+                <modifier type="increment" value="1" field="14f6-7ec8-a239-d188">
+                  <repeats>
+                    <repeat value="3" repeats="1" field="selections" scope="3688-a513-9c60-696d" childId="e222-cf15-fadc-b8f6" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Reaver w/Plasma Pistol" hidden="false" id="a43b-7a39-b612-2366">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7903-b2b9-c2c7-49b6" includeChildSelections="false"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="4b07-fa79-b197-4ec7" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="31"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Plasma Pistol" hidden="false" id="5db5-a69a-47de-0660" type="selectionEntry" targetId="a4d4-23bc-1e16-506e" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7d9e-fdec-38cb-2cbc" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Reaver Powersword" hidden="false" id="a89f-0be8-7b08-9203" type="selectionEntry" targetId="e965-4bba-5a14-eb4b" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="214f-c3ed-f16e-7f66" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b41b-41ec-0588-8eb1" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <modifiers>
+                <modifier type="increment" value="1" field="4b07-fa79-b197-4ec7">
+                  <repeats>
+                    <repeat value="3" repeats="1" field="selections" scope="3688-a513-9c60-696d" childId="e222-cf15-fadc-b8f6" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banestrike Boltpistol" hidden="false" id="fcf3-92bc-43b4-7308">
+      <profiles>
+        <profile name="Banestrike Boltpistol" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="72f8-62ed-549f-8182">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ps,As</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Reaver Powersword" hidden="false" id="e965-4bba-5a14-eb4b">
+      <profiles>
+        <profile name="Reaver Powersword" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="27eb-9576-5be6-b600">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Headhunters Squad" hidden="false" id="e83e-688f-f2bd-07aa">
+      <profiles>
+        <profile name="Headhunters Squad" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="5280-69c9-efec-1a83">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">7</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fade And Strike" id="5f7f-6a57-5fee-bab1" hidden="false" type="rule" targetId="e73d-0ba0-1a84-0b8e"/>
+        <infoLink name="Invulnerable Save(6+)" id="fa64-05d7-e4e7-15e7" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+        <infoLink name="Infiltrators" id="49df-281f-85ac-4d2d" hidden="false" type="rule" targetId="16b3-ebbc-abff-96b"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="d24d-bb42-4831-8bd7" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="2014-f35e-3f25-d765" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="2f81-771f-bd69-f605" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="d337-274c-1004-868f" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="9053-8c81-a7d5-a86e" id="911c-d943-fcf6-c77b" primary="false" name="Headhunters Squad"/>
+        <categoryLink targetId="f554-f3f8-6036-8847" id="6ebb-40f2-1ca3-8f22" primary="false" name="Mark Of Chaos Undivided"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="8bf0-e480-6f2d-7dec" primary="false" name="Power Armor"/>
+        <categoryLink targetId="e2a9-254d-7557-dbe4" id="24a5-1baa-e8b2-15f2" primary="false" name="Subfaction: Alpha Legion"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Headhunters" id="6eb8-851f-f2d2-5126" hidden="false">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="9446-1419-9d97-4834" includeChildSelections="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="8afb-525b-fbec-6715" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Headhunter Prime" hidden="false" id="b566-cacd-ec46-a12b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0b0d-c5d3-4b34-dad0" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7db0-237a-c152-ee96" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="3c72-8258-c5b9-995e" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Ranged Weapons" id="2323-de06-e37b-a99e" hidden="false" defaultSelectionEntryId="69cb-8259-a4c5-96ed">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2e27-b269-8b7a-aa77" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a4c-71af-168d-53be" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Banestrike Boltgun" hidden="false" id="69cb-8259-a4c5-96ed" type="selectionEntry" targetId="93a5-c843-4bc9-e4d8">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b87b-e797-a5b7-d204" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Plasma Pistol" hidden="false" id="e945-1022-b5f6-4a5c" type="selectionEntry" targetId="a4d4-23bc-1e16-506e">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="3"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Melee Weapons" id="e552-d84d-19e6-506e" hidden="false">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0cc3-ae5d-e573-e27e" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Powerweapon" hidden="false" id="7aa5-9e11-f595-aadb" type="selectionEntry" targetId="610e-938b-bd18-9ab5">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Powerfist" hidden="false" id="3ff6-d687-f0e4-e3a7" type="selectionEntry" targetId="d658-88ba-1a49-474a">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Thunder Hammer" hidden="false" id="f691-bf04-3a74-c7df" type="selectionEntry" targetId="53e2-6bf8-b232-397e">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Headhunters" hidden="false" id="fc91-08f7-d436-20b1">
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="a9ae-6254-f8f9-35fd" includeChildSelections="false"/>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="dd7f-7268-675d-b03f" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Banestrike Boltgun" hidden="false" id="8ec1-55e3-a74c-835f" type="selectionEntry" targetId="93a5-c843-4bc9-e4d8" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9fc6-d0b1-9a3f-e054" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a28d-0a50-3e13-592d" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="264c-7733-3b6c-b641" type="selectionEntry" targetId="6af2-a177-b763-77a2"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Venom Sphere" hidden="false" id="fdab-5c92-3be4-7df1" type="selectionEntry" targetId="ec18-abce-fbbe-b7bc">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f16c-9a01-f7bf-4b8d" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="b531-9eb4-9109-356e" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="10"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="0" field="b531-9eb4-9109-356e">
+              <repeats>
+                <repeat value="5" repeats="1" field="selections" scope="e83e-688f-f2bd-07aa" childId="6eb8-851f-f2d2-5126" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Venom Sphere" hidden="false" id="ec18-abce-fbbe-b7bc">
+      <profiles>
+        <profile name="Venom Sphere" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="3531-d279-d47c-3f6a">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Once per turn, at the start of the shooting phase Or when this unit is declared as the target of a charge, pick a single enemy unit within 6&apos;&apos; (at any range when they&apos;re being selected as target of a charge as part of using &quot;Overwatch&quot;) of this unit, on a roll of 3+, the enemy unit suffers D6 Mortal Wounds.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banestrike Boltgun" hidden="false" id="93a5-c843-4bc9-e4d8">
+      <profiles>
+        <profile name="Banestrike Boltgun" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c5f2-9329-fa02-3d25">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">42</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Pre</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="King Eisenloser" hidden="false" id="f7f7-5a41-b9f8-e318">
+      <infoLinks>
+        <infoLink name="Deadly Demise(9/D6+3)" id="0637-8526-311d-d020" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Invulnerable Save(4+)" id="8ee7-edc9-92cb-8601" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Going Out With A Vengeance" id="0936-875e-9aa4-8615" hidden="false" type="rule" targetId="c8ac-dc37-505e-a067"/>
+        <infoLink name="Warpforged Logos Warframe" id="8378-ed8f-83e9-99a2" hidden="false" type="rule" targetId="0b73-eb36-d00a-6dc3"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Peter Turbo" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="9c30-594a-05e7-6088">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">12</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">16</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">30</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="42d3-64d1-b710-6f62" id="dc6a-9201-560f-7e2c" primary="false" name="Monster"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="5bba-8a3d-dfe4-ee48" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="b125-418c-17ff-4e67" primary="false" name="Fly"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="98d9-4bf1-d178-f711" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="8fa8-509a-1244-5295" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="ff03-ebac-8277-d99e" primary="false" name="Character"/>
+        <categoryLink targetId="44d9-0242-8278-1450" id="d658-230a-e6d8-2450" primary="false" name="Demon Progenitor"/>
+        <categoryLink targetId="27e8-f60f-7c36-3a28" id="3919-19f1-2a07-94fc" primary="false" name="Subfaction: Iron Warriors"/>
+        <categoryLink targetId="f554-f3f8-6036-8847" id="5c7c-2b30-dc53-1e11" primary="false" name="Mark Of Chaos Undivided"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Forgebreaker" hidden="false" id="c6d8-03ea-d14d-cad8" type="selectionEntry" targetId="7eb4-f37d-78e4-8696" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8305-9a8d-a5ad-858c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7df8-d803-cd2d-7080" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="350"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Warpforged Logos Warframe Weapons" id="2297-3308-c5dc-759e" hidden="false" collective="true">
+          <entryLinks>
+            <entryLink import="true" name="Heavy Bolter" hidden="false" id="6b51-4d06-39eb-9f89" type="selectionEntry" targetId="400e-c07b-a638-e99c" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66a0-9e44-02fa-9562" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0005-eab2-745e-3e89" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Rocket Launcher" hidden="false" id="04d6-7112-ad98-f949" type="selectionEntry" targetId="d26e-4bd7-171d-de7f" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="024d-7e8d-9ea2-3883" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec87-80b5-5f89-abde" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Plasma Cannon" hidden="false" id="1849-4af7-5d3f-9d14" type="selectionEntry" targetId="615b-a4de-e777-305a" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6774-0f10-173d-a7fc" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6329-7db4-97d3-6160" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Multi Melta" hidden="false" id="7217-1e84-1e46-1504" type="selectionEntry" targetId="ab57-6993-9bf2-3089" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7700-18a6-bc99-4669" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52a8-5b8f-1ee9-c279" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Las Cannon" hidden="false" id="d2da-641c-4fbb-6d8c" type="selectionEntry" targetId="fe-667b-254f-727d" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f2e9-8bb9-5140-efcd" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6616-7d06-1d1e-7c70" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Autocannon" hidden="false" id="dd1f-c959-11fd-0c8c" type="selectionEntry" targetId="f6f0-c8b1-7505-5f8b" collective="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5fd8-627f-01b1-83b3" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5403-b7dc-495e-68fa" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Forgebreaker" hidden="false" id="7eb4-f37d-78e4-8696">
+      <comment>Peter Turbo</comment>
+      <profiles>
+        <profile name="Forgebreaker" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="a6e5-0276-96c4-dc44">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">4</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Tre,Sur</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -17481,7 +18351,7 @@ If this units starting strength is 10, this unit gains the „Infiltrators“ Sp
       <description>Once per game, the Lord can order a „Troop“-Type unit he leads to either shoot again in a shooting phase the unit already made its ranged attacks, or fight again in a fight phase in which the unit already made its attacks.</description>
     </rule>
     <rule name="Terrifying Command" id="61eb-06f0-b687-c73c" hidden="false">
-      <description>Once per game, the Lord can order a „Troop“-Type unit he leads to either shoot again in a shooting phase the unit already made its ranged attacks, or fight again in a fight phase in which the unit already made its attacks.</description>
+      <description>Once per game, the Overlord can order any infantry unit he leads to either shoot again in a shooting phase the unit already made its ranged attacks, or fight again in a fight phase in which the unit already made its attacks.</description>
     </rule>
     <rule name="Cursed Forgery" id="932c-ae92-fe41-d491" hidden="false">
       <description>Once per turn, pick a single friendly Vehicle Unit within 6&apos;&apos; of this model it regains D6 lost Life Points.</description>
@@ -17593,7 +18463,7 @@ or
       <description>As long as this model remains in the Battlefield, your entire army gains the „Iron Will“ Special Rule. Also unmodified Wound Rolls of 1-3 against this unit always fail.</description>
     </rule>
     <rule name="The Lord Of The Seven" id="efa9-f59d-b3f1-dbdd" hidden="false">
-      <description>Friendly Death Guard Units with 7&apos;&apos; of this model reroll failed „Feel No Pain“ Rolls of 1. This model must never roll on the table for „Vehicle and Monster degradation“.</description>
+      <description>Friendly Death Guard Units with 7&apos;&apos; of this model reroll failed „Feel No Pain“ Rolls. This model must never roll on the table for „Vehicle and Monster degradation“.</description>
     </rule>
     <rule name="The Butchers Nails" id="b22e-f8ed-219d-596e" hidden="false">
       <description>This model must never roll on the table for „Vehicle and Monster degradation.“ For every 5 Life Points add +1 Attack to the Black Blades Weapons Profile and +5 Attacks to Gorefathers Weapons Profile.</description>
@@ -17607,6 +18477,24 @@ This model can cast any Psychic Powers it is equipped up to twice per turn and n
     </rule>
     <rule name="Miasmic Turbine" id="1389-2513-993b-8c82" hidden="false">
       <description>The unit this model is attached to, gains the „Lone Operator“ Special Rule.</description>
+    </rule>
+    <rule name="Rage Of Colchis" id="2fe1-5cff-76ed-1e05" hidden="false">
+      <description>Gal Vorbak Units can charge enemy units that are not visible to them. And Gal Vorbak are immune to any Core and Special Rules that worsen Regular, Advance, Fall Back and Charge Moves. Also, add +1 to charge rolls of this unit.</description>
+    </rule>
+    <rule name="Karceri Battle Shields" id="e9e9-5095-0db1-6844" hidden="false">
+      <description>This unit can not be selected as the target of „Overwatch“. Also, unmodified Wound Rolls of 1-3 made against this unit, always fail.  </description>
+    </rule>
+    <rule name="Masters Of Torture" id="d933-60b6-b55c-fbb0" hidden="false">
+      <description>Add +1 to charge rolls of this unit. Also, enemy units can not make a „Fall Back“ movement out of engagement range, if they are within engangement range of at least one model of this unit.</description>
+    </rule>
+    <rule name="Catulan Combat Doctrine" id="1792-d391-425c-fcc5" hidden="false">
+      <description>Once per game, this unit can declare a charge in turn it has advanced. Also, all friendly „Black Legion“ units within 9&apos;&apos; of this unit add +1 to their charge rolls.</description>
+    </rule>
+    <rule name="Fade And Strike" id="e73d-0ba0-1a84-0b8e" hidden="false">
+      <description>At the start of your enemies command phases, you can remove this unit from the battlefield and place it immediately anywhere on the battlefield but not closer than 9&apos;&apos; to any enemy unit. Also, if this unit did not make ANY ranged attacks in the previous shooting phase(excluding the your first turn, if your opponent started the game), you can immediately resolve all ranged attacks with this as if this was your shooting phase. </description>
+    </rule>
+    <rule name="Warpforged Logos Warframe" id="0b73-eb36-d00a-6dc3" hidden="false">
+      <description>At the start of each Game Round, you pick up to two of the following ranged weapons, until the start of the next Game Round, this model is considered to be equipped with the 2 Weapons you picked.</description>
     </rule>
   </sharedRules>
   <rules>
@@ -17623,13 +18511,13 @@ Per full 2000 Points game size (2000,4000,6000,8000etc.) you can select another 
   <sharedProfiles>
     <profile name="Legion Of The Arch Traitor" hidden="false" id="b8f8-f9c8-e7c6-cf9b" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">At the start of every of your Command Phases, you can pick a single enemy unit, you can reroll all ranged or melee Wound Rolls against that unit.
-If an enemy unit within 6&apos;&apos; of a Black Legion Unit successfuly resolves a „Morale Break“-Test, that enemy unit has to reroll that test.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">At the start of every of your Command Phases, you can pick a single enemy(one per 2000P game size) unit, you can reroll all ranged or melee Wound Rolls against that unit.
+If an enemy unit within 6&apos;&apos; of a Black Legion Unit successfuly resolves a „Moral Break“-Test, that enemy unit has to reroll that test.</characteristic>
       </characteristics>
     </profile>
     <profile name="Masters Of Terror" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="41d9-a504-5682-0b3e">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Any Enemy Unit within 6&apos;&apos; of any Night Lords Unit, it subtracts -1 from its LD Characteristic up to a maximum of -2. Also all Night Lords Units with they keyword „Mounted“ can charge after they&apos;ve advanced, and Night Lords units that have the keyword „Fly“ add +2 to any charge rolls.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Any Enemy Unit within 6&apos;&apos; of any Night Lords Unit, it subtracts -1 from its LD Characteristic up to a maximum of -2. Also all Night Lords Units with the keyword „Mounted“ can charge after they&apos;ve advanced, and Night Lords units that have the keyword „Fly“ add +2 to any charge rolls. Also, „Legionaire“ units can declare in a turn they have disembarked from a „Rhino“ model.</characteristic>
       </characteristics>
     </profile>
     <profile name="Siege Against Fortification" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="623d-c6a5-a7b7-53e1">
@@ -17644,19 +18532,22 @@ At the start every of your own Command Phases, one single Vehicle or (non Hero) 
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">At the start of every Command Phase any Word Bearers Unit (attached Characters have to take the test separately) can pray to the Dark Gods. The chosen units roll a single D6, on an unmodified roll of 2+ the unit gains the „Feel No Pain (6+) Special Rule until the end of the folowing opposing players turn. If the roll is an umodified 6, you gain a „FNP (5+)“. If you roll an unmodified 1, Hero, Monster, Vehicle and Mounted Units suffer D3 Damage. Infantry Units lose one remaining model. 
 
 
-At the start of every Command Phase, you can roll a D6 for every Legionaire and Cultist unit in your army, for every 4+ you restore D3 lost „Legionaires“ back to the „Legionaire“ unit or D6 cultists back to the „Cultist“ unit respectively. Both Legionaires and Cultists revived by that rule return with the basic loadout. (but with the bonus of the Mark Of Chaos of the unit they&apos;ve been revived in)</characteristic>
+At the start of every Command Phase, you can roll a D6 for every Legionaire and Cultist unit in your army, for every 4+ you restore D3(+1 for every 5 Legionaire models in this unit) lost „Legionaires“ back to the „Legionaire“ unit or D6(+1 for every 5 models in this unit) cultists back to the „Cultist“ unit respectively. Both Legionaires and Cultists revived by that rule return with the basic loadout. (but with the bonus of the Mark Of Chaos of the unit they&apos;ve been revived in)</characteristic>
       </characteristics>
     </profile>
     <profile name="We Are Alpharius!" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="84ca-d030-47f4-d5fb">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Alpha Legion Unit gains the „Stealth“ Special Rule. Also all „Cultists“, „Accursed Cultists“ and a single „Legionaire“ Unit gain the „Infiltrators“ Special Rule. Alpha Legion Hero Units can never be chosen as the target of weapons with the „Precision“ Special Rule unless they&apos;re a single model. All Hero Units gain the „Lone Operator“ Special Rule.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Alpha Legion Unit gains the „Stealth“ Special Rule. Also all „Cultists“, „Accursed Cultists“ and a single „Legionaire“(per 2000 points game size) Unit gain the „Infiltrators“ Special Rule. Alpha Legion Hero Units can never be chosen as the target of weapons with the „Precision“ Special Rule unless they&apos;re a single model. All „Infantry“ Type Hero Units with Power or Demonic Armor, gain the „Lone Operator“ Special Rule. </characteristic>
       </characteristics>
     </profile>
     <profile name="Blood For The Blood God" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="5f49-2aea-a030-bc7c">
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">Everytime a World Eaters Infantry Unit suffers any damage from ranged attacks or ranged psychic attacks, it immediately moves D6&apos;&apos; towards the next visible enemy unit from the damaged unit. If no enemy unit is visible, the controlling player picks a direction. World Eaters Units can enter into Engangement Range as a result of this movement. 
 Once per Shooting Phase and once per Fight Phase when a World Eaters Vehicle or Monster Unit destroys any enemy models it regains D3+2 wounds at the end of the of phase.
-Also any doubles(i.e. Two 2s, Two 3s, Two 4s etc.) rolled during enemy Psychic Power Casting Rolls that selected any World Eaters unit as a target immediately suffer „Perils Of The Warp“.</characteristic>
+Also any doubles(i.e. Two 2s, Two 3s, Two 4s etc.) rolled during enemy Psychic Power Casting Rolls that selected any World Eaters unit as a target immediately suffer „Perils Of The Warp“.
+
+
+Also, subtract -1 from Wound Rolls made against World Eater Infantry units, when they are in engagement range with enemy units.</characteristic>
       </characteristics>
     </profile>
     <profile name="Disgustingly Resilient" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="09cc-71b6-8303-4add">
