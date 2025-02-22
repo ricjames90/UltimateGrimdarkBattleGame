@@ -4189,7 +4189,11 @@ change the damage characteristic of the attack to D6+2.</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b33-3233-6913-719d" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Bone Sabres" hidden="false" id="5b3a-96d8-63b7-7567" type="selectionEntry" targetId="afaa-1312-f2bf-5549"/>
+            <entryLink import="true" name="Bone Sabres" hidden="false" id="5b3a-96d8-63b7-7567" type="selectionEntry" targetId="afaa-1312-f2bf-5549">
+              <costs>
+                <cost name="Pts" typeId="Points" value="20"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Regular Mutations" hidden="false" id="a7ed-a06f-9a31-bc04">
@@ -4260,6 +4264,11 @@ change the damage characteristic of the attack to D6+2.</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">Ar</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bone Sabres" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="3405-a9e6-6ff5-3bc7">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">If this model is equipped with Bone Sabres, enemy units subtract -1 from melee hit and wound rolls made against this model. Also, the „Ar“ Special Rule is triggered on an unmodified wound roll of 4+ against enemy Monster/Vehicle units with less than a Toughness Characteristic of 16.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6222,7 +6231,10 @@ Monster Type Units ad +1M&apos;&apos; to their stat and also add +1 to their cha
     </profile>
     <profile name="Shadow In The Warp" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="e642-b5fc-d30e-8cea">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Hive Fleet Ouroboris „Neurogants“ gain the „Invulnerable Save(5+)“ Special Rule Also add +1A to the Neurogants „Claws“ profile. Hive Fleet Ouroboris „Zoanthropes“, „Neurotyrants“, „Maleceptor“ and „Neurogant units add +1 to their Psychic Power casting rolls. Neurolictors can be attached to „Neurogants“ as if they were „Hero“-Type units. Neurolictors attached to Neurogants that way can&apos;t be selected as the target of attacks at all, even if they have the „Precision“ special rule.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Hive Fleet Ouroboris „Neurogants“ gain the „Invulnerable Save(5+)“ Special Rule Also add +1A to the Neurogants „Claws“ profile. Hive Fleet Ouroboris „Zoanthropes“, „Neurotyrants“, „Maleceptor“ and „Neurogant units add +1 to their Psychic Power casting rolls. Neurolictors can be attached to „Neurogants“ as if they were „Hero“-Type units. Neurolictors attached to Neurogants that way can&apos;t be selected as the target of attacks at all, even if they have the „Precision“ special rule. Maleceptor units also add +1 to all Hit- and Wound Rolls made by Hit- and Wound Rolls of Psychic Powers they cast. 
+
+
+For every unit of at least 30 Neurogants, a single Neurolictor can be selected as a „Troop“ Type unit, but thus must be attached to a Neurogants unit.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -248,5 +248,25 @@
         <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="7910-e8ef-8e5f-7175" primary="true" name="HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Neurolictor" hidden="false" id="66be-21ad-6ce3-7973" type="selectionEntry" targetId="be75-0d77-2be6-3e27">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="073c-bd84-3b74-a28e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="538b-cf96-db1d-a38b">
+          <repeats>
+            <repeat value="30" repeats="1" field="selections" scope="force" childId="af7b-249d-6404-5af9" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="b269-fc79-d8e3-6035" primary="true" name="TROOPS"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="538b-cf96-db1d-a38b"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
 </catalogue>
