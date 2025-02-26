@@ -17191,13 +17191,13 @@ Damage suffered by this weapon will not be lost against units with more than one
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e72f-9f54-26c2-8e5e" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Bolt Pistol" hidden="false" id="25ad-4fea-4347-2efe" type="selectionEntry" targetId="e288-90ad-8e77-1908"/>
-            <entryLink import="true" name="Plasma Pistol" hidden="false" id="e9fb-043d-5852-68b3" type="selectionEntry" targetId="a4d4-23bc-1e16-506e">
+            <entryLink import="true" name="Bolt Pistol" hidden="false" id="25ad-4fea-4347-2efe" type="selectionEntry" targetId="e288-90ad-8e77-1908" sortIndex="5"/>
+            <entryLink import="true" name="Plasma Pistol" hidden="false" id="e9fb-043d-5852-68b3" type="selectionEntry" targetId="a4d4-23bc-1e16-506e" sortIndex="7">
               <costs>
                 <cost name="Pts" typeId="Points" value="5"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Screamer Pistol" hidden="false" id="be3b-e912-b0f7-2896" type="selectionEntry" targetId="b084-bc61-f0b9-6b94">
+            <entryLink import="true" name="Screamer Pistol" hidden="false" id="be3b-e912-b0f7-2896" type="selectionEntry" targetId="b084-bc61-f0b9-6b94" sortIndex="8">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a93-5b10-61a2-4f72" includeChildSelections="false"/>
               </constraints>
@@ -17205,12 +17205,12 @@ Damage suffered by this weapon will not be lost against units with more than one
                 <cost name="Pts" typeId="Points" value="5"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Accursed Weapon" hidden="false" id="409d-720b-5e2e-bc70" type="selectionEntry" targetId="3cbe-db3f-05d4-a253">
+            <entryLink import="true" name="Accursed Weapon" hidden="false" id="409d-720b-5e2e-bc70" type="selectionEntry" targetId="3cbe-db3f-05d4-a253" sortIndex="3">
               <costs>
                 <cost name="Pts" typeId="Points" value="10"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Accursed Claw" hidden="false" id="4add-819b-4bcf-9056" type="selectionEntry" targetId="0746-e08f-c575-484f">
+            <entryLink import="true" name="Accursed Claw" hidden="false" id="4add-819b-4bcf-9056" type="selectionEntry" targetId="0746-e08f-c575-484f" sortIndex="2">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c841-a4b1-e0a5-a0a7" includeChildSelections="false"/>
               </constraints>
@@ -17218,7 +17218,7 @@ Damage suffered by this weapon will not be lost against units with more than one
                 <cost name="Pts" typeId="Points" value="15"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Blissed Glaive" hidden="false" id="6415-530a-bb62-63ca" type="selectionEntry" targetId="b477-28a0-9b5a-7fe4">
+            <entryLink import="true" name="Blissed Glaive" hidden="false" id="6415-530a-bb62-63ca" type="selectionEntry" targetId="b477-28a0-9b5a-7fe4" sortIndex="4">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3a5-1c3c-827b-fb2b" includeChildSelections="false"/>
               </constraints>
@@ -17226,8 +17226,8 @@ Damage suffered by this weapon will not be lost against units with more than one
                 <cost name="Pts" typeId="Points" value="25"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Powerweapon" hidden="false" id="ad70-2363-ae3c-80f5" type="selectionEntry" targetId="bd33-f7a6-1075-6a5a"/>
-            <entryLink import="true" name="Ecstatic Whip" hidden="false" id="31fe-681b-cddc-f980" type="selectionEntry" targetId="e332-4b8b-9d35-0926">
+            <entryLink import="true" name="Powerweapon" hidden="false" id="ad70-2363-ae3c-80f5" type="selectionEntry" targetId="bd33-f7a6-1075-6a5a" sortIndex="1"/>
+            <entryLink import="true" name="Ecstatic Whip" hidden="false" id="31fe-681b-cddc-f980" type="selectionEntry" targetId="e332-4b8b-9d35-0926" sortIndex="6">
               <costs>
                 <cost name="Pts" typeId="Points" value="10"/>
               </costs>
@@ -18876,7 +18876,7 @@ Damage suffered by this weapon will not be lost against units with more than one
           <entryLinks>
             <entryLink import="true" name="The Laer Sword" hidden="false" id="ce2e-6277-1b0b-44ea" type="selectionEntry" targetId="4007-d3ec-11fb-b981"/>
             <entryLink import="true" name="Serpentine Body" hidden="false" id="6c0f-3c54-4580-fe86" type="selectionEntry" targetId="685c-2dd7-969f-7fd7"/>
-            <entryLink import="true" name="Mirror, Mirror On The Wall, Who Is The Faires Of Them All?" hidden="false" id="32fe-39ec-c056-b869" type="selectionEntry" targetId="faf0-9d5f-0233-a29e"/>
+            <entryLink import="true" name="Mirror, Mirror On The Wall, Who Is The Fairest Of Them All?" hidden="false" id="32fe-39ec-c056-b869" type="selectionEntry" targetId="faf0-9d5f-0233-a29e"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Legion Thousand Sons" id="6293-d440-c316-d152" hidden="false">
