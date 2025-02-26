@@ -106,7 +106,8 @@ Keyword: Docked Drones</description>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Firewarrior" hidden="false" id="adbc-e2e0-e566-2b2f">
               <costs>
-                <cost name="Pts" typeId="Points" value="8"/>
+                <cost name="Pts" typeId="Points" value="7"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="6b7b-222a-f20f-0e88" includeChildSelections="false"/>

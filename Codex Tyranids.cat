@@ -5822,6 +5822,73 @@ change the damage characteristic of the attack to D6+2.</characteristic>
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Purestrain Genestealers" hidden="false" id="2cbc-2614-3c50-0ac6">
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="69f5-f962-32fd-15a1" primary="false" name="Infantry"/>
+        <categoryLink targetId="c4e9-abd5-def8-c3ab" id="9b6b-2369-04c7-5212" primary="false" name="AT - Medium Armor"/>
+        <categoryLink targetId="e926-7697-48ba-75f3" id="1a4f-6616-30b6-4c6e" primary="false" name="SUPER FACTION: Tyranids"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Purestrain Genestealers" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="98ea-ce86-6dac-30e2">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">6+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">2</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/4+</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="3+/3+" field="84ab-8766-eed2-1ff8">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="2cbc-2614-3c50-0ac6" childId="17e2-0052-0f59-1f21" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(6+)" id="7994-ccad-9e45-55fe" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
+        <infoLink name="Scouts(7)" id="372e-b26e-bc6d-6b95" hidden="false" type="rule" targetId="9e46-fbdf-b123-8b82"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Extended Genestealer Carapace" hidden="false" id="17e2-0052-0f59-1f21" type="selectionEntry" targetId="01af-ade5-5b9f-ee8c">
+          <modifiers>
+            <modifier type="increment" value="5" field="Points">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="2cbc-2614-3c50-0ac6" childId="3a43-7b1e-37f6-f2e6" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Purestrain Genestealers" id="3a43-7b1e-37f6-f2e6" hidden="false">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="93d3-207b-0ff4-6454" includeChildSelections="false"/>
+            <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="b44d-786a-95eb-d081" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Purestrain Genestealer" hidden="false" id="338e-0d20-9d40-6d14">
+              <costs>
+                <cost name="Pts" typeId="Points" value="13"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Genestealer Talons" hidden="false" id="d367-98a8-dca0-6230" type="selectionEntry" targetId="30bb-4c35-0135-a657"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="bf91-f360-3a5b-d665" includeChildSelections="false"/>
+                <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="3c71-60b6-e030-8267" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <rules>
     <rule name="Synaptic Link" id="b61b-68d4-d797-68ac" hidden="false">

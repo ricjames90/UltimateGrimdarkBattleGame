@@ -101,6 +101,13 @@
     <categoryEntry name="Iron Circle Squad" id="389d-ef03-e944-793a" hidden="false"/>
     <categoryEntry name="Contekars" id="d15e-a771-fd07-11fb" hidden="false"/>
     <categoryEntry name="Gal Vorbak" id="3ca7-10f8-9754-7d90" hidden="false"/>
+    <categoryEntry name="Flawless Blades" id="b4a8-883f-49d0-1e28" hidden="false"/>
+    <categoryEntry name="Infractors" id="6033-2ffe-8bd5-d4e0" hidden="false"/>
+    <categoryEntry name="Tormentors" id="90cc-8d17-372a-10cc" hidden="false"/>
+    <categoryEntry name="Sonic Dreadnought" id="5fa2-54da-fdab-fcf2" hidden="false"/>
+    <categoryEntry name="Lord Of Exultance" id="358c-7171-5768-c157" hidden="false"/>
+    <categoryEntry name="Lord Of Kakophony" id="6979-db56-0734-4571" hidden="false"/>
+    <categoryEntry name="Possessed Armor" id="6f03-e7ff-edbe-1271" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Mark Of Chaos Undivided" hidden="false" id="6ac7-43ba-d100-ddf9">
@@ -1758,6 +1765,7 @@
         <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="2806-7b8c-256a-30f0" primary="false" name="FACTION: Chaos Space Marines"/>
         <categoryLink targetId="bd0e-3c98-d101-49ca" id="b73f-e154-e960-c7e9" primary="false" name="Possessed"/>
         <categoryLink targetId="f887-85e4-37bb-fe59" id="adbe-66aa-06de-da9f" primary="false" name="Power Armor"/>
+        <categoryLink targetId="6f03-e7ff-edbe-1271" id="afed-dd05-5dd5-d50e" primary="false" name="Possessed Armor"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -10698,7 +10706,8 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
                 <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="50b3-ae27-467a-b363" includeChildSelections="false"/>
               </constraints>
               <costs>
-                <cost name="Pts" typeId="Points" value="42"/>
+                <cost name="Pts" typeId="Points" value="41"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Bolt Pistol" hidden="false" id="4390-28e1-8c21-392b" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
@@ -10769,7 +10778,7 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
           <characteristics>
             <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">9</characteristic>
             <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">*</characteristic>
-            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
             <characteristic name="Rules" typeId="95e4-c145-7574-7e22">To,IgC</characteristic>
@@ -11875,6 +11884,7 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
         <categoryLink targetId="1568-4a0d-c632-0d3e" id="e347-800e-a77a-8145" primary="false" name="Subfaction: World Eaters"/>
         <categoryLink targetId="11b8-9cbf-2c19-1a9e" id="2b45-fed1-387a-7006" primary="false" name="Eightbound"/>
         <categoryLink targetId="f887-85e4-37bb-fe59" id="7e72-7b00-a737-6efb" primary="false" name="Power Armor"/>
+        <categoryLink targetId="6f03-e7ff-edbe-1271" id="acdd-3f27-f709-3a1a" primary="false" name="Possessed Armor"/>
       </categoryLinks>
       <profiles>
         <profile name="Eightbound" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="5307-d8ae-7132-95cb">
@@ -12839,9 +12849,9 @@ Damage suffered by this weapon will not be lost against units with more than one
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="81f1-5aab-3ebb-1cc8" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
-        <profile name="Mirror, Mirror On The Wall, Who Is The Faires Of Them All?" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="191d-c45e-1491-9f2c">
+        <profile name="Mirror, Mirror On The Wall, Who Is The Fairest Of Them All?" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="191d-c45e-1491-9f2c">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Everytime the equipped model is chosen as the targed of any psychic, ranged or melee attack. The attacking unit must take a Leadership test. If it succeeds, it proceeds as usual. If it fails the test it immediately is considered to having failed all attacks. For every LP the model loses, it gains +1A to all its eligible Melee Weapons Profiles.</characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Everytime the equipped model is selected as the target of any psychic, ranged or melee attack. The attacking unit must take a Leadership test. If it succeeds, it proceeds as usual. If it fails the test it immediately is considered to having failed all attacks. For every LP the model loses, it gains +1A to all its eligible Melee Weapons Profiles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16604,7 +16614,6 @@ Damage suffered by this weapon will not be lost against units with more than one
       <categoryLinks>
         <categoryLink targetId="42d3-64d1-b710-6f62" id="dc6a-9201-560f-7e2c" primary="false" name="Monster"/>
         <categoryLink targetId="12fc-d5fa-55b9-732e" id="5bba-8a3d-dfe4-ee48" primary="false" name="AT - Super Heavy Armor"/>
-        <categoryLink targetId="31ec-3b28-d612-9363" id="b125-418c-17ff-4e67" primary="false" name="Fly"/>
         <categoryLink targetId="9436-b2eb-d13c-a8f5" id="98d9-4bf1-d178-f711" primary="false" name="SUPER FACTION: Chaos"/>
         <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="8fa8-509a-1244-5295" primary="false" name="FACTION: Chaos Space Marines"/>
         <categoryLink targetId="a150-8d9a-4095-e170" id="ff03-ebac-8277-d99e" primary="false" name="Character"/>
@@ -16678,6 +16687,852 @@ Damage suffered by this weapon will not be lost against units with more than one
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">4</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">Tre,Sur</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tormentors" hidden="false" id="936a-6f0a-265f-1127">
+      <profiles>
+        <profile name="Tormentors" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="549b-8003-ebb1-dcc4">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tormenting Dance" id="5c8e-6985-dd9a-b406" hidden="false" type="rule" targetId="18be-5800-51ef-e91f"/>
+        <infoLink name="Scouts(7)" id="988c-33c3-7786-243c" hidden="false" type="rule" targetId="9e46-fbdf-b123-8b82"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="2941-424b-54af-ca4e" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="60d2-7348-44f2-d823" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="a84b-c7ee-2143-2699" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="cc25-6436-dc4c-7c61" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="d278-3bb6-5097-a849" id="c09c-a202-3e73-a650" primary="false" name="Subfaction: Emperor&apos;s Children"/>
+        <categoryLink targetId="f58c-0355-b35c-c7db" id="0787-207d-c001-57a9" primary="false" name="Mark Of Slaanesh"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="535f-c8dc-532b-111b" primary="false" name="Power Armor"/>
+        <categoryLink targetId="90cc-8d17-372a-10cc" id="e581-fa0e-ed65-2061" primary="false" name="Tormentors"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Tormentors" id="2fbb-6abd-b8f0-5a36" hidden="false" defaultSelectionEntryId="c430-f33b-6962-4e3a">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="7efb-b614-117f-4c50" includeChildSelections="false"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="6bc5-599d-5795-8305" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Tormentor Champion" hidden="false" id="45e5-a685-c48c-a57c" sortIndex="1">
+              <costs>
+                <cost name="Pts" typeId="Points" value="22"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="836e-6a48-651b-67e4" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed15-6ba0-3b40-c6a0" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="0928-3a52-7e5b-f5f8" type="selectionEntry" targetId="7729-9102-90f4-8ba3"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="204c-0c88-6286-5dbb" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0dfa-a011-ae22-5fa7" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="980f-8772-c6ba-5fa7" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Ranged Weapon" id="404c-3b58-d462-d2a7" hidden="false" defaultSelectionEntryId="9f4f-206f-1cb0-b48b">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f4d-07c6-93c4-47a5" includeChildSelections="false"/>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b2e0-0404-3f9d-9dfd" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Bolt Pistol" hidden="false" id="4c63-0b7a-a3c5-9528" type="selectionEntry" targetId="e288-90ad-8e77-1908"/>
+                        <entryLink import="true" name="Plasma Pistol" hidden="false" id="117a-3fe0-fb14-eb2c" type="selectionEntry" targetId="a4d4-23bc-1e16-506e">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="5"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Bolt Gun" hidden="false" id="9f4f-206f-1cb0-b48b" type="selectionEntry" targetId="532e-a988-2ad2-efe1"/>
+                        <entryLink import="true" name="Screamer Pistol" hidden="false" id="3fd2-e50c-1a22-07af" type="selectionEntry" targetId="b084-bc61-f0b9-6b94">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2f2-02d1-0b10-c746" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="5"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Melee Weapons" id="6b89-87e0-50d1-a4f3" hidden="false" defaultSelectionEntryId="e701-d705-55bd-73c1">
+                      <constraints>
+                        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="53ab-e625-7c46-4c39" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="498e-06bc-2790-073b" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Accursed Weapon" hidden="false" id="96fd-df4b-15ec-30c0" type="selectionEntry" targetId="894b-0394-26fc-94ec">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="12"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Chainsword" hidden="false" id="e701-d705-55bd-73c1" type="selectionEntry" targetId="268-58ff-86c2-e0ca"/>
+                        <entryLink import="true" name="Powerweapon" hidden="false" id="e2e2-b9f7-4212-175c" type="selectionEntry" targetId="35cf-fc6a-9063-3254">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="5"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Ecstatic Whip" hidden="false" id="e13a-04e5-3d65-7931" type="selectionEntry" targetId="10c7-9842-413c-620c">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="337f-e900-1db3-47a3" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="7"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Tormentor" hidden="false" id="c430-f33b-6962-4e3a" sortIndex="2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="22"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="2365-2d87-6c77-45af" includeChildSelections="false"/>
+                <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="c332-78ce-48be-f30e" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="3192-e25b-c3e4-cf89" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
+                <entryLink import="true" name="Bolt Gun" hidden="false" id="f3c7-bccf-b0e7-ff55" type="selectionEntry" targetId="a14e-a0fa-23df-bb2a"/>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="d6d1-28ae-eb18-25e5" type="selectionEntry" targetId="7729-9102-90f4-8ba3"/>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Tormentor w/Special Weapon" hidden="false" id="0c67-ee10-a7d2-d564" sortIndex="3">
+              <costs>
+                <cost name="Pts" typeId="Points" value="22"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9d60-72ad-d4ea-a324" includeChildSelections="false"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="6669-650d-3ba3-db66" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="8552-2e4a-ddbc-8bee" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Special Weapon" id="f228-df24-e7e3-2d7d" hidden="false" defaultSelectionEntryId="1f86-7fb6-6a3e-bac1">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a050-9893-a86a-4550" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d77-dfb5-a282-df88" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Flamer" hidden="false" id="1f86-7fb6-6a3e-bac1" type="selectionEntry" targetId="7605-4e60-3cbc-27a5">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ca0-5f33-f25d-acd4" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Melta Gun" hidden="false" id="f8c9-415e-686d-ba14" type="selectionEntry" targetId="f293-823c-7450-92c1">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="08e5-0fb5-dd6d-a3ee" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Plasma Gun" hidden="false" id="38f7-f8ba-1f67-57cd" type="selectionEntry" targetId="8afc-419e-de91-cd5">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2fb-7e5d-8118-519c" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <modifiers>
+                <modifier type="increment" value="1" field="6669-650d-3ba3-db66">
+                  <repeats>
+                    <repeat value="3" repeats="1" field="selections" scope="936a-6f0a-265f-1127" childId="2fbb-6abd-b8f0-5a36" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combatweapon" hidden="false" id="7729-9102-90f4-8ba3" collective="true">
+      <comment>3 Attacks</comment>
+      <profiles>
+        <profile name="Combatweapon" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="4773-0038-76d2-26c6">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">3</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="83d9-2222-f74c-a078" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b32-891f-f0bf-ea70" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ecstatic Whip" hidden="false" id="10c7-9842-413c-620c">
+      <profiles>
+        <profile name="Ecstatic Whip" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="7e94-ae4d-fcb4-a0bc">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">10</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">+1 Ini</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>10 Attacks</comment>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Infractors" hidden="false" id="220f-478d-c94e-2271">
+      <profiles>
+        <profile name="Infractors" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="4439-c80c-08e6-d850">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Infiltrators" id="1d87-fe67-1f06-0275" hidden="false" type="rule" targetId="16b3-ebbc-abff-96b"/>
+        <infoLink name="Infracting Dance" id="4c82-b4ab-be7f-bfed" hidden="false" type="rule" targetId="33f3-a565-d251-3e1a"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="8599-098b-2f67-8fce" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="a397-0474-c702-83c6" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="e504-5298-d16b-70da" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="34b7-2de0-b0f4-d453" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="d278-3bb6-5097-a849" id="d507-2059-b5a7-fbbd" primary="false" name="Subfaction: Emperor&apos;s Children"/>
+        <categoryLink targetId="f58c-0355-b35c-c7db" id="62c8-00e0-2e03-1267" primary="false" name="Mark Of Slaanesh"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="a9ec-7f87-8887-b51f" primary="false" name="Power Armor"/>
+        <categoryLink targetId="6033-2ffe-8bd5-d4e0" id="84bc-6a2b-99ae-a731" primary="false" name="Infractors"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Infractors" id="66e1-e456-6245-c777" hidden="false" defaultSelectionEntryId="b91b-0382-9982-3d9b">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="5f6f-51b7-3963-4cf0" includeChildSelections="false"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="acdd-dd21-7c11-aa85" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Infractor Champion" hidden="false" id="2e6d-5331-13c0-c68e" sortIndex="1">
+              <costs>
+                <cost name="Pts" typeId="Points" value="21"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8de4-40a2-f7d7-d67a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="780d-f7d8-5186-acf4" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="aad5-1188-e0c5-4923" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="6e41-b508-c3b3-9b77" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1889-c141-d793-386a" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Ranged Weapon" id="8f84-b028-ae77-ed0a" hidden="false" defaultSelectionEntryId="af73-525e-0703-bae6">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93fa-4edf-cb11-394a" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5f5-a64c-06fa-c321" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Bolt Pistol" hidden="false" id="af73-525e-0703-bae6" type="selectionEntry" targetId="e288-90ad-8e77-1908"/>
+                        <entryLink import="true" name="Plasma Pistol" hidden="false" id="f5a2-9a2c-bd46-8e3d" type="selectionEntry" targetId="a4d4-23bc-1e16-506e">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="5"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Screamer Pistol" hidden="false" id="d493-f6f9-9aa2-80f9" type="selectionEntry" targetId="b084-bc61-f0b9-6b94">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62f2-b712-5677-632e" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="5"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Melee Weapons" id="ab78-ac3e-115d-e6fc" hidden="false" defaultSelectionEntryId="9a0a-da8e-69ae-0a67">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7952-9bde-bac3-1e11" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfdb-fa69-3424-2687" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Accursed Weapon" hidden="false" id="c61f-bb95-26d4-2e1a" type="selectionEntry" targetId="894b-0394-26fc-94ec">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="12"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Powerweapon" hidden="false" id="7871-cec2-3868-e63f" type="selectionEntry" targetId="35cf-fc6a-9063-3254">
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="5"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Ecstatic Whip" hidden="false" id="c1b6-838b-30b3-1581" type="selectionEntry" targetId="10c7-9842-413c-620c">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="803b-bade-fa5a-b5f5" includeChildSelections="false"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="Points" value="7"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink import="true" name="Duelling Blade" hidden="false" id="9a0a-da8e-69ae-0a67" type="selectionEntry" targetId="d75f-16a3-ee0e-51c6">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc4b-2233-e0af-34cc" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Infractor" hidden="false" id="b91b-0382-9982-3d9b" sortIndex="2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="21"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="a737-6cab-002a-5f9a" includeChildSelections="false"/>
+                <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="4e4a-846c-0dfa-ac77" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="2f73-271e-a3dd-917d" type="selectionEntry" targetId="56c6-de8f-6e34-da15"/>
+                <entryLink import="true" name="Duelling Blade" hidden="false" id="65fb-25b4-7df0-b14c" type="selectionEntry" targetId="d75f-16a3-ee0e-51c6" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d73d-32a3-c465-e434" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93c2-020e-4d13-7c8d" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Duelling Blade" hidden="false" id="d75f-16a3-ee0e-51c6">
+      <profiles>
+        <profile name="Duelling Blade" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="694b-4531-86ea-d2a2">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Lord Of Kakophony" hidden="false" id="1189-a08b-a468-845f">
+      <costs>
+        <cost name="Pts" typeId="Points" value="165"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Lord Of Kakophony" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="e026-66f1-5084-06ed">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">7</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(4+)" id="cd3e-17a5-336d-477d" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Doom Siren" id="24d1-1b26-76b8-e0bc" hidden="false" type="rule" targetId="5d56-70f5-315a-86d5"/>
+        <infoLink name="Impervious To Injuries(-1)" id="bd24-a638-b848-870f" hidden="false" type="rule" targetId="b0d5-df50-640b-c3d4"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="7284-4810-b0c7-68a7" primary="false" name="Infantry"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="64f3-da22-c482-2bf8" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="56de-2cef-2efc-a910" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="6d31-40d4-39da-6018" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="a501-617a-5b24-76de" primary="false" name="Character"/>
+        <categoryLink targetId="d278-3bb6-5097-a849" id="bec2-c985-edf1-0e08" primary="false" name="Subfaction: Emperor&apos;s Children"/>
+        <categoryLink targetId="6979-db56-0734-4571" id="7425-410e-3840-1534" primary="false" name="Lord Of Kakophony"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="e0e9-9f15-6c7d-6d1f" primary="false" name="Power Armor"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Mark Of Slaanesh" hidden="false" id="503d-f4bc-32a1-93e6" type="selectionEntry" targetId="60fb-a452-4f0b-b3b4" collective="true" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e92-e676-fea7-2c21" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Chaos Space Marines Relics" hidden="false" id="1323-376c-87fe-92db" type="selectionEntryGroup" targetId="1b95-fa88-3061-f870" sortIndex="2"/>
+        <entryLink import="true" name="Blissed Blade" hidden="false" id="daa8-b6c6-f6fa-0390" type="selectionEntry" targetId="0d77-cbcf-009a-74c0" collective="true" sortIndex="4">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8fca-e92c-6f61-7115" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ced-a840-3714-9b3c" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="2 Screamer Pistols" hidden="false" id="56e0-cae1-9a58-bb4c" collective="true" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d272-e8e4-1fb9-e1ae" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca0e-884f-bec2-655c" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Screamer Pistol" hidden="false" id="81bf-d7b8-a7b8-f297" type="selectionEntry" targetId="b084-bc61-f0b9-6b94" collective="true">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a5d0-c4f1-f4c9-3e6c" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="16a6-1bc4-a17b-7fe9" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blissed Blade" hidden="false" id="0d77-cbcf-009a-74c0">
+      <profiles>
+        <profile name="Blissed Blade" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="3c34-76f1-7547-a2fa">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Lord Of Exultance" hidden="false" id="28ff-b1e0-613d-701d">
+      <costs>
+        <cost name="Pts" typeId="Points" value="150"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Lord Of Exultance" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="4134-6f90-3ea3-fe89">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">9</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">8</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(4+)" id="bcd9-e8d1-7407-6807" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Sadistic Curse Of War" id="7849-94f3-1b89-389c" hidden="false" type="rule" targetId="d6cc-2117-4a5d-65b7"/>
+        <infoLink name="Scouts(7)" id="b2aa-66fc-78c7-af3f" hidden="false" type="rule" targetId="9e46-fbdf-b123-8b82"/>
+        <infoLink name="Lone Operator" id="92ee-1a11-0f97-de4b" hidden="false" type="rule" targetId="1ac2-6570-4e5f-b1ff"/>
+        <infoLink name="Stealth" id="a8fa-eb0b-e24a-3d2f" hidden="false" type="rule" targetId="288e-825d-c6ea-5f92"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Mark Of Slaanesh" hidden="false" id="92ef-7e86-aee5-16ce" type="selectionEntry" targetId="60fb-a452-4f0b-b3b4" collective="true" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8b5-1086-c41e-d8bb" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Chaos Space Marines Relics" hidden="false" id="d953-0f5b-cfe1-e6dd" type="selectionEntryGroup" targetId="1b95-fa88-3061-f870" sortIndex="2"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="c589-6ccf-76d2-db5e" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="9e4f-5a8d-6720-c612" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="9afb-0dbe-ba46-5f0c" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="c9a4-627e-4250-6b6e" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="1294-3383-2191-5d43" primary="false" name="Character"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="b724-0717-bb8d-a5b3" primary="false" name="Power Armor"/>
+        <categoryLink targetId="358c-7171-5768-c157" id="2dce-2bc1-e80c-f68d" primary="false" name="Lord Of Exultance"/>
+        <categoryLink targetId="d278-3bb6-5097-a849" id="86d6-73cb-0b50-631a" primary="false" name="Subfaction: Emperor&apos;s Children"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon Options" id="11b5-8999-8a10-249b" hidden="false" defaultSelectionEntryId="25ad-4fea-4347-2efe" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="10b0-9e3d-99fd-c03e" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e72f-9f54-26c2-8e5e" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Bolt Pistol" hidden="false" id="25ad-4fea-4347-2efe" type="selectionEntry" targetId="e288-90ad-8e77-1908"/>
+            <entryLink import="true" name="Plasma Pistol" hidden="false" id="e9fb-043d-5852-68b3" type="selectionEntry" targetId="a4d4-23bc-1e16-506e">
+              <costs>
+                <cost name="Pts" typeId="Points" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Screamer Pistol" hidden="false" id="be3b-e912-b0f7-2896" type="selectionEntry" targetId="b084-bc61-f0b9-6b94">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a93-5b10-61a2-4f72" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Accursed Weapon" hidden="false" id="409d-720b-5e2e-bc70" type="selectionEntry" targetId="3cbe-db3f-05d4-a253">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Accursed Claw" hidden="false" id="4add-819b-4bcf-9056" type="selectionEntry" targetId="0746-e08f-c575-484f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c841-a4b1-e0a5-a0a7" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Blissed Glaive" hidden="false" id="6415-530a-bb62-63ca" type="selectionEntry" targetId="b477-28a0-9b5a-7fe4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3a5-1c3c-827b-fb2b" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Powerweapon" hidden="false" id="ad70-2363-ae3c-80f5" type="selectionEntry" targetId="bd33-f7a6-1075-6a5a"/>
+            <entryLink import="true" name="Ecstatic Whip" hidden="false" id="31fe-681b-cddc-f980" type="selectionEntry" targetId="e332-4b8b-9d35-0926">
+              <costs>
+                <cost name="Pts" typeId="Points" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7aa5-9d93-8c3d-8c53" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="ad70-2363-ae3c-80f5" field="defaultSelectionEntryId"/>
+            <modifier type="set" value="25ad-4fea-4347-2efe" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blissed Glaive" hidden="false" id="b477-28a0-9b5a-7fe4">
+      <profiles>
+        <profile name="Blissed Glaive" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="8f03-08de-751f-6973">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Unmodified Wound Rolls Of 5+ made against enemy „Hero“ type score D3 Mortal Wounds in addition to any other damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blissed Glaive" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="4d5c-8200-a29c-07b1">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x3</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">4</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Accursed Claw" hidden="false" id="0746-e08f-c575-484f">
+      <profiles>
+        <profile name="Accursed Claw" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="fb37-bef0-9907-1c57">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">This model adds +1 to the Wound Roll against enemy „Vehicle“ and „Monster“ units.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Accursed Claw" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="3a02-d80b-2131-6992">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x3</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ecstatic Whip" hidden="false" id="e332-4b8b-9d35-0926">
+      <profiles>
+        <profile name="Ecstatic Whip" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="1275-a6ff-d068-6686">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">17</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">+1 Ini</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ecstatic Whip" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="a751-9e4b-5b66-a2eb">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Enemy units that suffered damage by attacks made with this weapon, can not make a „Fall Back“ move in order to move out of engagement range with this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>Lord Of Exultant</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sonic Dreadnought" hidden="false" id="911f-82ea-0440-2b3f">
+      <profiles>
+        <profile name="Sonic Dreadnought" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="772c-036d-103a-f536">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">8</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">10</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">14</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(6/D3)" id="3aaf-5ba6-7616-474d" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
+        <infoLink name="Ancient Warrior" id="fedd-62b9-af83-823b" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="3c5a-a5e9-0ce2-b115" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
+        <entryLink import="true" name="Dreadnought Powerfist w/Storm Bolter" hidden="false" id="7620-5b5f-baf1-4634" type="selectionEntry" targetId="1389-db30-ab17-9df8" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ad69-a415-4d82-84c3" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Heavy Blast Master" hidden="false" id="c6b6-c667-3291-7aa0" type="selectionEntry" targetId="bcdf-98f9-976c-e707" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e660-5948-3cbf-7179" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da05-2531-f208-eb56" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="175"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="178f-e1ef-11aa-72d8" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="4e28-dc6d-049e-44cf" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="0686-bf3d-318f-73ce" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="21e1-f3fb-00db-5e19" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="5fa2-54da-fdab-fcf2" id="341b-c753-aa6e-aa52" primary="false" name="Sonic Dreadnought"/>
+        <categoryLink targetId="38c1-c3bf-46ea-4126" id="62ab-c6a7-2b8d-5e8c" primary="false" name="Castrafferum Dreadnought"/>
+        <categoryLink targetId="f58c-0355-b35c-c7db" id="3ef1-41db-2cae-3da2" primary="false" name="Mark Of Slaanesh"/>
+        <categoryLink targetId="d278-3bb6-5097-a849" id="2b63-2111-3e1e-0603" primary="false" name="Subfaction: Emperor&apos;s Children"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Blast Master" hidden="false" id="bcdf-98f9-976c-e707">
+      <profiles>
+        <profile name="Heavy Blast Master - Disharmonic Burst" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="b5f1-c92c-8651-90b9">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">9</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">*</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">To,IgC</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heavy Blast Master - Sonic Boom" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="ae71-8935-1183-1111">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">16</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">As</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Flawless Blades" hidden="false" id="a8f6-5f4c-f396-cc65">
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="4ca5-6e8d-7ac5-1421" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="2944-5c8f-827e-c6b3" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="752c-d4f2-0405-2b97" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="abc1-c1cd-25ec-0741" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="f58c-0355-b35c-c7db" id="0e72-08e9-70dc-8b8c" primary="false" name="Mark Of Slaanesh"/>
+        <categoryLink targetId="d278-3bb6-5097-a849" id="ebb4-8025-2fb3-4b14" primary="false" name="Subfaction: Emperor&apos;s Children"/>
+        <categoryLink targetId="b4a8-883f-49d0-1e28" id="9b9e-257d-f292-db35" primary="false" name="Flawless Blades"/>
+        <categoryLink targetId="f887-85e4-37bb-fe59" id="503a-11d3-02c6-8080" primary="false" name="Power Armor"/>
+        <categoryLink targetId="6f03-e7ff-edbe-1271" id="3624-8c7f-54c4-a49a" primary="false" name="Possessed Armor"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Flawless Blades" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="97db-649a-1b2c-788a">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">6+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">7</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Flawless Execution" id="c7b0-e8d5-e4c5-47c1" hidden="false" type="rule" targetId="8702-3917-7407-60da"/>
+        <infoLink name="Scouts(7)" id="f573-2981-a52f-55eb" hidden="false" type="rule" targetId="9e46-fbdf-b123-8b82"/>
+        <infoLink name="Stealth" id="1abe-3adb-c3f7-53a1" hidden="false" type="rule" targetId="288e-825d-c6ea-5f92"/>
+        <infoLink name="Invulnerable Save(5+)" id="897f-ee05-9a78-f756" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Flawless Blades" id="f459-c70b-d3bd-b45d" hidden="false">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="449f-a61f-6ca9-e339" includeChildSelections="false"/>
+            <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="a3d2-5b68-6cd8-db0b" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Flawless Blade" hidden="false" id="1d10-b3a4-b302-c2f0">
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="6ebd-251d-9695-45e2" includeChildSelections="false"/>
+                <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="e8bb-9ba2-dbed-0256" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="55"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Palatine Executioner Blade" hidden="false" id="4315-13ae-a87b-fa3a" type="selectionEntry" targetId="3bb8-80fb-20df-7aac" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="44a1-704c-cfaf-066d" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8293-4e0d-9093-331c" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Palatine Executioner Blade" hidden="false" id="3bb8-80fb-20df-7aac">
+      <profiles>
+        <profile name="Palatine Executioner Blade" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="7fe9-863e-83c7-c3ee">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+3</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Full Glamour" hidden="false" id="e5d7-41b6-26b9-ec8b">
+      <costs>
+        <cost name="Pts" typeId="Points" value="340"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Full Glamour" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="e7c0-897e-f2a3-095a">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">16</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">10</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">10</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">26</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="42d3-64d1-b710-6f62" id="03bf-f44a-7910-24c9" primary="false" name="Monster"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="c0d2-1cc7-81d2-6c2b" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="14f-8da2-7b06-ecdb" id="7917-87e2-8808-ee82" primary="false" name="Psyker"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="58ca-d050-1953-6084" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="bb8c-8daf-cbd0-a2b" id="12d0-0907-227b-42a6" primary="false" name="FACTION: Chaos Space Marines"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="24ed-63e9-c3ef-7647" primary="false" name="Character"/>
+        <categoryLink targetId="f58c-0355-b35c-c7db" id="98de-2f85-71b9-b877" primary="false" name="Mark Of Slaanesh"/>
+        <categoryLink targetId="d278-3bb6-5097-a849" id="3e2a-c13c-9a69-31bc" primary="false" name="Subfaction: Emperor&apos;s Children"/>
+        <categoryLink targetId="44d9-0242-8278-1450" id="dd83-89cc-e6e9-3063" primary="false" name="Demon Progenitor"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Going Out With A Vengeance" id="b8f5-bc69-a296-3512" hidden="false" type="rule" targetId="c8ac-dc37-505e-a067"/>
+        <infoLink name="Invulnerable Save(4+)" id="a84f-0156-16e6-9901" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Deadly Demise(9/D6+3)" id="be36-348c-6f48-2fef" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Psyker(2)" id="a705-086e-414c-9183" hidden="false" type="rule" targetId="943-26d8-d8fc-7f0a"/>
+        <infoLink name="Furious Assault" id="1b37-b229-1dab-4dbc" hidden="false" type="rule" targetId="21bc-d683-4124-4443"/>
+        <infoLink name="Stealth" id="7748-7583-41cb-0875" hidden="false" type="rule" targetId="288e-825d-c6ea-5f92"/>
+        <infoLink name="Reptilian Body" id="e0b8-604e-14d5-76c8" hidden="false" type="rule" targetId="9019-94dd-6498-b7df"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="The Blades Of The Phoenician" hidden="false" id="df1b-9036-bfd6-1a02" type="selectionEntry" targetId="57c4-991f-3657-dc14" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d146-57f2-2a76-0d84" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78a6-832c-11e1-0676" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Psychic Powers" id="9dac-5c85-db91-4723" hidden="false">
+          <constraints>
+            <constraint type="max" value="50" field="Points" scope="parent" shared="true" id="65f3-40b5-33ce-5082"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Universal Psychic Powers" hidden="false" id="6a84-0d8c-f139-6bf7" type="selectionEntryGroup" targetId="3f03-4dbd-e6c3-bb48"/>
+            <entryLink import="true" name="Chaos Space Marines Psychic Powers" hidden="false" id="1b3e-2c59-fc40-18ef" type="selectionEntryGroup" targetId="d80f-c57b-e3c8-a6a0"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="The Blades Of The Phoenician" hidden="false" id="57c4-991f-3657-dc14">
+      <profiles>
+        <profile name="The Blades Of The Phoenician - Throatcut" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="4536-19b0-212d-b1ff">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">7</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+4</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Blades Of The Phoenician - Fury Strikes" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="8aba-936c-46c9-f6a9">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">40</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Ar</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18482,7 +19337,7 @@ This model can cast any Psychic Powers it is equipped up to twice per turn and n
       <description>Gal Vorbak Units can charge enemy units that are not visible to them. And Gal Vorbak are immune to any Core and Special Rules that worsen Regular, Advance, Fall Back and Charge Moves. Also, add +1 to charge rolls of this unit.</description>
     </rule>
     <rule name="Karceri Battle Shields" id="e9e9-5095-0db1-6844" hidden="false">
-      <description>This unit can not be selected as the target of „Overwatch“. Also, unmodified Wound Rolls of 1-3 made against this unit, always fail.  </description>
+      <description>This unit can not be selected as the target of „Overwatch“. Also, unmodified Wound Rolls of 1-3 made against this unit, always fail.</description>
     </rule>
     <rule name="Masters Of Torture" id="d933-60b6-b55c-fbb0" hidden="false">
       <description>Add +1 to charge rolls of this unit. Also, enemy units can not make a „Fall Back“ movement out of engagement range, if they are within engangement range of at least one model of this unit.</description>
@@ -18491,10 +19346,33 @@ This model can cast any Psychic Powers it is equipped up to twice per turn and n
       <description>Once per game, this unit can declare a charge in turn it has advanced. Also, all friendly „Black Legion“ units within 9&apos;&apos; of this unit add +1 to their charge rolls.</description>
     </rule>
     <rule name="Fade And Strike" id="e73d-0ba0-1a84-0b8e" hidden="false">
-      <description>At the start of your enemies command phases, you can remove this unit from the battlefield and place it immediately anywhere on the battlefield but not closer than 9&apos;&apos; to any enemy unit. Also, if this unit did not make ANY ranged attacks in the previous shooting phase(excluding the your first turn, if your opponent started the game), you can immediately resolve all ranged attacks with this as if this was your shooting phase. </description>
+      <description>At the start of your enemies command phases, you can remove this unit from the battlefield and place it immediately anywhere on the battlefield but not closer than 9&apos;&apos; to any enemy unit. Also, if this unit did not make ANY ranged attacks in the previous shooting phase(excluding the your first turn, if your opponent started the game), you can immediately resolve all ranged attacks with this as if this was your shooting phase.</description>
     </rule>
     <rule name="Warpforged Logos Warframe" id="0b73-eb36-d00a-6dc3" hidden="false">
       <description>At the start of each Game Round, you pick up to two of the following ranged weapons, until the start of the next Game Round, this model is considered to be equipped with the 2 Weapons you picked.</description>
+    </rule>
+    <rule name="Tormenting Dance" id="18be-5800-51ef-e91f" hidden="false">
+      <description>Enemy units subtract -1 from ranged attack hit rolls made against this unit.
+Also, when making ranged attacks with „Boltguns“ from within half the maximum range of the weapon, add the „Ar“ Special Rule to any „Boltgun“ attacks.</description>
+    </rule>
+    <rule name="Infracting Dance" id="33f3-a565-d251-3e1a" hidden="false">
+      <description>Enemy units subtract -1 from melee attack hit rolls made against this unit. Also, enemy units, under no circumstances can make a Fall Back move out of engagement range with this unit. Also, this units Pile-In and Consolidation Move is up to 6&apos;&apos; instead of 3&apos;&apos;.</description>
+    </rule>
+    <rule name="Doom Siren" id="5d56-70f5-315a-86d5" hidden="false">
+      <description>At the start of your Shooting Phase, pick on enemy unit within 18&apos;&apos; of this unit. This unit immediately resolves an Initiative Test as in rolling 1D6, if the result is equal or lower than than the Initiative of the test is succesful and nothing happens, if the result is greater, the test is considered failed and the unit does not make use of its subfaction rule until the start of your next shooting phase. Also, this roll must always be taken and a 6 is always considered a failure, even if the Initiative Characteristic of the targeted unit is 6 or higher.</description>
+    </rule>
+    <rule name="Sadistic Curse Of War" id="d6cc-2117-4a5d-65b7" hidden="false">
+      <description>This model can always attack with all its equipped Melee Weapons as if they had the „ExA“ Special Rule. 
+
+Also, everytime this model is destroyed by attacks of an enemy „Hero“-Type unit on a roll of 6, the enemy unit is immediately destroyed and this model returns with D3 remaining LP. This effect can only occur once per game. 
+
+This model can never be attached to any friendly unit.</description>
+    </rule>
+    <rule name="Flawless Execution" id="8702-3917-7407-60da" hidden="false">
+      <description>Every unmodified wound roll of 5+ scores a single Mortal Wound in addition to any other damage.</description>
+    </rule>
+    <rule name="Reptilian Body" id="9019-94dd-6498-b7df" hidden="false">
+      <description>This model must never roll on the table for „Vehicle and Monster degradation“. Also, this unit can move over terrain as if it had the „Fly“ keyword. Also, subtract -1 from wound rolls made against this model.</description>
     </rule>
   </sharedRules>
   <rules>
@@ -18537,7 +19415,7 @@ At the start of every Command Phase, you can roll a D6 for every Legionaire and 
     </profile>
     <profile name="We Are Alpharius!" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="84ca-d030-47f4-d5fb">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Alpha Legion Unit gains the „Stealth“ Special Rule. Also all „Cultists“, „Accursed Cultists“ and a single „Legionaire“(per 2000 points game size) Unit gain the „Infiltrators“ Special Rule. Alpha Legion Hero Units can never be chosen as the target of weapons with the „Precision“ Special Rule unless they&apos;re a single model. All „Infantry“ Type Hero Units with Power or Demonic Armor, gain the „Lone Operator“ Special Rule. </characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Alpha Legion Unit gains the „Stealth“ Special Rule. Also all „Cultists“, „Accursed Cultists“ and a single „Legionaire“(per 2000 points game size) Unit gain the „Infiltrators“ Special Rule. Alpha Legion Hero Units can never be chosen as the target of weapons with the „Precision“ Special Rule unless they&apos;re a single model. All „Infantry“ Type Hero Units with Power or Demonic Armor, gain the „Lone Operator“ Special Rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Blood For The Blood God" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="5f49-2aea-a030-bc7c">

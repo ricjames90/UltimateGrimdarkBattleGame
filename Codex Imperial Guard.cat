@@ -7897,6 +7897,172 @@ Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take u
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Broodbrothers" hidden="false" id="67e7-0676-9d4d-3798">
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="54d3-2429-d711-da0f" primary="false" name="Infantry"/>
+        <categoryLink targetId="8de4-edc3-a99c-9c13" id="0873-085a-1fd8-ad1f" primary="false" name="AT - Light Armor"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Brood Brothers" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="e1a7-923c-7c4d-85fb">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">3</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">3</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">6+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">1</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">5</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">5+/5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Brood Brothers Heavy Weapons Team" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="2c6a-749e-3be5-aed6">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">-</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">3</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">1</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">3</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">6+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">5</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">5+/5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="I DON&apos;T WANT NO BOLTER NUN, I JUST WANT MY LASER GUN!" id="308b-6e8c-93ba-f38d" hidden="false" type="rule" targetId="ca6c-f7b3-965c-fb09"/>
+        <infoLink name="Weapons Teams" id="f192-0f6f-5a84-a378" hidden="false" type="rule" targetId="97dd-0001-134b-72a5"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Brood Brothers" id="a81d-f3bd-948c-6f0e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Brood Brother" hidden="false" id="a02a-6f50-0ad2-65f8">
+              <costs>
+                <cost name="Pts" typeId="Points" value="4"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="8" field="selections" scope="parent" shared="true" id="396b-a85f-7dbc-7d6e" includeChildSelections="false"/>
+                <constraint type="max" value="49" field="selections" scope="parent" shared="true" id="9967-f972-45d4-94d1" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Las Gun" hidden="false" id="4351-de60-6ae8-e2d8" type="selectionEntry" targetId="bbcf-7b9d-5807-0e51" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f940-93b2-6309-4ad7" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e67-3ab5-c771-20bc" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Las Pistol" hidden="false" id="b1d6-ed5b-7451-779c" type="selectionEntry" targetId="6395-03e3-3906-3ddb" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7258-bcbc-ec65-4631" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a745-1a1d-5c98-0a7b" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Bayonet" hidden="false" id="8e22-fce8-c672-75bc" type="selectionEntry" targetId="5581-0dfb-1717-2651" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="04db-6f91-4af7-da41" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0da3-e0a5-82da-bd9e" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Brood Brother Leader" hidden="false" id="434b-78da-b456-9281" collective="true">
+              <costs>
+                <cost name="Pts" typeId="Points" value="4"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="645b-09a8-7145-5427" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9ee-3f58-53b2-00bc" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Bayonet" hidden="false" id="b7f0-9190-7c31-3457" type="selectionEntry" targetId="5581-0dfb-1717-2651" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c217-eb9c-bae8-e83a" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69fa-1993-7ea6-fcd4" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Las Gun" hidden="false" id="ce3b-5406-4cac-ad9d" type="selectionEntry" targetId="bbcf-7b9d-5807-0e51" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e48d-b0e1-da31-fdd4" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d64-a72c-34bf-2320" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="3ddd-ea39-e85b-4454" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="538e-6c8c-a3db-6470" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1291-6fcf-66be-3ca4" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Pistols" hidden="false" id="397c-552e-026a-a6c5" type="selectionEntryGroup" targetId="a7f9-6275-660c-28e9"/>
+                    <entryLink import="true" name="Combat Weapons" hidden="false" id="8ede-d1a8-5cbb-493c" type="selectionEntryGroup" targetId="3ecb-200b-8ee1-215e"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Brood Brother w/Special Weapon" hidden="false" id="e489-f311-2266-4abe" collective="false">
+              <costs>
+                <cost name="Pts" typeId="Points" value="4"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ecc0-7f05-e005-5d0d" includeChildSelections="false"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="ea20-d759-1faa-b3ac" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="ea20-d759-1faa-b3ac">
+                  <repeats>
+                    <repeat value="10" repeats="1" field="selections" scope="67e7-0676-9d4d-3798" childId="a81d-f3bd-948c-6f0e" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <entryLinks>
+                <entryLink import="true" name="Las Pistol" hidden="false" id="ca24-ece9-925f-22ab" type="selectionEntry" targetId="6395-03e3-3906-3ddb" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f11c-1cab-7ca0-2763" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ca8-958e-e943-5033" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Bayonet" hidden="false" id="0fd7-5637-68b0-d6fc" type="selectionEntry" targetId="5581-0dfb-1717-2651" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b5d-160d-5616-787c" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b293-c287-40fb-422b" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Special Weapons" hidden="false" id="e156-4c6d-303a-866e" type="selectionEntryGroup" targetId="30f5-965e-1a38-84e0"/>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="72f3-e373-5172-4728" includeChildSelections="false"/>
+            <constraint type="max" value="50" field="selections" scope="parent" shared="true" id="ee95-15e7-975e-9bae" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="a02a-6f50-0ad2-65f8" field="defaultSelectionEntryId"/>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Brood Brothers Heavy Weapons Teams" hidden="false" id="c4ff-74a1-82f9-774a">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="347b-dfbb-d61d-efb2" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="6e92-5ce7-cfca-6d37" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="6e92-5ce7-cfca-6d37">
+              <repeats>
+                <repeat value="10" repeats="1" field="selections" scope="67e7-0676-9d4d-3798" childId="a81d-f3bd-948c-6f0e" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Heavy Weapons Teams Weapons" hidden="false" id="f9cf-ccda-30ac-1647" type="selectionEntryGroup" targetId="fd58-0980-7eb2-01d7"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="I DON&apos;T WANT NO BOLTER NUN, I JUST WANT MY LASER GUN!" id="ca6c-f7b3-965c-fb09" hidden="false">
