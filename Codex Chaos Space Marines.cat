@@ -12839,7 +12839,7 @@ Damage suffered by this weapon will not be lost against units with more than one
         <infoLink name="Feel No Pain(5+)" id="415c-7b49-3f4c-45a2" hidden="false" type="rule" targetId="fefa-ab9a-a874-42de"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Mirror, Mirror On The Wall, Who Is The Faires Of Them All?" hidden="false" id="faf0-9d5f-0233-a29e">
+    <selectionEntry type="upgrade" import="true" name="Mirror, Mirror On The Wall, Who Is The Fairest Of Them All?" hidden="false" id="faf0-9d5f-0233-a29e">
       <comment>Emperor&apos;s Children Relic</comment>
       <costs>
         <cost name="Pts" typeId="Points" value="40"/>
