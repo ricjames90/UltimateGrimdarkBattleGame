@@ -3194,6 +3194,7 @@
       <infoLinks>
         <infoLink name="The Really Really Small Guys" id="f4c7-56d9-16d7-a016" hidden="false" type="rule" targetId="a22a-9ddd-accc-5988"/>
         <infoLink name="Stealth" id="a318-2623-1a67-87f9" hidden="false" type="rule" targetId="288e-825d-c6ea-5f92"/>
+        <infoLink name="Infiltrators" id="5adf-5510-d101-efdc" hidden="false" type="rule" targetId="16b3-ebbc-abff-96b"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="ca74-25d8-3eb4-bf23" id="1359-854e-1f5a-7fbf" primary="false" name="Infantry"/>
@@ -3248,7 +3249,8 @@
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Rogal Dorn" hidden="false" id="71f4-c9fb-dd9b-f9c6">
               <costs>
-                <cost name="Pts" typeId="Points" value="140"/>
+                <cost name="Pts" typeId="Points" value="155"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="35c6-2039-2df6-1a59" includeChildSelections="false"/>
@@ -8872,13 +8874,19 @@ Also when making use of Deep Strike, you can place this unit up to 6&apos;&apos;
   </sharedSelectionEntryGroups>
   <rules>
     <rule name="At The Emperor&apos;s Command" id="f6f5-64f5-ff75-f2b6" hidden="false">
-      <description>At start of each of your Command Phases Models with the Keyword „Commanding Officer(X)“ can give an order to a friendly „Imperial Guard“ unit within 6&apos;&apos; of the commanding model, according to the rules of statet of the specific Order. The number of Orders a „Commanding Officer“ can give is determined by the number in parentheses after the keyword. For example: A Lord Commissar has the „Commanding Officer(2)“ Keyword, which means he can give up to two Orders per turn.
+      <description>Main Faction Rule:
+
+
+At The Emperor&apos;s Command
+
+
+At start of each of your Command Phases Models with the Keyword „Commanding Officer(X)“ can give an order to a friendly „Imperial Guard“ unit within 6&apos;&apos; of the commanding model, according to the rules of statet of the specific Order. The number of Orders a „Commanding Officer“ can give is determined by the number in parentheses after the keyword. For example: A Lord Commissar has the „Commanding Officer(2)“ Keyword, which means he can give up to two Orders per turn.
 
 
 Unless mentioned otherwise, no unit can be targeted by more than one Order per turn. 
 
 
-&gt;First Rank, Second Rank. FIRE!: A friendly unit with the „Guardsmen“ keyword can make 2 additional attacks with their „Lasguns“. 
+&gt;First Rank, Second Rank. FIRE!: A friendly unit with the „Guardsmen“ keyword can make 2 additional attacks with their „Lasguns“. And one additional attack with any other weapon.
 
 
 &gt;FIX BAYONETS!: A friendly unit unit with the „Guardsmen“ keyword can make 2 additional attacks with their „Bayonets“.
@@ -8890,11 +8898,17 @@ Unless mentioned otherwise, no unit can be targeted by more than one Order per t
 &gt;MOVE! MOVE! MOVE!: A friendly unit can Advance 9&apos;&apos; instead of rolling for the distance or taking its „Initiative“ Characteristic instead. The unit can not make any ranged attacks or declare a charge in the same turn. 
 
 
-&gt;Bring it down!: A friendly unit with the „Guardsmen“ keyword can reroll any failed Wound Rolls of 1.</description>
+&gt;Bring it down!: A friendly unit with the „Guardsmen“ keyword can reroll any failed Wound Rolls of 1.
+
+
+&gt;Take Aim: Any friendly „Imperial Guard“ unit may reroll one failed hit roll and one failed wound roll. (can only be used once per Vehicle unit per turn)</description>
       <alias>ATM</alias>
     </rule>
     <rule name="The Imperium Will Never Fall" id="b203-700a-017d-8429" hidden="false">
-      <description>At the start of every of your Command Phases you roll five D6. For every 5+ you can return a single fully destroyed „Guardsmen“ unit (excluding Conscripts) to the Battlefield by placing it anywhere wholly within 6&apos;&apos; of any edge of the Battlefield except within your enemies deployment zone. 
+      <description>The Imperium Will Never Fall
+
+
+At the start of every of your Command Phases you roll five D6. For every 5+ you can return a single fully destroyed „Guardsmen“ unit (excluding Conscripts) to the Battlefield by placing it anywhere wholly within 6&apos;&apos; of any edge of the Battlefield except within your enemies deployment zone. 
 
 
 You can roll an additional D6 for every destroyed „Guardsmen“ that exceeds 5 destroyed „Guardsmen“ units when this rule is being resolved. For example, 
@@ -8923,7 +8937,10 @@ If you want to return units that would exceed the Maximum Model limit, for examp
 Example: You have one 30 model Vostroyan Firstborn Unit and one 30 model(including 3 Heavy Weapons Teams) Infantry Guardsmen unit in a 1000P game, you can decide to remove 18 Infantry Guardsmen and 2 of their Heavy Weapons Teams from the Infantry Guardsmen unit or 20 Voystroyan Firstborn from the Vostroyan Firstborn unit if you prefer those until you reach 40 models. You can never reduce more than one unit with this rule.
 
 
-Units can not receive orders in a turn they were returned to the game by this rule.</description>
+Units can not receive orders in a turn they were returned to the game by this rule.
+
+
+Imperial Guard „Infantry“ units always count as having double their Life Points when determining which player is controlling an objective marker.</description>
     </rule>
   </rules>
 </catalogue>
