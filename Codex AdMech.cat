@@ -1650,6 +1650,7 @@
         <categoryLink targetId="fa28-a209-4a67-e026" id="0a0f-bb89-7e7f-91e9" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="45a-53f1-6fb3-a010" id="6afb-5efa-8ed9-b041" primary="false" name="FACTION: AdMech"/>
         <categoryLink targetId="57fb-fccd-2163-9f16" id="0f36-f417-73d3-9677" primary="false" name="Thallax Cohort"/>
+        <categoryLink targetId="c87c-0e5d-9e58-b7c9" id="d596-e6af-00b6-fea4" primary="false" name="Servitors"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Chain Bayonet" hidden="false" id="b47c-e484-efe4-569f">
@@ -5791,7 +5792,7 @@
       <profiles>
         <profile name="Aegis Defense Mechanism" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="7644-54b0-0cad-d394">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The model gains the „Feel No Pain(4+)“ Special Rule. </characteristic>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">The model gains the „Feel No Pain(4+)“ Special Rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6178,7 +6179,7 @@ Subtract -1 from any wound rolls made against this model and the unit it may be 
         <categoryLink targetId="12fc-d5fa-55b9-732e" id="2643-77e3-05ae-e571" primary="false" name="AT - Super Heavy Armor"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="54d6-fa61-b857-f370" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="45a-53f1-6fb3-a010" id="c620-dd7c-a1a2-e161" primary="false" name="FACTION: AdMech"/>
-        <categoryLink targetId="d06d-f2a6-1424-2358" id="cbe6-ae2d-cf7b-42d8" primary="false" name="Thanatar Calix-Automata"/>
+        <categoryLink targetId="d06d-f2a6-1424-2358" id="cbe6-ae2d-cf7b-42d8" primary="false" name="Thanatar Calix Automata"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sollex Pattern Heavy Las Cannon" hidden="false" id="f2a3-a1fc-b919-5283">
@@ -6748,7 +6749,7 @@ Units that only made a normal move are considered having remained stationary. Ve
     </profile>
     <profile name="Red In A Cog And Claw" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="600b-54fa-c28f-2c89">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">All „Ryza“ units add +1 to Melee Wound Rolls, add +1 to Charge Rolls and add +1A to all their eligible Melee Weapons. Also, in a turn a Ryza unit has charged, add +1 to the Hit Roll of all eligible Melee Attacks. Troop and Infantry type units can Fall back and declare a Charge in the same turn.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">All „Ryza“ units add +1 to Melee Wound Rolls, add +1 to Charge Rolls and add +1A to all their eligible Melee Weapons. Also, in a turn a Ryza unit has charged, add +1 to the Hit Roll of all eligible Melee Attacks. Troop and Infantry type units can Fall back and declare a Charge in the same turn. Ryza units can declare a charge in a turn they advanced. Infantry units that disembarked from a Ryza „Transporter“ can declared a charge in the same turn as well.</characteristic>
       </characteristics>
     </profile>
     <profile name="Shroud Protocolls" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="daa3-b1dc-bc50-55f7">
@@ -6758,12 +6759,12 @@ Units that only made a normal move are considered having remained stationary. Ve
     </profile>
     <profile name="Refusal To Yield" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="42d7-1630-a3c4-24d0">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">All „Graia“ Units add +1 to their LD Characteristic and never suffer any penalties to their LD Characteristic and Morale Break tests. When firing Overwatch, they hit on unmodified Hit Rolls of 5+ instead of 6+. The range of all Ranged Weapons Profiles is extended by 4&apos;&apos;, except Weapons with the „Torrent“(To) Keyword, they are extended by 2&apos;&apos; instead. Infantry units add +1 to their ranged Weapons Attacks when firing within half range of the weapons.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">All „Graia“ Units add +1 to their LD Characteristic and never suffer any penalties to their LD Characteristic and Morale Break tests. When firing Overwatch, they hit on unmodified Hit Rolls of 5+ instead of 6+. The range of all Ranged Weapons Profiles is extended by 4&apos;&apos;, except Weapons with the „Torrent“(To) Keyword, they are extended by 2&apos;&apos; instead. Infantry units add +1 to their ranged Weapons Attacks when firing within half range of the weapons. Graia „Infantry“ units are also considered douple their life points when scoring an objective.</characteristic>
       </characteristics>
     </profile>
     <profile name="Solar Blessing" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="9d4b-c8b8-f36c-613a">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">All „Lucius“ Units score an additional hit on an undmodified Hit Roll of 6. They also reroll every failed Armor Save, Invulnerable Save, and Feel No Pain Roll of 1-2.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">All „Lucius“ Units score an additional hit on an undmodified Hit Roll of 6. They also reroll every failed Armor Save, Invulnerable Save, and Feel No Pain Roll of 1-2. Lucius Vehicles only reroll failled invulnerable saves of 1. And Tech Thralls don&apos;t reroll their „Feel No Pain“ rolls at all with this rule. </characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -7014,7 +7015,7 @@ Units that disembarked from this unit are eligible to declare a charge in the sa
       <description>If this model is attached to a „Secutarii Hoplites“ unit, this model and the unit it is attached to can declare a charge after it has advanced, also add +2 to its charge roll whenever it declares a charge, and lastly, add +1 Ini to the Secutarii Hoplites Profile.
 
 
-If this model is attached to „Secutarii Peltats“ unit, this model and the unit it is attached to, score an additional hit for every unmodified hit roll of 6. </description>
+If this model is attached to „Secutarii Peltats“ unit, this model and the unit it is attached to, score an additional hit for every unmodified hit roll of 6.</description>
     </rule>
     <rule name="Machine-God Sanctioned Interrogation" id="320b-9a71-e3bf-0d04" hidden="false">
       <description>At start of every enemy player turns, pick one of the following effects which lasts until the start of your turn:
@@ -7023,7 +7024,7 @@ If this model is attached to „Secutarii Peltats“ unit, this model and the un
 
 &gt;Pick a single enemy „Hero“ unit within 15&apos;&apos; of this model, which possesses a special rule that restores lost Life Points to „Vehicle/Monster“ units (Techmarines, Enginseers, Warpsmiths, Bonesingers, Big Meks etc.), this model immediately suffers D6+2 Mortal Wounds
 
-&gt;Pick a single enemy „Vehicle/Monster“ unit within 15&apos;&apos; of this model, this enemy unit subtracts -1 from all Wound Rolls. </description>
+&gt;Pick a single enemy „Vehicle/Monster“ unit within 15&apos;&apos; of this model, this enemy unit subtracts -1 from all Wound Rolls.</description>
     </rule>
   </sharedRules>
 </catalogue>
