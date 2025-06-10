@@ -1367,5 +1367,47 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink import="true" name="Alpharius and Omegon (or Omegon and Alpharius?)" hidden="false" id="f127-33aa-c832-f29c" type="selectionEntry" targetId="5261-fff4-a9cf-de48">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="ffad-e97f-7827-e6d9" primary="true" name="HERO"/>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="181b-36bb-139c-70a2" primary="false" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3f15-877c-c441-564b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Sekhetar Robots" hidden="false" id="d005-9ecf-5446-5c7b" type="selectionEntry" targetId="765c-9f4e-af68-5f40">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="25b5-0629-2546-129c" primary="true" name="ELITE"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="cfc5-219f-9f1f-eeb0" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Sekhetar Robots" hidden="false" id="6294-bb73-0050-2687" type="selectionEntry" targetId="765c-9f4e-af68-5f40">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="ee09-fb96-a89b-5069" primary="true" name="ELITE"/>
+        <categoryLink targetId="930c-995a-98c7-80d1" id="2a3e-996d-3c70-d640" primary="false" name="Cult Allies"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="789c-6a6c-befc-0b71" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="d9ba-063d-9382-16f5" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="0832-ea3b-c1e0-cb13" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="c2ba-312b-803f-caba" shared="true" includeChildSelections="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="3f15-877c-c441-564b" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
 </catalogue>

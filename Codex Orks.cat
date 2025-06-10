@@ -5848,6 +5848,12 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="c724-27c5-9e54-35f1" primary="false" name="Vehicle"/>
+        <categoryLink targetId="c4e9-abd5-def8-c3ab" id="df3d-77b2-58f9-3137" primary="false" name="AT - Medium Armor"/>
+        <categoryLink targetId="84c8-f93b-6fe6-e29d" id="3305-57e4-6633-5a01" primary="false" name="FACTION: Orks"/>
+        <categoryLink targetId="8ecf-0604-75ed-87a3" id="2930-4dcc-05c8-ab28" primary="false" name="Megatrakk Scrapjets"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Nosedrill" hidden="false" id="bc53-ff51-4920-a883" collective="true">
       <constraints>

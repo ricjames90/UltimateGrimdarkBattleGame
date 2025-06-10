@@ -14953,8 +14953,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="parent" childId="51fd-c432-db74-281e" shared="true" includeChildForces="true" includeChildSelections="true"/>
-                <condition type="equalTo" value="0" field="selections" scope="parent" childId="1c5f-5bb0-d0c7-5b7" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="51fd-c432-db74-281e" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1c5f-5bb0-d0c7-5b7" shared="true" includeChildForces="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -15005,8 +15005,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="parent" childId="9e10-5d3a-23ae-d523" shared="true" includeChildForces="true" includeChildSelections="true"/>
-                <condition type="equalTo" value="0" field="selections" scope="parent" childId="1c5f-5bb0-d0c7-5b7" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="9e10-5d3a-23ae-d523" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1c5f-5bb0-d0c7-5b7" shared="true" includeChildForces="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -15036,8 +15036,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="equalTo" value="0" field="selections" scope="parent" childId="9e10-5d3a-23ae-d523" shared="true" includeChildForces="true" includeChildSelections="true"/>
-                <condition type="equalTo" value="0" field="selections" scope="parent" childId="1c5f-5bb0-d0c7-5b7" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="9e10-5d3a-23ae-d523" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="1c5f-5bb0-d0c7-5b7" shared="true" includeChildForces="true" includeChildSelections="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -25056,7 +25056,7 @@ Dark Fury Assault Veterans and a single Captain/Chapter Master/Raven Raven model
       <description>As long as this unit is on the battlefield, your entire army consideres unmodified successful „Feel No Pain(6+)“ rolls as two. (meaning: Just like additional Hit Rolls like exploding 6&apos;s, you generate an additional saved wound)</description>
     </rule>
     <rule name="FORTIFY AGAINST THEM ALL!" id="8f48-8d61-b657-bfd5" hidden="false">
-      <description>All friendly Imperial Fists Infantry units within 6&apos;&apos; of this model score an additional hit when rolling any unmodified hit roll of 6. This model must never roll on the table for „Vehicle and Monster degradation“. </description>
+      <description>All friendly Imperial Fists Infantry units within 6&apos;&apos; of this model score an additional hit when rolling any unmodified hit roll of 6. This model must never roll on the table for „Vehicle and Monster degradation“.</description>
     </rule>
   </sharedRules>
 </catalogue>
