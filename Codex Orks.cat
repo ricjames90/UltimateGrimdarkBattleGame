@@ -6419,7 +6419,7 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
                 <repeat value="1" repeats="1" field="selections" scope="7ab2-30f1-1555-d07d" childId="90f3-9ea8-46c5-4b93" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
-            <modifier type="increment" value="8" field="Points">
+            <modifier type="set" value="8" field="Points">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="7ab2-30f1-1555-d07d" childId="90f3-9ea8-46c5-4b93" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>

@@ -7337,9 +7337,9 @@
         <cost name="Pts" typeId="Points" value="80"/>
       </costs>
       <infoLinks>
-        <infoLink name="Intimidating Command" id="84ed-c422-6769-24aa" hidden="false" type="rule" targetId="0444-b8b0-75c8-fbbf"/>
         <infoLink name="Invulnerable Save(4+)" id="ae46-0496-0bef-0964" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
         <infoLink name="Psyker(2)" id="c147-dc76-f5a1-986b" hidden="false" type="rule" targetId="943-26d8-d8fc-7f0a"/>
+        <infoLink name="Hellmatrix" id="fc81-72b8-d359-0373" hidden="false" type="rule" targetId="2025-018e-382c-d443"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Marks Of Chaos" id="1b77-f07a-18ce-1b69" hidden="false" sortIndex="1">
@@ -7541,9 +7541,9 @@
         <cost name="Pts" typeId="Points" value="110"/>
       </costs>
       <infoLinks>
-        <infoLink name="Intimidating Command" id="e68c-7760-29fd-9667" hidden="false" type="rule" targetId="0444-b8b0-75c8-fbbf"/>
         <infoLink name="Invulnerable Save(4+)" id="bf79-f668-6e5c-bfbf" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
         <infoLink name="Psyker(3)" id="4750-e30c-5d1a-1b2c" hidden="false" type="rule" targetId="fd16-a506-34f7-c60a"/>
+        <infoLink name="Hellmatrix" id="93f5-47a6-4c44-be7e" hidden="false" type="rule" targetId="2025-018e-382c-d443"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Marks Of Chaos" id="e051-1d5a-b1ea-dc3b" hidden="false" sortIndex="1">
@@ -17677,7 +17677,7 @@ Damage suffered by this weapon will not be lost against units with more than one
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
-            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User </characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
@@ -19682,6 +19682,9 @@ This model can never be attached to any friendly unit.</description>
     </rule>
     <rule name="Sekhetar Structure" id="4ba5-dd86-764b-9adc" hidden="false">
       <description>Subtract -1 from wound rolls against models in this unit. Also, never apply penalties to hit rolls made by models in this unit.</description>
+    </rule>
+    <rule name="Hellmatrix" id="2025-018e-382c-d443" hidden="false">
+      <description>A unit he leads adds +1 on any „PR“-Roll.</description>
     </rule>
   </sharedRules>
   <rules>
