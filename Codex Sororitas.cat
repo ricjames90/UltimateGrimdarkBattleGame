@@ -3922,13 +3922,13 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae46-470a-f053-5f0c" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ded0-3d09-2d1b-d09d" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ded0-3d09-2d1b-d09d" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Open The Reliquaries" hidden="false" id="47f9-f961-5dbc-6e45">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0821-838a-7815-8464" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9c32-41d8-018d-aa32" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9c32-41d8-018d-aa32" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="Points" value="5"/>
@@ -3946,7 +3946,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
     <selectionEntry type="upgrade" import="true" name="Blessed Weaponry" hidden="false" id="3161-a481-96c7-478e">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8a5-1264-d218-75f2" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b018-1863-a9a1-6bb5" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b018-1863-a9a1-6bb5" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile name="Blessed Weaponry" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="53c2-d1f2-bf86-555e">
@@ -3963,7 +3963,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
     <selectionEntry type="upgrade" import="true" name="Blessed Armorim Cherubim" hidden="false" id="2c9c-7d4e-b476-6b49">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee1d-c097-5cfe-f219" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d4ec-9cbd-92c0-7afe" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d4ec-9cbd-92c0-7afe" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="Points" value="15"/>
@@ -3980,7 +3980,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
     <selectionEntry type="upgrade" import="true" name="Sword Of Holy Justice" hidden="false" id="6341-5396-5c0f-6a89">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95c8-0f3c-f2a9-5609" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0cf3-82fd-297d-0bb2" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0cf3-82fd-297d-0bb2" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="Points" value="15"/>
@@ -4006,7 +4006,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
     <selectionEntry type="upgrade" import="true" name="Elevated Rod Of Office" hidden="false" id="2778-c189-ba79-308a">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60a4-a202-fe4d-06b9" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c331-23bd-ae0c-0795" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c331-23bd-ae0c-0795" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="Points" value="10"/>
@@ -4035,7 +4035,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
     <selectionEntry type="upgrade" import="true" name="Wrath Of The Wounded" hidden="false" id="314d-458c-46c4-93fb">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa7b-2a1f-d122-0cea" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f5bd-bf80-9ab2-2675" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f5bd-bf80-9ab2-2675" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile name="Wrath Of The Wounded" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="98b9-032b-2467-71ad">
@@ -4060,7 +4060,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
       <comment>Relic Martyred Lady</comment>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83da-51f7-117c-0b24" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9d02-dc3b-9d0a-f568" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9d02-dc3b-9d0a-f568" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile name="The Ultimate Sacrifice" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="da46-5be1-dba0-7d74">
@@ -4076,11 +4076,15 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
           </conditions>
         </modifier>
       </modifiers>
+      <costs>
+        <cost name="Pts" typeId="Points" value="25"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sword Of Revenge" hidden="false" id="2020-4d6a-aa6f-d825">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94d3-edaf-4931-4a36" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0eaa-4008-2ce7-7104" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0eaa-4008-2ce7-7104" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <comment>Relic Bloody Rose</comment>
       <profiles>
@@ -4112,7 +4116,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
       <comment>Relic Bloody Rose</comment>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd70-46e9-9a8c-2207" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6ef7-6b14-db68-2267" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6ef7-6b14-db68-2267" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="Points" value="5"/>
@@ -4139,7 +4143,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
       <comment>Relic Bloody Rose</comment>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e5a-abcf-644c-6953" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b0d6-3963-be95-0178" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b0d6-3963-be95-0178" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile name="Slaying The Unbelievers" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="d35b-2c7e-6f73-0102">
@@ -4163,7 +4167,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
       <comment>Relic Valorous Heart</comment>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="750b-5bba-94c2-f303" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9b23-1439-24b9-54eb" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9b23-1439-24b9-54eb" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="Points" value="10"/>
@@ -4191,7 +4195,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
     <selectionEntry type="upgrade" import="true" name="Armor Of The Divine Lord" hidden="false" id="de2b-82a9-5f52-a624">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="549e-9434-5c7c-bc93" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="66b2-8bf9-c1a5-573e" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="66b2-8bf9-c1a5-573e" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="Points" value="10"/>
@@ -4218,7 +4222,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
     <selectionEntry type="upgrade" import="true" name="Enhanced Hospitaller Tools" hidden="false" id="2336-18e1-54d6-8f69">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d14-e608-0bdf-65fd" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cf79-b1ba-b8b5-1445" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cf79-b1ba-b8b5-1445" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="Points" value="25"/>
@@ -4245,7 +4249,7 @@ Second Paragraph: Change „a single friendly model“ to „D3 friendly models�
       <comment>Relic Argent Shroud</comment>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb91-3f47-1128-3853" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d944-d102-fa27-8fca" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d944-d102-fa27-8fca" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="Points" value="10"/>
@@ -4277,7 +4281,7 @@ Second Paragraph: Change „a single friendly model“ to „D3 friendly models�
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ae6-4575-bc5b-45ad" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="470e-006f-ad6c-44cb" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="470e-006f-ad6c-44cb" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile name="Halo Of The Night" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="2299-f122-d35d-dbf3">
@@ -4302,7 +4306,7 @@ Second Paragraph: Change „a single friendly model“ to „D3 friendly models�
       <comment>Relic Argent Shroud</comment>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b52f-d6df-79ec-01b1" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2aca-2103-976e-2d63" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2aca-2103-976e-2d63" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile name="Shrine Of Lupins" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="a99b-b82e-d1bd-cfc0">
@@ -4341,7 +4345,7 @@ Second Paragraph: Change „a single friendly model“ to „D3 friendly models�
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6702-9cca-f348-8e1d" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2b81-cf8a-c379-ce1f" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2b81-cf8a-c379-ce1f" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <comment>Relic Sacred Rose</comment>
       <profiles>
@@ -4366,7 +4370,7 @@ Second Paragraph: Change „a single friendly model“ to „D3 friendly models�
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ee6-d08a-d1b3-d029" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a746-f935-11ba-1c17" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a746-f935-11ba-1c17" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile name="Return Of The Superior" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="7b3f-08d0-f5e4-9e97">
@@ -4390,7 +4394,7 @@ Second Paragraph: Change „a single friendly model“ to „D3 friendly models�
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddff-d1b6-3f52-d26e" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="38ee-9f53-29c8-c5ba" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="38ee-9f53-29c8-c5ba" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile name="Chants Of The God Emperor" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="d9c0-ee87-ea6a-2d0e">

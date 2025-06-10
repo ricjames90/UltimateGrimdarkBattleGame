@@ -3653,7 +3653,7 @@
             <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
-            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(7)</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(7),ArF</characteristic>
           </characteristics>
         </profile>
       </profiles>
