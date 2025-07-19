@@ -271,9 +271,9 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Chaos Warhound Class Titan" hidden="false" id="cc2b-22d2-c7ee-8de7" type="selectionEntry" targetId="18cd-d21b-ba87-6f4d">
+    <entryLink import="true" name="Chaos Warhound Class Titan" hidden="false" id="d92e-2151-fe5b-3883" type="selectionEntry" targetId="596a-4fec-825b-5a60">
       <categoryLinks>
-        <categoryLink targetId="a770-8ecf-ed65-e419" id="e2a6-a6a7-53ea-f9c8" primary="true" name="SUPER HEAVY SUPPORT"/>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="9455-6913-7855-d5a0" primary="true" name="SUPER HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

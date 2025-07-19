@@ -1178,6 +1178,108 @@
         <categoryLink targetId="bf9c-ecb1-6aa4-5acf" id="e2c4-664b-d2ce-dfff" primary="true" name="Configuration"/>
       </categoryLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Chaos Warhound Class Titan" hidden="false" id="596a-4fec-825b-5a60">
+      <costs>
+        <cost name="Pts" typeId="Points" value="2200"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Chaos Warhound Class Titan" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="67de-f699-579f-3236">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">12</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">20</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">50</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Void Shields" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="7849-5e4f-6f16-ad12">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">-</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">-</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">-</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">-</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">-</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">18</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">30</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">-</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Warhound Class Titan" hidden="false" id="dcf4-9be6-29f7-d4e4" targetId="b4e5-91ff-9dc5-6f85" primary="false"/>
+        <categoryLink name="AT - Super Heavy Armor" hidden="false" id="4c9f-269b-30e8-dd15" targetId="12fc-d5fa-55b9-732e" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="c728-136e-b6ce-38d4" targetId="bc81-8c0c-a3e9-47a4" primary="false"/>
+        <categoryLink name="SUPER FACTION: Chaos" hidden="false" id="875b-5e54-48ed-df23" targetId="9436-b2eb-d13c-a8f5" primary="false"/>
+        <categoryLink name="FACTION: Chaos Auxiliaries" hidden="false" id="aa4e-1988-6307-38c3" targetId="4255-e47f-00cd-1a97" primary="false"/>
+        <categoryLink targetId="a018-a059-6ac6-5481" id="9f8c-cf9d-d43b-70cf" primary="false" name="Chaos Reinforcements"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Void Shields" id="96f7-c1c6-1abd-c704" hidden="false" type="rule" targetId="5c50-2cb5-980c-b067"/>
+        <infoLink name="Deadly Demise(15/D6+6)" id="e78f-f653-919a-feb1" hidden="false" type="rule" targetId="a0cf-d8c3-f60d-93f3"/>
+        <infoLink name="Invulnerable Save(5+)" id="fddb-88a7-c75a-cbcb" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Titan Reactors" id="1ace-4d68-f350-c064" hidden="false" type="rule" targetId="c528-ce2f-b8b7-73dd"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Left Arm" id="ee6f-4343-ba10-7928" hidden="false" defaultSelectionEntryId="8335-52aa-465c-0563">
+          <entryLinks>
+            <entryLink import="true" name="Vulcan Mega Bolter" hidden="false" id="8c2d-af92-82d8-d0a0" type="selectionEntry" targetId="f064-9446-e53f-4c18">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3597-5553-385f-807b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Warhound Inferno Flame Cannon" hidden="false" id="e525-692d-5f4c-f84b" type="selectionEntry" targetId="b65f-5eea-3c50-ff40">
+              <costs>
+                <cost name="Pts" typeId="Points" value="100"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d517-806b-b44e-5ceb" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c92-1498-a49c-2c77" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bce-8be5-08c7-b858" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Right Arm" id="3a0b-0e6e-7b70-c2c8" hidden="false" defaultSelectionEntryId="65c5-b808-f2cd-f05b">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e029-3cf0-527c-2ef5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc64-e002-bb09-2c06" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Plasma Blastgun" hidden="false" id="cd10-112b-2ed6-7a2e" type="selectionEntry" targetId="f4e8-e771-15f8-91e2">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="357e-8af1-ee84-b5c8" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="200"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Warhound Turbolaser Destructor" hidden="false" id="07cb-7c36-f381-e83c" type="selectionEntry" targetId="07e4-c750-4691-0e86">
+              <costs>
+                <cost name="Pts" typeId="Points" value="250"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Warhound Feet" hidden="false" id="c512-1bd8-2e94-eeea" type="selectionEntry" targetId="eaff-319a-4b98-200d" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c8b-376b-9b9e-6e9a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfe2-4921-c4f3-0d09" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Marks Of Chaos" id="499d-e7ff-024c-50a1" hidden="false">
@@ -1356,7 +1458,7 @@ Regarding your Army Organisation Plan, they take up units according to their uni
 Imperial Auxiliaries Units never profit from any Main-, oder Subfaction Rules unless otherwise mentioned.
 
 
-Chaos Auxiliaries Vehicles can never be selected as the target of „Repair“ Abilities such as the one of the „Chaos Space Marine Warpsmith“. </description>
+Chaos Auxiliaries Vehicles can never be selected as the target of „Repair“ Abilities such as the one of the „Chaos Space Marine Warpsmith“.</description>
     </rule>
   </rules>
 </catalogue>

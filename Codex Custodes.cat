@@ -44,7 +44,7 @@
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -490,7 +490,7 @@
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">3</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -551,7 +551,7 @@
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">11</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">14</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -671,7 +671,7 @@
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">12</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -1199,7 +1199,7 @@ Replace both the Melee and Ranged Profile of the Guardian Spear with the followi
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">17</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">20</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -1317,7 +1317,7 @@ Replace both the Melee and Ranged Profile of the Guardian Spear with the followi
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">3</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -1414,7 +1414,7 @@ Replace both the Melee and Ranged Profile of the Guardian Spear with the followi
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -1497,7 +1497,7 @@ Replace both the Melee and Ranged Profile of the Guardian Spear with the followi
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">3</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -1569,7 +1569,7 @@ Replace both the Melee and Ranged Profile of the Guardian Spear with the followi
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -1672,7 +1672,7 @@ Replace both the Melee and Ranged Profile of the Guardian Spear with the followi
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -1851,7 +1851,7 @@ Replace both the Melee and Ranged Profile of the Guardian Spear with the followi
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">15</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">18</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -2142,7 +2142,7 @@ Models with the keyword „Guardian Armor“ count as 2, models with the keyword
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">3</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">2+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -2227,7 +2227,7 @@ Models with the keyword „Guardian Armor“ count as 2, models with the keyword
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -2316,7 +2316,7 @@ Models with the keyword „Guardian Armor“ count as 2, models with the keyword
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">12</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -2399,7 +2399,7 @@ Models with the keyword „Guardian Armor“ count as 2, models with the keyword
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>

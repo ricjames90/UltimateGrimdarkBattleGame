@@ -935,7 +935,7 @@
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -975,7 +975,7 @@
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -994,7 +994,7 @@
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -1004,7 +1004,7 @@
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="b3ee-773d-9de7-b101" childId="6e91-1b27-a4a6-ee56" shared="true"/>
@@ -1023,7 +1023,7 @@
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="12" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="7" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -1034,7 +1034,7 @@
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -2735,7 +2735,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">2</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/4+</characteristic>
           </characteristics>
@@ -3352,7 +3352,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -4450,7 +4450,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -4485,7 +4485,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="5" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -4504,7 +4504,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -4514,7 +4514,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="8097-c279-6b42-8624" childId="6e91-1b27-a4a6-ee56" shared="true"/>
@@ -4533,7 +4533,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="12" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="7" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -4984,7 +4984,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -5024,7 +5024,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -5043,7 +5043,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -5053,7 +5053,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="e426-b347-9c91-a079" childId="6e91-1b27-a4a6-ee56" shared="true"/>
@@ -5072,7 +5072,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="12" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="7" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -5322,7 +5322,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">7</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">11</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -5967,7 +5967,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -6096,7 +6096,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">11</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">14</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">16</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -6140,7 +6140,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">10</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">12</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -6508,7 +6508,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -6739,7 +6739,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <infoLinks>
         <infoLink name="Terminator" id="c391-707a-dbb3-8b0a" hidden="false" type="profile" targetId="23c1-a75f-4a6d-37d3">
           <modifiers>
-            <modifier type="set" value="5" field="c061-dd1-7417-ca6b">
+            <modifier type="set" value="6" field="c061-dd1-7417-ca6b">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="3a10-615d-b301-38cb" childId="6e73-78d8-f7b8-9966" shared="true" includeChildSelections="true" includeChildForces="false"/>
               </conditions>
@@ -6933,7 +6933,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -7371,7 +7371,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -8519,7 +8519,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/2+</characteristic>
           </characteristics>
@@ -9717,7 +9717,7 @@ Save (6+)“ Special Rule.</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -10659,7 +10659,7 @@ Save (6+)“ Special Rule.</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/3+</characteristic>
           </characteristics>
@@ -12941,7 +12941,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -12957,7 +12957,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="7" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -12967,7 +12967,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="7" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="956c-6729-c284-ebcf" childId="93d4-890b-86ac-d4f9" shared="true"/>
@@ -12976,7 +12976,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -13049,7 +13049,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -13057,7 +13057,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="7" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -13068,7 +13068,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="6" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -13184,7 +13184,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -13205,7 +13205,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="6" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -13215,7 +13215,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="7" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -13439,7 +13439,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -13447,7 +13447,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="7" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="0004-c78c-6d2a-d3b5" childId="1d9e-a699-7888-f82c" shared="true"/>
@@ -13457,7 +13457,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="7" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="5" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -13655,7 +13655,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -13695,7 +13695,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="6" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -13714,7 +13714,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="7" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -13724,7 +13724,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="7" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="b647-a5d2-8d7b-5b94" childId="6e91-1b27-a4a6-ee56" shared="true"/>
@@ -13743,7 +13743,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="7" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -13854,7 +13854,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -13958,7 +13958,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -13998,7 +13998,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="12" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="7" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -14017,7 +14017,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="13" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -14027,7 +14027,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="7" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="13" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="4260-ce65-0642-49ca" childId="6e91-1b27-a4a6-ee56" shared="true"/>
@@ -14046,7 +14046,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="7" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="14" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="8" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -14057,7 +14057,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="12" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="7" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -14148,7 +14148,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -14156,7 +14156,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -14167,7 +14167,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -14247,7 +14247,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -14263,7 +14263,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="12" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -14273,7 +14273,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="7" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="13" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="7383-0fab-2ee3-b24c" childId="0a9f-490a-127a-22b1" shared="true"/>
@@ -14282,7 +14282,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="13" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -14355,7 +14355,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -14376,7 +14376,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -14386,7 +14386,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -14477,7 +14477,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -14485,7 +14485,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="7" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="13" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="9405-a201-a2c5-07d7" childId="a311-64d3-525b-7493" shared="true"/>
@@ -14495,7 +14495,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="8" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="5" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -14615,7 +14615,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -14650,7 +14650,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="12" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -14669,7 +14669,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="13" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -14679,7 +14679,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="13" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="349c-466b-08d3-9091" childId="6e91-1b27-a4a6-ee56" shared="true"/>
@@ -14698,7 +14698,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="14" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="8" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -15064,7 +15064,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -15104,7 +15104,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="14" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="9" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="12" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="6" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -15123,7 +15123,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="5" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="13" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
               <conditions>
@@ -15133,7 +15133,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <modifierGroup type="and">
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="10" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="13" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="daba-76fa-70da-e810" childId="6e91-1b27-a4a6-ee56" shared="true"/>
@@ -15152,7 +15152,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="6" field="8d7f-2fc2-c449-7537"/>
                 <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
-                <modifier type="set" value="11" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="14" field="c061-dd1-7417-ca6b"/>
                 <modifier type="set" value="7" field="effd-f3a8-9f2b-4b8"/>
               </modifiers>
               <conditions>
@@ -15215,7 +15215,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -15371,6 +15371,20 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       </categoryLinks>
       <profiles>
         <profile name="Deathwing Companions Squad" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="dddd-6349-a0ba-4e25"/>
+        <profile name="Deathwing Companions Squad" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="7fd2-4b50-12b4-3544">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Parry Strikes" id="ce8d-f2c6-8f41-10c8" hidden="false" type="rule" targetId="be84-cb81-c306-6d6d"/>
@@ -15482,7 +15496,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -15546,7 +15560,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">13</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -15680,7 +15694,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -16358,7 +16372,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -17847,7 +17861,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -18033,7 +18047,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -18456,7 +18470,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">7</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">15</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">20</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -18552,7 +18566,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">15</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">20</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -18963,7 +18977,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -19028,7 +19042,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -19422,7 +19436,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">2</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/3+</characteristic>
           </characteristics>
@@ -19547,7 +19561,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">2</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/3+</characteristic>
           </characteristics>
@@ -19660,7 +19674,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">2</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">5</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">5+/4+</characteristic>
           </characteristics>
@@ -19751,7 +19765,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/3+</characteristic>
           </characteristics>
@@ -19804,7 +19818,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/3+</characteristic>
           </characteristics>
@@ -19920,7 +19934,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -20057,7 +20071,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/2+</characteristic>
           </characteristics>
@@ -20836,7 +20850,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -21133,7 +21147,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/2+</characteristic>
           </characteristics>
@@ -21436,7 +21450,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -21450,7 +21464,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/2+</characteristic>
           </characteristics>
@@ -21464,7 +21478,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">2</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/4+</characteristic>
           </characteristics>
@@ -21697,7 +21711,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -21796,7 +21810,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -21858,7 +21872,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/2+</characteristic>
           </characteristics>
@@ -21934,7 +21948,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -22243,7 +22257,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">7</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">15</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">20</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -22252,7 +22266,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               <modifiers>
                 <modifier type="set" value="16" field="adff-38e4-108c-b07c"/>
                 <modifier type="set" value="12" field="8d7f-2fc2-c449-7537"/>
-                <modifier type="set" value="20" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="25" field="c061-dd1-7417-ca6b"/>
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="4d98-bdac-8fb1-56d0" shared="true" includeChildSelections="true" includeChildForces="true"/>
@@ -22345,7 +22359,7 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">10</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">15</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">20</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -22467,7 +22481,7 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">9</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">15</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">20</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -22573,7 +22587,7 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
         <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
         <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
         <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
         <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
       </characteristics>
@@ -22587,7 +22601,7 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
         <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
         <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
         <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
         <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
       </characteristics>
@@ -22646,7 +22660,7 @@ All Ultramarines Units count for twice as many of their remaining LP when scorin
         <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
         <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
         <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
         <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
       </characteristics>
@@ -22751,7 +22765,7 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
         <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
         <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
         <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">3</characteristic>
+        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
         <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
       </characteristics>
@@ -22779,7 +22793,7 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
         <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
         <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
         <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
         <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
       </characteristics>
