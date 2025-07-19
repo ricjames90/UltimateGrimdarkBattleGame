@@ -310,6 +310,11 @@
         <categoryLink targetId="79e5-570b-2bdd-d3d7" id="84ea-5024-dd4f-9486" primary="true" name="TROOPS"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Warhound Class Titan" hidden="false" id="64b0-7d87-d5ee-74cd" type="selectionEntry" targetId="de20-bdf8-3f8c-f2e3">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="b948-f078-6f8a-8fde" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Sororitas" id="d451-9f4d-ef1e-6120" targetId="dac8-b6f8-45b3-1d59"/>

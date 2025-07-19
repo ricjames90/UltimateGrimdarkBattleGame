@@ -1261,6 +1261,11 @@
         <categoryLink targetId="a770-8ecf-ed65-e419" id="bbf7-ecdc-bd5f-d7bc" primary="false" name="SUPER HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Warhound Class Titan" hidden="false" id="7236-d4e9-516e-5080" type="selectionEntry" targetId="de20-bdf8-3f8c-f2e3">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="9564-3962-9f94-8786" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Space Marines" id="1a54-9cc0-6596-93c6" targetId="b9aa-5902-f97d-9cd5"/>

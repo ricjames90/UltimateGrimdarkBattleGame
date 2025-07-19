@@ -245,6 +245,11 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Thunderhawk Gunship" hidden="false" id="d87c-004f-0821-58e9" type="selectionEntry" targetId="87fa-3582-02b0-5205"/>
+    <entryLink import="true" name="Warhound Class Titan" hidden="false" id="cafb-1075-4d41-61a8" type="selectionEntry" targetId="de20-bdf8-3f8c-f2e3">
+      <categoryLinks>
+        <categoryLink targetId="a770-8ecf-ed65-e419" id="aedc-bc23-48ac-92af" primary="true" name="SUPER HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Grey Knights" id="4d8d-453a-90b3-ca60" targetId="e3e9-88ba-a2db-1fe8"/>

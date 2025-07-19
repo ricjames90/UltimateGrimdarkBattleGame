@@ -5391,6 +5391,286 @@ Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take u
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a48a-2883-11ec-75a2"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Warhound Class Titan" hidden="false" id="de20-bdf8-3f8c-f2e3">
+      <costs>
+        <cost name="Pts" typeId="Points" value="2200"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Warhound Class Titan" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="101e-4444-bd1c-c92e">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">12</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">20</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">50</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Void Shields" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="9ce8-0b19-42d8-ca9c">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">-</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">-</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">-</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">-</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">-</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">18</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">30</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">-</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="b4e5-91ff-9dc5-6f85" id="8e64-4e01-9baf-c199" primary="false" name="Warhound Class Titan"/>
+        <categoryLink targetId="9c77-3154-dcd8-f229" id="7246-eb4f-fa57-439b" primary="false" name="Imperial Reinforcements"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="1579-7ff3-3ac8-5014" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="85f8-661c-fe79-adbd" primary="false" name="Vehicle"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="3b1e-c170-0a64-7d7a" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="cd4f-60a6-1e2e-1c88" id="e1b6-fa50-64cc-35ce" primary="false" name="FACTION: Imperial Auxiliaries"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Void Shields" id="531d-ef32-78ff-742f" hidden="false" type="rule" targetId="5c50-2cb5-980c-b067"/>
+        <infoLink name="Deadly Demise(15/D6+6)" id="6ce5-2ef4-c9f9-1ef3" hidden="false" type="rule" targetId="a0cf-d8c3-f60d-93f3"/>
+        <infoLink name="Invulnerable Save(5+)" id="5f7d-b392-4d70-9886" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Titan Reactors" id="2dbc-8de3-3630-bc49" hidden="false" type="rule" targetId="c528-ce2f-b8b7-73dd"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Left Arm" id="87f7-2e52-4bce-e909" hidden="false" defaultSelectionEntryId="8335-52aa-465c-0563">
+          <entryLinks>
+            <entryLink import="true" name="Vulcan Mega Bolter" hidden="false" id="8335-52aa-465c-0563" type="selectionEntry" targetId="f064-9446-e53f-4c18">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e57c-ecf2-de67-8eac" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Warhound Inferno Flame Cannon" hidden="false" id="7870-6316-35a9-a5cb" type="selectionEntry" targetId="b65f-5eea-3c50-ff40">
+              <costs>
+                <cost name="Pts" typeId="Points" value="100"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a367-d64c-0a91-9826" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f0b-6761-783a-69b5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="864b-a9ac-9258-44cd" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Right Arm" id="497e-5c8d-4b0b-0284" hidden="false" defaultSelectionEntryId="65c5-b808-f2cd-f05b">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3738-ee1c-94c5-99c2" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b81-5bba-4e18-0013" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Plasma Blastgun" hidden="false" id="65c5-b808-f2cd-f05b" type="selectionEntry" targetId="f4e8-e771-15f8-91e2">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bf7-20f7-3d94-7692" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="200"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Warhound Turbolaser Destructor" hidden="false" id="5ca4-1c6a-727d-b64d" type="selectionEntry" targetId="07e4-c750-4691-0e86">
+              <costs>
+                <cost name="Pts" typeId="Points" value="250"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Warhound Feet" hidden="false" id="2501-68a8-e5ab-f168" type="selectionEntry" targetId="eaff-319a-4b98-200d" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7bee-8140-742f-ea9c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1e3-613a-72ec-cd01" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warhound Feet" hidden="false" id="eaff-319a-4b98-200d">
+      <profiles>
+        <profile name="Warhound Feet" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="5982-0eae-dca5-415c">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">7</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Blastgun" hidden="false" id="f4e8-e771-15f8-91e2">
+      <profiles>
+        <profile name="Plasma Blastgun - Normal" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="0fec-2b25-fcd5-9867">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">16</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasma Blastgun - Overcharged" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="93ed-ab2c-5caf-d255">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">18</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Ex(5),Mal</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warhound Inferno Flame Cannon" hidden="false" id="b65f-5eea-3c50-ff40">
+      <profiles>
+        <profile name="Warhound Inferno Cannon - Promethium Bombs" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="8cf1-2ce3-2540-59bd">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">10</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">16</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Tb(2)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Warhound Inferno Flame Cannon - Promethium Torrent" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="4b37-09e2-4b03-2456">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">*</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">To,IgC</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warhound Turbolaser Destructor" hidden="false" id="07e4-c750-4691-0e86">
+      <profiles>
+        <profile name="Warhound Turbolaser Destructor" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="d43e-0bf4-d049-a89f">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">60</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">20</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+8</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Chaos Warhound Class Titan" hidden="false" id="18cd-d21b-ba87-6f4d">
+      <costs>
+        <cost name="Pts" typeId="Points" value="2200"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Chaos Warhound Class Titan" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="dabe-e8ca-5f74-c176">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">12</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">20</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">50</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Void Shields" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="8b40-0296-07b7-3c63">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">-</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">-</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">-</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">-</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">-</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">18</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">30</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">-</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="b4e5-91ff-9dc5-6f85" id="2223-3e2c-2bff-a3c8" primary="false" name="Warhound Class Titan"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="10dd-e587-ffe0-12db" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="e4bb-ba8f-5c0a-9c58" primary="false" name="Vehicle"/>
+        <categoryLink targetId="9436-b2eb-d13c-a8f5" id="533c-6e9b-e6a8-8892" primary="false" name="SUPER FACTION: Chaos"/>
+        <categoryLink targetId="4255-e47f-00cd-1a97" id="cd00-70ef-8423-4bcf" primary="false" name="FACTION: Chaos Auxiliaries"/>
+        <categoryLink targetId="a018-a059-6ac6-5481" id="dd7f-3b18-1d69-acdb" primary="false" name="Chaos Reinforcements"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Void Shields" id="7bc6-fdef-d4e4-e6a0" hidden="false" type="rule" targetId="5c50-2cb5-980c-b067"/>
+        <infoLink name="Deadly Demise(15/D6+6)" id="d509-5379-7257-56a8" hidden="false" type="rule" targetId="a0cf-d8c3-f60d-93f3"/>
+        <infoLink name="Invulnerable Save(5+)" id="5462-d47c-76af-91ba" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Titan Reactors" id="acda-f4c5-9ace-616d" hidden="false" type="rule" targetId="c528-ce2f-b8b7-73dd"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Left Arm" id="ee09-9bc1-a581-ecfb" hidden="false" defaultSelectionEntryId="8335-52aa-465c-0563">
+          <entryLinks>
+            <entryLink import="true" name="Vulcan Mega Bolter" hidden="false" id="cbe0-f871-2e75-b4b4" type="selectionEntry" targetId="f064-9446-e53f-4c18">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5065-49d4-74e2-ab8d" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Warhound Inferno Flame Cannon" hidden="false" id="a8cd-bf07-cc47-28eb" type="selectionEntry" targetId="b65f-5eea-3c50-ff40">
+              <costs>
+                <cost name="Pts" typeId="Points" value="100"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8734-80d3-6f14-e7f9" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ee91-c90d-20ac-827a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b981-7275-a8ac-49ce" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Right Arm" id="c018-ae91-e44a-c774" hidden="false" defaultSelectionEntryId="65c5-b808-f2cd-f05b">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e543-13d8-8a74-4af6" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="baf4-4a7f-b1c8-7fa3" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Plasma Blastgun" hidden="false" id="69f3-47f3-d22c-59e7" type="selectionEntry" targetId="f4e8-e771-15f8-91e2">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d27a-7e02-3662-e08a" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="Points" value="200"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Warhound Turbolaser Destructor" hidden="false" id="4a1a-c802-843b-b2aa" type="selectionEntry" targetId="07e4-c750-4691-0e86">
+              <costs>
+                <cost name="Pts" typeId="Points" value="250"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Warhound Feet" hidden="false" id="e040-7fd4-bcb2-f311" type="selectionEntry" targetId="eaff-319a-4b98-200d" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a5d-0eed-5851-a329" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c241-2a11-3853-6854" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Imperial Knight" id="4b9c-afe4-7b77-d66a" hidden="false"/>
@@ -5436,6 +5716,7 @@ Heavy Weapon Teams take up the space of 2 models and Ogryns and Bullgryns take u
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="673c-fb41-4d15-1753" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry name="Warhound Class Titan" id="b4e5-91ff-9dc5-6f85" hidden="false" page=""/>
   </categoryEntries>
   <sharedRules>
     <rule name="Ancient Architecture" id="201e-25d9-6c28-d532" hidden="false">
@@ -5487,6 +5768,12 @@ Add +1A to the Animus Speculums Weapons Profile everytime a „Psyker“ unit is
     </rule>
     <rule name="Legion Of The Damned" id="8c9c-a6c2-2733-c5e2" hidden="false">
       <description>Enemy units within 6&apos;&apos; of this unit subtract -2 to their Leadership Characteristic.</description>
+    </rule>
+    <rule name="Void Shields" id="5c50-2cb5-980c-b067" hidden="false">
+      <description>Use the &quot;Void Shields&quot; Profile of the specific Titan Datasheet. This profile has no model, but the Titan represents it, but it must not be removed once its destroyed. At the start of each of the controlling players turns command phases, return the &quot;Void Shields&quot; profile to full HP. If the Titan has suffered a penalty on the &quot;Monster and Vehicle Degradation Table&quot;(Excluding the result of 1) by the time you would return its lifepoints during the beginning of the command phase, only return half of it&apos;s HP(rounded up) instead. If it has suffered two penalties instead, return only a quarter of the lifepoints(rounded up) instead.</description>
+    </rule>
+    <rule name="Titan Reactors" id="c528-ce2f-b8b7-73dd" hidden="false">
+      <description>The &quot;Deadly Demise&quot; Rule is triggered on a 4+ instead.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
