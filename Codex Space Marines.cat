@@ -22874,7 +22874,7 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
       <description>Space Marine Units never suffer any penalties for Morale Break Tests, whether they originate from core rules or faction specific special rules.</description>
     </rule>
     <rule name="Armor Of Contempt" id="51ce-781d-3d90-930e" hidden="false">
-      <description>Wound Rolls of 1-2 made against Space Marine Infantry and Mounted models always fail. Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Space Marine Infantry unit.</description>
+      <description>Wound Rolls of 1-3 made against Space Marine Infantry and Mounted models always fail. Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Space Marine Infantry unit.  If the enemy attack is 14 or higher, this rule is diminished to Unmodified Wound Rolls of 1-2 always fail.</description>
     </rule>
   </rules>
   <sharedSelectionEntryGroups>

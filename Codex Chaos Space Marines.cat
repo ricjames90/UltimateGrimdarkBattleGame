@@ -2635,7 +2635,7 @@
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -19464,7 +19464,7 @@ If this units starting strength is 10, this unit gains the „Infiltrators“ Sp
       <description>A Demon Prince attached to a „Possessed“ unit can not be selected as the target of any ranged attacks (excluding the Precision Special Rule) as long as the unit consits of 3 or more models.</description>
     </rule>
     <rule name="Taste Your Own Blood" id="b13c-6185-8924-6bd6" hidden="false">
-      <description>When this unit is loses at least one model, it gains „Feel No Pain(5+)“ Special Rule. Also, everytime this unit destroyes an eigth Life Point, return one lost model to this unit. Also, even if enemy models are faster then models of this unit, they can make melee attacks before being removed from the battlefield. </description>
+      <description>When this unit is loses at least one model, it gains „Feel No Pain(5+)“ Special Rule. Also, everytime this unit destroyes an eigth Life Point, return one lost model to this unit. Also, even if enemy models are faster then models of this unit, they can make melee attacks before being removed from the battlefield.</description>
     </rule>
     <rule name="Rubricae Armatura" id="eff8-cc1a-b734-645b" hidden="false">
       <description>When Rubric Marine models are wounded by D1 attacks, improve their Armor Save characteristic to 2+/2+.</description>
@@ -19745,7 +19745,9 @@ Once per Shooting Phase and once per Fight Phase when a World Eaters Vehicle or 
 Also any doubles(i.e. Two 2s, Two 3s, Two 4s etc.) rolled during enemy Psychic Power Casting Rolls that selected any World Eaters unit as a target immediately suffer „Perils Of The Warp“.
 
 
-Also, subtract -1 from Wound Rolls made against World Eater Infantry units, when they are in engagement range with enemy units.</characteristic>
+Also, subtract -1 from Wound Rolls made against World Eater Infantry units, when they are in engagement range with enemy units.
+
+Also subtract -1 from all ranged Wound Rolls made against all World Eater units when at least one World Eater unit is within 12&apos;&apos; of the enemy unit that has declared a ranged attacks against one of your units.</characteristic>
       </characteristics>
     </profile>
     <profile name="Disgustingly Resilient" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="09cc-71b6-8303-4add">

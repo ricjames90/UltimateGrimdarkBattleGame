@@ -10,6 +10,9 @@
 
 Ministorum Units never profit from any Main Faction or Subfaction Special Rules.</description>
     </rule>
+    <rule name="Armor Of Contempt" id="b165-acaa-4406-8f9e" hidden="false">
+      <description>Wound Rolls of 1-2 made against Sororitas Infantry and Mounted models always fail. Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Sororitas Infantry unit.</description>
+    </rule>
   </rules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Sororitas Codex Rules" hidden="false" id="da34-0b27-f7ab-f309">
@@ -21,6 +24,7 @@ Ministorum Units never profit from any Main Faction or Subfaction Special Rules.
       </constraints>
       <infoLinks>
         <infoLink name="Shield Of Faith" id="397d-55f6-0761-76b5" hidden="false" type="rule" targetId="5ffb-2a23-733a-7b32"/>
+        <infoLink name="Armor Of Contempt" id="23e2-1d80-feaf-6caa" hidden="false" type="rule" targetId="b165-acaa-4406-8f9e"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="bf9c-ecb1-6aa4-5acf" id="f7ab-c982-6788-7c09" primary="true" name="Configuration"/>

@@ -14,7 +14,7 @@
 &gt;Aegis Of Rejuvenation: Return one lost model with full LP back to the unit. (Hero Units excluded). Return D3 lost models with full LP back to the unit when it is a „Vigilators“, „Witchseekers“ or „Prosecutors“ unit.</description>
     </rule>
     <rule name="Auric Armor" id="5332-f0b6-bd40-21f9" hidden="false">
-      <description>Unmodified Wound Rolls of 1-3 always fail against Adeptus Custodes Infantry and Mounted Units. If the enemy attack is 16 or higher, this rule is diminished to Unmodified Wound Rolls of 1-2 always fail.</description>
+      <description>Unmodified Wound Rolls of 1-3 always fail against Adeptus Custodes Infantry and Mounted Units. If the enemy attack is 18 or higher, this rule is diminished to Unmodified Wound Rolls of 1-2 always fail.</description>
     </rule>
   </rules>
   <sharedSelectionEntries>
