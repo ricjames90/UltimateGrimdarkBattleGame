@@ -282,5 +282,10 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4cc0-9b98-7b03-96f8" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </entryLink>
+    <entryLink import="true" name="Geomancer" hidden="false" id="8052-1861-ece9-d3f1" type="selectionEntry" targetId="fa10-3c87-84ff-7edf">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="1e49-a5b0-20de-37aa" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

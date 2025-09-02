@@ -1053,6 +1053,17 @@
                 <modifier type="set" value="3+/2+" field="84ab-8766-eed2-1ff8"/>
               </modifiers>
             </modifierGroup>
+            <modifierGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="b3ee-773d-9de7-b101" childId="5009-d1cc-6e95-5e1a" shared="true"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
+                <modifier type="set" value="7" field="8d7f-2fc2-c449-7537"/>
+                <modifier type="set" value="14" field="c061-dd1-7417-ca6b"/>
+                <modifier type="set" value="5" field="adff-38e4-108c-b07c"/>
+              </modifiers>
+            </modifierGroup>
           </modifierGroups>
         </profile>
       </profiles>
@@ -22576,6 +22587,30 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Saturnine Armor" hidden="false" id="f951-973e-6c7d-1646">
+      <infoLinks>
+        <infoLink name="Deep Strike" id="9011-8a92-ce85-e5f0" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="Impervious To Injuries(-1)" id="0403-915a-f41a-fa2a" hidden="false" type="rule" targetId="b0d5-df50-640b-c3d4"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa89-1c48-af00-f1de"/>
+      </constraints>
+      <profiles>
+        <profile name="Saturnine Armor" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="25bb-749d-1ae5-52f3">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Armor Save improves to 2+,2+ +3T, +6LP, -1M gains „Deep Strike“, &quot;Impervious To Injuries (-1) and replaces „Heavy Armor“ with „Super Heavy Armor“ keyword also replace the „Power Armor“ keyword with „Saturnine Armor“
+(Models with Saturnine Armor can not be healed or revived)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="b3ee-773d-9de7-b101" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Space Marine" hidden="false" id="ea13-acb4-5747-5a3e" typeId="a545-37bd-31e3-a90c" typeName="Unit">
@@ -23319,6 +23354,11 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
         <entryLink import="true" name="Jump Pack" hidden="false" id="a7bc-1d01-5751-8d" type="selectionEntry" targetId="d8d6-4a2d-f04d-bcb3">
           <costs>
             <cost name="Pts" typeId="Points" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Saturnine Armor" hidden="false" id="5009-d1cc-6e95-5e1a" type="selectionEntry" targetId="f951-973e-6c7d-1646">
+          <costs>
+            <cost name="Pts" typeId="Points" value="50"/>
           </costs>
         </entryLink>
       </entryLinks>

@@ -685,7 +685,7 @@
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
         <profile name="Pariah Gauss Scythe" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="6780-2f5e-01f6-5711">
@@ -854,7 +854,8 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Doomsday Ark" hidden="false" id="7b4b-e1c7-5722-d869">
       <costs>
-        <cost name="Pts" typeId="Points" value="165"/>
+        <cost name="Pts" typeId="Points" value="145"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <profiles>
         <profile name="Doomsday Ark" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="8107-16f8-05b4-90d2">
@@ -874,14 +875,15 @@
       </profiles>
       <categoryLinks>
         <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="3ed0-abf4-9d50-d2bb" primary="false" name="Vehicle"/>
-        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="3e8c-766b-c89c-0178" primary="false" name="AT - Heavy Armor"/>
         <categoryLink targetId="31ec-3b28-d612-9363" id="ef0d-bf48-b2b7-2679" primary="false" name="Fly"/>
         <categoryLink targetId="d55b-775c-99d2-b1da" id="085e-d1b1-d021-6c1c" primary="false" name="FACTION: Necrons"/>
         <categoryLink targetId="83fd-8451-8b7b-773a" id="1d87-75ab-e2bc-281e" primary="false" name="Doomsday Ark"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="f674-6be4-15e7-a110" primary="false" name="AT - Super Heavy Armor"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Doomsday Annihilation" id="708b-27c5-b83f-407c" hidden="false" type="rule" targetId="5851-6e0d-a154-ae89"/>
         <infoLink name="Deadly Demise(6/D6)" id="243b-f3e9-c066-3344" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Invulnerable Save(6+)" id="c210-dd47-a168-2e7a" hidden="false" type="rule" targetId="91e-1a17-8544-560"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Combatweapon" hidden="false" id="6a39-9049-084f-e990" type="selectionEntry" targetId="5959-bc88-23ad-8ff2"/>
@@ -1422,9 +1424,18 @@
         <categoryLink targetId="10ae-04be-f552-e084" id="a7d3-040d-ac19-bd84" primary="false" name="Annihilation Barges"/>
       </categoryLinks>
       <profiles>
-        <profile name="Annihilation Barges" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="8d30-4929-0852-ae3c">
+        <profile name="Annihilation Barges" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="8d30-4929-0852-ae3c">
           <characteristics>
-            <characteristic name="Description" typeId="beaa-b048-2feb-f8f"/>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">5+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">1</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">7</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1442,7 +1453,8 @@
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Annihilation Barge" hidden="false" id="e6bb-2f92-f572-e908">
               <costs>
-                <cost name="Pts" typeId="Points" value="90"/>
+                <cost name="Pts" typeId="Points" value="70"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b9d0-b067-e8a8-d779" includeChildSelections="false"/>
@@ -1672,6 +1684,7 @@
         <infoLink name="Absorbtion Of Iron Giants" id="da65-414d-5709-02d4" hidden="false" type="rule" targetId="ed0e-d9fd-c11e-57a1"/>
         <infoLink name="Invulnerable Save(4+)" id="dc9d-ac7a-012b-eff0" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
         <infoLink name="Deadly Demise(6/D6)" id="6533-9910-df6c-5b1c" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Disgustingly Resilient" id="d830-3692-57ac-bbbe" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Spear Of The Void Dragon" hidden="false" id="8d5b-2c7d-7f03-e0b2" type="selectionEntry" targetId="47c4-a910-39e0-ccc6" collective="true">
@@ -1697,7 +1710,7 @@
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
         <profile name="Spear Of The Void Dragon - Strike" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="d86e-5e43-fb5f-423a">
@@ -1707,7 +1720,7 @@
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+5</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2349,7 +2362,7 @@
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2959,8 +2972,8 @@
             <characteristic name="M" typeId="adff-38e4-108c-b07c">8</characteristic>
             <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
             <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
-            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
-            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
             <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
@@ -3687,6 +3700,7 @@
         <infoLink name="Bringer Of The End" id="2c6b-f3ed-d7fe-d2a6" hidden="false" type="rule" targetId="949a-01f5-3757-e794"/>
         <infoLink name="Invulnerable Save(4+)" id="275d-8df6-273d-9dfb" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
         <infoLink name="Deadly Demise(6/D6)" id="776b-e17f-7948-ef69" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Disgustingly Resilient" id="703b-eb46-e59c-d49b" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Deathbreath" hidden="false" id="f91e-e7f2-d881-deb7" type="selectionEntry" targetId="9558-9669-8f81-6cca" collective="true">
@@ -3710,7 +3724,7 @@
             <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
             <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
             <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
-            <characteristic name="S" typeId="ab5f-556e-2-f3e4">7</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">8</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">11</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
@@ -3735,6 +3749,7 @@
         <infoLink name="Invulnerable Save(4+)" id="5144-8fe5-e4de-056f" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
         <infoLink name="Deadly Demise(6/D6)" id="5598-2625-9e52-7b63" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Black Hole Incarnate" id="ad0c-e184-e106-a9e4" hidden="false" type="rule" targetId="7a05-d5e2-f4ce-25e2"/>
+        <infoLink name="Disgustingly Resilient" id="4a2d-6cd1-28d6-4159" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Event Horizon Projector" hidden="false" id="58fd-d545-4b00-7b31" type="selectionEntry" targetId="0327-a3ac-9330-c4ff" collective="true">
@@ -3774,7 +3789,7 @@
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
         <profile name="Scythe Of Nightbringer - Strike" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="cb6b-e7ad-5a72-faf5">
@@ -3784,7 +3799,7 @@
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6+2</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3851,6 +3866,7 @@
         <infoLink name="Curse Of The Melting Flesh" id="2ef1-9e80-ef23-7e51" hidden="false" type="rule" targetId="666e-411a-fecc-51c0"/>
         <infoLink name="Feel No Pain(6+)" id="897f-6973-8bfe-a038" hidden="false" type="rule" targetId="8261-c96-7db2-434a"/>
         <infoLink name="Deep Strike" id="3d80-6b1e-c887-02a6" hidden="false" type="rule" targetId="25e1-c009-fa9b-5e43"/>
+        <infoLink name="Disgustingly Resilient" id="870b-fd69-446e-f6b3" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Llandugor&apos;s Claws" hidden="false" id="624b-3bb1-363e-4c7c" type="selectionEntry" targetId="9905-ac53-186e-a97c" collective="true">
@@ -3907,6 +3923,7 @@
         <infoLink name="Invulnerable Save(4+)" id="00bd-c119-5815-2bcb" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
         <infoLink name="Deadly Demise(6/D6)" id="acb7-500d-470d-d22d" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Golden Veil" id="3e4d-acf1-f611-9618" hidden="false" type="rule" targetId="4a79-36a6-00fb-13af"/>
+        <infoLink name="Disgustingly Resilient" id="4715-fc0e-5b89-400a" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Golden Fists" hidden="false" id="4049-155c-f0d2-9461" type="selectionEntry" targetId="c5da-396d-5d40-aac5" collective="true">
@@ -3988,8 +4005,8 @@
             <characteristic name="M" typeId="adff-38e4-108c-b07c">9</characteristic>
             <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
             <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
-            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
-            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">7</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
             <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
@@ -5230,6 +5247,73 @@ The &quot;Deadly Demise(6/D6)&quot; and the &quot;Heavy Armor&quot; Armor type a
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Geomancer" hidden="false" id="fa10-3c87-84ff-7edf">
+      <profiles>
+        <profile name="Geomancer" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="e366-7bbc-c5f6-c2d4">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">5</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="1bb8-6d50-ab36-0eb6" primary="false" name="Infantry"/>
+        <categoryLink targetId="c4e9-abd5-def8-c3ab" id="2f21-5335-2fcb-46fd" primary="false" name="AT - Medium Armor"/>
+        <categoryLink targetId="d55b-775c-99d2-b1da" id="a38d-7217-dbbe-0c91" primary="false" name="FACTION: Necrons"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="014b-3698-e2d3-7256" primary="false" name="Character"/>
+        <categoryLink targetId="3f19-209b-20d6-caac" id="b3e9-793d-fea5-1cda" primary="false" name="Geomancer"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="65"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(5+)" id="fd31-e520-2a01-ad64" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Geomancing Sabotage Tools" id="2471-cf2e-f9f0-3880" hidden="false" type="rule" targetId="3473-7936-1351-089e"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Staff Of Light" hidden="false" id="95ad-896e-4dab-f793" type="selectionEntry" targetId="e069-9caf-7d14-a1ed" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="279a-fe47-d7d5-eeff" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7bcf-3dbb-722a-d418" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Necron Relics" hidden="false" id="3024-3273-6e02-f24d" type="selectionEntryGroup" targetId="0a47-c0ed-fbe6-c713" sortIndex="1"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Geomechanik Enhancement" hidden="false" id="b460-06d1-224c-e4a2">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b8a-5231-db1c-0591" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="258f-d8aa-406f-c46c" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Geomechanik Enhancement" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="e749-ce54-58ca-df43">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Extend the Range of the &quot;Geomancing Sabotage Tools&quot; Rule by 6&apos;&apos;.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <comment>Necron Relic</comment>
+      <costs>
+        <cost name="Pts" typeId="Points" value="15"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="fa10-3c87-84ff-7edf" childId="any" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Warriors" id="09bd-7f4b-8df9-976e" hidden="false"/>
@@ -5283,10 +5367,13 @@ The &quot;Deadly Demise(6/D6)&quot; and the &quot;Heavy Armor&quot; Armor type a
     <categoryEntry name="Skorpekh" id="c811-2707-fbaa-7a5b" hidden="false"/>
     <categoryEntry name="The Omniarch" id="f267-0b9c-fdd4-70dc" hidden="false"/>
     <categoryEntry name="The Non-Verbal Monarch" id="4917-566c-7ac1-6cd0" hidden="false"/>
+    <categoryEntry name="Geomancer" id="3f19-209b-20d6-caac" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Neverending March" id="e15e-b4e6-355d-f296" hidden="false">
-      <description>Necron Warriors reroll failed „I&apos;ll Be Back“-Tests of 1.</description>
+      <description>Necron Warriors reroll failed „I&apos;ll Be Back“-Tests of 1.
+At the start of every enemy Shooting-, and Fight Phase, return 1 lost model back on a roll of 3+ for every 5 models starting strength.
+</description>
     </rule>
     <rule name="Immortal Cadence" id="0bf3-5520-a17c-19b8" hidden="false">
       <description>Any unmodified Hit Rolls of 6 score another Attack. Attacks generated by this rule, do not generate any further attacks.</description>
@@ -5403,7 +5490,7 @@ C&apos;Tan units can be attached to this unit. When a C&apos;Tan Unit is attache
       <description>The unit(and every Hero unit that are already attached to said unit) this model may be attached to, and this model itself add +1M to their movement characteristic. Also roll 2D6 for Advance Rolls and pick the higher one.</description>
     </rule>
     <rule name="Reanimation Enhancement Tools" id="0e96-da0c-b7c9-8e4f" hidden="false">
-      <description>At start of each of your Command Phases, return one lost model with full HP to the unit this model is attached to (Hero Units excluded). If it is a „Necron Warriro“-Unit, Return D3+1 models instead.</description>
+      <description>At start of each of your Command Phases, return one lost model with full HP to the unit this model is attached to (Hero Units excluded). If it is a „Necron Warrior“-Unit, Return D6+2 models instead, if it is an &quot;Immortal&quot; or &quot;Pariah&quot;, return D3+1 models instead.</description>
     </rule>
     <rule name="Proto Plasmic Coil" id="9d8b-a0f5-5e7a-aa7c" hidden="false">
       <description>At start of each of your Command Phases, roll a single D6 for every enemy unit within 9&apos;&apos; of this model. For every 4+ the specific unit suffers D3 Mortal Wounds. For every 6 the unit suffers D3+1 Mortal Wounds instead.</description>
@@ -5432,24 +5519,27 @@ All Auras have a range of 12&apos;&apos;.
     <rule name="Divine Necrodermis Regeneration" id="4671-aafc-f62d-3017" hidden="false">
       <description>Instead of rolling a single D6 when determining the number of regained LP for the „I&apos;ll Be Back“ Main Faction Rule, roll 3D6 instead and pick the the two highest.</description>
     </rule>
+    <rule name="Geomancing Sabotage Tools" id="3473-7936-1351-089e" hidden="false">
+      <description>If an enemy vehicle unit within 18&apos; rolls for the &quot;Vehicle and Monster Degradation&quot; Table, the opponent rolls one additional dice, and you can pick the result.</description>
+    </rule>
   </sharedRules>
   <rules>
     <rule name="I&apos;LL BE BACK" id="a793-85bb-7a05-b39b" hidden="false">
       <description>At the start of every of your Command Phase, you roll a D6 for every lost Necron Infantry model in your army, unless the unit is fully destroyed(Hero Units are considered separate units even when attached to a unit). For every 5+ the model returns with full LP. 
 
 
-Mounted, Vehicle, Monster and Hero units instead roll a D6 and regain the number of lost wounds instead. If a unit consists of more than one model and the number of LP would exceed any models maximum LP statistic and this unit already lost models, you can return a model with LP remaining according to the exceeded number of regained LP.
+Mounted, Vehicle, Monster and Hero units instead roll a D6+2 and regain the number of lost wounds instead. If a unit consists of more than one model and the number of LP would exceed any models maximum LP statistic and this unit already lost models, you can return a model with LP remaining according to the exceeded number of regained LP.
 
 
 Necron units that are not considered to be „At Half Strength“ or worse, gain the „Iron Will“ Special Rule.</description>
     </rule>
     <rule name="Diminished By Gauss" id="2a3c-3e59-9ad0-571f" hidden="false">
       <description>Any weapons with „Gauss“ in their name profit from this rule.
-Gauss weapons with a Strength Profile of up to 5 can wound enemy Monster and Vehicle units with up to T12 with unmodified Wound Rolls of 6.
+Gauss weapons with a Strength Profile of up to 5 can wound enemy Monster and Vehicle units with up to T16 with unmodified Wound Rolls of 6.
 
-Gauss weapons with a Strength Profile 6 or 7 can wound enemy Monster and Vehicle units with up to T16 with unmodified Wound Rolls of 6.
+Gauss weapons with a Strength Profile 6 or 7 can wound enemy Monster and Vehicle units with up to T18 with unmodified Wound Rolls of 6.
 
-Gauss weapons with a Strength Profile 8 or above can wound enemy Monster and Vehicle units with any Toughness with unmodified Wound Rolls of 6 (if the required wound roll is not already better).
+Gauss weapons with a Strength Profile 8 or above can wound enemy Monster and Vehicle units with any Toughness with unmodified Wound Rolls of 5+ (if the required wound roll is not already better).
 
 
 „Infantry“ models wound, when applying the „Diminished By Gauss“ always wound on 6s against any Toughness Characteristic, and on 5+ within their specific strength bracket. (For example Warriors with Gauss Flayers against a T10 Dreadnought would wound on a 5+ instead, or Immortals with Gauss Blasters would wound a T12 Predator on a 5+ instead.)</description>
@@ -5463,7 +5553,7 @@ Gauss weapons with a Strength Profile 8 or above can wound enemy Monster and Veh
     </profile>
     <profile name="Rage Of Osiris" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="8976-d0c7-3cb9-4be1">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Add+ 1 to any Charge Rolls made by Novokh Units. In a turn a Novokh unit successfully charged or was charged, improve their Initiative Characteristic by +1, and also add +1A to all their Melee Weapon Profiles.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Add+ 2 to any Charge Rolls made by Novokh Units. Add permanently +1 to Wound when making attacks with melee weapons. In a turn a Novokh unit successfully charged or was charged, improve their Initiative Characteristic by +1, and also add +1A to all their Melee Weapon Profiles.</characteristic>
       </characteristics>
     </profile>
     <profile name="Cadence Of Menhit" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="a50f-e9d3-c2b8-ba8e">
@@ -5473,7 +5563,7 @@ Gauss weapons with a Strength Profile 8 or above can wound enemy Monster and Veh
     </profile>
     <profile name="Wrath Of Anhur" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="28ae-e1c6-17c4-25b4">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Add +1M to the Movement Characteristic and +2 to the Initiative Characteristic of Sautekh Infantry Units. Unmodified Melee Hit Rolls Of 6 score an additional Hit.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Add +1M to the Movement Characteristic and +2 to the Initiative Characteristic of Sautekh Infantry Units. Unmodified Melee Hit Rolls Of 6 score two additional Hits. &quot;Pariah&quot; gain the &quot;Deep Strike&quot; Ability.</characteristic>
       </characteristics>
     </profile>
     <profile name="Wit Of Thoth" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="622f-3212-edd2-e4e5">
@@ -5548,6 +5638,7 @@ Gauss weapons with a Strength Profile 8 or above can wound enemy Monster and Veh
         <entryLink import="true" name="Plasmamechanik Enhancement" hidden="false" id="b202-56e9-a2b3-1ae9" type="selectionEntry" targetId="67c7-5278-0ff3-2663"/>
         <entryLink import="true" name="Psychomechanik Enhancement" hidden="false" id="f52c-8714-c024-ad3e" type="selectionEntry" targetId="429b-07b1-7a73-c663"/>
         <entryLink import="true" name="Technomechanik Enhancement" hidden="false" id="5b8b-49ab-cb65-3ff3" type="selectionEntry" targetId="f99c-9f27-adbc-2a29"/>
+        <entryLink import="true" name="Geomechanik Enhancement" hidden="false" id="cda3-502c-38e5-e600" type="selectionEntry" targetId="b460-06d1-224c-e4a2"/>
       </entryLinks>
       <modifiers>
         <modifier type="increment" value="2" field="fc13-2312-9165-3da5">
