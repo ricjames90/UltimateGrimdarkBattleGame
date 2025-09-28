@@ -548,10 +548,10 @@ that wound is ignored and is not lost. If a model has more than one Feel No Pai
 that wound is ignored and is not lost. If a model has more than one Feel No Pain ability, you can only use one of those abilities each time that model suffers damage and so would lose a wound.</description>
     </rule>
     <rule name="Impervious To Injuries(-2)" id="8327-7c7f-6f02-dcae" hidden="false">
-      <description>A model/unit that lists „Impervious To Injuries (x)“ reduces any incoming damage per attack by the number given in parentheses. This rule can reduce any incoming damage to 0.</description>
+      <description>A model/unit that lists „Impervious To Injuries (x)“ reduces any incoming damage per attack by the number given in parentheses. This rule can reduce any incoming damage to 0. (Impervious To Injuries can never exceed more than -2 damage reduction generally.)</description>
     </rule>
     <rule name="Impervious To Injuries(-1)" id="b0d5-df50-640b-c3d4" hidden="false">
-      <description>A model/unit that lists „Impervious To Injuries (x)“ reduces any incoming damage per attack by the number given in parentheses. This rule can reduce any incoming damage to 0.</description>
+      <description>A model/unit that lists „Impervious To Injuries (x)“ reduces any incoming damage per attack by the number given in parentheses. This rule can reduce any incoming damage to 0. (Impervious To Injuries can never exceed more than -2 damage reduction generally.)</description>
     </rule>
     <rule name="Psyker(4)" id="ca44-4e4c-1308-47b2" hidden="false">
       <description>A unit with the Special Rule „Psyker (x)“ is considered a „Psyker“ for any defensive ruling, i.e. for example the unit will be susceptible to rules like „Bane of the Witch“ and other special rules that mention „Psyker“-Units. 

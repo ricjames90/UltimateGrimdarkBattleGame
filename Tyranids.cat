@@ -268,5 +268,10 @@
         <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="538b-cf96-db1d-a38b"/>
       </constraints>
     </entryLink>
+    <entryLink import="true" name="Carnifex Prime" hidden="false" id="6e0a-b100-8571-32f1" type="selectionEntry" targetId="4e59-b62a-2f57-acde">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="a08c-d946-5a6f-7008" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

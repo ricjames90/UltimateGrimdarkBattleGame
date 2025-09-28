@@ -58,6 +58,7 @@
     <categoryEntry name="Raveners" id="d405-6aaf-730e-28de" hidden="false"/>
     <categoryEntry name="Expiravis Parasites" id="bf98-7e79-92ca-157b" hidden="false"/>
     <categoryEntry name="Dominatrix" id="3991-89ce-c17e-8d52" hidden="false"/>
+    <categoryEntry name="Carnifex Prime" id="1fc6-7d33-ca73-52a3" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Tyranids Codex Rules" hidden="false" id="cfe3-bea3-a18d-75a6" collective="true">
@@ -1007,7 +1008,8 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Warrior" hidden="false" id="479a-2161-8457-9b28">
               <costs>
-                <cost name="Pts" typeId="Points" value="27"/>
+                <cost name="Pts" typeId="Points" value="23"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Combat Weapons" hidden="false" id="8e31-4032-8467-c592" type="selectionEntryGroup" targetId="1cdb-a226-5794-94ff"/>
@@ -1020,7 +1022,8 @@ change the damage characteristic of the attack to D6+2.</characteristic>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Warrior w/Heavy Weapon" hidden="false" id="ee91-6603-018e-190f">
               <costs>
-                <cost name="Pts" typeId="Points" value="27"/>
+                <cost name="Pts" typeId="Points" value="23"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Combat Weapons" hidden="false" id="0697-238e-d44b-dd8d" type="selectionEntryGroup" targetId="1cdb-a226-5794-94ff"/>
@@ -4099,7 +4102,8 @@ change the damage characteristic of the attack to D6+2.</characteristic>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Hive Tyrant" hidden="false" id="bc98-48e8-2fca-4334">
       <costs>
-        <cost name="Pts" typeId="Points" value="170"/>
+        <cost name="Pts" typeId="Points" value="160"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <profiles>
         <profile name="Hive Tyrant" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="7802-2458-62f6-269a">
@@ -5426,7 +5430,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Hiveguardian" hidden="false" id="23d4-12dd-7ed6-39f8">
               <costs>
-                <cost name="Pts" typeId="Points" value="45"/>
+                <cost name="Pts" typeId="Points" value="40"/>
                 <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
@@ -5545,7 +5549,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Tyrantguardian" hidden="false" id="5f0e-ad05-3570-3570">
               <costs>
-                <cost name="Pts" typeId="Points" value="45"/>
+                <cost name="Pts" typeId="Points" value="35"/>
                 <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
@@ -5889,6 +5893,181 @@ change the damage characteristic of the attack to D6+2.</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Carnifex Prime" hidden="false" id="4e59-b62a-2f57-acde">
+      <profiles>
+        <profile name="Carnifex Prime" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="1266-7ec1-331f-9d4e">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">10</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">9</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">22</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">11</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(6/D3)" id="bdf9-5aec-f541-4f45" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
+        <infoLink name="Disgustingly Resilient" id="cf8b-a6f4-d5c4-5bba" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
+        <infoLink name="Invulnerable Save(5+)" id="cbc2-f54b-5a38-66ad" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="One-eyed Stampede" id="6f42-b436-0d6a-7eb8" hidden="false" type="rule" targetId="c46f-95c6-947a-08ea"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="42d3-64d1-b710-6f62" id="3211-192c-1a7b-b842" primary="false" name="Monster"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="d595-1d6f-4fd0-cf73" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="e926-7697-48ba-75f3" id="c528-d86b-0de5-0fcf" primary="false" name="SUPER FACTION: Tyranids"/>
+        <categoryLink targetId="4da3-c252-e57e-461f" id="ad9d-d50d-6c04-d6df" primary="false" name="FACTION: Tyranids"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="ef6c-f1bf-6bb2-46f7" primary="false" name="Character"/>
+        <categoryLink targetId="1fc6-7d33-ca73-52a3" id="2856-895b-d6a5-fd31" primary="false" name="Carnifex Prime"/>
+        <categoryLink targetId="ea9c-729e-9317-55bb" id="129f-0511-5127-19e0" primary="false" name="Synapse"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="220"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout Combat" id="d999-a07e-9e7f-5dc6" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c8f-2c6c-9174-9639" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f64-8422-bbac-00e6" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Carnifex Prime Scything Talons" hidden="false" id="5ffe-319f-89c9-1086" type="selectionEntry" targetId="79df-76cd-9948-2543"/>
+            <entryLink import="true" name="Carnifex Prime Wrecker Claw Pair" hidden="false" id="c2c0-f2ff-8d5d-ade9" type="selectionEntry" targetId="aca1-3507-0d49-dd10">
+              <costs>
+                <cost name="Pts" typeId="Points" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Carnifex Prime Wrecker Claw and Bio Flail" hidden="false" id="887c-44c0-2647-0ad3" type="selectionEntry" targetId="15ec-33d6-88fa-d75c">
+              <costs>
+                <cost name="Pts" typeId="Points" value="20"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Loadout Ranged" id="3ab9-c2e3-dbb8-fd33" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="94e1-99e1-dfca-c15c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e4e-7a00-4a83-13c9" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Carnifex Prime Heavy Venom Cannon" hidden="false" id="6195-5174-7e76-d844" type="selectionEntry" targetId="b829-4153-cb0d-7ab0">
+              <costs>
+                <cost name="Pts" typeId="Points" value="35"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Carnifex Prime Stranglethorn Cannon" hidden="false" id="f5e3-3d3a-c222-0855" type="selectionEntry" targetId="a4c6-2220-c24b-f1f3">
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Carnifex Prime Scything Talons" hidden="false" id="79df-76cd-9948-2543">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7af-dc91-bdd9-216e" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Thornback Scything Talons" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="e94d-84cb-2f67-8176">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">12</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+5</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">4</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Carnifex Prime Heavy Venom Cannon" hidden="false" id="b829-4153-cb0d-7ab0">
+      <profiles>
+        <profile name="Carnifex Prime Heavy Venom Cannon - Explosive" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c2a7-b971-8887-6a25">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ex(4)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Carnifex Prime Heavy Venom Cannon - Concentrated" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="fff0-e4bc-5319-7b22">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">18</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">6</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Carnifex Prime Wrecker Claw and Bio Flail" hidden="false" id="15ec-33d6-88fa-d75c">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7db7-fd21-a46e-6a40" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Wrecker Claw" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="87a5-791d-60c3-3e62">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6+2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bio Flail" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="39a8-bbbc-1515-d18d">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">10</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">4</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Carnifex Prime Wrecker Claw Pair" hidden="false" id="aca1-3507-0d49-dd10">
+      <profiles>
+        <profile name="Wrecker Claw Pair" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="0779-8e1d-009e-7ba9">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6+2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67d8-7717-0fce-6482" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Carnifex Prime Stranglethorn Cannon" hidden="false" id="a4c6-2220-c24b-f1f3">
+      <profiles>
+        <profile name="Stranglethorn Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="1dd4-6f82-a78a-88f3">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ex(6)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <rules>
     <rule name="Synaptic Link" id="b61b-68d4-d797-68ac" hidden="false">
@@ -5964,7 +6143,7 @@ Also, at the start of every of your command phases this model regains D3 lost wo
       <description>At start of every of your phases, roll a D6 for every enemy unit within 6&apos;&apos; of this model, for every 4+, this unit suffers a Mortal Wound. If this model is attached to a Venomthrope unit, The range is measured within 9&apos;&apos; around the entire unit including this model and every single Venomthrope model.</description>
     </rule>
     <rule name="Mother Of The Flood" id="8268-a76e-0a6d-8d17" hidden="false">
-      <description>Everytime after an enemy unit has resolved all its ranged or melee attacks against a Termagant unit this model is attached to, roll a D6 for every lost Termagant model. On a 6+ return the lost model to this unit. Models returned by this rule while the unit is in melee combat, can be placed in Engagement Range as long as the placing adheres to the rules of unit coherrency. Also, models returned by this rule are equipped with the base weapon that was chosen before the game in your army list for this specific unit.</description>
+      <description>Everytime after an enemy unit has resolved all its ranged or melee attacks against a Termagant unit this model is attached to, roll a D6 for every lost Termagant model. On a 5+ return the lost model to this unit. Models returned by this rule while the unit is in melee combat, can be placed in Engagement Range as long as the placing adheres to the rules of unit coherrency. Also, models returned by this rule are equipped with the base weapon that was chosen before the game in your army list for this specific unit.</description>
     </rule>
     <rule name="Invisible Assassin" id="29d8-1143-f428-dc12" hidden="false">
       <description>If this model is located wholly within any Terrain Feature, any successful ranged or melee attacks against this unit must subtract -1 from the Wound Roll. Every unmodified wound roll of 6 ignores the „Invulnerable Save“ Special Rule.</description>
@@ -6031,6 +6210,9 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
     </rule>
     <rule name="Dominatrix Compound Eyes" id="3f73-d322-8330-367c" hidden="false">
       <description>This model does not suffer any penalties to its hit roll when targeting units with the „Flying“ keyword or „Aerial“ units, also if this unit moved half or less of its maximum movement range, it is still considered having remained stationary.</description>
+    </rule>
+    <rule name="One-eyed Stampede" id="c46f-95c6-947a-08ea" hidden="false">
+      <description>This model can reroll failed hit rolls of 1. If this model is attached to a &quot;Carnifex&quot; unit, the unit, excluding this model score one additional hit on unmodified wound rolls of 6. </description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>
@@ -6272,7 +6454,9 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
   <sharedProfiles>
     <profile name="Waves Of Endless Despair" hidden="false" id="4690-97f8-dae6-4ee2" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every unit with „-gant“ and in its name scores an additional hit on an unmodified hit roll of 6. Also any „-gant“ unit is considered to be within Synapse Range if it is within 12&apos;&apos; of a Synapse Unit. When using the „Bolden The Swarm“ Psychic Power, you return an additional D3 models, when the result of the Psychic Test is 10 or higher, you return D6 additional models.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every unit with „-gant“ and in its name scores an additional hit on an unmodified hit roll of 6. Also any „-gant“ unit is considered to be within Synapse Range if it is within 12&apos;&apos; of a Synapse Unit. When using the „Bolden The Swarm“ Psychic Power, you return an additional D6+2 models, when the result of the Psychic Test is 10 or higher, you return 2D6+2 additional models.
+
+&quot;-gant&quot; Units and Tervigons also count as double their remaining wounds when holding objectives.</characteristic>
       </characteristics>
     </profile>
     <profile name="Ripping Em&apos; Apart" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="f36e-3c85-60be-9fb8">
@@ -6282,13 +6466,19 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
     </profile>
     <profile name="Swarming Insects" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="c49c-7deb-fb21-fd3d">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Friendly Hive Fleet Behemeoth „-gant“ units that have no Hero unit attached to themselves gain the „Invulnerable Save (6+) and the „Feel No Pain (6+)“ Special Rule. „Tyranid Warrior“ units improve their As Characteristic to 4+/3+.
-Monster Type Units ad +1M&apos;&apos; to their stat and also add +1 to their charge rolls.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Friendly Hive Fleet Behemoth „-gant“ units that have no Hero unit attached to themselves gain the „Invulnerable Save (6+) and the „Feel No Pain (6+)“ Special Rule. „Tyranid Warrior“ units improve their As Characteristic to 3+/3+, and ther BS/WS to 3+.
+Monster Type Units ad +1M&apos;&apos; to their stat and also add +1 to their charge rolls.
+
+Once per game, at the start of the controlling players turn, all &quot;Carnifex&quot; Units add +1 to their hit rolls.
+
+Also return D3 lost models back at the start of every command phase to every &quot;Tyranid Warrior&quot; Unit. Add +1 to the result for every 5 models in the unit. (Battle start size counts) </characteristic>
       </characteristics>
     </profile>
     <profile name="Hidden In Every Crevice" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="dc36-8192-ac0c-349e">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Hive Fleet Jormungandr Infantry unit that is further than 12&apos;&apos; away from an enemy unit that has selected an eligible unit as the target of ranged attack is considered to benefit from cover, no Special Rule can cancel this rule. Also, any Hive Fleet Jormungandr Infantry Unit that is eligible to make use of the „Go Into Hiding“ special rule, can do so in the open field and can never be uncovered. In case that infantry unit is a „-Gant“ unit with any attached units that are NOT infantry-type units, these models can be selected as the target of ranged attacks unless they themselves are wholly within the perimeters of a terrain feature according to the regular „Go Into Hiding“ special rule. They can only be selected as a target for charges during your opponents Fight Phase. Monster-Units with 20LP and below gain the „Stealth“ Special Rule. Monster units do not benefit from the „Guards Of Behemoths“ Tyranid Warrior Special Rule if you go second at the start of a game.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Hive Fleet Jormungandr Infantry unit that is further than 12&apos;&apos; away from an enemy unit that has selected an eligible unit as the target of ranged attack is considered to benefit from cover, no Special Rule can cancel this rule. Also, any Hive Fleet Jormungandr Infantry Unit that is eligible to make use of the „Go Into Hiding“ special rule, can do so in the open field and can never be uncovered. In case that infantry unit is a „-Gant“ unit with any attached units that are NOT infantry-type units, these models can be selected as the target of ranged attacks unless they themselves are wholly within the perimeters of a terrain feature according to the regular „Go Into Hiding“ special rule. They can only be selected as a target for charges during your opponents Fight Phase. Monster-Units with 20LP and below gain the „Stealth“ Special Rule. Monster units do not benefit from the „Guards Of Behemoths“ Tyranid Warrior Special Rule if you go second at the start of a game.
+
+Genestealer-, and Broodlordunits always wound on unmodified wound rolls of 4+.</characteristic>
       </characteristics>
     </profile>
     <profile name="Out Of The Dark" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="ca8b-17cb-19ce-edfe">
@@ -6298,8 +6488,9 @@ Monster Type Units ad +1M&apos;&apos; to their stat and also add +1 to their cha
     </profile>
     <profile name="Shadow In The Warp" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="e642-b5fc-d30e-8cea">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Hive Fleet Ouroboris „Neurogants“ gain the „Invulnerable Save(5+)“ Special Rule Also add +1A to the Neurogants „Claws“ profile. Hive Fleet Ouroboris „Zoanthropes“, „Neurotyrants“, „Maleceptor“ and „Neurogant units add +1 to their Psychic Power casting rolls. Neurolictors can be attached to „Neurogants“ as if they were „Hero“-Type units. Neurolictors attached to Neurogants that way can&apos;t be selected as the target of attacks at all, even if they have the „Precision“ special rule. Maleceptor units also add +1 to all Hit- and Wound Rolls made by Hit- and Wound Rolls of Psychic Powers they cast. 
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Hive Fleet Ouroboris „Neurogants“ gain the „Invulnerable Save(5+)“ Special Rule Also add +1A to the Neurogants „Claws“ profile. Hive Fleet Ouroboris „Zoanthropes“, „Neurotyrants“, „Maleceptor“ and „Neurogant units add +1 to their Psychic Power casting rolls. Neurolictors can be attached to „Neurogants“ as if they were „Hero“-Type units. Neurolictors attached to Neurogants that way can&apos;t be selected as the target of attacks at all, even if they have the „Precision“ special rule. Maleceptor units also add +1 to all Hit- and Wound Rolls made by Hit- and Wound Rolls of Psychic Powers they cast.
 
+Enemy units within 18&apos;&apos; of a friendly Neurotyrant subtract -1 from their Psychic Resilience Stat down to a minimum of 6+. (Limit -1)
 
 For every unit of at least 30 Neurogants, a single Neurolictor can be selected as a „Troop“ Type unit, but thus must be attached to a Neurogants unit.</characteristic>
       </characteristics>

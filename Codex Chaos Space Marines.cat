@@ -19695,7 +19695,7 @@ This model can never be attached to any friendly unit.</description>
 Per full 2000 Points game size (2000,4000,6000,8000etc.) you can select another unit.</description>
     </rule>
     <rule name="Warp Armor" id="aca0-3946-7681-7a4a" hidden="false">
-      <description>Wound Rolls of 1-2 always fail against Chaos Space Marine „Infantry“ and &quot;Mounted&quot; units.(only units with Heavy Armor or higher) Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Space Marine Infantry unit.</description>
+      <description>Wound Rolls of 1-3 made against Space Marine Infantry and Mounted models always fail. Also weapons with the „Explosive“ Special Rule subtract -1 Inch from their explosion radius made against any Space Marine Infantry unit. If the enemy attack is 14 or higher, this rule is diminished to Unmodified Wound Rolls of 1-2 always fail.</description>
     </rule>
   </rules>
   <sharedProfiles>
