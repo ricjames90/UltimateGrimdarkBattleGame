@@ -172,6 +172,15 @@
     <categoryEntry name="Dark Fury Assault Squad" id="d109-dab4-6a13-b7bf" hidden="false"/>
     <categoryEntry name="Medusean Immortals Squad" id="4037-7fa6-10ef-ad0b" hidden="false"/>
     <categoryEntry name="Kyzagan Assault Speeder Squadron" id="ef31-057e-ebe7-89db" hidden="false"/>
+    <categoryEntry name="Dreadnought Chassis Castaferrum" id="9e24-dec7-5246-2758" hidden="false"/>
+    <categoryEntry name="Dreadnought Chassis Contemptor" id="4a47-4568-170a-6dc2" hidden="false"/>
+    <categoryEntry name="Dreadnought Chassis Leviathan" id="40b0-9f22-fb6e-ac77" hidden="false"/>
+    <categoryEntry name="Dreadnought Chassis Redemptor" id="f91c-3962-6c12-b141" hidden="false"/>
+    <categoryEntry name="Dreadnought Chassis Saturnine" id="07bf-9296-2d3a-d11a" hidden="false"/>
+    <categoryEntry name="Dreadnought Chassis Deredeo" id="02e5-27dc-8323-29b5" hidden="false"/>
+    <categoryEntry name="Saturnine Terminator Squad" id="c3a1-7b0f-2fa4-8aea" hidden="false"/>
+    <categoryEntry name="Techmarine Firestrike Servoturret" id="c83d-7c27-d951-0b27" hidden="false"/>
+    <categoryEntry name="Techmarine Thunder Cannon" id="f2ed-270c-afd0-03e2" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Bolt Rifle" hidden="false" id="472a-704c-17ec-ad7e" collective="true">
@@ -1875,7 +1884,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">18</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">24</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -2765,7 +2774,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Scout" hidden="false" id="77ce-4069-5f66-36bb">
               <costs>
-                <cost name="Pts" typeId="Points" value="12"/>
+                <cost name="Pts" typeId="Points" value="10"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Combatweapon" hidden="false" id="5551-8dee-3b8a-9d99" type="selectionEntry" targetId="275-a5a3-6e96-ee42"/>
@@ -2799,7 +2809,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Scout Sergeant" hidden="false" id="e08e-1ad4-b8eb-27fa">
               <costs>
-                <cost name="Pts" typeId="Points" value="12"/>
+                <cost name="Pts" typeId="Points" value="10"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Combatweapon" hidden="false" id="bd87-57a-3524-2965" type="selectionEntry" targetId="275-a5a3-6e96-ee42"/>
@@ -2843,7 +2854,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Scout w/Heavy Weapon" hidden="false" id="e713-fc2d-8eb-3220">
               <costs>
-                <cost name="Pts" typeId="Points" value="12"/>
+                <cost name="Pts" typeId="Points" value="10"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Combatweapon" hidden="false" id="ef4c-b0b7-7939-f3df" type="selectionEntry" targetId="275-a5a3-6e96-ee42"/>
@@ -4739,7 +4751,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Tigurius&apos; Suppression" hidden="false" id="ee0a-22c9-c885-2e8b">
       <costs>
-        <cost name="Pts" typeId="Points" value="30"/>
+        <cost name="Pts" typeId="Points" value="35"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <comment>Ultramarines Psychic Power</comment>
       <constraints>
@@ -4748,13 +4761,13 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <profiles>
         <profile name="Tigurius&apos; Suppression" typeId="8517-662f-2fa8-20df" typeName="Psychic Power" hidden="false" id="1a56-20e7-b6b0-181d">
           <characteristics>
-            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">7+</characteristic>
+            <characteristic name="Casting Requirement" typeId="a323-7865-776-838b">8+</characteristic>
             <characteristic name="Type" typeId="6ef-c62c-afed-c479">Debuff</characteristic>
-            <characteristic name="Range" typeId="51d3-8e0a-687-f09f">18</characteristic>
+            <characteristic name="Range" typeId="51d3-8e0a-687-f09f">9</characteristic>
             <characteristic name="A" typeId="4f00-8e5f-499b-879b"/>
             <characteristic name="S" typeId="840c-e1cb-221b-d605"/>
             <characteristic name="D" typeId="8789-ec23-5ea-8f4b"/>
-            <characteristic name="Rules" typeId="b42d-8312-d021-6cc3">Pick one enemy unit within 18&apos;&apos; around the casting psyker, this unit is either not eligible to make ranged attacks or attacks in melee until the end of the opposing players following turn.</characteristic>
+            <characteristic name="Rules" typeId="b42d-8312-d021-6cc3">Pick one enemy unit within 9&apos;&apos; around the casting psyker, this unit is either not eligible to make ranged attacks or attacks in melee until the end of the opposing players following turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5728,6 +5741,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="bc54-5b9a-719e-8351" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="4c9c-68ff-5d77-6d71" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="38c1-c3bf-46ea-4126" id="25ab-421b-995d-9d06" primary="false" name="Castrafferum Dreadnought"/>
+        <categoryLink targetId="9e24-dec7-5246-2758" id="02d2-c5c3-c243-9e4b" primary="false" name="Dreadnought Chassis Castaferrum"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Dreadnought Left Arm Options" hidden="false" id="1c4a-49ab-4157-7715" type="selectionEntryGroup" targetId="285e-033a-42d4-64b2"/>
@@ -5846,6 +5860,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="ae2c-00ea-3705-f2af" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="6842-8804-12fe-a431" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="c85-be44-16c6-f328" id="126f-4f52-367f-f004" primary="false" name="Ballistus Dreadnought"/>
+        <categoryLink targetId="f91c-3962-6c12-b141" id="5cae-051c-7a43-c3e6" primary="false" name="Dreadnought Chassis Redemptor"/>
       </categoryLinks>
       <profiles>
         <profile name="Ballistus Dreadnought" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="8131-c8bf-3324-9646">
@@ -6128,6 +6143,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="fa28-a209-4a67-e026" id="6cde-865e-f50c-a4f1" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="fbea-935a-794a-29bd" id="d3e9-42bc-251a-3f93" primary="false" name="Venerable Captain Dreadnought"/>
         <categoryLink targetId="a150-8d9a-4095-e170" id="c5a1-ad1b-fa36-4797" primary="false" name="Character"/>
+        <categoryLink targetId="9e24-dec7-5246-2758" id="a55a-de28-c762-fa2a" primary="false" name="Dreadnought Chassis Castaferrum"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Dreadnought Left Arm Options" hidden="false" id="b331-4c13-662f-3c10" type="selectionEntryGroup" targetId="285e-033a-42d4-64b2"/>
@@ -6172,6 +6188,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="fa28-a209-4a67-e026" id="4a11-a611-b910-8690" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="fbea-935a-794a-29bd" id="6672-5ee6-031f-1505" primary="false" name="Venerable Captain Dreadnought"/>
         <categoryLink targetId="a150-8d9a-4095-e170" id="4fd4-36cc-029e-ac99" primary="false" name="Character"/>
+        <categoryLink targetId="9e24-dec7-5246-2758" id="baa9-a1cb-f859-ae49" primary="false" name="Dreadnought Chassis Castaferrum"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Dreadnought Right Arm Options" hidden="false" id="721f-1a5c-4237-91bf" type="selectionEntryGroup" targetId="e698-3ea1-6b6d-52b2"/>
@@ -6699,7 +6716,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="2910-d9dd-51bc-f527" includeChildSelections="false"/>
               </constraints>
               <costs>
-                <cost name="Pts" typeId="Points" value="45"/>
+                <cost name="Pts" typeId="Points" value="50"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Terminator Sergeant" hidden="false" id="28eb-2d8c-b635-3236">
@@ -6712,7 +6730,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="Points" value="45"/>
+                <cost name="Pts" typeId="Points" value="50"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef0d-c68b-b275-6cf8" includeChildSelections="false"/>
@@ -6721,7 +6740,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Terminator w/Heavy Weapon" hidden="false" id="60a9-5233-96d1-3a67">
               <costs>
-                <cost name="Pts" typeId="Points" value="45"/>
+                <cost name="Pts" typeId="Points" value="50"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Terminator Melee Weapons" hidden="false" id="6560-552b-f1b8-ff9d" type="selectionEntryGroup" targetId="e3a8-e3b5-f09a-6231"/>
@@ -6766,7 +6786,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Assault Terminator" hidden="false" id="e8e2-aee0-9770-d590">
               <costs>
-                <cost name="Pts" typeId="Points" value="45"/>
+                <cost name="Pts" typeId="Points" value="40"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Assault Terminator Weapons" hidden="false" id="ad0f-61f6-a5f4-fe08" type="selectionEntryGroup" targetId="12f9-7fbd-7186-0a17"/>
@@ -6778,7 +6799,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Assault Terminator Sergeant" hidden="false" id="ecda-3e11-b1d5-2d90">
               <costs>
-                <cost name="Pts" typeId="Points" value="45"/>
+                <cost name="Pts" typeId="Points" value="40"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Assault Terminator Weapons" hidden="false" id="4609-1f8e-48e3-bf55" type="selectionEntryGroup" targetId="12f9-7fbd-7186-0a17"/>
@@ -6898,7 +6920,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <profile name="Dual Lightning Claws" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="4a37-3626-63a2-caf6">
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
-            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">10</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
@@ -7141,6 +7163,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="e897-375e-b30b-8726" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="282e-1d5c-0661-ebf9" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="501-70aa-8f1a-282d" id="0eb0-a884-51f3-b95a" primary="false" name="Redemptor Dreadnought"/>
+        <categoryLink targetId="f91c-3962-6c12-b141" id="7ab0-f72a-e69a-348e" primary="false" name="Dreadnought Chassis Redemptor"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dreadnought Powerfist w/Onslaught Gatling Cannon" hidden="false" id="049e-283a-f018-e27d">
@@ -7303,6 +7326,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="d3cf-8e41-ee34-dcc6" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="f6a6-d370-01fb-1ce1" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="f35c-b8c5-3360-c90a" id="d5df-bf88-8a33-ca5f" primary="false" name="Brutalis Dreadnought"/>
+        <categoryLink targetId="f91c-3962-6c12-b141" id="eca9-34a3-a662-2f0a" primary="false" name="Dreadnought Chassis Redemptor"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Brutalis Powerfists w/Bolt Rifles" hidden="false" id="9812-4c8b-4901-d058">
@@ -7498,6 +7522,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="c4fe-104f-6f0a-2d45" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="da04-b36b-47e7-450d" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="2394-539b-1254-b618" id="c0b8-eac2-3119-8c8d" primary="false" name="Contemptor Dreadnought"/>
+        <categoryLink targetId="4a47-4568-170a-6dc2" id="5a5d-9ccf-5b9e-3f4f" primary="false" name="Dreadnought Chassis Contemptor"/>
       </categoryLinks>
       <profiles>
         <profile name="Contemptor Dreadnought" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="be46-6e88-b941-88aa">
@@ -7755,6 +7780,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="24e1-804d-04ad-5109" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="6010-9367-9628-fa7c" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="7a65-225f-73da-a116" id="772e-053d-e167-617b" primary="false" name="Venerable Contemptor Dreadnought"/>
+        <categoryLink targetId="4a47-4568-170a-6dc2" id="2367-30eb-c57a-dba8" primary="false" name="Dreadnought Chassis Contemptor"/>
       </categoryLinks>
       <profiles>
         <profile name="Venerable Contemptor Dreadnought" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="69fc-1be4-946f-3f4c">
@@ -7907,6 +7933,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="b7ec-39e3-7a6f-2bc0" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="0b3e-77ae-c4fc-b0b4" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="b298-c499-4e31-1df9" id="1303-b961-9198-f147" primary="false" name="Deredeo Dreadnought"/>
+        <categoryLink targetId="02e5-27dc-8323-29b5" id="ca3c-b1f2-264c-d873" primary="false" name="Dreadnought Chassis Deredeo"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Combatweapon" hidden="false" id="f70d-56be-7632-4ec8" type="selectionEntry" targetId="608d-7284-e6a7-1c4d"/>
@@ -8120,6 +8147,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="a965-369a-82ce-8c55" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="ef1f-fb2d-d977-0bf0" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="190b-c2f7-ea58-ee84" id="115f-c542-d4fc-a268" primary="false" name="Ironclad Dreadnought"/>
+        <categoryLink targetId="9e24-dec7-5246-2758" id="74a8-5e7a-aaa9-7678" primary="false" name="Dreadnought Chassis Castaferrum"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Ironclad Hurricane Bolter" hidden="false" id="4ad7-1631-dcb1-997c">
@@ -8240,6 +8268,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="a388-36e1-afe3-8dbc" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="7b3a-b346-f21d-c71a" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="9287-efd9-f90-c614" id="f363-fdd0-056e-e022" primary="false" name="Leviathan Dreadnought"/>
+        <categoryLink targetId="40b0-9f22-fb6e-ac77" id="029d-bba4-640d-8bda" primary="false" name="Dreadnought Chassis Leviathan"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Leviathan Arm Options" id="d47d-9017-f714-75ea" hidden="false">
@@ -8413,6 +8442,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="8599-9479-106b-178c" id="1dab-5b67-debb-8cdc" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="9631-b063-3915-433f" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="77a2-d276-7a64-8824" id="a5ed-e143-8bcb-8c74" primary="false" name="Invictor Dreadnought"/>
+        <categoryLink targetId="f91c-3962-6c12-b141" id="e3ce-1d37-24e0-9976" primary="false" name="Dreadnought Chassis Redemptor"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Vanguard Support" id="85b8-c38d-3d11-b883" hidden="false" type="rule" targetId="4aeb-548c-7da7-6cbe"/>
@@ -8530,7 +8560,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/2+</characteristic>
           </characteristics>
@@ -8771,7 +8801,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         </profile>
         <profile name="Drop Pod" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="f39f-343e-8db7-141b">
           <characteristics>
-            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The Model can transport up to 12 Infantry models or one model with „Dreadnought“ in its name.
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The Model can transport up to 12 Infantry models or one model with „Dreadnought Chassis Castaferrum&quot; or &quot;Dreadnought Chassis Contemptor&quot; keyword.
 Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ and „Gravis Armor“ count as 2 and models with the keyword „Centurion Armor“ count as 3 models.</characteristic>
           </characteristics>
         </profile>
@@ -9011,7 +9041,11 @@ Save (6+)“ Special Rule.</characteristic>
                 <selectionEntryGroup name="Super Rocket Launcher" id="8d1d-8dca-2b1d-c937" hidden="false">
                   <entryLinks>
                     <entryLink import="true" name="Super Frag Launcher" hidden="false" id="7e05-6205-f878-8ccd" type="selectionEntry" targetId="5a8d-9001-1db2-8a7a"/>
-                    <entryLink import="true" name="Super Krak Launcher" hidden="false" id="1b3e-6486-35bd-4b06" type="selectionEntry" targetId="cd71-b379-4b51-2abd"/>
+                    <entryLink import="true" name="Super Krak Launcher" hidden="false" id="1b3e-6486-35bd-4b06" type="selectionEntry" targetId="cd71-b379-4b51-2abd">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="5"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="75d1-6d43-3e6b-06b8" includeChildSelections="false"/>
@@ -9024,6 +9058,7 @@ Save (6+)“ Special Rule.</characteristic>
               </selectionEntryGroups>
               <costs>
                 <cost name="Pts" typeId="Points" value="40"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10670,7 +10705,7 @@ Save (6+)“ Special Rule.</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/3+</characteristic>
           </characteristics>
@@ -10684,7 +10719,8 @@ Save (6+)“ Special Rule.</characteristic>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Devastator Centurion" hidden="false" id="2135-9e2b-1ffc-9a7e">
               <costs>
-                <cost name="Pts" typeId="Points" value="65"/>
+                <cost name="Pts" typeId="Points" value="85"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Centurion Fists" hidden="false" id="b138-c092-b1e3-4463" type="selectionEntry" targetId="f5f0-e284-70cb-07ab"/>
@@ -12396,7 +12432,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         </profile>
         <profile name="Stormraven" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="8876-1e44-7a20-4e40">
           <characteristics>
-            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">This model can transport up to 12 Infantry models AND a model with „Dreadnought“ in its name. 
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">This model can transport up to 12 Infantry models AND one model with „Dreadnought Chassis Castaferrum&quot; or &quot;Dreadnought Chassis Contemptor&quot; keyword. 
 Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ and „Gravis Armor“ count as 2 and models with the keyword „Centurion Armor“ count as 3 models.</characteristic>
           </characteristics>
         </profile>
@@ -16155,6 +16191,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="a14a-aa5d-e785-7caf" id="d084-a585-adea-88bc" primary="false" name="Subfaction: Blood Angels"/>
         <categoryLink targetId="14f-8da2-7b06-ecdb" id="0272-b3b8-0a5d-811b" primary="false" name="Psyker"/>
         <categoryLink targetId="fcf1-cd1c-6976-dbfd" id="896e-8876-1546-b1f6" primary="false" name="Librarian Dreadnought"/>
+        <categoryLink targetId="9e24-dec7-5246-2758" id="b40d-c412-5ebf-365a" primary="false" name="Dreadnought Chassis Castaferrum"/>
       </categoryLinks>
       <profiles>
         <profile name="Librarian Dreadnought" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="ddae-65a6-d962-6e93">
@@ -16332,6 +16369,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="38c1-c3bf-46ea-4126" id="9121-7416-b98e-73c7" primary="false" name="Castrafferum Dreadnought"/>
         <categoryLink targetId="2512-b62f-c0f0-91a3" id="6d36-16ef-48c2-5544" primary="false" name="Death Company"/>
         <categoryLink targetId="156f-1218-875c-a89e" id="faa1-cd94-99ae-e927" primary="false" name="Death Company Dreadnought"/>
+        <categoryLink targetId="9e24-dec7-5246-2758" id="826f-c706-2df1-966a" primary="false" name="Dreadnought Chassis Castaferrum"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Magna Grapple" hidden="false" id="e300-9d54-c43b-143c">
@@ -17396,7 +17434,7 @@ Models with the keyword „Power Armor“ count as 1.</characteristic>
         </profile>
         <profile name="Drop Pod" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="e23c-51c0-b27e-e799">
           <characteristics>
-            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The Model can transport up to 12 Infantry models or one model with „Dreadnought“ in its name.
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">The Model can transport up to 12 Infantry models or one model with „Dreadnought Chassis Castaferrum&quot; or &quot;Dreadnought Chassis Contemptor&quot; keyword.
 Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ or „Possessed Armor“ count as 2 and models with the keyword „Obliterator Armor“ count as 3 models.</characteristic>
           </characteristics>
         </profile>
@@ -18232,7 +18270,7 @@ Replace both the ranged and melee weapons profiles for the Vigil Spear with the 
         </profile>
         <profile name="Deathwatch Corvus Blackstar" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="c591-a981-a08b-656b">
           <characteristics>
-            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">This model can transport up to 12 Infantry models AND a model with „Dreadnought“ in its name. 
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">This model can transport up to 12 Infantry models AND a model one model with „Dreadnought Chassis Castaferrum&quot; or &quot;Dreadnought Chassis Contemptor&quot; keyword. 
 Models with the keyword „Power Armor“ count as 1, models with the keywords „Terminator Armor“ and „Gravis Armor“ count as 2 and models with the keyword „Centurion Armor“ count as 3 models.</characteristic>
           </characteristics>
         </profile>
@@ -20788,6 +20826,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="fa28-a209-4a67-e026" id="2f7c-8264-7e12-bbda" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="ba6a-6f6b-304a-edb5" id="a8e4-a4d1-1ec6-8c30" primary="false" name="Subfaction: Space Wolves"/>
         <categoryLink targetId="8a23-15ce-e934-57dc" id="ed6e-f162-d5e3-f3d4" primary="false" name="Wulfen Dreadnought"/>
+        <categoryLink targetId="9e24-dec7-5246-2758" id="e70f-8819-b02e-691e" primary="false" name="Dreadnought Chassis Castaferrum"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Great Wolf Claw" hidden="false" id="138f-be4c-df62-67c4">
@@ -21819,7 +21858,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
             <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
-            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
             <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
@@ -22611,6 +22650,258 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power Spear" hidden="false" id="d9fd-5cae-f364-0c5e">
+      <comment>4 Attacks</comment>
+      <profiles>
+        <profile name="Power Spear" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="6fc1-d8b6-9f67-d6e5">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power Spear" hidden="false" id="0528-30a0-3eea-c8a6">
+      <comment>6 Attacks</comment>
+      <profiles>
+        <profile name="Power Spear" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="6ea5-fde1-9c67-b5cc">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power Spear" hidden="false" id="071a-f9f9-9b43-8528">
+      <comment>8 Attacks</comment>
+      <profiles>
+        <profile name="Power Spear" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="4a7c-e91b-bcd0-c63e">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Techmarine Firestrike Servoturrets" hidden="false" id="46e4-f72b-7cae-7ffe">
+      <profiles>
+        <profile name="Techmarine Firestrike Servoturrets" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="a0e0-0cb5-2397-ca0e">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">4</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Techmarine Firestrike Servoturrets" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="c484-7b85-1a03-0711">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">This unit can not embark any vehicle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="fdf8-cb11-0e51-56a9" primary="false" name="Infantry"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="eed3-9941-cded-1c72" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="8599-9479-106b-178c" id="7c34-b7bc-2217-0a7a" primary="false" name="FACTION: Space Marines"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="1980-5833-6a36-c31d" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="c83d-7c27-d951-0b27" id="1920-3c4a-0b83-8de9" primary="false" name="Techmarine Firestrike Servoturret"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Techmarine Firestrike Servoturrets" id="e447-f914-96a8-105b" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4a64-6496-ed89-57da" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a221-6c71-8faf-9eb3" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Techmarine Firestrike Servoturret" hidden="false" id="ddf9-e002-a3df-04cb">
+              <costs>
+                <cost name="Pts" typeId="Points" value="65"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f086-79d1-19d1-d04e" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="134d-f371-ab3a-d4ca" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="e9f5-9eb2-a84d-aabb" type="selectionEntry" targetId="e521-70d7-6582-9f57"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Primary Weapon" id="0756-5edf-9f8a-7262" hidden="false" defaultSelectionEntryId="cbd8-8dac-a21c-4901">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c372-90da-7e20-5bb9" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0ed-c8f9-01ed-a6e9" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Firestrike Accelerator Autocannon" hidden="false" id="cbd8-8dac-a21c-4901" type="selectionEntry" targetId="1506-6d7a-f981-fd55">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f17-2622-3f4d-3cf7" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Firestrike Las Talon" hidden="false" id="b86b-31b2-e5d0-27c5" type="selectionEntry" targetId="1c09-353d-0d49-3509">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc71-8855-a955-4724" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Techmarine Cadence" id="56ad-9d68-0579-6492" hidden="false" type="rule" targetId="073d-7a58-6861-1ac7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Techmarine Thunder Cannon" hidden="false" id="0462-9f77-0107-6d60">
+      <profiles>
+        <profile name="Techmarine Thunder Cannon" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="e204-f821-274a-04e5">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">8</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Techmarine Thunder Cannon" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="6f58-667e-7311-5fbb">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">This unit can not embark any vehicle.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="002c-95bc-a510-420c" primary="false" name="Infantry"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="12b6-a444-8d91-1008" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="8599-9479-106b-178c" id="dfe9-3cbe-dda0-f1bd" primary="false" name="FACTION: Space Marines"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="8768-47e2-8ed2-e642" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="f2ed-270c-afd0-03e2" id="09f2-fe4f-eb4e-be07" primary="false" name="Techmarine Thunder Cannon"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Techmarine Thunder Cannons" id="09f4-fb6c-2ee1-c648" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2841-1296-2545-e2c0" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c268-f090-8244-c501" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Techmarine Thunder Cannon" hidden="false" id="6914-d3d5-ed13-3264">
+              <costs>
+                <cost name="Pts" typeId="Points" value="80"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Servo Harness" hidden="false" id="83db-a49a-c5b2-dd6f" type="selectionEntry" targetId="370f-99d9-7b29-2cb3">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a81-8046-0bb9-b8aa" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Thunder Cannon" hidden="false" id="d43e-bd0d-d7d7-0560" type="selectionEntry" targetId="068b-6a5a-fc53-3198">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2335-c13f-1f9c-e418" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fdc-cbe6-95d5-5eb3" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eef7-cc1c-f111-e104" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0a41-5e57-0555-bbf7" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Techmarine Precision" id="32a0-3eb3-a4b6-0279" hidden="false" type="rule" targetId="8b83-5bce-a2f7-a901"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thunderfire Cannon" hidden="false" id="068b-6a5a-fc53-3198">
+      <profiles>
+        <profile name="Thunderfire Cannon - Tremor Shell" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="3e19-37b5-ef7b-c596">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">6</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He, Tre, Ex(5), ArF</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thunderfire Cannon - Airburst Shell" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="5fe5-ae16-5f0d-1849">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">30</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He, IgC, Tb(1), ArF, Ar</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Thunderfire Cannon - Reaper Shell" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="2937-4650-97b6-ba99">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He, ArF</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Firestrike Accelerator Autocannon" hidden="false" id="1506-6d7a-f981-fd55">
+      <profiles>
+        <profile name="Firestrike Accelerator Autocannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="3e36-4070-4416-041f">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">48</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">8</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">MA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He, Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Firestrike Las Talon" hidden="false" id="1c09-353d-0d49-3509">
+      <profiles>
+        <profile name="Firestrike Las Talon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="e6af-9c32-af70-1773">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">36</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Space Marine" hidden="false" id="ea13-acb4-5747-5a3e" typeId="a545-37bd-31e3-a90c" typeName="Unit">
@@ -22645,17 +22936,16 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">All „Dark Angels“ Units gain the „Iron Will“- Universal Special Rule. Weapons with „Plasma“ ignore the „Malfunction“ Special Rule. Also, all units score an additional hit on unmodified Hit Rolls of 6.
 
-Death Wing Upgrade: (20P Dreadnoughts/ 30P Land Raider/Spartan) Any Dreadnought(any unit with „Dreadnought“ in its datasheet name) and any Land Raider and Spartan Tank can be upgraded to a Death Wing Version. The BS and WS stat of Dreadnoughts gets improved to „2+“, and for Land Raiders and Spartans only their BS stat is improved to „2+“, both Dreadnoughts and Land Raider/Sparts gain the „Impervious To Injuries (-1)“ Special Rule. This DOES stack with similar or same rules that exist on any of the eligible units. Units upgraded with the „Deathwing Upgrade“ gain the „Deathwing“ Keyword.</characteristic>
+Death Wing Upgrade: (20P Dreadnoughts/ 30P Land Raider/Spartan) Any Dreadnought(any unit with „Dreadnought“ in its datasheet name) and any Land Raider and Spartan Tank can be upgraded to a Death Wing Version. The BS and WS stat of Dreadnoughts gets improved to „2+“, and for Land Raiders and Spartans only their BS stat is improved to „2+“, both Dreadnoughts and Land Raider/Spartans gain the „Impervious To Injuries (-1)“ Special Rule. This DOES stack with similar or same rules that exist on any of the eligible units. Units upgraded with the „Deathwing Upgrade“ gain the „Deathwing“ Keyword.</characteristic>
       </characteristics>
     </profile>
     <profile name="Lords Of Macragge" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="e5ce-c3c5-d210-741f">
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">Once per game, at the beginning of the controlling players turn, all „Ultramarines“ units add either +1 to all their hit rolls, and once per game they add +1 to all their wound rolls until the end of the turn. The effects can only be activated one at a time. Meaning, you have 2 turns with a different bonus.
 
-
 Also, Ultramarines can always fall back out of melee and shoot in the same turn, with the exception of weapons with the „Heavy“, „Artillery Fire“ and/or „Explosive“ rule. This does not apply to weapons with „Bolt“ in their name, they can make ranged attack regardless of having the „Heavy“ Special Rule.
 
-All Ultramarines Units count for twice as many of their remaining LP when scoring objectives, and every successfully scored objective gains them two additional Victory Points.</characteristic>
+All Ultramarines Infantry Units count for twice as many of their remaining LP when scoring objectives, and every successfully scored objective gains them one additional Victory Point.</characteristic>
       </characteristics>
     </profile>
     <profile name="Rhino Transport Chassis" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="95df-f417-8c89-1e2f">
@@ -22721,19 +23011,16 @@ All Ultramarines Units count for twice as many of their remaining LP when scorin
     </profile>
     <profile name="The Flesh Is Weak" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="633d-cbf0-4044-2c1f">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every „Iron Hands“ „Vehicle“ unit gains at the start of every controlling players Command Phases back up to one lost Life Point. Also, every „Iron Hands“ „Infantry“ and „Mounted“-Unit gains „Feel No Pain 6+“</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every „Iron Hands“ „Vehicle“ unit gains at the start of every controlling players Command Phases back up to two lost Life Points. Also, every „Iron Hands“ „Infantry“ and „Mounted“-Unit gains „Feel No Pain 6+“. All Iron Hands Vehicles gain the &quot;Disgustingly Resilient&quot; Special Rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="The Wild Ride" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="324b-4636-b4db-d724">
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">Any „White Scars“ Unit can declare a charge after it has advanced. Also, every ranged weapon except ones with either/and/or the „Artillery Fire“ and „Explosive“ Special Rule are considered to have the „Assault“ Special Rule. For Heavy Weapons, this applies only for „Mounted“ type units.
 
-
 „Trike“ and „Invader ATV“ models can make attacks their Multi Meltas, Heavy Bolters and ATV Onslaugt Gatling Cannons when in engagement range with enemy units but subtract -1 from the hit roll. 
 
-
 For every 10 „Tactical Marines“, „Intercessors“ or „Assault Intercessors“(can also be mixture like 5 Intercessors and 5 Tactical Marines) models in your Army List, you can take one „Bike Squadron“ unit into your army that is considered as a Troop Type unit and thus counts towards your 30% Troop minimum.
-
 
 Units in the „Dedicated Transport“ Category gain the „Invulnerable Save(5+)“ Special Rule. Every other unit with the „Transport“ keyword gains the „Invulnerable Save(6+)“ Special Rule.</characteristic>
       </characteristics>
@@ -22742,6 +23029,7 @@ Units in the „Dedicated Transport“ Category gain the „Invulnerable Save(5+
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">Any „Space Wolves“ Unit is considered to have the „Scouts (4)“ Special Rule.(Units that already have the „Scouts“ Special Rule add +2&apos;&apos; to it&apos;s range.) Units that made use of the „Go Into Hiding“-Movement can not make use of this rule. 
 
+Grey Hunters, Wolf Guard, Captains/Chapter Master, Dreadnoughts can make Fall Back Moves and charge in the same turn.
 
 Every Space Wolves Unit also gains +1S and +1A to all their eligible Melee Weapons during a turn they charged. Also, as long as a „Space Wolves“ Unit is in engagement range, it gains the „Iron Will“ ability.
 
@@ -22903,6 +23191,29 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
       </characteristics>
     </profile>
+    <profile name="Sign Of The Trident" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="5140-772e-b3e7-4246">
+      <characteristics>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Attacks made with &quot;Lance&quot; Weapons add +1 to their wound rolls.
+All vehicle units gain the &quot;Disgustingly Resilient&quot; Special Rule.
+Infantry units in this army can declare a charge after having advanced. 
+At the start of each game round, for every full one thousand points game size, you can declare one enemy unit as a target for this rule. If you destroy said enemy unit until the end of the game round, you gain 5 victory points, if you fail, you lose 3 victory points</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="OUR Relics!" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="5369-3cfa-aec5-d997">
+      <characteristics>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">At the start of every game round for every full 1000P game size you can deactivate the effects of one enemy relic until the end of the game round.
+If you play against an army of the Super Faction &quot;Imperium&quot; your entire army gains the &quot;Stealth&quot; Special Rule. If you play against an army of any other faction, you gain +1 to Hit Rolls.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Contempt Through Bolter Fusilades" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="4fab-a3c4-b887-6ad7">
+      <characteristics>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">All Weapons with the word &quot;Bolt-&quot; with a strength of up to 4 wound all enemy units with toughness stat of 9 on unmodified wound rolls of 3+. (Unless it would already be at 2+)
+All Weapons with the word &quot;Bolt-&quot; with a strength of up to 6 wound all enemy units with toughness stat of 13 on unmodified wound rolls of 3+. (Unless it would already be at 2+)
+All Weapons with the word &quot;Bolt-&quot; or &quot;Autocannon-&quot; with a strength of 7 and above wound all enemy units with toughness stat of 18 on unmodified wound rolls of 3+. (Unless it would already be at 2+)
+
+Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls of 4+, unless the already wound on an easier roll, then they use the 3+ or 2+ roll of course.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <rules>
     <rule name="Indomitable Willpower" id="776e-c32b-649d-2069" hidden="false">
@@ -23001,6 +23312,30 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
           </constraints>
           <infoLinks>
             <infoLink name="Fortify Against Siege" id="49b9-137e-5ca3-6f95" hidden="false" type="profile" targetId="6f84-4b75-5837-382d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Crimson Fists" hidden="false" id="d675-f4a5-33c9-fe9c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bab9-9487-5d8d-9a7c" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Contempt Through Bolter Fusilades" id="7682-836e-bb23-9788" hidden="false" type="profile" targetId="4fab-a3c4-b887-6ad7"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Emperor&apos;s Spears" hidden="false" id="9750-34df-ac89-0dc6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ee8-b6f6-8dcd-20ad" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Sign Of The Trident" id="8f01-54e0-b7d8-38c9" hidden="false" type="profile" targetId="5140-772e-b3e7-4246"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Blood Ravens" hidden="false" id="70cc-1796-ecb5-45aa">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8255-4a83-2d30-5e37" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="OUR Relics!" id="e1bd-2279-ec0a-7d45" hidden="false" type="profile" targetId="5369-3cfa-aec5-d997"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -24078,7 +24413,7 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
         <entryLink import="true" name="Dual Lightning Claws" hidden="false" id="99be-87d9-7154-67d2" type="selectionEntry" targetId="6d8c-1039-281f-e46c"/>
         <entryLink import="true" name="Thunder Hammer And Storm Shield" hidden="false" id="a2b3-a6d3-d52e-10ef" type="selectionEntry" targetId="6e73-78d8-f7b8-9966">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="15"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -24844,7 +25179,8 @@ Also, this unit can disembark from a „Rhino“ model, in a turn that „Rhino�
     </rule>
     <rule name="Focused Bolter Drill" id="827c-c1eb-7516-e224" hidden="false">
       <description>Once per Game,in a single phase, an Intercessor unit can chose to
-&gt;add +2 Attacks to the weapons profile of their Bolt Rifles AFTER it has been determined whether the unit gets the „Heavy“ Special Rule Bonus for determining how many Attacks each weapon has or not.</description>
+&gt;add +2 Attacks to the weapons profile of their Bolt Rifles AFTER it has been determined whether the unit gets the „Heavy“ Special Rule Bonus for determining how many Attacks each weapon has or not.
+Unmodified Hit Rolls of 5+ with Bolt Rifles automatically wound the target.</description>
     </rule>
     <rule name="Shock Assault" id="e97e-94e4-9ba5-9eea" hidden="false">
       <description>Once per Game,in a single phase, an Assault Intercessor unit can chose to
@@ -24927,7 +25263,9 @@ A Space Marine Chaplain can speak up to two(2) Litanies per turn, Masters of San
       <description>Melee Attacks against Monster and Vehicles add +1D to the damage characteristic of the attack.</description>
     </rule>
     <rule name="Shock Reserves" id="2260-8dae-3a62-dc59" hidden="false">
-      <description>This model and the unit it transports have to be placed into „Strategic Reserves“. This unit does never count towards the points limit of the Reinforcements rule. Once this unit is set up according to the regular Deep Strike Special rule, all models have to disembark immediately according to the regular disembarkment rules. No models can embark back into this unit once it has disembarked its original carried unit(s). 
+      <description>This model and the unit(s) it transports are allowed to use the rules of &quot;Deep Strike&quot; during turn 1.
+
+This model and the unit it transports have to be placed into „Strategic Reserves“. This unit does never count towards the points limit of the Reinforcements rule. Once this unit is set up according to the regular Deep Strike Special rule, all models have to disembark immediately according to the regular disembarkment rules. No models can embark back into this unit once it has disembarked its original carried unit(s). 
 Units that disembarked from this unit are eligible to declare a charge in the same turn.</description>
     </rule>
     <rule name="Desolative Destruction" id="c354-1803-44a8-f580" hidden="false">
@@ -25111,6 +25449,12 @@ Dark Fury Assault Veterans and a single Captain/Chapter Master/Raven Raven model
     </rule>
     <rule name="FORTIFY AGAINST THEM ALL!" id="8f48-8d61-b657-bfd5" hidden="false">
       <description>All friendly Imperial Fists Infantry units within 6&apos;&apos; of this model score an additional hit when rolling any unmodified hit roll of 6. This model must never roll on the table for „Vehicle and Monster degradation“.</description>
+    </rule>
+    <rule name="Techmarine Precision" id="8b83-5bce-a2f7-a901" hidden="false">
+      <description>This unit does not suffer the penalty to the hit rolls of attacks made with the &quot;Thunder Cannon&quot; weapon, when making use of it&apos;s &quot;ArF&quot; rule.</description>
+    </rule>
+    <rule name="Techmarine Cadence" id="073d-7a58-6861-1ac7" hidden="false">
+      <description>Every unmodified Hit Roll of 6 with any of this units Ranged Weapons, scores one additional Hit. </description>
     </rule>
   </sharedRules>
 </catalogue>

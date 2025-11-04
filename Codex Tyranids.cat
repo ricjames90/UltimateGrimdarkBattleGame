@@ -2004,7 +2004,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="Points" value="60"/>
+                <cost name="Pts" typeId="Points" value="85"/>
                 <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
@@ -6004,7 +6004,7 @@ change the damage characteristic of the attack to D6+2.</characteristic>
             <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">18</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
-            <characteristic name="D" typeId="1805-642f-c70c-51b6">6</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+1</characteristic>
             <characteristic name="Rules" typeId="95e4-c145-7574-7e22">-</characteristic>
           </characteristics>
         </profile>
@@ -6212,7 +6212,7 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
       <description>This model does not suffer any penalties to its hit roll when targeting units with the „Flying“ keyword or „Aerial“ units, also if this unit moved half or less of its maximum movement range, it is still considered having remained stationary.</description>
     </rule>
     <rule name="One-eyed Stampede" id="c46f-95c6-947a-08ea" hidden="false">
-      <description>This model can reroll failed hit rolls of 1. If this model is attached to a &quot;Carnifex&quot; unit, the unit, excluding this model score one additional hit on unmodified wound rolls of 6. </description>
+      <description>This model can reroll failed hit rolls of 1. If this model is attached to a &quot;Carnifex&quot; unit, the unit, excluding this model score one additional hit on unmodified wound rolls of 6.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>
@@ -6469,9 +6469,7 @@ When this unit enters the battlefield by using its „Deep Strike“ Special Rul
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">Friendly Hive Fleet Behemoth „-gant“ units that have no Hero unit attached to themselves gain the „Invulnerable Save (6+) and the „Feel No Pain (6+)“ Special Rule. „Tyranid Warrior“ units improve their As Characteristic to 3+/3+, and ther BS/WS to 3+.
 Monster Type Units ad +1M&apos;&apos; to their stat and also add +1 to their charge rolls.
 
-Once per game, at the start of the controlling players turn, all &quot;Carnifex&quot; Units add +1 to their hit rolls.
-
-Also return D3 lost models back at the start of every command phase to every &quot;Tyranid Warrior&quot; Unit. Add +1 to the result for every 5 models in the unit. (Battle start size counts) </characteristic>
+Once per game, at the start of the controlling players turn, all &quot;Carnifex&quot; Units add +1 to their hit rolls.</characteristic>
       </characteristics>
     </profile>
     <profile name="Hidden In Every Crevice" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="dc36-8192-ac0c-349e">

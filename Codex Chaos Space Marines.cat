@@ -19754,7 +19754,6 @@ Also subtract -1 from all ranged Wound Rolls made against all World Eater units 
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Death Guard Unit gains the „Feel No Pain (5+)“ and the „Iron Will“ Special Rule. Death Guard Units also never suffer any damage cause by the „Deadly Demise“ rule. 
 
-
 For every „Lord Of Contagion“ or „Lord Of Virulence“ in your army, you can add up to 3 of the following units (Foul Blightspawn, Plague Surgeon, Malignant Plaguecaster, Noxious Blightbringer, Tallyman and Biologus Putrifier) to your army list, but they only count as 1 Hero slot towards your Army Organisation Plan Limit.</characteristic>
       </characteristics>
     </profile>

@@ -68,5 +68,40 @@
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Grand Strategies And Victory Points" hidden="false" id="9c57-1f72-bcda-5f48" type="selectionEntry" targetId="16e1-cf23-f7fa-490e"/>
+    <entryLink import="true" name="Arcanyst Evaluator" hidden="false" id="11c1-309b-0afc-019a" type="selectionEntry" targetId="aac6-4a21-fc3a-cdf7">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="4332-b031-2eec-b57f" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Menyr Strategist" hidden="false" id="c027-9785-7064-beff" type="selectionEntry" targetId="9145-934d-30c4-53e0">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="5160-82a9-30df-2510" primary="true" name="HERO"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cthonian Earthshakers" hidden="false" id="7da0-99ae-4718-b43d" type="selectionEntry" targetId="a2d1-ff84-d494-785d">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="4b36-0fdd-92f9-a82a" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ironkin Steeljacks  Assault Squad" hidden="false" id="3f9a-5318-4a22-e632" type="selectionEntry" targetId="079d-82f0-e535-f57e">
+      <categoryLinks>
+        <categoryLink targetId="cd71-bdd8-97de-6dd5" id="a498-dcea-303d-61b0" primary="true" name="FAST ATTACK"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ironkin Steeljacks Disintegration Squad" hidden="false" id="93ce-05a8-a1cc-c083" type="selectionEntry" targetId="2188-a557-c3e3-0c84">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="60f9-a395-54d9-b83b" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kapricus Defenders" hidden="false" id="6661-5446-7eef-a06b" type="selectionEntry" targetId="d75a-7efb-f0cc-42b6">
+      <categoryLinks>
+        <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="1043-52d3-ee3f-0373" primary="true" name="HEAVY SUPPORT"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kapricus Carrier" hidden="false" id="7859-c2ae-c86c-4de8" type="selectionEntry" targetId="a5fc-57d0-87d8-d9e1">
+      <categoryLinks>
+        <categoryLink targetId="ad71-d71a-8d04-2e3d" id="d385-51ff-7f11-8651" primary="true" name="DEDICATED TRANSPORT"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

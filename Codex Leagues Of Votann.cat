@@ -2,7 +2,10 @@
 <catalogue library="true" id="6c56-7d9d-d6c8-38b8" name="Codex Leagues Of Votann" gameSystemId="sys-8519-5fb-4c0c-2271" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <rules>
     <rule name="Token Of Judgement" id="ad4d-e7c8-7466-91df" hidden="false">
-      <description>At the start of each Game Round, you can place a single Token Of Judgement On a single enemy unit. (Hero, Vehicles and Monster units count as one unit per model, so a Token Of Judgement placed on an attached unit only applies to either the Hero Unit(s) or the Bodyguard unit) And never more than one Token Of Judgement per unit. Only units that are visible to any friendly Leagues Of Votann unit can be selected as the target of a Token Of Judgement.
+      <description>At the start of each Game Round, you can place a single Token Of Judgement On a single enemy unit. (Hero, Vehicles and Monster units count as one unit per model, so a Token Of Judgement placed on an attached unit only applies to either the Hero Unit(s) or the Bodyguard unit) And never more than two Token Of Judgement per unit. Only units that are visible to any friendly Leagues Of Votann unit can be selected as the target of a Token Of Judgement.
+
+
+Also, every time a friendly Leagues Of Votann unit is destroyed by the result of enemy attacks, you are allowed to place a Token Of Judgement on the specific enemy unit that triggered this rule by destroying a friendly unit.
 
 
 Per full 2000 Points game size (2000,4000,6000,8000etc.) you can select another unit. 
@@ -11,10 +14,10 @@ Per full 2000 Points game size (2000,4000,6000,8000etc.) you can select another 
 After having placed any Token Of Judgement, you decide to gain one of the following effects against the unit that has been selected as the target of a Token Of Judgement. 
 
 
-Effect 1: Add +1 to the wound roll made with weapons with the „HntR“ Special Rule against this unit. Also, if the Weapons would be too weak to wound the unit general, HntR weapons always wound on an unmodified Wound Roll of 6. (for example the strength of the HntR weapon is 4 and the Toughness of the afflicted with the Token Of Judgement is 12, you would always score a Wound regardless of the toughness.)
+Effect 1: Add +1 to the hit rolls made against this enemy unit.
 
 
-Effect 2: Add +1 to the Armor Save/Invulnerable Save roll. If the target of the token-afflicted unit is a friendly Vehicle-Unit, consider the vehicle to have the „Impervious To Injuries (-1)“ Rule instead.
+Effect 2: Worsen the enemy units &quot;Feel No Pain&quot; or &quot;Impervious To Injuries&quot; rule by 1. (This can also effectively remove either rul when the Impervous To Injuries rule is reduced to 0 or the Feel No Pain to 7+.
 
 
 Effect 3: The effect of „MgNa“ Weapons Rule is triggered on an unmodified role of 5+ instead of 6+.</description>
@@ -82,7 +85,8 @@ Effect 3: The effect of „MgNa“ Weapons Rule is triggered on an unmodified ro
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Theyn" hidden="false" id="5b28-fd53-96c6-974f" sortIndex="1">
               <costs>
-                <cost name="Pts" typeId="Points" value="13"/>
+                <cost name="Pts" typeId="Points" value="11"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6886-00bb-6416-4ece" includeChildSelections="false"/>
@@ -183,7 +187,8 @@ Effect 3: The effect of „MgNa“ Weapons Rule is triggered on an unmodified ro
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Hearthkyn Warrior" hidden="false" id="6a33-5c6b-f378-e98c" sortIndex="2">
               <costs>
-                <cost name="Pts" typeId="Points" value="13"/>
+                <cost name="Pts" typeId="Points" value="11"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="5f43-3b5c-6379-f6b8" includeChildSelections="false"/>
@@ -224,7 +229,8 @@ Effect 3: The effect of „MgNa“ Weapons Rule is triggered on an unmodified ro
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Hearthkyn Warrior w/Heavy Weapon" hidden="false" id="03f6-ad14-c460-35fb" sortIndex="2">
               <costs>
-                <cost name="Pts" typeId="Points" value="13"/>
+                <cost name="Pts" typeId="Points" value="11"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5d74-b83c-bed5-e7a5" includeChildSelections="false"/>
@@ -629,7 +635,8 @@ Effect 3: The effect of „MgNa“ Weapons Rule is triggered on an unmodified ro
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Káhl" hidden="false" id="b162-f211-fef3-b9a3">
       <costs>
-        <cost name="Pts" typeId="Points" value="100"/>
+        <cost name="Pts" typeId="Points" value="90"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <profiles>
         <profile name="Káhl" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="05ac-ddd9-0665-5b8c">
@@ -812,7 +819,8 @@ Effect 3: The effect of „MgNa“ Weapons Rule is triggered on an unmodified ro
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Hekaton Land Fortress" hidden="false" id="27c6-2e89-24e9-0c02">
       <costs>
-        <cost name="Pts" typeId="Points" value="235"/>
+        <cost name="Pts" typeId="Points" value="220"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <profiles>
         <profile name="Hekaton Land Fortress" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="cddc-1622-c733-4452">
@@ -1098,8 +1106,8 @@ Einhyr Champions and Hearthguard Models count as 2 models.</characteristic>
           <characteristics>
             <characteristic name="M" typeId="adff-38e4-108c-b07c">4</characteristic>
             <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
-            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
-            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
@@ -1170,7 +1178,8 @@ Einhyr Champions and Hearthguard Models count as 2 models.</characteristic>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="Pts" typeId="Points" value="35"/>
+                <cost name="Pts" typeId="Points" value="27"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <entryLinks>
                 <entryLink import="true" name="Exo Armor Grenade Launcher" hidden="false" id="537b-adc3-60a5-23e4" type="selectionEntry" targetId="9e31-b446-1046-df9e" collective="true">
@@ -1231,7 +1240,7 @@ Einhyr Champions and Hearthguard Models count as 2 models.</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">10</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">12</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">15</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
@@ -1371,7 +1380,8 @@ The Sagitaur can not transport models with „Einhyr“ or „Hearthguard“ in 
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Einhyr Champion" hidden="false" id="4e14-d7b9-4dd0-4bf2">
       <costs>
-        <cost name="Pts" typeId="Points" value="110"/>
+        <cost name="Pts" typeId="Points" value="100"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <profiles>
         <profile name="Einhyr Champion" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="6d86-64a0-2e75-1441">
@@ -2319,7 +2329,8 @@ The Sagitaur can not transport models with „Einhyr“ or „Hearthguard“ in 
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Brokhyr Iron Master" hidden="false" id="c13c-3892-b5a9-9c06">
       <costs>
-        <cost name="Pts" typeId="Points" value="130"/>
+        <cost name="Pts" typeId="Points" value="115"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="ca74-25d8-3eb4-bf23" id="3e93-2f47-778e-700e" primary="false" name="Infantry"/>
@@ -2891,6 +2902,692 @@ The Sagitaur can not transport models with „Einhyr“ or „Hearthguard“ in 
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Arcanyst Evaluator" hidden="false" id="aac6-4a21-fc3a-cdf7">
+      <categoryLinks>
+        <categoryLink targetId="9dcf-0c77-ab8f-903f" id="0c44-9ea7-e37e-d3bc" primary="false" name="Arcanyst Evaluator"/>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="45c7-4aa5-b7d3-403a" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="a623-269a-5392-decf" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="ebd4-770d-2bee-bbbb" id="bff0-e07f-ea4a-7f55" primary="false" name="FACTION: Leagues Of Votann"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="a2a7-c76b-41ce-a8b4" primary="false" name="Character"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Arcanyst Evaluator" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="bbf3-59fb-4d17-3643">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">4</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Steady Advance" id="0f9f-9688-529c-4ec6" hidden="false" type="rule" targetId="cd22-4078-935d-c95a"/>
+        <infoLink name="Invulnerable Save(5+)" id="914c-5747-9313-b893" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Arcanyst Gunmanship" id="d63a-1d3a-6440-7fbe" hidden="false" type="rule" targetId="ea22-c463-d1ce-4515"/>
+        <infoLink name="Lone Operator" id="2eaa-d39c-729d-27e5" hidden="false" type="rule" targetId="1ac2-6570-4e5f-b1ff"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Transmatter Inverter" hidden="false" id="243e-af49-91ec-ff84" type="selectionEntry" targetId="e41f-b6b7-f51a-668e" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dbdf-7825-03d1-6596" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d248-5f25-7d2f-f15a" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="26d0-a4e8-d2e2-d11b" type="selectionEntry" targetId="48b9-5951-5773-4d5a"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="60"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Transmatter Inverter" hidden="false" id="e41f-b6b7-f51a-668e">
+      <profiles>
+        <profile name="Transmatter Inverter - Half Charge" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="b45f-0900-09d6-7db4">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,MgNa</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Transmatter Inverter - Full Charge" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="11bd-439f-dcfc-c820">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">15</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">3</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">16</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">4</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">MgNa,He,Mal</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Transmatter Inverter - Super Charge" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="15cc-b6a6-c718-1599">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">32</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">12</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Mal,MgNa</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Menyr Strategist" hidden="false" id="9145-934d-30c4-53e0">
+      <profiles>
+        <profile name="Menyr Strategist" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="42b7-b024-4bff-7cdf">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">4</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">3+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Steady Advance" id="56ac-4cf7-6f09-6807" hidden="false" type="rule" targetId="cd22-4078-935d-c95a"/>
+        <infoLink name="Invulnerable Save(5+)" id="b79e-508e-6b48-a718" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Predictive Guidance" id="88f1-72ba-861e-b0f2" hidden="false" type="rule" targetId="4eaf-a2f6-dc74-6a88"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Autoch Bolt Pistol" hidden="false" id="3dc3-12a7-c3b9-063c" type="selectionEntry" targetId="e45b-ed38-8cc6-82fb" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0db1-67d9-0cdc-75a4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abfa-d502-8297-d9dc" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="affc-356c-addb-87f5" type="selectionEntry" targetId="dc35-29a0-ddd7-be9e"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="80"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="732d-cbc3-5b45-e6af" primary="false" name="Infantry"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="8f5c-4faf-e030-862b" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="ebd4-770d-2bee-bbbb" id="5b95-7632-b3be-2907" primary="false" name="FACTION: Leagues Of Votann"/>
+        <categoryLink targetId="a150-8d9a-4095-e170" id="f1fd-afe4-aa72-23e5" primary="false" name="Character"/>
+        <categoryLink targetId="a918-c1c7-a7da-3121" id="e7d0-c340-213a-fca0" primary="false" name="Memnyr Strategist"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Cthonian Earthshakers" hidden="false" id="a2d1-ff84-d494-785d">
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="a2d8-eafb-f4b7-15f7" primary="false" name="Infantry"/>
+        <categoryLink targetId="ebd4-770d-2bee-bbbb" id="c14b-cd1c-5522-4350" primary="false" name="FACTION: Leagues Of Votann"/>
+        <categoryLink targetId="2753-6e99-ce13-20d7" id="f1f6-4c9f-c61e-71bb" primary="false" name="Cthonian Earthshakers"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="51b3-2921-a440-6dbf" primary="false" name="AT - Heavy Armor"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cthonian Earthshakers" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="2117-1bd4-d409-3c58">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">3</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">4</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">2</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">6</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">12</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Steady Advance" id="e95e-ecb5-ce03-2407" hidden="false" type="rule" targetId="cd22-4078-935d-c95a"/>
+        <infoLink name="Feel No Pain(5+)" id="35a7-1d14-1023-db69" hidden="false" type="rule" targetId="fefa-ab9a-a874-42de"/>
+        <infoLink name="Subterranean Artillery Strikeforce" id="af7e-59d1-f95c-55f4" hidden="false" type="rule" targetId="a6c7-e3e5-dec9-e5e8"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Cthonian Earthshakers" id="858b-080a-7cf8-da89" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="80d2-9707-91e5-6aea" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="2e99-0792-ffc7-2792" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Cthonian Earthshaker Battery" hidden="false" id="aaff-e0ba-bbcc-39bb">
+              <costs>
+                <cost name="Pts" typeId="Points" value="60"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="84cf-e21e-5d2f-3575" includeChildSelections="false"/>
+                <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="a747-2559-6381-5960" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Autoch Bolt Pistols" id="39f1-5c4a-f127-eec7" hidden="false" collective="true">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9260-8fc2-78e7-555d" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f740-c883-b9d4-864e" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Autoch Bolt Pistol" hidden="false" id="d232-156e-9d60-1935" type="selectionEntry" targetId="e45b-ed38-8cc6-82fb" collective="true">
+                      <constraints>
+                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="af65-dd25-cc15-ea02" includeChildSelections="false"/>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e855-4715-9701-2623" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="cc98-761d-06ac-fb08" type="selectionEntry" targetId="dc35-29a0-ddd7-be9e"/>
+                <entryLink import="true" name="Plasma Pick" hidden="false" id="416c-3ba8-0363-c703" type="selectionEntry" targetId="c901-5cf4-8fe5-3cb3" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8aa4-4efa-42be-4694" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f14-6d9f-6cef-3a8e" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Subterranean Mortar" hidden="false" id="8437-0521-9112-cc11" type="selectionEntry" targetId="6dc9-0725-bd20-b680" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d15-4f34-5c70-193b" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13d5-35d2-5546-e16d" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Pick" hidden="false" id="c901-5cf4-8fe5-3cb3">
+      <profiles>
+        <profile name="Plasma Pick" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="12cd-2580-cf84-9826">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">2</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Subterranean Mortar" hidden="false" id="6dc9-0725-bd20-b680">
+      <profiles>
+        <profile name="Subterranean Mortar - Tremor Shell" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="dfd4-4a06-e730-4293">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">30</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">1</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">5</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">He,ArF,Ex(6),Tre</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Subterranean Mortar - Breacher Ordnance Shell" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="c9e5-a4d6-24cd-ac70">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">30</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">2</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">16</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">5</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">He,ArF</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ironkin Steeljacks  Assault Squad" hidden="false" id="079d-82f0-e535-f57e">
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="9d7e-3f0d-3bd1-e65a" primary="false" name="Infantry"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="b2dc-71d7-0dbb-cd53" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="ebd4-770d-2bee-bbbb" id="1376-5958-0552-13a4" primary="false" name="FACTION: Leagues Of Votann"/>
+        <categoryLink targetId="c63f-d3ba-9053-58a1" id="b9a0-d563-6ac4-8eec" primary="false" name="Ironkin Steeljacks"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ironkin Steeljacks" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="c168-f559-9eb3-7e0b">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">6</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Ironkin Steeljacks" id="c008-9c90-4e80-4dc2" hidden="false">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="5b1c-abd4-c12e-fcb1" includeChildSelections="false"/>
+            <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="c1e7-7ed7-07da-59a5" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Steeljack Theyn" hidden="false" id="27c6-ea67-ec74-225e">
+              <costs>
+                <cost name="Pts" typeId="Points" value="27"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0a17-67ec-9998-4f31" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26ec-a18e-d4db-0ef4" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Autoch Bolt Gun" hidden="false" id="e45d-3069-ef54-96e1" type="selectionEntry" targetId="002c-06ff-4fdd-de41" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb02-08ea-9477-70cb" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95f4-63b8-362a-b59a" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Melee Weapon" id="1c33-b89b-393c-e617" hidden="false" defaultSelectionEntryId="e1f5-ea94-e7cf-cca4">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c53-64b6-e97e-85ac" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5a4-542f-d8d6-44d9" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Plasma Sword" hidden="false" id="e1f5-ea94-e7cf-cca4" type="selectionEntry" targetId="6727-07ca-121e-5113">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fd8-2bed-3349-8a8d" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Concussion Gauntlet" hidden="false" id="e60d-af35-776e-d812" type="selectionEntry" targetId="7df5-4660-817c-c8ad">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34a3-f70a-e9ed-b3f5" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="3"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Steeljacks" hidden="false" id="743f-e42b-83c9-55de">
+              <costs>
+                <cost name="Pts" typeId="Points" value="27"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="46b0-c27e-0052-fa76" includeChildSelections="false"/>
+                <constraint type="max" value="14" field="selections" scope="parent" shared="true" id="8d9b-2479-ced4-480f" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Autoch Bolt Gun" hidden="false" id="1966-d398-6253-1b63" type="selectionEntry" targetId="002c-06ff-4fdd-de41" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="315a-309a-c957-12d5" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6e7-a420-3e60-a5c5" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Melee Weapon" id="024f-44d4-96c1-e8cf" hidden="false" defaultSelectionEntryId="7c9d-2c7d-691e-ef9f">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a85-b517-53fa-62e4" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4923-e4cf-7521-4532" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Plasma Sword" hidden="false" id="7c9d-2c7d-691e-ef9f" type="selectionEntry" targetId="6727-07ca-121e-5113">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="994d-e2b4-b758-580f" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Concussion Gauntlet" hidden="false" id="4e87-272e-8f63-b9f9" type="selectionEntry" targetId="7df5-4660-817c-c8ad">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4bb-92ce-22c3-4e5b" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="3"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(5+)" id="5092-92f3-403a-3ded" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Disgustingly Resilient" id="ab53-8e79-222c-555f" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
+        <infoLink name="Accelerated Steady Advance" id="4ca7-40fd-7277-20cc" hidden="false" type="rule" targetId="f99c-96b9-e6bb-e837"/>
+        <infoLink name="Preymark Crest - Assault" id="83b1-ef49-5fc7-d2df" hidden="false" type="rule" targetId="8bb1-50b8-bf84-76b8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ironkin Steeljacks Disintegration Squad" hidden="false" id="2188-a557-c3e3-0c84">
+      <categoryLinks>
+        <categoryLink targetId="ca74-25d8-3eb4-bf23" id="fb44-f001-019b-a109" primary="false" name="Infantry"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="7f5c-807a-f417-4fbb" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="ebd4-770d-2bee-bbbb" id="4e05-88ed-3aa0-e9dc" primary="false" name="FACTION: Leagues Of Votann"/>
+        <categoryLink targetId="c63f-d3ba-9053-58a1" id="2031-aac2-3ef9-71a0" primary="false" name="Ironkin Steeljacks"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ironkin Steeljacks" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="ed0b-a364-3b91-17d0">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">3</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">5</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">5</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Ironkin Steeljacks" id="1891-2148-8c5c-927d" hidden="false">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="5229-f4e7-61e1-9e27" includeChildSelections="false"/>
+            <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="4fb6-43e4-e881-d009" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Steeljack Theyn" hidden="false" id="4149-8d6c-e866-7a51" sortIndex="1">
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be1c-df38-452c-3a17" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54bd-e181-0844-ab9e" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadouts" id="0065-f899-c19f-d103" hidden="false" defaultSelectionEntryId="2fc9-1481-9a59-5dab">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c4d8-5deb-f783-cac5" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4f4-bac9-f339-694e" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Knife and Heavy Volkanite Disintegrator" hidden="false" id="2fc9-1481-9a59-5dab">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66ab-caf9-0115-7100" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Plasma Knife" hidden="false" id="93cb-4139-ef9f-53d1" type="selectionEntry" targetId="b2fe-65b8-9638-a1fc" collective="true">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b39-2ba4-aa28-b059" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4969-07f8-7393-d4bc" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Heavy Volkanite Disintegrator" hidden="false" id="c2be-b503-b3e0-5729" type="selectionEntry" targetId="2804-6ad2-7f26-2174" collective="true">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1f2d-d282-fbb4-ac51" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef6e-1d63-7150-8f59" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="5"/>
+                        <cost name="VP" typeId="Victory Points" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Sword and Autoch Bolt Gun" hidden="false" id="adb4-6462-9a01-052c">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e39-a781-029e-078b" includeChildSelections="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="Plasma Sword" hidden="false" id="3a5a-bf97-689f-b72b" type="selectionEntry" targetId="6727-07ca-121e-5113" collective="true">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba4a-ab32-a7e2-f410" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9a4-9a61-4dfb-5420" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Autoch Bolt Gun" hidden="false" id="2bac-f5de-7bb2-f484" type="selectionEntry" targetId="002c-06ff-4fdd-de41" collective="true">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6be6-bb7b-f759-baed" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b878-4597-5bbc-54c5" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Steeljack" hidden="false" id="566e-eb83-1073-b708" sortIndex="2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="30"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1247-6b9b-f672-01b8" includeChildSelections="false"/>
+                <constraint type="max" value="14" field="selections" scope="parent" shared="true" id="56f9-79c9-d475-14f4" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Plasma Knife" hidden="false" id="52e0-7a6f-fe75-5234" type="selectionEntry" targetId="b2fe-65b8-9638-a1fc" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fb5b-a6c5-fd7e-cd85" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d153-0fca-4d10-0a36" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Heavy Volkanite Disintegrator" hidden="false" id="21d8-f15b-66ea-1832" type="selectionEntry" targetId="2804-6ad2-7f26-2174" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a35b-c89f-7b93-2e5f" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52ad-f366-8aed-ee96" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Invulnerable Save(5+)" id="31c2-ffc1-6dd6-5b69" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
+        <infoLink name="Disgustingly Resilient" id="eca4-54ec-9eb0-4938" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
+        <infoLink name="Accelerated Steady Advance" id="9efe-3aa3-0f77-3e4a" hidden="false" type="rule" targetId="f99c-96b9-e6bb-e837"/>
+        <infoLink name="Preymark Crest - Disintegrate" id="d3e0-80e6-09fe-99f3" hidden="false" type="rule" targetId="512e-a394-38b8-7c9d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Sword" hidden="false" id="6727-07ca-121e-5113">
+      <profiles>
+        <profile name="Plasma Sword" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="1101-2685-0421-c724">
+          <characteristics>
+            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Volkanite Disintegrator" hidden="false" id="2804-6ad2-7f26-2174">
+      <profiles>
+        <profile name="Heavy Volkanite Disintegrator" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="f039-096b-b66d-e6d2">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">18</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Kapricus Defenders" hidden="false" id="d75a-7efb-f0cc-42b6">
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="41ce-b0c7-f6a2-5f4d" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="6f87-7c6b-2913-6d42" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="40d9-02cb-40c8-c895" primary="false" name="Fly"/>
+        <categoryLink targetId="ebd4-770d-2bee-bbbb" id="0d7f-3862-6236-1191" primary="false" name="FACTION: Leagues Of Votann"/>
+        <categoryLink targetId="1b86-0033-eb3c-cdc8" id="f073-4966-4084-6e24" primary="false" name="Kapricus Defenders"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Kapricus Defenders" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="bb22-e8c8-c636-9120">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">14</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">13</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(6/D3)" id="b001-f327-bb50-a429" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
+        <infoLink name="Kapricus Defender Maneuvers" id="87de-fe90-3f8d-d68b" hidden="false" type="rule" targetId="6cea-0ea6-5614-b208"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Kapricus Defenders" id="e820-f534-fd3a-f355" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="feda-0199-276e-1d86" includeChildSelections="false"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="f48e-a698-86d2-0669" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Kapricus Defender" hidden="false" id="3abd-e87e-139d-97a3">
+              <costs>
+                <cost name="Pts" typeId="Points" value="70"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Twin Magna Coil Autocannon" hidden="false" id="5d88-caeb-7cb9-0b73" type="selectionEntry" targetId="f964-025b-5dc2-f491" collective="true">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="82b9-42af-6ab7-297e" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="047e-7117-f629-e81e" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Combatweapon" hidden="false" id="12ba-7324-79e8-2743" type="selectionEntry" targetId="377a-c16a-647b-0bd2"/>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Turret Weapon" id="c970-45ad-5d92-de94" hidden="false" defaultSelectionEntryId="8699-77be-dd7c-b551">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4556-97e1-2748-2f2e" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c31-dcc7-9e05-2f63" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="HY Las Rotary Cannon" hidden="false" id="8699-77be-dd7c-b551" type="selectionEntry" targetId="fec0-5d5d-1769-0242">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27a5-b1e9-e0fb-1b75" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Magna Rail Cannon" hidden="false" id="25ea-5527-cf4b-b9cf" type="selectionEntry" targetId="3a4f-9472-01f5-5e9b">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f2d-6123-99df-f9fa" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b77-a657-ec15-26fb" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1f10-ae15-335a-4420" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin Magna Coil Autocannon" hidden="false" id="f964-025b-5dc2-f491">
+      <profiles>
+        <profile name="Twin Magna Coil Autocannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="063e-87c5-133d-ea7c">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">Ar,HntR</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Magna Rail Cannon" hidden="false" id="3a4f-9472-01f5-5e9b">
+      <profiles>
+        <profile name="Magna Rail Cannon" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="4566-9c3b-28b9-408b">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">24</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">16</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">MgNa</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Kapricus Carrier" hidden="false" id="a5fc-57d0-87d8-d9e1">
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="5210-f7d0-3e02-f286" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="9fb9-cd2f-9676-03ba" primary="false" name="AT - Heavy Armor"/>
+        <categoryLink targetId="31ec-3b28-d612-9363" id="cf70-fdcb-d043-1f7b" primary="false" name="Fly"/>
+        <categoryLink targetId="ebd4-770d-2bee-bbbb" id="2cdd-1a3f-064a-4a4f" primary="false" name="FACTION: Leagues Of Votann"/>
+        <categoryLink targetId="1b86-0033-eb3c-cdc8" id="9276-4b04-f618-029f" primary="false" name="Kapricus Defenders"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Kapricus Defender" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="9527-6f1d-f69f-d557">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">14</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">4+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">4+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">13</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Kapricus Defender" typeId="d1f0-eca9-a8b1-c791" typeName="Transport" hidden="false" id="38e8-09b7-c086-fef7">
+          <characteristics>
+            <characteristic name="Capacity" typeId="6f16-a560-a8a5-cc39">Models in this unit can transport up to 5 Hearthkyn or Hernkyn Yeagirs or up to 3 Ironkin Models per model in this unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deadly Demise(6/D3)" id="619b-8735-27ba-0c28" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
+        <infoLink name="Firing Deck(5)" id="139a-35f4-da19-8ef8" hidden="false" type="rule" targetId="eb45-b6f-77d8-47af"/>
+        <infoLink name="Kapricus Carrier Maneuvers" id="5ea9-5c00-78c7-6782" hidden="false" type="rule" targetId="3a44-c3aa-ea16-0f82"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="713a-d794-3ec3-8783" type="selectionEntry" targetId="377a-c16a-647b-0bd2"/>
+        <entryLink import="true" name="Twin Magna Coil Autocannon" hidden="false" id="71f6-deb7-e093-a16a" type="selectionEntry" targetId="f964-025b-5dc2-f491" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bdbb-b455-9d27-f67e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1b0-05d5-5083-1543" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="61ef-2631-bad0-0f2f" id="1c69-47b6-2044-5d93" primary="false" name="Kapricus Carriers"/>
+            <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="4244-dafd-7b49-02b2" primary="false" name="Vehicle"/>
+            <categoryLink targetId="31ec-3b28-d612-9363" id="dee6-367b-313c-d534" primary="false" name="Fly"/>
+            <categoryLink targetId="6e12-88d0-c09c-2c72" id="d52d-542c-d4b8-e929" primary="false" name="Tansport"/>
+            <categoryLink targetId="7cbd-10fc-5d99-3f09" id="d9f3-5952-35d4-3a31" primary="false" name="AT - Heavy Armor"/>
+            <categoryLink targetId="ebd4-770d-2bee-bbbb" id="ce68-5489-033c-6344" primary="false" name="FACTION: Leagues Of Votann"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Magna Coil Autocannon" hidden="false" id="7d24-a3ac-19d5-b1cb" type="selectionEntry" targetId="ab26-5e8e-48fb-3c19" collective="true">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d295-0589-7e02-00bd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2c4-6103-9df5-ddc2" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="70"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Hearthkyn" id="438a-ac80-0e08-0edb" hidden="false"/>
@@ -2905,6 +3602,12 @@ The Sagitaur can not transport models with „Einhyr“ or „Hearthguard“ in 
     <categoryEntry name="Sagitaurs" id="df1b-97d6-4576-7e94" hidden="false"/>
     <categoryEntry name="Hearthguard" id="b84e-d3a8-cc9f-675f" hidden="false"/>
     <categoryEntry name="Cthonian Berserks" id="6899-df39-d266-cd6a" hidden="false"/>
+    <categoryEntry name="Arcanyst Evaluator" id="9dcf-0c77-ab8f-903f" hidden="false"/>
+    <categoryEntry name="Memnyr Strategist" id="a918-c1c7-a7da-3121" hidden="false"/>
+    <categoryEntry name="Cthonian Earthshakers" id="2753-6e99-ce13-20d7" hidden="false"/>
+    <categoryEntry name="Ironkin Steeljacks" id="c63f-d3ba-9053-58a1" hidden="false"/>
+    <categoryEntry name="Kapricus Defenders" id="1b86-0033-eb3c-cdc8" hidden="false"/>
+    <categoryEntry name="Kapricus Carriers" id="61ef-2631-bad0-0f2f" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Steady Advance" id="cd22-4078-935d-c95a" hidden="false">
@@ -2937,6 +3640,40 @@ Effect 3: The MgNa effect is triggered on an unmodified roll of 4+.</description
     </rule>
     <rule name="Iron Master Craftsmanship" id="9409-40f0-ad34-9fee" hidden="false">
       <description>Once per turn, at the start of your Command Phase, pick a single friendly Vehicle Unit within 6&apos;&apos; of this model it regains D6 lost Life Points. The model regains an additional LP for every remaining E-COG model in this unit.</description>
+    </rule>
+    <rule name="Arcanyst Gunmanship" id="ea22-c463-d1ce-4515" hidden="false">
+      <description>Only if this model remained stationary in the prior turn AND the prior movement phase, this model can fire the &quot;Supercharge&quot;- Profile of it&apos;s Transmatter Inverter, but when triggering the &quot;MgNa&quot; rule with this profile, it scores 6 additional Mortal Wounds instead of 3.</description>
+    </rule>
+    <rule name="Predictive Guidance" id="4eaf-a2f6-dc74-6a88" hidden="false">
+      <description>All friendly &quot;Hearthkyn Warriors&quot; units with 6&apos;&apos; of this model make ranged attacks for &quot;Overwatch&quot; at their full BS, and up to one other infantry unit adds +1 to its hit roll during Overwatch. 
+
+Also, if this model is attached to a &quot;Hearthkyn Warriors&quot; unit, that Hearthkyn Warriors scores an additional hit on unmodified hit rolls of 6.</description>
+    </rule>
+    <rule name="Subterranean Artillery Strikeforce" id="a6c7-e3e5-dec9-e5e8" hidden="false">
+      <description>Enemy models and units with the keyword &quot;Flying&quot; or the unit type &quot;Aerial&quot; can not be selected as the target of ranged attacks of the &quot;Subterranean Mortar&quot;. 
+
+When making attacks with the &quot;Breacher Ordnance Shell&quot; profile of the Subterranean Mortar, against enemy models with more than 20LP in their profile as base stat, add +1 to the wound roll.
+
+
+When making attacks with the &quot;Tremor Shell&quot; profile of the Subterranean Mortar, against enemy infantry units with 10 or more models, add +1 to all hit rolls. Also, if 30% or more of the enemy unit was destroyed as a result of attacks made by this weapon, the enemy unit can not move at all in the following opponents player turn at all, not even if they were to fail their morale test.</description>
+    </rule>
+    <rule name="Preymark Crest - Assault" id="8bb1-50b8-bf84-76b8" hidden="false">
+      <description>This unit can not selected as the target of &quot;Overwatch&quot; by enemy units. 
+
+Also, once per game, this unit can declare a charge in a turn after it has advanced.</description>
+    </rule>
+    <rule name="Preymark Crest - Disintegrate" id="512e-a394-38b8-7c9d" hidden="false">
+      <description>When this unit makes ranged attacks during &quot;Overwatch&quot;, they hit on unmodified hit rolls of 5+ instead of 6+.
+
+Also, once per game, this unit is considered having remained stationary, even when having moved and advanced.</description>
+    </rule>
+    <rule name="Kapricus Defender Maneuvers" id="6cea-0ea6-5614-b208" hidden="false">
+      <description>Once per game, after making ranged attacks, this unit can make a normal move.</description>
+    </rule>
+    <rule name="Kapricus Carrier Maneuvers" id="3a44-c3aa-ea16-0f82" hidden="false">
+      <description>Hearthkyn and Hernkyn Yeagirs models that are embarked into this model, can make ranged attacks even when this models has advanced in the prior movement phase.
+
+Hernkyn Yeagirs models and Ironkin Models embarked in this model can declare a charge in the same turn they have disembarked from this model.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>
@@ -3021,7 +3758,7 @@ Effect 3: The MgNa effect is triggered on an unmodified roll of 4+.</description
   <sharedProfiles>
     <profile name="Ruthless Efficiency" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="edbc-0609-8dab-7024">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Unmodified Hit Rolls of 6 with weapons with the „HntR“ Special Rule automatically wound the target.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Unmodified Hit Rolls of 6 with weapons with the „HntR“ Special Rule automatically wound the target. Also Infantry units can make ranged attacks even after having advanced</characteristic>
       </characteristics>
     </profile>
     <profile name="Honor Thy Ancestors" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="e974-5be2-deb2-2c11">
@@ -3031,7 +3768,7 @@ Effect 3: The MgNa effect is triggered on an unmodified roll of 4+.</description
     </profile>
     <profile name="Battle Prowess" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="69a5-28ea-c0e6-93c7">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Kronus Hegemony“ units can declare a charge in a turn they have advanced. They also add +1 to their melee attacks wound rolls.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Kronus Hegemony“ units can declare a charge in a turn they have advanced. They also add +1 to their melee attacks wound rolls and +1 to their charge rolls.</characteristic>
       </characteristics>
     </profile>
     <profile name="Dour Survivalists" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="c7cd-b41b-4be5-e310">
