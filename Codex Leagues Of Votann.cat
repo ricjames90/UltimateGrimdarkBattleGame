@@ -17,7 +17,7 @@ After having placed any Token Of Judgement, you decide to gain one of the follow
 Effect 1: Add +1 to the hit rolls made against this enemy unit.
 
 
-Effect 2: Worsen the enemy units &quot;Feel No Pain&quot; or &quot;Impervious To Injuries&quot; rule by 1. (This can also effectively remove either rul when the Impervous To Injuries rule is reduced to 0 or the Feel No Pain to 7+.
+Effect 2: Worsen the enemy units &quot;Feel No Pain&quot; or &quot;Impervious To Injuries&quot; rule by 1. (This can also effectively remove either rule when the Impervious To Injuries rule is reduced to 0 or the Feel No Pain to 7+.
 
 
 Effect 3: The effect of „MgNa“ Weapons Rule is triggered on an unmodified role of 5+ instead of 6+.</description>
@@ -3119,24 +3119,24 @@ The Sagitaur can not transport models with „Einhyr“ or „Hearthguard“ in 
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Subterranean Mortar" hidden="false" id="6dc9-0725-bd20-b680">
       <profiles>
-        <profile name="Subterranean Mortar - Tremor Shell" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="dfd4-4a06-e730-4293">
+        <profile name="Subterranean Mortar - Tremor Shell" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="dfd4-4a06-e730-4293">
           <characteristics>
-            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">30</characteristic>
-            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">1</characteristic>
-            <characteristic name="S" typeId="a87a-1907-acf6-ac79">5</characteristic>
-            <characteristic name="AP" typeId="2384-c439-8ebc-134a">-</characteristic>
-            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">He,ArF,Ex(6),Tre</characteristic>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">1</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">5</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,ArF,Ex(6),Tre</characteristic>
           </characteristics>
         </profile>
-        <profile name="Subterranean Mortar - Breacher Ordnance Shell" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="c9e5-a4d6-24cd-ac70">
+        <profile name="Subterranean Mortar - Breacher Ordnance Shell" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c9e5-a4d6-24cd-ac70">
           <characteristics>
-            <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">30</characteristic>
-            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">2</characteristic>
-            <characteristic name="S" typeId="a87a-1907-acf6-ac79">16</characteristic>
-            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
-            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">5</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">He,ArF</characteristic>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">2</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">16</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">5</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,ArF</characteristic>
           </characteristics>
         </profile>
       </profiles>

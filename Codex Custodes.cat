@@ -176,7 +176,7 @@
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -230,7 +230,7 @@
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -765,7 +765,7 @@
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -844,7 +844,7 @@
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1151,7 +1151,7 @@ Replace both the Melee and Ranged Profile of the Guardian Spear with the followi
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+2</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1276,7 +1276,7 @@ Replace both the Melee and Ranged Profile of the Guardian Spear with the followi
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+2</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">3</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2491,7 +2491,7 @@ Models with the keyword „Guardian Armor“ count as 2, models with the keyword
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2805,7 +2805,7 @@ Models with the keyword „Guardian Armor“ count as 2, models with the keyword
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">x2</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D3+1</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
           </characteristics>
         </profile>
       </profiles>
