@@ -2980,9 +2980,9 @@ The Sagitaur can not transport models with „Einhyr“ or „Hearthguard“ in 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Menyr Strategist" hidden="false" id="9145-934d-30c4-53e0">
+    <selectionEntry type="model" import="true" name="Memnyr Strategist" hidden="false" id="9145-934d-30c4-53e0">
       <profiles>
-        <profile name="Menyr Strategist" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="42b7-b024-4bff-7cdf">
+        <profile name="Memnyr Strategist" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="42b7-b024-4bff-7cdf">
           <characteristics>
             <characteristic name="M" typeId="adff-38e4-108c-b07c">4</characteristic>
             <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">3+</characteristic>

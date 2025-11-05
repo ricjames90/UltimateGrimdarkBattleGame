@@ -1276,6 +1276,12 @@
         <categoryLink targetId="39ff-e4d4-3a5f-4f40" id="b4c2-affe-97a1-38f5" primary="true" name="HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Saturnine Dreadnought" hidden="false" id="3a4c-14f7-382a-e310" type="selectionEntry" targetId="60a6-2909-4723-2321">
+      <categoryLinks>
+        <categoryLink targetId="2357-54fe-ef95-53ed" id="c892-31eb-ba05-494c" primary="true" name="HERO"/>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="586d-783f-f127-47e1" primary="false" name="ELITE"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Space Marines" id="1a54-9cc0-6596-93c6" targetId="b9aa-5902-f97d-9cd5"/>

@@ -181,6 +181,7 @@
     <categoryEntry name="Saturnine Terminator Squad" id="c3a1-7b0f-2fa4-8aea" hidden="false"/>
     <categoryEntry name="Techmarine Firestrike Servoturret" id="c83d-7c27-d951-0b27" hidden="false"/>
     <categoryEntry name="Techmarine Thunder Cannon" id="f2ed-270c-afd0-03e2" hidden="false"/>
+    <categoryEntry name="Saturnine Dreadnought" id="5425-9c18-8d02-9115" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Bolt Rifle" hidden="false" id="472a-704c-17ec-ad7e" collective="true">
@@ -671,7 +672,7 @@
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
-            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">+1 Ini</characteristic>
           </characteristics>
@@ -1355,7 +1356,7 @@
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
-            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">+1 Ini</characteristic>
           </characteristics>
@@ -1539,9 +1540,9 @@
       </profiles>
       <categoryLinks>
         <categoryLink targetId="ca74-25d8-3eb4-bf23" id="74f8-d870-4f1a-109a" primary="false" name="Infantry"/>
-        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="bb1d-4f3c-6693-b283" primary="false" name="AT - Heavy Armor"/>
         <categoryLink targetId="f887-85e4-37bb-fe59" id="be63-6b4e-8083-1f94" primary="false" name="Power Armor"/>
         <categoryLink targetId="3c68-3505-125d-8ada" id="cbb0-354-6c6-bf9f" primary="false" name="Artificier Armor"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="d769-280d-4733-4335" primary="false" name="AT - Super Heavy Armor"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35a3-9a02-f845-1e6c"/>
@@ -1589,10 +1590,10 @@
       </profiles>
       <categoryLinks>
         <categoryLink targetId="ca74-25d8-3eb4-bf23" id="e1ef-b84a-e278-8eaf" primary="false" name="Infantry"/>
-        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="4765-5c9b-4e45-45f2" primary="false" name="AT - Heavy Armor"/>
         <categoryLink targetId="31ec-3b28-d612-9363" id="ec2b-bc4a-b304-3710" primary="false" name="Fly"/>
         <categoryLink targetId="f887-85e4-37bb-fe59" id="b981-40e9-3bbb-4ea5" primary="false" name="Power Armor"/>
         <categoryLink targetId="3c68-3505-125d-8ada" id="ea0a-665e-133f-7093" primary="false" name="Artificier Armor"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="b5e1-675d-30c4-6be3" primary="false" name="AT - Super Heavy Armor"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Power Armor" hidden="false" id="fe6d-f991-ba4e-855d">
@@ -5731,6 +5732,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <infoLinks>
         <infoLink name="Ancient Warrior" id="f8fe-d21c-082d-0c69" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
         <infoLink name="Deadly Demise(6/D3)" id="4d5d-047b-70e3-cbe1" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
+        <infoLink name="Disgustingly Resilient" id="c758-a4fe-caf7-6c7f" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="Points" value="110"/>
@@ -5887,6 +5889,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <infoLinks>
         <infoLink name="Ancient Warrior" id="9e16-5902-4e36-6a50" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
         <infoLink name="Deadly Demise(6/D6)" id="b453-fdf0-146e-0446" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Disgustingly Resilient" id="d448-2bf6-ed6d-411f" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Combatweapon" hidden="false" id="f6cb-ed51-faad-e4b8" collective="true">
@@ -6132,6 +6135,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <infoLink name="Ancient Warrior" id="45a3-cd5e-5b2d-1cfb" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
         <infoLink name="Deadly Demise(6/D3)" id="e03b-f6b0-2bbc-434f" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
         <infoLink name="Invulnerable Save(4+)" id="1b6a-4b4a-f477-c0ff" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Disgustingly Resilient" id="c6e6-8c29-5d8e-b61c" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="Points" value="210"/>
@@ -6177,6 +6181,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <infoLink name="Ancient Warrior" id="16c9-c4be-ab35-aead" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
         <infoLink name="Deadly Demise(6/D3)" id="2d5b-f92b-5be2-02a2" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
         <infoLink name="Invulnerable Save(4+)" id="3036-7905-e309-dad8" hidden="false" type="rule" targetId="875c-76d4-897-b7cc"/>
+        <infoLink name="Disgustingly Resilient" id="03ab-0cdd-4dd9-d3eb" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="Points" value="185"/>
@@ -6540,6 +6545,13 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="d809-3da6-ad50-cd83" childId="6de1-d838-fc4b-2ef7" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -6670,6 +6682,27 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <categoryLink targetId="849c-e597-1e06-fcd0" id="e875-7216-3cd5-1469" primary="false" name="Sternguard Veterans Squad"/>
         <categoryLink targetId="f887-85e4-37bb-fe59" id="442c-3ef9-60fa-4554" primary="false" name="Power Armor"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Artificier Armor Upgrade" hidden="false" id="6de1-d838-fc4b-2ef7">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="db4e-f579-7813-e95d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e14-7527-4e77-be97" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Artificier Armor" hidden="false" id="394c-875d-2e19-0447" type="selectionEntry" targetId="184c-4bbe-db9d-8a65"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="increment" value="3" field="Points">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="d809-3da6-ad50-cd83" childId="6626-6c19-921e-d4b6" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="12fc-d5fa-55b9-732e" id="b856-0d80-bc86-cab6" primary="false" name="AT - Super Heavy Armor"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sternguard Bolt Gun" hidden="false" id="aad1-2ddf-52cc-cc77">
       <constraints>
@@ -6981,6 +7014,11 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
                 <condition type="atLeast" value="1" field="selections" scope="cbc3-f561-7594-cd99" childId="237a-fd85-9e35-35f3" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="ancestor" childId="184c-4bbe-db9d-8a65" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <modifierGroups>
             <modifierGroup type="and">
@@ -6991,6 +7029,15 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
               </modifiers>
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="ancestor" childId="b66b-528d-7d01-9de8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="12" field="adff-38e4-108c-b07c"/>
+                <modifier type="set" value="2+/2+" field="84ab-8766-eed2-1ff8"/>
+              </modifiers>
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="ancestor" childId="5711-1f26-c6cd-77da" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifierGroup>
           </modifierGroups>
@@ -7084,7 +7131,6 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <entryLink import="true" name="Vanguard Armor Chamber" hidden="false" id="e9c7-cc6a-9211-7c2a" type="selectionEntryGroup" targetId="760c-01ef-969d-3ddc"/>
       </entryLinks>
       <categoryLinks>
-        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="4f7f-2e9b-1dcd-f1d5" primary="false" name="AT - Heavy Armor"/>
         <categoryLink targetId="8599-9479-106b-178c" id="0ef8-4c01-1a6b-8fde" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="c1bf-188d-1614-c143" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="d643-f78c-8c81-e3ad" id="30a7-409c-ae2a-916a" primary="false" name="Vanguard Veterans Squad"/>
@@ -7129,6 +7175,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <infoLinks>
         <infoLink name="Ancient Warrior" id="aa45-e67a-27cf-db56" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
         <infoLink name="Deadly Demise(6/D6)" id="6da8-ac6f-cddb-8a60" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Disgustingly Resilient" id="5758-6d19-d2aa-a0e7" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Redemptor Left Arm Options" hidden="false" id="dc8f-36a8-2c83-1897" type="selectionEntryGroup" targetId="fd31-03dc-9d12-d104"/>
@@ -7286,6 +7333,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <infoLinks>
         <infoLink name="Deadly Demise(6/D6)" id="9dbb-59ea-240c-8027" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Ancient Warrior" id="3888-77a8-c806-d914" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+        <infoLink name="Disgustingly Resilient" id="0794-8cd6-2315-1057" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Combatweapon" hidden="false" id="42d5-b523-c881-0a9b" type="selectionEntry" targetId="f6cb-ed51-faad-e4b8"/>
@@ -7543,6 +7591,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <infoLinks>
         <infoLink name="Deadly Demise(6/D6)" id="fe2b-c427-bcb2-29a1" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Ancient Warrior" id="46f2-7437-7183-7889" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+        <infoLink name="Disgustingly Resilient" id="606b-4e82-6a39-60ae" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Cyclone Rocket Launcher" hidden="false" id="6322-76cb-999f-1cd8" type="selectionEntry" targetId="c19b-da5f-c166-966b">
@@ -7801,6 +7850,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <infoLinks>
         <infoLink name="Deadly Demise(6/D6)" id="6879-134f-4182-7110" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Ancient Warrior" id="3634-53df-a362-ff20" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+        <infoLink name="Disgustingly Resilient" id="45aa-fa5f-5ea4-98f3" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Cyclone Rocket Launcher" hidden="false" id="6455-d34b-b686-9c13" type="selectionEntry" targetId="c19b-da5f-c166-966b">
@@ -7846,6 +7896,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <infoLinks>
         <infoLink name="Deadly Demise(6/D6)" id="0e2e-92d9-9ba1-feca" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Ancient Warrior" id="85e3-f4c7-c8ec-68fb" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+        <infoLink name="Disgustingly Resilient" id="1c8b-c2b0-4863-20b2" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Deredeo Torso Weapons" id="78e5-fd04-fa2c-8104" hidden="false">
@@ -8093,6 +8144,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <infoLinks>
         <infoLink name="Deadly Demise(6/D3)" id="341d-9d1d-6a3b-4602" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
         <infoLink name="Ancient Warrior" id="3844-36e0-4679-5767" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+        <infoLink name="Disgustingly Resilient" id="704e-a306-ebe5-45f2" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="6a01-48b0-24a1-8caf" type="selectionEntry" targetId="6215-d596-90c2-915a">
@@ -8242,6 +8294,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       <infoLinks>
         <infoLink name="Ancient Warrior" id="fbca-435d-4e2e-58d2" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
         <infoLink name="Deadly Demise(6/D6)" id="c724-ac9e-b402-bd19" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Disgustingly Resilient" id="b982-c227-573c-dcb8" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="416b-2618-7095-7d97" type="selectionEntry" targetId="6215-d596-90c2-915a">
@@ -8448,6 +8501,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <infoLink name="Vanguard Support" id="85b8-c38d-3d11-b883" hidden="false" type="rule" targetId="4aeb-548c-7da7-6cbe"/>
         <infoLink name="Deadly Demise(6/D6)" id="5913-c1d2-3953-a32f" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Scouts(8)" id="7c6f-ff9f-ce00-fea9" hidden="false" type="rule" targetId="6316-55ac-237c-e617"/>
+        <infoLink name="Disgustingly Resilient" id="878b-f3a9-9a30-ebce" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Invictorfist" hidden="false" id="ec14-3866-30f1-30d0" type="selectionEntry" targetId="2602-bb2f-8487-f768"/>
@@ -11029,7 +11083,7 @@ Save (6+)“ Special Rule.</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">I</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">T14</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">22</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">28</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -11405,7 +11459,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Sicaran" hidden="false" id="df92-092e-c8fd-18ee">
       <costs>
-        <cost name="Pts" typeId="Points" value="280"/>
+        <cost name="Pts" typeId="Points" value="265"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <profiles>
         <profile name="Sicaran" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="477c-ef6f-3411-3174">
@@ -11417,7 +11472,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">28</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">32</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/3+</characteristic>
           </characteristics>
@@ -11551,7 +11606,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="S" typeId="2436-99f4-4527-c475">18</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">D6+4</characteristic>
-            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">-</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16214,6 +16269,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <infoLink name="Ancient Warrior" id="8aed-27bd-4954-8044" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
         <infoLink name="Invulnerable Save(5+)" id="902c-ad65-c5f2-012f" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
         <infoLink name="Deadly Demise(6/D3)" id="238e-15e7-ed12-f23c" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
+        <infoLink name="Disgustingly Resilient" id="a996-18f1-36c9-28df" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Dreadnought Halberd" hidden="false" id="26cc-3146-bfa0-de18" type="selectionEntry" targetId="0ff1-91c9-05c3-8ad0"/>
@@ -16298,6 +16354,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <infoLink name="Deadly Demise(6/D3)" id="1d5b-8d9a-6fd3-8ded" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
         <infoLink name="Feel No Pain(5+)" id="b7a3-03f0-80fd-777c" hidden="false" type="rule" targetId="fefa-ab9a-a874-42de"/>
         <infoLink name="Black Rage" id="9780-1792-d9eb-c0dc" hidden="false" type="rule" targetId="4bab-1180-ec4d-6a1d"/>
+        <infoLink name="Disgustingly Resilient" id="6674-38e3-1991-5cf8" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Magna Grapple" hidden="false" id="d144-ef8c-4cce-0d7b" type="selectionEntry" targetId="e300-9d54-c43b-143c">
@@ -16771,7 +16828,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Sicaran" hidden="false" id="f128-3a83-4183-bcb3">
       <costs>
-        <cost name="Pts" typeId="Points" value="280"/>
+        <cost name="Pts" typeId="Points" value="265"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <profiles>
         <profile name="Sicaran" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="5089-5514-d0c3-fc5d">
@@ -16783,7 +16841,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">28</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">32</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/3+</characteristic>
           </characteristics>
@@ -17003,7 +17061,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">22</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">28</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -17044,7 +17102,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">I</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">T14</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">22</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">28</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -17868,7 +17926,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
-            <characteristic name="AP" typeId="2384-c439-8ebc-134a">HA</characteristic>
+            <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">+1 Ini</characteristic>
           </characteristics>
@@ -22657,10 +22715,10 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">4</characteristic>
-            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc,+1Ini</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22672,10 +22730,10 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">6</characteristic>
-            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc,+1Ini</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22687,10 +22745,10 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">8</characteristic>
-            <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
+            <characteristic name="S" typeId="a87a-1907-acf6-ac79">+1</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">2</characteristic>
-            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc</characteristic>
+            <characteristic name="Rules" typeId="5659-536c-d87-dc44">Lnc,+1Ini</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -22821,7 +22879,7 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a81-8046-0bb9-b8aa" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Thunder Cannon" hidden="false" id="d43e-bd0d-d7d7-0560" type="selectionEntry" targetId="068b-6a5a-fc53-3198">
+                <entryLink import="true" name="Thunderfire Cannon" hidden="false" id="d43e-bd0d-d7d7-0560" type="selectionEntry" targetId="068b-6a5a-fc53-3198">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2335-c13f-1f9c-e418" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fdc-cbe6-95d5-5eb3" includeChildSelections="false"/>
@@ -22896,6 +22954,199 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
             <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
             <characteristic name="S" typeId="2436-99f4-4527-c475">14</characteristic>
             <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">SHA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Saturnine Terminator Squad" hidden="false" id="e0c3-612d-5d26-3164">
+      <profiles>
+        <profile name="Saturnine Terminator Squad" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="cb9b-2fe8-eb50-332b">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">5</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Disgustingly Resilient" id="ab69-f896-91ea-b63d" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Saturnine Dreadnought" hidden="false" id="60a6-2909-4723-2321">
+      <profiles>
+        <profile name="Saturnine Dreadnought" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="9225-da20-8adb-b149">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">6</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">12</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">16</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">24</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">10</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Ancient Warrior" id="241b-7605-9fb8-8112" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+        <infoLink name="Deadly Demise(9/D6+3)" id="57a9-2e23-ed61-e76e" hidden="false" type="rule" targetId="a3f6-1924-6b25-ba38"/>
+        <infoLink name="Disgustingly Resilient" id="ae93-eb9a-11e2-6732" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="Points" value="285"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Combatweapon" hidden="false" id="8508-2782-0d45-50b8" type="selectionEntry" targetId="f655-bd54-59d-6e0c"/>
+        <entryLink import="true" name="Deathwing Dreadnought" hidden="false" id="70a4-8c0a-40ab-1886" type="selectionEntry" targetId="1022-92b2-d98b-4673">
+          <costs>
+            <cost name="Pts" typeId="Points" value="30"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Left Arm" id="bed7-24f7-23db-8ce8" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b09-316b-8be1-62e6" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30b2-62ee-985c-c439" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Right Arm" id="35f3-e6fe-e2a8-73c5" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="027c-87e1-1bc8-66be" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3a2-097a-936e-e46c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Torso Weapons" id="4bf7-3e59-7554-66fe" hidden="false">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df06-0639-7ebc-9af3" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf30-2c46-de16-44ff" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="2 Photonic Incinerators" hidden="false" id="00c6-24a2-93ba-0ef1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bbf1-850a-5594-cdcd" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Photonic Incinerator" hidden="false" id="10e1-4c59-46b1-2402" type="selectionEntry" targetId="6258-ef54-a12c-8c46" collective="true">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="ab69-a2d0-3bb0-5227" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e434-81a9-663f-1091" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="2 Concussive Resonators" hidden="false" id="b07d-4f55-2fce-9e98">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25cb-e078-93e2-4cb7" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Concussive Resonator" hidden="false" id="eda7-bf61-452c-3fb7" type="selectionEntry" targetId="bac8-d720-dff2-196b" collective="true">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3cfb-915e-fa1a-673f" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="31f6-1bba-f852-4aeb" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="Points" value="5"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="2 Heavy Particle Shredders" hidden="false" id="217f-9129-d3be-3bd2">
+              <costs>
+                <cost name="Pts" typeId="Points" value="20"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3ee-5a4f-6f96-9a75" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Heavy Particle Shredder" hidden="false" id="c5ef-774d-3a05-80ff" type="selectionEntry" targetId="6830-8838-132a-4cc0" collective="true">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="98e3-3d9f-d3b8-3cfb" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="74f1-fedb-25dc-39ea" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="836b-f474-de6f-4611" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="f327-28e3-eea8-0211" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="8599-9479-106b-178c" id="69d9-1a7d-bfc0-ad15" primary="false" name="FACTION: Space Marines"/>
+        <categoryLink targetId="fa28-a209-4a67-e026" id="186e-123f-89da-8b66" primary="false" name="SUPER FACTION: Imperium"/>
+        <categoryLink targetId="07bf-9296-2d3a-d11a" id="9cae-6554-69c9-6a08" primary="false" name="Dreadnought Chassis Saturnine"/>
+        <categoryLink targetId="5425-9c18-8d02-9115" id="74a7-5b17-21b0-0786" primary="false" name="Saturnine Dreadnought"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Saturnine Terminator Squad" hidden="false" id="c447-804b-e80b-50c8">
+      <profiles>
+        <profile name="Saturnine Terminator Squad" typeId="a545-37bd-31e3-a90c" typeName="Unit" hidden="false" id="e2db-cc9b-5246-222e">
+          <characteristics>
+            <characteristic name="M" typeId="adff-38e4-108c-b07c">5</characteristic>
+            <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
+            <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">5</characteristic>
+            <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
+            <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
+            <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">9</characteristic>
+            <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">9</characteristic>
+            <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Photonic Incinerator" hidden="false" id="6258-ef54-a12c-8c46">
+      <profiles>
+        <profile name="Photonic Incinerator" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="c070-dc12-a56f-ac17">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">8</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">*</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">4</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">-</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">1</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">To,IgC</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Concussive Resonator" hidden="false" id="bac8-d720-dff2-196b">
+      <profiles>
+        <profile name="Concussive Resonator" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="943b-4dac-a709-ba1f">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">30</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">8</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">LA</characteristic>
+            <characteristic name="D" typeId="1805-642f-c70c-51b6">2</characteristic>
+            <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He,Tre,Ar</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Particle Shredder" hidden="false" id="6830-8838-132a-4cc0">
+      <profiles>
+        <profile name="Heavy Particle Shredder" typeId="7b2e-9409-d8a4-783f" typeName="Ranged Weapons" hidden="false" id="62ca-c1f6-27f3-06b3">
+          <characteristics>
+            <characteristic name="Range" typeId="6c10-3e38-3f7d-136c">12</characteristic>
+            <characteristic name="A" typeId="849e-ee3d-b4e9-d5cb">4</characteristic>
+            <characteristic name="S" typeId="2436-99f4-4527-c475">10</characteristic>
+            <characteristic name="AP" typeId="588a-df8b-8d9b-a58c">HA</characteristic>
             <characteristic name="D" typeId="1805-642f-c70c-51b6">3</characteristic>
             <characteristic name="Rules" typeId="95e4-c145-7574-7e22">He</characteristic>
           </characteristics>
@@ -22999,7 +23250,7 @@ All Ultramarines Infantry Units count for twice as many of their remaining LP wh
         <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
         <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
         <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">20</characteristic>
+        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">26</characteristic>
         <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
       </characteristics>
@@ -23130,7 +23381,7 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
         <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">5</characteristic>
         <characteristic name="T" typeId="8d7f-2fc2-c449-7537">8</characteristic>
         <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">10</characteristic>
+        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">12</characteristic>
         <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
       </characteristics>
@@ -23144,7 +23395,7 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
         <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">6</characteristic>
         <characteristic name="T" typeId="8d7f-2fc2-c449-7537">9</characteristic>
         <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">12</characteristic>
+        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">14</characteristic>
         <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
       </characteristics>
@@ -23172,7 +23423,7 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
         <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
         <characteristic name="T" typeId="8d7f-2fc2-c449-7537">14</characteristic>
         <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">24</characteristic>
+        <characteristic name="LP" typeId="c061-dd1-7417-ca6b">28</characteristic>
         <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
       </characteristics>
@@ -23194,7 +23445,7 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
     <profile name="Sign Of The Trident" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="5140-772e-b3e7-4246">
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">Attacks made with &quot;Lance&quot; Weapons add +1 to their wound rolls.
-All vehicle units gain the &quot;Disgustingly Resilient&quot; Special Rule.
+All vehicle units (except any &quot;-Dreadnought&quot; Units) gain the &quot;Disgustingly Resilient&quot; Special Rule. Dreadnoughts instead gain the &quot;Feel No Pain(5+)&quot; Special Rule.
 Infantry units in this army can declare a charge after having advanced. 
 At the start of each game round, for every full one thousand points game size, you can declare one enemy unit as a target for this rule. If you destroy said enemy unit until the end of the game round, you gain 5 victory points, if you fail, you lose 3 victory points</characteristic>
       </characteristics>
@@ -23464,9 +23715,9 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
     <selectionEntryGroup name="Melee Weapons" id="214f-2730-26f-af90" hidden="false">
       <comment>Low Sergeant</comment>
       <entryLinks>
-        <entryLink import="true" name="Powerweapon" hidden="false" id="f54a-ded5-5c2a-4493" type="selectionEntry" targetId="610e-938b-bd18-9ab5">
+        <entryLink import="true" name="Powerweapon" hidden="false" id="f54a-ded5-5c2a-4493" type="selectionEntry" targetId="610e-938b-bd18-9ab5" sortIndex="">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
           </costs>
         </entryLink>
         <entryLink import="true" name="Powerfist" hidden="false" id="c055-bf42-9d7c-f2f0" type="selectionEntry" targetId="d658-88ba-1a49-474a">
@@ -23476,10 +23727,10 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         </entryLink>
         <entryLink import="true" name="Lightning Claw" hidden="false" id="c417-53ad-5b0-521c" type="selectionEntry" targetId="66fd-35e3-19d9-ee6f">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
           </costs>
           <modifiers>
-            <modifier type="set" value="4" field="Points">
+            <modifier type="set" value="2.5" field="Points">
               <conditions>
                 <condition type="atLeast" value="2" field="selections" scope="parent" childId="c417-53ad-5b0-521c" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -23488,10 +23739,18 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         </entryLink>
         <entryLink import="true" name="Thunder Hammer" hidden="false" id="7b7a-c4dd-183d-e3" type="selectionEntry" targetId="53e2-6bf8-b232-397e">
           <costs>
-            <cost name="Pts" typeId="Points" value="15"/>
+            <cost name="Pts" typeId="Points" value="12"/>
           </costs>
         </entryLink>
         <entryLink import="true" name="Chainsword" hidden="false" id="f8ff-b28e-ccd0-99c" type="selectionEntry" targetId="268-58ff-86c2-e0ca"/>
+        <entryLink import="true" name="Power Spear" hidden="false" id="4d35-b47d-ec86-280b" type="selectionEntry" targetId="d9fd-5cae-f364-0c5e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2824-f673-3c7a-4198" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="8"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <constraints>
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4807-d61-5bc7-f0d9"/>
@@ -23562,7 +23821,7 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         </entryLink>
         <entryLink import="true" name="Powerweapon" hidden="false" id="2db3-c6b-624f-5ce4" type="selectionEntry" targetId="ba1-6637-4c0a-2728">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
           </costs>
         </entryLink>
         <entryLink import="true" name="Relic Blade" hidden="false" id="a301-b21f-fd4e-ad76" type="selectionEntry" targetId="52c7-d90d-ea5b-3f53">
@@ -23577,10 +23836,10 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         </entryLink>
         <entryLink import="true" name="Lightning Claw" hidden="false" id="cb7f-d07f-3899-6de2" type="selectionEntry" targetId="959b-e787-d618-7fc5">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
           </costs>
           <modifiers>
-            <modifier type="set" value="4" field="Points">
+            <modifier type="set" value="2.5" field="Points">
               <conditions>
                 <condition type="atLeast" value="2" field="selections" scope="parent" childId="cb7f-d07f-3899-6de2" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -23600,6 +23859,14 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         <entryLink import="true" name="Storm Shield" hidden="false" id="e5a0-9038-18fe-c9b5" type="selectionEntry" targetId="1a8d-be12-33d8-8a1e">
           <costs>
             <cost name="Pts" typeId="Points" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Power Spear" hidden="false" id="3652-aba0-8334-ba91" type="selectionEntry" targetId="071a-f9f9-9b43-8528">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c89f-a85f-c048-66b9" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="8"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -23909,7 +24176,7 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
       <entryLinks>
         <entryLink import="true" name="Powerweapon" hidden="false" id="2353-c8ab-2a2b-ed98" type="selectionEntry" targetId="610e-938b-bd18-9ab5">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
           </costs>
         </entryLink>
         <entryLink import="true" name="Powerfist" hidden="false" id="d3ec-dd68-ca69-598e" type="selectionEntry" targetId="d658-88ba-1a49-474a">
@@ -23919,10 +24186,10 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         </entryLink>
         <entryLink import="true" name="Lightning Claw" hidden="false" id="2b9-b442-c4f7-cab9" type="selectionEntry" targetId="66fd-35e3-19d9-ee6f">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
           </costs>
           <modifiers>
-            <modifier type="set" value="4" field="Points">
+            <modifier type="set" value="2.5" field="Points">
               <conditions>
                 <condition type="atLeast" value="2" field="selections" scope="parent" childId="2b9-b442-c4f7-cab9" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -23931,13 +24198,21 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         </entryLink>
         <entryLink import="true" name="Thunder Hammer" hidden="false" id="12a2-f450-5e95-c370" type="selectionEntry" targetId="53e2-6bf8-b232-397e">
           <costs>
-            <cost name="Pts" typeId="Points" value="15"/>
+            <cost name="Pts" typeId="Points" value="12"/>
           </costs>
         </entryLink>
         <entryLink import="true" name="Chainsword" hidden="false" id="e2e-4099-16e9-7ec" type="selectionEntry" targetId="268-58ff-86c2-e0ca"/>
         <entryLink import="true" name="Heavy Chainsword" hidden="false" id="b02b-5b04-7358-32c5" type="selectionEntry" targetId="24e4-b3ae-c451-dfbd">
           <costs>
-            <cost name="Pts" typeId="Points" value="4"/>
+            <cost name="Pts" typeId="Points" value="1"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Power Spear" hidden="false" id="2811-288d-ec0e-bfbf" type="selectionEntry" targetId="d9fd-5cae-f364-0c5e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35f4-f51e-11e0-5239" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="8"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -24155,7 +24430,7 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         </entryLink>
         <entryLink import="true" name="Powerweapon" hidden="false" id="7d6d-0549-b9eb-5187" type="selectionEntry" targetId="ba1-6637-4c0a-2728">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
           </costs>
         </entryLink>
         <entryLink import="true" name="Relic Blade" hidden="false" id="7919-8525-21ac-01c3" type="selectionEntry" targetId="52c7-d90d-ea5b-3f53">
@@ -24165,15 +24440,15 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         </entryLink>
         <entryLink import="true" name="Heavy Chainsword" hidden="false" id="274c-233d-d34e-d2e5" type="selectionEntry" targetId="24e4-b3ae-c451-dfbd">
           <costs>
-            <cost name="Pts" typeId="Points" value="4"/>
+            <cost name="Pts" typeId="Points" value="1"/>
           </costs>
         </entryLink>
         <entryLink import="true" name="Lightning Claw" hidden="false" id="98c6-409b-ba40-5e3e" type="selectionEntry" targetId="959b-e787-d618-7fc5">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
           </costs>
           <modifiers>
-            <modifier type="set" value="4" field="Points">
+            <modifier type="set" value="2.5" field="Points">
               <conditions>
                 <condition type="atLeast" value="2" field="selections" scope="parent" childId="98c6-409b-ba40-5e3e" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -24194,6 +24469,14 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
           <costs>
             <cost name="Pts" typeId="Points" value="5"/>
           </costs>
+        </entryLink>
+        <entryLink import="true" name="Power Spear" hidden="false" id="f3f8-3f39-36fe-8f48" type="selectionEntry" targetId="0528-30a0-3eea-c8a6">
+          <costs>
+            <cost name="Pts" typeId="Points" value="7"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c179-76d1-b9f4-30c5" includeChildSelections="false"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <constraints>
@@ -24427,9 +24710,9 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
     </selectionEntryGroup>
     <selectionEntryGroup name="Vanguard Melee Weapons" id="2ab2-9423-4ec6-f844" hidden="false">
       <entryLinks>
-        <entryLink import="true" name="Powerweapon" hidden="false" id="f0aa-4e04-486f-497b" type="selectionEntry" targetId="610e-938b-bd18-9ab5">
+        <entryLink import="true" name="Powerweapon" hidden="false" id="f0aa-4e04-486f-497b" type="selectionEntry" targetId="610e-938b-bd18-9ab5" sortIndex="">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
           </costs>
         </entryLink>
         <entryLink import="true" name="Relic Blade" hidden="false" id="fae4-44a2-d203-299a" type="selectionEntry" targetId="1f83-9d30-0b66-592a">
@@ -24440,7 +24723,7 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         <entryLink import="true" name="Chainsword" hidden="false" id="7178-fe6d-3b29-506d" type="selectionEntry" targetId="268-58ff-86c2-e0ca"/>
         <entryLink import="true" name="Thunder Hammer" hidden="false" id="7862-7847-abc7-f5f5" type="selectionEntry" targetId="53e2-6bf8-b232-397e">
           <costs>
-            <cost name="Pts" typeId="Points" value="15"/>
+            <cost name="Pts" typeId="Points" value="13"/>
           </costs>
         </entryLink>
         <entryLink import="true" name="Powerfist" hidden="false" id="084d-fb3c-38ed-44dc" type="selectionEntry" targetId="d658-88ba-1a49-474a">
@@ -24450,19 +24733,27 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         </entryLink>
         <entryLink import="true" name="Lightning Claw" hidden="false" id="6e10-e7bf-42e7-3934" type="selectionEntry" targetId="66fd-35e3-19d9-ee6f">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
           </costs>
           <modifiers>
-            <modifier type="set" value="4" field="Points">
+            <modifier type="set" value="2.5" field="Points">
               <conditions>
                 <condition type="atLeast" value="2" field="selections" scope="parent" childId="6e10-e7bf-42e7-3934" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Storm Shield" hidden="false" id="237a-fd85-9e35-35f3" type="selectionEntry" targetId="1a8d-be12-33d8-8a1e">
+        <entryLink import="true" name="Storm Shield" hidden="false" id="237a-fd85-9e35-35f3" type="selectionEntry" targetId="1a8d-be12-33d8-8a1e" sortIndex="">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Power Spear" hidden="false" id="d568-3e7b-d97b-a508" type="selectionEntry" targetId="0528-30a0-3eea-c8a6">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="160b-60b1-d2f4-fc95" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="7"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -24479,6 +24770,7 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         <entryLink import="true" name="Power Armor" hidden="false" id="d7ed-5fcf-fb66-494a" type="selectionEntry" targetId="fe6d-f991-ba4e-855d">
           <categoryLinks>
             <categoryLink targetId="ca74-25d8-3eb4-bf23" id="6030-5cf7-1e09-1f8a" primary="false" name="Infantry"/>
+            <categoryLink targetId="7cbd-10fc-5d99-3f09" id="5b67-dcbf-17b6-056f" primary="false" name="AT - Heavy Armor"/>
           </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Jump Pack" hidden="false" id="45bf-1c53-2b98-a526" type="selectionEntry" targetId="d8d6-4a2d-f04d-bcb3">
@@ -24492,6 +24784,7 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
           <categoryLinks>
             <categoryLink targetId="31ec-3b28-d612-9363" id="a471-baf8-cc77-1d68" primary="false" name="Fly"/>
             <categoryLink targetId="ca74-25d8-3eb4-bf23" id="3247-7f8c-a42b-25f3" primary="false" name="Infantry"/>
+            <categoryLink targetId="7cbd-10fc-5d99-3f09" id="45ec-d5d5-e4bd-f73d" primary="false" name="AT - Heavy Armor"/>
           </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Bike" hidden="false" id="adf5-b61a-c914-8dde" type="selectionEntry" targetId="b66b-528d-7d01-9de8">
@@ -24504,6 +24797,33 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
           </modifiers>
           <categoryLinks>
             <categoryLink targetId="7d9d-1053-8f76-526" id="577e-8b30-685e-e6ea" primary="false" name="Mounted"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Artificier Armor" hidden="false" id="e847-d559-341e-4a10" type="selectionEntry" targetId="184c-4bbe-db9d-8a65">
+          <modifiers>
+            <modifier type="increment" value="2" field="Points">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="cbc3-f561-7594-cd99" childId="227c-2573-d519-f6a0" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="12fc-d5fa-55b9-732e" id="8f17-6c79-f7b5-38be" primary="false" name="AT - Super Heavy Armor"/>
+            <categoryLink targetId="ca74-25d8-3eb4-bf23" id="3a94-9170-a83a-1f82" primary="false" name="Infantry"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Artificier Armor and Jump Pack" hidden="false" id="c740-9ba9-c617-aab8" type="selectionEntry" targetId="5711-1f26-c6cd-77da">
+          <modifiers>
+            <modifier type="increment" value="5" field="Points">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="cbc3-f561-7594-cd99" childId="227c-2573-d519-f6a0" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="12fc-d5fa-55b9-732e" id="36e3-91d2-0eb4-b9d7" primary="false" name="AT - Super Heavy Armor"/>
+            <categoryLink targetId="31ec-3b28-d612-9363" id="0178-92a6-b425-bb66" primary="false" name="Fly"/>
+            <categoryLink targetId="ca74-25d8-3eb4-bf23" id="00e0-0e9e-bef1-64f0" primary="false" name="Infantry"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
@@ -25016,10 +25336,10 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         </entryLink>
         <entryLink import="true" name="Lightning Claw" hidden="false" id="5f09-ec58-286e-584b" type="selectionEntry" targetId="959b-e787-d618-7fc5">
           <costs>
-            <cost name="Pts" typeId="Points" value="5"/>
+            <cost name="Pts" typeId="Points" value="3"/>
           </costs>
           <modifiers>
-            <modifier type="set" value="4" field="Points">
+            <modifier type="set" value="2.5" field="Points">
               <conditions>
                 <condition type="atLeast" value="2" field="selections" scope="parent" childId="5f09-ec58-286e-584b" shared="true" includeChildSelections="true"/>
               </conditions>
@@ -25049,6 +25369,14 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
         <entryLink import="true" name="Mace Of Absolution" hidden="false" id="52c6-d790-507e-fb17" type="selectionEntry" targetId="9c05-8b8c-67a1-1ae5">
           <costs>
             <cost name="Pts" typeId="Points" value="20"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Power Spear" hidden="false" id="0abb-fb81-ff3c-5fef" type="selectionEntry" targetId="071a-f9f9-9b43-8528">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec17-facc-197f-f309" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="Points" value="7"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -25454,7 +25782,7 @@ Dark Fury Assault Veterans and a single Captain/Chapter Master/Raven Raven model
       <description>This unit does not suffer the penalty to the hit rolls of attacks made with the &quot;Thunder Cannon&quot; weapon, when making use of it&apos;s &quot;ArF&quot; rule.</description>
     </rule>
     <rule name="Techmarine Cadence" id="073d-7a58-6861-1ac7" hidden="false">
-      <description>Every unmodified Hit Roll of 6 with any of this units Ranged Weapons, scores one additional Hit. </description>
+      <description>Every unmodified Hit Roll of 6 with any of this units Ranged Weapons, scores one additional Hit.</description>
     </rule>
   </sharedRules>
 </catalogue>

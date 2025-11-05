@@ -128,7 +128,7 @@
     </profileType>
   </profileTypes>
   <forceEntries>
-    <forceEntry name="1. Game Size - Small (0-1000 Pts)" id="5c51-203d-5d91-fb71" hidden="false">
+    <forceEntry name="1. Game Size - Small (501-1000 Pts)" id="5c51-203d-5d91-fb71" hidden="false" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="9ee4-63f2-59c1-b117" targetId="bf9c-ecb1-6aa4-5acf"/>
         <categoryLink name="NON ARMY ORG SLOT" hidden="false" id="3755-4244-43e4-be94" targetId="7b65-9b94-47a-9e7a"/>
@@ -179,10 +179,11 @@
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="fbe5-fea7-9b6c-56f3"/>
+        <constraint type="min" value="501" field="limit::Points" scope="parent" shared="true" id="be64-0559-5f7e-5cd4" includeChildSelections="true" includeChildForces="true"/>
         <constraint type="max" value="1000" field="limit::Points" scope="parent" shared="true" id="f314-968b-7bce-a45d" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </forceEntry>
-    <forceEntry name="3. Game Size - Medium (1501-2000 Pts)" id="f021-daf4-f9c0-13bf" hidden="false">
+    <forceEntry name="3. Game Size - Medium (1501-2000 Pts)" id="f021-daf4-f9c0-13bf" hidden="false" sortIndex="4">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="84cd-530c-4d8d-6843"/>
         <constraint type="min" value="1501" field="limit::Points" scope="parent" shared="true" id="d120-7eff-c188-b101" includeChildSelections="true" includeChildForces="true"/>
@@ -242,7 +243,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="4. Game Size - Medium Large (2001-3000 Pts)" id="b25a-ce1e-70c1-7179" hidden="false">
+    <forceEntry name="4. Game Size - Medium Large (2001-3000 Pts)" id="b25a-ce1e-70c1-7179" hidden="false" sortIndex="5">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="ca48-ee65-2c78-3a89"/>
         <constraint type="min" value="2001" field="limit::Points" scope="parent" shared="true" id="fdb6-ea00-430e-3ca6" includeChildSelections="true" includeChildForces="true"/>
@@ -302,7 +303,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="5. Game Size - Large (3001-4000 Pts)" id="79ab-fea0-5036-62ef" hidden="false">
+    <forceEntry name="5. Game Size - Large (3001-4000 Pts)" id="79ab-fea0-5036-62ef" hidden="false" sortIndex="6">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="3f02-5d1e-8738-b65e"/>
         <constraint type="min" value="3001" field="limit::Points" scope="parent" shared="true" id="707c-5f46-66bb-93ed" includeChildSelections="true" includeChildForces="true"/>
@@ -362,7 +363,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="2. Game Size - Small Medium (1001-1500 Pts)" id="c7a0-713e-c0da-feec" hidden="false">
+    <forceEntry name="2. Game Size - Small Medium (1001-1500 Pts)" id="c7a0-713e-c0da-feec" hidden="false" sortIndex="3">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="6167-8b85-0484-dcd4"/>
         <constraint type="min" value="1001" field="limit::Points" scope="parent" shared="true" id="ac2d-fffc-41e8-b8e5" includeChildSelections="true" includeChildForces="true"/>
@@ -422,7 +423,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="6. Game Size - Extra Large (4001-5000 Pts)" id="46ba-3329-e277-65cf" hidden="false">
+    <forceEntry name="6. Game Size - Extra Large (4001-5000 Pts)" id="46ba-3329-e277-65cf" hidden="false" sortIndex="7">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="4789-01e5-bb71-8184"/>
         <constraint type="min" value="4001" field="limit::Points" scope="parent" shared="true" id="4919-c915-384f-c9fc" includeChildSelections="true" includeChildForces="true"/>
@@ -482,7 +483,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="7. Game Size - Apocalypse (XXXX-XXXX Pts)" id="0be4-f458-e964-76d5" hidden="false">
+    <forceEntry name="7. Game Size - Apocalypse (XXXX-XXXX Pts)" id="0be4-f458-e964-76d5" hidden="false" sortIndex="8">
       <constraints>
         <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="f6bd-99d1-5d2f-99a9"/>
         <constraint type="min" value="1" field="limit::Points" scope="parent" shared="true" id="ce55-873d-6ecd-ec25" includeChildSelections="true" includeChildForces="true"/>
@@ -507,6 +508,60 @@
         <categoryLink name="AERIAL" hidden="false" id="1280-a9ef-3862-7b94" targetId="8181-a61d-c089-8f8a"/>
         <categoryLink name="SUPER HEAVY SUPPORT" hidden="false" id="ef6e-dbfd-95f4-fb76" targetId="a770-8ecf-ed65-e419"/>
       </categoryLinks>
+    </forceEntry>
+    <forceEntry name="0. Game Size - Extra Small (0-500 Pts)" id="4506-46a7-907b-50be" hidden="false" sortIndex="1">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="5b5e-82c4-dd08-05e5" targetId="bf9c-ecb1-6aa4-5acf"/>
+        <categoryLink name="NON ARMY ORG SLOT" hidden="false" id="b940-ee57-60d4-4233" targetId="7b65-9b94-47a-9e7a"/>
+        <categoryLink name="HERO" hidden="false" id="ce8d-6bfa-fd0f-ce83" targetId="2357-54fe-ef95-53ed">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9c03-5bc6-0937-1633" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce76-70dc-d944-7a8c"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="TROOPS" hidden="false" id="59e3-06c0-dafc-d2e2" targetId="79e5-570b-2bdd-d3d7">
+          <constraints>
+            <constraint type="min" value="150" field="Points" scope="4506-46a7-907b-50be" shared="true" id="0ed7-7dc8-c461-4d4e" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="ELITE" hidden="false" id="3a90-91fb-a717-5558" targetId="f1fb-8972-b52f-8855">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2174-21f8-a8a0-7941" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="FAST ATTACK" hidden="false" id="e6e9-bd30-3ddc-904e" targetId="cd71-bdd8-97de-6dd5">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a30-1666-5e21-b6e0" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="HEAVY SUPPORT" hidden="false" id="8190-629c-6260-ec4b" targetId="39ff-e4d4-3a5f-4f40">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="221a-8fb8-4b61-ccd3" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="DEDICATED TRANSPORT" hidden="false" id="9809-e3f5-94c4-41cd" targetId="ad71-d71a-8d04-2e3d">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="11d8-dfb9-dc88-dbe9" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="d840-50a2-1a7b-6f96"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="d840-50a2-1a7b-6f96">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="roster" childId="ca74-25d8-3eb4-bf23" shared="true" roundUp="false" includeChildSelections="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="AERIAL" hidden="false" id="d170-cf25-28ba-2ce1" targetId="8181-a61d-c089-8f8a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1052-a86b-6f20-dcc3"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="675c-d79b-fb02-d085"/>
+        <constraint type="max" value="500" field="limit::Points" scope="parent" shared="true" id="7d1d-1b03-47fa-25df" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </forceEntry>
   </forceEntries>
   <sharedRules>
