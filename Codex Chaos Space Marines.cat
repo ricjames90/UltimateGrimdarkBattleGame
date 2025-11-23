@@ -3064,6 +3064,7 @@
       <infoLinks>
         <infoLink name="Deadly Demise(6/D6)" id="c1fe-ad1a-cc67-28d6" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Ancient Warrior" id="d798-cdd0-c277-94f0" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+        <infoLink name="Disgustingly Resilient" id="a775-8d68-3e4c-2d87" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Cyclone Rocket Launcher" hidden="false" id="cb83-66f8-1663-ee8c" type="selectionEntry" targetId="c19b-da5f-c166-966b">
@@ -3174,6 +3175,7 @@
       <infoLinks>
         <infoLink name="Ancient Warrior" id="670f-e72d-cad7-9c8e" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
         <infoLink name="Deadly Demise(6/D6)" id="768d-200d-4bb1-7e90" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
+        <infoLink name="Disgustingly Resilient" id="8918-be55-66b4-ade5" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="6911-4c39-59f3-70b1" type="selectionEntry" targetId="6215-d596-90c2-915a">
@@ -3325,6 +3327,7 @@
       <infoLinks>
         <infoLink name="Deadly Demise(6/D6)" id="49e9-0433-b3ed-6378" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Ancient Warrior" id="caca-30fb-5aba-7c6c" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+        <infoLink name="Disgustingly Resilient" id="95df-a822-5e8f-4477" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Cyclone Rocket Launcher" hidden="false" id="3bed-8121-4e94-dc7c" type="selectionEntry" targetId="c19b-da5f-c166-966b">
@@ -3422,6 +3425,7 @@
       <infoLinks>
         <infoLink name="Deadly Demise(6/D6)" id="71d9-3a22-f7c8-1553" hidden="false" type="rule" targetId="e46d-9756-225b-667a"/>
         <infoLink name="Ancient Warrior" id="c54b-3ff2-14dc-34c4" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+        <infoLink name="Disgustingly Resilient" id="00c1-323d-baa9-0e29" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Deredeo Torso Weapons" id="f9de-956d-675d-7287" hidden="false">
@@ -3586,6 +3590,7 @@
       <infoLinks>
         <infoLink name="Ancient Warrior" id="8a1a-2c10-f041-c18c" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
         <infoLink name="Deadly Demise(6/D3)" id="bfdc-dcc0-3dde-1143" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
+        <infoLink name="Disgustingly Resilient" id="d7d0-38c5-6977-e345" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="Points" value="110"/>
@@ -6289,9 +6294,9 @@
       </profiles>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="947c-5c5c-a259-c3b8" targetId="ca74-25d8-3eb4-bf23" primary="false"/>
-        <categoryLink name="AT - Heavy Armor" hidden="false" id="28fe-a969-c1fd-64c2" targetId="7cbd-10fc-5d99-3f09" primary="false"/>
         <categoryLink name="Power Armor" hidden="false" id="c0c4-aaed-f6c5-5b38" targetId="f887-85e4-37bb-fe59" primary="false"/>
         <categoryLink name="Artificier Armor" hidden="false" id="ecc5-d4f5-dfca-fd13" targetId="3c68-3505-125d-8ada" primary="false"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="e954-fac5-9c6b-87c0" primary="false" name="AT - Super Heavy Armor"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5aed-c4d0-2ef2-112c"/>
@@ -6318,10 +6323,10 @@
       </profiles>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="2cb5-d70f-e9f2-1501" targetId="ca74-25d8-3eb4-bf23" primary="false"/>
-        <categoryLink name="AT - Heavy Armor" hidden="false" id="0da8-5498-a060-6d4a" targetId="7cbd-10fc-5d99-3f09" primary="false"/>
         <categoryLink name="Fly" hidden="false" id="171b-8fc5-922f-11e2" targetId="31ec-3b28-d612-9363" primary="false"/>
         <categoryLink name="Power Armor" hidden="false" id="c682-886c-a5c4-2c15" targetId="f887-85e4-37bb-fe59" primary="false"/>
         <categoryLink name="Artificier Armor" hidden="false" id="d237-e53c-7e1d-d37f" targetId="3c68-3505-125d-8ada" primary="false"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="8c59-d651-1b44-c312" primary="false" name="AT - Super Heavy Armor"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Bike" hidden="false" id="b6f3-9411-eb07-1d6b">
@@ -11014,7 +11019,7 @@ The model gains the „Deep Strike“ Special Rule but unlike the regular Deep S
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">4+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">7</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">7</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">4+/4+</characteristic>
           </characteristics>
@@ -14631,7 +14636,8 @@ Damage suffered by this weapon will not be lost against units with more than one
         </profile>
       </profiles>
       <costs>
-        <cost name="Pts" typeId="Points" value="65"/>
+        <cost name="Pts" typeId="Points" value="30"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <infoLinks>
         <infoLink name="Invulnerable Save(5+)" id="63e2-db9a-a886-c006" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
@@ -17322,6 +17328,7 @@ Damage suffered by this weapon will not be lost against units with more than one
       <infoLinks>
         <infoLink name="Deadly Demise(6/D3)" id="3aaf-5ba6-7616-474d" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
         <infoLink name="Ancient Warrior" id="fedd-62b9-af83-823b" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
+        <infoLink name="Disgustingly Resilient" id="6022-4cd1-42cd-9291" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Combatweapon" hidden="false" id="3c5a-a5e9-0ce2-b115" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
@@ -17464,7 +17471,7 @@ Damage suffered by this weapon will not be lost against units with more than one
             <characteristic name="M" typeId="adff-38e4-108c-b07c">16</characteristic>
             <characteristic name="BS" typeId="8e87-d12f-78d9-1f88">2+</characteristic>
             <characteristic name="WS" typeId="ba87-1f7-5679-198e">2+</characteristic>
-            <characteristic name="S" typeId="ab5f-556e-2-f3e4">10</characteristic>
+            <characteristic name="S" typeId="ab5f-556e-2-f3e4">12</characteristic>
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">10</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">12</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">3+</characteristic>
@@ -17522,14 +17529,14 @@ Damage suffered by this weapon will not be lost against units with more than one
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">7</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">+4</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">SHA</characteristic>
-            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6</characteristic>
+            <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">D6+3</characteristic>
             <characteristic name="Rules" typeId="5659-536c-d87-dc44">-</characteristic>
           </characteristics>
         </profile>
         <profile name="The Blades Of The Phoenician - Fury Strikes" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="8aba-936c-46c9-f6a9">
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
-            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">40</characteristic>
+            <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">50</characteristic>
             <characteristic name="S" typeId="a87a-1907-acf6-ac79">User</characteristic>
             <characteristic name="AP" typeId="2384-c439-8ebc-134a">LA</characteristic>
             <characteristic name="D" typeId="4eb2-9c6c-5d23-65c3">1</characteristic>
@@ -19485,7 +19492,11 @@ If this units starting strength is 10, this unit gains the „Infiltrators“ Sp
       <description>At the start of every of your Command Phases, return a single lost model back to the unit</description>
     </rule>
     <rule name="Ripping Descent" id="963f-a711-5035-20f6" hidden="false">
-      <description>Once per Movement Phase this unit can pick a single enemy unit it moved across. Roll a D6 for every remaining model in this unit. For every 4+, the selected enemy unit suffers a single Mortal Wound.</description>
+      <description>Once per Movement Phase this unit can pick a single enemy unit it moved across. Roll a D6 for every remaining model in this unit. For every 4+, the selected enemy unit suffers a single Mortal Wound.
+
+Also, all unmodified wound rolls of 5+ score a Mortal Wound. 
+
+This unit can fall back out of combat and declare a charge in the same turn.</description>
     </rule>
     <rule name="Destruction From The Backline" id="b32d-0f00-541c-9311" hidden="false">
       <description>Does not suffer the penalty to the Hit Roll for firing without having a line of sight to the selected target. It can not fire its Basilisk Tremor Cannon in a turn it has moved. (Niggi stinkt)</description>
@@ -19703,12 +19714,15 @@ Per full 2000 Points game size (2000,4000,6000,8000etc.) you can select another 
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">At the start of every of your Command Phases, you can pick a single enemy(one per 2000P game size) unit, you can reroll all ranged or melee Wound Rolls against that unit.
 If an enemy unit within 6&apos;&apos; of a Black Legion Unit successfuly resolves a „Moral Break“-Test, that enemy unit has to reroll that test.
-All Black Legion units score an additional hit on unmodified hit rolls of 6.</characteristic>
+All Black Legion units score an additional hit on unmodified hit rolls of 6.
+
+
+Add +1 to the LD Characteristic of every Black Legion unit.</characteristic>
       </characteristics>
     </profile>
     <profile name="Masters Of Terror" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="41d9-a504-5682-0b3e">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Any Enemy Unit within 6&apos;&apos; of any Night Lords Unit, it subtracts -1 from its LD Characteristic up to a maximum of -2. Also all Night Lords Units with the keyword „Mounted“ can charge after they&apos;ve advanced, and Night Lords units that have the keyword „Fly“ add +2 to any charge rolls. Also, „Legionaire“ units can declare in a turn they have disembarked from a „Rhino“ model.
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Any Enemy Unit within 6&apos;&apos; of any Night Lords Unit, it subtracts -1 from its LD Characteristic up to a maximum of -2. Also all Night Lords Units with the keyword „Mounted“ and/or &quot;Fly&quot;  can charge after they&apos;ve advanced, and Night Lords units that have the keyword „Fly“ add +2 to any charge rolls. Also, „Legionaire“ units can declare in a turn they have disembarked from a „Rhino“ model.
 If an enemy „Hero“-Type unit is destroyed, the entire enemy army subtracts -1 from their LD-Characteristic permanently, even if they have ANY rule that would ignore LD-penalties. Night Lords units gain the „Furious Assault“ Rule in in a turn they charged. They also can make a fallback-move and charge in the same turn again. 
 
 
@@ -19722,7 +19736,8 @@ Trophies Of War: Everytime a Night Lord Unit destroys an enemy unit it gains the
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">Everytime an Iron Warriors Infantry Unit makes a ranged attack, weapons with the Special Rule „Heavy“, „Torrent“ and „Explosive“ excluded, an unmodified Hit Roll of 6 scores an additional hit. All weapons with „Bolt“ in their name always score an additional hit on an unmodified Hit Roll of 6. And this rule also applies to Heavy Weapons in a turn the weapon does not profit from the „Heavy“ Special Rule, (for example when the unit has not remained stationary or similar reasons). 
 Enemy Units never gain the bonus to the Armor Save when they benefit of cover against Iron Warrior Units. 
-At the start every of your own Command Phases, one single Vehicle or (non Hero) Monster unit regains D3+1 lost Life Points. (per started 1000 points game size)</characteristic>
+At the start every of your own Command Phases, one single Vehicle or (non Hero) Monster unit regains D3+1 lost Life Points. (per started 1000 points game size)
+Enemy models with the armor type &quot;Heavy&quot; or higher suffer -1 to all their Armor save rolls.</characteristic>
       </characteristics>
     </profile>
     <profile name="Devout Zealots" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="596a-7921-ac8b-5043">
@@ -19744,22 +19759,25 @@ At the start of every Command Phase, you can roll a D6 for every Legionaire and 
 Once per Shooting Phase and once per Fight Phase when a World Eaters Vehicle or Monster Unit destroys any enemy models it regains D3+2 wounds at the end of the of phase.
 Also any doubles(i.e. Two 2s, Two 3s, Two 4s etc.) rolled during enemy Psychic Power Casting Rolls that selected any World Eaters unit as a target immediately suffer „Perils Of The Warp“.
 
-
 Also, subtract -1 from Wound Rolls made against World Eater Infantry units, when they are in engagement range with enemy units.
 
-Also subtract -1 from all ranged Wound Rolls made against all World Eater units when at least one World Eater unit is within 12&apos;&apos; of the enemy unit that has declared a ranged attacks against one of your units.</characteristic>
+Also subtract -1 from all ranged Wound Rolls made against all World Eater units when at least one World Eater unit is within 12&apos;&apos; of the enemy unit that has declared a ranged attacks against one of your units.
+
+
+World Eaters units can not be selected as the target of &quot;Overwatch&quot;.</characteristic>
       </characteristics>
     </profile>
     <profile name="Disgustingly Resilient" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="09cc-71b6-8303-4add">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Death Guard Unit gains the „Feel No Pain (5+)“ and the „Iron Will“ Special Rule. Death Guard Units also never suffer any damage cause by the „Deadly Demise“ rule. 
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every Death Guard Unit gains the „Feel No Pain (6+)“ and the „Iron Will“ Special Rule. Death Guard Units also never suffer any damage cause by the „Deadly Demise“ rule. 
 
 For every „Lord Of Contagion“ or „Lord Of Virulence“ in your army, you can add up to 3 of the following units (Foul Blightspawn, Plague Surgeon, Malignant Plaguecaster, Noxious Blightbringer, Tallyman and Biologus Putrifier) to your army list, but they only count as 1 Hero slot towards your Army Organisation Plan Limit.</characteristic>
       </characteristics>
     </profile>
     <profile name="All Is Dust" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="0b16-fed7-37c5-4313">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">The range of any ranged based Psychic Powers cast by any Thousand Sons Psyker Unit is extended by 6&apos;&apos;. All Thousand Sons Units gain the „Invulnerable Save (5+)“ Special Rule. Those units that already have the „Invulnerable Save“ Special Rule improve their Invulnerable Save by 1, up to a maximum of (4+). Also add +1 to any casting roll for any Psychic Power cast by a Thousand Sons Psyker Unit.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">The range of any ranged based Psychic Powers cast by any Thousand Sons Psyker Unit is extended by 6&apos;&apos;. All Thousand Sons Units gain the „Invulnerable Save (5+)“ Special Rule. Those units that already have the „Invulnerable Save“ Special Rule improve their Invulnerable Save by 1, up to a maximum of (4+). Also add +1 to any casting roll for any Psychic Power cast by a Thousand Sons Psyker Unit.
+(No Invul can be approved above 4+ and that of Hero units can&apos;t be improved above 3+)</characteristic>
       </characteristics>
     </profile>
     <profile name="Deadly Cacophony" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="6aad-4b16-31b8-d819">

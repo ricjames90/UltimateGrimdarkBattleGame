@@ -355,5 +355,10 @@
         <categoryLink targetId="a770-8ecf-ed65-e419" id="2fce-9c8c-7c7d-21f2" primary="true" name="SUPER HEAVY SUPPORT"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Battle-Pilgryms" hidden="false" id="e585-068a-536e-e1bf" type="selectionEntry" targetId="e85b-2a9b-27bb-df5c">
+      <categoryLinks>
+        <categoryLink targetId="79e5-570b-2bdd-d3d7" id="e26f-71f8-0d15-15bc" primary="true" name="TROOPS"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

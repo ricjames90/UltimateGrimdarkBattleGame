@@ -7218,7 +7218,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0234-f0d6-cfba-452b" includeChildSelections="false"/>
       </constraints>
       <profiles>
-        <profile name="Dreadnought Powerfis" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="7dd0-4bda-fea5-08e4">
+        <profile name="Dreadnought Powerfist" typeId="a6c1-9465-872f-89df" typeName="Melee Weapons" hidden="false" id="7dd0-4bda-fea5-08e4">
           <characteristics>
             <characteristic name="Range" typeId="cd3a-d9ea-1035-3793">Melee</characteristic>
             <characteristic name="A" typeId="6e89-f6be-c86c-ea9e">5</characteristic>
@@ -13860,7 +13860,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <infoLink name="Invulnerable Save(5+)" id="1990-709e-bb30-0cd1" hidden="false" type="rule" targetId="8269-7d82-a9d3-dc6d"/>
       </infoLinks>
       <costs>
-        <cost name="Pts" typeId="Points" value="45"/>
+        <cost name="Pts" typeId="Points" value="30"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Hero Armor Chamber" hidden="false" id="491a-83fc-2e5a-5169" type="selectionEntryGroup" targetId="fb5-b027-47c3-e9f">
@@ -15883,7 +15884,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
             <characteristic name="I" typeId="effd-f3a8-9f2b-4b8">4</characteristic>
             <characteristic name="T" typeId="8d7f-2fc2-c449-7537">4</characteristic>
             <characteristic name="PR" typeId="70ed-4074-1e94-a957">5+</characteristic>
-            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">4</characteristic>
+            <characteristic name="LP" typeId="c061-dd1-7417-ca6b">6</characteristic>
             <characteristic name="LD" typeId="a05d-e047-2d6c-3eb1">8</characteristic>
             <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">2+/2+</characteristic>
           </characteristics>
@@ -15906,7 +15907,8 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
                 <entryLink import="true" name="Legatine Axe" hidden="false" id="ac31-620d-f0eb-8574" type="selectionEntry" targetId="e398-b864-6fc5-962f"/>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="Points" value="42"/>
+                <cost name="Pts" typeId="Points" value="40"/>
+                <cost name="VP" typeId="Victory Points" value="0"/>
               </costs>
               <constraints>
                 <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="aee9-6b5f-f29c-adf2" includeChildSelections="false"/>
@@ -15918,13 +15920,13 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
       </selectionEntryGroups>
       <categoryLinks>
         <categoryLink targetId="ca74-25d8-3eb4-bf23" id="1615-c590-a08e-e959" primary="false" name="Infantry"/>
-        <categoryLink targetId="7cbd-10fc-5d99-3f09" id="0d52-a61c-ba80-1004" primary="false" name="AT - Heavy Armor"/>
         <categoryLink targetId="8599-9479-106b-178c" id="7e29-8148-8383-9414" primary="false" name="FACTION: Space Marines"/>
         <categoryLink targetId="fa28-a209-4a67-e026" id="711c-5edd-9ca5-0e90" primary="false" name="SUPER FACTION: Imperium"/>
         <categoryLink targetId="dc78-a4ff-8262-e686" id="4873-e0f7-11f7-efb3" primary="false" name="Subfaction: Ultramarines"/>
         <categoryLink targetId="9380-cd78-08d2-a2a4" id="de22-b40e-c9e0-e7c5" primary="false" name="Invictarus Suzerain Squad"/>
         <categoryLink targetId="3c68-3505-125d-8ada" id="e06d-36ff-5bbe-9874" primary="false" name="Artificier Armor"/>
         <categoryLink targetId="f887-85e4-37bb-fe59" id="fd80-bcff-a6f7-fb71" primary="false" name="Power Armor"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="c10d-edc1-b1af-9e52" primary="false" name="AT - Super Heavy Armor"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Legatine Axe" hidden="false" id="e398-b864-6fc5-962f" collective="true">
@@ -20678,6 +20680,7 @@ Models with the keyword „Power Armor“ count as 1, models with the keywords �
         <infoLink name="Ancient Warrior" id="0a52-f2cc-f61b-1ef0" hidden="false" type="rule" targetId="840a-1e1f-3caa-9531"/>
         <infoLink name="Deadly Demise(6/D3)" id="ec22-a7b1-71ec-6a58" hidden="false" type="rule" targetId="132e-664e-4f55-acf6"/>
         <infoLink name="Feel No Pain(6+)" id="7e2c-d154-445c-1b3d" hidden="false" type="rule" targetId="8261-c96-7db2-434a"/>
+        <infoLink name="Disgustingly Resilient" id="d5b5-4f3b-babb-50db" hidden="false" type="rule" targetId="e619-54fe-3073-866c"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Combatweapon" hidden="false" id="bc2c-7fbd-0ee0-ff9d" type="selectionEntry" targetId="bb23-11aa-c620-df91"/>
@@ -22691,6 +22694,7 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa89-1c48-af00-f1de"/>
+        <constraint type="max" value="0" field="selections" scope="force" shared="true" id="17db-2dc5-1b33-95c0" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile name="Saturnine Armor" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="25bb-749d-1ae5-52f3">
@@ -22704,7 +22708,13 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
         <modifier type="set" value="true" field="hidden">
           <conditions>
             <condition type="equalTo" value="0" field="selections" scope="b3ee-773d-9de7-b101" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="equalTo" value="0" field="selections" scope="4260-ce65-0642-49ca" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="17db-2dc5-1b33-95c0">
+          <repeats>
+            <repeat value="1500" repeats="1" field="Points" scope="roster" childId="any" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -23153,6 +23163,24 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bestia" hidden="false" id="9c00-b053-6346-7a4e">
+      <comment>Emperor&apos;s Spears Relic</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9682-8be4-0b20-cd75" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b707-0c4a-42a4-9002" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Bestia" typeId="8c82-b15b-36bc-df95" typeName="Special Rules" hidden="false" id="56d7-8018-4154-b16b">
+          <characteristics>
+            <characteristic name="Description" typeId="beaa-b048-2feb-f8f">Captain and Chapter Master only. Upgrade for Power Spear. Double the number of attacks made with the Power Spear. The weapon gains the &quot;Precision&quot; Special Rule. Unmodified Wound Rolls of 3+ are always succesful, this rule even cancels out the Defense&gt;Offense priority.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="Points" value="20"/>
+        <cost name="VP" typeId="Victory Points" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Space Marine" hidden="false" id="ea13-acb4-5747-5a3e" typeId="a545-37bd-31e3-a90c" typeName="Unit">
@@ -23183,7 +23211,7 @@ Sojutsu Pattern Voidbike: The modell adds +8Movement, +4Toughness and +5Life Poi
         <characteristic name="AS" typeId="84ab-8766-eed2-1ff8">3+/3+</characteristic>
       </characteristics>
     </profile>
-    <profile name="Courage Of The FIrst" hidden="false" id="99a-193e-735e-c778" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules">
+    <profile name="Courage Of The First" hidden="false" id="99a-193e-735e-c778" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules">
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">All „Dark Angels“ Units gain the „Iron Will“- Universal Special Rule. Weapons with „Plasma“ ignore the „Malfunction“ Special Rule. Also, all units score an additional hit on unmodified Hit Rolls of 6.
 
@@ -23257,12 +23285,12 @@ All Ultramarines Infantry Units count for twice as many of their remaining LP wh
     </profile>
     <profile name="Fortify Against Siege" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="6f84-4b75-5837-382d">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">All „Imperial Fists“ Units are considered to have remained stationary when determined if the Unit gets the bonus for weapons with the „Heavy“ special rule. Also, any „Wound Roll“ taken against any „Imperial Fists“ Unit by your opponent can not be improved by any core or special rule and any other possible rule. Imperial Fists Units Fire Overwatch at full Ballistic Skill.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">All „Imperial Fists“ Units when having remained stationary add +1 to all of their hit rolls and they never suffer any penalties to their hit rolls. Also, any „Wound Roll“ taken against any „Imperial Fists“ Unit by your opponent can not be improved by any core or special rule and any other possible rule. Imperial Fists Units Fire Overwatch at full Ballistic Skill, but only if they have remained stationary in their prior movement phase.</characteristic>
       </characteristics>
     </profile>
     <profile name="The Flesh Is Weak" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="633d-cbf0-4044-2c1f">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every „Iron Hands“ „Vehicle“ unit gains at the start of every controlling players Command Phases back up to two lost Life Points. Also, every „Iron Hands“ „Infantry“ and „Mounted“-Unit gains „Feel No Pain 6+“. All Iron Hands Vehicles gain the &quot;Disgustingly Resilient&quot; Special Rule.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Every „Iron Hands“ „Vehicle“ unit gains at the start of every controlling players Command Phases back up to two lost Life Points. Also, every „Iron Hands“ „Infantry“ and „Mounted“-Unit gains „Feel No Pain 6+“. All Iron Hands Vehicles that don&apos;t already have it gain the &quot;Disgustingly Resilient&quot; Special Rule. Dreadnoughts gain an &quot;Invulnerable Save(6+)&quot; instead if they don&apos;t already have one.</characteristic>
       </characteristics>
     </profile>
     <profile name="The Wild Ride" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="324b-4636-b4db-d724">
@@ -23307,7 +23335,8 @@ For every 10 „Infiltrators“ or „Incursors“(can also be mixture like 5 In
     <profile name="Burn It Down!" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="618f-34b8-a59a-591d">
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">Any „Wound“-Rolls against any „Salamander“-Unit can never be improved, no matter wether it is a core special rule or any other faction specific special rule.
-Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound Roll. Salamanders units always count within half range for weapons with the word „Melta“ in them, and they never half the number of automatic hits when firing „Torrent“ weapons during „Overwatch“. All Salamders „Vehicles“ also ignore any bonus damage made by the „Tankbuster“ special rule.</characteristic>
+Also Weapons with „Flamer“ and „Melta“ and &quot;Thunderhammer&quot; in their name add +1 to the Wound Roll. Salamanders units always count within half range for weapons with the word „Melta“ in them, and they never half the number of automatic hits when firing „Torrent“ weapons during „Overwatch“. All Salamders „Vehicles“ also ignore any bonus damage made by the „Tankbuster“ special rule.
+Also, all Thunder Hammers add +1D to their profiles.</characteristic>
       </characteristics>
     </profile>
     <profile name="The Red Thirst" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="821f-1bcd-773b-2430">
@@ -23319,6 +23348,7 @@ Also Weapons with „Flamer“ and „Melta“ in their name add +1 to the Wound
       <characteristics>
         <characteristic name="Description" typeId="1e9-12d3-a861-805c">At the start of the game you can choose to benefit from one of the following benefits:
 
+&quot;Deathwatch Veterans&quot; Units count as twice their LP remaining LP when determining which player controls an objective.
 
 1. Vermin-Ex: Reroll failed Wound Rolls and Hit Rolls of 1 against enemy Infantry Units.
 2. Behemoth-Ex: Reroll a single failed Hit- or Wound Roll per unit, per turn against enemy „Monster“ units. (one per every 500 points of game size)
@@ -23715,7 +23745,7 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
     <selectionEntryGroup name="Melee Weapons" id="214f-2730-26f-af90" hidden="false">
       <comment>Low Sergeant</comment>
       <entryLinks>
-        <entryLink import="true" name="Powerweapon" hidden="false" id="f54a-ded5-5c2a-4493" type="selectionEntry" targetId="610e-938b-bd18-9ab5" sortIndex="">
+        <entryLink import="true" name="Powerweapon" hidden="false" id="f54a-ded5-5c2a-4493" type="selectionEntry" targetId="610e-938b-bd18-9ab5">
           <costs>
             <cost name="Pts" typeId="Points" value="3"/>
           </costs>
@@ -24395,6 +24425,18 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
             </modifier>
           </modifiers>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Chapter Emperor&apos;s Spears" id="844a-b445-8e11-1ee7" hidden="false">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="force" childId="9750-34df-ac89-0dc6" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink import="true" name="Bestia" hidden="false" id="c52e-2ea0-d890-a32d" type="selectionEntry" targetId="9c00-b053-6346-7a4e"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
     <selectionEntryGroup name="Space Marine Psychic Powers" id="198d-f9fd-a5ac-ad0c" hidden="false">
@@ -24710,7 +24752,7 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
     </selectionEntryGroup>
     <selectionEntryGroup name="Vanguard Melee Weapons" id="2ab2-9423-4ec6-f844" hidden="false">
       <entryLinks>
-        <entryLink import="true" name="Powerweapon" hidden="false" id="f0aa-4e04-486f-497b" type="selectionEntry" targetId="610e-938b-bd18-9ab5" sortIndex="">
+        <entryLink import="true" name="Powerweapon" hidden="false" id="f0aa-4e04-486f-497b" type="selectionEntry" targetId="610e-938b-bd18-9ab5">
           <costs>
             <cost name="Pts" typeId="Points" value="3"/>
           </costs>
@@ -24743,7 +24785,7 @@ Attacks made with &quot;Powerfists&quot; always wound on unmodified Wound Rolls 
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Storm Shield" hidden="false" id="237a-fd85-9e35-35f3" type="selectionEntry" targetId="1a8d-be12-33d8-8a1e" sortIndex="">
+        <entryLink import="true" name="Storm Shield" hidden="false" id="237a-fd85-9e35-35f3" type="selectionEntry" targetId="1a8d-be12-33d8-8a1e">
           <costs>
             <cost name="Pts" typeId="Points" value="3"/>
           </costs>
