@@ -19782,7 +19782,7 @@ For every „Lord Of Contagion“ or „Lord Of Virulence“ in your army, you c
     </profile>
     <profile name="Deadly Cacophony" typeId="bba7-c007-357a-14b0" typeName="Subfaction Rules" hidden="false" id="6aad-4b16-31b8-d819">
       <characteristics>
-        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Emperors Children Infantry Units gain the „Furious Assault“ Special Rule. Emperors Children Infantry Units can fire weapons with the „Heavy“ Special Rule after having advanced. Emperors Children Vehicles gain the „Impervious To Injuries (-1)“ Special Rule.</characteristic>
+        <characteristic name="Description" typeId="1e9-12d3-a861-805c">Emperors Children Infantry Units gain the „Furious Assault“ Special Rule. Emperors Children Infantry Units can fire weapons with the „Heavy“ Special Rule after having advanced. Emperors Children Vehicles(excluding any units with the name &quot;Dreadnought&quot; in their name or any &quot;Dreadnought&quot; keyword) gain the „Impervious To Injuries (-1)“ Special Rule. Except for Noise Marines, Emperor&apos;s Children units can never make use of the &quot;Overwatch&quot; rule.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

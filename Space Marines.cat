@@ -1282,6 +1282,18 @@
         <categoryLink targetId="f1fb-8972-b52f-8855" id="586d-783f-f127-47e1" primary="false" name="ELITE"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Sanguinary Guard Squad" hidden="false" id="8341-9f5d-63a3-a7e9" type="selectionEntry" targetId="6792-78c3-740b-736a">
+      <categoryLinks>
+        <categoryLink targetId="f1fb-8972-b52f-8855" id="7ef8-df8b-89f1-f8e3" primary="true" name="ELITE"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="equalTo" value="0" field="selections" scope="force" childId="44f-7b73-a31f-e1dc" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Codex Space Marines" id="1a54-9cc0-6596-93c6" targetId="b9aa-5902-f97d-9cd5"/>

@@ -5009,6 +5009,13 @@ All models with the „Mega Armor“ Keyword take up the space of 2 models, ever
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="bc81-8c0c-a3e9-47a4" id="110d-7b11-9be3-764f" primary="false" name="Vehicle"/>
+        <categoryLink targetId="12fc-d5fa-55b9-732e" id="a228-4c43-7e7c-9998" primary="false" name="AT - Super Heavy Armor"/>
+        <categoryLink targetId="6e12-88d0-c09c-2c72" id="29cf-3329-fc8a-684a" primary="false" name="Tansport"/>
+        <categoryLink targetId="84c8-f93b-6fe6-e29d" id="d203-e659-fe1f-1936" primary="false" name="FACTION: Orks"/>
+        <categoryLink targetId="e1bf-99d0-0f55-3014" id="85c7-bb6a-c0a3-8d93" primary="false" name="Gorkanaut"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="dcc2-a4b3-a422-68b1">
       <profiles>
